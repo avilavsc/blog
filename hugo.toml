@@ -1,4 +1,4 @@
 baseURL = 'https://avilavsc.github.io/blog/'
-locale = 'pt-br'
+locale = 'pt'
 title = 'Avila'
 theme = 'PaperMod'
