@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2026-10-27T10:21:33-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/</loc>
+    <lastmod>2026-10-27T10:21:33-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/cheatsheet/</loc>
+    <lastmod>2026-10-27T10:21:33-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/hugo/</loc>
+    <lastmod>2026-10-27T10:21:33-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/hugo-cheatsheet/</loc>
+    <lastmod>2026-10-27T10:21:33-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/markdown/</loc>
+    <lastmod>2026-10-27T10:21:33-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/</loc>
+    <lastmod>2026-10-27T10:21:33-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/categories/refer%C3%AAncia/</loc>
+    <lastmod>2026-10-27T10:21:33-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2026-10-27T10:21:33-03:00</lastmod>
+  </url>
+</urlset>
