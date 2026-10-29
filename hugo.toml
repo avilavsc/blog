@@ -1,4 +1,63 @@
 baseURL = 'https://avilavsc.github.io/blog/'
-locale = 'pt'
 title = 'Avila'
-theme = 'PaperMod'
+theme = 'hextra'
+locale = 'pt'
+defaultContentLanguage = 'pt'
+
+enableRobotsTXT = true
+enableInlineShortcodes = true
+
+[languages.pt]
+  label = 'Português'
+  weight = 1
+  title = 'Avila'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
+
+[menu]
+  [[menu.main]]
+    identifier = 'docs'
+    name = 'Estudo'
+    pageRef = '/docs'
+    weight = 1
+
+  [[menu.main]]
+    identifier = 'blog'
+    name = 'Blog'
+    pageRef = '/blog'
+    weight = 2
+
+  [[menu.main]]
+    identifier = 'sobre'
+    name = 'Sobre'
+    pageRef = '/sobre'
+    weight = 3
+
+  [[menu.main]]
+    name = 'Search'
+    weight = 4
+    [menu.main.params]
+      type = 'search'
+
+[params]
+  [params.navbar]
+    displayTitle = true
+    displayLogo = false
+
+  [params.theme]
+    default = 'system'
+    displayToggle = true
+
+  [params.footer]
+    displayCopyright = true
+    displayPoweredBy = false
+
+  [params.search]
+    enable = true
+    type = 'flexsearch'
+    [params.search.flexsearch]
+      index = 'content'
