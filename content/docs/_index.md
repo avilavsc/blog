@@ -19,3 +19,8 @@ Ver também: **[Calendário](./calendario/)** (janelas do cronograma).
 | [06](./semana-06/) | Arquiteturas, MER, Oracle/PostgreSQL, lógica e Regimento TRT4 |
 | [07](./semana-07/) | TCP/IP, VLAN, Wi-Fi, proxy, JBoss, monitoramento e DH |
 | [08](./semana-08/) | ISO 27001/27002/27701, LGPD, OWASP, firewall/WAF, VPN/ZTNA, criptografia/TLS, Wi-Fi seguro, ENSEC-PJ e português/redação |
+| [09](./semana-09/) | SO, Linux/Windows, AD, PowerShell, IA/ML/LLMs, Regimento e redação |
+| [10](./semana-10/) | MoReq-Jus, PDTIC, governança TIC, inglês, legado, Selenium e redação |
+| [11](./semana-11/) | Revisão PDPJ/Spring, SQL/JPA, redes, segurança, temas vermelhos e redação |
+| [12](./semana-12/) | Revisão ativa, caderno de erros, mapas ITIL/COBIT/governança e redação |
+| [13](./semana-13/) | Revisão fina, português/lógica, redação final e simulado leve |
