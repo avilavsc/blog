@@ -25,11 +25,11 @@ enableInlineShortcodes = true
     pageRef = '/docs'
     weight = 1
 
-  [[menu.main]]
-    identifier = 'posts'
-    name = 'Blog'
-    pageRef = '/posts'
-    weight = 2
+  # [[menu.main]]
+  #  identifier = 'posts'
+  #  name = 'Blog'
+  #  pageRef = '/posts'
+  #  weight = 2
 
   [[menu.main]]
     identifier = 'sobre'
