@@ -29,6 +29,12 @@ layout = 'hextra-home'
     class="hx:aspect-auto hx:md:min-h-[200px]"
   >}}
   {{< hextra/feature-card
+    title="Calendário"
+    subtitle="Janelas do cronograma por semana"
+    link="docs/calendario"
+    class="hx:aspect-auto hx:md:min-h-[200px]"
+  >}}
+  {{< hextra/feature-card
     title="Sobre"
     subtitle="Quem sou e o objetivo do site"
     link="sobre"

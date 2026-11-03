@@ -1,0 +1,432 @@
++++
+title = '06 — JavaScript · TypeScript · Frameworks (visão)'
+date = '2026-10-20'
+draft = false
+weight = 6
+tags = ['semana-05', 'javascript', 'typescript']
+categories = ['estudo']
++++
+# JavaScript · TypeScript · Frameworks (visão) · TRT4 Analista TI (código 14)
+
+**Para:** Claudionir · **Banca:** FCC · **Subtópico:** 06 — JavaScript, TypeScript e frameworks web (conceitos)  
+**Escopo deste arquivo:** JavaScript no browser e além (ES moderno); DOM/eventos/assíncrono; TypeScript como JS tipado/compilado; contraste cobrável React × Angular × Vue × Node × jQuery; armadilhas FCC de sinônimo (JS×TS×Java) e de “framework X faz tudo”.  
+**Fora de escopo aqui:** ASP.NET Core (04); HTML/CSS/Bootstrap aprofundado (05); React Native mobile em profundidade; JSP/JSF (cauda longa / semana 10).
+
+---
+
+## 1. Material
+
+### 1.1 Por que isso cai no edital
+
+No bloco **Desenvolvimento web e mobile** aparecem: **JavaScript**; **TypeScript**; **frameworks (React, React Native, Angular, jQuery, Node.js, Vue.js etc.)**.
+
+Leitura da semana 5 (cronograma): **conceitos e diferenças**, sem aprofundar todos os frameworks linha a linha.
+
+| Peça | Papel em prova |
+|------|----------------|
+| **JavaScript (JS)** | Linguagem dinâmica da web (e além, via engines) |
+| **TypeScript (TS)** | Superset tipado que **compila** para JavaScript |
+| **Frameworks/libs** | React, Angular, Vue, jQuery, Node… — papéis distintos |
+
+Flash: a FCC mistura **Java** com **JavaScript** e trata **TypeScript** como “outra VM”. Separe os nomes.
+
+### 1.2 JavaScript — cartão seco
+
+**JavaScript** é linguagem de **programação** de alto nível, tipagem dinâmica, multiparadigma (prototipação/OOP + funcional), padronizada como **ECMAScript (ES)**.
+
+| Onde roda | Exemplos cobráveis |
+|-----------|-------------------|
+| **Browser** | DOM, eventos, fetch, SPA |
+| **Servidor** | **Node.js** (engine V8 + APIs de SO) |
+| Outros | Desktop/mobile híbridos (reconhecer ecossistema) |
+
+O que JS **não** é:
+
+1. Não é **Java** (nome parecido; linguagens distintas).  
+2. Não é HTML nem CSS (embora interaja com ambos).  
+3. Não é o Bootstrap (framework CSS; JS de componentes é auxiliar).  
+4. Não exige compilação obrigatória (engines interpretam/JIT) — distinto do fluxo típico do **TypeScript**.
+
+### 1.3 ES moderno — ideias que caem
+
+| Recurso | Frase de prova |
+|---------|----------------|
+| `let` / `const` | Escopo de bloco; `const` não reatribui a binding |
+| `var` | Escopo de função / hoisting clássico (legado) |
+| Arrow functions | Sintaxe curta; `this` lexical (visão) |
+| Template strings | `` `Olá ${nome}` `` |
+| Destructuring / spread | Extrair e copiar estruturas |
+| Módulos (`import`/`export`) | Modularização ES |
+| Classes (`class`) | Açúcar sintático sobre protótipos |
+
+Tipagem: **dinâmica** / fraca na prática do dia a dia — valores têm tipo em runtime; variáveis não são declaradas com tipo estático obrigatório (contrastar com TS).
+
+### 1.4 DOM, eventos e browser
+
+| Conceito | Leitura FCC |
+|----------|-------------|
+| **DOM** | Representação em árvore do documento HTML; JS manipula nós |
+| **Eventos** | `click`, `submit`, `load`…; listeners |
+| **BOM** | `window`, `location`, `localStorage` (visão) |
+| **fetch / XHR** | Chamadas HTTP assíncronas ao backend |
+
+Cartão:
+
+> JS no browser **altera** o DOM e **reage** a eventos — não “é” o HTML.
+
+Armadilha: afirmar que mudar CSS só é possível via Java no servidor — no cliente, JS/CSSOM também atuam.
+
+### 1.5 Assíncrono: callbacks, Promises, async/await
+
+| Modelo | Ideia |
+|--------|-------|
+| **Callback** | Função passada para rodar depois (callback hell clássico) |
+| **Promise** | Objeto que representa resultado futuro (`then`/`catch`) |
+| **async/await** | Sintaxe que consome Promises de forma sequencial legível |
+| **Event loop** | Modelo de concorrência cooperativa do JS (single-threaded + fila) |
+
+Flash: enunciado “não bloqueia a UI enquanto espera HTTP” → assíncrono / não confundir com threads Java obrigatórias.
+
+### 1.6 TypeScript — leitura de prova
+
+**TypeScript** é um **superset** do JavaScript que adiciona **tipos estáticos opcionais** e recursos de linguagem; o fluxo típico é **compilar (transpile)** TypeScript → JavaScript executável nas engines.
+
+| Ideia | Frase cobrável |
+|-------|----------------|
+| **Superset** | JS válido tende a ser TS válido (com ressalvas de config `strict`) |
+| **Tipos** | `string`, `number`, `boolean`, unions, interfaces, generics (visão) |
+| **Compile-time** | Erros de tipo **antes** de rodar |
+| **Saída** | Ainda é **JavaScript** no runtime do browser/Node |
+
+Tabela de ouro:
+
+| | **JavaScript** | **TypeScript** |
+|---|----------------|----------------|
+| Tipos | Dinâmicos em runtime | Anotações estáticas + checagem |
+| Execução direta nas engines | Sim | Após compile → JS |
+| Papel | Linguagem runtime da web/Node | Ferramenta/linguagem de desenvolvimento tipada |
+
+Síntese:
+
+> **TS não substitui a engine** — gera JS.  
+> **TS ≠ Java**.  
+> **TS ≠ “outro HTML”**.
+
+### 1.7 Frameworks e libs — mapa de papéis (sem aprofundar todos)
+
+| Nome | Papel cobrável |
+|------|----------------|
+| **React** | Biblioteca/UI baseada em **componentes** e **Virtual DOM**; ecossistema rico; JSX |
+| **Angular** | **Framework** completo (opinião forte): módulos/componentes, DI, RxJS; tipicamente **TypeScript** |
+| **Vue.js** | Framework progressivo de componentes; template + reatividade |
+| **jQuery** | Biblioteca clássica de DOM/Ajax; menos central em SPAs modernas; **≠** Bootstrap 5 obrigatório |
+| **Node.js** | **Runtime** JS no servidor (não é framework de UI) |
+| **React Native** | UI mobile com paradigma React (reconhecer no edital) |
+
+Contrastes de ouro (FCC):
+
+| Afirmação | Veredito |
+|-----------|----------|
+| Node.js é framework front-end como React | **Falso** — runtime servidor |
+| Angular é só uma lib de DOM tipo jQuery | **Falso** — framework full |
+| React = Angular = Vue (idênticos) | **Falso** — ideias próximas (componentes), stacks diferentes |
+| jQuery é obrigatório em todo site moderno | **Falso** |
+| TypeScript é exclusividade Angular | **Falso** — Angular **adota** fortemente; React/Vue **podem** usar TS |
+
+### 1.8 SPA e consumo de APIs (visão)
+
+**SPA** (*Single Page Application*): navegação no cliente com JS; troca de views sem reload completo clássico; consome **APIs REST/JSON** (eixo já visto na semana 1).
+
+```
+[ Browser: React/Angular/Vue ]
+        │  HTTP/JSON
+        ▼
+[ API: Spring / ASP.NET Core / Node … ]
+```
+
+Flash: front JS **≠** substituir o backend — em geral **consome** a API.
+
+### 1.9 Java × JavaScript × TypeScript (anti-distrator máximo)
+
+| Nome | O que é |
+|------|---------|
+| **Java** | Linguagem tipada da JVM (seu forte Spring/PDPJ) |
+| **JavaScript** | Linguagem das engines web/Node (ECMAScript) |
+| **TypeScript** | JS + tipos; compila para JS |
+
+Frase para decorar:
+
+> Nome parecido **não** é parentesco. Java ≠ JavaScript ≠ TypeScript (embora TS ⊂ evolução do ecossistema JS).
+
+### 1.10 O que a FCC tipicamente testa neste tema
+
+1. JS manipula **DOM**/eventos; não é HTML.  
+2. Assíncrono (Promise/async) vs bloqueio.  
+3. TS = **tipado + compile para JS**.  
+4. Node = **runtime servidor**, não lib de UI.  
+5. React/Angular/Vue = componentes/SPA (diferenças de “lib vs framework”).  
+6. jQuery = lib clássica DOM — não confundir com BS5 obrigatório.  
+7. Nunca trocar Java por JavaScript no enunciado.
+
+### 1.11 Mini-síntese (cartão mental)
+
+> **JS** = linguagem da web/Node (DOM, eventos, async).  
+> **TS** = JS tipado que **vira JS** no build.  
+> **React/Angular/Vue** = UI componentes/SPA (papéis distintos).  
+> **Node** = JS no servidor. **jQuery** = DOM clássico.  
+> **Java ≠ JavaScript ≠ TypeScript**.
+
+---
+
+## 2. Questões de treino (1–15)
+
+**1.** JavaScript, no eixo do edital, é melhor descrito como:
+
+A) Linguagem de programação usada no browser e, via runtimes como Node.js, também no servidor  
+B) Protocolo de enlace 802.1Q  
+C) Único SGBD do edital  
+D) Norma ISO 12207  
+E) Cabo fibra óptica  
+
+**2.** TypeScript caracteriza-se tipicamente por:
+
+A) Ser um dialeto SQL do Oracle  
+B) Acrescentar tipagem estática ao ecossistema JS e compilar/transpilar para JavaScript  
+C) Substituir o TCP  
+D) Ser o kernel do Linux  
+E) Ser sinônimo de HTML5  
+
+**3.** Assinale a associação **correta**:
+
+A) Java ≡ JavaScript ≡ TypeScript (mesma linguagem)  
+B) Java ≠ JavaScript; TypeScript relaciona-se ao ecossistema JavaScript  
+C) TypeScript é o nome do Kestrel  
+D) JavaScript é folha de estilo  
+E) Node.js é protocolo SMTP  
+
+**4.** O DOM, no contexto JS no browser, refere-se a:
+
+A) Árvore/objeto que representa o documento; manipulável via script  
+B) Disco óptico removível  
+C) Protocolo DHCP  
+D) Artefato PMBOK exclusivo  
+E) Switch camada 2  
+
+**5.** Promises e `async/await` no JavaScript atendem prioritariamente a:
+
+A) Modelar operações assíncronas de forma mais estruturada que callbacks aninhados  
+B) Configurar VLANs  
+C) Assinar XML Schema obrigatoriamente  
+D) Substituir o DNS  
+E) Criar tabelas DDL  
+
+**6.** Node.js, na leitura cobrável, é:
+
+A) Um framework de componentes UI idêntico ao React  
+B) Um runtime que executa JavaScript no servidor  
+C) Um SGBD relacional  
+D) Um padrão Scrum  
+E) Um tipo de cabo UTP  
+
+**7.** React é tipicamente associado a:
+
+A) Componentes de UI e abordagem com Virtual DOM / ecossistema front-end  
+B) Único protocolo BGP  
+C) Ferramenta exclusiva de backup em fita  
+D) Dialeto PL/SQL  
+E) Norma COBIT EDM01 apenas  
+
+**8.** Angular, em contraste com uma lib mínima de DOM, costuma ser descrito como:
+
+A) Framework front-end mais completo/opinião forte, com uso intenso de TypeScript  
+B) Apenas um arquivo CSS do Bootstrap  
+C) O servidor embutido do ASP.NET  
+D) O registry Eureka  
+E) Um tipo `input` HTML  
+
+**9.** Vue.js situa-se no mapa de prova como:
+
+A) Framework/lib progressiva de UI baseada em componentes  
+B) Protocolo FTP ativo  
+C) Ferramenta exclusiva ITIL  
+D) Sistema de arquivos NTFS  
+E) Cipher suite TLS 1.0 apenas  
+
+**10.** Qual afirmação é **incorreta**?
+
+A) TypeScript em geral compila para JavaScript  
+B) JavaScript pode manipular o DOM  
+C) Node.js executa JS fora do browser  
+D) JavaScript e Java são a mesma especificação ECMA  
+E) React e Vue trabalham com componentes  
+
+**11.** jQuery, na visão atual de concurso, é melhor lembrada como:
+
+A) Biblioteca clássica para facilitar manipulação de DOM e Ajax  
+B) Runtime servidor substituto do Node  
+C) Obrigação legal em todo Bootstrap 5  
+D) Linguagem tipada que substitui TypeScript  
+E) Protocolo IPv6  
+
+**12.** Em uma SPA que consome API REST JSON:
+
+A) O front em React/Angular/Vue tipicamente chama o backend via HTTP; não “é” o banco  
+B) A SPA substitui obrigatoriamente o TCP por UDP em todas as camadas  
+C) JSON só existe em COBOL  
+D) SPA proíbe qualquer uso de CSS  
+E) SPA é sinônimo de Flyway  
+
+**13.** Relativamente a `let`/`const` versus `var` (visão ES moderno):
+
+A) `let`/`const` têm escopo de bloco; `var` tem modelo clássico de função/hoisting  
+B) `const` permite reatribuir a binding livremente sempre  
+C) `var` é o nome do TypeScript compiler  
+D) `let` existe apenas no Java  
+E) `const` é tag HTML5  
+
+**14.** Distrator clássico neste subtópico é:
+
+A) Separar Java de JavaScript e TypeScript  
+B) Associar Node a runtime servidor  
+C) Tratar TypeScript como outra VM que não gera JS, ou Java ≡ JS  
+D) Lembrar que React/Angular/Vue são do eixo de UI componentes  
+E) Associar async a Promises  
+
+**15.** Qual linha resume melhor o cartão mental deste arquivo?
+
+A) JS = Java; TS = HTML; Node = CSS; React = DHCP  
+B) JS linguagem web/Node; TS tipado→JS; React/Angular/Vue UI; Node runtime servidor; Java ≠ JS ≠ TS  
+C) TypeScript substitui o browser  
+D) jQuery é obrigatório no BS5 e no Angular juntos sempre  
+E) DOM é protocolo de e-mail  
+
+---
+
+### Gabarito comentado (treino 1–15)
+
+1. **A** — Linguagem browser + Node.  
+2. **B** — Tipado + compile para JS.  
+3. **B** — Java ≠ JS; TS no ecossistema JS.  
+4. **A** — Árvore do documento.  
+5. **A** — Assíncrono estruturado.  
+6. **B** — Runtime servidor.  
+7. **A** — Componentes / Virtual DOM.  
+8. **A** — Framework completo + TS.  
+9. **A** — UI progressiva/componentes.  
+10. **D** — Java ≠ JS/ECMA.  
+11. **A** — Lib clássica DOM/Ajax.  
+12. **A** — Front consome API.  
+13. **A** — Escopo de bloco vs var.  
+14. **C** — Sinônimos Java/JS/TS = armadilha.  
+15. **B** — Síntese do arquivo 06.
+
+---
+
+## 3. Questões estilo concurso FCC (16–25)
+
+**16.** No contexto de desenvolvimento web do edital, JavaScript e TypeScript relacionam-se, em regra, da seguinte forma:
+
+A) TypeScript adiciona tipagem ao desenvolvimento e é transpilado/compilado para JavaScript executável nas engines  
+B) TypeScript é o protocolo de roteamento do JavaScript  
+C) JavaScript é um superconjunto estrito que sempre inclui todos os tipos do Java  
+D) ambos são nomes do Kestrel  
+E) TypeScript substitui o HTML e o CSS simultaneamente  
+
+**17.** Considere um enunciado que destaque “Virtual DOM”, “componentes” e ecossistema de UI declarativa no browser. A associação mais adequada entre as opções é:
+
+A) React (visão de biblioteca/UI de componentes)  
+B) Somente SNMP  
+C) Único significado de COBIT APO  
+D) Cabo par trançado cat. 3  
+E) PMBOK como engine V8  
+
+**18.** Assinale a alternativa que apresenta associação **incorreta**:
+
+A) Node.js — runtime JavaScript no servidor  
+B) Angular — framework front-end com forte uso de TypeScript  
+C) Vue.js — framework/lib progressiva de componentes  
+D) jQuery — biblioteca clássica de DOM/Ajax  
+E) Node.js — framework de UI idêntico ao Angular  
+
+**19.** Em arquitetura SPA + API REST, é correto concluir que:
+
+A) o cliente JavaScript tipicamente consome endpoints HTTP/JSON fornecidos pelo backend  
+B) a SPA elimina a noção de HTTP status  
+C) JSON só pode ser produzido por switches  
+D) TypeScript proíbe qualquer chamada assíncrona  
+E) React substitui o banco relacional por definição  
+
+**20.** Diferenciar Java de JavaScript em provas da FCC é relevante porque:
+
+A) a banca costuma explorar a semelhança de nomes entre linguagens distintas (JVM × engines ECMAScript)  
+B) não há diferença conceitual cobrável entre os termos  
+C) JavaScript é apenas o nome antigo do Java  
+D) ambos equivalem a Bootstrap 5  
+E) a diferença só existe em redes Token Ring  
+
+**21.** Relativamente ao modelo assíncrono do JavaScript no browser, a leitura mais alinhada é:
+
+A) Promises e async/await ajudam a lidar com operações demoradas sem o estilo clássico de callbacks profundamente aninhados  
+B) JavaScript no browser só opera com threads Java obrigatórias  
+C) async/await é protocolo de camada de enlace  
+D) Promises substituem o DNS  
+E) event loop é o nome do Hibernate  
+
+**22.** Em questão que contraste papéis, a FCC tipicamente considera **correto** que:
+
+A) TypeScript não é executado “nativamente” como TS pelas engines de browser; o artefato típico de execução continua sendo JavaScript gerado  
+B) TypeScript elimina a necessidade de qualquer engine JS  
+C) TypeScript é o único SGBD do edital  
+D) TypeScript é sinônimo de ASP.NET Web Forms  
+E) TypeScript é o padrão 802.11be  
+
+**23.** Qual enunciado descreve **incorretamente** o React Native no mapa do edital?
+
+A) Relaciona-se a desenvolvimento mobile com paradigma próximo ao React  
+B) Aparece listado entre frameworks do bloco web/mobile  
+C) É, por definição, o protocolo IPv4 e o serviço DHCP ao mesmo tempo  
+D) Não se confunde com Node.js runtime puro  
+E) Não é o mesmo que jQuery clássico de DOM desktop  
+
+**24.** Sobre jQuery e o ecossistema moderno citado no edital (React/Angular/Vue + Bootstrap 5), a afirmação mais adequada é:
+
+A) jQuery permanece uma lib clássica de DOM; não deve ser tratada como dependência obrigatória universal de Bootstrap 5 nem como sinônimo dos frameworks de componentes SPA  
+B) jQuery é obrigatória em Angular, React, Vue e BS5 simultaneamente  
+C) jQuery substituiu o TypeScript  
+D) jQuery é o runtime do servidor Node  
+E) jQuery é uma tag semântica HTML5  
+
+**25.** A síntese mais alinhada ao edital é:
+
+A) JS = linguagem web/Node; TS = tipado que gera JS; React/Angular/Vue = UI/SPA; Node = runtime servidor; Java ≠ JS ≠ TS  
+B) JS = Java = TS = Node = React (cinco nomes, um papel)  
+C) TypeScript aboliu o HTTP  
+D) DOM é exclusivo do COBOL  
+E) A distinção entre as tecnologias web do edital foi abolida em todas as bancas  
+
+---
+
+### Gabarito comentado (concurso 16–25)
+
+16. **A** — TS tipado → JS.  
+17. **A** — Virtual DOM/componentes ≈ React.  
+18. **E** — Node ≠ framework UI Angular.  
+19. **A** — SPA consome API HTTP/JSON.  
+20. **A** — Pegadinha do nome Java/JS.  
+21. **A** — Promises/async.  
+22. **A** — Runtime continua sendo JS.  
+23. **C** — Não é IPv4/DHCP.  
+24. **A** — jQuery clássica; não obrigatória universal BS5/SPA.  
+25. **A** — Cartão mental completo do arquivo 06.
+
+---
+
+## 4. Auto-checagem rápida (opcional)
+
+Antes de marcar a questão, pergunte:
+
+1. É **linguagem dinâmica web/Node / DOM / async**? → **JavaScript**.  
+2. É **tipos + compile para JS**? → **TypeScript**.  
+3. É **runtime servidor JS**? → **Node.js** (não UI).  
+4. É **UI componentes/SPA**? → React / Angular / Vue (papéis).  
+5. Java ≡ JavaScript? → **Nunca** neste arquivo.
