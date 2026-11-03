@@ -5,6 +5,8 @@ draft = false
 description = 'Cronograma das semanas de estudo.'
 +++
 
+**Prova:** 31/01/2027 · TRT4 Analista Judiciário TI (código 14) · FCC
+
 Cronograma de estudo por janela. Clique na semana para abrir os materiais.
 
 | Semana | Janela |
