@@ -312,114 +312,120 @@ E) 2,00 fixo
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-*(Incluem dicas de redação em formato MCQ — reconhecer procedimento adequado, não “escrever a redação” na alternativa.)*
+> Foco: reescrita, coesão, pontuação e concordância — competências da redação dissertativo-argumentativa FCC (sem bloco de interpretação longa).
 
-**16.** No contexto da prova discursiva prevista para Analista Judiciário – TI do TRT4, assinale a afirmativa correta.
+**16.** (FCC – TRT-6/2025 – Analista Judiciário – TI) Ferramentas úteis e necessárias, quando mal utilizadas, podem tornar-se letais.
 
-A) Exige-se texto dissertativo-argumentativo em 20 a 30 linhas, com natureza eliminatória e classificatória.  
-B) Substitui-se a redação por entrevista de inglês técnico.  
-C) A discursiva limita-se a preencher lacunas de código Java.  
-D) O candidato pode entregar mapa mental no lugar do texto corrido.  
-E) A extensão mínima é de 50 linhas manuscritas obrigatórias.  
+Reescrevendo-se o período começando por *A má utilização de ferramentas*, uma complementação correta e coerente será
 
-**17.** Avalie os itens relativos à organização do texto.
+A) pode ser letal, uma vez que sejam úteis e necessárias.
+B) ainda quando úteis e necessárias, pode tornar-se letal.
+C) conquanto úteis e necessárias, podem tornar-se letais.
+D) a menos que úteis e necessárias, poderão tornar-se letais.
+E) se tornaria letal, quando fossem úteis e necessárias.
 
-I. A introdução deve apresentar contextualização e tese alinhada ao tema.  
-II. Os parágrafos de desenvolvimento devem aprofundar argumentos distintos, com coesão.  
-III. A conclusão pode inaugurar tema inédito sem qualquer retomada da tese.
+**17.** (FCC – TRT-1/2025 – Analista Judiciário – TI) A lei servia assim de fachada, e a impunidade ameaçava ser eterna.
 
-Está correto o que se afirma em:
+Reescrevendo-se com coerência o período, iniciando por *A impunidade ameaçava ser eterna*, o enunciado complementar deverá ser
 
-A) I e II, apenas  
-B) III, apenas  
-C) I e III, apenas  
-D) II e III, apenas  
-E) I, II e III  
+A) enquanto a lei servia de fachada.
+B) de modo a servir a lei como fachada.
+C) conquanto a lei servisse como fachada.
+D) para a lei vir a servir de fachada.
+E) ainda que a lei servisse de fachada.
 
-**18.** Para assegurar coesão na passagem entre o argumento da imparcialidade e o da transparência, a melhor estratégia é:
+**18.** (FCC – TRT-6/2025 – Analista Judiciário – Área Judiciária) A separação dos poderes, em última instância, objetiva evitar a arbitrariedade e o autoritarismo.
 
-A) empregar conectivo adequado (ex.: *ademais*, *sob outro prisma*) e explicitar o novo ângulo  
-B) repetir a mesma frase da introdução três vezes  
-C) interromper o texto com lista de emojis  
-D) iniciar o parágrafo com gíria para “prender o leitor”  
-E) omitir pontuação até o fim da folha  
+Preservam-se o sentido, a clareza e a correção nesta nova redação:
 
-**19.** Assinale a opção que apresenta **desvio** típico a ser evitado na redação de ética/serviço público.
+A) A derradeira prerrogativa da separação dos poderes conflita, por fim, com a arbitrariedade e o autoritarismo que deles derivariam.
+B) Definitivamente, é objetivo da separação dos poderes não dar margem ao exercício da arbitrariedade e do autoritarismo.
+C) Ainda que em último lugar, objetiva-se mesmo a separação dos poderes evitando-se a arbitrariedade e o autoritarismo.
+D) A arbitrariedade e o autoritarismo, em último caso, carecem da separação dos poderes para serem assim evitados.
+E) O objetivo de evitar a arbitrariedade assim como o autoritarismo faz-se, de fato, para além do concurso da separação dos poderes.
 
-A) Fundamentar a tese em imparcialidade e legalidade, com exemplos institucionais genéricos pertinentes.  
-B) Propor mecanismos realistas (controles, formação, canais de responsabilização) na conclusão.  
-C) Manter registro formal e progressão dissertativa.  
-D) Transformar o texto em ataque partidário nominal e em juízos pejorativos sem argumentação.  
-E) Contar as linhas para permanecer na faixa 20–30.  
+**19.** (FCC – TRT-6/2025 – Analista Judiciário – TI) Está inteiramente regular a pontuação da frase:
 
-**20.** Em relação ao uso de conectivos, a alternativa em que o encadeamento está **adequado** é:
+A) Se há benefícios há também transtornos, no uso indiscriminado, das novas tecnologias.
+B) Há reflexos no cotidiano nosso, quando do mau uso, dos dispositivos digitais.
+C) Acredita-se sim que, mesmo as boas ferramentas, podem trazer prejuízo se mal utilizadas.
+D) A ansiedade e a frustração, com a conectividade exagerada podem intensificar-se.
+E) Na falta de moderação, o uso dessas ferramentas acarreta, sem dúvida, graves transtornos.
 
-A) A legalidade condiciona a atuação administrativa; **portanto**, boas intenções não legitimam atos à margem da norma.  
-B) A legalidade condiciona a atuação administrativa; **por exemplo**, logo a conclusão some.  
-C) A legalidade condiciona a atuação administrativa; **embora**, e ponto final sem oração.  
-D) A legalidade condiciona a atuação administrativa; **a fim de que** a oposição.  
-E) A legalidade condiciona a atuação administrativa; **contudo** adicionando o mesmo sentido de “além disso”.  
+**20.** (FCC – TRT-1/2025 – Analista Judiciário – TI) As normas de concordância verbal estão plenamente observadas na frase:
 
-**21.** Durante a prova, após ler o tema “Ética e confiança no serviço público”, o procedimento inicial mais recomendável é:
+A) Abrigaram-se nos porões de sua alma de navegante a graça de cruzar os mares.
+B) Não move a um navegante como Amyr Klink advertências como as de Sartre.
+C) A muitos navegadores tentou a façanha marítima enfim conseguida por Amyr Klink.
+D) São dadas a poucas pessoas gozarem da solidão como uma alternativa.
+E) Eram no convívio das estrelas e no cruzar das neblinas que Amyr Klink fez sua travessia.
 
-A) grifar o comando, formular tese e dois argumentos em rascunho curto, depois redigir na faixa de linhas  
-B) copiar um texto memorizado sobre meio ambiente, ignorando o tema  
-C) escrever só a conclusão e entregar  
-D) responder a discursiva em tópicos numerados sem períodos  
-E) deixar a redação para depois da divulgação do gabarito  
+**21.** (FCC – TRT-6/2025 – Analista Judiciário – TI) O verbo indicado entre parênteses deverá flexionar-se no **plural** para integrar corretamente a frase:
 
-**22.** Considerando o português a serviço da nota, assinale a frase **mais adequada** ao padrão culto em redação.
+A) Contra as correntes filosóficas mais idealistas (reagir) a sensatez dos estoicos mais realistas.
+B) Não (surpreender) jamais as forças do destino a quem as reconhece em sua plena intensidade.
+C) (Ser) em expressões como a do título do texto que se acentuam o temperamento de quem as usa.
+D) Ainda que (ensejar) momentos de humor, a expressão do título é abordada de modo mais sisudo.
+E) Não (caber) aos mais jovens adotar reações que só a experiência dos mais velhos podem assumir.
 
-A) Cumpre ao agente público observar a legalidade e prestar contas à sociedade.  
-B) O servidor tem que tipo cumprir a lei e tal.  
-C) Agente público = legalidade 100% forever.  
-D) Ele tem q prestar conta, saca?  
-E) Cumprir lei é meh, mas ok.  
+**22.** (FCC – TRT-15/2018 – Analista Judiciário – Área Administrativa) Um segmento do texto conservará a correção e o sentido, ao se substituir o elemento sublinhado pelo que se indica em:
 
-**23.** Sobre a articulação entre conhecimentos de TI e redação de interesse geral, é correto afirmar:
+A) comparação “assim como a de” por “mesmo ocorrendo com”
+B) “ou de uma” por “e inclusive uma”
+C) “Mesmo que” por “Não obstante”
+D) “É justamente nessa universalidade” por “É aonde”
+E) “independentes de” por “salvaguardadas as”
 
-A) Referências a sistemas, transparência ativa ou proteção de dados podem reforçar o argumento **se** subordinadas ao tema e à tese, sem virar manual técnico.  
-B) A banca exige trecho obrigatório em TypeScript na discursiva.  
-C) Mencionar React Native garante nota 10 independentemente do tema.  
-D) É vedado qualquer exemplo institucional.  
-E) A redação deve ser redigida exclusivamente em inglês técnico.  
+**23.** (FCC – TRT-6/2025 – Analista Judiciário – Área Administrativa) A separação dos poderes, em última instância, objetiva evitar a arbitrariedade e o autoritarismo.
 
-**24.** Qual alternativa descreve melhor um **parágrafo de desenvolvimento** eficaz?
+Preservam-se sentido, clareza e correção em:
 
-A) Afirmação do argumento + explicação do mecanismo/razão + eventual exemplo pertinente, ligado por coesão ao parágrafo anterior.  
-B) Sequência de adjetivos sem verbo.  
-C) Título isolado sem frase.  
-D) Cópia integral de verbete de dicionário sem tese.  
-E) Perguntas retóricas empilhadas sem resposta.  
+A) Ainda que em último lugar, objetiva-se mesmo a separação dos poderes evitando-se a arbitrariedade e o autoritarismo.
+B) A arbitrariedade e o autoritarismo, em último caso, carecem da separação dos poderes para serem assim evitados.
+C) O objetivo de evitar a arbitrariedade assim como o autoritarismo faz-se, de fato, para além do concurso da separação dos poderes.
+D) A derradeira prerrogativa da separação dos poderes conflita, por fim, com a arbitrariedade e o autoritarismo que deles derivariam.
+E) Definitivamente, é objetivo da separação dos poderes não dar margem ao exercício da arbitrariedade e do autoritarismo.
 
-**25.** Para fins de revisão rápida no padrão FCC (redação 1 — ética/serviço público), assinale a alternativa **inteiramente correta**.
+**24.** (FCC – TRT-1/2025 – Analista Judiciário – TI) Os malfeitores poderosos *submetiam a seus interesses* o xerife e o juiz.
 
-A) Texto dissertativo-argumentativo, 20–30 linhas, tese explícita, dois argumentos coesos, conclusão sintético-propositiva, norma-padrão e fidelidade ao tema.  
-B) Texto narrativo em primeira pessoa, 5 linhas, sem tese, com gírias.  
-C) Apenas introdução de 30 linhas repetindo o enunciado.  
-D) Redação em forma de código-fonte Node.js.  
-E) Extensão livre e tema livre, sem leitura do comando.  
+Sem prejuízo para a correção e a coerência, pode-se substituir a expressão sublinhada na frase acima por
+
+A) expunham com seus interesses
+B) subjugavam com seus interesses
+C) consideravam como interessados
+D) subordinavam diante de seus interesses
+E) sujeitavam seus interesses para
+
+**25.** (FCC – TRT-1/2025 – Analista Judiciário – TI) As virtudes inatas dessa liderança singular refundariam as instituições suprimidas.
+
+O sentido básico, a coesão e a coerência da frase acima estão preservados nesta outra redação:
+
+A) Desde que as refunda, as virtudes singulares de uma liderança demoveriam as instituições.
+B) Desde que removidas, as instituições demandam a liderança singular de virtudes inatas.
+C) Instituições superadas podem ser salvas pela singularidade de virtudes adquiridas.
+D) Uma liderança especial, naturalmente virtuosa, recuperaria o valor de instituições extintas.
+E) Uma vez abaladas, as instituições removeriam a singular virtude das lideranças inatas.
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **A** |
-| 17 | **A** |
-| 18 | **A** |
-| 19 | **D** |
-| 20 | **A** |
-| 21 | **A** |
-| 22 | **A** |
-| 23 | **A** |
-| 24 | **A** |
-| 25 | **A** |
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **B** | FCC TRT-6/2025 TI — coesão / reescrita |
+| 17 | **A** | FCC TRT-1/2025 TI — reescrita / conectivo |
+| 18 | **B** | FCC TRT-6/2025 Judiciária — equivalência de sentido |
+| 19 | **E** | FCC TRT-6/2025 TI — pontuação |
+| 20 | **C** | FCC TRT-1/2025 TI — concordância verbal |
+| 21 | **B** | FCC TRT-6/2025 TI — concordância (plural) |
+| 22 | **C** | FCC TRT-15/2018 — coesão (*Mesmo que* → *Não obstante*) |
+| 23 | **E** | FCC TRT-6/2025 Administrativa — mesma reescrita (gabarito E nessa prova) |
+| 24 | **B** | FCC TRT-1/2025 TI — regência verbal |
+| 25 | **D** | FCC TRT-1/2025 TI — reescrita / equivalência |
 
-**Notas rápidas:** 16 A (edital); 17 A (I e II; III errado — conclusão não “abre” tema inédito solto); 18 A (conectivo + novo ângulo); 19 D (ataque partidário); 20 A (*portanto* = consequência); 21 A (método); 22 A (padrão culto); 23 A (TI a serviço da tese); 24 A (afirma–explica–exemplo); 25 A (checklist completo).
+**Notas rápidas:** 16–25 todas de português reais (reescrita, coesão, pontuação, concordância, regência). Preferência do estudante: sem bloco longo de interpretação.
 
 ---
 
@@ -430,8 +436,8 @@ E) Extensão livre e tema livre, sem leitura do comando.
 | 1 | A | 2 | A | 3 | A | 4 | A | 5 | A |
 | 6 | A | 7 | A | 8 | A | 9 | A | 10 | A |
 | 11 | A | 12 | A | 13 | A | 14 | A | 15 | A |
-| 16 | A | 17 | A | 18 | A | 19 | D | 20 | A |
-| 21 | A | 22 | A | 23 | A | 24 | A | 25 | A |
+| 16 | B | 17 | A | 18 | B | 19 | E | 20 | C |
+| 21 | B | 22 | C | 23 | E | 24 | B | 25 | D |
 
 ---
 

@@ -275,112 +275,106 @@ E) npm isoladamente
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** No contexto do edital de Analista Judiciário – Área de TI, React, Angular e Vue.js têm em comum, em regra:
+**16.** (FCC – TRT-12/2023 – Analista Judiciário – TI) No React, a sintaxe correta do método usado para atualizar o estado de um componente é:
 
-A) serem tecnologias voltadas prioritariamente à construção de interfaces web baseadas em componentes, tipicamente no cliente  
-B) serem motores de banco relacional equivalentes ao PostgreSQL 18  
-C) serem protocolos da camada de enlace  
-D) substituírem integralmente o sistema operacional do servidor de aplicação  
-E) serem sinônimos estritos de Node.js  
+A) `this.componentState({ novo_estado: novo_valor });`
+B) `this.updateState({ novo_estado: novo_valor });`
+C) `this.setState({ novo_estado: novo_valor });`
+D) `this.changeState({ novo_estado: novo_valor });`
+E) `this.modifyState({ novo_estado: novo_valor });`
 
-**17.** Acerca do Node.js, é correto afirmar:
+**17.** (FCC – TRT-1/2025 – Analista Judiciário – TI) Para criar um projeto Angular chamado `site` (com Node.js, npm e Angular CLI instalados), utiliza-se:
 
-A) Trata-se de ambiente de execução de JavaScript fora do navegador, amplamente usado em serviços HTTP e ferramentas de desenvolvimento  
-B) É o nome da especificação oficial do HTML5  
-C) É framework mobile nativo mantido exclusivamente como fork do Angular  
-D) Impede qualquer uso de TypeScript no ecossistema npm  
-E) Equivale, por definição, ao Virtual DOM do React  
+A) `ng @angular/site`
+B) `npm new site`
+C) `npm @angular/site`
+D) `ng new site`
+E) `create new projet site`
 
-**18.** Diferenciando React e Angular em prova objetiva, a descrição mais fiel é:
+**18.** (FCC – TRF-4/2025 – Analista Judiciário – Análise de Sistemas) O comando Angular CLI para gerar o serviço `processos` em `src/app/core/services/` é:
 
-A) React é biblioteca de UI; Angular é framework mais completo (roteamento, DI, forms etc.), com TypeScript como padrão  
-B) Ambos são apenas pré-processadores SASS  
-C) Angular roda só no kernel; React só em firmware  
-D) React inclui DI nativa idêntica ao Spring Boot por especificação W3C  
-E) Não há qualquer diferença conceitual reconhecível  
+A) `ng generate component core/services/processos`
+B) `npx g s core/services/processos`
+C) `ng generate service core/services/processos`
+D) `npm g s service core/services/processos`
+E) `npm generate service core/services/processos`
 
-**19.** Avalie os itens.
+**19.** (FCC – TJ-CE/2022 – Analista Judiciário – Sistemas da Informação) Acerca do Vue.js, é correto que:
 
-I. React Native permite desenvolver aplicações móveis com paradigma semelhante ao React, gerando componentes nativos.  
-II. Vue.js é runtime de servidor que substitui o Node.js em todos os cenários.  
-III. Uma SPA em Angular pode consumir API REST implementada em Node.js.
+A) Para renderizar condicionalmente um bloco, utilizam-se as diretivas `vueIf`, `vueElse` e `vueElseIf`.
+B) Todo aplicativo Vue começa criando-se uma nova instância da aplicação com a função `createApp`.
+C) Uma instância da aplicação renderiza todo o aplicativo antes do método `.mount()` ser chamado.
+D) Para definir um manipulador de erros (`errorHandler`) utiliza-se um objeto `catchComponent`.
+E) Deve haver somente uma instância de aplicação na mesma página.
 
-Está correto o que se afirma em:
+**20.** (FCC – TRT-20/2024 – Analista Judiciário – TI) Em Node.js, para garantir sequência e tratamento de erros em chamadas assíncronas:
 
-A) I e III, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) III, apenas  
-E) I, II e III  
+A) usar `Promise.all()` e ignorar erros.
+B) envolver as chamadas em `try/catch` e usar `await`.
+C) usar `then/catch/finally` e `execute()` em `Connection`.
+D) fazer todas as chamadas assíncronas usando a função `async`/`await` com `try/catch` para tratar as exceções.
+E) colocar todas as chamadas assíncronas em uma função `setTimeout` com `throws` para tratar exceções.
 
-**20.** Assinale a opção em que a associação está **incorreta**.
+**21.** (FCC – TRT-20/2024 – Técnico Judiciário – TI) Em Express, a lacuna para POST `/webhook` é:
 
-A) JSX → sintaxe associada ao ecossistema React  
-B) SFC `.vue` → componente de arquivo único no Vue  
-C) TypeScript first → Angular  
-D) Express → framework web tipicamente sobre Node.js  
-E) Virtual DOM → definição exclusiva e privativa do protocolo FTP  
+A) `msg.post('/webhook', (req, send)`
+B) `app.post('/webhook,(req, http)`
+C) `post.msg('/webhook',(http, send)`
+D) `msg.post('/webhook', (req, res)`
+E) `app.post('/webhook', (req, res)`
 
-**21.** Em arquitetura web típica de concurso, o papel mais adequado para o Node.js é:
+**22.** (FCC – TRT-20/2024 – Técnico Judiciário – TI) Em React funcional, para atualizar estado do input:
 
-A) executar lógica de servidor / API em JavaScript, podendo integrar-se a fronts React, Angular ou Vue  
-B) substituir o CSS3 como linguagem de estilo obrigatória  
-C) ser o único meio de desenhar layout Bootstrap  
-D) gerenciar VLANs 802.1Q no switch de acesso  
-E) emitir pareceres de Direito Administrativo  
+A) `this.setState` em componentes funcionais
+B) `setState` em classe como abordagem ideal moderna
+C) `useEffect` para definir o valor a cada `onChange`
+D) Hook `useState` e atualizar no `onChange`
+E) `useState` + `useEffect` obrigatórios juntos
 
-**22.** Sobre Vue.js, a afirmação compatível com o edital é:
+**23.** (FCC – TRT-12/2023 – Analista Judiciário – TI) Tupla TypeScript para `['Paulo Freitas', 'Rua ...', 45]`:
 
-A) Framework (progressivo) para interfaces, listado entre os frameworks web do Anexo II  
-B) Norma ISO de cabeamento  
-C) Ferramenta exclusiva de governança COBIT  
-D) Dialeto PL/SQL  
-E) Container runtime idêntico ao Docker  
+A) `let pessoa[3]: [any];`
+B) `let pessoa[3];`
+C) `let pessoa: [string, string, number];`
+D) `let pessoa: typeof[String, String, Number];`
+E) `let pessoa[string, string, number];`
 
-**23.** A principal razão para **não** classificar o Node.js como “framework de UI equivalente ao React” é:
+**24.** (FCC – TRT-20/2024 – Analista Judiciário – TI) `lks.classList.toggle("visible")`:
 
-A) Node é runtime de execução; React é biblioteca de interface — finalidades distintas  
-B) Node só existe dentro do browser Chrome  
-C) React é exclusivamente servidor de e-mail  
-D) Ambos são bancos relacionais  
-E) A FCC proíbe citar os dois no mesmo edital  
+A) adiciona ou remove a classe `visible` a cada chamada.
+B) lista as classes CSS na tela.
+C) falha por erro em `getElementById`.
+D) apenas torna o elemento visível.
+E) erro: `toggle` não se aplica a `class`.
 
-**24.** Considerando o pacote “React, React Native, Angular, Node.js, Vue.js” do edital, assinale a alternativa correta.
+**25.** (FCC – TRT-6/2025 – Analista Judiciário – TI) Seleção do elemento com id `imagens`:
 
-A) React Native distingue-se do React web por mirar plataformas móveis nativas, ainda que compartilhe o modelo de componentes  
-B) Angular e Node.js são a mesma ferramenta com dois nomes comerciais  
-C) Vue.js é obrigatoriamente o banco H2  
-D) Todo projeto React elimina a necessidade de JavaScript  
-E) Node.js é a especificação do Bootstrap 5  
-
-**25.** Para revisão rápida no padrão FCC, a sequência **correta** é:
-
-A) React/Angular/Vue → UI no cliente · Node → JS no servidor · React Native → mobile nativo com DNA React  
-B) React → SNMP · Angular → DHCP · Vue → STP · Node → QoS  
-C) Todos os quatro são apenas sinônimos de jQuery  
-D) Node renderiza JSX no lugar do Angular por norma CNJ  
-E) Vue substitui LGPD e ENSEC-PJ  
+A) `document.querySelector('#imagens');`
+B) `document.getElementFromId('imagens');`
+C) `document.querySelector('.imagens');`
+D) `document.getElementbyId('#imagens');`
+E) `document.getIdentification('#imagens');`
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **A** |
-| 17 | **A** |
-| 18 | **A** |
-| 19 | **A** |
-| 20 | **E** |
-| 21 | **A** |
-| 22 | **A** |
-| 23 | **A** |
-| 24 | **A** |
-| 25 | **A** |
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **C** | FCC TRT-12/2023 — `this.setState` |
+| 17 | **D** | FCC TRT-1/2025 — `ng new site` |
+| 18 | **C** | FCC TRF-4/2025 — `ng generate service` |
+| 19 | **B** | FCC TJ-CE/2022 — Vue `createApp` |
+| 20 | **B** | FCC TRT-20/2024 — `await` + `try/catch` |
+| 21 | **E** | FCC TRT-20/2024 — Express `app.post` |
+| 22 | **D** | FCC TRT-20/2024 — `useState` |
+| 23 | **C** | FCC TRT-12/2023 — tupla TS (adjacente) |
+| 24 | **A** | FCC TRT-20/2024 — `classList.toggle` (adjacente) |
+| 25 | **A** | FCC TRT-6/2025 — `querySelector` (adjacente) |
 
-**Notas rápidas:** 16 A (UI/componentes no cliente); 17 A (runtime); 18 A (lib × framework+TS); 19 A (I e III; II falso — Vue ≠ substituto universal do Node); 20 E (Virtual DOM ≠ FTP); 21 A (API/servidor); 22 A; 23 A (runtime ≠ UI); 24 A; 25 A (mapa mental completo).
+**Notas rápidas:** 16–22 núcleo React/Angular/Vue/Node; 23–25 adjacentes JS/TS/DOM do mesmo eixo web.
 
 ---
 
@@ -391,8 +385,8 @@ E) Vue substitui LGPD e ENSEC-PJ
 | 1 | A | 2 | A | 3 | A | 4 | A | 5 | A |
 | 6 | A | 7 | A | 8 | A | 9 | A | 10 | A |
 | 11 | C | 12 | A | 13 | A | 14 | A | 15 | A |
-| 16 | A | 17 | A | 18 | A | 19 | A | 20 | E |
-| 21 | A | 22 | A | 23 | A | 24 | A | 25 | A |
+| 16 | C | 17 | D | 18 | C | 19 | B | 20 | B |
+| 21 | E | 22 | D | 23 | C | 24 | A | 25 | A |
 
 ---
 

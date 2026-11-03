@@ -490,36 +490,36 @@ C) permite a obtenção de informações de apenas um ramo da hierarquia.
 D) possibilita implantar segurança em ramos diferentes da árvore.  
 E) localiza e gerencia usuários e recursos na rede.
 
-**23.** (Estilo FCC — Analista TI Judiciário)  
-Sobre IPv4 e IPv6 no nível cobrado pelo edital TRT4, assinale a opção correta.
+**23.** (FCC – TRT-6/2018 – Analista Judiciário – TI)  
+Com a introdução e uso do IPv6, o DNS se tornou extremamente importante para facilitar o acesso aos recursos da internet. Dentre os tipos de registro DNS, o utilizado para vincular um domínio ou subdomínio a um endereço IPv6 é o
 
-A) IPv4 tem 32 bits; IPv6 tem 128 bits; IPv6 não utiliza broadcast clássico.  
-B) O registro DNS tipo AAAA associa nome a IPv4; o tipo A associa a IPv6.  
-C) IPv6 usa endereços de 32 bits e mantém broadcast idêntico ao IPv4.  
-D) Ambos os protocolos residem exclusivamente na camada de aplicação TCP/IP.  
-E) A máscara CIDR `/24` só existe em IPv6.
+A) AFSDB.  
+B) AAAA.  
+C) CNAME.  
+D) A.  
+E) SOA.
 
-**24.** (Estilo FCC — portas conhecidas)  
-A comunicação entre os protocolos HTTPS, DNS e SMTP com a camada de transporte ocorre, por padrão, respectivamente nas portas
+**24.** (FCC – TRT-12/2023 – Analista Judiciário – TI)  
+Normalmente um servidor de saída utiliza a porta 25 como padrão para SMTP. Todavia, alguns IPs bloqueiam sua utilização por conta do tráfego massivo de spam e malware. Para se evitar esse bloqueio, é possível utilizar a porta
 
-A) 80, 53 e 25.  
-B) 443, 67 e 110.  
-C) 443, 53 e 25.  
-D) 22, 53 e 143.  
-E) 443, 68 e 25.
+A) 25025 que é suportada por diversos servidores de saída SMTP e é útil para conexões encriptadas ou TLS.  
+B) 52025 que é suportada por diversos servidores de saída SMTP e é útil para conexões não encriptadas ou SSL.  
+C) 2525 que é suportada por diversos servidores de saída SMTP e é útil para conexões encriptadas ou TLS.  
+D) 645 que é suportada por diversos servidores de saída SMTP e é útil para conexões não encriptadas ou SSL.  
+E) 587 que é suportada por diversos servidores de saída SMTP e é útil para conexões não encriptadas ou TLS.
 
-**25.** (Estilo FCC — síntese do subtópico)  
-Para fins do edital TRT4 no eixo TCP/IP e protocolos listados (DNS, DHCP, HTTP, SSH, SMTP, FTP, LDAP), a síntese mais adequada é:
+**25.** (FCC – TRT-12/2023 – Analista Judiciário – TI)  
+No cabeçalho IPv6, há um campo de 20 bits utilizado para fornecer um identificador para pacotes que pertencem ao mesmo fluxo de tráfego. Esse campo pode ser usado pelos dispositivos de rede para aplicar políticas de QoS, como garantir uma determinada largura de banda, latência ou priorização para pacotes de um mesmo fluxo. Trata-se do campo
 
-A) DHCP usa TCP 68 no servidor; SMTP sincroniza pastas no servidor; FTP usa só UDP 53; LDAP dispensa hierarquia.  
-B) Todos os protocolos de aplicação listados operam na camada de transporte.  
-C) IPv6 extingue DNS e DHCP por definição de prova.  
-D) IMAP substitui SSH e LDAP em qualquer enunciado de redes.  
-E) TCP é confiável e orientado a conexão; UDP é best-effort; DNS resolve nomes (A/AAAA); DHCP atribui IP via DORA em 67/68 UDP; HTTP/HTTPS em 80/443; SSH em 22; SMTP envia correio; FTP separa controle/dados; LDAP é diretório (389).
+A) Type of Service.  
+B) Next Flow.  
+C) Traffic Flow.  
+D) Traffic Class.  
+E) Flow Label.
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito comentado (FCC 16–25)
 
 | Questão | Gabarito | Fonte / nota |
 |---------|----------|--------------|
@@ -530,13 +530,13 @@ E) TCP é confiável e orientado a conexão; UDP é best-effort; DNS resolve nom
 | 20 | **C** | FCC TRT-12/2023 — apenas II (pool + excluídos) |
 | 21 | **C** | FCC PGE-AM/2022 — IMAP, DHCP, SSH |
 | 22 | **B** | FCC MPE-RN/2010 — incorreto: “tudo em um único registro” |
-| 23 | **A** | 32×128; sem broadcast IPv6 |
-| 24 | **C** | 443, 53, 25 |
-| 25 | **E** | Síntese do eixo do edital |
+| 23 | **B** | FCC TRT-6/2018 — registro AAAA → IPv6 |
+| 24 | **E** | FCC TRT-12/2023 — SMTP submission porta 587 |
+| 25 | **E** | FCC TRT-12/2023 — Flow Label (20 bits) no IPv6 |
 
-**Notas rápidas:** 16 A (camadas). 17 B (só OFFER após DISCOVER). 18 D (A + REQUEST). 19 D (SMTP/FTP/DHCP/IMAP). 20 C (pool). 21 C (IMAP/DHCP/SSH). 22 B (LDAP). 23 A (IPv4/IPv6). 24 C (portas). 25 E (cartão mental completo).
+**Notas rápidas:** 16 A (camadas). 17 B (só OFFER após DISCOVER). 18 D (A + REQUEST). 19 D (SMTP/FTP/DHCP/IMAP). 20 C (pool). 21 C (IMAP/DHCP/SSH). 22 B (LDAP). 23 B (AAAA). 24 E (587). 25 E (Flow Label).
 
-Distribuição do gabarito neste arquivo (treino + concurso): A–E presentes (treino com A/E reforçados; concurso FCC mantém letras oficiais).
+Distribuição do gabarito neste arquivo (treino + concurso): A–E presentes (concurso: A, B, C, D, E).
 
 ---
 

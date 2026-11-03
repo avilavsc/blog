@@ -1,4 +1,4 @@
-﻿+++
++++
 title = '01 — Visão PDPJ-Br'
 date = '2026-10-01'
 draft = false
@@ -275,113 +275,191 @@ E) Cobrança de que PDPJ = apenas uma ferramenta de gateway
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões reais de concurso (16–25)
 
-**16.** No contexto das iniciativas digitais do Poder Judiciário brasileiro, a Plataforma Digital do Poder Judiciário (PDPJ-Br) é corretamente caracterizada como:
+> Bloco substituído por questões **reais** de concurso (FCC preferencialmente; TRT/TRF/TJ quando necessário). O treino 1–15 e o Material permanecem inalterados.
 
-A) sistema monolítico único destinado a substituir, de forma integral e imediata, todos os sistemas processuais eletrônicos em operação nos tribunais  
-B) conjunto exclusivo de normas de segurança cibernética, sem qualquer dimensão de integração entre serviços digitais  
-C) ecossistema nacional voltado à integração e ao compartilhamento de capacidades digitais entre órgãos do Judiciário, sob diretrizes comuns  
-D) repositório físico centralizado e obrigatório de todo o acervo documental em papel dos tribunais  
-E) ferramenta de escritório utilizada apenas para edição de planilhas administrativas do CNJ  
+**16.** (FCC | TRT17 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 69 de 70)
 
-**17.** Constitui objetivo coerente com a concepção da PDPJ-Br:
+No Art. 4º da Resolução nº 335 de 29/09/2020 é estabelecido que a Plataforma Digital do Poder Judiciário – PDPJ-Br adotará, obrigatoriamente, soluções que abranjam, dentre outros, os seguintes conceitos: modalidade, acessibilidade, usabilidade, microsserviços, computação em nuvem,
 
-A) impedir a troca de informações entre tribunais, preservando silos tecnológicos absolutos  
-B) promover interoperabilidade e reutilização de serviços digitais, com padronização técnica mínima de integração  
-C) eliminar a autonomia administrativa de todos os tribunais regionais do trabalho  
-D) impor um único banco de dados físico compartilhado por todas as justiças do país, sem contratos de serviço  
-E) restringir o uso de tecnologias digitais às cortes superiores  
+A) e processo eletrônico em plataforma privada.
 
-**18.** Acerca da relação entre o Conselho Nacional de Justiça e os tribunais no arranjo típico associado à PDPJ-Br, assinale a alternativa correta.
+B) ampla cobertura de testes, alto acoplamento, baixa coesão e modularização.
 
-A) O CNJ extingue os tribunais para concentrar toda a operação judiciária em um único sistema  
-B) Os tribunais não participam do ecossistema digital nacional, cabendo-lhes apenas impressão de processos  
-C) O CNJ formula diretrizes e padrões do ecossistema; os tribunais aderem, implementam e operam integrações no respectivo contexto  
-D) Cada tribunal define, isoladamente, o padrão nacional vinculante para os demais  
-E) A governança digital do Judiciário é atribuída exclusivamente ao Poder Executivo federal  
+C) e desenvolvimento centralizado na esfera principal do Poder Judiciário.
 
-**19.** A interoperabilidade perseguida no âmbito da PDPJ-Br pressupõe, em essência:
+D) e substituição das atividades rotineiras ou sequenciais por ações manuais.
 
-A) a fusão obrigatória de todos os códigos-fonte judiciais em um único monólito nacional  
-B) a capacidade de sistemas heterogêneos cooperarem mediante padrões e interfaces previsíveis  
-C) a proibição de quaisquer interfaces entre sistemas de tribunais distintos  
-D) a substituição de APIs por troca exclusiva de mídias removíveis  
-E) a inexistência de qualquer padrão técnico comum  
+E) e autenticação uniformizada.
 
-**20.** Considere as afirmações abaixo.
 
-I. A PDPJ-Br deve ser compreendida como plataforma/ecossistema de integração digital do Poder Judiciário.  
-II. A PDPJ-Br, na leitura correta para prova, equivale a um monólito único que extingue os sistemas dos tribunais.  
-III. A participação dos tribunais no ecossistema é compatível com a existência de diretrizes nacionais de padronização e integração.
+**17.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 29 de 60)
 
-Está correto o que se afirma em:
+Nos projetos da Plataforma Digital do Poder Judiciário PDPJ-Br,
 
-A) I, apenas  
-B) II, apenas  
-C) I e III, apenas  
-D) II e III, apenas  
-E) I, II e III  
+A) os ambientes de deployment estão instalados em clusters Kubernetes, gerenciados por meio da ferramenta open source de orquestração de containers Rancher.
 
-**21.** Assinale a opção que apresenta interpretação **incompatível** com a visão da PDPJ-Br usualmente cobrada em concursos da área de TI do Judiciário.
+B) a aplicação deve possuir os arquivos `yanl`, para que o deploy ocorra de forma automática por meio de pipelines de CI/CD (Continuous Delivery e Continuous Integration) executados pelo GitLab do STF (Supremo Tribunal Federal).
 
-A) Busca reduzir o isolamento extremo entre soluções digitais dos órgãos  
-B) Favorece padrões comuns para integração de serviços  
-C) Identifica-se com a mera publicação de notícias em sítio eletrônico institucional, sem dimensão de plataforma de serviços  
-D) Involui ideia de governança nacional sobre o ecossistema digital  
-E) Permite reuso de capacidades digitais entre participantes do ecossistema  
+C) a aplicação deve possuir um arquivo `Rancherfile`, especificando o modo pelo qual ela deve ser empacotada.
 
-**22.** No contraste entre arquitetura monolítica nacional e modelo de plataforma digital aplicados ao discurso da PDPJ-Br, é correto concluir que:
+D) deve haver o arquivo `.gitlab-ci.xml` definindo a pipeline de deploy automático.
 
-A) a PDPJ-Br corresponde, por definição, ao monólito único substitutivo de todos os sistemas processuais  
-B) a noção de plataforma enfatiza integração de capacidades/serviços e padrões comuns, e não a extinção conceitual do ecossistema em um único artefato  
-C) plataforma e monólito são termos tecnicamente idênticos na doutrina de prova  
-D) a PDPJ-Br rejeita qualquer forma de padronização  
-E) a PDPJ-Br existe apenas para unificar fisicamente datacenters em um único endereço IP  
+E) deve haver, na pasta `kubernets`, o arquivo de configuração do ingress da aplicação, que é obrigatório.
 
-**23.** Um analista de tribunal afirma que “aderir à PDPJ-Br significa que o tribunal deixa de existir como órgão e perde qualquer sistema próprio, passando a operar exclusivamente um software único nacional”. Tal afirmação:
 
-A) está correta, pois plataforma digital implica extinção dos tribunais  
-B) está correta apenas para a Justiça Estadual  
-C) está incorreta, pois a PDPJ-Br articula ecossistema de integração e padrões, sem corresponder à tese de extinção institucional dos tribunais  
-D) está correta, pois interoperabilidade exige banco de dados único e fim da autonomia  
-E) está incorreta somente porque o software único seria estadual  
+**18.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 45 de 60)
 
-**24.** Diferenciar a PDPJ-Br de iniciativas ou eixos de segurança cibernética do Poder Judiciário é relevante em prova porque:
+Segundo a Portaria do CNJ nº 131, de 5 de maio de 2021, um dos objetivos do Grupo Revisor de Código-Fonte é
 
-A) ambos os temas são rigorosamente sinônimos e intercambiáveis em qualquer enunciado  
-B) a PDPJ-Br, no eixo aqui estudado, refere-se à plataforma/ecossistema de integração digital, ao passo que segurança cibernética constitui eixo distinto, ainda que correlato ao ambiente digital  
-C) a segurança cibernética substitui integralmente a ideia de interoperabilidade  
-D) a PDPJ-Br não possui qualquer finalidade de integração entre órgãos  
-E) não existem normas ou políticas digitais no âmbito do CNJ  
+A) executar teste de qualidade de código-fonte e garantias operacionais da funcionalidade desenvolvida ou alterada.
 
-**25.** Para fins de preparação em Analista Judiciário – Tecnologia da Informação, a síntese mais adequada da PDPJ-Br é:
+B) realizar a análise sintática automatizada de qualidade de código, segundo parâmetros de complexidade, manutenibilidade e acessibilidade.
 
-A) site de notícias + monólito único + extinção dos tribunais  
-B) ecossistema nacional de plataforma digital orientado a interoperabilidade, reuso e padronização, com governança de diretrizes nacionais e participação dos tribunais  
-C) apenas uma biblioteca de mapeamento objeto-objeto em Java  
-D) apenas um mecanismo de descoberta de instâncias de microsserviço  
-E) política exclusiva de banimento de APIs no Judiciário  
+C) realizar testes somente nas soluções disponibilizadas na PDPJ, descartando as soluções concorrentes.
+
+D) promover a análise das mudanças de código-fonte implementadas somente pelo CNJ e PDPJ.
+
+E) corrigir e aprovar códigos-fonte que não alcançaram os critérios mínimos definidos durante a análise sintática.
+
+
+**19.** (FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 58 de 60)
+
+Considere a Portaria CNJ nº 252/2020, que institui a Rede de Governança da Plataforma Judicial do Poder Judiciário Brasileiro (PDPJ-Br) e seu artigo 4º.Na composição da Rede,
+
+A) inclui-se a Gerência Executiva da Secretaria Especial de Informática.
+
+B) inclui-se o Comitê Gestor Regional da CNJ.
+
+C) inclui-se a Comissão Permanente de Licitação em Tecnologia da Informação.
+
+D) incluem-se os Comitês Gestores dos Tribunais.
+
+E) incluem-se os Comitês Gestores dos Órgãos Públicos das três esferas de Governo.
+
+
+**20.** (FGV | TJTO 2022 | Técnico Judiciário, Informática | Questão 78 de 80)
+
+De acordo com o Art. 5º da Portaria CNJ nº 253/2020, os serviços que implementam as funcionalidades essenciais básicas para um sistema de processo judicial de tramitação eletrônica, bem como aqueles serviços necessários à integração, à coreografia e à interoperabilidade entre os serviços e soluções que compõem a PDPJ-Br (Plataforma Digital do Poder Judiciário) são os serviços:
+
+A) negociais;
+
+B) estruturantes;
+
+C) de integração com sistemas externos;
+
+D) de aplicações da comunidade externa ao Judiciário;
+
+E) de nuvem computacional.
+
+
+**21.** (FCC | TRF4 2025 | Técnico Judiciário, Área Apoio Especializado, Especialidade Desenvolvimento de Sistema da Informação | Questão 50 de 50)
+
+O Art. 11 da Portaria CNJ nº 253/2020 estabelece que o acesso aos microsserviços deverá ser protegido com mecanismos de autenticação e autorização
+
+A) baseados em OAuth2 a ser provido pelo serviço de Single SignOn da PDPJ-Br.
+
+B) por meio de autenticação de usuário já cadastrado no sistema de processo eletrônico específico do tribunal em que o processo tramita.
+
+C) e utilizar exclusivamente navegadores de internet homologados pelo Conselho Nacional de Justiça (CNJ).
+
+D) baseados em SSL a serem providos pelo serviço de suporte operacional da PDPJ-Br.
+
+E) mediante concórdia com os termos de uso da plataforma no primeiro acesso.
+
+
+**22.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 28 de 60)
+
+A autenticação na Plataforma Digital do Poder Judiciário PDPJ-Br ocorre por meio de uma solução A, baseada em um aplicativo open source de gestão de identidades e acesso, denominado B, com base no protocolo C. De acordo com o texto acima, A, B e C são, correta e respectivamente:
+
+A) Keycloak – Docker – Simple Object Access Protocol (SOAP)
+
+B) Single Sign-On (SSO) – Keycloak – OAuth2 (RFC 6749)
+
+C) Single Sign-On (SSO) – RabbitMQ – Advanced Message Queuing Protocol (AMQP)
+
+D) de access token – Keycloak – Simple Object Access Protocol (SOAP)
+
+E) Keycloak – RabbitMQ – OAuth2 (RFC 4967)
+
+
+**23.** (FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60)
+
+Ao usar o Gateway API com o Service Discovery no contexto da PDPJ-Br, a principal consequência para o frontend em uma aplicação baseada em microsserviços é que o
+
+A) Gateway API diminui a necessidade de autenticação, uma vez que o Service Discovery é integrado ao SSO.
+
+B) frontend deve configurar manualmente os IPs e portas dos serviços disponíveis na plataforma.
+
+C) frontend se torna o responsável pela chamada direta de cada microsserviço individualmente.
+
+D) Gateway API reduz o número de chamadas externas que o frontend precisa fazer, tornando a comunicação mais eficiente.
+
+E) frontend deve gerenciar manualmente as atualizações de endpoint de cada serviço individual registrado.
+
+
+**24.** (FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 52 de 60)
+
+De acordo com a Plataforma Digital do Poder Judiciário - PDPJ-Br, para que uma API seja considerada do tipo RESTful, ela precisa estar em conformidade, dentre outros, com o seguinte critério:
+
+A) ter uma arquitetura cliente/servidor formada por clientes, servidores e recursos, com solicitações gerenciadas por meio de HTTP.
+
+B) possuir o sistema de comunicação entre os componentes por meio de troca de mensagens REST-Enq, fazendo uso de um Message Broker. No caso da PDPJ, utiliza-se a solução BrokerMQ.
+
+C) ter uma interface ampla e livre entre os componentes, desde que sejam usados os parâmetros RESTful Config para que as informações sejam transferidas em um formato padronizado.
+
+D) ter autenticação por meio de uma solução de RFPJ Sign On baseada no protocolo PDPJ Auth2.
+
+E) permitir que as APIs registradas sejam acessíveis por meio do Gateway RESTful-API-Sync.
+
+
+**25.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22) *[aproximação temática]*
+
+*Stack PDPJ (Spring/Zuul/Eureka/Swagger/Flyway/Envers).*
+
+Os microsserviços da Plataforma Digital do Poder Judiciário (PDPJ) são desenvolvidos com tecnologias de código aberto, são implementados com o uso do Spring framework, e Java é a principal linguagem de programação. De acordo com a documentação da PDPJ, faz parte do ecossistema do Spring Framework o
+
+A) Swagger, que organiza os scripts SQL que são executados no banco de dados, funcionando como um controle de versão.
+
+B) Flyway, serviço de documentação que descreve APIs RESTful expressas usando JSON.
+
+C) Zuul, que fornece os recursos de cliente para o serviço de descoberta Eureka.
+
+D) Netflix Eureka, que tem como principal função ser um ponto único de entrada, distribuindo as requisições entre as diversas instâncias de serviços.
+
+E) Data Envers, que é um módulo Hibernate que adiciona funcionalidades de auditoria às entities JPA.
+
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso reais 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **C** |
-| 17 | **B** |
-| 18 | **C** |
-| 19 | **B** |
-| 20 | **C** |
-| 21 | **C** |
-| 22 | **B** |
-| 23 | **C** |
-| 24 | **B** |
-| 25 | **B** |
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **E** | FCC | TRT17 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 69 de 70 |
+| 17 | **A** | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 29 de 60 |
+| 18 | **A** | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 45 de 60 |
+| 19 | **D** | FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 58 de 60 |
+| 20 | **B** | FGV | TJTO 2022 | Técnico Judiciário, Informática | Questão 78 de 80 |
+| 21 | **A** | FCC | TRF4 2025 | Técnico Judiciário, Área Apoio Especializado, Especialidade Desenvolvimento de Sistema da Informação | Questão 50 de 50 |
+| 22 | **B** | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 28 de 60 |
+| 23 | **D** | FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60 |
+| 24 | **A** | FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 52 de 60 |
+| 25 | **E** \* | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22 |
 
-**Notas rápidas:** 16 C (ecossistema); 17 B (interoperar/reusar/padronizar); 18 C (CNJ dirige × tribunais operam); 19 B (cooperação por padrões); 20 C (I e III; II é a tese monolítica errada); 21 C (reduzir a “site de notícias” é incompatível); 22 B (plataforma ≠ monólito); 23 C (adesão ≠ extinção institucional); 24 B (eixos distintos); 25 B (síntese completa do subtópico).
+\* = aproximação temática (questão real correlata quando o nicho é raro em prova).
 
----
+**Fontes:**
+- Q16: https://www.quizinho.com.br/questao/fcc-trt17-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q69
+- Q17: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q29
+- Q18: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q45
+- Q19: https://www.quizinho.com.br/questao/fcc-trt-12-2023-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2023-q58
+- Q20: https://www.quizinho.com.br/questao/fgv-tjto-2022-tecnico-judiciario-informatica-2022-q78
+- Q21: https://www.quizinho.com.br/questao/fcc-trf4-2025-tecnico-judiciario-area-apoio-especializado-especialidade-desenvolvimento-de-sistema-da-informacao-2025-q50
+- Q22: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q28
+- Q23: https://www.quizinho.com.br/questao/fcc-trt6-2025-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2025-q39
+- Q24: https://www.quizinho.com.br/questao/fcc-trt20-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q52
+- Q25: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q22
 
 *Arquivo 01 · Visão PDPJ-Br · Claudionir · TRT4 Analista TI (código 14) · FCC. Próximo: 02 microsserviços.*

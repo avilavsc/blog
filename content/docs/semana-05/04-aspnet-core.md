@@ -328,102 +328,106 @@ E) ASP.NET Core = único nome do PMBOK
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** No contexto de desenvolvimento web referido no edital, ASP.NET Core corresponde, em regra, a:
+**16.** (FCC – SEFAZ-SC/2018 – Auditor-Fiscal – TI) Considere código Razor com lacunas I (verificar POST) e II (exibir `resultado`). Os comandos corretos são, respectivamente,
 
-A) framework para construção de aplicações web e APIs sobre a plataforma .NET moderna, com suporte multiplataforma  
-B) protocolo de roteamento OSPF exclusivo  
-C) sistema de arquivos do ZFS  
-D) nome alternativo obrigatório do jQuery  
-E) norma única de cabeamento estruturado  
+A) `isset($_POST)` e `echo resultado`
+B) `IsPost` e `@resultado`
+C) `@POST` e `${resultado}`
+D) `doPost()` e `out.print(resultado)`
+E) `isPost()` e `${resultado}`
 
-**17.** Considere um enunciado que destaque “servidor HTTP embutido”, “pipeline de middleware” e “appsettings.json”. A associação mais adequada é:
+**17.** (FCC – SEFAZ-SC/2018 – Auditor-Fiscal – TI) Na arquitetura ASP.NET Web API,
 
-A) ASP.NET Core  
-B) Somente ITIL Problem Management  
-C) Único significado de BPMN  
-D) Cabo fibra OM4  
-E) Resolução CNJ 400 como runtime  
+A) o model pode ser serializado para JSON e XML.
+B) o client será obrigatoriamente um navegador web.
+C) só pode haver um controller.
+D) o model é representado por classes VBScript (POOs).
+E) o controller permite somente o método GET.
 
-**18.** Assinale a alternativa que apresenta associação **incorreta**:
+**18.** (FCC – SEFAZ-SC/2018 – Auditor-Fiscal – TI) Com Entity Framework, após adicionar um objeto de domínio a um contexto, para salvar a entidade chama-se
 
-A) Kestrel — servidor embutido típico do ASP.NET Core  
-B) Middleware — componentes do pipeline HTTP  
-C) .NET — plataforma/runtime  
-D) ASP.NET Core — framework web moderno  
-E) ASP.NET Core — sinônimo estrito de ASP.NET Web Forms no .NET Framework  
+A) `ExecuteUpdate()` da classe `DbTransaction`.
+B) `SaveChanges()` da classe `DbContext`.
+C) `InsertData()` da classe `DbConnection`.
+D) `ExecuteQuery()` da classe `DbContext`.
+E) `InsertRecord()` da classe `DbTransaction`.
 
-**19.** Em arquitetura com reverse proxy na frente da aplicação ASP.NET Core, é correto afirmar que:
+**19.** (FCC – SEFAZ-SC/2018 – Auditor-Fiscal – TI) Em trecho ASP.NET/ADO.NET, para adicionar na tabela `Funcionario` um campo inteiro `Id`, a lacuna deve ser
 
-A) a presença de IIS ou Nginx na frente impede conceptualmente o uso de Kestrel  
-B) Kestrel pode permanecer como servidor da aplicação, com o proxy na borda  
-C) ASP.NET Core exige abolir HTTP  
-D) middleware deixa de existir sob proxy  
-E) Razor torna-se protocolo de rede  
+A) `dataset.Funcionario("int","Id");`
+B) `Funcionario.AddField("int","Id");`
+C) `dataset.AddColumn(Funcionario,"System.Int64", "Id");`
+D) `AddNewColumn(Funcionario, "System.Int32", "Id");`
+E) `AddColumn(Funcionario, "System.Integer64", "Id");`
 
-**20.** Diferenciar ASP.NET clássico (System.Web / Web Forms) de ASP.NET Core é relevante em provas porque:
+**20.** (FCC – TRT-12/2023 – Analista Judiciário – TI) Em C# com SHA256, a lacuna correta é:
 
-A) a banca costuma explorar a confusão entre o modelo legado Windows/IIS e o framework redesenhado multiplataforma  
-B) não há qualquer diferença conceitual cobrável  
-C) Core é apenas o nome do Web Forms  
-D) clássico e Core são o mesmo que Bootstrap 5  
-E) a diferença só existe em redes Token Ring  
+A) `byte[] hashBytes = SHA256.GenerateHash(bytes);`
+B) `hashBytes = sha256.ComputeHash(bytes);`
+C) `byte[] hashBytes = sha256.GenerateHash(bytes);`
+D) `hashBytes = SHA256.Hash(bytes);`
+E) `byte[] hashBytes = sha256.ComputeHash(bytes);`
 
-**21.** Relativamente à injeção de dependência no host ASP.NET Core, a leitura mais alinhada ao edital é:
+**21.** (FCC – TRT-1/2025 – Analista Judiciário – TI) Em C#, as lacunas de herança/retorno corretas são:
 
-A) trata-se de recurso integrado ao modelo de hospedagem/aplicação, com tempos de vida configuráveis  
-B) é proibida em qualquer API REST  
-C) equivale exclusivamente ao protocolo DHCP  
-D) substitui o papel do DNS root  
-E) é o nome do cabeçalho `Content-Type`  
+A) `public class CalculoRescisao : Object` e `indenizacao`
+B) `override class Rescisao : Object` e `this.indenizacao`
+C) `class ... extends Object` e `indenizacao*salarioBase`
+D) `public class Rescisao : BaseClass` e `this.mesesTrabalhados*indenizacao`
+E) `class BaseRescisao inherit Object` e `indenizacao`
 
-**22.** Um endpoint que devolve JSON e é mapeado por verbo/rota HTTP, sem view Razor obrigatória, situa-se tipicamente no modelo de:
+**22.** (FCC – TRT-17/2022 – Analista Judiciário – TI) Para a saída Nome1/Nome2 correta com sobrecarga em C#, a lacuna em `Main` é:
 
-A) apenas Web Forms postback  
-B) API / Minimal API ou controller de API no ASP.NET Core  
-C) único uso de COBOL em mainframe  
-D) norma ABNT de papel A4  
-E) somente Kanban WIP  
+A) chamadas estáticas diretas `Identidade(...)` sem instância
+B) instância + argumentos na ordem invertida da saída esperada
+C) chamadas estáticas com ordem invertida
+D) `Identifica obj = new Identifica(); obj.Identidade("Carlos Silva", 1000); obj.Identidade(2000, "Cristina Santos");`
+E) redeclarar `obj` duas vezes no mesmo escopo
 
-**23.** Em questão que contraste papéis, a FCC tipicamente considera **correto** que:
+**23.** (FCC – TRT-12/2023 – Analista Judiciário – TI) Em C# e PHP, para impressão das mensagens de divisão por zero, I e II devem ser:
 
-A) .NET é a plataforma; ASP.NET Core agrega o ferramental web/API sobre ela  
-B) ASP.NET Core é o kernel do hypervisor  
-C) Kestrel é o único banco relacional permitido  
-D) middleware existe apenas em redes Token Bus  
-E) Razor Pages aboliram o HTTP status 404  
+A) `Exception_DivideByZero` no PHP
+B) `Exception` genérica em ambos (sem `DivideByZeroException` no C# quando há catch específico)
+C) `DivideByZeroException` também no PHP
+D) I: `throw new DivideByZeroException("Divisão por zero não é válida.");` II: `throw new Exception("Divisão por zero não é válida.");`
+E) `Exception` no C# e `DivideByZeroException` no PHP
 
-**24.** Qual enunciado descreve **incorretamente** o ASP.NET Core?
+**24.** (FCC – SEFAZ-SC/2018 – Auditor-Fiscal – TI) Para percorrer `List<Pessoa> lista` em C#:
 
-A) Pode expor APIs REST  
-B) Utiliza pipeline de middleware  
-C) É multiplataforma na proposta moderna  
-D) É, por definição, o protocolo IPv4 e o serviço DHCP ao mesmo tempo  
-E) Pode usar Kestrel como servidor embutido  
+A) `foreach (Pessoa p in lista) { }`
+B) `for(... lista.Length() ...)`
+C) `while(Pessoa p from lista)`
+D) `for(... List.GetAt ...)`
+E) `foreach(Get Pessoa in lista)`
 
-**25.** A síntese mais alinhada ao edital, sobre ASP.NET Core, é:
+**25.** (FCC – TRT-12/2023 – Analista Judiciário – TI) Sobre SHA-256 e WPA2, é correto que o
 
-A) framework web/API moderno no .NET, multiplataforma, com middleware e Kestrel; distinto de Web Forms e da mera plataforma .NET  
-B) ASP.NET Core = Web Forms = IIS = jQuery (quatro nomes, um papel)  
-C) Core elimina HTTP e vive só em desktop WinForms  
-D) Core é apenas o nome comercial do PostgreSQL  
-E) A distinção Core/clássico foi abolida em todas as bancas  
+A) SHA-256 pode ser utilizado para criar hashes dos certificados digitais usados na autenticação (ex.: EAP-TLS) em WPA2.
+B) SHA-256 é um protocolo de segurança para redes sem fio.
+C) WPA2 não contém mecanismos de autenticação.
+D) WPA2 é um método de hash criptográfico.
+E) WPA utiliza SHA-256 para criptografar dados.
 
 ---
 
 ### Gabarito comentado (concurso 16–25)
 
-16. **A** — Framework web/API no .NET moderno.  
-17. **A** — Middleware + Kestrel + config = Core.  
-18. **E** — Core ≠ Web Forms.  
-19. **B** — Proxy na frente; Kestrel na app.  
-20. **A** — FCC explora legado × Core.  
-21. **A** — DI nativa com lifetimes.  
-22. **B** — API / Minimal API.  
-23. **A** — Plataforma × framework web.  
-24. **D** — Não é IPv4/DHCP.  
-25. **A** — Cartão mental completo do arquivo 04.
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **B** | FCC SEFAZ-SC/2018 — Razor `IsPost` / `@resultado` |
+| 17 | **A** | FCC SEFAZ-SC/2018 — model JSON/XML |
+| 18 | **B** | FCC SEFAZ-SC/2018 — `SaveChanges` |
+| 19 | **D** | FCC SEFAZ-SC/2018 — coluna Int32 |
+| 20 | **E** | FCC TRT-12/2023 — `ComputeHash` |
+| 21 | **A** | FCC TRT-1/2025 — herança C# |
+| 22 | **D** | FCC TRT-17/2022 — sobrecarga |
+| 23 | **D** | FCC TRT-12/2023 — exceções C#/PHP |
+| 24 | **A** | FCC SEFAZ-SC/2018 — `foreach` |
+| 25 | **A** | FCC TRT-12/2023 — SHA-256 / WPA2 |
+
+**Notas rápidas:** núcleo ASP.NET (16–19) + C#/.NET adjacente do mesmo eixo edital (20–25).
 
 ---
 

@@ -398,17 +398,42 @@ E) Selenium substitui Git, Maven e Jenkins simultaneamente
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (reais) (16–25)
 
-**16.** Uma equipe deseja automatizar integração e entrega contínua (CI/CD). Sobre as ferramentas do eixo DevOps, assinale a alternativa correta.
+> Questões **reais** de provas FCC (preferência TRT Analista TI), com banca/órgão/ano citados. Textos conferidos em Quizinho, QConcursos, Estude Grátis e/ou prova oficial.
 
-A) Selenium automatiza builds e pipelines CI/CD e o CircleCI gerencia apenas repositórios Git, sendo incompatível com Python e Node.js  
-B) Git depende obrigatoriamente do GitHub para existir e, sozinho, realiza integração contínua completa  
-C) GitHub Actions permite workflows de CI/CD definidos em `.github/workflows`, podendo criar/testar *pull requests* entre outras tarefas  
-D) Jenkins é escrito em PHP, exclusivo para testes, e apenas armazena histórico de testes no Git  
-E) Maven é proprietário, possui CI/CD nativo idêntico ao GitLab CI e usa o arquivo principal `pom.java`  
+**16.** (FCC – TRT-20/2024 – Analista Judiciário – Tecnologia da Informação) Uma equipe deseja adotar abordagem DevOps para automatizar o processo de integração e entrega contínua (CI/CD). Para isso, é necessário integrar diversas ferramentas para otimizar a automação dos testes e a entrega do produto. Dentre essas ferramentas, encontra-se o
 
-**17.** Considere o recorte conceitual de um `.gitlab-ci.yml` com seções separadas por *global keywords*. A seção que define configurações padrão aplicáveis aos jobs (ex.: `interruptible`, `timeout`) e a que importa outros arquivos YAML (`local:` / `remote:`) correspondem, respectivamente, a:
+A) Selenium, que é utilizado para automação de builds, testes de integração e execução de pipelines de CI/CD, que integra-se ao CircleCI, que faz a gestão de repositórios Git. O CircleCI é compatível apenas com as linguagens Go, Java e Ruby, apresentando incompatibilidade com Python, Ruby, Scala, Node.js, PHP e Haskell.  
+B) Git. Esta ferramenta precisa ser integrada ao GitHub, uma vez que são interdependentes. Usadas em conjunto, conseguem realizar o controle de versão e proporcionar a integração contínua.  
+C) GitHub Actions, que permite a criação de workflows de CI/CD diretamente no GitHub. Os workflows são definidos no diretório `.github/workflows` de um repositório, que pode ter vários workflows, cada um dos quais podendo executar um conjunto diferente de tarefas, como criar e testar pull requests.  
+D) Jenkins, que é uma ferramenta escrita em PHP, exclusiva para automação de testes, que integra-se ao Git para armazenar o histórico dos testes automatizados executados.  
+E) Maven, que é uma ferramenta proprietária para automação de builds, que também possui capacidades nativas de controle de versões e pipelines de CI/CD, similar ao GitLab CI/CD. Um projeto Maven fica atrelado a um arquivo principal: o pom.java.  
+
+**17.** (FCC – TRT-22/2022 – Analista Judiciário – Tecnologia da Informação) Considere o recorte de um arquivo `.gitlab-ci.yml` que traz algumas opções de configuração de um pipeline GitLab CI/CD, nas seções que são separadas pelas *global keywords*.
+
+```yaml
+stages:
+  - sync
+  - prepare
+  - build-images
+
+I:
+  interruptible: true
+  timeout: 90m
+
+workflow:
+  # regras
+
+variables:
+  # variáveis
+
+II:
+  - local: .gitlab/ci/*.gitlab-ci.yml
+  - remote: 'https://gitlab.com/gitlab-org/frontend/-/merge_request_pipelines.yml'
+```
+
+As *global keywords* I e II correspondem, correta e respectivamente, a
 
 A) `tags` e `directories`  
 B) `dependencies` e `environment`  
@@ -416,93 +441,156 @@ C) `dependencies` e `pages`
 D) `default` e `include`  
 E) `default` e `directories`  
 
-**18.** No Jenkins, o arquivo que tipicamente especifica o pipeline como código, em Domain Specific Language baseada em Groovy, é o:
+**18.** (FCC – TRT-17/2022 – Analista Judiciário – Tecnologia da Informação) Para construir um pipeline como código no Jenkins, um analista utilizou um arquivo de texto simples conhecido como
 
-A) `pom.java`  
+A) Pipejenkins que especifica o encadeamento dos estágios do processo DevSecOps.  
+B) Scripted que especifica o enlace crítico entre as etapas primárias DevOps.  
+C) JenkinsFile que normalmente contém um código Groovy Domain Specific Language.  
+D) JenkinsGroovy que especifica o enlace crítico usando código DomainPline.  
+E) Declarative que especifica o enlace crítico usando código GroovyPline.  
+
+**19.** (FCC – TRT-15/2024 – Analista Judiciário – Tecnologia da Informação) Uma equipe de desenvolvimento utiliza o GitLab CI/CD para automação de builds e deploys. Para otimizar o processo de integração contínua (CI), foi configurado um webhook para disparar automaticamente um pipeline de build assim que um commit é enviado ao branch main. No entanto, durante uma atualização do ambiente de produção, percebeu-se que o webhook falhou e o pipeline não foi executado, causando atraso no deploy. Após uma análise técnica, verificou-se que o problema ocorreu devido a uma falha no endpoint do webhook, que não conseguiu validar a mensagem enviada. A solução técnica que deve ser implementada para garantir que o webhook não falhe novamente devido a erros de validação é
+
+A) configurar uma API reversa para verificar e redirecionar as mensagens do webhook para um endpoint alternativo.  
+B) implementar SSL offloading no servidor para garantir que as mensagens webhook trafeguem com criptografia SSL.  
+C) configurar um balanceador de carga para distribuir as requisições do webhook entre múltiplos endpoints redundantes de validação de mensagens.  
+D) criar um proxy reverso com logs detalhados para monitorar a comunicação e diagnosticar falhas no endpoint do webhook.  
+E) habilitar o recurso de verificação de assinatura (usando token) para checar a integridade das mensagens enviadas pelo webhook.  
+
+**20.** (FCC – TJ-CE/2022 – Analista Judiciário – Ciência da Computação / Sistemas da Informação) Considere duas ferramentas 1 e 2 que permitem a criação de workflows e criam, testam, publicam, fazem o release e implantam código automaticamente.  
+— Similaridades entre as ferramentas 1 e 2 para a configuração de workflow: os arquivos são escritos em YAML e armazenados no repositório; workflows incluem um ou mais jobs; jobs incluem um ou mais passos ou comandos individuais; passos ou atividades podem ser reutilizados ou compartilhados com a comunidade.  
+— Diferenças principais ao se fazer a migração da ferramenta 1 para a ferramenta 2: o paralelismo de teste automático da ferramenta 1 agrupa automaticamente os testes de acordo com as regras especificadas pelo usuário ou informações históricas de tempo e essa funcionalidade não está incorporada na ferramenta 2.  
+— Ao fazer a migração de workflows: a ferramenta 1 define workflows no arquivo `config.yml`, que permite configurar mais de um workflow. A ferramenta 2 requer um arquivo de workflow para cada workflow e será necessário criar um novo arquivo de workflow para cada workflow configurado em `config.yml`.  
+Pelas características apresentadas, as ferramentas 1 e 2 correspondem, correta e respectivamente, a
+
+A) Docker e Jenkins.  
+B) CircleCI e GitHub Actions.  
+C) Maven e Kubernetes.  
+D) Docker e Selenium.  
+E) CircleCI e Jenkins.  
+
+**21.** (FCC – TRT-24/2017 – Analista Judiciário – Tecnologia da Informação) Considere que um Analista está utilizando a ferramenta Maven e precisa definir que seu projeto depende de algumas outras ferramentas. Esta definição é feita inteiramente no POM, usando a tag `<dependencies>`, dentro da qual cada dependência é definida. Considere o trecho de código abaixo.
+
+```xml
+<dependency>
+I
+</dependency>
+```
+
+Em condições ideais, para que seja definido que o projeto depende do JUnit 4.12 e que o Maven adicione a dependência do JUnit apenas no momento em que os testes forem executados, garantindo que a dependência não seja adicionada no artefato que será gerado, a caixa I deve ser corretamente preenchida com
+
+A)
+```xml
+<groupId>junit</groupId>
+<version>4.12</version>
+<test>compile</test>
+```  
+B)
+```xml
+<groupId>junit</groupId>
+<artifactId>junit 4.12</artifactId>
+<compile>test</compile>
+```  
+C)
+```xml
+<groupId>junit</groupId>
+<artifactId>junit</artifactId>
+<version>4.12</version>
+<scope>test</scope>
+```  
+D)
+```xml
+<groupId>junit</groupId>
+<version>4.12</version>
+<exclusion>system</exclusion>
+```  
+E)
+```xml
+<groupId>junit 4.12</groupId>
+<artifactId>junit</artifactId>
+<system>test</system>
+<scope>system</scope>
+```  
+
+**22.** (FCC – TRT-12/2023 – Analista Judiciário – Tecnologia da Informação) Na abordagem DevOps, a integração e a entrega contínuas (CI/CD) juntas são comumente tratadas como um processo relacionado, conhecido como
+
+A) hub register.  
+B) pipeline.  
+C) git hub.  
+D) container register.  
+E) end-to-end.  
+
+**23.** (FCC – TRT-3/2015 – Técnico Judiciário – Tecnologia da Informação) Um técnico de TI está editando um arquivo XML simplificado, que tem o código fonte mostrado abaixo.
+
+```xml
+<project>
+  <modelVersion>2.0.0</modelVersion>
+  <groupId>br.com.trt3</groupId>
+  <artifactId>Conect_Project</artifactId>
+  <version>1.0</version>
+</project>
+```
+
+Este arquivo é a unidade de configuração básica do Maven e deve ficar na raiz do projeto para que se possa chamar as targets de build do projeto. Nele, pode-se declarar a estrutura, dependências e características do projeto. Trata-se do arquivo
+
+A) build.xml  
+B) log4j.xml  
+C) maven.xml  
+D) mvn.xml  
+E) pom.xml  
+
+**24.** (FCC – TJ-CE/2022 – Analista Judiciário – Ciência da Computação / Sistemas da Informação) Em uma aplicação que utiliza Spring Boot e conecta a um banco de dados PostgreSQL, um Analista realizou as configurações abaixo.
+
+```xml
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-data-jpa</artifactId>
+</dependency>
+<dependency>
+  <groupId>org.postgresql</groupId>
+  <artifactId>postgresql</artifactId>
+</dependency>
+```
+
+Tais configurações foram inseridas corretamente no arquivo
+
+A) `manifest.xml`.  
+B) `web.xml`.  
+C) `pom.xml`.  
+D) `server.xml`.  
+E) `data.xml`.  
+
+**25.** **(FCC / TJ-CE / 2022)**  
+Para usar o Gitlab CI/CD são necessários os seguintes passos iniciais:  
+— Certificar-se que haja runners disponíveis para executar os jobs. Se não houver um runner, instalar o GitLab Runner e registrar um runner para a instância, projeto ou grupo.  
+— Criar um arquivo .. I.. na raiz do repositório. Este arquivo é o local onde se definem os jobs CI/CD.  
+— Quando for feito o commit deste arquivo no repositório, o runner executará os jobs.  
+Preenche corretamente a lacuna I:
+
+A) `.gitlab-cicd.yml`  
 B) `.gitlab-ci.yml`  
-C) `Jenkinsfile`  
-D) `config.yml` exclusivo do Maven  
-E) `Pipejenkins`  
-
-**19.** Acerca do Apache Maven, é correto afirmar:
-
-A) Substitui o Git como sistema de controle de versão distribuído  
-B) Utiliza o *Project Object Model* em **`pom.xml`** para gerenciar dependências, compilação, testes e empacotamento  
-C) É o runner oficial exclusivo do GitLab CI  
-D) Define workflows YAML em `.github/workflows`  
-E) Foi escrito para substituir o Keycloak na PDPJ  
-
-**20.** Considere duas ferramentas de CI/CD cujas configs são YAML no repositório; ambas organizam jobs e steps. A ferramenta 1 concentra workflows em `config.yml` e é citada por paralelismo/agrupamento inteligente de testes; a ferramenta 2 tipicamente exige um arquivo de workflow por workflow. As ferramentas 1 e 2 são, respectivamente:
-
-A) Docker e Jenkins  
-B) CircleCI e GitHub Actions  
-C) Maven e Kubernetes  
-D) Docker e Selenium  
-E) CircleCI e Jenkins  
-
-**21.** Assinale a opção que **inverte** indevidamente os papéis das ferramentas.
-
-A) Git versiona; Maven constrói; Jenkins orquestra pipeline  
-B) GitLab CI lê `.gitlab-ci.yml`; runners executam jobs  
-C) CircleCI usa `.circleci/config.yml` com workflows/jobs  
-D) Maven = orquestrador CI; Jenkins = `pom.xml`; GitLab CI = Groovy obrigatório; CircleCI = único VCS  
-E) Selenium pode ser etapa de teste automatizado no pipeline  
-
-**22.** Em um pipeline Java típico orquestrado por Jenkins ou GitLab CI, o comando Maven mais alinhado a “compilar, testar e gerar o artefato” em sequência do ciclo de vida é, em regra, alcançado por fases até:
-
-A) apenas `mvn help:effective-pom` sem efeitos de build  
-B) `package` (após `compile`/`test` conforme invocação), gerando o artefato em `target/`  
-C) somente `mvn archetype:generate` em produção  
-D) `git commit` executado pelo Maven nativamente  
-E) `docker swarm init`  
-
-**23.** Relacione corretamente arquivo e ferramenta.
-
-I. `.gitlab-ci.yml`  
-II. `Jenkinsfile`  
-III. `pom.xml`  
-IV. `.circleci/config.yml`
-
-A) I-Jenkins; II-Maven; III-CircleCI; IV-GitLab  
-B) I-GitLab CI; II-Jenkins; III-Maven; IV-CircleCI  
-C) I-Maven; II-CircleCI; III-GitLab; IV-Jenkins  
-D) I-Selenium; II-Git; III-Docker; IV-Eureka  
-E) Todos equivalem ao mesmo formato Groovy  
-
-**24.** Para fins de preparação no eixo CI/CD do edital (DevOps / PDPJ-Br), a síntese mais adequada é:
-
-A) CI integra com build/testes; CD entrega/implanta; GitLab CI e CircleCI em YAML; Jenkins com Jenkinsfile/Groovy; Maven com `pom.xml` no build Java  
-B) Continuous Deployment elimina a necessidade de testes; Maven é o GitLab CI  
-C) `default` e `directories` são o par global keyword do GitLab cobrado pela FCC  
-D) Jenkinsfile deve ser `pom.java`; CircleCI não usa YAML  
-E) Selenium substitui Jenkins, Maven e GitLab CI  
-
-**25.** Assinale a afirmação **incompatível** com o conteúdo programático e o uso correto das ferramentas.
-
-A) Pipelines devem ser versionados junto ao código (*pipeline-as-code*)  
-B) Jobs de CI podem publicar artefatos e relatórios de teste  
-C) DevSecOps recomenda inserir verificações de segurança no fluxo de entrega  
-D) O arquivo principal de um projeto Maven é o `pom.java`, e o Jenkins é ferramenta escrita em PHP exclusiva para UI tests  
-E) Runners/agents executam os jobs definidos na configuração do pipeline  
+C) `.gitlab-cd.yaml`  
+D) `.gitlab-cd.yml`  
+E) `.gitlab-cicd.yaml`  
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **C** |
-| 17 | **D** |
-| 18 | **C** |
-| 19 | **B** |
-| 20 | **B** |
-| 21 | **D** |
-| 22 | **B** |
-| 23 | **B** |
-| 24 | **A** |
-| 25 | **D** |
+| Q | Gab. | Fonte / nota |
+|---|------|----------------|
+| 16 | **C** | FCC TRT-20/2024 — GitHub Actions em `.github/workflows` (Quizinho) |
+| 17 | **D** | FCC TRT-22/2022 — `default` + `include` (Quizinho / QConcursos) |
+| 18 | **C** | FCC TRT-17/2022 — Jenkinsfile / Groovy DSL (Quizinho / Estude Grátis) |
+| 19 | **E** | FCC TRT-15/2024 — assinatura de webhook com token (Quizinho) |
+| 20 | **B** | FCC TJ-CE/2022 — CircleCI (`config.yml`) × GitHub Actions (Quizinho) |
+| 21 | **C** | FCC TRT-24/2017 — Maven `groupId`/`artifactId`/`version` + `scope` test (QConcursos / Questionei) |
+| 22 | **B** | FCC TRT-12/2023 — CI/CD = pipeline (Quizinho) |
+| 23 | **E** | FCC TRT-3/2015 — arquivo Maven = `pom.xml` (prova / Estude Grátis) |
+| 24 | **C** | FCC TJ-CE/2022 — dependências Spring/PostgreSQL no `pom.xml` (Quizinho) |
+| 25 | **B** | FCC TJ-CE/2022 — arquivo `.gitlab-ci.yml` (Estude Grátis / QConcursos) |
 
-**Notas rápidas:** 16 C (Actions em `.github/workflows` — as demais repetem erros clássicos FCC); 17 D (`default` + `include`); 18 C (Jenkinsfile/Groovy); 19 B (`pom.xml`); 20 B (CircleCI × Actions); 21 D (única que **inverte** tudo); 22 B (`package`/artefato); 23 B (mapa arquivo→ferramenta); 24 A (síntese); 25 D (incompatível: `pom.java` + Jenkins PHP).
+Letras do gabarito neste bloco: **C D C E B C B E C B** (16–25).
 
 ---
 
@@ -514,12 +602,12 @@ E) Runners/agents executam os jobs definidos na configuração do pipeline
 | Conceitos CI × Delivery × Deployment | Seção 1.1 |
 | GitLab: `.gitlab-ci.yml`, stages/jobs, `default`, `include` | 1.5 + Q4/Q17 |
 | Jenkins: Jenkinsfile, Groovy Declarative/Scripted, Java | 1.6 + Q5/Q11/Q18 |
-| Maven: `pom.xml`, lifecycle, papel ≠ orquestrador | 1.7 + Q6/Q10/Q19/Q22 |
+| Maven: `pom.xml`, lifecycle, papel ≠ orquestrador | 1.7 + Q6/Q10/Q21/Q23/Q24 |
 | CircleCI: `config.yml`, contraste Actions | 1.8 + Q7/Q8/Q20 |
-| Anti-confusão Git/Selenium/Docker/distratores FCC | 1.9 + Q9/Q12/Q16/Q21/Q25 |
-| Treino 1–15 com gabarito comentado | 15/15 |
-| FCC 16–25 com tabela + notas | 10/10 |
-| Gabaritos únicos (sem ambiguidade intencional) | Conferidos |
+| Anti-confusão Git/Selenium/Docker/distratores FCC | 1.9 + Q9/Q12/Q16 |
+| Treino 1–15 com gabarito comentado | 15/15 intacto |
+| Concurso 16–25 = questões **reais** + tabela Fonte/nota | 10/10 |
+| Gabaritos oficiais (letras A–E presentes) | Conferidos |
 
 ---
 

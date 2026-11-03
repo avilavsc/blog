@@ -283,7 +283,7 @@ E) Hub/repetidor na física; bridge/switch L2 no enlace (MAC); roteador (e L3) n
 
 ## 3. Questões estilo concurso FCC (16–25)
 
-> Questões de provas FCC (e itens no padrão da banca). Gabarito só ao final.
+> Bloco com questões reais de provas (preferência FCC/TRT Analista TI). Gabarito só ao final.
 
 **16.** (FCC – TRT-6/2018 – Analista Judiciário – TI)  
 Em uma rede de computadores, diferentes tipos de elementos e dispositivos de interconexão são utilizados. Cada um deles opera sobre protocolos específicos das camadas hierárquicas do modelo de referência OSI e da arquitetura TCP/IP. Considerando o modelo OSI, a Bridge, o Hub e o Roteador são mapeados, correta e respectivamente, nas camadas
@@ -303,103 +303,119 @@ C) da Bridge instalada na Switch L2.
 D) da Porta de Broadcast.  
 E) do roteador embutido na Switch L2.
 
-**18.** (Estilo FCC — Analista TI Judiciário)  
-Sobre equipamentos de comunicação em redes locais, analise:
+**18.** (FGV – TCE-GO/2024 – Analista de Controle Externo – TI)  
+Normalmente as LANs não operam de forma isolada. Elas são conectadas entre si ou à Internet. Para interligar LANs, ou segmentos de LANs, usamos dispositivos de conexão, que podem operar em diferentes camadas da arquitetura TCP/IP. Relacione o dispositivo de conexão à respectiva camada na qual ele opera.
 
-I. O switch encaminha quadros com base em endereços MAC, reduzindo o domínio de colisão por porta.  
-II. O roteador interconecta redes distintas, utilizando endereços IP para o encaminhamento de pacotes.  
-III. O hub compartilha um único domínio de colisão entre todas as portas conectadas simultaneamente.
+( ) Hub  
+( ) Roteador  
+( ) Switch  
+( ) Ponte  
 
-Está correto o que se afirma em
+1. Física  
+2. Enlace  
+3. Rede  
 
-A) I, apenas.  
-B) II, apenas.  
-C) I e II, apenas.  
-D) II e III, apenas.  
-E) I, II e III.
+Assinale a opção que indica a relação correta na ordem apresentada.
 
-**19.** (Estilo FCC — Analista TI)  
-Em um switch gerenciável compatível com IEEE 802.1Q, uma porta conecta-se a um único computador de usuário, que envia e recebe quadros sem marcação (tag) de VLAN; outra porta interliga esse switch a um segundo switch e precisa transportar, simultaneamente, o tráfego de várias VLANs, com marcação 802.1Q. Assinale a alternativa que indica, correta e respectivamente, a primeira e a segunda porta.
+A) 1 – 3 – 2 – 2  
+B) 1 – 2 – 2 – 3  
+C) 2 – 3 – 2 – 1  
+D) 2 – 2 – 3 – 1  
+E) 2 – 3 – 2 – 3  
 
-A) Ambas como portas trunk, por se tratar de switch gerenciável.  
-B) Ambas como portas access, pois cada porta pertence a uma VLAN.  
-C) Porta access (untagged) e porta trunk (tagged).  
-D) Porta trunk (tagged) e porta access (untagged).  
-E) Porta nativa e porta híbrida, conforme define o padrão 802.1Q como únicos nomes oficiais exclusivos.
+**19.** (FCC – TRT-6/2018 – Conhecimentos comuns)  
+Um Analista comprou um roteador wireless e o conectou por cabo em um switch para acessar a estrutura de rede cabeada. Isso permitiu que todos os dispositivos sem fio conectados nesse roteador tivessem acesso a todos os serviços disponíveis na rede cabeada, como por exemplo, acesso à internet. Nesse caso, o roteador foi configurado pelo Analista para operar no modo
 
-**20.** (FCC – contexto de conectividade / doutrina cobrada em provas de TI)  
-Sobre equipamentos de conectividade, assinale a associação correta:
+A) ponto-a-ponto.  
+B) access point.  
+C) bridge.  
+D) modem.  
+E) backbone.
 
-A) Repetidor multiportas (hub) possui um domínio de colisão por porta, como o switch.  
-B) Comutador (switch) é dispositivo de camada de enlace que tipicamente possui um domínio de colisão para cada porta.  
-C) Roteador regenera apenas o sinal físico, sem tabela de rotas.  
-D) Bridge opera exclusivamente com endereços IP de camada 3.  
-E) Hub isola automaticamente domínios de broadcast por VLAN 802.1Q.
+**20.** (FCC – TRT-15/2023 – Analista Judiciário – TI)  
+Um Analista de segurança deve implementar um tipo de firewall que atenda APENAS os seguintes requisitos:
 
-**21.** (Estilo FCC — TRT Analista TI)  
-Um técnico afirma: “Como o switch segmenta o domínio de colisão, ele também isola o domínio de broadcast em todas as portas, sem VLAN.” Essa afirmação é
+- Opere na camada de rede.  
+- Forneça controle de acesso entre as redes com base no endereço IP de origem e destino.  
+- Estabeleça o controle com base na interface que está sendo percorrida pelo pacote e sua direção (entrada ou saída).  
 
-A) correta, pois colisão e broadcast são o mesmo conceito.  
-B) correta apenas em hubs gerenciáveis.  
-C) incorreta: sem VLAN (ou roteador), o switch L2 permanece um domínio de broadcast.  
-D) correta somente se todas as portas forem trunk.  
-E) incorreta porque switch opera só na camada física.
+O tipo de firewall que atende tais requisitos é
 
-**22.** (Estilo FCC)  
-Em relação ao Access Point em rede institucional:
+A) UTM.  
+B) SIEM.  
+C) IDS.  
+D) Filtro de pacote.  
+E) Baseado em estados.
 
-A) substitui obrigatoriamente o roteador de borda da WAN pública  
-B) na visão típica de prova, faz a ponte entre clientes 802.11 e a infraestrutura Ethernet  
-C) elimina a tabela MAC do switch de acesso  
-D) opera apenas com endereços de porta TCP 80  
-E) é o nome IEEE do padrão 802.1D
+**21.** (FCC – TRT-19/2022 – Analista Judiciário – TI)  
+Ao pesquisar sobre os padrões IEEE, um Analista observou, corretamente, que bridges que usam LANs virtuais (VLANs)
 
-**23.** (Estilo FCC — anti-confusão de padrões)  
-Assinale a correspondência correta:
+A) nunca fizeram parte do padrão IEEE 802.1D, mas foram especificadas em um padrão separado, o padrão IEEE 802.1Q.  
+B) fazem parte do padrão IEEE 802.3.  
+C) são especificadas no padrão IEEE 802.1s.  
+D) nunca fizeram parte do padrão IEEE 802.1Q, mas foram especificadas em um padrão separado, o padrão IEEE 802.1D.  
+E) são especificadas no padrão IEEE 802.1w.
 
-A) 802.3 especifica VLANs; 802.1Q especifica Ethernet físico.  
-B) 802.1Q trata de VLANs; 802.3 da família Ethernet.  
-C) 802.1X é o padrão de marcação de VLAN tag.  
-D) Hub e roteador são ambos definidos no 802.1w.  
-E) Bridge nunca opera na camada de enlace.
+**22.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+Um Tribunal Regional do Trabalho deseja segmentar sua rede para melhorar a segurança e o desempenho. O administrador de redes decide configurar VLANs para separar o tráfego dos diferentes departamentos. Para que os switches consigam identificar corretamente os pacotes pertencentes a cada VLAN e permitir a segmentação lógica do tráfego, o padrão que deve ser implementado é o IEEE
 
-**24.** (Estilo FCC — Analista TI Judiciário)  
-Um tribunal usa switches L2 no acesso e um roteador (ou switch L3) no núcleo para interligar setores em sub-redes distintas. O benefício cobrável dessa divisão é
+A) 802.1Q  
+B) 802.3af  
+C) 802.3z  
+D) 802.1D  
+E) 802.1X  
 
-A) permitir que broadcasts de um setor inundem todos os demais setores sem filtro  
-B) concentrar colisão em um único domínio global incluindo a WAN  
-C) isolar domínios de broadcast por rede/interface roteada e comutar localmente por MAC no acesso  
-D) abolir endereços IP nos clientes  
-E) tornar desnecessário qualquer default gateway
+**23.** (FCC – SEFAZ-SC/2018 – Auditor Fiscal – TI)  
+Com o objetivo de melhorar a segurança e o desempenho de uma rede local de computadores (LAN), o Administrador da rede implantou o recurso de VLAN utilizando o padrão IEEE 802.1Q. A característica dessa implantação é a utilização
 
-**25.** (Estilo FCC — síntese do subtópico)  
-Para fins do edital TRT4 (elementos de interconexão), a leitura mais adequada é:
+A) do campo Porta Destino do protocolo IP para identificar a VLAN.  
+B) de tags nos quadros Ethernet para identificar a VLAN.  
+C) do campo de Endereço Destino do protocolo IP para identificar a VLAN.  
+D) de uma máscara de sub-rede para distinguir a VLAN.  
+E) do conceito de Classe de endereço IP para distinguir a VLAN.
 
-A) Critério de decisão e camada OSI definem o equipamento: física (hub/repetidor), enlace/MAC (bridge/switch L2), rede/IP (roteador/L3), com impactos distintos em colisão e broadcast  
-B) Qualquer caixa com varias portas RJ-45 é, por definição, um roteador OSI camada 7  
-C) Switch L2 roteia entre VLANs sem gateway  
-D) Domínio de broadcast é segmentado pelo hub half-duplex  
-E) Bridge e hub são mapeados ambos exclusivamente na camada de rede  
+**24.** (FCC – TRT-6/2018 – Analista Judiciário – TI)  
+Os tipos de redes de computadores, LAN e WAN, requerem tecnologias de transmissão adequadas às distâncias físicas envolvidas em cada tipo de rede. Uma correta escolha de tecnologias para a LAN e para a WAN é, respectivamente,
+
+A) ATM e CAT5e.  
+B) CAT5e e 802.11n.  
+C) Token Ring e CAT6.  
+D) Frame Relay e Token Ring.  
+E) Fibra ótica multímodo e Frame Relay.
+
+**25.** (FCC – TCE-GO/2022 – Analista de Controle Externo – TI)  
+Para uma determinada rede wireless foram especificados os seguintes requisitos de segurança:
+
+1. A implantação do padrão 802.1x com servidor RADIUS para controlar o acesso de usuários.  
+2. O mecanismo de autenticação EAP com base em certificado digital do cliente e da rede.
+
+Considerando esses requisitos, a alternativa que descreve, correta e respectivamente, o padrão de segurança e autenticação wireless capaz de atender às especificações da implantação é
+
+A) WEP e EAP-MD-5.  
+B) WPA-Personal e EAP-LEAP.  
+C) WPA2-Enterprise e EAP-TLS.  
+D) WPA3-Personal e EAP-SIM.  
+E) WPA4-Enterprise e EAP-FAST.
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito comentado (FCC 16–25)
 
 | Questão | Gabarito | Fonte / nota |
 |---------|----------|--------------|
 | 16 | **A** | FCC TRT-6/2018 — Bridge/Enlace, Hub/Física, Roteador/Rede |
-| 17 | **B** | FCC TRT-6/2018 — inter-VLAN via Default Gateway (L2 não roteia) |
-| 18 | **E** | I+II+III coerentes com doutrina de equipamentos |
-| 19 | **C** | Access untagged + trunk tagged (802.1Q) |
-| 20 | **B** | Switch L2 = colisão por porta |
-| 21 | **C** | Switch ≠ isolamento automático de broadcast |
-| 22 | **B** | AP como ponte 802.11↔802.3 |
-| 23 | **B** | 802.1Q = VLAN; 802.3 = Ethernet |
-| 24 | **C** | Acesso L2 + núcleo L3 |
-| 25 | **A** | Síntese do eixo do edital |
+| 17 | **B** | FCC TRT-6/2018 — inter-VLAN via Default Gateway |
+| 18 | **A** | FGV TCE-GO/2024 — Hub 1, Roteador 3, Switch 2, Ponte 2 |
+| 19 | **B** | FCC TRT-6/2018 — modo access point |
+| 20 | **D** | FCC TRT-15/2023 — filtro de pacote (APENAS) |
+| 21 | **A** | FCC TRT-19/2022 — VLAN no 802.1Q |
+| 22 | **A** | FCC TRT-1/2025 — 802.1Q |
+| 23 | **B** | FCC SEFAZ-SC/2018 — tags Ethernet |
+| 24 | **E** | FCC TRT-6/2018 — fibra multimodo (LAN) + Frame Relay (WAN) |
+| 25 | **C** | FCC TCE-GO/2022 — WPA2-Enterprise + EAP-TLS (AP/RADIUS) |
 
-**Notas rápidas:** 16 A (ordem do enunciado). 17 B (gateway, não “bridge L2”). 18 E (três corretas). 19 C (access/trunk). 20 B (colisão/porta). 21 C (broadcast único sem VLAN). 22 B (AP ponte). 23 B (padrões). 24 C (desenho campus). 25 A (cartão mental).
+**Notas rápidas:** 16 A. 17 B. 18 A. 19 B (AP). 20 D. 21 A. 22 A. 23 B. 24 E. 25 C.
 
----
+Distribuição do gabarito (16–25): A, B, A, B, D, A, A, B, E, C — letras A–E presentes.
 
 *Arquivo 02 · Equipamentos de rede · Claudionir · TRT4 Analista TI (código 14) · FCC. Próximo: 03 VLAN / STP / 802.1X.*

@@ -343,93 +343,108 @@ E) Correto se o remote for Docker Hub
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (reais) (16–25)
 
-**16.** Em contextos de desenvolvimento alinhados ao edital (DevOps e arquitetura PDPJ-Br), o Git caracteriza-se, em regra, por:
+> Questões **reais** de provas FCC (preferência TRT Analista TI), com banca/órgão/ano citados. Textos conferidos em Quizinho, QConcursos, Estude Grátis e/ou prova oficial.
 
-A) funcionar como catálogo exclusivo de registro e heartbeat de réplicas de microsserviço  
-B) prover controle de versão distribuído do código e de artefatos versionáveis ao longo do tempo  
-C) expor, por si só, a documentação interativa OpenAPI da API  
-D) gerar, na compilação, mapeamentos tipados Entity ↔ DTO  
-E) constituir o mecanismo SSO/OAuth2 da plataforma  
+**16.** (FCC – TRT-5/2022 – Analista Judiciário – Tecnologia da Informação) Considere que um analista adicionou o repositório Git remoto por meio do comando abaixo.
 
-**17.** Relativamente à relação entre Git e GitHub, assinale a opção correta:
+```
+git remote add analista https://github.com/analista/projeto.git
+```
 
-A) A existência de GitHub torna o uso de commits locais conceitualmente impossível  
-B) O Git realiza o versionamento; o GitHub tipicamente hospeda repositórios e oferece recursos de colaboração como Pull Requests  
-C) Git e GitHub são nomes comerciais do Eureka  
-D) GitHub obriga banco único compartilhado entre todos os microsserviços  
-E) Git substitui integralmente qualquer necessidade de CI/CD em todos os enunciados FCC  
+Para remover essa conexão do repositório remoto utiliza-se a instrução
 
-**18.** Comparando o uso isolado de cópias manuais de pastas com o uso de Git em equipe, a vantagem tipicamente cobrada do controle de versão é:
+A) `git remote remove analista`  
+B) `git remote delete origin`  
+C) `git remote remove projeto.git`  
+D) `git remote prune analista`  
+E) `git remote delete https://github.com/analista/projeto.git`  
 
-A) eliminar a necessidade de controllers REST  
-B) tornar mudanças rastreáveis, ramificáveis e sincronizáveis entre ambientes/desenvolvedores  
-C) substituir o Service Discovery  
-D) documentar try-it automaticamente no lugar do Swagger  
-E) registrar a aplicação no Zuul como filtro error  
+**17.** (FCC – TRT-5/2022 – Técnico Judiciário – Tecnologia da Informação) Utilizando a ferramenta de versionamento Git, para mostrar, em linha de comando, a relação de arquivos com alterações pendentes para serem adicionados a um commit, um técnico deve utilizar o comando
 
-**19.** Assinale a alternativa que apresenta associação **incorreta**:
+A) `git staged`  
+B) `git status`  
+C) `git remote show`  
+D) `git show files`  
+E) `git fetch files`  
 
-A) Git — controle de versão  
-B) GitHub — hospedagem/colaboração sobre Git  
-C) Maven — build/gerência de dependências Java  
-D) Git — ponto único de entrada e roteamento de borda (papel de API Gateway)  
-E) Jenkins / GitLab CI / CircleCI — automação CI/CD  
+**18.** (FCC – TRT-17/2022 – Analista Judiciário – Tecnologia da Informação) No prompt de comandos do Windows, a partir da pasta do diretório local ao qual o diretório remoto do Git está vinculado, um analista digitou os comandos abaixo.
 
-**20.** Em enunciado que contraste ferramentas do ciclo de entrega, a FCC tipicamente considera **correto** que:
+```
+git add tribunal.txt
+git status
+git commit -m "Cria o arquivo tribunal.txt"
+```
 
-A) Docker aplica commits e Git orquestra pods no cluster  
-B) O Git versiona a fonte, ao passo que pipelines CI/CD automatizam build, teste e publicação a partir de pontos do histórico  
-C) Git e Jenkins são intercambiáveis em qualquer item  
-D) GitHub aplica rate limit na borda no lugar do gateway  
-E) Maven realiza heartbeat das réplicas  
+Considerando a existência do arquivo `tribunal.txt` no diretório e todas as condições ideais, para efetivar as alterações no repositório remoto, de forma que o arquivo possa ser visualizado por meio do link do repositório no navegador web, o analista deve digitar o comando
 
-**21.** A expressão “proposta de integração de uma branch com revisão e discussão antes do merge na linha principal, em plataforma web” descreve com mais precisão:
+A) `git persist`  
+B) `git merge`  
+C) `git push`  
+D) `git branch`  
+E) `git pull`  
 
-A) Um `git add` isolado sem commit  
-B) Um Pull Request (ou Merge Request, nomenclatura análoga em outras plataformas)  
-C) Um conflito de merge já resolvido automaticamente sem revisão  
-D) Um remote sem URL  
-E) Um `.gitignore` vazio  
+**19.** (FCC – TRT-12/2023 – Analista Judiciário – Tecnologia da Informação) Em um ambiente de versionamento Git, um Analista possui duas branches no repositório: a principal chamada `main` e uma secundária chamada `novaFunc`. Após certificar-se de estar na `main` por meio do comando `git checkout main`, para combinar as alterações feitas na branch `novaFunc` na `main` ele deve utilizar o comando
 
-**22.** Em arquitetura de microsserviços com código em repositório Git e imagem Docker publicada via CI, o uso de Git **não** implica, por si só:
+A) `git pull novaFunc merge main`  
+B) `git push novaFunc merge main`  
+C) `git join novaFunc`  
+D) `git merge novaFunc`  
+E) `git git add novaFunc to main`  
 
-A) possibilidade de versionar o código de cada serviço  
-B) substituição do orquestrador Kubernetes e do registry de containers  
-C) histórico de commits e branches  
-D) base para gatilhar pipelines a partir de push/tag  
-E) rastreabilidade de quem alterou trechos do código  
+**20.** (FCC – TRT-15/2024 – Analista Judiciário – Tecnologia da Informação) A equipe de desenvolvimento de um Tribunal adota o modelo GitFlow para gerenciar o versionamento de código em um repositório GitLab. Durante o desenvolvimento de uma nova funcionalidade, a equipe percebeu que algumas mudanças feitas no branch feature impactam diretamente no branch develop e precisam ser incorporadas imediatamente para integração contínua (CI). Contudo, um dos desenvolvedores cometeu um erro ao realizar um merge, levando à sobrescrita de código existente no develop. O procedimento que a equipe deve adotar para resolver o problema de sobrescrita e prevenir a repetição desse erro no futuro é
 
-**23.** Considere as afirmações:
+A) realizar um `git reset --hard` no branch develop para voltar ao último commit correto e forçar os desenvolvedores a refazerem o merge.  
+B) configurar políticas de revisão opcionais (Operation Request Approvals) no Github para que todas as operações sejam aprovadas por, no mínimo, um revisor.  
+C) fazer um rollback do branch develop usando `git stepback`, garantindo que apenas os commits problemáticos sejam desfeitos sem afetar o histórico.  
+D) configurar um Webhook no GitLab para rejeitar automaticamente merges que causam conflitos ou sobrescritas de código no develop.  
+E) utilizar a estratégia rebase no branch feature para reorganizar os commits e alinhar o histórico com o branch develop antes de realizar um novo merge.  
 
-I. GitHub Actions / CI de plataforma documentam, por si, o schema OpenAPI no lugar do Swagger.  
-II. Git mantém histórico versionado e permite ramificação.  
-III. GitLab CI não se confunde com o conceito de controle de versão do Git.
+**21.** (FCC – TRT-15/2023 – Analista Judiciário – Tecnologia da Informação) Considere os dados abaixo.  
+Personal Access Token (PAT) = `ghp_RCnTgfJovGy6b2WX1WaVyrcfGoHMbdl20Myk`  
+Repositório = `developer.git`  
+Usuário: `trt15`  
 
-Assinale:
+Como administrador no prompt de um computador com o Windows, com o Git devidamente instalado e em condições ideais, para criar uma cópia local do repositório na máquina, permitindo a colaboração no projeto, um Analista deve usar o comando
 
-A) Apenas I  
-B) Apenas II  
-C) II e III  
-D) I e II  
-E) I, II e III  
+A) `git get https://ghp_RCnTgfJovGy6b2WX1WaVyrcfGoHMbdl20Myk@github.com/trt15/developer.git`  
+B) `git clone https://github.com/trt15@ghp_RCnTgfJovGy6b2WX1WaVyrcfGoHMbdl20Myk/developer.git`  
+C) `git clone https://github.com/user:trt15;pass:ghp_RCnTgfJovGy6b2WX1WaVyrcfGoHMbdl20Myk/developer.git`  
+D) `git clone https://ghp_RCnTgfJovGy6b2WX1WaVyrcfGoHMbdl20Myk@github.com/trt15/developer.git`  
+E) `git connect https://github.com/trt15@ghp_RCnTgfJovGy6b2WX1WaVyrcfGoHMbdl20Myk/developer.git`  
 
-**24.** Diferenciar Git de GitLab CI é relevante em provas porque:
+**22.** (FCC – TJ-CE/2022 – Analista Judiciário – Ciência da Computação / Sistemas da Informação) Considere que o Git foi configurado com sucesso, em condições ideais, em ambiente Linux. Depois, o usuário, a partir de seu projeto, em sua máquina local, digitou o seguinte comando: `>> git branch`. O resultado apresentado foi o nome do primeiro branch criado automaticamente pelo Git:
 
-A) não há qualquer diferença conceitual cobrável  
-B) o Git enfatiza versionamento do código; o GitLab CI, automação de pipeline CI/CD  
-C) Git só existe fora do ecossistema de software  
-D) pipeline CI/CD é exclusividade do Eureka  
-E) Git é apenas o nome antigo do MapStruct  
+A) `* main`  
+B) `* principal`  
+C) `* master`  
+D) `* root`  
+E) `* base`  
 
-**25.** A síntese mais alinhada ao edital, sobre Git/GitHub, é:
+**23.** (FCC – TRT-19/2022 – Técnico Judiciário – Tecnologia da Informação) O Git é um sistema de controle de versões utilizado no âmbito da Plataforma Digital do Poder Judiciário Brasileiro (PDPJ-Br). Uma vez que o Git esteja instalado e em condições ideais, um Técnico digita um comando que aciona o Git no seu diretório atual, criando a branch master e permitindo a ele executar os demais comandos do Git. Este comando é:
 
-A) Git = discovery; GitHub = gateway; Maven = docs  
-B) Git = VCS distribuído; GitHub = hospedagem/colaboração; distingue-se de CI/CD (Jenkins, GitLab CI, CircleCI) e de build (Maven)  
-C) Git obriga expor Entity no JSON e elimina DTO  
-D) GitHub substitui Zuul, Eureka e OpenAPI  
-E) Git é o banco H2 do Spring Boot  
+A) `git add`  
+B) `git initialize`  
+C) `git commit`  
+D) `git init`  
+E) `git master`  
+
+**24.** (FCC – TRT-15/2023 – Analista Judiciário – Tecnologia da Informação) O Gitflow trabalha com dois branches principais: Develop e Master, que são permanentes, e
+
+A) dois branches opcionais, Catalog e Basic, que são contínuos durante todo o fluxo CI/CD.  
+B) três branches de suporte, Feature, Release e Hotfix, que são temporários e duram até realizar o merge com os branches principais.  
+C) dois branches operacionais, Deploy e Release, que são temporários e duram até realizar o merge com os branches principais.  
+D) quatro branches, Hotfix, Feature, Release e Deploy, que são contínuos durante todo o fluxo CI/CD.  
+E) três branches de desenvolvimento, Feature, Release e Deploy, que são temporários e duram até realizar o merge com os branches principais.  
+
+**25.** (FCC – TRF4/2025 – Analista Judiciário – Análise de Sistemas de Informação) Na implantação de um novo sistema de gestão processual, a equipe de analistas de um tribunal foi orientada a adotar práticas alinhadas aos princípios de DevOps e DevSecOps, além de estabelecer um fluxo organizado de versionamento de código-fonte utilizando Git e GitLab. No planejamento do pipeline de integração contínua e entrega contínua (CI/CD), optou-se por implementar uma estratégia de ramificação baseada no Gitflow para gerenciar versões de produção e desenvolvimento simultaneamente. Considerando essas práticas, a estruturação adequada desse fluxo envolve
+
+A) a manutenção de uma branch principal voltada à estabilização do código, combinada com merges diretos de funcionalidades em produção sempre que aprovadas.  
+B) a criação de fluxos de entrega contínua estruturados por desenvolvedor, com controle individual de versão descartando a dependência de branches colaborativas.  
+C) a definição de pipelines segmentados por ambiente, com branches de longa duração integrando demandas operacionais e funcionais em ciclos contínuos.  
+D) o uso de uma abordagem centralizada em uma única branch de desenvolvimento principal, com validações manuais antes da publicação das versões.  
+E) a utilização de branches específicas como `"develop"` para integração de novas funcionalidades e `"master/main"` para versões estáveis de produção.  
 
 ---
 
@@ -455,16 +470,20 @@ E) Git é o banco H2 do Spring Boot
 
 ### Concurso (16–25)
 
-16. **B** — Controle de versão distribuído.  
-17. **B** — Git versiona; GitHub hospeda/colabora.  
-18. **B** — Rastreio + branches + sync.  
-19. **D** — Gateway ≠ Git.  
-20. **B** — Git fonte; CI/CD automatiza a partir do histórico.  
-21. **B** — PR / MR.  
-22. **B** — Não substitui K8s/registry.  
-23. **C** — I falsa; II e III verdadeiras.  
-24. **B** — VCS × pipeline.  
-25. **B** — Síntese do arquivo 06.
+| Q | Gab. | Fonte / nota |
+|---|------|----------------|
+| 16 | **A** | FCC TRT-5/2022 Analista — `git remote remove analista` (prova oficial) |
+| 17 | **B** | FCC TRT-5/2022 Técnico — `git status` (Quizinho) |
+| 18 | **C** | FCC TRT-17/2022 — `git push` após commit (Quizinho) |
+| 19 | **D** | FCC TRT-12/2023 — `git merge novaFunc` (Quizinho) |
+| 20 | **E** | FCC TRT-15/2024 — rebase no feature antes do merge (Quizinho / QConcursos) |
+| 21 | **D** | FCC TRT-15/2023 — `git clone` com PAT na URL (Quizinho) |
+| 22 | **C** | FCC TJ-CE/2022 — branch padrão histórico `* master` (Quizinho) |
+| 23 | **D** | FCC TRT-19/2022 Técnico — `git init` (Estude Grátis / CFP) |
+| 24 | **B** | FCC TRT-15/2023 — Feature, Release e Hotfix (Quizinho) |
+| 25 | **E** | FCC TRF4/2025 — develop × master/main (Quizinho) |
+
+Letras do gabarito neste bloco: A, B, C, D, E, D, C, D, B, E (A–E presentes).
 
 ---
 

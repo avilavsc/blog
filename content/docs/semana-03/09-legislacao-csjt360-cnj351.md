@@ -333,112 +333,106 @@ E) Ambas = LGPD exclusiva
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (reais) (16–25)
 
-**16.** A Resolução CNJ nº 351/2020 é corretamente caracterizada como ato normativo que:
+**16.** (FCC — TRT-1ª Região — 2025 — Técnico Judiciário — Área Administrativa) No âmbito da Justiça do Trabalho de primeiro e segundo graus, de acordo com a Resolução CSJT nº 360/2023, a qual regulamenta a Política de Prevenção e Enfrentamento da Violência, do Assédio e de Todas as Formas de Discriminação no primeiro e segundo graus, toda conduta que possa configurar assédio ou discriminação poderá ser noticiada
 
-A) institui a política de sustentabilidade do Poder Judiciário  
-B) institui, no âmbito do Poder Judiciário, a Política de Prevenção e Enfrentamento do Assédio Moral, do Assédio Sexual e da Discriminação  
-C) aprova o Código de Conduta e Valores Éticos exclusivo do TRT4  
-D) obriga o uso de MapStruct em todos os sistemas da PDPJ  
-E) revoga a Lei Geral de Proteção de Dados Pessoais  
+A) apenas pela pessoa que se perceba alvo de assédio ou discriminação no trabalho e pelo Ministério Público do Trabalho.  
+B) por qualquer pessoa que se perceba alvo de assédio ou discriminação no trabalho, apenas.  
+C) por qualquer pessoa que tenha conhecimento de fatos ocorridos com terceiro que possam caracterizar assédio ou discriminação no trabalho e pelo Ministério Público do Trabalho, apenas.  
+D) apenas pelo Ministério Público do Trabalho.  
+E) por qualquer pessoa que se perceba alvo de assédio ou discriminação no trabalho, bem como por qualquer pessoa que tenha conhecimento de fatos que possam caracterizar assédio ou discriminação no trabalho.  
 
-**17.** Acerca da Resolução CSJT nº 360/2023, assinale a alternativa correta.
+**17.** (FCC — TRT-1ª Região — 2025 — Analista Judiciário — Área Judiciária) De acordo com a Resolução do CSJT nº 360/2023, que institui a Política de Prevenção e Enfrentamento da Violência, do Assédio e de Todas as formas de Discriminação no âmbito da Justiça do Trabalho de primeiro e segundo graus, para os fins desta Política considera-se
 
-A) Dispõe sobre a política de prevenção e enfrentamento da violência, do assédio e de todas as formas de discriminação na Justiça do Trabalho de primeiro e segundo graus  
-B) Substitui integralmente a Resolução CNJ nº 400/2021  
-C) Trata exclusivamente de infraestrutura de rede e Wi-Fi  
-D) Aplica-se somente a empresas privadas sem qualquer vínculo com a JT  
-E) Institui o MoReq-Jus  
+A) saúde no trabalho: toda condição ou situação de trabalho que tem o potencial de comprometer o equilíbrio físico, psicológico e social dos indivíduos, e de causar acidente, doença do trabalho e/ou profissional.  
+B) assédio sexual: conduta de conotação sexual praticada contra a vontade de alguém, sob forma verbal, não verbal ou física, manifestada por palavras, gestos, contatos físicos ou outros meios, com o efeito de perturbar ou constranger a pessoa, afetar a sua dignidade, ou de lhe criar um ambiente intimidativo, hostil, degradante, humilhante ou desestabilizador.  
+C) transversalidade: violência e assédio dirigido às pessoas em virtude de seu sexo ou gênero, que impactam de forma desproporcional pessoas de um determinado sexo ou gênero, o que inclui o assédio sexual.  
+D) cooperação horizontal, vertical e transversal: modo de gestão que, entre outros aspectos, promove a valorização e o compartilhamento da experiência de trabalho, a cooperação e a deliberação coletiva e a participação integrada de magistrados e servidores em pesquisas, consultas, grupos gestores, com o objetivo de identificar problemas e propor melhorias no ambiente de trabalho e institucionais.  
+E) gestão participativa: conjunto de normas, instruções, práticas e processos que modulam as relações hierárquicas e competências, os mecanismos de deliberação, a divisão e o conteúdo dos tempos de trabalho, o conteúdo das tarefas, os modos operatórios, os critérios de qualidade e de desempenho.  
 
-**18.** Considere as afirmações abaixo.
+**18.** (FCC — TRT-6ª Região — 2025 — Técnico Judiciário — Área Administrativa) Em conformidade com a Resolução Administrativa TRT6-GP nº 29/2023, com relação à notícia de assédio ou discriminação,
 
-I. A Res. CNJ 351/2020 tem âmbito no Poder Judiciário e foca assédio moral, assédio sexual e discriminação.  
-II. A Res. CSJT 360/2023 volta-se à Justiça do Trabalho de 1º e 2º graus e inclui a dimensão de violência.  
-III. A Res. CNJ 400/2021 é, para todos os efeitos, idêntica à Res. CSJT 360/2023.
+A) após a escuta das partes, havendo possibilidade de resolução do conflito, poderá ser firmado Termo de Ajustamento de Conduta (TAC), sendo que, em caso de reincidência, o(a) noticiado(a) não poderá firmar novo TAC, pelo período de cinco anos.  
+B) sendo inviável a resolução do conflito, o(a) noticiante poderá solicitar, desde que dentro do prazo de 1 ano após a escuta das partes, o encaminhamento da notícia à Presidência do Tribunal, para providências cabíveis, exceto a apuração por meio de sindicância ou processo administrativo disciplinar.  
+C) toda conduta que possa configurar assédio ou discriminação poderá ser noticiada apenas pela pessoa que tenha sofrido o assédio ou a discriminação.  
+D) toda conduta que possa configurar assédio ou discriminação poderá ser noticiada por qualquer pessoa que tenha conhecimento de fatos que possam caracterizar assédio ou discriminação no trabalho.  
+E) a unidade institucional que receber a notícia do assédio ou da discriminação fará sempre o registro formal do relato independentemente da autorização da pessoa noticiante.  
 
-Está correto o que se afirma em:
+**19.** (FCC — TRT-6ª Região — 2025 — Analista Judiciário — Área Administrativa) Considere hipoteticamente que: Morgana, Rodolfo e Julieta são servidores do Tribunal Regional do Trabalho da 6ª Região. Morgana teve conhecimento de que a conduta de Rodolfo em relação a Julieta pode configurar discriminação no ambiente de trabalho. De acordo com a Resolução Administrativa TRT6-GP nº 29/2023 e alterações, Morgana
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) II e III, apenas  
-E) I, II e III  
+A) não poderá noticiar a conduta de Rodolfo, pois também é servidora do Tribunal, mas poderá buscar suporte externo de entidades representativas para que tenha o acolhimento necessário.  
+B) não poderá noticiar a conduta de Rodolfo, pois somente Julieta poderá noticiar referida conduta.  
+C) poderá noticiar a conduta de Rodolfo, sendo que essa notícia deverá ser recebida exclusivamente de forma presencial, pelas unidades institucionais previstas na Resolução citada, observadas suas atribuições específicas.  
+D) poderá noticiar a conduta de Rodolfo, sendo que essa notícia poderá ser recebida de forma presencial ou por qualquer meio telemático, pelas unidades institucionais previstas na Resolução citada, observadas suas atribuições específicas.  
+E) poderá noticiar a conduta de Rodolfo, sendo que a unidade institucional que receber a notícia fará o registro formal, independentemente de autorização expressa de Morgana e sem o resguardo de qualquer sigilo, em razão de sua gravidade.  
 
-**19.** No contexto das políticas em exame, as ações de acolhimento e acompanhamento:
+**20.** (FGV — ENAM — 2025 — 3º Exame Nacional da Magistratura) Sobre o tema lançado na Resolução nº 351/2020 do CNJ, que institui, no Poder Judiciário, a Política de Prevenção e Enfrentamento do Assédio Moral, do Assédio Sexual e da Discriminação, assinale a afirmativa correta.
 
-A) confundem-se necessariamente com a sindicância e o processo administrativo disciplinar  
-B) pautam-se pela lógica do cuidado e têm caráter distinto e autônomo em relação a procedimentos disciplinares formais  
-C) são vedadas em todos os tribunais  
-D) dependem exclusivamente de denúncia anônima obrigatória  
-E) substituem a capacitação de gestores  
+A) A Resolução é aplicável a todas as condutas de assédio e discriminação no âmbito das relações socioprofissionais e da organização do trabalho no Poder Judiciário, praticadas por qualquer meio, exceto aquelas contra estagiários(as), aprendizes, voluntários(as) e terceirizados(as).  
+B) Os profissionais das áreas de gestão de pessoas e de saúde poderão prescrever ações imediatas com o objetivo de preservar a saúde e a integridade física e moral das pessoas afetadas por assédio ou discriminação, sugerindo à Presidência do Tribunal ou à autoridade competente a realocação dos servidores envolvidos, com a anuência desses, em outra unidade.  
+C) A conduta que possa configurar assédio ou discriminação somente poderá ser noticiada pela pessoa que se perceba alvo de assédio ou discriminação no trabalho, ou seja, não pode ser denunciada por terceiros que dela tomem conhecimento.  
+D) A celebração de termos de cooperação técnico-científica para o estudo, a prevenção e o enfrentamento do assédio moral, sexual e da discriminação não está prevista como atribuição da Comissão de Prevenção e Enfrentamento do Assédio Moral, do Assédio Sexual e da Discriminação.  
+E) As Comissões criadas por força da Resolução nº 351/2020 do CNJ substituem as Comissões de Sindicância e de Processo Administrativo Disciplinar porque o acolhimento da notícia se confunde e se comunica com os procedimentos formais de natureza disciplinar.  
 
-**20.** Assinale a opção incompatível com as definições típicas das Resoluções CNJ 351/2020 e CSJT 360/2023.
+**21.** (VUNESP — TJM-SP — 2023 — Escrevente Técnico Judiciário) Com base na Resolução nº 351/2020, que trata da Política de Prevenção e Enfrentamento do Assédio Moral, do Assédio Sexual e da Discriminação, é correto afirmar que
 
-A) Assédio moral pode independer de intencionalidade  
-B) Assédio sexual pode ocorrer por meios verbais, não verbais ou físicos  
-C) Discriminação abrange, entre outras hipóteses, a recusa de adaptação razoável  
-D) A política aplica-se apenas a servidores efetivos, excluindo estagiários e terceirizados  
-E) Condutas podem ocorrer presencialmente ou por meios telemáticos  
+A) o assédio moral corresponde ao processo reiterado e contínuo de condutas intencionalmente abusivas que atentam contra a integridade, identidade e dignidade do trabalhador.  
+B) a apuração da situação de assédio ou discriminação deve ocorrer por meio de processo administrativo disciplinar e, se comprovada a infração, deve ser aplicada a pena de demissão ou aposentadoria compulsória, a depender do regime disciplinar do acusado.  
+C) os órgãos do Poder Judiciário devem manter canal permanente, preferencialmente nas respectivas áreas de gestão de pessoas, de acolhimento, escuta, acompanhamento e orientação a todas as pessoas afetadas por situações de assédio e discriminação no âmbito institucional.  
+D) deverão ser resguardados o sigilo e os compromissos de confidencialidade estabelecidos no encaminhamento de notícia de assédio ou discriminação, sendo admitido o anonimato.  
+E) a realização do assédio moral pressupõe a existência de relação hierárquica entre os envolvidos e corresponde ao processo contínuo de condutas abusivas amparado por estratégias organizacionais que visem obter o engajamento intensivo de funcionários para o atingimento de metas.  
 
-**21.** Em prova de Analista Judiciário – Área Judiciária de TI, confundir a CSJT 360/2023 com o Código de Conduta do TRT4 é inadequado porque:
+**22.** (FCC — TRT-6ª Região — 2025 — Analista Judiciário — Área Administrativa) De acordo com o Código de Ética do Tribunal Regional do Trabalho da 6ª Região, é VEDADO aos(às) servidores(as) do referido Tribunal, dentre outras proibições,
 
-A) ambos são rigorosamente o mesmo texto normativo  
-B) a 360 institui política de prevenção/enfrentamento da violência, assédio e discriminação na JT de 1º/2º graus, ao passo que o Código de Conduta disciplina valores/ética no âmbito do TRT4  
-C) o Código de Conduta institui a PDPJ-Br  
-D) a 360 é norma exclusiva de sustentabilidade ambiental  
-E) não existem normas éticas no TRT4  
+A) fazer ou extrair cópias de relatórios ou de quaisquer outros trabalhos ou documentos ainda não publicados, pertencentes ao Tribunal, para utilização em fins estranhos aos seus objetivos ou à execução dos trabalhos a seu encargo, sem prévia autorização da autoridade competente.  
+B) disseminar, no ambiente de trabalho, informações e conhecimentos obtidos em razão de treinamentos ou de exercício profissional, ainda que possam contribuir para a eficiência dos trabalhos e atividades realizadas pelos(as) demais servidores(as).  
+C) atuar como procurador(a) de outro(a) servidor(a) do Tribunal em processo administrativo de qualquer espécie, salvo se o fizer sem remuneração, podendo, entretanto, exercer a advocacia.  
+D) proceder a divulgação, por qualquer meio e em qualquer situação, sem exceção, de informações de caráter sigiloso, obtidas por qualquer forma, em razão do cargo ou função, e ainda de relatórios, instruções, minutas e informações constantes de processos cujo objeto tenha ou não sido apreciado.  
+E) solicitar ou receber, para si, mesmo em ocasiões de festividade, qualquer tipo de presente de pessoa física ou jurídica interessada na atividade do agente público, inclusive os brindes que não tenham valor comercial.  
 
-**22.** A respeito do órgão interno previsto nas políticas, a associação mais adequada é:
+**23.** (FCC — TRT-1ª Região — 2025 — Analista Judiciário — Área Administrativa) São formas de violação dos direitos humanos o assédio moral e o assédio sexual, principalmente quando incidem sobre grupos historicamente vulneráveis e discriminados. É uma forma de assédio moral contra as pessoas negras quando há
 
-A) CNJ 351 — Comissão de Prevenção e Enfrentamento; CSJT 360 — Comitê de Prevenção e Enfrentamento  
-B) CNJ 351 — Eureka; CSJT 360 — Zuul  
-C) Ambas — apenas Comissão de Licitação  
-D) CNJ 351 — Comitê de Investimentos; CSJT 360 — Comitê de Obras  
-E) Nenhuma das políticas prevê estrutura de monitoramento  
+A) padrões de exigências e críticas desproporcionais.  
+B) comitê de diversidade sexual/étnico-racial na organização.  
+C) questionamento quanto à capacidade intelectual etária.  
+D) microagressões indiscriminadas praticadas pela liderança.  
+E) ridicularização em razão da sua vestimenta.  
 
-**23.** Sobre notícia de assédio ou discriminação, é correto afirmar que:
+**24.** (FCC — TRT-1ª Região — 2025 — Analista Judiciário — Psicologia) O que distingue o assédio moral interpessoal do organizacional é que, no assédio organizacional, tais práticas
 
-A) somente a vítima pode noticiar, sob pena de nulidade absoluta  
-B) qualquer pessoa que se perceba alvo ou que tenha conhecimento dos fatos pode noticiar; resguarda-se o sigilo, vedado o anonimato  
-C) o anonimato é a única forma válida de notícia  
-D) a notícia extingue automaticamente o direito de acolhimento  
-E) a notícia só pode ser feita após trânsito em julgado criminal  
+A) estão realizadas por um assediador que pode ser hierarquicamente superior, igual (colega de trabalho) ou inferior (subordinado) à pessoa assediada.  
+B) apresentam caráter processual por meio de repetição e duração de tais atitudes e situações.  
+C) correspondem a processo sistemático de hostilização, havendo ocorrência de condutas agressivas e hostis, que provocam intimidação e humilhação.  
+D) estão inseridas nas estratégias e métodos de gestão e estão presentes (implicitamente) nas políticas e práticas da empresa.  
+E) geram relação desigual de força ou poder entre as partes envolvidas.  
 
-**24.** A alternativa que corretamente separa eixos normativos de Gerais é:
+**25.** (FCC — TRT-1ª Região — 2025 — Analista Judiciário — Área Administrativa) Alguns ambientes de trabalho, por vezes, são locais para o exercício do “micropoder”, onde se manifestam diferentes expressões de violência. Entre elas estão o assédio moral e a discriminação. Apesar da coincidência do local de sua manifestação, conceitualmente são distintos. O assédio moral
 
-A) 351/360 = assédio/discriminação (violência na 360); 400 = sustentabilidade; Conduta TRT4 = ética local  
-B) 351 = sustentabilidade; 400 = assédio sexual; Conduta = MoReq-Jus  
-C) 351 = 360 = 400 = PDPJ  
-D) Todas as três equivalem à LGPD  
-E) 360 = ENSEC; 351 = MapStruct  
-
-**25.** Para fins de preparação na semana 3 (mapa de Gerais), a síntese mais adequada é:
-
-A) stack Spring + monólito nacional + ENSEC  
-B) CNJ 351 (PJ: assédio moral/sexual/discriminação) + CSJT 360 (JT 1º/2º: violência/assédio/discriminação); canal permanente e acolhimento distintos do PAD; primazia preventiva; não confundir com 400, Conduta TRT4 ou PDPJ  
-C) apenas Portaria 253/2020  
-D) apenas bilhetagem de APIs da 574  
-E) extinção dos tribunais regionais do trabalho  
+A) é praticado no ambiente de trabalho e a discriminação tem sua origem na diferença entre pessoas.  
+B) se caracteriza por sua agressividade e a discriminação se destaca pela agressividade velada.  
+C) se origina na diferença entre pessoas e a discriminação é praticada no ambiente de trabalho.  
+D) é praticado em diversos ambientes e a discriminação é praticada em estrutura hierárquica.  
+E) se destaca pela naturalidade da ação e a discriminação se caracteriza pela sutileza na sua manifestação.  
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **B** |
-| 17 | **A** |
-| 18 | **C** |
-| 19 | **B** |
-| 20 | **D** |
-| 21 | **B** |
-| 22 | **A** |
-| 23 | **B** |
-| 24 | **A** |
-| 25 | **B** |
+| Q | Gab | Fonte / nota |
+|---|-----|--------------|
+| 16 | **E** | FCC TRT-1/2025 — CSJT 360 art. 10 (alvo + quem conhece os fatos) |
+| 17 | **B** | FCC TRT-1/2025 — CSJT 360 art. 2º, IV (definição de assédio sexual) |
+| 18 | **D** | FCC TRT-6/2025 — Res. TRT6-GP 29/2023 (notícia por quem conhece os fatos) |
+| 19 | **D** | FCC TRT-6/2025 — presencial ou telemático; sigilo preservado |
+| 20 | **B** | FGV ENAM/2025 — CNJ 351: ações imediatas / realocação com anuência |
+| 21 | **C** | VUNESP TJM-SP/2023 — CNJ 351: canal permanente de acolhimento |
+| 22 | **A** | FCC TRT-6/2025 — vedação a cópias de documentos não publicados |
+| 23 | **A** | FCC TRT-1/2025 — assédio moral racial: exigências/críticas desproporcionais |
+| 24 | **D** | FCC TRT-1/2025 — assédio organizacional = estratégias/métodos de gestão |
+| 25 | **A** | FCC TRT-1/2025 — assédio no trabalho × discriminação na diferença entre pessoas |
 
-**Notas rápidas:** 16 B (351 = política no PJ); 17 A (360 = JT 1º/2º + violência); 18 C (I e II; III confunde com 400); 19 B (acolher ≠ PAD); 20 D (abrangência ampla — a incompatível); 21 B (Conduta ≠ 360); 22 A (Comissão × Comitê); 23 B (quem noticia + sigilo sem anonimato); 24 A (separação de eixos); 25 B (síntese do subtópico).
+Distribuição 16–25 (A–E): A=3 · B=2 · C=2 · D=2 · E=1.
 
 ---
 
@@ -450,6 +444,6 @@ E) extinção dos tribunais regionais do trabalho
 | 351: assédio moral/sexual + discriminação; âmbito PJ; Comissão; canal permanente; acolhimento ≠ disciplinar; intenção não exigida no moral | Cruzado com texto compilado CNJ (alterações 413/450/518/538/671) |
 | 360: violência + assédio + discriminação; JT 1º/2º; Comitê; presencial/telemático; alinhamento à 351; atualiza linha da CSJT 237/2019 | Cruzado com texto CSJT / JusLaboris |
 | Anti-confusão com 400, Conduta, PDPJ | Mantida no padrão dos arquivos 10/11 da semana 1 |
-| Questões: 15 treino + 10 FCC; sem literal de banco | OK |
+| Q16–25: questões reais FCC (CSJT 360, Res. TRT6-GP 29, Códigos de Ética TRT, assédio moral/discriminação) | OK — Quizinho / Qconcursos / gabarito oficial |
 
 *Arquivo 09 · CSJT 360/2023 + CNJ 351/2020 · Claudionir · TRT4 Analista TI (código 14) · FCC. Semana 3 — Gerais / legislação.*

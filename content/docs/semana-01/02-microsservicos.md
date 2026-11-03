@@ -1,4 +1,4 @@
-﻿+++
++++
 title = '02 — Microsserviços'
 date = '2026-10-02'
 draft = false
@@ -287,113 +287,193 @@ E) Que microsserviço = apenas Swagger UI
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões reais de concurso (16–25)
 
-**16.** Em concursos da área de Tecnologia da Informação do Poder Judiciário, a arquitetura de microsserviços é corretamente associada à ideia de:
+> Bloco substituído por questões **reais** de concurso (FCC preferencialmente; TRT/TRF/TJ quando necessário). O treino 1–15 e o Material permanecem inalterados.
 
-A) um único artefato monolítico cuja republicação é obrigatória a cada alteração pontual de qualquer módulo interno  
-B) serviços de responsabilidade delimitada, com possibilidade de implantação e escalonamento independentes, integrados por interfaces leves  
-C) extinção de quaisquer interfaces entre componentes de software  
-D) uso exclusivo de barramento ESB como único padrão permitido de comunicação, com vedação a APIs HTTP  
-E) compartilhamento indiscriminado e obrigatório de um único banco de dados físico por todos os serviços, como regra definidora do estilo  
+**16.** (FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60)
 
-**17.** Constitui diferença cobrável entre o monólito clássico e o estilo de microsserviços:
+Ao usar o Gateway API com o Service Discovery no contexto da PDPJ-Br, a principal consequência para o frontend em uma aplicação baseada em microsserviços é que o
 
-A) no monólito, a escala pode ser aplicada de forma seletiva a um único domínio sem afetar o empacotamento dominante, como regra típica; nos microsserviços, a escala é sempre do artefato único  
-B) nos microsserviços, costuma-se enfatizar autonomia de deploy por serviço; no monólito, o ciclo de entrega tende a acoplar o conjunto em um artefato dominante  
-C) ambos inviabilizam, por definição, o uso de JSON  
-D) o monólito exige obrigatoriamente service discovery; o microsserviço proíbe HTTP  
-E) não há qualquer diferença conceitual entre os dois modelos em provas de TI  
+A) Gateway API diminui a necessidade de autenticação, uma vez que o Service Discovery é integrado ao SSO.
 
-**18.** No contraste entre SOA clássica e microsserviços, tal como usualmente explorado em enunciados alinhados à PDPJ-Br, é correto afirmar que:
+B) frontend deve configurar manualmente os IPs e portas dos serviços disponíveis na plataforma.
 
-A) microsserviços, no discurso típico de prova, enfatizam APIs leves e maior autonomia dos serviços, ao passo que a SOA clássica é frequentemente associada a integração mais pesada (por exemplo, via ESB/contratos mais formais)  
-B) microsserviços e SOA clássica são termos tecnicamente idênticos e intercambiáveis em qualquer alternativa  
-C) a SOA clássica dispensa qualquer forma de serviço, reduzindo-se a um monólito único  
-D) microsserviços exigem, por definição, a presença obrigatória de um ESB central  
-E) a PDPJ-Br rejeita qualquer forma de serviço em favor exclusivo de aplicações desktop isoladas  
+C) frontend se torna o responsável pela chamada direta de cada microsserviço individualmente.
 
-**19.** A noção de persistência “por serviço”, no contexto de microsserviços, implica principalmente:
+D) Gateway API reduz o número de chamadas externas que o frontend precisa fazer, tornando a comunicação mais eficiente.
 
-A) a obrigatoriedade de um único esquema SQL nacional compartilhado por todas as justiças, com escrita cruzada irrestrita  
-B) que cada serviço detenha autonomia sobre seu modelo de dados, evitando o acoplamento típico de um banco único indiscriminadamente compartilhado  
-C) a proibição de qualquer armazenamento persistente  
-D) a substituição de bancos de dados por arquivos de texto enviados exclusivamente por correio eletrônico  
-E) a necessidade de que todos os serviços efetuem JOIN direto nas tabelas uns dos outros como padrão de integração  
+E) frontend deve gerenciar manualmente as atualizações de endpoint de cada serviço individual registrado.
 
-**20.** Considere as afirmativas abaixo.
 
-I. Microsserviços favorecem deploy e escala com maior independência entre partes do sistema.  
-II. A adoção de microsserviços elimina por completo a complexidade operacional, tornando desnecessários monitoramento e gestão de contratos.  
-III. A comunicação entre microsserviços, no eixo técnico associado à PDPJ no edital, é tipicamente pensada por meio de APIs leves, com REST e JSON como referências usuais.
+**17.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22)
 
-Está correto o que se afirma em:
+Os microsserviços da Plataforma Digital do Poder Judiciário (PDPJ) são desenvolvidos com tecnologias de código aberto, são implementados com o uso do Spring framework, e Java é a principal linguagem de programação. De acordo com a documentação da PDPJ, faz parte do ecossistema do Spring Framework o
 
-A) I, apenas  
-B) II, apenas  
-C) I e III, apenas  
-D) II e III, apenas  
-E) I, II e III  
+A) Swagger, que organiza os scripts SQL que são executados no banco de dados, funcionando como um controle de versão.
 
-**21.** Assinale a opção que apresenta característica **incompatível** com o estilo de microsserviços usualmente cobrado.
+B) Flyway, serviço de documentação que descreve APIs RESTful expressas usando JSON.
 
-A) Limites de responsabilidade por serviço  
-B) Possibilidade de escalonar seletivamente um serviço sob carga  
-C) Definição do estilo pela obrigatoriedade de um único banco compartilhado por todos os serviços com forte acoplamento de escrita  
-D) Integração por contratos de API  
-E) Isolamento relativo de falhas entre serviços distintos  
+C) Zuul, que fornece os recursos de cliente para o serviço de descoberta Eureka.
 
-**22.** Acerca dos trade-offs da arquitetura de microsserviços, é correto concluir que:
+D) Netflix Eureka, que tem como principal função ser um ponto único de entrada, distribuindo as requisições entre as diversas instâncias de serviços.
 
-A) há ganho potencial de flexibilidade de deploy e escala, acompanhado de maior complexidade própria de sistemas distribuídos  
-B) microsserviços garantem latência zero e ausência total de falhas de rede  
-C) o modelo dispensa qualquer preocupação com versionamento de interfaces  
-D) benefícios existem apenas se for adotado um monólito simultaneamente idêntico  
-E) riscos operacionais são conceitualmente impossíveis nesse estilo  
+E) Data Envers, que é um módulo Hibernate que adiciona funcionalidades de auditoria às entities JPA.
 
-**23.** Em enunciado que relacione a PDPJ-Br a microsserviços, a leitura mais adequada é:
 
-A) a PDPJ-Br equivale a um monólito nacional único, sendo microsserviços uma tese incompatível com a plataforma  
-B) microsserviços constituem estilo arquitetural coerente com um ecossistema de capacidades/serviços integráveis, em contraste com a ideia de sistema monolítico único  
-C) microsserviços significam apenas a publicação de notícias em sítio eletrônico do CNJ  
-D) a existência de microsserviços extingue a necessidade de padrões nacionais de integração  
-E) PDPJ-Br e microsserviços são sinônimos estritos de MapStruct  
+**18.** (FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60)
 
-**24.** Um analista afirma que “migrar para microsserviços consiste apenas em dividir o código em pacotes Java dentro do mesmo artefato de deploy único, mantendo um banco compartilhado com escrita cruzada irrestrita e o mesmo ciclo de release para tudo”. Tal afirmação:
+Em um cenário de sistema de microsserviços um técnico deseja expor alguns dos microsserviços para acesso externo e ocultar outros. Como ele está usando o Spring Cloud, para proteger os microsserviços expostos contra solicitações de clientes mal-intencionados, ele pode usar o
 
-A) descreve corretamente e de forma suficiente o estilo de microsserviços  
-B) está correta apenas se o artefato único for nomeado de “microsserviço”  
-C) está incorreta, pois microsserviços pressupõem autonomia relevante de deploy/escala e, em regra, evitam o acoplamento típico de persistência compartilhada indiscriminada  
-D) está correta, pois monólito e microsserviços coincidem na doutrina de prova  
-E) está incorreta somente porque faltou citar a obrigatoriedade de ESB  
+A) Galaxy Eureka como edge server.
 
-**25.** Para fins de preparação em Analista Judiciário – Área de Tecnologia da Informação, a síntese mais adequada de microsserviços é:
+B) Apache Toncat como service discovery.
 
-A) um deploy único + BD compartilhado obrigatório + ESB como única integração + ausência de APIs  
-B) serviços pequenos e autônomos, com deploy/escala independentes, comunicação típica por APIs leves (REST/JSON), tendência a dados por serviço, benefícios de flexibilidade e custos de complexidade distribuída  
-C) apenas uma ferramenta de documentação de API  
-D) apenas o mecanismo de descoberta de instâncias  
-E) política exclusiva de proibir JSON no Judiciário  
+C) Apache Wildfly como security server.
+
+D) Netflix Zuul como edge server.
+
+E) Swagger como security server.
+
+
+**19.** (FCC | TRT15 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60)
+
+O Spring Eureka é uma implementação do padrão de registro de serviços que permite que os microsserviços se registrem automaticamente e se descubram uns aos outros. A porta padrão em que o servidor Eureka irá executar na aplicação Spring Boot e o arquivo em que essa porta é configurada são, respectivamente,
+
+A) `80` e `eureka-server.xml`
+
+B) `15000` e `application-server.yml`
+
+C) `8080` e `pom.xml`
+
+D) `8005` e `eureka-registry.xml`
+
+E) `8761` e `application.properties`
+
+
+**20.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 32 de 60)
+
+Na classe principal de uma aplicação criada com Spring Boot, para fazer com que a aplicação atue como um cliente Eureka utiliza-se a anotação
+
+A) `@EurekaClient`
+
+B) `@EnableEurekaClient`
+
+C) `@EnableDiscoveryEurekaClient`
+
+D) `@EurekaDiscoveryClient`
+
+E) `@IsEurekaClient`
+
+
+**21.** (FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60)
+
+Correspondem, correta e respectivamente, a um componente do Spring Cloud e à principal função do Spring Cloud Config:
+
+A) Spring Security — implementar um padrão de design para a comunicação entre serviços baseados em REST.
+
+B) Spring Boot Actuator — gerenciar o ciclo de vida e o monitoramento de aplicações distribuídas em uma arquitetura de microsserviços.
+
+C) Spring Data JPA — oferecer uma solução para o balanceamento de carga entre instâncias de microsserviços.
+
+D) Spring Cloud Stream — centralizar a configuração de aplicações e serviços, permitindo que configurações sejam atualizadas dinamicamente.
+
+E) Spring Web MVC — fornecer um serviço de autenticação e autorização para microsserviços e aplicações.
+
+
+**22.** (FCC | TRT20 2024 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 59 de 60)
+
+A Resolução CNJ nº 522/2023 em seu Art. 2º estabelece que os sistemas informatizados de gestão de processos e documentos utilizados em atividades judiciais e administrativas dos órgãos integrantes do Poder Judiciário, ainda que segmentados em aplicações, módulos e microsserviços, deverão aderir aos requisitos do MoReq-Jus, com o objetivo de
+
+A) acompanhar o fiel cumprimento desta Resolução e a coordenação do Programa de avaliação do grau de aderência dos sistemas ao MoReq-Jus e de atualização permanente (Programa MoReq-Aval).
+
+B) avaliar o grau de aderência dos requisitos ao MoReq-Jus e de sua atualização permanente especificada no Programa MoReq-Aval/2023.
+
+C) assegurar a concordância, a segurança, a especificidade, o grau de complexidade, a integridade, a razoabilidade e a não duplicidade de processos e documentos do Poder Judiciário.
+
+D) identificar os requisitos funcionais, dados e metadados que serão tratados por serviços interligados ao sistema principal e as referências ao requisito funcional implementado e aos requisitos não funcionais observados por ocasião da especificação de novas funcionalidades ou de melhorias daquelas existentes.
+
+E) assegurar a confidencialidade, a integridade, a disponibilidade, a autenticidade, o não repúdio, a conformidade e a preservação de processos e documentos do Poder Judiciário.
+
+
+**23.** (FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60)
+
+Um Técnico está participando de um projeto de microsserviços distribuídos onde centenas de contêineres são utilizados. Para fazer a orquestração destes contêineres, ou seja, a coordenação e o monitoramento, ele precisa utilizar um recurso que possa permitir que a atualização da aplicação em um contêiner não interrompa o serviço. O recurso sugerido corretamente por ele, nesse caso, foi o
+
+A) Qubes.
+
+B) VirtualBox.
+
+C) VMWare.
+
+D) Docker, em modo padrão.
+
+E) Kubernetes.
+
+
+**24.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 28 de 60) *[aproximação temática]*
+
+*SSO no ecossistema de microsserviços PDPJ.*
+
+A autenticação na Plataforma Digital do Poder Judiciário PDPJ-Br ocorre por meio de uma solução A, baseada em um aplicativo open source de gestão de identidades e acesso, denominado B, com base no protocolo C. De acordo com o texto acima, A, B e C são, correta e respectivamente:
+
+A) Keycloak – Docker – Simple Object Access Protocol (SOAP)
+
+B) Single Sign-On (SSO) – Keycloak – OAuth2 (RFC 6749)
+
+C) Single Sign-On (SSO) – RabbitMQ – Advanced Message Queuing Protocol (AMQP)
+
+D) de access token – Keycloak – Simple Object Access Protocol (SOAP)
+
+E) Keycloak – RabbitMQ – OAuth2 (RFC 4967)
+
+
+**25.** (FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 40 de 60) *[aproximação temática]*
+
+*CI/CD em contexto Eureka/Zuul.*
+
+Integração e implantação contínuas (CI/CD) é uma coleção de práticas usadas para integrar e entregar código rapidamente. Usando a prática de
+
+A) integração contínua (CI), em um cronograma pré-acordado, provavelmente no final do ciclo de sprint, o pacote de código é liberado e testado manualmente pelo time de desenvolvimento.
+
+B) implantação contínua (CD), depois que todo o código é validado com sucesso pelo time de desenvolvimento e qualidade, implanta-se o código manualmente no ambiente de teste ou de produção.
+
+C) implantação contínua (CD) em que o grupo controle de qualidade realiza testes manuais para todos os códigos novos ou modificados. Se for bem-sucedido, o código será liberado para implantação; caso contrário, o lançamento é rejeitado e colocado em espera até que os bugs sejam corrigidos.
+
+D) integração contínua (CI), os desenvolvedores são incentivados a fazer pequenos ajustes de código, mesclar seu código na ramificação de código principal e validá-lo usando testes automatizados.
+
+E) integração contínua (CI), para implementar pipelines devem ser utilizadas ferramentas como Zuul e Eureka.
+
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso reais 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **B** |
-| 17 | **B** |
-| 18 | **A** |
-| 19 | **B** |
-| 20 | **C** |
-| 21 | **C** |
-| 22 | **A** |
-| 23 | **B** |
-| 24 | **C** |
-| 25 | **B** |
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **D** | FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60 |
+| 17 | **E** | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22 |
+| 18 | **D** | FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60 |
+| 19 | **E** | FCC | TRT15 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60 |
+| 20 | **B** | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 32 de 60 |
+| 21 | **D** | FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60 |
+| 22 | **E** | FCC | TRT20 2024 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 59 de 60 |
+| 23 | **E** | FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60 |
+| 24 | **B** \* | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 28 de 60 |
+| 25 | **D** \* | FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 40 de 60 |
 
-**Notas rápidas:** 16 B (limites + deploy/escala + APIs leves); 17 B (autonomia de deploy × artefato dominante); 18 A (APIs leves × SOA/ESB pesada); 19 B (dados por serviço); 20 C (I e III; II nega o trade-off); 21 C (BD único compartilhado incompatível com a ideia típica); 22 A (flexibilidade × complexidade distribuída); 23 B (estilo no ecossistema, não monólito); 24 C (dividir pacotes no mesmo artefato ≠ microsserviços); 25 B (síntese completa do subtópico).
+\* = aproximação temática (questão real correlata quando o nicho é raro em prova).
 
----
+**Fontes:**
+- Q16: https://www.quizinho.com.br/questao/fcc-trt6-2025-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2025-q39
+- Q17: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q22
+- Q18: https://www.quizinho.com.br/questao/fcc-trt4-2022-tecnico-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q38
+- Q19: https://www.quizinho.com.br/questao/fcc-trt15-2023-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2023-q31
+- Q20: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q32
+- Q21: https://www.quizinho.com.br/questao/fcc-trt20-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q53
+- Q22: https://www.quizinho.com.br/questao/fcc-trt20-2024-tecnico-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q59
+- Q23: https://www.quizinho.com.br/questao/fcc-trt4-2022-tecnico-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q31
+- Q24: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q28
+- Q25: https://www.quizinho.com.br/questao/fcc-trt4-2022-tecnico-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q40
 
 *Arquivo 02 · Microsserviços · Claudionir · TRT4 Analista TI (código 14) · FCC. Próximo: 03 REST / JSON.*

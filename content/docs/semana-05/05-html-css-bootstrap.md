@@ -345,102 +345,110 @@ E) Media queries existem só no ASP.NET Core
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** No contexto de desenvolvimento web do edital, HTML5, CSS3 e Bootstrap 5 relacionam-se, em regra, da seguinte forma:
+**16.** (FCC – TRT-5/2022 – Técnico Judiciário – TI) Considere o contêiner Bootstrap 5. Para definir que este contêiner será responsivo, de largura fixa e centralizado, utiliza-se a classe
 
-A) HTML estrutura o conteúdo; CSS define a apresentação; Bootstrap oferece componentes/grid responsivos sobre essa base  
-B) os três são protocolos de roteamento intercambiáveis  
-C) Bootstrap substitui integralmente o TCP  
-D) CSS é o único nome correto para tags `article`  
-E) HTML5 é o runtime do .NET  
+A) `align-center`
+B) `flex-box`
+C) `container`
+D) `fixed-box`
+E) `container-fluid`
 
-**17.** Considere o uso de elementos `header`, `nav`, `main` e `footer` em uma página. A interpretação mais adequada é:
+**17.** (FCC – TRT-6/2025 – Analista Judiciário – TI) Para aplicar fundo preto com 30% de transparência em um `div`, a instrução CSS correta é:
 
-A) aplicação de semântica HTML5 para regiões do documento  
-B) declaração exclusiva de variáveis Java  
-C) configuração de switch camada 3  
-D) criação de stored procedure  
-E) definição de sprint backlog  
+A) `transparency: 0.3;`
+B) `background-color: filter(#000000, 30%);`
+C) `background-color: rgba(0, 0, 0, 0.3);`
+D) `filter: transparency(70%);`
+E) `background-color: hsla(100, 100%, 100%, 0.3);`
 
-**18.** Assinale a alternativa que apresenta associação **incorreta**:
+**18.** (FCC – TRT-20/2024 – Analista Judiciário – TI) A media query `@media screen and (max-width: 480px) { ... }`
 
-A) padding — espaço interno entre conteúdo e borda  
-B) margin — espaço externo além da borda  
-C) Flexbox — layout com ênfase unidimensional  
-D) CSS Grid — layout bidimensional  
-E) Bootstrap 5 — linguagem de programação equivalente a Java  
+A) será executada em dispositivos cuja tela seja maior que 480 pixels.
+B) será chamada por meio de `@import query('@media')`.
+C) será executada apenas em telas com largura exatamente igual a 480 pixels.
+D) não será executada, pois a sintaxe está incorreta (falta `and`).
+E) será executada apenas em dispositivos cuja largura da tela seja menor ou igual a 480 pixels.
 
-**19.** Em enunciado que destaque “doze colunas”, “breakpoints `md`/`lg`” e “navbar/modal”, a associação mais adequada é:
+**19.** (FCC – TJ-CE/2022 – Analista Judiciário – Sistemas da Informação) Para colocar a cor de fundo vermelha apenas dos inputs do tipo text:
 
-A) Bootstrap (visão de framework CSS de UI)  
-B) Somente SNMP  
-C) Único significado de COBIT EDM  
-D) Cabo coaxial 10BASE5  
-E) PMBOK como folha de estilo  
+A) `input[type=text] {background-color:#00ff00}`
+B) `input.type[text] {background-color:#ff0000}`
+C) `input[type=text] {background-color:#ff0000}`
+D) `input.type[text] {background: rgb(0,255,0)}}`
+E) `input[type('text')] {background-color:rgb(255,0,0)}`
 
-**20.** Relativamente ao Bootstrap 5, é correto afirmar que:
+**20.** (FCC – TRT-20/2024 – Analista Judiciário – TI) A linha `lks.classList.toggle("visible");`
 
-A) a versão 5 mantém jQuery como dependência obrigatória de todos os plugins, segundo a linha clássica da v4  
-B) a v5 removeu a dependência de jQuery, adotando abordagem de JavaScript própria/moderna  
-C) Bootstrap 5 é um SGBD  
-D) Bootstrap 5 substitui o HTML por binário  
-E) Bootstrap 5 existe apenas no mainframe  
+A) faz com que o elemento `links` tenha a classe `visible` adicionada ou removida a cada chamada.
+B) torna visível a lista de classes CSS do elemento.
+C) não será executada por erro em `getElementById`.
+D) aplica o valor `visible` tornando o elemento visível.
+E) gerará erro, pois `toggle` não se aplica a `class`.
 
-**21.** O modelo de caixa (box model) do CSS é relevante em provas porque:
+**21.** (FCC – TRT-6/2025 – Analista Judiciário – TI) Para buscar o primeiro elemento com id `imagens`:
 
-A) a banca costuma cobrar a distinção entre content, padding, border e margin  
-B) não há diferença entre margin e padding  
-C) box model é exclusivo do protocolo FTP  
-D) box model aboliu o HTML  
-E) box model é sinônimo de Kanban  
+A) `document.querySelector('#imagens');`
+B) `document.getElementFromId('imagens');`
+C) `document.querySelector('.imagens');`
+D) `document.getElementbyId('#imagens');`
+E) `document.getIdentification('#imagens');`
 
-**22.** Em design responsivo, media queries CSS servem prioritariamente para:
+**22.** (FCC – TRT-11/2017 – Técnico Judiciário – TI)  
+No corpo de uma página HTML há `<p id="t1">TRT</p>` e `<p class="t2">11ª Região</p>`. Para definir a cor vermelha (`#ff0000`) desses parágrafos em CSS:
 
-A) aplicar estilos condicionados a características do viewport/dispositivo  
-B) autenticar usuários no Active Directory  
-C) versionar schema Flyway  
-D) descobrir serviços Eureka  
-E) assinar XML com certificado de hardware  
+A) `.t1, #t2{color:#ff0000}`  
+B) `p#t1, p.t2{color:#0000ff}`  
+C) `p.t1, p#t2{font-color:#ff0000}`  
+D) `p{font-color:#ff0000}`  
+E) `#t1, .t2{color:#ff0000}`
 
-**23.** Qual enunciado descreve **incorretamente** o HTML5?
+**23.** (FCC – TRT-5/2022 – Técnico Judiciário – TI)  
+jQuery: ao clicar no botão `#ocultar`, ocultar todos os `p`. A lacuna correta é
 
-A) Permite elementos semânticos de estrutura  
-B) Oferece tipos de input modernos em formulários  
-C) Possui elementos nativos de áudio e vídeo  
-D) É, por definição, o motor de layout Flexbox do CSS  
-E) Não se confunde com folha de estilo  
+A) `$("p").display(none)`  
+B) `$("p").hide()`  
+C) `$("p").visible(false)`  
+D) `$("p").show(false)`  
+E) `$("p").setVisible(false)`
 
-**24.** Em questão que contraste papéis, a FCC tipicamente considera **correto** que:
+**24.** (FGV – DPE-RS/2023 – Técnico Programador)  
+Bootstrap: 4 colunas em telas médias e 2 linhas × 2 colunas em telas menores. A configuração correta usa
 
-A) CSS controla apresentação; HTML marca estrutura; scripts tratam comportamento  
-B) CSS é a única linguagem Turing-completa do browser e substitui o HTML  
-C) Bootstrap elimina a necessidade de qualquer marcação HTML  
-D) tags semânticas são propriedades `color` do CSS  
-E) grid Bootstrap é protocolo IPv6  
+A) `col-md-3 col-6` em cada item dentro de `row`  
+B) classes `row-lg-4` / `row-sm-2`  
+C) `col-md-4 col-2`  
+D) `col` envolvendo `row` (hierarquia invertida)  
+E) `row-3 row-sm-6`
 
-**25.** A síntese mais alinhada ao edital é:
+**25.** (FCC – TRT-5/2022 – Técnico Judiciário – TI)  
+(Bootstrap 5) A classe de contêiner de **largura fluida** (100% da viewport), em contraste com `container`, é
 
-A) HTML5 estrutura; CSS3 apresenta (caixa/flex/grid/responsivo); Bootstrap 5 acelera UI responsiva — camadas distintas, BS5 sem jQuery obrigatório  
-B) HTML = CSS = Bootstrap = JavaScript (quatro nomes, um papel)  
-C) Bootstrap 5 exige Flash e jQuery juntos sempre  
-D) CSS Grid é o nome do Kestrel  
-E) A distinção das camadas web foi abolida nas bancas  
+A) `align-center`  
+B) `flex-box`  
+C) `container`  
+D) `fixed-box`  
+E) `container-fluid`
 
 ---
 
-### Gabarito comentado (concurso 16–25)
+### Gabarito (concurso 16–25)
 
-16. **A** — Estrutura × estilo × framework UI.  
-17. **A** — Semântica HTML5.  
-18. **E** — Bootstrap ≠ linguagem tipo Java.  
-19. **A** — Grid/breakpoints/componentes = Bootstrap.  
-20. **B** — BS5 sem jQuery obrigatório.  
-21. **A** — Content/padding/border/margin.  
-22. **A** — Estilos por viewport.  
-23. **D** — Flexbox é CSS, não “o HTML5”.  
-24. **A** — Separação clássica das camadas.  
-25. **A** — Cartão mental completo do arquivo 05.
+| Questão | Gabarito | Fonte / nota |
+|---------|----------|--------------|
+| 16 | **C** | FCC TRT-5/2022 — Bootstrap `.container` |
+| 17 | **C** | FCC TRT-6/2025 — `rgba(0,0,0,0.3)` |
+| 18 | **E** | FCC TRT-20/2024 — `max-width: 480px` |
+| 19 | **C** | FCC TJ-CE/2022 — `input[type=text]` |
+| 20 | **A** | FCC TRT-20/2024 — `classList.toggle` (DOM/CSS) |
+| 21 | **A** | FCC TRT-6/2025 — `querySelector` (DOM) |
+| 22 | **E** | FCC TRT-11/2017 — `#id` e `.class` |
+| 23 | **B** | FCC TRT-5/2022 — jQuery `hide` |
+| 24 | **A** | FGV DPE-RS/2023 — grid Bootstrap |
+| 25 | **E** | FCC TRT-5/2022 — `container-fluid` (contraste da 16) |
+
+**Notas:** 16–19 e 22–25 HTML/CSS/Bootstrap; 20–21 DOM (mesmo eixo front). 24 FGV por escassez de grid Bootstrap com texto completo FCC.
 
 ---
 

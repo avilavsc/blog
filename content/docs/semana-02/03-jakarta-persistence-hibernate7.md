@@ -357,118 +357,187 @@ E) Rancher
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões reais de concurso (16–25)
 
-**16.** Relativamente à persistência referida no contexto PDPJ-Br, assinale a opção correta:
+> Bloco substituído por questões **reais** de concurso (FCC preferencialmente; TRT/TRF/TJ quando necessário). O treino 1–15 e o Material permanecem inalterados.
 
-A) O edital menciona apenas NoSQL, excluindo JPA e Hibernate  
-B) Constam JPA 2.0 e Hibernate 5+, bem como noções de Jakarta Persistence 3.2 e Hibernate ORM 7.x, observados os normativos  
-C) Hibernate 7.x substitui, por si só, o Keycloak e o OAuth2  
-D) Jakarta Persistence 3.2 é sinônimo estrito de API Gateway  
-E) JPA 2.0 e Jakarta Persistence 3.2 são bancos de dados embutidos  
+**16.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 23)
 
-**17.** A migração conceitual de código Hibernate 5 que utiliza `session.save` / `session.delete` para a linha Hibernate 7, alinhada à especificação, aponta tipicamente para:
+O JPA é uma especificação da plataforma Java que define um padrão para mapeamento objeto-relacional (ORM) e gerenciamento de persistência de dados. No JPA, a forma padrão de realizar o mapeamento de objetos Java (POJOs) para tabelas de bancos de dados relacionais é por meio de
 
-A) `persist` / `remove`  
-B) `register` / `deregister` no Eureka  
-C) `migrate` / `repair` no Flyway  
-D) `map` / `unmap` no MapStruct  
-E) `document` / `undeclare` no Swagger  
+A) configurações XML como `persistence.xml`, `entity.xml` e `mapping.xml`.
 
-**18.** Acerca do pacote das anotações de mapeamento, é correto afirmar que:
+B) anotações como `@Entity`, `@Id`, `@Table` e `@Column`.
 
-A) Jakarta Persistence 3.2 padroniza o uso de `javax.persistence` como namespace exclusivo  
-B) A linha moderna utiliza `jakarta.persistence`, em contraste com o `javax.persistence` do JPA clássico  
-C) Ambos os pacotes foram abolidos em favor de `org.yaml`  
-D) O pacote correto passou a ser apenas `io.kubernetes`  
-E) Não há diferença cobrável de namespace entre JPA 2.0 e Jakarta Persistence 3.2  
+C) interfaces como `EntityFactory`, `QueryBuilder` e `PersistenceUnit`.
 
-**19.** Considere as afirmações:
+D) classes como `HibernateSession`, `EntityManagerFactory` e `DataMapper`.
 
-I. Hibernate é, em regra, uma implementação (provider) da especificação JPA/Jakarta Persistence.  
-II. Jakarta Persistence 3.2 e JPA 2.0 são citáveis no mesmo edital como legado normativo versus noções modernas.  
-III. Hibernate ORM 7.x tem como baseline típico de release o Java 8 exclusivamente.
+E) anotações como `@Database`, `@Primary`, `@Relation` e `@Field`.
 
-Assinale:
 
-A) Apenas I  
-B) Apenas II  
-C) I e II  
-D) II e III  
-E) I, II e III  
+**17.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 30)
 
-**20.** O `SchemaManager` introduzido na linha Jakarta Persistence 3.2 destina-se, em essência, a:
+Hibernate 5.x introduziu suporte nativo para as classes da API de Data e Hora do Java 8 (`java.time`), como
 
-A) versionar scripts de migração com checksums como o Flyway  
-B) oferecer API programática para operações de schema (create/drop/validate/truncate) da unidade de persistência  
-C) registrar heartbeats de microsserviços  
-D) gerar UI OpenAPI  
-E) mapear Entity↔DTO em tempo de compilação  
+A) `Year`, `Month`, `Day` e `Instant`.
 
-**21.** Assinale a alternativa que apresenta associação **incorreta**:
+B) `LocalDate`, `LocalTime` e `LocalDateTime`.
 
-A) JPA 2.0 — legado referido nos normativos PDPJ  
-B) Hibernate 5+ — implementação clássica citada com JPA 2.0  
-C) Jakarta Persistence 3.2 — noções modernas no edital  
-D) Hibernate ORM 7.x — alinhado a Jakarta Persistence 3.2  
-E) Jakarta Persistence 3.2 — substituto direto e exclusivo do RabbitMQ  
+C) `DateTime`, `TimeStamp` e `DateInterval`.
 
-**22.** Em enunciado que contraste ferramentas da stack de persistência, a FCC tipicamente considera **correto** que:
+D) `DateTimeZone`, `DateTimeImmutable` e `DateTimeOffset`.
 
-A) Flyway implementa EntityManager e substitui a especificação JPA  
-B) Envers versiona scripts SQL no lugar do Flyway  
-C) JPA/Jakarta Persistence define o contrato ORM; Hibernate o realiza; Flyway e Envers têm papéis distintos (migração × auditoria)  
-D) Hibernate 7 elimina a necessidade de banco relacional  
-E) `javax.persistence` e `jakarta.persistence` são jars do Eureka  
+E) `NodaTime`, `ZonedDateTime` e `DurationTime`.
 
-**23.** A exigência de Java 17+ no Hibernate ORM 7.x, contrastada com o Hibernate 5 típico de provas, indica principalmente:
 
-A) Que a prova aboliu qualquer menção a JPA 2.0  
-B) Um salto de **baseline de plataforma** na linha moderna, além da mudança para Jakarta Persistence 3.2  
-C) Que apenas H2 é suportado  
-D) Que MapStruct passou a ser obrigatório no EntityManager  
-E) Que SQL foi proibido  
+**18.** (FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 41 de 60)
 
-**24.** Quanto ao método `EntityManager#persist` (família JPA/Jakarta), a leitura cobrável mais segura é:
+Uma analista está desenvolvendo um sistema usando JPA e deseja configurar a utilização do framework Hibernate como provedor de persistência, por meio da instrução `<provider>org.hibernate.ejb.HibernatePersistence</provider>` que deve ser colocada no arquivo
 
-A) Sempre idêntico semanticamente a HTTP DELETE  
-B) Torna persistente uma instância nova (transitória) no contexto de persistência, sob regras da especificação  
-C) Serve apenas para documentar Swagger  
-D) Substitui o Service Discovery  
-E) É exclusivo do Hibernate 3 e inexistente no JPA 2.0  
+A) `hibernate.xml`
 
-**25.** A síntese mais alinhada ao edital e a este subtópico é:
+B) `persistence-unit.xml`
 
-A) Ignore JPA 2.0/Hibernate 5+; memorize só Rancher  
-B) Domine o papel ORM (spec × Hibernate), o legado JPA 2.0/Hibernate 5+ (`javax`, APIs save/delete) e as **noções** Jakarta Persistence 3.2/Hibernate 7 (`jakarta`, Java 17+, persist/remove, SchemaManager etc.), sem confundir com Flyway/Envers  
-C) Jakarta Persistence 3.2 = Zuul; Hibernate 7 = Eureka  
-D) Toda prova FCC exige código completo de migração Hibernate 5→7  
-E) `getSingleResultOrNull` é função do Keycloak  
+C) `persistence.xml`
+
+D) `orm-database-config.xml`
+
+E) `server.xml`
+
+
+**19.** (FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 54 de 60)
+
+Um Analista de um Tribunal necessita habilitar o Hibernate Envers em uma entidade. Para isso, ele deve
+
+A) utilizar o método `Session.saveOrUpdate()` para a entidade.
+
+B) anotar a entidade com `@Audited`.
+
+C) configurar `hibernate.envers.enabled` como `true` no arquivo de configuração.
+
+D) estender a classe `AuditedEntity` fornecida pelo Hibernate Envers.
+
+E) configurar o `audit-log` no arquivo `persistence.xml`.
+
+
+**20.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60)
+
+Uma equipe de desenvolvimento está utilizando Spring Boot para criar uma API RESTful. Durante os testes, observaram que a aplicação demora a inicializar, principalmente devido à configuração do banco de dados. Para melhorar o tempo de inicialização, decidiram desabilitar a criação automática do esquema de banco de dados ao iniciar a aplicação. A configuração, no `application.properties`, que desabilita a criação automática do esquema de banco de dados pelo Spring Boot é a
+
+A) `spring.jpa.hibernate.ddl-auto=none`
+
+B) `spring.datasource.database-auto=false`
+
+C) `spring.jpa.db-sql=disable`
+
+D) `spring.jpa.properties.hibernate.db-auto=disable`
+
+E) `spring.jpa.create-database-init=false`
+
+
+**21.** (FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 34 de 60)
+
+Em uma aplicação Java que utiliza JPA, em condições ideais, considere `manager` um objeto válido criado por meio da instrução abaixo.```javaEntityManager manager =Persistence.createEntityManagerFactory("trtPU").createEntityManager();```A instrução `manager.createNamedQuery("Acesso.findByUserSenha", Acesso.class);` irá retornar um objeto do tipo
+
+A) `List<Acesso>`
+
+B) `Acesso`
+
+C) `Query<Acesso>`
+
+D) `TypedQuery<Acesso>`
+
+E) `ArrayList<Acesso>`
+
+
+**22.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 37 de 60)
+
+Uma equipe de desenvolvimento está implementando uma aplicação Java com persistência de dados utilizando o Hibernate como Object Relational Mapping (ORM). Durante o desenvolvimento, a equipe precisa garantir a geração automática de tabelas no banco de dados com base nas entidades Java mapeadas. No arquivo XML de configuração do Hibernate, a propriedade que garante a geração automática do esquema de banco de dados durante o desenvolvimento é a
+
+A) `<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect.Auto"/>`
+
+B) `<property name="hibernate.create_sql" value="auto"/>`
+
+C) `<property name="hibernate.hbm2ddl.auto" value="update"/>`
+
+D) `<property name="hibernate.connection.url.auto" value="jdbc:mysql://localhost:3306/db"/>`
+
+E) `<property name="hibernate.id.new_generator_mappings" value="auto"/>`
+
+
+**23.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 33 de 60)
+
+Considere a classe abaixo em uma aplicação que utiliza JPA e Hibernate.```@Entitypublic class Cliente { @Id @GeneratedValue(strategy = GenerationType. I ) private Long id; // atributos e métodos restantes}```Para informar ao provedor de persistência que os valores a serem atribuídos ao identificador único (id) serão gerados pela coluna de autoincremento da tabela do banco de dados, utiliza-se, na lacuna I, o valor
+
+A) `TABLE`
+
+B) `AUTO_GENERATED`
+
+C) `AUTO_INCREMENT`
+
+D) `IDENTITY`
+
+E) `SELF_GENERATED`
+
+
+**24.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 51 de 60)
+
+Um Tribunal Regional do Trabalho está desenvolvendo um sistema de gestão de processos judiciais que inclui um módulo de auditoria para rastrear mudanças nos registros dos processos. É essencial que qualquer alteração nos dados dos processos judiciais (por exemplo, petições, decisões, movimentações) seja auditada para garantir a integridade e a transparência. Um Analista de TI decide utilizar Hibernate Envers para atender aos requisitos desse módulo de auditoria e, para isso, deve
+
+A) configurar Hibernate Envers para criar uma tabela de auditoria que registre todas as alterações em entidades anotadas, incluindo quem fez a alteração e quando foi feita.
+
+B) usar Hibernate Envers para criar automaticamente backups diários de todas as tabelas do banco de dados.
+
+C) utilizar Hibernate Envers para migrar dados auditáveis entre diferentes esquemas de banco de dados de forma transparente.
+
+D) implementar Hibernate Envers para validar os dados de auditoria dos processos judiciais antes de serem inseridos no banco de dados.
+
+E) configurar Hibernate Envers para enviar notificações à auditoria, por e-mail, a cada alteração de dados no banco de dados.
+
+
+**25.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22) *[aproximação temática]*
+
+Os microsserviços da Plataforma Digital do Poder Judiciário (PDPJ) são desenvolvidos com tecnologias de código aberto, são implementados com o uso do Spring framework, e Java é a principal linguagem de programação. De acordo com a documentação da PDPJ, faz parte do ecossistema do Spring Framework o
+
+A) Swagger, que organiza os scripts SQL que são executados no banco de dados, funcionando como um controle de versão.
+
+B) Flyway, serviço de documentação que descreve APIs RESTful expressas usando JSON.
+
+C) Zuul, que fornece os recursos de cliente para o serviço de descoberta Eureka.
+
+D) Netflix Eureka, que tem como principal função ser um ponto único de entrada, distribuindo as requisições entre as diversas instâncias de serviços.
+
+E) Data Envers, que é um módulo Hibernate que adiciona funcionalidades de auditoria às entities JPA.
+
 
 ---
 
-### Gabarito comentado (concurso 16–25)
+### Gabarito (concurso reais 16–25)
 
-16. **B** — Dupla camada do edital (legado + noções).  
-17. **A** — `save`/`delete` → `persist`/`remove`.  
-18. **B** — Namespace `jakarta` na linha moderna.  
-19. **C** — I e II verdadeiras; III falsa (7.x = Java 17+).  
-20. **B** — SchemaManager ≠ Flyway.  
-21. **E** — Persistência ≠ mensageria RabbitMQ.  
-22. **C** — Papéis ORM × migração × auditoria.  
-23. **B** — Baseline Java + Jakarta 3.2.  
-24. **B** — Persist de entidade transitória.  
-25. **B** — Cartão mental completo do arquivo 03.
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **B** | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 23 |
+| 17 | **B** | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 30 |
+| 18 | **C** | FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 41 de 60 |
+| 19 | **B** | FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 54 de 60 |
+| 20 | **A** | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60 |
+| 21 | **D** | FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 34 de 60 |
+| 22 | **C** | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 37 de 60 |
+| 23 | **D** | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 33 de 60 |
+| 24 | **A** | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 51 de 60 |
+| 25 | **E** \* | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22 |
 
----
+\* = aproximação temática (questão real correlata quando o nicho é raro em prova).
 
-## 4. Auto-checagem rápida (opcional)
-
-Antes de marcar a questão, pergunte:
-
-1. É **spec ORM** ou **implementação**? → Jakarta/JPA × Hibernate.  
-2. É **legado normativo** ou **noção moderna**? → 2.0/5+ × 3.2/7.x.  
-3. É **`javax`** ou **`jakarta`**?  
-4. É API antiga Hibernate (`save`/`delete`) ou JPA (`persist`/`remove`)?  
-5. É **SchemaManager** ou **Flyway**? Entidade histórica → **Envers**.  
-6. É MapStruct / Swagger / Eureka / Zuul? → **sair** deste arquivo.
+**Fontes:**
+- Q16: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q23
+- Q17: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q30
+- Q18: https://www.quizinho.com.br/questao/fcc-trt22-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q41
+- Q19: https://www.quizinho.com.br/questao/fcc-trt20-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q54
+- Q20: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q38
+- Q21: https://www.quizinho.com.br/questao/fcc-trt-12-2023-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2023-q34
+- Q22: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q37
+- Q23: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q33
+- Q24: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q51
+- Q25: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q22

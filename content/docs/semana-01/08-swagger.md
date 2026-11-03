@@ -1,4 +1,4 @@
-﻿+++
++++
 title = '08 — Swagger / OpenAPI'
 date = '2026-10-08'
 draft = false
@@ -358,111 +358,189 @@ E) OpenAPI obriga SOAP/WSDL
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões reais de concurso (16–25)
 
-**16.** Em arquiteturas de microsserviços alinhadas ao contexto PDPJ / Spring do edital, a utilização de Swagger / OpenAPI caracteriza-se, em regra, por:
+> Bloco substituído por questões **reais** de concurso (FCC preferencialmente; TRT/TRF/TJ quando necessário). O treino 1–15 e o Material permanecem inalterados.
 
-A) funcionar como catálogo exclusivo de registro e heartbeat de todas as réplicas  
-B) documentar e formalizar o contrato da API REST (endpoints, parâmetros, schemas)  
-C) gerar, em tempo de compilação, mapeamentos Entity↔DTO  
-D) atuar como único API Gateway de roteamento e filtros de borda  
-E) constituir o dialect SQL utilizado pelo Hibernate  
+**16.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60)
 
-**17.** A interface que apresenta a documentação OpenAPI de forma visual e permite, frequentemente, a execução de chamadas de teste a partir do navegador denomina-se, em geral:
+Um Analista de TI está desenvolvendo uma API com Spring Boot e deseja integrar Swagger para facilitar a documentação e testes dessa API. Para integrar no Swagger com um projeto Spring Boot a abordagem mais adequada é
 
-A) Eureka Dashboard como registry puro  
-B) Swagger UI  
-C) Zuul filter chain  
-D) MapStruct Processor  
-E) Flyway Community  
+A) adicionar as dependências do Swagger manualmente no classpath do projeto.
 
-**18.** Relativamente à convivência entre Swagger e Zuul, assinale a opção correta:
+B) adicionar as dependências do Swagger no arquivo `pom.xml` ou `build.gradle` do projeto Spring Boot.
 
-A) O Swagger substitui o Zuul como única porta pública de roteamento do cluster  
-B) O Zuul substitui o Swagger como especificação OpenAPI  
-C) São papéis distintos: Swagger documenta o contrato; Zuul atua como API Gateway  
-D) Ambos são nomes comerciais do Eureka Server  
-E) A existência do Swagger torna o API Gateway conceitualmente impossível  
+C) criar um arquivo separado para todas as configurações do Swagger sem importar as dependências no projeto.
 
-**19.** Diferenciar OpenAPI de Service Discovery é relevante em provas porque:
+D) utilizar um plugin externo para o IDE que automaticamente gera a documentação do Swagger sem configuração adicional.
 
-A) OpenAPI e Eureka são sinônimos estritos em todo enunciado FCC  
-B) OpenAPI descreve o contrato da API, ao passo que Discovery localiza instâncias dinamicamente  
-C) Discovery gera Swagger UI; OpenAPI registra heartbeats  
-D) Não há diferença cobrável entre os termos  
-E) OpenAPI é o único mecanismo de discovery do Spring Boot  
+E) configurar o servidor de aplicação para disponibilizar a documentação do Swagger sem modificar o código do projeto.
 
-**20.** Um enunciado afirma: “A equipe versionou um documento YAML com os paths da API, os verbos HTTP e os schemas JSON de request/response.” No vocabulário do edital, esse artefato corresponde, em regra, a:
 
-A) filtro post do Zuul  
-B) especificação OpenAPI (contrato da API)  
-C) registro de instância no Eureka Server  
-D) mapper MapStruct gerado  
-E) migration Flyway  
+**17.** (FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 27 de 60)
 
-**21.** Assinale a alternativa que apresenta associação **incorreta**:
+Uma Analista está desenvolvendo uma API REST para um aplicativo e deseja criar a documentação usando o Swagger. Essa documentação é criada adequadamente através
 
-A) Swagger / OpenAPI — documentação/contrato de API  
-B) Swagger UI — visualização interativa da spec  
-C) Zuul — API Gateway  
-D) MapStruct — documentação OpenAPI interativa  
-E) Eureka — Service Discovery  
+A) do Swagger Codegen, que permite a criação manual da especificação OpenAPI.
 
-**22.** Em questão que contraste papéis na stack Spring citada no PDPJ, a FCC tipicamente considera **correto** que:
+B) da interface Swagger Editor, que permite criar a especificação OpenAPI interativamente.
 
-A) o Swagger concentra entrada/roteamento/filtros e o Eureka documenta try-it  
-B) o Swagger formaliza a documentação/contrato REST e não se confunde com gateway, discovery ou mapper  
-C) Swagger, Zuul e Eureka são intercambiáveis em qualquer enunciado  
-D) o MapStruct realiza o heartbeat das réplicas documentadas no OpenAPI  
-E) Spring Boot elimina a noção de documentação de API  
+C) da elaboração de um arquivo de documentação PDF com o Swagger PDF Editor contendo a descrição das APIs.
 
-**23.** Quando o objetivo da ferramenta é permitir que consumidores entendam rapidamente quais endpoints existem, quais parâmetros enviar e qual JSON esperar — sem ser responsável por localizar réplicas nem por filtrar a borda —, trata-se tipicamente de:
+D) da interface Swagger GetJet, que cria e exibe automaticamente a documentação.
 
-A) Eureka exclusivamente  
-B) Swagger / OpenAPI  
-C) Zuul exclusivamente como registry  
-D) Hibernate Envers  
-E) Rancher como contrato YAML da API  
+E) da elaboração de um arquivo XML de forma manual, contendo a especificação OpenDocumentAPI.
 
-**24.** Afirmar que “Swagger e MapStruct resolvem o mesmo problema de documentação interativa da API” é:
 
-A) Correto, pois ambos geram OpenAPI UI  
-B) Incorreto: MapStruct mapeia objetos; Swagger documenta o contrato HTTP  
-C) Correto somente com banco H2  
-D) Correto porque ambos são filtros Zuul  
-E) Correto porque Eureka unifica mapper e docs  
+**18.** (FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60)
 
-**25.** A síntese mais alinhada ao edital, sobre Swagger no contexto Spring / PDPJ, é:
+Em um código Swagger escrito em JSON, a URL Base é formada por
 
-A) Swagger = discovery; Boot = gateway; Eureka = documentação  
-B) Swagger / OpenAPI = documentação e contrato da API REST (com UI interativa), distinto de Zuul, Eureka e MapStruct  
-C) Swagger obriga banco único compartilhado entre microsserviços  
-D) OpenAPI existe apenas como sinônimo de filtro error do Zuul  
-E) Eureka é a especificação OpenAPI; Swagger é apenas o nome antigo do MapStruct  
+A) host, baseForms e schemes.
+
+B) consumes, host e produces.
+
+C) host, basePath e schemes.
+
+D) produces, schemes e baseForms.
+
+E) application, get e basePath.
+
+
+**19.** (FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 49 de 60)
+
+Para utilizar mecanismos de busca e análise de dados, um Técnico necessitou responder as seguintes questões:I. Como é chamado o processo pelo qual os dados brutos são analisados, normalizados e enriquecidos antes de serem indexados no Elasticsearch?II. O que o Kibana pode gerenciar?III. O Elasticsearch armazena dados como documentos de que tipo?Os itens I, II e III são respondidos, correta e respectivamente, com
+
+A) ingestão de dados – Elastic Stack – JSON
+
+B) ingestão de dados – JSON – HTTP
+
+C) Swagger – dados não formatados – HTML
+
+D) indexação paralela – formatos não SQL – Elastic Stack
+
+E) Swap-mode – Elastic Stack – formato não SQL
+
+
+**20.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22) *[aproximação temática]*
+
+*Swagger nos distratores.*
+
+Os microsserviços da Plataforma Digital do Poder Judiciário (PDPJ) são desenvolvidos com tecnologias de código aberto, são implementados com o uso do Spring framework, e Java é a principal linguagem de programação. De acordo com a documentação da PDPJ, faz parte do ecossistema do Spring Framework o
+
+A) Swagger, que organiza os scripts SQL que são executados no banco de dados, funcionando como um controle de versão.
+
+B) Flyway, serviço de documentação que descreve APIs RESTful expressas usando JSON.
+
+C) Zuul, que fornece os recursos de cliente para o serviço de descoberta Eureka.
+
+D) Netflix Eureka, que tem como principal função ser um ponto único de entrada, distribuindo as requisições entre as diversas instâncias de serviços.
+
+E) Data Envers, que é um módulo Hibernate que adiciona funcionalidades de auditoria às entities JPA.
+
+
+**21.** (FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 42 de 60) *[aproximação temática]*
+
+Uma aplicação envia ao advogado uma notificação avisando que houve uma atualização em um processo, mesmo sem o advogado abrir o aplicativo para procurar a informação. Para que a informação chegue até o sistema do aplicativo do Tribunal em tempo real e até o advogado, da forma relatada, sem a necessidade de ação externa, pode ser utilizado um recurso conhecido como
+
+A) Swagger.
+
+B) Webhook.
+
+C) Mockito Pulling.
+
+D) Eureka Messages.
+
+E) Elastic Messages.
+
+
+**22.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 21) *[aproximação temática]*
+
+De acordo com a documentação da Plataforma Digital do Poder Judiciário – PDPJ-Br, para que uma API seja considerada do tipo RESTful, ela precisa
+
+A) ter uma arquitetura cliente/servidor formada por clientes e servidores, com solicitações gerenciadas por meio dos protocolos HTTP e FTP.
+
+B) estabelecer uma comunicação statefull entre cliente e servidor, ou seja, as solicitações não são separadas e/ou desconectadas.
+
+C) armazenar dados em cache para otimizar as interações entre cliente e servidor.
+
+D) ter uma interface diferente para cada componente para que as informações possam ser transferidas em diferentes formatos.
+
+E) ter um sistema sem camadas que organiza os tipos de servidores envolvidos na recuperação das informações solicitadas sem hierarquias.
+
+
+**23.** (FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 34 de 60) *[aproximação temática]*
+
+Ao implementar operações de manipulação de dados na API RESTful da PDPJ-Br, uma desenvolvedora deseja alterar apenas alguns atributos de um processo existente, sem substituir todos os atributos da entidade. Considerando as diretrizes para o uso de verbos HTTP da PDPJ-Br, o verbo HTTP mais adequado para essa operação é o
+
+A) PATCH.
+
+B) UPDATE.
+
+C) GET.
+
+D) POST.
+
+E) PUT.
+
+
+**24.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60) *[aproximação temática]*
+
+Na abordagem do Spring para construir serviços web RESTful, as solicitações HTTP são tratadas por um controlador, que é uma classe identificada com a anotação
+
+A) `@RestfulController`
+
+B) `@RestfulMapping`
+
+C) `@RestApplicationController`
+
+D) `@RestController`
+
+E) `@RequestController`
+
+
+**25.** (FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60) *[aproximação temática]*
+
+Ao usar o Gateway API com o Service Discovery no contexto da PDPJ-Br, a principal consequência para o frontend em uma aplicação baseada em microsserviços é que o
+
+A) Gateway API diminui a necessidade de autenticação, uma vez que o Service Discovery é integrado ao SSO.
+
+B) frontend deve configurar manualmente os IPs e portas dos serviços disponíveis na plataforma.
+
+C) frontend se torna o responsável pela chamada direta de cada microsserviço individualmente.
+
+D) Gateway API reduz o número de chamadas externas que o frontend precisa fazer, tornando a comunicação mais eficiente.
+
+E) frontend deve gerenciar manualmente as atualizações de endpoint de cada serviço individual registrado.
+
 
 ---
 
-### Gabarito comentado (concurso 16–25)
+### Gabarito (concurso reais 16–25)
 
-16. **B** — Documentar/formalizar contrato REST.  
-17. **B** — Swagger UI = face interativa.  
-18. **C** — Docs ≠ gateway; papéis distintos.  
-19. **B** — Contrato × localização de instâncias.  
-20. **B** — YAML de paths/verbos/schemas = OpenAPI.  
-21. **D** — MapStruct ≠ OpenAPI UI (mapper).  
-22. **B** — Cartão mental sem misturar papéis.  
-23. **B** — Entender endpoints/JSON = Swagger/OpenAPI.  
-24. **B** — Mapper ≠ documentação.  
-25. **B** — Síntese completa do arquivo 08.
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **B** | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60 |
+| 17 | **B** | FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 27 de 60 |
+| 18 | **C** | FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60 |
+| 19 | **A** | FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 49 de 60 |
+| 20 | **E** \* | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22 |
+| 21 | **B** \* | FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 42 de 60 |
+| 22 | **C** \* | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 21 |
+| 23 | **A** \* | FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 34 de 60 |
+| 24 | **D** \* | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60 |
+| 25 | **D** \* | FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60 |
 
----
+\* = aproximação temática (questão real correlata quando o nicho é raro em prova).
 
-## 4. Auto-checagem rápida (opcional)
-
-Antes de marcar a questão, pergunte:
-
-1. É **docs / contrato / UI try-it**? → Swagger / OpenAPI.  
-2. É **entrada / rota / filtro**? → Zuul (Gateway).  
-3. É **onde está a réplica / registry**? → Eureka.  
-4. É **Entity↔DTO compile-time**? → MapStruct.  
-5. É **como a app sobe/jar**? → Boot.
+**Fontes:**
+- Q16: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q53
+- Q17: https://www.quizinho.com.br/questao/fcc-trt-12-2023-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2023-q27
+- Q18: https://www.quizinho.com.br/questao/fcc-trt4-2022-tecnico-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q53
+- Q19: https://www.quizinho.com.br/questao/fcc-trt4-2022-tecnico-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q49
+- Q20: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q22
+- Q21: https://www.quizinho.com.br/questao/fcc-trt22-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q42
+- Q22: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q21
+- Q23: https://www.quizinho.com.br/questao/fcc-trt6-2025-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2025-q34
+- Q24: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q31
+- Q25: https://www.quizinho.com.br/questao/fcc-trt6-2025-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2025-q39

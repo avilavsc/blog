@@ -402,133 +402,193 @@ E) 480 km
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões reais de concurso (16–25)
 
-**16.** Em um órgão público, 35% das 1.200 solicitações de um mês foram respondidas em até 5 dias. O número de solicitações respondidas nesse prazo foi:
+> Bloco substituído por questões **reais** de concurso (FCC preferencialmente; TRT/TRF/TJ quando necessário). O treino 1–15 e o Material permanecem inalterados.
 
-A) 360  
-B) 380  
-C) 400  
-D) 420  
-E) 450  
+**16.** (FCC | TRT-15 2018 | Analista Judiciário, Área Administrativa | Questão 18 de 60)
 
-**17.** O preço de um equipamento de informática, cotado em R$ 3.500,00, sofreu reajuste de 12%. O preço reajustado é:
+Quando se diz que um imposto com alíquota de 20% incide sobre um produto cujo preço inicial é R$ 100,00, é usual concluir que, com o acréscimo desse imposto, o preço final do produto seria de R$ 120,00. Isso é chamado de cálculo “por fora”. Porém, há impostos em que se utiliza o chamado “cálculo por dentro”. Nesses casos, se uma alíquota de 20% incide sobre um produto cujo preço inicial é R$ 100,00, então o preço final é de R$ 125,00, pois 20% do valor final deve ser relativo ao imposto. Com um imposto de alíquota 18% sobre um produto cujo valor inicial é de R$ 1.640,00, a diferença entre os preços finais calculados por dentro e por fora é de
 
-A) R$ 3.780,00  
-B) R$ 3.850,00  
-C) R$ 3.920,00  
-D) R$ 3.960,00  
-E) R$ 4.000,00  
+A) R$ 128,40.
 
-**18.** Uma loja oferece desconto de 18% sobre o preço de tabela de R$ 250,00. O valor pago pelo cliente, em reais, é:
+B) R$ 32,40.
 
-A) 200  
-B) 205  
-C) 210  
-D) 215  
-E) 220  
+C) R$ 360,00.
 
-**19.** Sabe-se que 4 impressoras iguais, trabalhando no mesmo ritmo, imprimem certo lote em 6 horas. Mantidas as condições, o tempo necessário para que 3 dessas impressoras concluam o mesmo lote é:
+D) R$ 64,80.
 
-A) 6 h  
-B) 7 h  
-C) 8 h  
-D) 9 h  
-E) 10 h  
+E) R$ 640,00.
 
-**20.** Um servidor recebe um aumento de 5% e, no mês seguinte, outro aumento de 4% sobre o novo vencimento. O percentual total de aumento, em relação ao vencimento original, é mais próximo de:
 
-A) 9,00%  
-B) 9,10%  
-C) 9,20%  
-D) 9,30%  
-E) 9,50%  
+**17.** (FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 12 de 60)
 
-**21.** Um produto que custava R$ 80,00 passou a custar R$ 68,00. A redução percentual sobre o preço antigo foi de:
+Uma empresa distribui o valor que entra mensalmente da seguinte maneira: metade é destinada a gastos fixos e, para os gastos variáveis, 25% do valor é destinado aos investimentos e 15% para o pagamento do pró-labore. O restante é depositado em um fundo emergencial. O dono da empresa fica com 90% do pró-labore. Se, no mês de novembro, o valor depositado no fundo emergencial foi de R$ 32.000,00, então o dono da empresa recebeu nesse mês
 
-A) 12%  
-B) 15%  
-C) 16%  
-D) 18%  
-E) 20%  
+A) R$ 36.000,00
 
-**22.** Em um pregão, o lance inicial de R$ 10.000,00 sofreu desconto de 10% e, em seguida, novo desconto de 5% sobre o valor já reduzido. O lance final foi:
+B) R$ 43.200,00
 
-A) R$ 8.450,00  
-B) R$ 8.500,00  
-C) R$ 8.550,00  
-D) R$ 8.600,00  
-E) R$ 8.650,00  
+C) R$ 48.000,00
 
-**23.** Se 45% dos processos de um setor correspondem a 135 processos, o total de processos do setor é:
+D) R$ 16.000,00
 
-A) 250  
-B) 280  
-C) 300  
-D) 320  
-E) 350  
+E) R$ 72.000,00
 
-**24.** Um técnico afirma: “Após aumentar o preço em 25% e depois conceder desconto de 20% sobre o preço aumentado, o valor voltou exatamente ao original.” Essa afirmação é:
 
-A) verdadeira, porque \(1,25\times 0,80 = 1\) (os fatores se cancelam neste par específico de taxas)  
-B) verdadeira, porque 25 − 20 = 5 e todo residual percentual se anula por subtração  
-C) verdadeira, porque qualquer acréscimo seguido de desconto de taxa menor restaura o original  
-D) falsa, porque acréscimo e desconto nunca devolvem o preço inicial  
-E) falsa, porque \(1,25\times 0,80 = 0,95\) e há perda líquida de 5%  
+**18.** (FCC | TRT-15 2018 | Analista Judiciário, Área Administrativa | Questão 16 de 60)
 
-**25.** Relativamente a porcentagens e proporções cobráveis no bloco de Matemática do edital (código 14), assinale a opção correta:
+Lúcio, Maurício e Júlio são sócios em uma empresa, sendo as partes de cada um: 15%, 25% e 60%, não necessariamente nessa ordem. Cada um dos sócios atua na empresa, mas em diferentes setores: Administração, Vendas e Informática. Além disso, sabe-se que: − o que atua na Administração não é o que tem 15% da empresa; − o que atua em Informática é amigo de infância do que tem 60%; − Júlio não atua em vendas; − quem atua em vendas é o sócio majoritário; − Lúcio tem 25% da empresa. Dessa forma, se a empresa está avaliada em R$ 120.000,00, então o valor da parte de Júlio é
 
-A) Dois descontos sucessivos de 10% equivalem sempre a um único desconto de 20% sobre a base inicial  
-B) Em grandezas inversamente proporcionais, dobrar uma das grandezas dobra a outra  
-C) O fator de um acréscimo de \(p\%\) é \(1+\frac{p}{100}\); o de um desconto de \(p\%\) é \(1-\frac{p}{100}\)  
-D) “A é 30% a mais que B” significa o mesmo que “A é 30% de B”  
-E) A regra de três simples só se aplica a grandezas inversamente proporcionais  
+A) R$ 30.000,00.
+
+B) R$ 18.000,00.
+
+C) R$ 72.000,00.
+
+D) R$ 36.000,00
+
+E) R$ 12.000,00.
+
+
+**19.** (FCC | TRT9 2022 | Técnico Judiciário, Área Administrativa | Questão 16 de 60)
+
+João e Gilberto são muito amigos. Quando Gilberto pediu um empréstimo sem juros a João, este concordou e deu-lhe 25% do que tinha na poupança. Gilberto já pagou 80% do valor emprestado e ainda faltam R$ 100,00. Antes de emprestar o dinheiro a Gilberto, o saldo da poupança de João, em reais, era
+
+A) 2.000,00.
+
+B) 500,00.
+
+C) 3.000,00.
+
+D) 3.500,00.
+
+E) 5.000,00.
+
+
+**20.** (FCC | TRT-15 2018 | Analista Judiciário, Área Apoio Especializado, Especialidade Arquitetura | Questão 18 de 60)
+
+O valor do equipamento A, adquirido por R$ 10.000,00, se deprecia 5% após o primeiro ano de uso e 6% após o segundo ano de uso. O valor do equipamento B, adquirido no mesmo dia em que A foi adquirido, se deprecia 7% após o primeiro ano de uso e 9% após o segundo ano de uso. Sabe-se que, após 2 anos da aquisição e uso dos dois equipamentos, seus valores, já depreciados, são iguais. Uma expressão numérica que, se resolvida corretamente em uma calculadora, fornecerá o valor de aquisição do equipamento B, em reais, é
+
+A) (950 × 940) ÷ (0,93 × 0,91).
+
+B) (105 × 106) ÷ (1,07 × 1,09).
+
+C) (95 × 94) ÷ (0,93 × 0,91).
+
+D) (9500 × 9400) ÷ (0,93 × 0,91).
+
+E) (1050 × 1060) ÷ (1,07 × 1,09).
+
+
+**21.** (FCC | TRT-15 2018 | Analista Judiciário, Área Apoio Especializado, Especialidade Arquitetura | Questão 14 de 60)
+
+Um Tribunal Regional do Trabalho celebrou acordos conciliatórios no valor de R$ 1,210 milhão. Em 55 audiências independentes umas das outras, o percentual de audiências com acordo foi de 40%. Considerando apenas as audiências em que houve acordo, o valor médio dos acordos por audiência foi de
+
+A) R$ 5.500,00.
+
+B) R$ 55.000,00.
+
+C) R$ 88.000,00.
+
+D) R$ 8.800,00.
+
+E) R$ 36.600,00.
+
+
+**22.** (FCC | TRT6 2025 | Técnico Judiciário, Área Administrativa | Questão 11 de 60)
+
+Um fabricante de sabonetes vende cada caixa por R$ 254,40. Uma caixa contém uma dúzia de embalagens e cada embalagem contém 4 sabonetes. Se um comprador solicita mais de 100 caixas, o fabricante faz um desconto de 5% no preço total. O fabricante recebeu um pedido de 6000 sabonetes. O valor a ser pago pelo comprador é
+
+A) R$ 28.620,00.
+
+B) R$ 32.500,00.
+
+C) R$ 31.800,00.
+
+D) R$ 30.210,00.
+
+E) R$ 33.390,00.
+
+
+**23.** (FCC | TRT9 2022 | Técnico Judiciário, Área Administrativa | Questão 17 de 60)
+
+Aldo, Bernardo e Cristiano são corretores de imóveis e combinaram de dividir a comissão de uma venda da seguinte maneira: metade da comissão cabe a Aldo e a outra metade será dividida em partes iguais entre Bernardo e Cristiano. A comissão total da venda será de 4% sobre o valor do imóvel, que é de R$ 810.000,00. A comissão de Bernardo será, em reais, de
+
+A) 12.000,00.
+
+B) 8.100,00.
+
+C) 3.000,00.
+
+D) 7.500,00.
+
+E) 1.000,00.
+
+
+**24.** (FCC | TRF3 2024 | Analista Judiciário, Área Judiciária | Questão 24 de 60) *[aproximação temática]*
+
+*Juros/percentual correlato.*
+
+Um banco concedeu à empresa AJM Ltda. um empréstimo de R$ 10.000,00 a juros de 2% ao mês, para utilização como capital de giro. No contrato, formalizado por instrumento particular, a empresa se comprometeu a devolver integralmente o capital emprestado acrescido dos juros. Nesse mesmo instrumento contratual, Beatriz figurou como fiadora da empresa. Contudo, a empresa deixou de honrar a dívida. Nesse caso, de acordo com o Código Civil a pretensão do banco de cobrar a dívida prescreve em
+
+A) 5 anos, e a interrupção da prescrição contra a empresa não prejudica Beatriz.
+
+B) 10 anos, e a interrupção da prescrição contra a empresa não prejudica Beatriz.
+
+C) 3 anos, e a interrupção da prescrição contra a empresa prejudica Beatriz.
+
+D) 3 anos, e a interrupção da prescrição contra a empresa não prejudica Beatriz.
+
+E) 5 anos, e a interrupção da prescrição contra a empresa prejudica Beatriz.
+
+
+**25.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 11 de 60) *[aproximação temática]*
+
+*Proporção (vizinha de porcentagem).*
+
+O volume de suco contido em uma garrafa cheia corresponde exatamente ao volume de seis copos idênticos cheios. Após um lanche coletivo em uma escola, sobraram 15 garrafas de suco vazias, 3 garrafas contendo exatamente o volume para encher 2 copos em cada uma, e 2 garrafas contendo exatamente o volume para encher um copo em cada uma. Em relação ao volume das garrafas de suco que foram abertas, a proporção de suco consumida foi de
+
+A) 9/11.
+
+B) 11/12.
+
+C) 7/8.
+
+D) 14/15.
+
+E) 8/9.
+
 
 ---
 
-### Gabarito comentado (treino 1–15)
+### Gabarito (concurso reais 16–25)
 
-1. **B** — \(250\times 0,12 = 30\).  
-2. **D** — \(36\div 0,15 = 240\).  
-3. **C** — \(\frac{48}{160}\times 100 = 30\%\).  
-4. **C** — \(80\times 1,25 = 100\).  
-5. **C** — \(200\times 0,85 = 170\).  
-6. **C** — direta: \(x = 12\times 7/4 = 21\).  
-7. **C** — inversa: \(6\times 10 = 4\times x \Rightarrow x = 15\).  
-8. **C** — \(1,1\times 1,1 = 1,21\) → +21%.  
-9. **B** — \(0,9\times 0,9 = 0,81\) → −19%.  
-10. **A** — \(150\times 1,2\times 0,8 = 144\).  
-11. **B** — \(B = A/1,25 = 0,8A\) → 20% menor.  
-12. **B** — \(200\times 0,40\times 0,25 = 20\).  
-13. **C** — \(500\times 0,08 = 40\).  
-14. **C** — \(N = 90/0,30 = 300\); \(70\% = 210\).  
-15. **D** — direta: \(240\times 7/4 = 420\).
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **D** | FCC | TRT-15 2018 | Analista Judiciário, Área Administrativa | Questão 18 de 60 |
+| 17 | **B** | FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 12 de 60 |
+| 18 | **B** | FCC | TRT-15 2018 | Analista Judiciário, Área Administrativa | Questão 16 de 60 |
+| 19 | **A** | FCC | TRT9 2022 | Técnico Judiciário, Área Administrativa | Questão 16 de 60 |
+| 20 | **C** | FCC | TRT-15 2018 | Analista Judiciário, Área Apoio Especializado, Especialidade Arquitetura | Questão 18 de 60 |
+| 21 | **B** | FCC | TRT-15 2018 | Analista Judiciário, Área Apoio Especializado, Especialidade Arquitetura | Questão 14 de 60 |
+| 22 | **D** | FCC | TRT6 2025 | Técnico Judiciário, Área Administrativa | Questão 11 de 60 |
+| 23 | **B** | FCC | TRT9 2022 | Técnico Judiciário, Área Administrativa | Questão 17 de 60 |
+| 24 | **E** \* | FCC | TRF3 2024 | Analista Judiciário, Área Judiciária | Questão 24 de 60 |
+| 25 | **D** \* | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 11 de 60 |
 
-### Gabarito comentado (concurso 16–25)
+\* = aproximação temática (questão real correlata quando o nicho é raro em prova).
 
-16. **D** — \(1200\times 0,35 = 420\).  
-17. **C** — \(3500\times 1,12 = 3920\).  
-18. **B** — \(250\times 0,82 = 205\).  
-19. **C** — inversa: \(4\times 6 = 3\times x \Rightarrow x = 8\).  
-20. **C** — \(1,05\times 1,04 = 1,092\) → **9,20%**.  
-21. **B** — \(\frac{80-68}{80}\times 100 = 15\%\).  
-22. **C** — \(10000\times 0,90\times 0,95 = 8550\).  
-23. **C** — \(135/0,45 = 300\).  
-24. **A** — \(1,25\times 0,80 = 1\): neste par, volta ao original. B/C generalizam errado; D/E negam o cálculo.  
-25. **C** — Definição operacional correta dos fatores; A/B/D/E são armadilhas clássicas.
-
----
-
-## 4. Auto-checagem rápida (opcional)
-
-Antes de marcar:
-
-1. Pediram **valor**, **%** ou **total**?  
-2. A base do % é o **inicial** ou o **já modificado**?  
-3. Sucessivos? → **produto de fatores**, não soma de taxas.  
-4. Regra de três: **direta** ou **inversa**?  
-5. “% de” ≠ “% a mais / a menos”.
-
----
+**Fontes:**
+- Q16: https://www.quizinho.com.br/questao/fcc-trt-15-2018-analista-judiciario-area-administrativa-2018-q18
+- Q17: https://www.quizinho.com.br/questao/fcc-trt-12-2023-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2023-q12
+- Q18: https://www.quizinho.com.br/questao/fcc-trt-15-2018-analista-judiciario-area-administrativa-2018-q16
+- Q19: https://www.quizinho.com.br/questao/fcc-trt9-2022-tecnico-judiciario-area-administrativa-2022-q16
+- Q20: https://www.quizinho.com.br/questao/fcc-trt-15-2018-analista-judiciario-area-apoio-especializado-especialidade-arquitetura-2018-q18
+- Q21: https://www.quizinho.com.br/questao/fcc-trt-15-2018-analista-judiciario-area-apoio-especializado-especialidade-arquitetura-2018-q14
+- Q22: https://www.quizinho.com.br/questao/fcc-trt6-2025-tecnico-judiciario-area-administrativa-2025-q11
+- Q23: https://www.quizinho.com.br/questao/fcc-trt9-2022-tecnico-judiciario-area-administrativa-2022-q17
+- Q24: https://www.quizinho.com.br/questao/fcc-trf3-2024-analista-judiciario-area-judiciaria-2024-q24
+- Q25: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q11
 
 *Arquivo 08 · Matemática (porcentagem / regra de três / acréscimos-descontos) · Claudionir · TRT4 Analista TI (código 14) · FCC. Semana 2 — manutenção Gerais.*

@@ -350,138 +350,212 @@ E) C: compilação, tipos, fluxo, funções, arrays, ponteiros, struct/typedef, 
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-> Padrão FCC / analista TI: ponteiros, `sizeof`/`malloc`/`free`, structs, contraste de alocação; alinhadas a enunciados recorrentes em bancas (incl. FCC históricas de programação).
+> Questões reais de provas (FCC). Gabarito só ao final.
 
-**16.** Referente à alocação dinâmica de memória em C, é correto afirmar que:
+**16.** (FCC – TRT-17/2022 – Analista Judiciário – TI)  
+Considere o programa em linguagem C abaixo, que será executado em condições ideais. #include <stdio.h> #include <conio.h> #define MAX 7 int vet[MAX] = {2, 5, 9, 14, 22, 31, 44}; int comeco, fim, meio, chave; void main(void) { I { printf("\nForneça o elemento a ser procurado (-1 finaliza): "); scanf("%d",&chave); if (chave == -1) II ; comeco = 0; fim = MAX-1; III { meio = (comeco + fim)/2; if (chave < vet[meio]) fim = meio -1; else comeco = meio +1; } while (vet[meio] != chave && comeco <= fim); if (vet[meio] == chave) printf("\nO elemento está na posição %d", meio); else printf("\nNão existe o elemento procurado no vetor"); } printf("\nFim do programa"); } Para que o programa funcione corretamente de acordo com a lógica prevista em um algoritmo de pesquisa em vetor ordenado, as lacunas I , II e III devem ser preenchidas, correta e respectivamente, por:
 
-A) As funções `calloc` e `realloc` servem apenas para liberar arrays  
-B) A função `free` é geralmente usada com o operador `sizeof` como par obrigatório  
-C) A função `clear` é padrão para limpar ponteiros na libc  
-D) `malloc` recebe o “número de blocos” sem relação com bytes  
-E) As funções `malloc` e `free` e o operador `sizeof` são essenciais para a alocação dinâmica de memória
+A) while (chave <> -1) – break repeat  
+B) for (;;) – break do  
+C) while (1)– continue - repeat  
+D) while (true) – stop do  
+E) for (int i=0; i<MAX; i++) – continue - do  
 
-**17.** Assinale a alternativa que representa alocação dinâmica de um vetor de 10 `double`:
+**17.** (FCC – TRT-20/2024 – Técnico Judiciário – TI)  
+Um Técnico está codificando uma aplicação em C que manipula um array de inteiros e criou um ponteiro para o primeiro elemento do array . Ele deseja navegar pelos elementos subsequentes usando aritmética de ponteiros. O array contém os valores {20, 30, 40, 50, 60} . O Técnico declarou o ponteiro da seguinte maneira: int *ptr = &arr[0]; . Em seguida, ele incrementou o ponteiro utilizando a instrução ptr++; . Após o incremento, a instrução *ptr irá apontar para o valor
 
-A) `double[10 * sizeof(double) - 1]`  
-B) `double[10]`  
-C) `malloc(10 * sizeof(double))`  
-D) `new double[10]` em C puro ISO  
-E) `free(10 * sizeof(double))`
+A) 40.  
+B) 50.  
+C) 30.  
+D) 60.  
+E) 20.  
 
-**18.** Preencha as lacunas: a função/operador que determina o número de bytes de um tipo; a que aloca espaço e retorna ponteiro; a que libera o espaço são, respectivamente:
+**18.** (FCC – TRT-20/2024 – Técnico Judiciário – TI)  
+Uma equipe de TI de uma empresa está desenvolvendo um sistema de controle de funcionários. Eles criaram uma classe base chamada `Funcionario`, que possui atributos como `nome`, `salario` e `cargo`. Além disso, criaram as subclasses `Gerente` e `Vendedor`, que utilizam os atributos de `Funcionario` e possuem atributos adicionais específicos. O conceito de orientação a objetos que está sendo aplicado quando as classes `Gerente` e `Vendedor` são definidas como subclasses de `Funcionario` é
 
-A) `sizeof` / `alloc` / `clear`  
-B) `malloc` / `sizeof` / `free`  
-C) `sizeof` / `malloc` / `free`  
-D) `strlen` / `malloc` / `delete`  
-E) `sizeof` / `new` / `dispose`
+A) Objeto.  
+B) Polimorfismo.  
+C) Herança.  
+D) Encapsulamento.  
+E) Interface.  
 
-**19.** Acerca de ponteiros, considere:
+**19.** (FCC – TRT-20/2024 – Técnico Judiciário – TI)  
+Considere o programa Java abaixo.
 
-```c
-int a = 10, b = 20;
-int *ponteiro = &a;
-a = 10;
-b = a + 20;
-*ponteiro = b * 2;
-printf("%d", a);
+```
+public class Verificar {
+
+ public static int dados(int[] vetor, int inicio, int fim, int chave) {
+ if (inicio > fim) {
+ return -1;
+ }
+ int meio = (inicio + fim) / 2;
+ if (vetor[meio] == chave) {
+ return meio;
+ }
+ if (vetor[inicio] <= vetor[meio]) {
+ if (chave >= vetor[inicio] && chave < vetor[meio]) {
+ return dados(vetor, inicio, meio - 1, chave);
+ } else {
+ return dados(vetor, meio + 1, fim, chave);
+ }
+ } else {
+ if (chave > vetor[meio] && chave <= vetor[fim]) {
+ return dados(vetor, meio + 1, fim, chave);
+ } else {
+ return dados(vetor, inicio, meio - 1, chave);
+ }
+ }
+ }
+
+ public static void main(String[] args) {
+ int[] vetor = {7, 8, 9, 1, 2, 3, 4, 5, 6};
+ int resultado = dados(vetor, 0, 8, 5);
+ System.out.println(resultado);
+ }
+}
+
 ```
 
-O valor impresso para `a` é:
+ Ao executar o programa, em condições ideais, será exibido na tela o valor
 
-A) 10  
-B) 20  
-C) 30  
-D) 60  
-E) 0
+A) 7.  
+B) 6.  
+C) 8.  
+D) 3.  
+E) 5.  
 
-**20.** Com base no conceito de ponteiros, está correto:
+**20.** (FCC – TRT-20/2024 – Técnico Judiciário – TI)  
+Um Técnico está processando grandes volumes de dados e precisa verificar se há valores duplicados em uma coleção de milhares de elementos. A ordem dos elementos não é importante, mas o processamento precisa ser o mais eficiente possível para identificar e eliminar quaisquer duplicatas. A estrutura de dados que deve ser usada em Python, nesse caso, é
 
-A) `int x, y, z;` declara três ponteiros  
-B) `int *x, y, z;` declara somente `x` como ponteiro  
-C) `int *x, *y, *z;` declara três inteiros comuns, sem ponteiro  
-D) `int x, *y, *z;` declara apenas `x` como ponteiro  
-E) Nenhuma declaração com `*` é válida em C
+A) Pilhas (`stack`).  
+B) Listas (`list`).  
+C) Tuplas (`tuple`).  
+D) Conjuntos (`set`).  
+E) Dicionários (`dict`).  
 
-**21.** Considere:
+**21.** (FCC – TRT-20/2024 – Técnico Judiciário – TI)  
+Um desenvolvedor PHP 8 quer garantir que a variável $u receba o valor da variável $_GET['user'] se ela existir e não for nula; caso contrário, a variável $u receberá o valor 'convidado' . Para isso ele deve usar o comando
 
-```c
-struct cadastroDeAluno {
-    char nome[40];
-    char disciplina[20];
-    float nota1;
-    float nota2;
-};
-struct cadastroDeAluno aluno;
+A) $u = $_GET['user'] ?? $_GET['user'] :: 'convidado';  
+B) $u = $_GET['user'] ?? 'convidado';  
+C) $u = $_GET['user'] => isset($_GET['user']) ? $_GET['user'] : 'convidado';  
+D) $u = if($_GET['user'] => isset($_GET['user'])) ? $_GET['user'] : 'convidado';  
+E) $u = if($_GET['user']) ? $_GET['user'] : 'convidado';  
+
+**22.** (FCC – TRT-19/2022 – Analista Judiciário – TI)  
+Considere que um método de ordenação tenha seu desempenho baseado no número de comparações que realiza para ordenar um vetor com N elementos em ordem crescente. Este método apresenta o seguinte resultado no melhor caso (NCmelhor), no caso médio (NCmédio) e no pior caso (NCpior):
+
+NCmelhor = N-1
+NCmédio ≅ (N (N-1))/4 - 1/2
+NCpior ≅ (N (N-1)-1)/2
+
+Com base nestes resultados, é correto afirmar que o método
+
+A) é sempre ineficiente, mesmo para valores pequenos de N.  
+B) é de ordem de complexidade quadrática ou O(N²).  
+C) apresenta um desempenho muito eficiente no caso médio, quando o vetor está em ordem decrescente, por exemplo.  
+D) é de ordem de complexidade linearítmica ou O(N-1) no melhor caso, quando o vetor está parcialmente ordenado.  
+E) sempre realiza um número muito grande de trocas em todos os três casos, por isso é muito ineficiente.  
+
+**23.** (FCC – TRT-19/2022 – Analista Judiciário – TI)  
+Considere os dados abaixo relativos a um método hashing .
+
+ 
+
+Com base no método apresentado acima e na sua continuação, é correto afirmar que
+
+A) não há colisões.  
+B) Jorge ocupará a posição 7 do vetor e Fernando será deslocado para a posição 8.  
+C) serão realizadas, na pesquisa por Adriano, apenas 2 comparações para encontrá-lo.  
+D) ocorreu uma pseudocolisão entre Adriano e Luísa.  
+E) Pedro ocupará a posição 4 do vetor.  
+
+**24.** (FCC – TRT-19/2022 – Analista Judiciário – TI)  
+Considere a Árvore Binária de Pesquisa (ABP) abaixo.
+
+ 
+
+ Os elementos desta ABP serão armazenados em um vetor numerado de 1 a 7, seguindo estas regras:
+
+a. a raiz sempre ficará na posição 1 do vetor;
+
+b. um nó filho na subárvore esquerda receberá o dobro do valor da posição do seu pai; e
+
+c. um nó filho na subárvore direita receberá o dobro do valor da posição de seu pai acrescido de 1.
+
+O vetor resultante de 1 a 7 será, correta e respectivamente:
+
+A) 6 – 8 – 4 – 5 – 3 – 7 – 9  
+B) 6 – 4 – 3 – 5 – 8 – 7 – 9  
+C) 6 – 4 – 3 – 8 – 7 – 5 – 9  
+D) 6 – 8 – 9 – 4 – 5 – 3 – 7  
+E) 6 – 4 – 8 – 3 – 5 – 7 – 9  
+
+**25.** (FCC – TRT-12/2023 – Analista Judiciário – TI)  
+Examine os programas em PHP, C# e C a seguir:
+
+```
+<?php
+$num = "5oH";
+$result = $num + 5;
+echo "Result: " . $result;
+?>
+
 ```
 
-Assinale a afirmativa correta.
+```
+using System;
+namespace Teste {
+ class Testando {
+ static void Main(string[] args) {
+ int num = "5oH";
+ int result = num + 5;
+ Console.WriteLine($"Resultado: {r}");
+ }
+ }
+}
 
-A) `cadastroDeAluno` é o nome de uma `union` obrigatória  
-B) `aluno` é a variável que utiliza a struct  
-C) Uma struct só pode conter variáveis do mesmo tipo  
-D) A variável `aluno` é um membro interno da definição da struct  
-E) Todas as alternativas anteriores estão corretas
+```
 
-**22.** O comando `typedef` é usado para criar:
+```
+#include <stdio.h>
+int main(){
+ int num, result;
+ num= "5oH";
+ result = num + 5;
+ printf("\n Resultado: %d",
+ result);
+ return 0;
+}
 
-A) Um sinônimo ou alias de tipo  
-B) Exclusivamente uma variável automática  
-C) Um novo laço de repetição  
-D) Uma sessão PHP  
-E) Um protocolo de rede
+```
 
-**23.** Considere as afirmativas sobre C.
+ Considerando que os programas serão executados em condições ideais,
 
-I. Strings literais são tipicamente sequências de `char` terminadas em `\0`.  
-II. A linguagem C puro padroniza `try`/`catch` como mecanismo principal de erro.  
-III. `ptr->campo` acessa membro de struct via ponteiro.
-
-Está correto o que se afirma em:
-
-A) I, apenas  
-B) II, apenas  
-C) I e III, apenas  
-D) II e III, apenas  
-E) I, II e III
-
-**24.** Constitui equívoco típico afirmar que:
-
-A) `malloc` aloca bytes no heap  
-B) `free` libera bloco previamente alocado  
-C) `sizeof` mede tamanho em bytes  
-D) ponteiros armazenam endereços  
-E) em C puro, `new` e `delete` substituem obrigatoriamente `malloc` e `free` como única API válida
-
-**25.** Para Analista Judiciário – TI (código 14), a síntese correta deste subtópico é:
-
-A) apenas Bootstrap grid  
-B) apenas Keycloak flows  
-C) apenas direitos humanos — DUDH art. 1  
-D) fundamentos de C (compilação, tipos, fluxo, ponteiros, struct/typedef, alocação dinâmica) em visão comparativa com PHP, sem importar C++  
-E) apenas Kanban WIP limits
+A) os programas em PHP e em C não apresentarão erros, mesmo sem o uso explícito de cast.  
+B) todos os programas executarão sem erros de compilação.  
+C) os resultados apresentados pelos programas em C# e em C serão iguais, pois C# é compilada por um compilador escrito em C.  
+D) todos os programas apresentarão erros, pois não é possível atribuir strings a variáveis numéricas.  
+E) todos os programas deixarão de apresentar erros, caso seja colocado `(int)` antes de "5oH".  
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **E** |
-| 17 | **C** |
-| 18 | **C** |
-| 19 | **D** |
-| 20 | **B** |
-| 21 | **B** |
-| 22 | **A** |
-| 23 | **C** |
-| 24 | **E** |
-| 25 | **D** |
+| Questão | Gabarito | Fonte / nota |
+|---------|----------|--------------|
+| 16 | **B** | FCC TRT-17/2022 Q33 — Programação |
+| 17 | **C** | FCC TRT-20/2024 Q44 — Programação |
+| 18 | **C** | FCC TRT-20/2024 Q41 — Programação |
+| 19 | **A** | FCC TRT-20/2024 Q42 — Programação |
+| 20 | **D** | FCC TRT-20/2024 Q43 — Programação |
+| 21 | **B** | FCC TRT-20/2024 Q47 — Programação |
+| 22 | **B** | FCC TRT-19/2022 Q23 — Estruturas de Dados |
+| 23 | **E** | FCC TRT-19/2022 Q24 — Estruturas de Dados |
+| 24 | **E** | FCC TRT-19/2022 Q25 — Estruturas de Dados |
+| 25 | **A** | FCC TRT-12/2023 Q42 — Fundamentos de Linguagens de Programação |
 
-**Notas rápidas:** 16 E (trio clássico malloc/free/sizeof); 17 C (dinâmica 10 doubles); 18 C (sizeof/malloc/free); 19 D (`*ponteiro = 60` → `a=60`); 20 B (só `*x`); 21 B (variável `aluno`); 22 A (alias); 23 C (II falso — sem try/catch); 24 E (`new`/`delete` são C++); 25 D (síntese).
-
----
-
-*Pack semana 6 · subtópico 03 · FCC TRT4 código 14 · visão C.*
+**Notas rápidas:** 16 B; 17 C; 18 C; 19 A; 20 D; 21 B; 22 B; 23 E; 24 E; 25 A.

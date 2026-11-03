@@ -356,112 +356,155 @@ E) Apenas porcentagem financeira
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** No contexto da plataforma .NET referida no edital de Analista Judiciário – Área de TI, é correto afirmar que:
+**16.** (FCC – TRT-12/2023 – Analista Judiciário – TI) Atenção: examine o programa C# abaixo (trecho).
 
-A) programas em C# são tipicamente compilados para Intermediate Language (IL) e executados sob o Common Language Runtime (CLR), com apoio das bibliotecas-base do ecossistema  
-B) o CLR é um protocolo de roteamento idêntico ao OSPF  
-C) C# dispensa qualquer noção de tipo em tempo de compilação em todos os casos, inclusive com `var`  
-D) assemblies .NET substituem integralmente a necessidade de sistemas operacionais  
-E) o CTS existe apenas no interpretador CPython  
+```csharp
+using (SHA256 sha256 = SHA256.Create()) {
+  byte[] bytes = Encoding.UTF8.GetBytes(senha);
+  I
+  StringBuilder builder = new StringBuilder();
+  for (int i = 0; i < hashBytes.Length; i++)
+    builder.Append(hashBytes[i].ToString("x2"));
+  return builder.ToString();
+}
+```
 
-**17.** Acerca de orientação a objetos em C#, assinale a afirmativa correta.
+Para que a senha criptografada seja gerada corretamente, a lacuna `I` deve ser preenchida com:
 
-A) classes podem herdar de uma única classe-base e implementar múltiplas interfaces; membros `virtual` podem ser redefinidos com `override` para polimorfismo  
-B) herança múltipla de classes concretas é a regra obrigatória do CTS  
-C) interfaces são proibidas no C# moderno  
-D) `sealed` torna obrigatória a herança por qualquer assembly externo  
-E) propriedades (`get`/`set`) são ilegais; só campos públicos são permitidos  
+A) `byte[] hashBytes = SHA256.GenerateHash(bytes);`
+B) `hashBytes = sha256.ComputeHash(bytes);`
+C) `byte[] hashBytes = sha256.GenerateHash(bytes);`
+D) `hashBytes = SHA256.Hash(bytes);`
+E) `byte[] hashBytes = sha256.ComputeHash(bytes);`
 
-**18.** Em relação a exceções em C#, é correto afirmar que:
+**17.** (FCC – TRT-17/2022 – Analista Judiciário – TI) Considere o programa C# abaixo.
 
-A) `try`/`catch`/`finally` permitem tratar falhas e garantir liberação de recursos; `throw;` no `catch` relança preservando o stack trace  
-B) exceções devem substituir todo controle de fluxo normal (`if`/`return`)  
-C) `finally` nunca executa quando há `catch`  
-D) `throw ex;` é a única forma de preservar o stack trace original  
-E) o bloco `using` de `IDisposable` é incompatível com limpeza de recursos  
+```csharp
+using System;
+class Identifica {
+  public void Identidade(String nome, int id){
+    Console.WriteLine("Nome1: " + nome + ", " + "Id1: " + id);
+  }
+  public void Identidade(int id, String nome){
+    Console.WriteLine("Nome2: " + nome + ", " + "Id2: " + id);
+  }
+  public static void Main(String[] args){
+    I
+  }
+}
+```
 
-**19.** Considere as afirmativas abaixo.
+Considerando a saída esperada:
+`Nome1: Carlos Silva, Id1: 1000`
+`Nome2: Cristina Santos, Id2: 2000`
+a lacuna I deve ser preenchida corretamente por:
 
-I. `decimal` é frequentemente indicado para valores monetários pela precisão decimal.  
-II. `var` torna a variável dinamicamente tipada em tempo de execução, tal como `dynamic`.  
-III. `internal` restringe a visibilidade, em regra, ao mesmo assembly.
+A) `Identidade("Carlos Silva", 1000); Identidade(2000, "Cristina Santos");`
+B) `Identifica obj = new Identifica(); obj.Identidade(1000,"Carlos Silva"); obj.Identidade("Cristina Santos",2000);`
+C) `Identidade(1000, "Carlos Silva"); Identidade("Cristina Santos", 2000);`
+D) `Identifica obj = new Identifica(); obj.Identidade("Carlos Silva", 1000); obj.Identidade(2000, "Cristina Santos");`
+E) `Identifica obj = new Identifica(); obj.Identidade("Carlos Silva", 1000); Identifica obj = new Identifica(); obj.Identidade(2000, "Cristina Santos");`
 
-Está correto o que se afirma em:
+**18.** (FCC – TRT-12/2023 – Analista Judiciário – TI) Em programas C# e PHP com tratamento de divisão por zero, as lacunas I (C#) e II (PHP) devem ser preenchidas, respectivamente, com:
 
-A) I, apenas  
-B) II, apenas  
-C) I e III, apenas  
-D) II e III, apenas  
-E) I, II e III  
+A) I: `throw new DivideByZeroException("...");` II: `throw new Exception_DivideByZero("...");`
+B) I: `throw new Exception("...")` II: `throw new Exception("...")`
+C) I: `throw new DivideByZeroException("...")` II: `throw new DivideByZeroException("...")`
+D) I: `throw new DivideByZeroException("Divisão por zero não é válida.");` II: `throw new Exception("Divisão por zero não é válida.");`
+E) I: `throw new Exception("...");` II: `throw new DivideByZeroException("...");`
 
-**20.** No acesso a banco de dados a partir de aplicações .NET, a prática mais adequada entre as opções é:
+**19.** (FCC – TRT-1/2025 – Analista Judiciário – TI) O trecho de código C# a seguir mostra uma classe. As lacunas I e II são, correta e respectivamente, preenchidas com
 
-A) utilizar comandos parametrizados (ADO.NET ou camada equivalente) e dispor corretamente conexões/comandos, podendo empregar ORM (ex.: EF Core) para mapeamento objeto-relacional  
-B) concatenar entrada do usuário diretamente em SQL sem parâmetros  
-C) manter conexões abertas indefinidamente sem política de ciclo de vida  
-D) acessar tabelas exclusivamente via protocolo SMTP  
-E) eliminar qualquer abstração de repositório/ORM por proibição do CTS  
+```csharp
+I {
+  public static double CalcularRescisao(double salarioBase, int mesesTrabalhados) {
+    double indenizacao = salarioBase * mesesTrabalhados / 12;
+    return II;
+  }
+}
+```
 
-**21.** A respeito do ASP.NET Core, é correto afirmar que:
+A) `public class CalculoRescisao : Object` e `indenizacao`
+B) `override class Rescisao : Object` e `this.indenizacao`
+C) `class CalculoRescisaoSalario extends Object` e `indenizacao*salarioBase`
+D) `public class Rescisao : BaseClass` e `this.mesesTrabalhados*indenizacao`
+E) `class BaseRescisao inherit Object` e `indenizacao`
 
-A) trata-se de framework web multiplataforma com pipeline de middleware, injeção de dependências integrada e suporte a MVC/Web APIs, frequentemente hospedado com Kestrel atrás de proxy reverso  
-B) coincide termo a termo com o ASP.NET clássico baseado apenas em System.Web do .NET Framework legado  
-C) proíbe o uso de rotas HTTP e controladores  
-D) elimina a necessidade de qualquer autenticação em sistemas judiciais  
-E) é um dialeto oficial do Kanban  
+**20.** (FCC – SEFAZ-SC/2018 – Auditor-Fiscal – TI) Um Auditor está trabalhando com uma aplicação em C# e a lista abaixo.
 
-**22.** Constitui equívoco típico em prova afirmar que:
+```csharp
+List<Pessoa> lista = new List<Pessoa>();
+lista.Add(p1); lista.Add(p2); lista.Add(p3);
+```
 
-A) sobrecarga (overload) e sobrescrita (override) são conceitos distintos em C#  
-B) o CLR executa IL gerado a partir de linguagens .NET  
-C) ASP.NET Core utiliza middleware no pipeline de requisições  
-D) `private` limita o acesso ao próprio tipo  
-E) em C#, uma classe pode herdar simultaneamente de duas classes-base concretas, como regra geral da linguagem  
+Para percorrer os elementos desta lista obtendo cada objeto do tipo `Pessoa`, utiliza-se o comando
 
-**23.** Em um serviço REST escrito em ASP.NET Core que consulta PostgreSQL, a interpretação mais adequada para fins de concurso é:
+A) `foreach (Pessoa p in lista) { }`
+B) `for(int indice=0; indice<=lista.Length(); indice++){lista.Get(Pessoa p);}`
+C) `while(Pessoa p from lista) { }`
+D) `for(int i=1; i<=lista.Length(); i++) {List.GetAt(Pessoa p);}`
+E) `foreach(Get Pessoa in lista) { }`
 
-A) C#/.NET fornece a linguagem e o runtime; ASP.NET Core expõe os endpoints HTTP; o acesso a dados pode ocorrer via ADO.NET/provider ou EF Core, com cuidado com parâmetros e ciclo de vida de conexões  
-B) o CLR substitui o banco relacional  
-C) middleware ASP.NET Core é o protocolo AMQP  
-D) propriedades C# são inválidas em APIs  
-E) exceções não podem ser usadas em I/O de banco  
+**21.** (FCC – SEFAZ-SC/2018 – Auditor-Fiscal – TI) Entity Framework (EF) é um ORM para aplicações .NET. Após adicionar um objeto de domínio a um contexto, para salvar a entidade no banco de dados chama-se o método
 
-**24.** Acerca de tipos e literais em C#, assinale a opção correta.
+A) `ExecuteUpdate()` da classe `DbTransaction`.
+B) `SaveChanges()` da classe `DbContext`.
+C) `InsertData()` da classe `DbConnection`.
+D) `ExecuteQuery()` da classe `DbContext`.
+E) `InsertRecord()` da classe `DbTransaction`.
 
-A) `string` é tipo referência imutável; tipos como `int` e `bool` são tipos de valor; literais e operadores seguem regras de precedência da linguagem  
-B) todo tipo em C# é obrigatoriamente `dynamic`  
-C) `foreach` é ilegal sobre `List<T>`  
-D) namespaces são proibidos em assemblies públicos  
-E) `const` e `readonly` são sempre semanticamente idênticos em qualquer contexto  
+**22.** (FCC – SEFAZ-SC/2018 – Auditor-Fiscal – TI) Considere a arquitetura de uma aplicação utilizando ASP.NET Web API. Nessa arquitetura,
 
-**25.** Para fins de preparação em Analista Judiciário – Área de TI (código 14), a síntese mais adequada deste subtópico é:
+A) o model pode ser serializado para JSON e XML.
+B) o client, que consome a Web API, será obrigatoriamente um navegador web.
+C) só pode haver um controller para manipular solicitações HTTP e representar os dados.
+D) o model é representado por classes VBScript conhecidas como Plain Old Objects (POOs).
+E) o controller permite requisições HTTP somente por meio do método GET.
 
-A) fundamentos de C#; plataforma .NET/CLR/BCL; OOP com classes, interfaces, encapsulamento, sobrecarga e sobrescrita; exceções; acesso a BD; ASP.NET Core em visão de Web API/MVC  
-B) apenas PMBOK 8, sem programação  
-C) apenas CNJ 400  
-D) apenas Docker Swarm  
-E) apenas crase e regência  
+**23.** (FCC – SEFAZ-SC/2018 – Auditor-Fiscal – TI) Considere código Razor (ASP.NET Web Pages) com lacunas I e II: verificar se o formulário foi submetido via POST e exibir a variável `resultado`. Os comandos corretos são, respectivamente,
+
+A) `isset($_POST)` e `echo resultado`
+B) `IsPost` e `@resultado`
+C) `@POST` e `${resultado}`
+D) `doPost()` e `out.print(resultado)`
+E) `isPost()` e `${resultado}`
+
+**24.** (FCC – TRT-12/2023 – Analista Judiciário – TI) Associando o SHA-256 do programa C# à segurança em redes sem fio, é correto afirmar que o
+
+A) SHA-256 pode ser utilizado para criar hashes dos certificados digitais, que são usados para autenticar os dispositivos na rede, em uma implementação de WPA2 com autenticação baseada em certificados (como o EAP-TLS).
+B) SHA-256 é um protocolo de segurança para redes sem fio, que utiliza um hash criptográfico pertencente à família das funções hash SHA-2.
+C) WPA2 não contém mecanismos de autenticação; assim, é necessário acrescentar o uso de chaves pré-compartilhadas (PSK) e autenticação baseada em servidores usando SHA-256.
+D) WPA2 é um método de hash criptográfico para redes sem fio, que utiliza AES-CCMP.
+E) WPA utiliza o protocolo SHA-256 para criptografar dados e o método EAP para autenticação.
+
+**25.** (FCC – SEFAZ-SC/2018 – Auditor-Fiscal – TI) Em trecho ASP.NET/ADO.NET, para adicionar na tabela `Funcionario` um campo inteiro chamado `Id`, a lacuna deve ser preenchida com
+
+A) `dataset.Funcionario("int","Id");`
+B) `Funcionario.AddField("int","Id");`
+C) `dataset.AddColumn(Funcionario,"System.Int64", "Id");`
+D) `AddNewColumn(Funcionario, "System.Int32", "Id");`
+E) `AddColumn(Funcionario, "System.Integer64", "Id");`
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito comentado (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **A** |
-| 17 | **A** |
-| 18 | **A** |
-| 19 | **C** |
-| 20 | **A** |
-| 21 | **A** |
-| 22 | **E** |
-| 23 | **A** |
-| 24 | **A** |
-| 25 | **A** |
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **E** | FCC TRT-12/2023 — `sha256.ComputeHash` |
+| 17 | **D** | FCC TRT-17/2022 — sobrecarga + instância |
+| 18 | **D** | FCC TRT-12/2023 — `DivideByZeroException` × `Exception` (PHP) |
+| 19 | **A** | FCC TRT-1/2025 — herança `: Object` |
+| 20 | **A** | FCC SEFAZ-SC/2018 — `foreach` em `List` |
+| 21 | **B** | FCC SEFAZ-SC/2018 — `DbContext.SaveChanges` |
+| 22 | **A** | FCC SEFAZ-SC/2018 — model JSON/XML |
+| 23 | **B** | FCC SEFAZ-SC/2018 — Razor `IsPost` + `@resultado` |
+| 24 | **A** | FCC TRT-12/2023 — SHA-256 e WPA2/EAP-TLS |
+| 25 | **D** | FCC SEFAZ-SC/2018 — coluna `System.Int32` |
 
-**Notas rápidas:** 16 A (IL + CLR); 17 A (herança simples + interfaces + override); 18 A (try/catch/finally + `throw;`); 19 C (I e III; II confunde `var`×`dynamic`); 20 A (parâmetros + dispose + ORM); 21 A (ASP.NET Core moderno); 22 E (não há herança múltipla de classes); 23 A (API + dados); 24 A (string ref / value types); 25 A (síntese do arquivo 02).
+**Notas rápidas:** 16 E (`byte[] hashBytes = sha256.ComputeHash(bytes)`); 17 D (instanciar + ordem dos parâmetros); 18 D (exceção específica em C#; genérica em PHP); 19 A (`: Object` + return `indenizacao`); 20 A (`foreach`); 21 B (`SaveChanges`); 22 A (serialização); 23 B (Razor); 24 A (hash de certificados); 25 D (`AddNewColumn` + Int32).
 
 ---
 

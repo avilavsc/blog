@@ -311,135 +311,189 @@ E) Apenas Regimento Interno do TRT4
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões reais de concurso (16–25)
 
-**16.** A Declaração Universal dos Direitos Humanos, proclamada em 1948, constitui-se em documento que:
+> Bloco substituído por questões **reais** de concurso (FCC preferencialmente; TRT/TRF/TJ quando necessário). O treino 1–15 e o Material permanecem inalterados.
 
-A) institui, por si só, a Corte Interamericana de Direitos Humanos e define suas competências processuais  
-B) foi adotado pela Assembleia Geral das Nações Unidas e apresentado como ideal comum a ser atingido por todos os povos e nações  
-C) equivale, para todos os efeitos, ao Pacto Internacional sobre Direitos Civis e Políticos, dispensando qualquer distinção de natureza jurídica  
-D) corresponde à Resolução CNJ nº 400/2021, sobre sustentabilidade no Poder Judiciário  
-E) revoga a Carta das Nações Unidas de 1945  
+**16.** (FCC | TRT-11 2024 | Técnico Judiciário, Área Administrativa | Questão 56 de 60)
 
-**17.** No que se refere à evolução histórica dos direitos humanos, assinale a alternativa correta.
+Documento que é considerado um marco na história dos direitos humanos e proclamado pela Assembleia Geral das Nações Unidas como o ideal comum a ser atingido por todos os povos e nações,
 
-A) A internacionalização moderna dos direitos humanos é indiferente às atrocidades da Segunda Guerra Mundial  
-B) A DUDH representa marco do pós-guerra no âmbito da ONU, consolidando catálogo de referência universal, distinto das declarações nacionais do século XVIII  
-C) A Magna Carta inglesa é idêntica, em forma e foro, à Resolução 217 A (III)  
-D) A Declaração dos Direitos do Homem e do Cidadão de 1789 foi adotada pela Assembleia Geral da ONU em Paris  
-E) O Sistema Interamericano precede logicamente a Carta da ONU e extingue a DUDH  
+A) o Pacto de São José da Costa Rica, de 1969, prevê que nenhuma de suas disposições poderá ser interpretada de forma a excluir outros direitos e garantias inerentes ao ser humano ou decorrentes da forma democrática de governo.
 
-**18.** Acerca das características dos direitos humanos comumente cobradas em concursos, é correto afirmar:
+B) a Declaração Universal dos Direitos Humanos, de 1948, enuncia uma gama de direitos e liberdades que não poderão, em nenhum caso, ser exercidos contrariamente às finalidades e aos princípios das Nações Unidas.
 
-A) A universalidade implica titularidade restrita aos cidadãos de Estados que ratificaram o Estatuto de Roma  
-B) A indivisibilidade recomenda tratar direitos civis e sociais como dimensões que não se excluem mutuamente  
-C) A imprescritibilidade significa que a DUDH é tratado ratificado automaticamente em 1948  
-D) A historicidade nega qualquer evolução do conteúdo protetivo  
-E) A irrenunciabilidade equivale a dizer que a DUDH cria o TPI  
+C) o Pacto de São José da Costa Rica, de 1969, constitui uma Comissão e uma Corte de Direitos Humanos como órgãos competentes para conhecer dos assuntos relacionados com o cumprimento dos compromissos assumidos pelos Estados-Partes no Pacto.
 
-**19.** Considere as afirmações abaixo.
+D) a Declaração Universal dos Direitos Humanos, de 1948, estabelece que o exercício pelos indivíduos dos direitos e liberdades que enuncia só poderá ser limitado pela lei, exclusivamente com o fim de garantir o exercício dos direitos e liberdades dos outros.
 
-I. A DUDH foi adotada em 10 de dezembro de 1948 pela Assembleia Geral da ONU.  
-II. A DUDH, em sua forma clássica de declaração, não se confunde com tratados como o PIDCP, o PIDESC ou a CADH.  
-III. A Resolução CNJ nº 492/2023, sobre perspectiva de gênero no Poder Judiciário, é o texto substitutivo oficial da DUDH no Brasil.
+E) o Pacto Internacional de Direitos Civis e Políticos, de 1966, consigna que os Estados-Partes comprometem-se a assegurar a homens e mulheres igualdade no gozo de todos os direitos econômicos, sociais e culturais que enumera.
 
-Está correto o que se afirma em:
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) II e III, apenas  
-E) I, II e III  
+**17.** (FCC | TRT7 2024 | Técnico Judiciário, Área Administrativa | Questão 28 de 80)
 
-**20.** Assinale a opção que apresenta interpretação **incompatível** com a leitura cobrável da DUDH.
+Em conformidade com a Declaração Universal dos Direitos Humanos,
 
-A) Contém dispositivos relativos a direitos civis e políticos e a direitos econômicos, sociais e culturais  
-B) Influenciou o desenvolvimento posterior de tratados internacionais de direitos humanos  
-C) É o ato normativo interno que disciplina o Código de Conduta e Valores Éticos do TRT4  
-D) Proclama a igualdade em dignidade e direitos no art. 1º  
-E) Possui cláusula que veda interpretação destrutiva dos direitos nela enunciados (art. 30)  
+A) todo ser humano tem direito à educação, obrigatória no ensino fundamental e superior, sendo que esta última será baseada na condição social e não no mérito.
 
-**21.** Em prova de Analista Judiciário – Área Judiciária de TI (Gerais), confundir a DUDH com a Carta das Nações Unidas é inadequado porque:
+B) todo ser humano tem direito à educação, a qual será gratuita obrigatoriamente nos graus elementares, fundamentais e superiores.
 
-A) ambos são o mesmo documento de 10/12/1948  
-B) a Carta (1945) é o tratado fundacional da ONU, ao passo que a DUDH (1948) é declaração da Assembleia Geral com catálogo de direitos  
-C) a Carta cria a Corte IDH e a DUDH cria o TPI  
-D) a DUDH revoga a Carta  
-E) nenhum dos dois documentos existe no edital  
+C) a educação elementar não é obrigatória, sendo gratuito o ensino técnico-profissional.
 
-**22.** A alternativa que corretamente separa instrumentos é:
+D) os pais têm prioridade do direito na escolha do gênero de educação que será ministrada a seus filhos.
 
-A) DUDH = declaração ONU 1948; PIDCP/PIDESC = pactos 1966; CADH = tratado interamericano 1969  
-B) DUDH = CADH = PIDESC = soft law idêntica  
-C) DUDH = Res. CNJ 400; PIDCP = Conduta TRT4; CADH = LGPD  
-D) Todos os instrumentos da alternativa A são Resoluções do CSJT  
-E) DUDH = Estatuto de Roma  
+E) todo ser humano tem direito à educação, favorecendo a amizade apenas entre todos os grupos raciais, mas não a amizade entre todos os grupos religiosos.
 
-**23.** O artigo 29 da DUDH, em perspectiva de prova, autoriza reconhecer que:
 
-A) os direitos enunciados na Declaração prescindem de qualquer dever do indivíduo perante a comunidade e não admitem limitação legal  
-B) o indivíduo tem deveres para com a comunidade e que o exercício dos direitos pode sofrer limitações previstas em lei, nas hipóteses ali delineadas  
-C) apenas o Poder Judiciário brasileiro pode limitar direitos, mediante a Res. 443/2022  
-D) a DUDH proíbe educação e trabalho como direitos  
-E) o art. 29 cria a Comissão Interamericana  
+**18.** (FCC | TRT-11 2024 | Técnico Judiciário, Área Administrativa | Questão 57 de 60)
 
-**24.** Um candidato afirma: “A DUDH, por ser o documento mais famoso de direitos humanos, é automaticamente o tratado que o Brasil ratifica para se submeter à Corte Interamericana.” Essa afirmação está:
+É instância de proteção dos direitos humanos na ordem internacional
 
-A) correta, pois DUDH e CADH são o mesmo tratado  
-B) correta, pois a DUDH institui a Corte IDH  
-C) incorreta, pois a submissão ao SIDH articula-se ao sistema da Convenção Americana (CADH) e órgãos correlatos, distintos da declaração universal de 1948  
-D) correta apenas se houver menção à Res. CNJ 400/2021  
-E) incorreta somente porque o foro correto seria o TPI  
+A) o Tribunal Penal Interamericano, constituído nos termos da Convenção Americana sobre Direitos Humanos.
 
-**25.** Para fins de manutenção na semana 2 (evolução + DUDH), a síntese mais adequada é:
+B) a Comissão de Conciliação ad hoc, constituída nos termos do Pacto Internacional sobre Direitos Civis e Políticos.
 
-A) stack JPA/Hibernate + Keycloak como sinônimos de gerações de direitos  
-B) marco histórico pós-guerra, DUDH como declaração da AG ONU (10/12/1948, ideal comum, catálogo misto, ≠ tratado), características/gerações em mapa, sem confundir com PIDCP/PIDESC, CADH/SIDH, Carta ONU ou resoluções CNJ/CSJT de Gerais  
-C) apenas Declaração de Estocolmo e diversidade biológica  
-D) apenas grupos vulneráveis e CSJT 368, sem DUDH  
-E) extinção da universalidade em favor exclusivo do relativismo absoluto  
+C) o Comitê de Direitos Humanos, constituído nos termos do Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais.
+
+D) a Corte Internacional de Direitos Humanos, constituída nos termos da Declaração Universal dos Direitos Humanos.
+
+E) o Comitê Interamericano de Direitos Humanos, constituído nos termos da Convenção Americana sobre Direitos Humanos.
+
+
+**19.** (FCC | TRT-11 2024 | Técnico Judiciário, Área Administrativa | Questão 60 de 60)
+
+A Convenção Americana sobre Direitos Humanos contempla a hipótese excepcional de suspensão das garantias e obrigações contraídas em virtude da Convenção, a qual
+
+A) autoriza a suspensão do direito ao reconhecimento da personalidade jurídica, desde que não encerre discriminação alguma fundada em motivos de raça, cor, sexo, idioma, religião ou origem social.
+
+B) autoriza a suspensão dos princípios da legalidade e retroatividade, desde que informada imediatamente aos outros Estados-Partes na Convenção, por intermédio do Secretário-Geral da Organização das Nações Unidas.
+
+C) autoriza a suspensão do direito à liberdade de consciência e religião, mas não à vida e à integridade pessoal.
+
+D) autoriza a suspensão dos direitos políticos e à nacionalidade, desde que as medidas adotadas não sejam incompatíveis com as demais obrigações que impõe o Direito Internacional na matéria.
+
+E) pode ser adotada em caso de guerra, perigo público ou outra emergência que ameace a independência ou segurança do Estado-Parte, na medida e pelo tempo estritamente limitados às exigências da situação, observadas as condicionantes previstas na Convenção.
+
+
+**20.** (FCC | TRT7 2024 | Técnico Judiciário, Área Administrativa | Questão 27 de 80)
+
+Em conformidade com a Constituição Federal, os tratados internacionais sobre direitos humanos
+
+A) serão equivalentes às emendas constitucionais, desde que aprovados, em um único turno, por maioria absoluta dos votos dos membros do Congresso Nacional.
+
+B) serão equivalentes às emendas constitucionais, desde que aprovados, em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros.
+
+C) não serão equivalentes, em nenhuma hipótese, às emendas constitucionais.
+
+D) serão equivalentes às emendas constitucionais, desde que aprovados, em cada Casa do Congresso Nacional, em um único turno, por três quintos dos votos dos respectivos membros.
+
+E) serão equivalentes às emendas constitucionais, desde que aprovados, em qualquer uma das Casas do Congresso Nacional, em três turnos, por dois quintos dos votos dos respectivos membros.
+
+
+**21.** (FCC | TRT7 2024 | Técnico Judiciário, Área Administrativa | Questão 29 de 80)
+
+Em conformidade com o Pacto Internacional dos Direitos Civis e Políticos, com relação ao Comitê de Direitos Humanos,
+
+A) é composto por vinte e sete membros.
+
+B) os seus membros, indicados pelos Estados Partes no referido Pacto, são eleitos em votação aberta e não secreta.
+
+C) é integrado por nacionais dos Estados Partes do referido Pacto, os quais deverão ser pessoas de elevada reputação moral e reconhecida competência em matéria de direitos humanos, levando-se em consideração a utilidade da participação de algumas pessoas com experiência jurídica.
+
+D) cada Estado Parte no referido Pacto poderá indicar três pessoas para serem membros do Comitê, as quais deverão ser nacionais do Estado que as indicou.
+
+E) a mesma pessoa poderá ser indicada uma única vez para ser membro desse Comitê.
+
+
+**22.** (FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 30 de 60)
+
+Joaquim, estudante, ficou sabendo que o Brasil deseja ratificar um importante Tratado Internacional sobre Direitos Humanos e descobriu que, de acordo com a Constituição Federal de 1988, referido tratado
+
+A) será equivalente às emendas constitucionais se for aprovado, em cada Casa do Congresso Nacional, em turno único, por três quintos dos votos dos respectivos membros.
+
+B) será equivalente às emendas constitucionais se for aprovado, em cada Casa do Congresso Nacional, em turno único, por metade dos votos dos respectivos membros.
+
+C) será equivalente às emendas constitucionais se for aprovado por maioria simples, em turno único, em apenas uma das Casas do Congresso Nacional, em razão da importância dos direitos humanos no ordenamento jurídico brasileiro.
+
+D) será equivalente às emendas constitucionais se for aprovado, em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros.
+
+E) não poderá ser equivalente às emendas constitucionais, independentemente de qualquer aprovação pelo Congresso Nacional, por expressa vedação constitucional.
+
+
+**23.** (FCC | TRT6 2025 | Técnico Judiciário, Área Administrativa | Questão 24 de 60)
+
+Considere:I. Cabe ao Comitê de Acompanhamento e Capacitação sobre Julgamento com Perspectiva de Gênero no Poder Judiciário realizar cooperação interinstitucional, dentro dos limites de sua finalidade, com entidades de natureza jurídica e social do país e do exterior que atuam na referida temática.II. Os tribunais, em colaboração com as escolas da magistratura, promoverão cursos de formação inicial e formação continuada que incluam, preferencialmente, os conteúdos relativos aos direitos humanos, gênero, raça e etnia, conforme as diretrizes previstas no Protocolo para Julgamento com Perspectiva de Gênero, os quais deverão ser disponibilizados com periodicidade mínima semestral.III. O Comitê de Acompanhamento e Capacitação sobre Julgamento com Perspectiva de Gênero no Poder Judiciário possui caráter internacional e temporário.Em conformidade com a Resolução nº 492/2023 do Conselho Nacional de Justiça — CNJ, que instituiu o Comitê de Acompanhamento e Capacitação sobre Julgamento com Perspectiva de Gênero no Poder Judiciário e o Comitê de Incentivo à Participação Institucional Feminina no Poder Judiciário, está correto o que consta em
+
+A) I e II, apenas.
+
+B) III, apenas.
+
+C) II, apenas.
+
+D) I, II e III.
+
+E) I, apenas.
+
+
+**24.** (FCC | TRT-11 2024 | Técnico Judiciário, Área Administrativa | Questão 59 de 60)
+
+Ao estabelecer mecanismos para acompanhamento das ações que preconiza, o Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais prevê:I. Os Estados-Partes comprometem-se a apresentar relatórios sobre as medidas que tenham adotado e sobre o progresso realizado com o objetivo de assegurar a observância dos direitos reconhecidos no Pacto.II. Os relatórios deverão ser encaminhados ao Secretário-Geral da Organização dos Estados Americanos, o qual enviará cópias ao Conselho Econômico e Social, para exame, de acordo com as disposições do Pacto.III. Os relatórios poderão indicar os fatores e as dificuldades que prejudiquem o pleno cumprimento das obrigações previstas no Pacto.IV. O Conselho Econômico e Social poderá encaminhar à Comissão de Direitos Humanos, para fins de estudo e de recomendação de ordem geral, ou para informação, caso julgue apropriado, os relatórios concernentes aos direitos humanos que apresentarem os Estados-Partes.Está correto o que se afirma APENAS em
+
+A) II e IV.
+
+B) I e IV.
+
+C) I, II e III.
+
+D) I, III e IV.
+
+E) II e III.
+
+
+**25.** (FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 26 de 60)
+
+Com relação ao Comitê de Acompanhamento e Capacitação sobre Julgamento com Perspectiva de Gênero no Poder Judiciário e o Comitê de Incentivo à Participação Institucional Feminina no Poder Judiciário, considere:I. O Comitê será coordenado por um Conselheiro ou Conselheira do Conselho Nacional de Justiça, assegurada a participação de representantes da Justiça Estadual, Federal, do Trabalho, Eleitoral e Militar, Escola Nacional de Formação e Aperfeiçoamento de Magistrados (Enfam), Escola Nacional de Formação e Aperfeiçoamento de Magistrados do Trabalho (Enamat) e da Ordem dos Advogados do Brasil (OAB), sendo vedada a participação de representantes da academia e da sociedade civil.II. A composição do Comitê observará a pluralidade de gênero e raça, bem como, na medida do possível, a participação de integrantes que expressem a diversidade presente na sociedade nacional.III. Caberá ao Comitê, dentre outras atribuições, elaborar estudos e propor medidas concretas de aperfeiçoamento do sistema de justiça quanto às causas que envolvam direitos humanos, gênero, raça e etnia, em perspectiva interseccional.De acordo com a Resolução nº 492/2023 do Conselho Nacional de Justiça (CNJ), está correto o que se afirma em
+
+A) I, II e III.
+
+B) II, apenas.
+
+C) III, apenas.
+
+D) I e III, apenas.
+
+E) II e III, apenas.
+
 
 ---
 
-## 4. Gabarito
+### Gabarito (concurso reais 16–25)
 
-### Treino (1–15)
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **B** | FCC | TRT-11 2024 | Técnico Judiciário, Área Administrativa | Questão 56 de 60 |
+| 17 | **D** | FCC | TRT7 2024 | Técnico Judiciário, Área Administrativa | Questão 28 de 80 |
+| 18 | **B** | FCC | TRT-11 2024 | Técnico Judiciário, Área Administrativa | Questão 57 de 60 |
+| 19 | **E** | FCC | TRT-11 2024 | Técnico Judiciário, Área Administrativa | Questão 60 de 60 |
+| 20 | **B** | FCC | TRT7 2024 | Técnico Judiciário, Área Administrativa | Questão 27 de 80 |
+| 21 | **C** | FCC | TRT7 2024 | Técnico Judiciário, Área Administrativa | Questão 29 de 80 |
+| 22 | **D** | FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 30 de 60 |
+| 23 | **E** | FCC | TRT6 2025 | Técnico Judiciário, Área Administrativa | Questão 24 de 60 |
+| 24 | **D** | FCC | TRT-11 2024 | Técnico Judiciário, Área Administrativa | Questão 59 de 60 |
+| 25 | **E** | FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 26 de 60 |
 
-| Questão | Gabarito | Nota rápida |
-|---------|----------|-------------|
-| 1 | **B** | 10/12/1948 · AG ONU |
-| 2 | **B** | Res. 217 A (III) |
-| 3 | **B** | Declaração / ideal comum · ≠ tratado |
-| 4 | **B** | Catálogo misto (civis/políticos + ESC) |
-| 5 | **A** | Preâmbulo / espírito da DUDH |
-| 6 | **B** | Pós-2ª Guerra + ONU |
-| 7 | **C** | Única amarração correta |
-| 8 | **B** | Universalidade |
-| 9 | **B** | Gerações didáticas + indivisibilidade |
-| 10 | **B** | Art. 1 — dignidade/igualdade |
-| 11 | **B** | DUDH ≠ CADH |
-| 12 | **B** | Pactos 1966 desenvolvem a Declaração |
-| 13 | **C** | 400 = sustentabilidade, não DUDH |
-| 14 | **B** | Art. 29 — deveres/limites legais |
-| 15 | **B** | Cartão mental da sessão |
+\* = aproximação temática (questão real correlata quando o nicho é raro em prova).
 
-### Estilo concurso (16–25)
-
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **B** |
-| 17 | **B** |
-| 18 | **B** |
-| 19 | **C** |
-| 20 | **C** |
-| 21 | **B** |
-| 22 | **A** |
-| 23 | **B** |
-| 24 | **C** |
-| 25 | **B** |
-
-**Notas rápidas:** 16 B (AG ONU · ideal comum); 17 B (marco pós-guerra ≠ declarações setecentistas); 18 B (indivisibilidade); 19 C (I e II; III confunde com CNJ 492); 20 C (DUDH ≠ Conduta TRT4); 21 B (Carta 1945 × DUDH 1948); 22 A (separação de instrumentos); 23 B (art. 29); 24 C (Corte IDH ↔ CADH/SIDH, não DUDH); 25 B (síntese semana 2).
-
----
+**Fontes:**
+- Q16: https://www.quizinho.com.br/questao/fcc-trt-11-2024-tecnico-judiciario-area-administrativa-2024-q56
+- Q17: https://www.quizinho.com.br/questao/fcc-trt7-2024-tecnico-judiciario-area-administrativa-2024-q28
+- Q18: https://www.quizinho.com.br/questao/fcc-trt-11-2024-tecnico-judiciario-area-administrativa-2024-q57
+- Q19: https://www.quizinho.com.br/questao/fcc-trt-11-2024-tecnico-judiciario-area-administrativa-2024-q60
+- Q20: https://www.quizinho.com.br/questao/fcc-trt7-2024-tecnico-judiciario-area-administrativa-2024-q27
+- Q21: https://www.quizinho.com.br/questao/fcc-trt7-2024-tecnico-judiciario-area-administrativa-2024-q29
+- Q22: https://www.quizinho.com.br/questao/fcc-trt6-2025-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2025-q30
+- Q23: https://www.quizinho.com.br/questao/fcc-trt6-2025-tecnico-judiciario-area-administrativa-2025-q24
+- Q24: https://www.quizinho.com.br/questao/fcc-trt-11-2024-tecnico-judiciario-area-administrativa-2024-q59
+- Q25: https://www.quizinho.com.br/questao/fcc-trt6-2025-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2025-q26
 
 *Arquivo 09 · DH evolução + DUDH · Claudionir · TRT4 Analista TI (código 14) · FCC. Semana 2 — manutenção Gerais.*

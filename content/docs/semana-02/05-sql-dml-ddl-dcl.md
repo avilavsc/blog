@@ -335,113 +335,191 @@ E) Trigger = GRANT
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões reais de concurso (16–25)
 
-**16.** No contexto de linguagem SQL, os comandos utilizados para definir ou modificar a estrutura de objetos de banco de dados, tais como tabelas e índices, pertencem tipicamente à categoria:
+> Bloco substituído por questões **reais** de concurso (FCC preferencialmente; TRT/TRF/TJ quando necessário). O treino 1–15 e o Material permanecem inalterados.
 
-A) DML  
-B) DCL  
-C) DDL  
-D) exclusivamente PL/SQL, sendo vedado o uso de SQL padrão  
-E) apenas TCL, sem relação com schema
+**16.** (FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 52 de 60)
 
-**17.** Constitui exemplo correto de comando da família DML:
+Considere o seguinte caso:Utilizando comandos SQL, um analista criou uma tabela de cidadão dando permissão de acesso ao usuário Roberto. Posteriormente inseriu dados nessa tabela, mas logo em seguida teve que deletá-los, retirar a permissão de Roberto que estava saindo do tribunal e dar permissão a Carla.A sequência de comandos SQL utilizada no caso é, correta e respectivamente, categorizada como
 
-A) `CREATE INDEX`  
-B) `GRANT UPDATE`  
-C) `UPDATE servidor SET lotacao = 'TI' WHERE id = 10`  
-D) `REVOKE SELECT`  
-E) `DROP VIEW`
+A) DML - DCL - DDL - DDL - DCL - DCL.
 
-**18.** Acerca do controle de privilégios em SQL, é correto afirmar que:
+B) DML - DCL - DML - DDL - DML - DCL.
 
-A) `GRANT` e `REVOKE` classificam-se como DCL e atuam sobre autorização de usuários/roles a objetos ou operações  
-B) `GRANT` é DML porque altera linhas de tabelas de negócio  
-C) `REVOKE` é DDL porque remove fisicamente a tabela  
-D) privilégios SQL dispensam qualquer noção de usuário ou role  
-E) DCL e DDL são termos rigorosamente sinônimos
+C) DDL - DCL - DML - DML - DCL - DCL.
 
-**19.** Considere as afirmativas abaixo.
+D) DDL - DCL - DDL - DML - DML - DCL.
 
-I. Uma transação deve apresentar comportamento “tudo ou nada”, propriedade conhecida como atomicidade.  
-II. O comando `COMMIT` confirma as alterações efetuadas na transação corrente.  
-III. O comando `TRUNCATE`, na classificação usual de concursos, é tratado como DML idêntico ao `DELETE` em família e em comportamento transacional.
+E) DCL - DDL - DML - DML - DCL - DCL.
 
-Está correto o que se afirma em:
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) II e III, apenas  
-E) I, II e III
+**17.** (FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60)
 
-**20.** No modelo ACID, a propriedade de isolamento refere-se, em essência, a:
+Considere uma tabela denominada `Cidadao` e as colunas `Nome_Cidadao` e `Valor_Recebido`.Para obter a média dos valores maiores que 200 recebidos pelos cidadãos, um Analista deve utilizar o comando
 
-A) garantir que, após o `COMMIT`, os dados possam ser descartados a qualquer momento sem impacto  
-B) assegurar que a execução concorrente de transações não produza interferências indevidas entre elas, conforme o nível de isolamento adotado  
-C) eliminar a necessidade de constraints  
-D) transformar todo DML em DDL automaticamente  
-E) conceder privilégios por meio de `INSERT`
+A) `SELECT AVG(Valor_Recebido > 200) FROM Cidadao;`
 
-**21.** Em relação a PL/SQL, no nível de noções cobráveis em concurso, assinale a opção correta.
+B) `SELECT AVG(Valor_Recebido) FROM Cidadao WHERE Valor_Recebido > 200;`
 
-A) PL/SQL é a linguagem procedural associada ao Oracle, permitindo blocos com declaração de variáveis, comandos executáveis e tratamento de exceções  
-B) PL/SQL é estritamente idêntico ao SQL puro, sem qualquer extensão procedural  
-C) Packages, procedures e functions são conceitos exclusivos de DCL  
-D) Triggers substituem integralmente o papel do `GRANT`  
-E) PL/SQL proíbe o uso de cursores
+C) `SELECT AVG(Valor_Recebido) > 200 FROM Cidadao;`
 
-**22.** Assinale a opção que apresenta classificação **incorreta** do comando indicado.
+D) `SELECT FROM Cidadao AVG(Valor_Recebido) > 200;`
 
-A) `DELETE FROM agenda` — DML  
-B) `ALTER TABLE agenda ADD CONSTRAINT ...` — DDL  
-C) `COMMIT` — DCL  
-D) `GRANT SELECT ON agenda TO leitura` — DCL  
-E) `CREATE SEQUENCE` — DDL
+E) `SELECT Nome_Cidadao and AVG(Valor_Recebido) FROM Cidadao WHERE Valor_Recebido > 200;`
 
-**23.** Um analista precisa remover todas as linhas de uma tabela mantendo a estrutura, com comando frequentemente associado a operação DDL de esvaziamento rápido. A opção mais alinhada a essa descrição, na ótica típica de prova, é:
 
-A) `REVOKE ALL`  
-B) `TRUNCATE TABLE ...`  
-C) `GRANT ALL`  
-D) `SAVEPOINT`  
-E) `CREATE SCHEMA`
+**18.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 23 de 60)
 
-**24.** Acerca de procedures e functions em PL/SQL, é correto concluir que:
+Considere a tabela `t_audiencias` que armazena informações sobre audiências marcadas.```CREATE TABLE t_audiencias ( id_audiencia INT PRIMARY KEY, numero_processo VARCHAR(50) NOT NULL, data_audiencia DATETIME NOT NULL, status VARCHAR(20) NOT NULL, vara_trabalho INT NOT NULL);```Considerando que esta tabela está criada e contém valores adequados, em um banco de dados MySQL aberto e funcionando em condições ideais, o comando que seleciona todas as audiências que estão marcadas como `'Pendente'`, cuja data de audiência seja posterior ao dia e hora atuais e que pertençam às varas de trabalho 1, 2 ou 3, é:`SELECT * FROM t_audiencias WHERE status = 'Pendente' AND`
 
-A) ambas são indistinguíveis e nunca retornam valores de qualquer forma  
-B) a function é concebida para retornar um valor, podendo ser utilizada em contextos de expressão; a procedure concentra-se na execução de um procedimento, com parâmetros conforme a assinatura  
-C) procedure é sempre DCL e function é sempre DDL  
-D) nenhuma delas pode constar de um package  
-E) triggers são o único meio de declarar variáveis no Oracle
+A) `data_audiencia > CURRENT_DATE_TIME() AND vara_trabalho IN (1, 2, 3);`
 
-**25.** Para fins de preparação em Analista Judiciário – Área de Tecnologia da Informação (FCC / TRT4), a síntese adequada do bloco SQL DML/DDL/DCL + transações + noções PL/SQL é:
+B) `data_audiencia > NOW() AND vara_trabalho IN (1, 2, 3);`
 
-A) DDL define objetos · DML manipula dados · DCL gerencia privilégios · transações asseguram ACID via COMMIT/ROLLBACK/SAVEPOINT · PL/SQL acrescenta lógica procedural (blocos, rotinas, triggers, cursores, exceções) no ecossistema Oracle  
-B) apenas autenticação Keycloak, sem SQL  
-C) SQL resume-se a `SELECT`, sendo as demais famílias inexistentes em edital  
-D) ACID e PL/SQL excluem-se mutuamente  
-E) `GRANT` confirma transações e `COMMIT` concede privilégios
+C) `data_audiencia > SYSDATE() AND vara_trabalho BETWEEN 1..3;`
+
+D) `data_audiencia > NOW() OR vara_trabalho = 1 OR vara_trabalho = 2 OR vara_trabalho = 3;`
+
+E) `data_audiencia > CURDATE() AND vara_trabalho IN (1..3);`
+
+
+**19.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 21 de 60)
+
+Em um banco de dados Oracle 19c, aberto e funcionando em condições ideais, existe uma tabela tprocessos com dados válidos, que tem a seguinte estrutura: id_processo (número único de identificação do processo) data_abertura (data em que o processo foi aberto) id_vara (identificador da vara do trabalho onde o processo tramita) valor_processo (valor monetário associado ao processo) O comando SQL que lista o id_vara, o número total de processos por vara e o valor total dos processos, em ordem decrescente, somente das varas que possuem mais de 100 processos abertos antes de 1º de janeiro de 2020, é:
+
+A) ```SELECT id_vara, COUNT() AS total_processos, SUM(valor_processo) AS valor_totalFROM tprocessosWHERE data_abertura < '2020-01-01'GROUP BY id_varaHAVING COUNT() > 100ORDER BY SUM(valor_processo) DESC;```
+
+B) ```SELECT id_vara, COUNT() AS total_processos, SUM(valor_processo) AS valor_totalFROM tprocessosWHERE data_abertura < '2020-01-01'GROUP BY id_varaORDER BY SUM(valor_processo) DESCHAVING COUNT() > 100;```
+
+C) ```SELECT id_vara, COUNT(id_processo) AS total_processos, SUM(valor_processo) AS valor_totalFROM tprocessosWHERE data_abertura < '2020-JAN-01'GROUP BY id_varaHAVING COUNT(id_processo) > 100ORDER BY COUNT(valor_total);```
+
+D) ```SELECT id_vara, COUNT(*) AS total_processos, SUM(valor_processo) AS valor_totalFROM tprocessosWHERE data_abertura <= '2020-01-01'GROUP BY id_varaORDER BY valor_total;```
+
+E) ```SELECT id_vara, COUNT(*) AS total_processos, SUM(valor_processo) AS valor_totalFROM tprocessosWHERE data_abertura < '2020-01-01'GROUP BY id_varaHAVING SUM(valor_processo) > 100000ORDER BY valor_total DESC;```
+
+
+**20.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 22 de 60)
+
+Considere que exista um banco de dados PostgreSQL aberto e funcionando em condições ideais, e que a tabela t_processos exista e esteja corretamente preenchida com valores adequados. Neste contexto, observe a função abaixo. CREATE FUNCTION atualizar_status_processo(num_processo VARCHAR) RETURNS INTEGER AS $$ DECLARE total INTEGER; BEGIN UPDATE t_processos SET status_processo = 'Encerrado' WHERE numero_processo = num_processo; SELECT COUNT(*) INTO total FROM t_processos WHERE status_processo = 'Encerrado'; RETURN total; END; $$ LANGUAGE plpgsql; Em condições ideais, esta função seria corretamente chamada utilizando-se o comando:
+
+A) `CALL atualizar_status_processo('12345-67.2023.5.01.0001');`
+
+B) `EXECUTE atualizar_status_processo('12345-67.2023.5.01.0001');`
+
+C) DO $$ BEGIN PERFORM atualizar_status_processo('12345-67.2023.5.01.0001'); END; $$ LANGUAGE plpgsql;
+
+D) `SELECT atualizar_status_processo('12345-67.2023.5.01.0001');`
+
+E) `EXEC atualizar_status_processo '12345-67.2023.5.01.0001';`
+
+
+**21.** (FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 26 de 60)
+
+Considere que um Analista está trabalhando em um banco de dados PostgreSQL aberto e funcionando em condições ideais. O Analista inseriu a seguinte sequência de comandos:```DROP TABLE I TRTContatos;CREATE TABLE TRTContatos ( cod serial PRIMARY KEY, orgao VARCHAR(255) NOT NULL, email VARCHAR(255) NOT NULL, descricao VARCHAR(255));INSERT INTO TRTContatos (orgao, email)VALUES ('Ouvidoria','ouvidoria@trt22.jus.br:'), ('Escola Judicial','ejud@trt22.jus.br'), ('Corregedoria','secor@trt22.jus.br')II ;```É correto afirmar que
+
+A) haverá erro, pois não é possível fazer inserção de múltiplas linhas em tabelas do PostgreSQL.
+
+B) haverá erro devido ao fato de as 3 linhas a serem inseridas na tabela TRTContatos não terem os 4 campos informados em CREATE TABLE.
+
+C) I deve ser preenchido com IF EXISTS e II deve ser preenchido com RETURNING * para que as linhas inseridas sejam apresentadas.
+
+D) I deve ser preenchido com ALL ROWS e II deve ficar sem nenhum preenchimento.
+
+E) faltou um _ entre cod e serial, pois o certo seria cod_serial PRIMARY KEY.
+
+
+**22.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 34 de 60)
+
+No PostgreSQL 13 um trigger
+
+A) permite chamar uma função se uma cláusula INSERT, UPDATE, DELETE ou TRUNCATE ocorrer em uma tabela.
+
+B) pode modificar os dados na tabela virtual somente após a modificação ocorrer na tabela real.
+
+C) deve ser único em uma tabela, ou seja, não pode haver mais de um trigger para a mesma tabela.
+
+D) pode chamar funções que exibem dados, mas não funções para modificá-los.
+
+E) pode ser acionado para uma tabela, mas não para uma view, chamando sempre uma procedure após o acionamento.
+
+
+**23.** (FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 56 de 60) *[aproximação temática]*
+
+Dentre as técnicas para otimizar o desempenho de consultas que envolvem a análise de grandes volumes de dados geográficos no PostgreSQL 13, uma Analista está estudando aquela que é a mais adequada, recomendando:
+
+A) utilizar a extensão PostGIS, para todas as operações espaciais.
+
+B) utilizar índices B-tree em colunas de tipo geométrico.
+
+C) fragmentar tabelas geográficas, com base em atributos espaciais.
+
+D) criar materialized views, para pré-calcular resultados de consultas espaciais.
+
+E) criar índices GIST em colunas de tipo geométrico.
+
+
+**24.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60) *[aproximação temática]*
+
+Uma equipe de desenvolvimento está utilizando Spring Boot para criar uma API RESTful. Durante os testes, observaram que a aplicação demora a inicializar, principalmente devido à configuração do banco de dados. Para melhorar o tempo de inicialização, decidiram desabilitar a criação automática do esquema de banco de dados ao iniciar a aplicação. A configuração, no `application.properties`, que desabilita a criação automática do esquema de banco de dados pelo Spring Boot é a
+
+A) `spring.jpa.hibernate.ddl-auto=none`
+
+B) `spring.datasource.database-auto=false`
+
+C) `spring.jpa.db-sql=disable`
+
+D) `spring.jpa.properties.hibernate.db-auto=disable`
+
+E) `spring.jpa.create-database-init=false`
+
+
+**25.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 39) *[aproximação temática]*
+
+*Injeção SQL / DML inseguro.*
+
+Um analista consultou a OWASP Top 10 (Riscos de Segurança em Aplicações Web) de 2021 para, se necessário, corrigir as vulnerabilidades apontadas no ambiente de um Tribunal. Referente ao número 1 da lista, uma das vulnerabilidades comuns é a
+
+A) falta de restrições em métodos como POST, PUT e DELETE, permitindo ações não autorizadas.
+
+B) ocorrência dos dados fornecidos pelo usuário não serem validados, filtrados ou sanitizados pela aplicação.
+
+C) falta de proteção de segurança adequada em qualquer parte da stack da aplicação ou permissões configuradas incorretamente em serviços de nuvem.
+
+D) falta de testes na compatibilidade de bibliotecas atualizadas, modificadas ou corrigidas.
+
+E) existência de eventos auditáveis, como logins, tentativas de login malsucedidas e transações de alto valor, não são registrados em logs.
+
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso reais 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **C** |
-| 17 | **C** |
-| 18 | **A** |
-| 19 | **C** |
-| 20 | **B** |
-| 21 | **A** |
-| 22 | **C** |
-| 23 | **B** |
-| 24 | **B** |
-| 25 | **A** |
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **C** | FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 52 de 60 |
+| 17 | **B** | FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60 |
+| 18 | **B** | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 23 de 60 |
+| 19 | **A** | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 21 de 60 |
+| 20 | **D** | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 22 de 60 |
+| 21 | **C** | FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 26 de 60 |
+| 22 | **A** | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 34 de 60 |
+| 23 | **E** \* | FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 56 de 60 |
+| 24 | **A** \* | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60 |
+| 25 | **A** \* | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 39 |
 
-**Notas rápidas:** 16 C (DDL = estrutura); 17 C (`UPDATE` = DML); 18 A (`GRANT`/`REVOKE` = DCL); 19 C (I e II; III falsa — `TRUNCATE` ≠ DML idêntico a `DELETE`); 20 B (isolamento × concorrência); 21 A (PL/SQL Oracle + bloco); 22 C (`COMMIT` não é DCL); 23 B (`TRUNCATE`); 24 B (retorno × procedimento); 25 A (síntese do subtópico).
+\* = aproximação temática (questão real correlata quando o nicho é raro em prova).
 
----
+**Fontes:**
+- Q16: https://www.quizinho.com.br/questao/fcc-trt-12-2023-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2023-q52
+- Q17: https://www.quizinho.com.br/questao/fcc-trt-12-2023-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2023-q53
+- Q18: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q23
+- Q19: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q21
+- Q20: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q22
+- Q21: https://www.quizinho.com.br/questao/fcc-trt22-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q26
+- Q22: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q34
+- Q23: https://www.quizinho.com.br/questao/fcc-trt20-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q56
+- Q24: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q38
+- Q25: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q39
 
 *Arquivo 05 · SQL DML/DDL/DCL + transações + noções PL/SQL · Claudionir · TRT4 Analista TI (código 14) · FCC. Anterior: 04 PostgreSQL/H2 · Próximo: 06 SSO / Keycloak / OAuth2.*

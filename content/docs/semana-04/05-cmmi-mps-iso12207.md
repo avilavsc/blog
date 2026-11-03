@@ -336,110 +336,126 @@ E) Correto se houver gateway XOR
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** No contexto do processo de desenvolvimento de software previsto no edital, o CMMI v3.0 — domínio Development — caracteriza-se, em regra, por:
+> **Nota:** questões **reais** de concurso (preferência FCC / TRT Analista TI), com banca, órgão e ano citados. Treino 1–15 permanece estilo didático.
 
-A) fornecer exclusivamente a notação de pools e lanes de processo de negócio  
-B) reunir práticas e níveis orientados à capacidade/maturidade no desenvolvimento  
-C) substituir, por si só, a LGPD como norma de privacidade  
-D) definir os níveis G a A do MR-MPS-SW como numeração oficial do CMMI  
-E) documentar apenas o diagrama entidade-relacionamento  
+**16.** (FCC – TRT-15/2025 – Analista Judiciário – Tecnologia da Informação)
 
-**17.** Relativamente ao MR-MPS-SW versão 2024, assinale a opção correta:
+A equipe de desenvolvimento de um Tribunal Regional do Trabalho está se orientando pelo CMMI-DEV v2.0 para melhorar a maturidade dos processos de desenvolvimento. Uma das Analistas de TI verificou, corretamente, que a área de capacidade (Capability Area) Engineering & Developing Products (EDP) inclui as áreas de prática (Practices Areas)
 
-A) Adota a escala de maturidade G a A, sendo A o nível mais avançado  
-B) É idêntico, termo a termo, à ISO 12207 sem qualquer diferença de propósito  
-C) Substitui a UML 2.5.1 em diagramas de classe  
-D) É o nome comercial do Docker Hub  
-E) Possui apenas os níveis 4 e 5 da ITIL  
+A) Technical Solution e Peer Review.
+B) Estimating, Planning e Product Integration.
+C) Technical Solution e Product Integration.
+D) Process Quality Assurance, Risk and Oportunity Management e Process Management.
+E) Monitor and Control e Governance.
 
-**18.** Comparando a ISO/IEC/IEEE 12207:2021 com modelos de maturidade, é correto afirmar que:
+**17.** (FCC – TRT-20/2024 – Analista Judiciário – Tecnologia da Informação)
 
-A) a 12207 é, por definição, o nível 5 do CMMI  
-B) a 12207 descreve processos de ciclo de vida, ao passo que CMMI/MPS tratam de maturidade/capacidade  
-C) a 12207 elimina a necessidade de requisitos  
-D) a 12207 é a escala G–A renomeada  
-E) a 12207 é apenas um gateway inclusivo  
+Considere, por hipótese, que um Tribunal está adotando o CMMI-DEV v2.0. Para aumentar a previsibilidade dos resultados dos projetos, reduzir o retrabalho e garantir que os requisitos do cliente sejam cumpridos de forma mais eficiente, é necessário, dentre outras ações,
 
-**19.** Assinale a alternativa que apresenta associação **incorreta**:
+A) estabelecer um controle rigoroso de qualidade com foco em auditorias periódicas nos processos, utilizando a área de prática IMP - Improving Performance da Área de Capacitação PCM - Process Management, para garantir que todas as mudanças sejam aprovadas e documentadas formalmente.
+B) priorizar a entrega rápida de funcionalidades, utilizando as áreas de prática MPM - Managing Performance & Measurement e PCM - Process Management da Área de Capacitação PMW - Planning & Managing Work, para aumentar a satisfação do cliente e reduzir o tempo de mercado (time to market).
+C) investir em treinamentos intensivos de desenvolvimento ágil para toda a equipe e implementar o Scrum como principal metodologia, como recomenda a área de prática OT - Organizational Training da Área de Capacitação ENQ - Ensuring Quality.
+D) adotar as áreas de prática CAR - Causal Analysis and Resolution da Área de Capacitação SI - Supporting Implementation e RDM - Requirements Development and Management da Área de Capacitação ENQ - Ensuring Quality, que contribuirão para identificação das causas raízes dos defeitos e cumprimento dos requisitos do cliente de forma eficiente e eficaz.
+E) concentrar todos os esforços na automação de testes de software para reduzir defeitos, conforme recomenda a área de prática VAL - Validation da Área de Capacitação PMW - Planning & Managing Work, para garantir que o produto final atenda aos requisitos dos clientes.
 
-A) CMMI Dev — domínio de desenvolvimento / maturidade-capacidade  
-B) MPS-SW 2024 — modelo brasileiro de software (G–A)  
-C) ISO 12207 — processos de ciclo de vida  
-D) CMMI nível 1 — tipicamente ad hoc / inicial  
-E) ISO 12207 — escala obrigatória G–A do MPS.BR  
+**18.** (FCC – TRT-15/2023 – Analista Judiciário – Tecnologia da Informação)
 
-**20.** Em enunciado que contraste CMMI e MPS-SW, a FCC tipicamente considera **correto** que:
+Considere, por hipótese, que o Analista do Tribunal Regional do Trabalho está trabalhando na melhoria de processos orientado pelo guia MR-MPS-SW e sabe que a implementação do processo Gerência de Projetos - GPR inicia no nível de maturidade G e evolui em alguns dos níveis seguintes e que, na evolução atingida a partir do nível
 
-A) Ambos usam exatamente os mesmos rótulos de nível (1–5 = G–A sem mapeamento)  
-B) São modelos distintos (internacional × brasileiro), correlacionáveis, com escalas próprias  
-C) MPS-SW é apenas o diagrama de sequência UML  
-D) CMMI é exclusivo de redes Wi-Fi  
-E) Nenhum dos dois se relaciona a processo de software  
+A) B (GPR20), as técnicas estatísticas e quantitativas são utilizadas para definir e manter as atividades do projeto alinhadas aos objetivos de qualidade e desempenho definidos para o projeto.
+B) E (GPR22), as avaliações de soluções são realizadas utilizando técnicas estatísticas e quantitativas para determinar se a solução pode ser aplicada na organização.
+C) C (GPR14), os resultados positivos ou negativos significativos do projeto são analisados e tratados em relação à causa-raiz, utilizando um procedimento organizacional e documentando os seus resultados.
+D) A (GPR19), os resultados atrasados do projeto são analisados e tratados em relação à causa-raiz, utilizando um procedimento de auditoria e revendo os seus resultados.
+E) D (GPR15), o processo definido para o projeto, derivado da estratégia para adaptação do processo da organização, é estabelecido, mantido atualizado e utilizado.
 
-**21.** A expressão “processos de acordo, organizacionais, de gestão e técnicos no ciclo de vida de software” descreve com mais precisão o propósito da:
+**19.** (FCC – TRT-14/2016 – Analista Judiciário – Tecnologia da Informação)
 
-A) Notação BPMN exclusiva  
-B) **ISO/IEC/IEEE 12207** (visão)  
-C) Board Kanban físico  
-D) Image Docker  
-E) Token OAuth2  
+O modelo de qualidade de software MPS.BR
 
-**22.** Em organização que adota práticas ágeis, o uso de Scrum **não** implica, por si só:
+A) não é compatível com a Norma NBR ISO/IEC 12207:2009.
+B) adota a ITIL v3 como padrão de gerenciamento da qualidade de serviços de TI.
+C) não pode ser aplicado em nenhum Tribunal Regional do Trabalho.
+D) não atende às necessidades das empresas brasileiras, que preferem a adoção do CMMI.
+E) não conflita com as metodologias ágeis de software, podendo ser utilizado junto com o Scrum.
 
-A) possibilidade de planejar e entregar em iterações  
-B) certificação automática em CMMI nível 5 ou MPS nível A  
-C) colaboração do time com Product Owner e eventos do framework  
-D) inspeção e adaptação  
-E) foco em incremento de valor  
+**20.** (FCC – TRT-22/2010 – Analista Judiciário – Tecnologia da Informação)
 
-**23.** Considere as afirmações:
+NÃO se trata de um nível de maturidade adotado no MPS.Br, o
 
-I. O nível G do MPS-SW é mais maduro que o nível A.  
-II. O CMMI Dev e o MPS-SW podem ser correlacionados, mas não são o mesmo modelo.  
-III. A ISO 12207 não substitui, por si só, um modelo de maturidade G–A ou 1–5.
+A) Definido.
+B) Gerenciado.
+C) Em Otimização.
+D) Largamente Definido.
+E) Executado.
 
-Assinale:
+**21.** (FCC – TRT-15/2025 – Analista Judiciário – Tecnologia da Informação)
 
-A) Apenas I  
-B) Apenas II  
-C) II e III  
-D) I e II  
-E) I, II e III  
+Uma Analista de TI está revisando seus processos de desenvolvimento de software para alinhá-los à norma ABNT NBR ISO/IEC/IEEE 12207:2021. Durante a análise, ela identificou a necessidade de implementar processos para assegurar a qualidade do produto final. Um dos processos primários (ou fundamentais) conforme descrito na norma ABNT NBR ISO/IEC/IEEE 12207:2021 é o Processo de
 
-**24.** Diferenciar capacidade e maturidade no discurso CMMI é relevante porque:
+A) Auditoria de Software.
+B) Avaliação de Fornecedores.
+C) Gestão de Configuração.
+D) Desenvolvimento.
+E) Engenharia de Sistemas.
 
-A) não há qualquer diferença conceitual cobrável  
-B) capacidade tende a olhar práticas/áreas; maturidade, o estágio organizacional agregado (visão)  
-C) maturidade só existe no BPMN  
-D) capacidade é exclusividade do RabbitMQ  
-E) ambos são apenas anotações em diagrama ER  
+**22.** (FCC – TRT-6/2025 – Analista Judiciário – Tecnologia da Informação)
 
-**25.** A síntese mais alinhada ao edital, sobre o trio CMMI / MPS-SW / 12207, é:
+De acordo com a Norma ABNT NBR ISO/IEC/IEEE 12207:2021, as atividades que podem ser executadas durante o ciclo de vida de um sistema de software são agrupadas em
 
-A) Os três são notações gráficas idênticas ao BPMN  
-B) CMMI Dev = maturidade/capacidade (1–5); MPS-SW 2024 = G→A (BR); 12207 = processos de ciclo de vida — complementares  
-C) Todos obrigam stack apenas .NET e eliminam Java  
-D) Todos substituem segurança, redes e SQL no edital  
-E) Todos são nomes do API Gateway  
+A) diversos grupos de processos, dentre os quais encontram-se os processos de acordo, que transformam as necessidades dos stakeholders em produtos e serviços.
+B) 4 grupos de processos, dentre os quais encontram-se os processos de gerenciamento técnico, que estão relacionados ao esforço técnico dos projetos, em particular ao planejamento de custos, prazos e compromissos.
+C) 4 grupos de processos, dentro dos quais encontram-se 36 processos, que a Norma considera suficientes, desencorajando o uso de processos adicionais.
+D) diversos grupos de processos, dentre os quais se encontram os processos técnicos, que estão relacionados ao nível estratégico com a gestão e melhoria dos negócios, visando atender as necessidades dos stakeholders da organização.
+E) 6 grupos de processos, com destaque aos processos organizacionais habilitadores de projeto, que têm aplicação tanto fora do ciclo de vida do projeto quanto ao longo de sua vida útil.
+
+**23.** (FCC – TRT-19/2022 – Analista Judiciário – Tecnologia da Informação)
+
+No processo técnico de definição dos requisitos de sistema/software, um resultado esperado, segundo a norma ABNT NBR ISO/IEC/IEEE 12207:2021, é que
+
+A) as necessidades dos stakeholders sejam definidas.
+B) as medidas críticas de desempenho sejam definidas.
+C) todas as restrições do sistema sejam identificadas pelos stakeholders.
+D) a rastreabilidade dos requisitos dos stakeholders para suas necessidades sejam estabelecidas.
+E) os elementos do sistema e suas interfaces sejam identificados e construídos.
+
+**24.** (FCC – TRT-1/2025 – Analista Judiciário – Tecnologia da Informação)
+
+No contexto do processo de desenvolvimento de software, diferentes frameworks, normas e metodologias podem ser aplicados para garantir qualidade, conformidade e eficiência, como
+
+A) o CMMI e o MR-MPS-SW, que não recomendam o desenvolvimento low-code e no-code, uma vez que estes podem comprometer a qualidade do software.
+B) a notação BPMN, que substituiu a UML 2.5 por ter sido descontinuada em processos de Engenharia de Software modernos, independentemente do domínio de aplicação do sistema em desenvolvimento.
+C) o MR-MPS-SW 2023, que eliminou a necessidade do processo Engenharia de Requisitos do nível G, uma vez que essa responsabilidade foi transferida para o processo Projeto e Construção Ágil do Produto do nível F, que preconiza o uso de metodologias como Scrum e XP.
+D) o CMMI-DEV v2.0, no qual as práticas de Engenharia de Software são abordadas de forma independente dos níveis de maturidade organizacional, permitindo que uma organização alcance a certificação em um único processo de avaliação direta.
+E) a norma ABNT NBR ISO/IEC/IEEE 12207:2021, que define que o processo de definição de requisitos de sistema/software tem como objetivo transformar as capacidades desejadas dos stakeholders, visão orientada ao usuário, em uma visão técnica que atenda às necessidades operacionais do usuário.
+
+**25.** (FCC – TRT-20/2024 – Analista Judiciário – Tecnologia da Informação)
+
+De acordo com o MR-MPS-SW: 2023, que é compatível com o CMMI-DEV v2.0, o propósito do processo REQ - Engenharia de Requisitos é definir, gerenciar e manter atualizados os requisitos das partes interessadas e do produto, garantindo que inconsistências entre os requisitos, os planos e os produtos de trabalho sejam identificadas e tratadas. Os resultados esperados, a partir de nível D, incluem que
+
+A) as necessidades, expectativas e restrições das partes interessadas ligadas à área de TI, tanto em relação ao produto quanto a suas interfaces, sejam identificadas.
+B) os requisitos sejam validados e que a validação possa ser realizada, entre outras formas, com uso de protótipos, demonstrações ou revisões.
+C) os planos, as atividades e os requisitos de trabalho relacionados sejam revisados.
+D) as avaliações de soluções sejam realizadas utilizando técnicas estatísticas e quantitativas para determinar se a solução pode ser aplicada na organização.
+E) os recursos materiais e o ambiente de trabalho necessários para executar o projeto e seus requisitos sejam estabelecidos e mantidos atualizados.
 
 ---
 
 ### Gabarito comentado (concurso 16–25)
 
-16. **B** — Práticas + maturidade/capacidade Dev.  
-17. **A** — G–A; A no topo.  
-18. **B** — Processos × maturidade.  
-19. **E** — 12207 ≠ escala G–A.  
-20. **B** — Modelos distintos correlacionáveis.  
-21. **B** — 12207 = ciclo de vida.  
-22. **B** — Ágil ≠ maturidade automática.  
-23. **C** — I falsa (G < A); II e III verdadeiras.  
-24. **B** — Capability × maturity.  
-25. **B** — Cartão mental do arquivo 05.
-
----
+| Questão | Gabarito | Fonte/nota |
+|---------|----------|------------|
+| 16 | **C** | Quizinho TRT-15 2025/2024 Q55 — EDP |
+| 17 | **D** | Quizinho TRT-20 2024 Q23 |
+| 18 | **A** | Quizinho TRT-15 2023 Q52 |
+| 19 | **E** | EstudeGrátis TRT-14 2016 |
+| 20 | **E** | EstudeGrátis/PDF TRT-22 2010 — Executado |
+| 21 | **D** | Quizinho TRT-15 2025/2024 Q56 |
+| 22 | **B** | Quizinho TRT-6 2025 Q48 |
+| 23 | **B** | Quizinho TRT-19 2022 Q35 |
+| 24 | **E** | Quizinho TRT-1 2025 Q32 |
+| 25 | **B** | Quizinho TRT-20 2024 Q21 |
 
 ## 4. Auto-checagem rápida (opcional)
 

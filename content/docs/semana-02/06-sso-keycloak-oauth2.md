@@ -421,127 +421,189 @@ E) RFC 9700 revoga a existência de Resource Servers
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões reais de concurso (16–25)
 
-**16.** Em arquitetura de microsserviços alinhada à PDPJ-Br, o serviço de autenticação unificada (*Single Sign-On*) baseado em Keycloak tem por finalidade, em regra:
+> Bloco substituído por questões **reais** de concurso (FCC preferencialmente; TRT/TRF/TJ quando necessário). O treino 1–15 e o Material permanecem inalterados.
 
-A) substituir o catálogo de instâncias do Service Discovery e eliminar a necessidade de nomes lógicos de serviço  
-B) permitir que usuários autentiquem-se uma vez e consumam múltiplos sistemas/módulos mediante tokens, sob protocolo OAuth 2.0  
-C) mapear entidades JPA em DTOs em tempo de compilação  
-D) versionar automaticamente scripts DDL no lugar do Flyway  
-E) atuar exclusivamente como balanceador L4 sem emissão de credenciais  
+**16.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 28 de 60)
 
-**17.** Acerca do OAuth 2.0 (RFC 6749), assinale a alternativa correta quanto aos papéis definidos pelo framework.
+A autenticação na Plataforma Digital do Poder Judiciário PDPJ-Br ocorre por meio de uma solução A, baseada em um aplicativo open source de gestão de identidades e acesso, denominado B, com base no protocolo C. De acordo com o texto acima, A, B e C são, correta e respectivamente:
 
-A) O *Authorization Server* armazena, por definição, todos os dados de negócio do Resource Owner no lugar do Resource Server  
-B) O *Client* é a aplicação que solicita autorização; o *Authorization Server* autentica o Resource Owner e emite tokens; o *Resource Server* hospeda o recurso protegido  
-C) O *Resource Owner* é sinônimo estrito de Eureka Client  
-D) Não há distinção entre Client e Resource Server na RFC 6749  
-E) O único papel existente é o API Gateway  
+A) Keycloak – Docker – Simple Object Access Protocol (SOAP)
 
-**18.** Considere as afirmações abaixo, à luz da RFC 9700 (*OAuth 2.0 Security Best Current Practice*).
+B) Single Sign-On (SSO) – Keycloak – OAuth2 (RFC 6749)
 
-I. Clientes públicos que utilizam o Authorization Code Flow devem empregar PKCE.  
-II. O *Resource Owner Password Credentials grant* não deve ser utilizado.  
-III. A comparação de URIs de redirecionamento deve, em regra, observar *exact string matching*.
+C) Single Sign-On (SSO) – RabbitMQ – Advanced Message Queuing Protocol (AMQP)
 
-Está correto o que se afirma em:
+D) de access token – Keycloak – Simple Object Access Protocol (SOAP)
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) II e III, apenas  
-E) I, II e III  
+E) Keycloak – RabbitMQ – OAuth2 (RFC 4967)
 
-**19.** No contraste entre o *Authorization Code grant* e o *Implicit grant*, é correto afirmar, em linha com as boas práticas atuais (RFC 9700), que:
 
-A) o Implicit deve ser preferido porque entrega o access token diretamente no *user agent*, eliminando riscos de vazamento  
-B) clients devem, em regra, evitar o Implicit e preferir o Authorization Code, tipicamente conjugado a PKCE  
-C) ambos são proibidos de forma absoluta pela RFC 6749 desde a publicação original  
-D) o Authorization Code dispensa qualquer *token endpoint*  
-E) o Implicit é obrigatório para clientes confidential  
+**17.** (FCC | TRT17 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 48 de 70)
 
-**20.** Em enunciado que descreve componente responsável por “autenticar o usuário no realm, federar identidades e emitir *access tokens* consumidos pelas APIs via Bearer”, o papel mais adequado é o de:
+As versões atuais do Keycloak podem carregar configurações (`db`, `db-username`, `db-password`, `db-url`) de quatro fontes diferentes: de parâmetros de linha de comando, de variáveis de ambiente, de arquivos de configuração `.conf` criados pelo usuário e
 
-A) Eureka Server como *registry* puro de heartbeats  
-B) MapStruct  
-C) Keycloak / Authorization Server do SSO  
-D) Flyway  
-E) Hibernate Envers  
+A) do arquivo `keycloak.conf`, localizado no diretório conf da instalação.
 
-**21.** Assinale a opção que **inverte** indevidamente conceitos deste eixo.
+B) dos arquivos `standalone.conf` e `server.conf`, localizados na pasta de configuração do projeto.
 
-A) Keycloak emite tokens; APIs validam Bearer; Gateway pode checar token na borda  
-B) Eureka localiza réplicas; Keycloak autentica/autoriza via OAuth; Zuul encaminha na borda  
-C) Authorization Code troca *code* por token no *token endpoint*  
-D) Keycloak = Service Discovery; Eureka = emissor de JWT do SSO; password grant = BCP RFC 9700  
-E) PKCE usa *code_verifier* / *code_challenge* (preferência S256)  
+C) do repositório GitKeyCloak disponibilizado por seus criadores.
 
-**22.** A utilização do cabeçalho HTTP `Authorization` com esquema Bearer, no consumo de microsserviços protegidos pelo SSO da PDPJ, relaciona-se à ideia de:
+D) do arquivo `keyconfig.xml`, localizado na pasta de configuração da aplicação.
 
-A) enviar o *access token* obtido junto ao Authorization Server para autenticação/autorização da requisição no Resource Server  
-B) registrar a instância no Eureka a cada request  
-C) gerar automaticamente o Swagger UI  
-D) aplicar *soft delete* via Envers  
-E) substituir TLS por plain HTTP obrigatório  
+E) de arquivos de configuração do servidor de sincronização do Keycloak.
 
-**23.** Considere o uso conjugado de **API Gateway**, **Keycloak** e **Eureka** em stack alinhada ao conteúdo programático. Assinale a alternativa correta.
 
-A) Eureka emite authorization codes; Keycloak mantém o *registry*; Gateway é IdP exclusivo  
-B) Keycloak cuida de SSO/tokens; Gateway de entrada/roteamento (podendo validar token); Eureka de localização de instâncias — papéis distintos e complementares  
-C) Os três são sinônimos de Implicit grant  
-D) Gateway substitui a RFC 6749; Keycloak substitui JSON  
-E) Eureka obriga o uso de ROPC  
+**18.** (FCC | TRF4 2025 | Técnico Judiciário, Área Apoio Especializado, Especialidade Desenvolvimento de Sistema da Informação | Questão 50 de 50)
 
-**24.** Para fins de preparação no eixo SSO / Keycloak / OAuth2 do edital (PDPJ-Br / Analista TI), a síntese mais adequada é:
+O Art. 11 da Portaria CNJ nº 253/2020 estabelece que o acesso aos microsserviços deverá ser protegido com mecanismos de autenticação e autorização
 
-A) RFC 6749 define papéis e grants; RFC 9700 endurece a segurança (PKCE, exact redirect, evitar Implicit, MUST NOT password); Keycloak materializa o SSO; APIs usam Bearer  
-B) Password grant é a única prática recomendada pela 9700; Implicit é obrigatório; Keycloak equivale a Flyway  
-C) OAuth2 resolve Discovery; SSO elimina Resource Servers  
-D) Exact matching de redirect é desencorajado; open redirectors são recomendados  
-E) Clientes públicos devem expor *client_secret* e evitar PKCE  
+A) baseados em OAuth2 a ser provido pelo serviço de Single SignOn da PDPJ-Br.
 
-**25.** Assinale a afirmação **incompatível** com as boas práticas da RFC 9700 e o desenho SSO/Keycloak cobrado.
+B) por meio de autenticação de usuário já cadastrado no sistema de processo eletrônico específico do tribunal em que o processo tramita.
 
-A) Preferir Authorization Code com PKCE (S256)  
-B) Validar tokens no Resource Server / borda conforme o desenho  
-C) Restringir *scopes* e *audience* ao mínimo necessário  
-D) Adotar ROPC (*password*) como grant padrão de segurança moderna e abandonar o Authorization Code  
-E) Evitar open redirectors e Implicit que devolvem access token no redirect  
+C) e utilizar exclusivamente navegadores de internet homologados pelo Conselho Nacional de Justiça (CNJ).
+
+D) baseados em SSL a serem providos pelo serviço de suporte operacional da PDPJ-Br.
+
+E) mediante concórdia com os termos de uso da plataforma no primeiro acesso.
+
+
+**19.** (FCC | TRT20 2024 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 55 de 60)
+
+O parâmetro `scope` no OAuth 2.0 é usado para especificar
+
+A) o método de autenticação do cliente.
+
+B) o tipo de token de acesso a ser emitido.
+
+C) os recursos e permissões que o cliente deseja acessar.
+
+D) o servidor de autorização a ser utilizado.
+
+E) o tempo de vida do token de acesso.
+
+
+**20.** (FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 30 de 60)
+
+Considere a situação abaixo.Carlos abre um aplicativo no qual são oferecidas 3 formas de acesso à plataforma: com Google, com Facebook e com E-mail. Carlos clica no opção "Acessar com Google". O aplicativo faz uma requisição ao Google Accounts, pedindo uma chave de acesso para consumir um recurso protegido. Quando o Google Accounts recebe o pedido de autorização para acessar um recurso protegido, inicia-se o processo de identificação e autenticação.Surge a tela do Google para Carlos digitar seu e-mail (@gmail.com), seguida da tela (do Google) para Carlos digitar a senha. Nesse passo, Carlos identifica-se, autentica-se e consente que o aplicativo acesse os recursos protegidos em seu nome. Então, o Google Accounts emite um access token (chave de acesso) para o aplicativo, que poderá acessar os recursos protegidos.Nessa situação, que ilustra o funcionamento inicial do OAuth2 (RFC 6749), o Google Accounts é o I, Carlos é o II e o aplicativo é o III.Os roles que preenchem, correta e respectivamente, as lacunas I, II e III são:
+
+A) Resource Server − Grant Owner − Protected Resource
+
+B) Authorization Server − Client − Protected Resource
+
+C) Resource Server − Grant Owner − Client
+
+D) Request Server − Client − Resource Owner
+
+E) Authorization Server − Resource Owner − Client
+
+
+**21.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 33 de 60)
+
+Um Tribunal implementou um sistema de controle de acesso lógico para seus funcionários, utilizando um modelo de autenticação e autorização baseado em papéis (RBAC). O sistema exige que os funcionários realizem a autenticação forte antes de acessar dados críticos. Durante uma auditoria interna, foi observado que alguns usuários com funções administrativas estavam acessando recursos sem que a autenticação forte fosse exigida, o que representava um risco. O procedimento que deve ser implementado primeiramente para corrigir a falha e assegurar que a autenticação forte seja exigida para todos os usuários ao acessar recursos críticos é
+
+A) implementar um log de auditoria mais robusto para monitorar os acessos realizados pelos administradores a todos os sistemas.
+
+B) redefinir todas as senhas dos usuários administrativos como medida corretiva temporária.
+
+C) configurar regras de autorização para que os administradores também estejam sujeitos ao controle de autenticação forte, sem exceções.
+
+D) configurar uma política de tempo limite (timeout) para encerrar as sessões de usuários administrativos inativos.
+
+E) adotar uma solução de Single Sign-On (SSO) para centralizar as autenticações dos usuários.
+
+
+**22.** (FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60) *[aproximação temática]*
+
+Ao usar o Gateway API com o Service Discovery no contexto da PDPJ-Br, a principal consequência para o frontend em uma aplicação baseada em microsserviços é que o
+
+A) Gateway API diminui a necessidade de autenticação, uma vez que o Service Discovery é integrado ao SSO.
+
+B) frontend deve configurar manualmente os IPs e portas dos serviços disponíveis na plataforma.
+
+C) frontend se torna o responsável pela chamada direta de cada microsserviço individualmente.
+
+D) Gateway API reduz o número de chamadas externas que o frontend precisa fazer, tornando a comunicação mais eficiente.
+
+E) frontend deve gerenciar manualmente as atualizações de endpoint de cada serviço individual registrado.
+
+
+**23.** (FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 47 de 60) *[aproximação temática]*
+
+Estabelecer governança de segurança cibernética e fortalecer a gestão e coordenação integrada de ações de segurança cibernética nos órgãos do Poder Judiciário é um dos objetivos da Estratégia Nacional de Segurança da Informação e Cibernética do Poder Judiciário (ENSEC-PJ), que consta na Resolução nº
+
+A) 335/2020.
+
+B) 131/2021.
+
+C) 253/2020.
+
+D) 162/2021.
+
+E) 396/2021.
+
+
+**24.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 29 de 60) *[aproximação temática]*
+
+Nos projetos da Plataforma Digital do Poder Judiciário PDPJ-Br,
+
+A) os ambientes de deployment estão instalados em clusters Kubernetes, gerenciados por meio da ferramenta open source de orquestração de containers Rancher.
+
+B) a aplicação deve possuir os arquivos `yanl`, para que o deploy ocorra de forma automática por meio de pipelines de CI/CD (Continuous Delivery e Continuous Integration) executados pelo GitLab do STF (Supremo Tribunal Federal).
+
+C) a aplicação deve possuir um arquivo `Rancherfile`, especificando o modo pelo qual ela deve ser empacotada.
+
+D) deve haver o arquivo `.gitlab-ci.xml` definindo a pipeline de deploy automático.
+
+E) deve haver, na pasta `kubernets`, o arquivo de configuração do ingress da aplicação, que é obrigatório.
+
+
+**25.** (FCC | TRT17 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 69 de 70) *[aproximação temática]*
+
+No Art. 4º da Resolução nº 335 de 29/09/2020 é estabelecido que a Plataforma Digital do Poder Judiciário – PDPJ-Br adotará, obrigatoriamente, soluções que abranjam, dentre outros, os seguintes conceitos: modalidade, acessibilidade, usabilidade, microsserviços, computação em nuvem,
+
+A) e processo eletrônico em plataforma privada.
+
+B) ampla cobertura de testes, alto acoplamento, baixa coesão e modularização.
+
+C) e desenvolvimento centralizado na esfera principal do Poder Judiciário.
+
+D) e substituição das atividades rotineiras ou sequenciais por ações manuais.
+
+E) e autenticação uniformizada.
+
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso reais 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **B** |
-| 17 | **B** |
-| 18 | **E** |
-| 19 | **B** |
-| 20 | **C** |
-| 21 | **D** |
-| 22 | **A** |
-| 23 | **B** |
-| 24 | **A** |
-| 25 | **D** |
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **B** | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 28 de 60 |
+| 17 | **A** | FCC | TRT17 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 48 de 70 |
+| 18 | **A** | FCC | TRF4 2025 | Técnico Judiciário, Área Apoio Especializado, Especialidade Desenvolvimento de Sistema da Informação | Questão 50 de 50 |
+| 19 | **C** | FCC | TRT20 2024 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 55 de 60 |
+| 20 | **E** | FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 30 de 60 |
+| 21 | **C** | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 33 de 60 |
+| 22 | **D** \* | FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60 |
+| 23 | **E** \* | FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 47 de 60 |
+| 24 | **A** \* | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 29 de 60 |
+| 25 | **E** \* | FCC | TRT17 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 69 de 70 |
 
-**Notas rápidas:** 16 B (SSO único → vários serviços via OAuth/tokens); 17 B (papéis 6749); 18 E (I–III alinhados à 9700); 19 B (evitar Implicit; preferir Code+PKCE); 20 C (Keycloak/AS); 21 D (única que **inverte** tudo); 22 A (Bearer = access token na API); 23 B (papéis complementares); 24 A (síntese 6749+9700+Keycloak); 25 D (ROPC como “padrão moderno” é incompatível com 9700).
+\* = aproximação temática (questão real correlata quando o nicho é raro em prova).
 
----
-
-### Verificação interna (consistência)
-
-| Checagem | Status |
-|----------|--------|
-| Edital: SSO + Keycloak + OAuth2 RFC 6749 + boas práticas RFC 9700 | Coberto |
-| PDPJ: SSO Keycloak; Bearer; federação; adesão de módulos | Coberto (visão cobrável) |
-| Treino 1–15 com gabarito comentado | 15/15 |
-| FCC 16–25 com tabela + notas | 10/10 |
-| Distratores clássicos (Eureka/Zuul/MapStruct/Flyway/Envers; Implicit×Code; ROPC) | Presentes |
-| Gabaritos únicos (sem ambiguidade intencional) | Conferidos |
-| Anti-confusão Gateway × AS × Discovery | Seções 1.4, 1.13, 1.15 + Q12/Q21/Q23 |
-
----
+**Fontes:**
+- Q16: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q28
+- Q17: https://www.quizinho.com.br/questao/fcc-trt17-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q48
+- Q18: https://www.quizinho.com.br/questao/fcc-trf4-2025-tecnico-judiciario-area-apoio-especializado-especialidade-desenvolvimento-de-sistema-da-informacao-2025-q50
+- Q19: https://www.quizinho.com.br/questao/fcc-trt20-2024-tecnico-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q55
+- Q20: https://www.quizinho.com.br/questao/fcc-trt22-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q30
+- Q21: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q33
+- Q22: https://www.quizinho.com.br/questao/fcc-trt6-2025-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2025-q39
+- Q23: https://www.quizinho.com.br/questao/fcc-trt22-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q47
+- Q24: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q29
+- Q25: https://www.quizinho.com.br/questao/fcc-trt17-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q69
 
 *Arquivo 06 · SSO / Keycloak / OAuth2 · Claudionir · TRT4 Analista TI (código 14) · FCC. Semana 2 — autenticação PDPJ.*

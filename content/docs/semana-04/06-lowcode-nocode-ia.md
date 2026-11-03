@@ -306,122 +306,126 @@ E) Low-code elimina LGPD
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** Em órgãos que adotam plataformas de desenvolvimento rápido, o *no-code* é corretamente caracterizado como abordagem que:
+> **Nota:** questões **reais** de concurso (preferência FCC / TRT Analista TI), com banca, órgão e ano citados. Treino 1–15 permanece estilo didático.
 
-A) Exige, por definição, programação em linguagem de baixo nível  
-B) Impede qualquer integração com APIs  
-C) Substitui integralmente a necessidade de políticas de segurança da informação  
-D) Permite construir aplicações predominantemente por meios visuais, com mínima ou nenhuma escrita de código pelo usuário  
-E) Corresponde ao mesmo conceito de orquestração de containers  
+**16.** (FCC – TRT-15/2025 – Analista Judiciário – Tecnologia da Informação)
 
-**17.** Considere as afirmativas:
+Um Tribunal Regional do Trabalho implementou uma plataforma no-code para permitir que diferentes departamentos criem seus próprios aplicativos de gestão de tarefas e projetos. Após seis meses de uso, a administração avaliou que os resultados obtidos no uso de plataformas no-code está em consonância com o que é frequentemente associado com
 
-I. Low-code reduz a quantidade de código tradicional, admitindo extensões programáticas.  
-II. No-code e low-code são sempre termos intercambiáveis sem qualquer distinção.  
-III. O uso de assistentes de IA no desenvolvimento não elimina a responsabilidade de revisão humana dos artefatos.
+A) o aumento da dependência da equipe de TI para manutenção de sistemas.
+B) a redução na capacidade de personalização das soluções.
+C) a maior complexidade na integração com sistemas existentes.
+D) a necessidade contínua de treinamento intensivo para todos os funcionários.
+E) a redução do tempo de desenvolvimento e entrega de soluções, permitindo uma resposta mais rápida às necessidades do negócio.
 
-Está correto o que se afirma em:
+**17.** (FCC – TRT-15/2025 – Técnico Judiciário – Tecnologia da Informação)
 
-A) I, apenas  
-B) II, apenas  
-C) I e III, apenas  
-D) II e III, apenas  
-E) I, II e III  
+Ao ser questionado sobre a segurança em plataformas low-code, uma Técnica de um Tribunal Regional do Trabalho respondeu, corretamente que
 
-**18.** Relacione corretamente:
+A) a segurança em low-code depende exclusivamente das práticas de desenvolvimento do usuário.
+B) a integração com sistemas existentes pode introduzir vulnerabilidades específicas.
+C) plataformas low-code possuem segurança nativa que elimina todos os riscos de segurança.
+D) todas as plataformas low-code garantem a mesma qualidade de segurança.
+E) low-code não pode ser utilizado para desenvolver aplicações que exigem alta segurança.
 
-(1) No-code  
-(2) Low-code  
-(3) Assistente de IA no IDE  
+**18.** (FCC – TRT-20/2024 – Analista Judiciário – Tecnologia da Informação)
 
-( ) Sugere/completa código e apoia tarefas do ciclo de desenvolvimento  
-( ) Plataforma visual com pouca ou nenhuma programação explícita  
-( ) Plataforma visual que tipicamente admite customização via código
+A equipe de TI de um Tribunal estava sobrecarregada com demandas de novos sistemas, além da necessidade de manutenção de aplicações legadas. Foi definida, então, uma estratégia de utilização de plataformas Low-code e No-code visando aumentar a agilidade no desenvolvimento, além de permitir que setores não técnicos desenvolvessem suas próprias ferramentas. O conjunto de aplicações adequadas para desenvolvimento utilizando estas plataformas, considerando as vantagens e limitações dessas abordagens, inclui
 
-A sequência correta é:
+A) migração de sistemas legados de mainframes para cloud, com recursos customizados de controle sobre desempenho e segurança.
+B) cálculo automatizado de sentenças judiciais e sistemas voltados para análise preditiva avançada de processos trabalhistas críticos e confidenciais.
+C) sistemas de controle de processos judiciais em tempo real, com lógicas precisas de automação de decisões judiciais, integração com múltiplos bancos de dados e alto desempenho em processamento de grandes volumes de dados.
+D) funcionalidades para o sistema de gestão de casos judiciais, incluindo a integração com APIs governamentais, bancos de dados distribuídos e lógica de negócios customizada.
+E) automação de fluxos de trabalho internos, como solicitações de férias e folgas, gestão de inventário de TI, aplicativos para coleta de dados através de questionários e dashboards para visualização de relatórios gerenciais.
 
-A) 1, 2, 3  
-B) 3, 1, 2  
-C) 2, 3, 1  
-D) 3, 2, 1  
-E) 1, 3, 2  
+**19.** (FCC – TRT-1/2025 – Analista Judiciário – Tecnologia da Informação)
 
-**19.** A criação de aplicações por usuários de negócio **sem** alinhamento às políticas, plataformas e controles da área de TI configura, em regra:
+No contexto do processo de desenvolvimento de software, diferentes frameworks, normas e metodologias podem ser aplicados para garantir qualidade, conformidade e eficiência, como
 
-A) Continual improvement do ITIL  
-B) Objetivo EDM02 do COBIT  
-C) Shadow IT  
-D) Service Level Agreement  
-E) Definition of Done do Scrum  
+A) o CMMI e o MR-MPS-SW, que não recomendam o desenvolvimento low-code e no-code, uma vez que estes podem comprometer a qualidade do software.
+B) a notação BPMN, que substituiu a UML 2.5 por ter sido descontinuada em processos de Engenharia de Software modernos, independentemente do domínio de aplicação do sistema em desenvolvimento.
+C) o MR-MPS-SW 2023, que eliminou a necessidade do processo Engenharia de Requisitos do nível G, uma vez que essa responsabilidade foi transferida para o processo Projeto e Construção Ágil do Produto do nível F, que preconiza o uso de metodologias como Scrum e XP.
+D) o CMMI-DEV v2.0, no qual as práticas de Engenharia de Software são abordadas de forma independente dos níveis de maturidade organizacional, permitindo que uma organização alcance a certificação em um único processo de avaliação direta.
+E) a norma ABNT NBR ISO/IEC/IEEE 12207:2021, que define que o processo de definição de requisitos de sistema/software tem como objetivo transformar as capacidades desejadas dos stakeholders, visão orientada ao usuário, em uma visão técnica que atenda às necessidades operacionais do usuário.
 
-**20.** Acerca do emprego de assistentes de IA generativa no desenvolvimento de software em ambiente institucional, é correto afirmar que:
+**20.** (FCC – TRT-15/2025 – Analista Judiciário – Tecnologia da Informação)
 
-A) Todo prompt com dados sigilosos é automaticamente seguro em serviços públicos de internet  
-B) A ferramenta assume, por si, a responsabilidade funcional e jurídica pelo sistema em produção  
-C) Devem ser observadas políticas de uso, proteção de dados e revisão humana do conteúdo gerado  
-D) Testes automatizados tornam-se proibidos  
-E) Versionamento de código deixa de ser necessário  
+A equipe de desenvolvimento de um Tribunal Regional do Trabalho está se orientando pelo CMMI-DEV v2.0 para melhorar a maturidade dos processos de desenvolvimento. Uma das Analistas de TI verificou, corretamente, que a área de capacidade (Capability Area) Engineering & Developing Products (EDP) inclui as áreas de prática (Practices Areas)
 
-**21.** Em comparação com o desenvolvimento tradicional, plataformas low-code tendem a:
+A) Technical Solution e Peer Review.
+B) Estimating, Planning e Product Integration.
+C) Technical Solution e Product Integration.
+D) Process Quality Assurance, Risk and Oportunity Management e Process Management.
+E) Monitor and Control e Governance.
 
-A) Aumentar artificialmente a obrigatoriedade de assembly  
-B) Acelerar entregas em cenários adequados, mantendo necessidade de requisitos, testes e governança  
-C) Eliminar por completo o risco de vendor lock-in  
-D) Substituir bancos relacionais por papel impresso  
-E) Tornar desnecessária a autenticação de usuários  
+**21.** (FCC – TRT-15/2025 – Analista Judiciário – Tecnologia da Informação)
 
-**22.** Assinale a alternativa que apresenta **confusão conceitual**:
+Um Tribunal Regional do Trabalho está desenvolvendo um novo sistema para gerenciar o processo de tramitação de ações trabalhistas para automatizar a distribuição de processos, agendar audiências, registrar decisões, gerar relatórios e fazer a integração com outros sistemas do judiciário. Durante a fase de modelagem dos processos de negócios, a equipe de TI cogitou utilizar a notação BPMN (Business Process Model and Notation) pensando em garantir uma visualização clara e eficiente dos fluxos de trabalho. Nessas circunstâncias, um dos Analistas apontou, sobre a utilização desse modelo, que ele
 
-A) Citizen developer atua com plataformas sob governança  
-B) Low-code admite extensões em código  
-C) Assistente de IA pode gerar rascunhos de testes  
-D) No-code, low-code e ITIL Version 5 são nomes do mesmo framework de governança de TI  
-E) Shadow IT foge ao controle institucional  
+A) não é adequado para representar processos com atividades de decisão complexas, como a avaliação das evidências e argumentos apresentados durante as audiências, pois ele não é capaz de modelar condições de negócios em profundidade.
+B) é ideal para modelar os fluxos de trabalho do sistema, pois permite representar de forma clara atividades, decisões, subprocessos, eventos e fluxos de trabalho, além de facilitar a comunicação entre os stakeholders do sistema judicial.
+C) deve ser utilizado exclusivamente para modelar processos automatizados, não sendo recomendado para processos judiciais que envolvem atividades manuais, como a análise de documentos ou decisões por parte de juízes e servidores.
+D) é ideal, mas deve ser usado apenas para modelar o fluxo de informações entre os sistemas envolvidos no TRT, como a integração com o banco de dados e sistemas externos, todavia não é recomendado para a modelagem dos processos manuais da tramitação de processos.
+E) é inadequado para modelar processos no contexto judicial, pois a notação não permite a inclusão de eventos e condições específicas exigidas pelas normas jurídicas e regulatórias que regem o Tribunal Regional do Trabalho.
 
-**23.** Para fins do Anexo II do edital (Analista TI / FCC), a menção conjunta a low-code, no-code e assistentes de IA no desenvolvimento sugere, prioritariamente:
+**22.** (FCC – TRT-15/2025 – Analista Judiciário – Tecnologia da Informação)
 
-A) Apenas cabeamento estruturado  
-B) Meios modernos de construir e apoiar a construção de software, sem afastar engenharia e controles  
-C) Substituição do COBIT pelo UML  
-D) Obrigatoriedade de VB.NET em todo fluxo visual  
-E) Proibição de APIs REST  
+Um sistema de gestão de processos judiciais está sendo desenvolvido para um Tribunal Regional do Trabalho e deve permitir o cadastro de processos, a definição de fluxos de trabalho, a gestão de documentos e a geração de relatórios estatísticos. A equipe de desenvolvimento está utilizando a UML 2.5 para modelar a interação entre os diversos objetos do sistema, como processos, documentos e usuários, enfatizando a troca de mensagens e a ordem temporal das ações. Para isso, o mais adequado é utilizar o diagrama de
 
-**24.** Em relação a dados pessoais e informações sigilosas do Judiciário, o uso de assistentes de IA baseados em nuvem externa **não homologada** é, em regra:
+A) sequência.
+B) classe.
+C) máquina de estado.
+D) atividade.
+E) componente.
 
-A) Irrelevante sob a LGPD  
-B) Sempre obrigatório pelo edital  
-C) Risco a ser tratado por política institucional (pode ser inadequado ou vedado conforme o caso)  
-D) Equivalente a backup oficial em fita  
-E) Substituto do SSO Keycloak  
+**23.** (FCC – TRT-15/2025 – Analista Judiciário – Tecnologia da Informação)
 
-**25.** Analise o trecho: “Abordagem X permite montar aplicações por interface gráfica com quase nenhuma programação; abordagem Y reduz código tradicional mas admite extensões; ferramenta Z sugere trechos de código no ambiente de desenvolvimento, cabendo ao profissional validar o resultado.”
+Uma Analista de TI está revisando seus processos de desenvolvimento de software para alinhá-los à norma ABNT NBR ISO/IEC/IEEE 12207:2021. Durante a análise, ela identificou a necessidade de implementar processos para assegurar a qualidade do produto final. Um dos processos primários (ou fundamentais) conforme descrito na norma ABNT NBR ISO/IEC/IEEE 12207:2021 é o Processo de
 
-A associação correta é:
+A) Auditoria de Software.
+B) Avaliação de Fornecedores.
+C) Gestão de Configuração.
+D) Desenvolvimento.
+E) Engenharia de Sistemas.
 
-A) X = low-code; Y = no-code; Z = COBIT  
-B) X = no-code; Y = low-code; Z = assistente de IA  
-C) X = ITIL; Y = PMBOK; Z = BPMN  
-D) X = Kubernetes; Y = Docker; Z = Rancher  
-E) X = UML; Y = CMMI; Z = Flyway  
+**24.** (FCC – TRT-20/2024 – Analista Judiciário – Tecnologia da Informação)
 
----
+Considere, por hipótese, que um Tribunal está adotando o CMMI-DEV v2.0. Para aumentar a previsibilidade dos resultados dos projetos, reduzir o retrabalho e garantir que os requisitos do cliente sejam cumpridos de forma mais eficiente, é necessário, dentre outras ações,
 
-### Gabarito comentado (FCC 16–25)
+A) estabelecer um controle rigoroso de qualidade com foco em auditorias periódicas nos processos, utilizando a área de prática IMP - Improving Performance da Área de Capacitação PCM - Process Management, para garantir que todas as mudanças sejam aprovadas e documentadas formalmente.
+B) priorizar a entrega rápida de funcionalidades, utilizando as áreas de prática MPM - Managing Performance & Measurement e PCM - Process Management da Área de Capacitação PMW - Planning & Managing Work, para aumentar a satisfação do cliente e reduzir o tempo de mercado (time to market).
+C) investir em treinamentos intensivos de desenvolvimento ágil para toda a equipe e implementar o Scrum como principal metodologia, como recomenda a área de prática OT - Organizational Training da Área de Capacitação ENQ - Ensuring Quality.
+D) adotar as áreas de prática CAR - Causal Analysis and Resolution da Área de Capacitação SI - Supporting Implementation e RDM - Requirements Development and Management da Área de Capacitação ENQ - Ensuring Quality, que contribuirão para identificação das causas raízes dos defeitos e cumprimento dos requisitos do cliente de forma eficiente e eficaz.
+E) concentrar todos os esforços na automação de testes de software para reduzir defeitos, conforme recomenda a área de prática VAL - Validation da Área de Capacitação PMW - Planning & Managing Work, para garantir que o produto final atenda aos requisitos dos clientes.
 
-16. **D** — Visual, mínima/nenhuma escrita de código.  
-17. **C** — I e III verdadeiras; II falsa (não são sinônimos).  
-18. **B** — IA; no-code; low-code.  
-19. **C** — Shadow IT.  
-20. **C** — Política + dados + revisão humana.  
-21. **B** — Acelera com requisitos/testes/governança.  
-22. **D** — Confusão: não são o mesmo framework.  
-23. **B** — Meios modernos + engenharia/controles.  
-24. **C** — Risco / política (LGPD/sigilo).  
-25. **B** — No-code / low-code / assistente.  
+**25.** (FCC – TRT-14/2016 – Analista Judiciário – Tecnologia da Informação)
+
+O modelo de qualidade de software MPS.BR
+
+A) não é compatível com a Norma NBR ISO/IEC 12207:2009.
+B) adota a ITIL v3 como padrão de gerenciamento da qualidade de serviços de TI.
+C) não pode ser aplicado em nenhum Tribunal Regional do Trabalho.
+D) não atende às necessidades das empresas brasileiras, que preferem a adoção do CMMI.
+E) não conflita com as metodologias ágeis de software, podendo ser utilizado junto com o Scrum.
 
 ---
+
+### Gabarito comentado (concurso 16–25)
+
+| Questão | Gabarito | Fonte/nota |
+|---------|----------|------------|
+| 16 | **E** | QConcursos/Quizinho TRT-15 2025 — no-code |
+| 17 | **B** | QConcursos TRT-15 2025 Téc. — low-code segurança |
+| 18 | **E** | Quizinho TRT-20 2024 Q22 — usos adequados |
+| 19 | **E** | Quizinho TRT-1 2025 — CMMI/MPS não proíbem low-code (alt. A falsa) |
+| 20 | **C** | Quizinho TRT-15 2025 — CMMI EDP (prova irmã) |
+| 21 | **B** | Quizinho TRT-15 2025 — BPMN |
+| 22 | **A** | QConcursos TRT-15 2025 — UML sequência |
+| 23 | **D** | Quizinho TRT-15 2025 — ISO 12207 Desenvolvimento |
+| 24 | **D** | Quizinho TRT-20 2024 Q23 |
+| 25 | **E** | EstudeGrátis TRT-14 2016 |
 
 ## 4. Como usar este arquivo
 

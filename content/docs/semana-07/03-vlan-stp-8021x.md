@@ -386,18 +386,18 @@ C) o processo utiliza EAP-TLS, evidenciado pela negociação TLS iniciada após 
 D) a autenticação ocorre através de EAP-MD5, com base na troca de identidade sem certificados.  
 E) o método de autenticação é PEAP, pois o servidor estabelece um túnel seguro antes da autenticação.
 
-**25.** (Estilo FCC — síntese VLAN/STP/802.1X)  
-Assinale a alternativa correta:
+**25.** (FGV – DATAPREV/2024 – Analista de TI – Gestão de Serviços de TIC)  
+As redes locais virtuais (VLANs) oferecem flexibilidade na configuração e administração de redes, permitindo ajustes sem mudanças físicas no cabeamento. Assinale a opção que indica uma característica de VLANs.
 
-A) 802.1D é o padrão de tag VLAN; 802.1Q elege a root bridge.  
-B) RSTP possui cinco estados idênticos aos do STP clássico, apenas renomeados para “rápido”.  
-C) Em 802.1X, o autenticador (switch/AP) intermedia o suplicante e o servidor de autenticação (RADIUS).  
-D) Trunk access são sinônimos rigorosos no 802.1Q.  
-E) Prioridade STP 1024 é sempre a escolha válida preferencial da FCC quando se deseja ser root.
+A) É possível configurar uma VLAN utilizando um repetidor, pois ele atua na camada de enlace de dados.  
+B) Há a necessidade de compatibilidade um para um entre a rede local física e a VLAN.  
+C) No tagging explícito de quadros de uma VLAN, o quadro não é modificado pelo switch que recebeu o frame.  
+D) O mapeamento de VLAN com base no endereço MAC utiliza-se da porta do switch que recebe o quadro de dados.  
+E) Trunking interconecta VLANs por meio da configuração de uma porta do switch com a função de conectá-lo ao roteador.
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito comentado (FCC 16–25)
 
 | Questão | Gabarito | Fonte / nota |
 |---------|----------|--------------|
@@ -410,9 +410,9 @@ E) Prioridade STP 1024 é sempre a escolha válida preferencial da FCC quando se
 | 22 | **C** | FCC TCE-GO/2022 — WPA2-Enterprise + EAP-TLS |
 | 23 | **B** | FCC TRT-20/2024 — RADIUS mal configurado |
 | 24 | **C** | FCC TRT-2/2025 — EAP-TLS pelo TLS Start |
-| 25 | **C** | Papéis 802.1X |
+| 25 | **E** | FGV DATAPREV/2024 — trunking switch↔roteador |
 
-**Notas rápidas:** 16 A (Q≠D). 17 D (×4096). 18 B (3 estados RSTP). 19 A (802.1Q). 20 B (tags). 21 D (papéis). 22 C (Enterprise+TLS). 23 B (RADIUS). 24 C (EAP-TLS). 25 C (suplicante–autenticador–servidor).
+**Notas rápidas:** 16 A (Q≠D). 17 D (×4096). 18 B (3 estados RSTP). 19 A (802.1Q). 20 B (tags). 21 D (papéis). 22 C (Enterprise+TLS). 23 B (RADIUS). 24 C (EAP-TLS). 25 E (trunking).
 
 ---
 

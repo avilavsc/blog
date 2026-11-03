@@ -397,110 +397,133 @@ E) Correto se houver Swagger
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** No processo de desenvolvimento de software referido no edital do concurso, a engenharia de requisitos caracteriza-se, em regra, por:
+> **Nota:** questões **reais** de concurso (preferência FCC / TRT Analista TI), com banca, órgão e ano citados. Treino 1–15 permanece estilo didático.
 
-A) limitar-se à orquestração de containers em cluster  
-B) compreender atividades de obtenção, análise, documentação, validação e gerência do que o sistema deve atender  
-C) substituir integralmente a modelagem UML e o BPMN  
-D) consistir apenas na compilação automatizada em CI/CD  
-E) equivaler ao Service Discovery da stack Spring Cloud  
+**16.** (FCC – TRT-15/2023 – Analista Judiciário – Tecnologia da Informação)
 
-**17.** Relativamente a requisitos funcionais e não funcionais, assinale a opção correta:
+Na Engenharia de Requisitos, um processo genérico de
 
-A) Ambos descrevem exclusivamente a cor da interface  
-B) Os funcionais expressam comportamentos/funções; os não funcionais, atributos de qualidade ou restrições correlatas  
-C) Não funcionais nunca podem ser testados  
-D) Funcionais tratam apenas de latência de rede  
-E) A distinção foi abolida pelo edital  
+A) especificação e validação de requisitos não funcionais se compõe de atividades como a análise e coleta, a modelagem de visão, a recuperação de dados e o rastreamento.
+B) priorização de requisitos se compõe de atividades como a identificação de fontes de informação, a elicitação e a comunicação.
+C) elicitação de requisitos se compõe de atividades como o rastreamento, a verificação e a validação.
+D) modelagem e decomposição de requisitos se compõe de atividades como a validação, a especificação e a modelagem top-down.
+E) elicitação e análise de requisitos se compõe de atividades como a descoberta, a classificação e organização, a priorização e negociação e a especificação.
 
-**18.** A rastreabilidade de requisitos contribui principalmente para:
+**17.** (FCC – TRT-15/2023 – Analista Judiciário – Tecnologia da Informação)
 
-A) eliminar a necessidade de stakeholders  
-B) permitir acompanhar a origem e o desdobramento do requisito até artefatos e testes, apoiando análise de impacto  
-C) substituir o controle de versão de código  
-D) tornar desnecessária qualquer baseline  
-E) obrigar o uso exclusivo de máquina virtual por requisito  
+Considere, por hipótese, que uma Analista de um Tribunal Regional do Trabalho está levantando os requisitos para o sistema de Controle de Processos e respectivas situações. Os usuários definem o que consta da seguinte lista:
+1. O sistema deve estar disponível para todos os consulentes durante as horas normais de trabalho (segunda a sexta-feira, das 9:00 às 18:00).
+2. Um usuário deve ser capaz de pesquisar os processos por número e por nome do processante para todas as categorias.
+3. O sistema deve gerar a cada dia, para cada categoria de processo, a lista dos processos e respectivos processantes, bem como a situação e localização física e a distribuição, por juiz, dos processos, para as consultas daquele dia.
+4. Períodos de não operação dentro do horário normal de trabalho não podem exceder a cinco segundos, cumulativamente, em um dia.
+5. Cada processo deve ser cadastrado com número, nome do processante, juiz a quem foi distribuído e os respectivos advogados e promotores.
+6. O sistema deve implementar as condições de privacidade dos processantes, tal como estabelecido nas normas gerais e regulamentos do órgão.
+Relacione, correta e respectivamente, em ordem por tipo de requisito, os números referentes a três requisitos funcionais seguidos por três requisitos não funcionais da lista definida pelos usuários:
 
-**19.** Assinale a alternativa que apresenta associação **incorreta**:
+A) 2, 3, 6, 1, 4 e 5.
+B) 1, 2, 4, 3, 5 e 6.
+C) 2, 3, 5, 1, 4 e 6.
+D) 1, 3, 5, 2, 4 e 6.
+E) 1, 3, 6, 2, 4 e 5.
 
-A) Elicitação — obtenção de informações/necessidades  
-B) Validação — confirmar se o entendimento atende à necessidade (produto certo)  
-C) Verificação — checar conformidade com a especificação  
-D) Baseline — versão acordada sob controle de mudanças  
-E) Engenharia de requisitos — sinônimo estrito de deploy Kubernetes  
+**18.** (FCC – TRT-20/2024 – Analista Judiciário – Tecnologia da Informação)
 
-**20.** Em enunciado que contraste práticas ágeis e engenharia de requisitos, a FCC tipicamente considera **correto** que:
+De acordo com o MR-MPS-SW: 2023, que é compatível com o CMMI-DEV v2.0, o propósito do processo REQ - Engenharia de Requisitos é definir, gerenciar e manter atualizados os requisitos das partes interessadas e do produto, garantindo que inconsistências entre os requisitos, os planos e os produtos de trabalho sejam identificadas e tratadas. Os resultados esperados, a partir de nível D, incluem que
 
-A) métodos ágeis dispensam critérios de aceite e qualquer forma de requisito  
-B) o trabalho com backlog/user stories continua a demandar clareza, priorização e validação do que será entregue  
-C) ágil e requisitos são mutuamente excludentes por definição normativa  
-D) requisitos só existem em cascata pura e nunca em Scrum  
-E) Product Owner não participa de priorização  
+A) as necessidades, expectativas e restrições das partes interessadas ligadas à área de TI, tanto em relação ao produto quanto a suas interfaces, sejam identificadas.
+B) os requisitos sejam validados e que a validação possa ser realizada, entre outras formas, com uso de protótipos, demonstrações ou revisões.
+C) os planos, as atividades e os requisitos de trabalho relacionados sejam revisados.
+D) as avaliações de soluções sejam realizadas utilizando técnicas estatísticas e quantitativas para determinar se a solução pode ser aplicada na organização.
+E) os recursos materiais e o ambiente de trabalho necessários para executar o projeto e seus requisitos sejam estabelecidos e mantidos atualizados.
 
-**21.** A expressão “declaração clara e verificável do que o sistema deve cumprir, derivada de necessidades de stakeholders” descreve com mais precisão:
+**19.** (FCC – TRT-19/2022 – Analista Judiciário – Tecnologia da Informação)
 
-A) Imagem Docker imutável  
-B) Requisito de software  
-C) Filtro error do Zuul  
-D) Pod Kubernetes vazio  
-E) Registry Harbor exclusivamente  
+No processo técnico de definição dos requisitos de sistema/software, um resultado esperado, segundo a norma ABNT NBR ISO/IEC/IEEE 12207:2021, é que
 
-**22.** Considere as afirmações:
+A) as necessidades dos stakeholders sejam definidas.
+B) as medidas críticas de desempenho sejam definidas.
+C) todas as restrições do sistema sejam identificadas pelos stakeholders.
+D) a rastreabilidade dos requisitos dos stakeholders para suas necessidades sejam estabelecidas.
+E) os elementos do sistema e suas interfaces sejam identificados e construídos.
 
-I. “O sistema deve ser amigável” é, por si só, exemplo ideal de requisito não ambíguo e plenamente testável.  
-II. Matriz de rastreabilidade apoia ligar requisitos a testes e mudanças.  
-III. Conflitos entre stakeholders devem ser tratados na análise/negociação de requisitos.
+**20.** (FCC – TRT-1/2025 – Analista Judiciário – Tecnologia da Informação)
 
-Assinale:
+No contexto do processo de desenvolvimento de software, diferentes frameworks, normas e metodologias podem ser aplicados para garantir qualidade, conformidade e eficiência, como
 
-A) Apenas I  
-B) Apenas II  
-C) II e III  
-D) I e II  
-E) I, II e III  
+A) o CMMI e o MR-MPS-SW, que não recomendam o desenvolvimento low-code e no-code, uma vez que estes podem comprometer a qualidade do software.
+B) a notação BPMN, que substituiu a UML 2.5 por ter sido descontinuada em processos de Engenharia de Software modernos, independentemente do domínio de aplicação do sistema em desenvolvimento.
+C) o MR-MPS-SW 2023, que eliminou a necessidade do processo Engenharia de Requisitos do nível G, uma vez que essa responsabilidade foi transferida para o processo Projeto e Construção Ágil do Produto do nível F, que preconiza o uso de metodologias como Scrum e XP.
+D) o CMMI-DEV v2.0, no qual as práticas de Engenharia de Software são abordadas de forma independente dos níveis de maturidade organizacional, permitindo que uma organização alcance a certificação em um único processo de avaliação direta.
+E) a norma ABNT NBR ISO/IEC/IEEE 12207:2021, que define que o processo de definição de requisitos de sistema/software tem como objetivo transformar as capacidades desejadas dos stakeholders, visão orientada ao usuário, em uma visão técnica que atenda às necessidades operacionais do usuário.
 
-**23.** Em projeto com mudança de escopo frequente, o controle de mudança sobre requisitos baselineados serve para:
+**21.** (FCC – TRT-19/2011 – Analista Judiciário – Tecnologia da Informação)
 
-A) aceitar qualquer pedido sem avaliar impacto  
-B) avaliar impacto (prazo, custo, risco, rastreios) antes de incorporar a alteração  
-C) proibir qualquer evolução do produto  
-D) substituir testes automatizados  
-E) eliminar a especificação  
+A avaliação do impacto de mudança de um requisito, muitas vezes, faz com que seja necessário retornar à sua fonte. Na validação dos requisitos, a equipe deve estar atenta, portanto, à
 
-**24.** Diferenciar elicitation de especificação é relevante em provas porque:
+A) rastreabilidade.
+B) adaptabilidade.
+C) qualidade.
+D) facilidade de compreensão.
+E) facilidade de verificação.
 
-A) não há qualquer diferença conceitual cobrável  
-B) elicitar obtém/descobre; especificar documenta de forma estruturada o requisito acordado  
-C) especificar ocorre apenas após o deploy em produção  
-D) elicitar é exclusividade do Docker Hub  
-E) ambas significam apenas desenhar diagrama de sequência  
+**22.** (FCC – TRT-8/2010 – Analista Judiciário – Tecnologia da Informação)
 
-**25.** A síntese mais alinhada ao edital, sobre engenharia de requisitos, é:
+No âmbito da gerência de Configuração e Mudança de Software, ao conjunto de um ou mais itens de configuração identificados e liberados para uso, independente de suas versões, dá-se o nome de
 
-A) Requisitos = apenas ITIL; UML = apenas redes  
-B) Ciclo elicitar–analisar–especificar–validar–gerenciar; RF ≠ RNF; validação ≠ verificação; ágil não elimina requisitos  
-C) Requisitos obrigam eliminar rastreabilidade e baseline  
-D) Requisitos substituem CMMI, MPS e ISO 12207  
-E) Requisitos = somente criptografia de Wi-Fi  
+A) baseline.
+B) metadados.
+C) relatório de status.
+D) release request.
+E) biblioteca.
+
+**23.** (FCC – TRT-15/2023 – Analista Judiciário – Tecnologia da Informação)
+
+Considere o texto a seguir: Ter os dados de configuração organizados e adicionados a um repositório permite a colaboração e a visibilidade da configuração do sistema. O fluxo de trabalho de solicitação pull que as equipes de software usam para revisar e editar código pode ser aplicado aos arquivos de dados de configuração. Assim, fica mais fácil construir um sistema de rastreio. Quaisquer alterações aplicadas à configuração devem ser revisadas e aceitas pela equipe. Assim, as mudanças de configuração ganham responsabilidade e visibilidade. Dentre os passos do processo de gerenciamento que monitora itens de configuração individuais de um sistema de TI, o texto trata da implementação do gerenciamento de configuração em ambientes DevOps e correlatos e se refere à atividade de
+
+A) balanceamento de carga.
+B) linha de base.
+C) implantação.
+D) auditoria.
+E) renderização.
+
+**24.** (FCC – TRT-20/2024 – Analista Judiciário – Tecnologia da Informação)
+
+Considere, por hipótese, que um Tribunal está adotando o CMMI-DEV v2.0. Para aumentar a previsibilidade dos resultados dos projetos, reduzir o retrabalho e garantir que os requisitos do cliente sejam cumpridos de forma mais eficiente, é necessário, dentre outras ações,
+
+A) estabelecer um controle rigoroso de qualidade com foco em auditorias periódicas nos processos, utilizando a área de prática IMP - Improving Performance da Área de Capacitação PCM - Process Management, para garantir que todas as mudanças sejam aprovadas e documentadas formalmente.
+B) priorizar a entrega rápida de funcionalidades, utilizando as áreas de prática MPM - Managing Performance & Measurement e PCM - Process Management da Área de Capacitação PMW - Planning & Managing Work, para aumentar a satisfação do cliente e reduzir o tempo de mercado (time to market).
+C) investir em treinamentos intensivos de desenvolvimento ágil para toda a equipe e implementar o Scrum como principal metodologia, como recomenda a área de prática OT - Organizational Training da Área de Capacitação ENQ - Ensuring Quality.
+D) adotar as áreas de prática CAR - Causal Analysis and Resolution da Área de Capacitação SI - Supporting Implementation e RDM - Requirements Development and Management da Área de Capacitação ENQ - Ensuring Quality, que contribuirão para identificação das causas raízes dos defeitos e cumprimento dos requisitos do cliente de forma eficiente e eficaz.
+E) concentrar todos os esforços na automação de testes de software para reduzir defeitos, conforme recomenda a área de prática VAL - Validation da Área de Capacitação PMW - Planning & Managing Work, para garantir que o produto final atenda aos requisitos dos clientes.
+
+**25.** (FCC – TCE-GO/2022 – Analista de Controle Externo – Tecnologia da Informação)
+
+Um analista deseja mostrar na forma de diagrama: I. A interação dos usuários com o sistema, a partir da observação dos requisitos funcionais. II. O fluxo de execução das ações de uma operação em um programa, de forma semelhante a um fluxograma. Utilizando a UML 2.5, deverá utilizar respectivamente, para I e II, os diagramas de
+
+A) Classe e de Sequência.
+B) Caso de Uso e de Atividades.
+C) Componentes e de Atividades.
+D) Implantação e de Colaboração.
+E) Caso de Uso e de Sequência.
 
 ---
 
 ### Gabarito comentado (concurso 16–25)
 
-16. **B** — Escopo clássico da disciplina.  
-17. **B** — RF × RNF.  
-18. **B** — Origem ↔ artefato ↔ impacto.  
-19. **E** — Não é deploy K8s.  
-20. **B** — Ágil mantém clareza/aceitação.  
-21. **B** — Definição de requisito.  
-22. **C** — I falsa (ambíguo); II e III ok.  
-23. **B** — Impacto antes de aceitar.  
-24. **B** — Obter × documentar.  
-25. **B** — Cartão mental do arquivo 02.
-
----
+| Questão | Gabarito | Fonte/nota |
+|---------|----------|------------|
+| 16 | **E** | Quizinho TRT-15 2023 Q50 |
+| 17 | **C** | Quizinho TRT-15 2023 Q57 |
+| 18 | **B** | Quizinho TRT-20 2024 Q21 |
+| 19 | **B** | Quizinho TRT-19 2022 Q35 |
+| 20 | **E** | Quizinho TRT-1 2025 Q32 |
+| 21 | **A** | EstudeGrátis/Gabarite TRT-19 2011 |
+| 22 | **A** | CFP Concursos TRT-8 2010 |
+| 23 | **D** | Quizinho TRT-15 2023 Q48 |
+| 24 | **D** | Quizinho TRT-20 2024 Q23 — RDM |
+| 25 | **B** | Quizinho TCE-GO 2022 Q76 |
 
 ## 4. Auto-checagem rápida (opcional)
 

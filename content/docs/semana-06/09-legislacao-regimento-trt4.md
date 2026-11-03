@@ -291,141 +291,115 @@ E) só a SDC julga RO
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** No Regimento Interno do TRT4, assinale a afirmativa correta sobre a organização:
+> Questões reais de provas (FCC). Gabarito só ao final.
 
-A) Turmas não existem no segundo grau  
-B) O único órgão é a Presidência  
-C) O Art. 5º enumera Pleno, Órgão Especial, Seções, Turmas, Presidência, Corregedoria e Ouvidorias  
-D) O CNJ integra o Art. 5º do RI como Turma  
-E) A Corregedoria substitui o Tribunal Pleno  
+**16.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+De acordo com o Regimento Interno do Tribunal Regional do Trabalho da 1ª Região,
 
-**17.** Quanto aos cargos de direção:
+A) a Subseção Especializada em Dissídios Individuais I (SEDI-I) é composta por onze desembargadores e a Subseção Especializada em Dissídios Individuais II (SEDI-II) por dezoito, já incluído o presidente da Seção.  
+B) os cargos da administração do Tribunal não admitem acumulação com quaisquer outros cargos ou funções, sendo vedada, inclusive, a participação do Presidente e do Vice-Presidente na Seção Especializada em Dissídios Coletivos (SEDIC).  
+C) as Turmas do Tribunal são constituídas por cinco desembargadores, não podendo ter assento, na mesma Turma ou Seção Especializada, cônjuges e parentes consanguíneos ou afins em linha reta, bem como em linha colateral, até o sexto grau.  
+D) o Órgão Especial é constituído por dezesseis membros, para o exercício de funções exclusivamente jurisdicionais delegadas da competência do Tribunal Pleno, sendo que o Presidente, o Vice-Presidente e o Corregedor Regional o integrarão.  
+E) o Tribunal Regional do Trabalho da 1ª Região compõe-se de cinquenta e quatro desembargadores, sendo que cada um deles terá três assessores, bacharéis ou não em Direito, de sua livre indicação, nomeados pelo Presidente do Tribunal.  
 
-A) Somente o Presidente de cada SEEx  
-B) Ouvidor, Contador e Estagiário  
-C) Apenas o juiz mais moderno da 1ª Vara  
-D) Ministro do TST em exercício automático  
-E) Presidente, Vice-Presidente, Corregedor e Vice-Corregedor  
+**17.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+De acordo com o Regimento Interno do Tribunal Regional do Trabalho da 1ª Região,
 
-**18.** Relativamente ao Órgão Especial, é correto afirmar:
+A) o Presidente da Seção Especializada em Dissídios Individuais, nas ausências, impedimentos e suspeições, será substituído, na deliberação de questões administrativas do órgão, pelo desembargador mais antigo do órgão, abrangidas as duas Subseções, ainda que seja Presidente de Turma.  
+B) o Presidente da Seção Especializada em Dissídios Individuais, nas ausências, impedimentos e suspeições, será substituído, nas sessões de julgamento das Subseções, pelo desembargador mais antigo, componente da Subseção, presente à sessão, ainda que seja Presidente de Turma.  
+C) o Presidente do Tribunal presidirá exclusivamente o Tribunal Pleno, sendo substituído nas ausências, impedimentos e suspeições, sucessivamente, pelo Vice-Presidente e pelo desembargador mais antigo do órgão, desde que não seja Presidente de Turma.  
+D) as Turmas são presididas pelo mais antigo dentre os desembargadores que as compõem, fazendo-se a substituição, em caso de ausência, impedimento ou suspeição, segundo a ordem de antiguidade.  
+E) a Seção Especializada em Dissídios Coletivos será presidida pelo Presidente do Tribunal, dando-se sua substituição, nas ausências, impedimentos e suspeições, sucessivamente, pelo Vice-Presidente, pelo Corregedor Regional, pelo Vice-Corregedor Regional e pelo desembargador mais antigo presente à sessão.  
 
-A) Substitui a SEEx em agravos de petição  
-B) Reúne necessariamente todos os Desembargadores efetivos  
-C) É composto só por Juízes de 1º grau  
-D) Tem 16 membros, metade por antiguidade e metade por eleição do Pleno  
-E) Tem quorum idêntico ao de uma Turma de três  
+**18.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+De acordo com o Regimento Interno do Tribunal Regional do Trabalho da 6ª Região, incumbe ao Desembargador Corregedor Regional, dentre outras atribuições,
 
-**19.** A Seção Especializada em Execução (SEEx):
+A) supervisionar a distribuição dos feitos, por sorteio, mediante sistema informatizado, realizada de forma sigilosa.  
+B) opinar sobre os requerimentos de férias, licenças médicas e abonos de faltas e deliberar sobre os demais requerimentos de afastamento voluntário, formulados por Juízes do Trabalho.  
+C) realizar, exclusivamente mediante provocação, correições parciais ou inspeções nas Varas do Trabalho.  
+D) submeter ao Tribunal Pleno parecer final sobre o exercício dos Juízes do Trabalho substitutos não vitalícios, propondo ou não a confirmação destes.  
+E) manter a ordem nas sessões e audiências, determinando a cassação da palavra ou a retirada de quem as perturbe, não podendo, entretanto, dar ordem de prisão aos desobedientes.  
 
-A) É idêntica à SDC em competência  
-B) Julga apenas dissídios coletivos de greve  
-C) Julga, entre outros, agravos de petição e, na linha atual, MS/HC de 1º grau na fase de execução  
-D) Substitui a Ouvidoria  
-E) Compõe-se da totalidade do Pleno  
+**19.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+Considere hipoteticamente que: Morgana, Rodolfo e Julieta são servidores do Tribunal Regional do Trabalho da 6ª Região. Morgana teve conhecimento de que a conduta de Rodolfo em relação a Julieta pode configurar discriminação no ambiente de trabalho. De acordo com a Resolução Administrativa TRT6-GP nº 29/2023 e alterações, Morgana
 
-**20.** Sobre a 1ª SDI, no mapa regimental:
+A) poderá noticiar a conduta de Rodolfo, sendo que essa notícia poderá ser recebida de forma presencial ou por qualquer meio telemático, pelas unidades institucionais previstas na Resolução citada, observadas suas atribuições específicas.  
+B) poderá noticiar a conduta de Rodolfo, sendo que a unidade institucional que receber a notícia fará o registro formal, independentemente de autorização expressa de Morgana e sem o resguardo de qualquer sigilo, em razão de sua gravidade.  
+C) não poderá noticiar a conduta de Rodolfo, pois também é servidora do Tribunal, mas poderá buscar suporte externo de entidades representativas para que tenha o acolhimento necessário.  
+D) não poderá noticiar a conduta de Rodolfo, pois somente Julieta poderá noticiar referida conduta.  
+E) poderá noticiar a conduta de Rodolfo, sendo que essa notícia deverá ser recebida exclusivamente de forma presencial, pelas unidades institucionais previstas na Resolução citada, observadas suas atribuições específicas.  
 
-A) Não possui quorum mínimo  
-B) Aprecia somente ações rescisórias  
-C) É o nome antigo da Corregedoria  
-D) Tem competência exclusiva de RO  
-E) Aprecia MS/HC/HD contra atos de órgãos de 1º grau, com ressalva da execução  
+**20.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+De acordo com o Código de Ética do Tribunal Regional do Trabalho da 6ª Região, É VEDADO aos(às) servidores(as) do referido Tribunal, dentre outras proibições,
 
-**21.** Em relação às Turmas do TRT4:
+A) disseminar, no ambiente de trabalho, informações e conhecimentos obtidos em razão de treinamentos ou de exercício profissional, ainda que possam contribuir para a eficiência dos trabalhos e atividades realizadas pelos(as) demais servidores(as).  
+B) atuar como procurador(a) de outro(a) servidor(a) do Tribunal em processo administrativo de qualquer espécie, salvo se o fizer sem remuneração, podendo, entretanto, exercer a advocacia.  
+C) proceder a divulgação, por qualquer meio e em qualquer situação, sem exceção, de informações de caráter sigiloso, obtidas por qualquer forma, em razão do cargo ou função, e ainda de relatórios, instruções, minutas e informações constantes de processos cujo objeto tenha ou não sido apreciado.  
+D) solicitar ou receber, para si, mesmo em ocasiões de festividade, qualquer tipo de presente de pessoa física ou jurídica interessada na atividade do agente público, inclusive os brindes que não tenham valor comercial.  
+E) fazer ou extrair cópias de relatórios ou de quaisquer outros trabalhos ou documentos ainda não publicados, pertencentes ao Tribunal, para utilização em fins estranhos aos seus objetivos ou à execução dos trabalhos a seu encargo, sem prévia autorização da autoridade competente.  
 
-A) Não podem julgar embargos de declaração  
-B) Substituem o Pleno em toda matéria administrativa  
-C) São órgãos de 1º grau  
-D) Julgam recursos ordinários e funcionam com três julgadores no julgamento  
-E) Equivalem ao Órgão Especial  
+**21.** (FCC – TRT-15/2023 – Analista Judiciário – TI)  
+De acordo com o que dispõe o Código de Ética dos Servidores do Tribunal Regional do Trabalho da 15ª Região, aprovado pela Resolução Administrativa nº 07/2020, a Comissão de Ética Especial
 
-**22.** A Presidência do Tribunal, em síntese regimental:
+A) somente atuará no exame de infrações éticas e desvios de comportamento que configurem ou possam configurar ato de improbidade.  
+B) deve ser instaurada no caso de impedimento ou suspeição de mais de 1/3 (um terço) dos componentes da Comissão Permanente, podendo funcionar por, no máximo, 6 meses.  
+C) é formada por 1 desembargador, que a presidirá, 1 magistrado de 1º grau, 1 servidor, com mandato de 5 anos, vedada recondução.  
+D) possui como atribuição apurar exclusivamente as infrações éticas de servidores do Tribunal que possam configurar conduta apenada com demissão.  
+E) deve ser designada pelo Presidente da Comissão de Ética para apurar desvio ético de comportamento de quaisquer dos membros desta última.  
 
-A) É cargo de servidor de TI  
-B) Apenas protocola petições de Vara  
-C) Superintende o serviço judiciário da Região, dirige trabalhos e representa o Tribunal  
-D) Coincide com a Ouvidoria  
-E) Não figura no Art. 5º  
+**22.** (FCC – TRT-15/2023 – Analista Judiciário – TI)  
+As comissões permanentes previstas no Regimento Interno do Tribunal Regional do Trabalho da 15ª Região têm, como finalidade, colaborar para o desempenho das atribuições daquela Corte, a exemplo da Comissão de Orçamento e Finanças, que
 
-**23.** Assinale a alternativa que distingue corretamente Corregedoria e Ouvidoria:
+A) elabora a proposta orçamentária, cabendo-lhe, se o caso, ouvir as demais unidades e áreas do Tribunal a respeito de suas demandas, sem caráter vinculante.  
+B) auxilia na definição de prioridades do Tribunal, cotejando os projetos, iniciativas e contratações pretendidas com a viabilidade orçamentária.  
+C) exerce atribuição decisória sobre a proposta orçamentária do Tribunal, podendo excluir projetos e ações.  
+D) acompanha a execução do orçamento do Tribunal, avaliando a qualidade dos projetos e iniciativas, podendo promover o cancelamento da disponibilidade orçamentária.  
+E) promove captação de receitas, controle e liberação de recursos para despesas, podendo solicitar apuração de responsabilidades no caso de má gestão.  
 
-A) Ambas são cargos do Art. 6º sob o nome “Ouvidor”  
-B) São o mesmo órgão com dois nomes  
-C) Ouvidoria edita súmulas vinculantes do STF  
-D) Corregedoria julga todos os ROs  
-E) Corregedoria: correção/celeridade e fiscalização; Ouvidoria: órgão autônomo de escuta/alta administração  
+**23.** (FCC – TRT-12/2023 – Analista Judiciário – TI)  
+Nos termos previstos no Regimento Interno do Tribunal Regional do Trabalho da 12ª Região, deliberar sobre promoção e progressão funcionais, fixar o horário de funcionamento dos órgãos da Justiça do Trabalho da Região e julgar os recursos cabíveis das decisões do Corregedor são competências, respectivamente,
 
-**24.** (Estilo FCC — papéis trocados) NÃO corresponde ao desenho do RI/portal:
+A) do Tribunal Pleno, do Vice-Presidente e do Tribunal Pleno.  
+B) do Tribunal Pleno, da Corregedoria e da Seção Especializada.  
+C) do Tribunal Pleno, do Tribunal Pleno e do Tribunal Pleno.  
+D) do Vice-Presidente, da Corregedoria e do Tribunal Pleno.  
+E) do Vice-Presidente, do Tribunal Pleno e da Seção Especializada.  
 
-A) SDC — dissídios coletivos  
-B) 2ª SDI — ações rescisórias  
-C) SEEx — execução  
-D) 1ª SDI — tipicamente MS/HC de 1º grau (fora execução)  
-E) Turma — órgão exclusivo para arguição de inconstitucionalidade em substituição total ao Pleno  
+**24.** (FCC – TRT-12/2023 – Analista Judiciário – TI)  
+O Regimento Interno do Tribunal Regional do Trabalho da 12ª Região dispõe que os Juízes do Trabalho Substitutos, pertencentes ao Quadro do Tribunal, quando necessário, serão lotados pela Presidência do Tribunal nas Varas do Trabalho do Estado. Todavia, também há a previsão de que poderá a Presidência do Tribunal, por necessidade de serviço, no interesse da Administração e no atendimento ao disposto em legislação específica, efetivar as relotações que se fizerem necessárias, possibilidade que
 
-**25.** Para a prévia da semana 9, a prioridade de memorização é:
+A) decorre do fundamento funcional da substituição.  
+B) ofende o princípio da inamovibilidade do magistrado.  
+C) atenta contra o princípio do Juiz natural.  
+D) depende da aceitação do Juiz do Trabalho Substituto.  
+E) promove diretamente o Juiz Substituto a Juiz Titular.  
 
-A) estudar apenas a CLT art. 1º  
-B) memorizar só o PDTIC  
-C) ignorar quorum e composição  
-D) lista do Art. 5º + cargos do Art. 6º + mapa SDC/SDI/SEEx/Turmas/Pleno/OE  
-E) substituir o RI pelo manual do PostgreSQL  
+**25.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+Considere: I. Consiste em uma ferramenta de gestão e transparência dos resultados das ações voltadas à promoção da sustentabilidade nos órgãos do Poder Judiciário, por meio do monitoramento do uso dos recursos e serviços prestados, buscando melhor eficiência do gasto público. II. Será elaborado e publicado pelo Departamento de Pesquisas Judiciárias (DPJ), com informações recebidas via PLS-Jud. III. Tem em sua composição o Índice de Desempenho de Sustentabilidade (IDS), que compreende a criação de um indicador sintético capaz de avaliar o resultado combinado de várias dimensões distintas, de acordo com metodologia estabelecida pelo DPJ. De acordo com a Resolução CNJ nº 550/2024, que dispõe sobre a política de sustentabilidade no âmbito do Poder Judiciário, com relação ao Balanço da Sustentabilidade do Poder Judiciário, está correto o que se afirma em
 
----
-
-### Gabarito comentado (treino 1–15)
-
-1. **C** — CNJ não é órgão interno do TRT4 no Art. 5º.  
-2. **D** — Art. 6º.  
-3. **A** — totalidade.  
-4. **B** — 16 (8+8).  
-5. **B** — metade+1.  
-6. **B** — coletivo.  
-7. **B** — 1ª SDI.  
-8. **C** — 2ª SDI.  
-9. **B** — SEEx.  
-10. **B** — 3 no julgamento.  
-11. **E** — RO.  
-12. **B** — correção/celeridade.  
-13. **B** — inciso VII.  
-14. **B** — sem recurso ao OE.  
-15. **D** — mapa correto.
-
-### Gabarito (estilo concurso 16–25)
-
-| Q | Gab | Nota |
-|---|-----|------|
-| 16 | **C** | Art. 5º |
-| 17 | **E** | Art. 6º |
-| 18 | **D** | OE 16 |
-| 19 | **C** | SEEx |
-| 20 | **E** | 1ª SDI |
-| 21 | **D** | Turmas/RO |
-| 22 | **C** | Presidência |
-| 23 | **E** | distinção |
-| 24 | **E** | Pleno (não Turma) na inconstitucionalidade |
-| 25 | **D** | prioridade da prévia |
+A) III, apenas.  
+B) I, II e III.  
+C) II, apenas.  
+D) I e II, apenas.  
+E) I, apenas.  
 
 ---
 
-## 4. Gabarito consolidado
+### Gabarito (concurso 16–25)
 
-| Q | Resp | Q | Resp | Q | Resp | Q | Resp | Q | Resp |
-|---|------|---|------|---|------|---|------|---|------|
-| 1 | C | 2 | D | 3 | A | 4 | B | 5 | B |
-| 6 | B | 7 | B | 8 | C | 9 | B | 10 | B |
-| 11 | E | 12 | B | 13 | B | 14 | B | 15 | D |
-| 16 | C | 17 | E | 18 | D | 19 | C | 20 | E |
-| 21 | D | 22 | C | 23 | E | 24 | E | 25 | D |
+| Questão | Gabarito | Fonte / nota |
+|---------|----------|--------------|
+| 16 | **A** | FCC TRT-1/2025 Q16 — Regimento Interno do TRT da 1ª Região |
+| 17 | **D** | FCC TRT-1/2025 Q20 — Regimento Interno do TRT da 1ª Região |
+| 18 | **D** | FCC TRT-6/2025 Q16 — Regimento Interno do TRT-6 |
+| 19 | **A** | FCC TRT-6/2025 Q17 — Resolução Administrativa TRT6-GP nº 29/2023 |
+| 20 | **E** | FCC TRT-6/2025 Q20 — Código de Ética do TRT-6 |
+| 21 | **E** | FCC TRT-15/2023 Q19 — Código de Ética do TRT15 |
+| 22 | **B** | FCC TRT-15/2023 Q20 — Regimento Interno do TRT15 |
+| 23 | **C** | FCC TRT-12/2023 Q18 — Regimento Interno do TRT-12 |
+| 24 | **A** | FCC TRT-12/2023 Q19 — Regimento Interno do TRT-12 |
+| 25 | **B** | FCC TRT-1/2025 Q17 — Legislação |
 
----
-
-## 5. Próximo passo (semana 9)
-
-Reabrir este mapa e acrescentar: competências literais dos arts. 24–25, 30–34-B, 37, 39, 44; eleições; Assento 04/2026. Até lá, feche os flashcards do Art. 5º/6º e da tabela SDC/SDI/SEEx.
-
----
-
-*Arquivo 09 · Regimento TRT4 (estrutura/órgãos · prévia) · Claudionir · TRT4 Analista TI (código 14) · FCC · Semana 6.*
+**Notas rápidas:** 16 A; 17 D; 18 D; 19 A; 20 E; 21 E; 22 B; 23 C; 24 A; 25 B.

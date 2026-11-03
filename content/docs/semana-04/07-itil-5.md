@@ -303,120 +303,132 @@ E) Version 5 removeu todas as practices
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** No contexto de gerenciamento de serviços de TI alinhado ao ITIL Version 5, o framework é corretamente descrito como:
+**16.** (FCC – TRT-5/2013 – Analista Judiciário – TI)  
+Atenção: As questões de números 57 a 60 devem ser respondidas considerando-se as atualizações realizadas na ITIL v3 em 2011. Considere:  
+I. Restaurar a operação normal do serviço o mais rápido possível.  
+II. Minimizar o impacto adverso nas operações do negócio.  
+III. Monitorar o serviço de TI e detectar quando o desempenho cai abaixo dos limites aceitáveis.  
+IV. Encontrar a causa raiz do problema e aplicar uma solução definitiva.  
+São objetivos do processo de Gerenciamento de Incidentes da ITIL v3 o que consta APENAS em
 
-A) Sistema gerenciador de banco de dados oficial do CNJ  
-B) Conjunto de boas práticas orientadas a valor na gestão de produtos e serviços digitais  
-C) Protocolo de roteamento IPv6  
-D) Substituição normativa da ISO 27001  
-E) Metodologia exclusiva de estimativa de pontuação de história ágil  
+A) III e IV.  
+B) II e III.  
+C) I e II.  
+D) I e IV.  
+E) I, II e IV.
 
-**17.** Considere as afirmativas:
+**17.** (FCC – TRT-2/2014 – Analista Judiciário – TI)  
+Na Operação de Serviço da ITIL v3 são definidos muitos conceitos como Incidente, Problema, Evento e Solicitação de Serviço. Considere, em uma empresa que utiliza corretamente a ITIL v3, as solicitações de usuários por:  
+1. informação.  
+2. aconselhamento.  
+3. realização de uma Mudança Padrão.  
+4. acesso a um serviço de TI.  
+5. atendimento de um incidente.  
+6. reset de uma senha.  
+São consideradas Solicitação de Serviço APENAS os itens
 
-I. O ITIL Version 5 mantém os sete guiding principles.  
-II. Incident management prioriza a restauração rápida do serviço.  
-III. ITIL e COBIT 2019 são nomenclaturas distintas para o mesmo conjunto de 40 objetivos EDM/APO/BAI/DSS/MEA.
+A) 1, 2 e 3.  
+B) 1, 3, 4 e 6.  
+C) 4, 5 e 6.  
+D) 3, 4, 5 e 6.  
+E) 1, 2, 3, 4 e 6.
 
-Está correto o que se afirma em:
+**18.** (FCC – TRT-2/2018 – Técnico Judiciário – TI)  
+Considere que um Técnico de TI fez o atendimento de 1º nível a partir de uma Central de Serviço. Tendo seguido o fluxo de atividades, ele não conseguiu aplicar uma solução ou resolver o incidente. O Gerenciamento de Incidentes da ITIL v3 recomenda que
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) II e III, apenas  
-E) I, II e III  
+A) seja realizada uma categorização hierárquica: o incidente é passado para um profissional especializado e com nível gerencial, o que requer Acordos de Nível Operacional para garantir o atendimento do Acordo de Nível de Serviço.  
+B) o status do incidente seja alterado para “aberto”.  
+C) seja realizada uma escalação funcional: o incidente é passado para uma equipe ou profissional com mais experiência, o que geralmente requer Acordos de Nível Operacional para garantir o atendimento do Acordo de Nível de Serviço.  
+D) o Técnico consulte o Banco de Dados de Resoluções Conhecidas e tente cada uma das resoluções antes de fazer uma escalação.  
+E) o Técnico consulte o Acordo de Nível de Serviço e, se não estiver prevista a escalação nem a categorização, o status do incidente seja alterado para “sem solução”.
 
-**18.** Relacione:
+**19.** (FCC – TJ-MA/2019 – Técnico Judiciário – Hardware)  
+A Central de Serviços (CS) recebeu as seguintes solicitações: − Substituição do toner da impressora a laser. − Instalação de ferramentas do pacote Microsoft Office, que já são pré-aprovadas, no notebook corporativo. − Dúvidas sobre utilização do sistema de Processo Judicial Eletrônico. − Solicitação do manual para uso do sistema de antivírus. As solicitações acima, de acordo com a ITIL v3 edição 2011,
 
-(1) Incident management  
-(2) Problem management  
-(3) Service desk  
+A) devem ser tratadas pelo processo de Gerenciamento de Incidentes, pois foram recebidas pela Central de Serviços.  
+B) foram recebidas pelo mesmo sistema de registro de incidentes e devem ser fechadas pela CS, mas são tratadas pelo processo de Cumprimento das Requisições.  
+C) como já têm causa-raiz conhecida, devem ser tratadas pelo processo Gerenciamento de Problemas.  
+D) têm necessidade de passar pelo planejamento e aprovação do processo de Gerenciamento de Mudanças.  
+E) foram recebidas pelo mesmo sistema de registro de incidentes, mas são tratadas pelo processo de Gerenciamento de Acesso.
 
-( ) Ponto de contato com usuários  
-( ) Restaurar serviço o mais breve possível  
-( ) Tratar causa / reduzir reincidência
+**20.** (FCC – TRT-6/2018 – Analista Judiciário – TI)  
+Um Analista especializado em Tecnologia da Informação está trabalhando em uma prestadora de Serviços para atender ao pedido de um novo serviço de TI, que envolve a necessidade de arquiteturas tecnológicas para o serviço e de requisitos de nível de serviço. Considerando o uso da ITIL v3 edição de 2011, a fase do ciclo de vida do serviço que terá maior relação com a Engenharia de Requisitos é:
 
-A sequência correta é:
+A) Estratégia de Serviço.  
+B) Transição de Serviço.  
+C) Operação de Serviço.  
+D) Desenho de Serviço.  
+E) Planejamento de Serviço.
 
-A) 1, 2, 3  
-B) 3, 1, 2  
-C) 2, 3, 1  
-D) 3, 2, 1  
-E) 1, 3, 2  
+**21.** (FCC – TRT-11/2017 – Técnico Judiciário – TI)  
+Considere que uma equipe de técnicos do TRT está discutindo os seguintes aspectos no processo de implantação das melhores práticas da ITIL no Tribunal:  
+- Como projetar a infraestrutura de forma que se mantenha segura e tolerante a falhas.  
+- Como identificar e gerenciar riscos e criar um mapeamento completo dos riscos possíveis.  
+- Quais documentos devem ser usados para registrar os planos, políticas, arquiteturas e treinamento da equipe.  
+- Como alertar a Central de Serviços com antecedência sobre novos serviços e como preparar e treinar o pessoal de suporte.  
+- Como contribuir para a melhoria continuada do serviço assegurando que está sendo implantada qualidade do serviço no ambiente de produção.  
+De acordo com a ITIL v3 atualizada em 2011, a equipe está trabalhando nos aspectos que são pertinentes ao Estágio
 
-**19.** No Product and Service Lifecycle Model do ITIL Version 5, a atividade que corresponde a explorar e priorizar necessidades e oportunidades denomina-se:
+A) Melhoria Contínua de Serviços.  
+B) Operação de Serviços.  
+C) Transição de Serviços.  
+D) Desenho de Serviços.  
+E) Estratégia de Serviços.
 
-A) Support  
-B) Operate  
-C) Discover  
-D) MEA01  
-E) Warranty  
+**22.** (FCC – TRT-20/2024 – Analista Judiciário – TI)  
+São um conjunto de princípios ITIL V4 que orientam uma organização em todo o seu ciclo de vida de gestão de serviços, independentemente das mudanças que ocorram nos objetivos, estratégias ou na estrutura da organização. Um, dentre os sete princípios orientadores, é
 
-**20.** Acerca da relação entre ITIL e outros referenciais do edital, assinale a alternativa correta:
+A) manter uma abordagem inflexível para todas as mudanças.  
+B) evitar a comunicação com os stakeholders.  
+C) minimizar a documentação do serviço.  
+D) colaborar e promover visibilidade.  
+E) focar exclusivamente nos resultados financeiros.
 
-A) PMBOK substitui integralmente o Service Desk  
-B) Scrum é o nome antigo do ITIL 4  
-C) COBIT 2019 concentra-se na governança e gestão de I&T; ITIL nas practices de serviço/produto  
-D) BPMN é obrigatoriamente a única practice do ITIL  
-E) Rancher é um guiding principle  
+**23.** (FCC – TRT-20/2024 – Técnico Judiciário – TI)  
+No ITIL V4, o principal propósito do Service Value System – SVS é
 
-**21.** A distinção clássica entre *utility* e *warranty* no discurso ITIL indica, respectivamente:
+A) definir as funções e responsabilidades de todos os membros da equipe, fator implementado pela gestão de comunicação.  
+B) prover uma estrutura para garantir que todos os componentes e atividades de uma organização trabalhem juntos para facilitar a criação de valor.  
+C) focar exclusivamente na automação de serviço visando compatibilidade com a missão, a visão e os valores estratégicos da organização.  
+D) implementar novas tecnologias de forma rápida e eficiente para garantir que o produto entregue aos stakeholders seja o mais atual possível.  
+E) garantir que os serviços sejam sempre disponibilizados o mais cedo possível.
 
-A) Custo e prazo de projeto apenas  
-B) Adequação ao propósito (o que faz) e adequação ao uso (como entrega — disponibilidade, capacidade, continuidade, segurança)  
-C) Incidente e problema  
-D) Discover e Support  
-E) APO e DSS do COBIT  
+**24.** (FCC – TCE-GO/2022 – Analista de Controle Externo – TI)  
+Na ITIL v4, as quatro dimensões especificadas são: Informação e tecnologia; Organizações e pessoas;
 
-**22.** Assinale a alternativa que contém **erro conceitual**:
+A) Infraestrutura e suporte; Gestão de clientes.  
+B) Fluxos de valor e processos; Suporte técnico e serviços.  
+C) Infraestrutura e suporte; Atendimento a clientes.  
+D) Fluxos de valor e processos; Parceiros e fornecedores.  
+E) Suporte técnico e serviços; Parceiros e fornecedores.
 
-A) Change enablement busca controlar risco em mudanças  
-B) Continual improvement perpassa a melhoria contínua  
-C) As quatro dimensões incluem organizations and people  
-D) “Optimize and automate” recomenda automatizar processos sem antes analisá-los/otimizá-los  
-E) Service level management lida com acordos e desempenho de serviço  
+**25.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+Um Tribunal Regional do Trabalho precisa aprimorar a utilização das práticas da ITIL 4 para melhorar a gestão e a governança de TI, visando garantir a continuidade dos serviços digitais utilizados por magistrados, servidores e jurisdicionados. Para isso, a equipe deve utilizar a prática
 
-**23.** Em prova alinhada ao Anexo II (ITIL Version 5), a menção a um modelo de oito atividades Discover…Support refere-se prioritariamente a:
-
-A) Domínios do COBIT 2019  
-B) Product and Service Lifecycle Model  
-C) Camadas do modelo OSI  
-D) Fases exclusivas do ciclo de vida do software da ISO 12207 linha a linha  
-E) Grupos de processos do PMBOK 8  
-
-**24.** Um usuário reporta lentidão intermitente há semanas; a equipe restaura o desempenho a cada episódio, mas a causa profunda permanece. Em termos ITIL, a restauração rápida de cada episódio alinha-se a **incidente**; a investigação da causa recorrente alinha-se a:
-
-A) Problem management  
-B) Somente release management  
-C) Apenas supplier management sem registro  
-D) Strategy management exclusivo  
-E) Architecture management como Service Desk  
-
-**25.** Analise: “Framework X oferece practices como incident, problem e service desk, guiding principles (focus on value, start where you are…) e, na Version 5, um lifecycle de produto e serviço com oito atividades, distinto do modelo de governança por objetivos EDM/APO/BAI/DSS/MEA.”
-
-O framework X corresponde a:
-
-A) COBIT 2019  
-B) PMBOK 8  
-C) ITIL Version 5  
-D) CMMI Dev  
-E) MPS-SW 2024  
+A) Gestão Técnica visando coordenar o registro, a categorização e a resolução rápida de falhas nos serviços digitais do Tribunal, garantindo que os usuários sejam atendidos de forma ágil e eficiente.  
+B) Gerenciamento da Configuração do Serviço para coletar e gerenciar informações sobre os diversos itens de configuração que compõem os serviços digitais do Tribunal, incluindo hardware, software, redes e fornecedores, visando garantir maior estabilidade e confiabilidade dos sistemas.  
+C) Gestão de Eventos para analisar as causas raízes de falhas recorrentes nos serviços digitais do Tribunal, identificando padrões e prevenindo incidentes futuros.  
+D) Gestão de Nível de Serviço visando controlar e minimizar os impactos de mudanças nos sistemas do Tribunal, garantindo que todas as alterações sejam avaliadas e aprovadas antes da implementação.  
+E) Gestão de Problemas para definir e monitorar acordos entre a TI e os usuários do Tribunal, estabelecendo expectativas sobre qualidade, disponibilidade e desempenho dos serviços digitais.
 
 ---
 
-### Gabarito comentado (FCC 16–25)
+### Gabarito comentado (concurso 16–25)
 
-16. **B** — Boas práticas / valor / produtos e serviços.  
-17. **C** — I e II ok; III falsa (ITIL ≠ COBIT).  
-18. **B** — Desk; incidente; problema.  
-19. **C** — Discover.  
-20. **C** — COBIT governança; ITIL serviços.  
-21. **B** — Utility × warranty.  
-22. **D** — Erro: automatizar sem otimizar.  
-23. **B** — Lifecycle Model.  
-24. **A** — Problem management.  
-25. **C** — ITIL Version 5.  
+| Q | Gab. | Fonte |
+|---|------|-------|
+| 16 | **C** | FCC TRT-5/2013 Analista TI — objetivos de incidente = restaurar rápido + minimizar impacto (I e II); III/IV são de outros processos |
+| 17 | **E** | FCC TRT-2/2014 Analista TI — service request = info, aconselhamento, mudança padrão, acesso, reset; **não** atendimento de incidente |
+| 18 | **C** | FCC TRT-2/2018 Técnico TI — escalação **funcional** (mais experiência), tipicamente com OLA |
+| 19 | **B** | FCC TJ-MA/2019 Técnico Hardware — Cumprimento das Requisições (mesmo sistema de registro) |
+| 20 | **D** | FCC TRT-6/2018 Analista TI — Desenho de Serviço × engenharia de requisitos / SLR / arquitetura |
+| 21 | **D** | FCC TRT-11/2017 Técnico TI — aspectos de projetar segurança, riscos, docs e preparação = Desenho |
+| 22 | **D** | FCC TRT-20/2024 Analista TI — guiding principle “colaborar e promover visibilidade” |
+| 23 | **B** | FCC TRT-20/2024 Técnico TI — propósito do SVS = componentes trabalhando juntos para valor |
+| 24 | **D** | FCC TCE-GO/2022 Analista TI — 4 dimensões: + fluxos de valor/processos + parceiros/fornecedores |
+| 25 | **B** | FCC TRT-1/2025 Analista TI — prática correta = Gerenciamento da Configuração do Serviço (demais opções com propósitos trocados) |
 
 ---
 

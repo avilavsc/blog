@@ -311,112 +311,117 @@ E) Monólito PDPJ
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** A PMBOK® Guide — Eighth Edition é corretamente associada a:
+**16.** (FCC – TRT-5/2022 – Analista Judiciário – TI)  
+Um analista está utilizando o guia PMBOK 6ª Edição. Ele verificou, corretamente, que fazem parte do grupo de Planejamento os processos
 
-A) política de sustentabilidade do Poder Judiciário (Res. CNJ 400/2021)  
-B) guia do PMI para gerenciamento de projetos, com princípios, performance domains e orientação processual adaptável  
-C) catálogo exclusivo de incidentes ITIL no Service Desk  
-D) Código de Conduta e Valores Éticos do TRT4  
-E) Resolução CSJT 360/2023  
+A) Definir as atividades − Coletar os requisitos − Identificar os riscos.  
+B) Desenvolver a equipe − Orientar e Gerenciar o Trabalho do Projeto − Gerenciar o Engajamento das Partes Interessadas.  
+C) Desenvolver o Termo de Abertura do Projeto − Sequenciar as Atividades − Desenvolver a Equipe.  
+D) Gerenciar a Equipe − Planejar o Engajamento das Partes Interessadas − Implementar Respostas aos Riscos.  
+E) Gerenciar as Comunicações − Monitorar o Engajamento das Partes Interessadas − Gerenciar o Conhecimento do Projeto.
 
-**17.** No modelo da 8ª edição, constituem princípios cobráveis, entre outros:
+**17.** (FCC – TRT-5/2022 – Técnico Judiciário – TI)  
+Considere o PMBOK 6ª Edição. Os processos Desenvolver a Equipe e Gerenciar a Qualidade fazem parte, correta e respectivamente, do grupo de processos de
 
-A) Adopt a Holistic View; Focus on Value; Embed Quality; Be an Accountable Leader; Integrate Sustainability; Build an Empowered Culture  
-B) somente os 12 princípios idênticos e inalterados da 7ª  
-C) exclusivamente os 5 Process Groups da 6ª como “princípios”  
-D) Eureka, Zuul e MapStruct  
-E) ODS 1 a 17 decorados item a item como única exigência  
+A) Execução e Execução.  
+B) Execução e Gerenciamento.  
+C) Planejamento e Execução.  
+D) Controle e Monitoramento.  
+E) Planejamento e Planejamento.
 
-**18.** Acerca dos performance domains da 8ª edição, assinale a alternativa correta.
+**18.** (FCC – TRT-19/2022 – Analista Judiciário – TI)  
+Durante o gerenciamento de um projeto, um Analista aplicou os seguintes conhecimentos do PMBoK 6ª edição:  
+I. Técnica de análise em que um modelo de computador é repetido muitas vezes, com os valores de entrada escolhidos aleatoriamente para cada repetição impulsionada pelos dados de entrada, incluindo distribuições de probabilidade e ramificações probabilísticas. São geradas saídas para representar o intervalo de resultados possíveis para o projeto.  
+II. Análise dos pontos fortes, dos pontos fracos, das oportunidades e das ameaças a uma organização, projeto ou opção.  
+Os itens I e II correspondem, correta e respectivamente, a
 
-A) São oito, idênticos aos da 7ª, sem qualquer atualização  
-B) Incluem, entre outros, Governance, Scope, Schedule, Finance, Stakeholders, Resources e Risk  
-C) Reduzem-se a um único domain chamado “Docker”  
-D) Substituem integralmente o COBIT 2019 no edital  
-E) Tratam apenas de interpretação de texto em Português  
+A) Stressing Simulation e Deeping Analysis.  
+B) Prototypin e Storyboarding.  
+C) Conduct Conditions e Procurement Conformance.  
+D) Monte Carlo Simulation e SWOT Analysis.  
+E) Storyboarding e SWOT Analysis.
 
-**19.** Considere as afirmações abaixo.
+**19.** (FCC – TRT-12/2023 – Analista Judiciário – TI)  
+No âmbito de um Tribunal Regional do Trabalho, o processo do PMBOK 6ª edição, que envolve a adaptação de estratégias para envolver as partes interessadas e comunicá-las sobre as informações pertinentes ao longo dos casos judiciais ali tratados, é:
 
-I. O PMBOK 8 enfatiza entrega de valor e admite *tailoring*.  
-II. Focus Areas reintroduzem orientação de processos de modo não prescritivo.  
-III. PMBOK 8 e ITIL são rigorosamente o mesmo framework com nomes diferentes.
+A) Controlar as partes interessadas.  
+B) Orientar e gerenciar o trabalho das partes interessadas do projeto.  
+C) Identificar as partes interessadas.  
+D) Planejar a estratégia das partes interessadas.  
+E) Monitorar o engajamento das partes interessadas.
 
-Está correto o que se afirma em:
+**20.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+Uma equipe de TI, atuando em um projeto importante, consultou o guia PMBOK 7ª edição sobre como realizar o balanceamento de restrições concorrentes, como datas de entrega fixas, conformidade com códigos regulatórios, orçamento predeterminado e políticas de qualidade. O guia informou que se deve equilibrar essas restrições variáveis, mantendo-se a satisfação das partes interessadas, o que pode incluir uma reunião com o cliente ou dono do produto para apresentar alternativas e implicações. Além disso, a equipe consultou o guia sobre a forma de aquisição de recursos por licitação. O guia informou que o processo de licitação inclui o desenvolvimento e divulgação de documentos de licitação, reunião com licitantes e seleção de licitantes. Ambas as informações obtidas do guia constam do domínio de desempenho
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) II e III, apenas  
-E) I, II e III  
+A) da complexidade do projeto.  
+B) da medição do projeto.  
+C) das partes interessadas.  
+D) de trabalho do projeto.  
+E) da entrega.
 
-**20.** Assinale a opção **incompatível** com a leitura cobrável do PMBOK 8.
+**21.** (FCC – TRT-20/2024 – Analista Judiciário – TI)  
+As habilidades interpessoais, usadas com frequência nos projetos, incluem a Inteligência Emocional que, no guia PMBOK 7ª edição, é classificada em quatro componentes que são: consciência social,
 
-A) Princípios influenciam comportamentos efetivos em projetos  
-B) Domains agrupam práticas críticas de entrega  
-C) Equivale, para todos os efeitos, ao Código de Conduta do TRT4  
-D) Abordagens predictive, adaptive e hybrid são contempladas  
-E) Distingue-se de ITIL (serviços) e COBIT (governança de TI)  
+A) domínio do projeto, domínio da equipe e habilidade social.  
+B) autoconhecimento, autogerenciamento e ciência dos limites da equipe.  
+C) autoconsciência, capacidade de gestão e capacidade mental.  
+D) autoconsciência, autogerenciamento e habilidade social.  
+E) incentivo de equipe, autogerenciamento e capacidade mental.
 
-**21.** Em prova de Analista Judiciário – TI, confundir PMBOK 8 com COBIT 2019 é inadequado porque:
+**22.** (FCC – TRT-20/2024 – Técnico Judiciário – TI)  
+A interação entre os domínios de desempenho de Valor e Tempo no PMBOK 7ª edição é adequadamente representada pelo
 
-A) ambos são idênticos e publicados pelo CNJ  
-B) o PMBOK orienta gerenciamento de **projetos**, ao passo que o COBIT estrutura **governança/gestão de TI**  
-C) o COBIT é só UML  
-D) o PMBOK revoga o COBIT  
-E) nenhum dos dois aparece no edital  
+A) domínio de valor que busca maximizar os benefícios entregues ao cliente, enquanto o domínio de tempo busca minimizar o tempo de execução do projeto.  
+B) valor de um projeto que é determinado exclusivamente pelo cumprimento do cronograma.  
+C) domínio de tempo que não influencia o domínio de valor, pois são conceitos independentes.  
+D) valor de um projeto que pode ser otimizado através da gestão eficiente do tempo, balanceando as entregas com as expectativas do cliente.  
+E) valor de um projeto que é diretamente proporcional ao tempo gasto em sua execução.
 
-**22.** A escolha entre abordagem preditiva e adaptativa, no discurso do PMBOK 8, depende melhor:
+**23.** (FCC – PMSP/AMCI/2025 – Conhecimentos comuns)  
+De acordo com a publicação de referência do Project Management Institute, o denominado PMBOK, atualmente em sua 7ª edição e com previsão de lançamento da 8ª edição neste ano de 2025, os denominados domínios de desempenho
 
-A) do tipo de certificado digital A1 ou A3 exclusivamente  
-B) das características dos entregáveis, do projeto e do contexto organizacional (*tailoring*)  
-C) da Res. CNJ 351/2020  
-D) da proibição total de cronogramas  
-E) da substituição de stakeholders por firewall  
+A) devem ser determinados a partir do diagnóstico da organização, estabelecendo a correlação entre o grau de desafio do projeto a ser gerenciado e o grau de maturidade da equipe encarregada.  
+B) correspondem aos conhecimentos (hard skills) e habilidades comportamentais (soft skills) que os membros de uma equipe encarregada da gestão de projetos devem desenvolver.  
+C) substituem as dez áreas de conhecimento presentes na edição anterior e correspondem a oito aspectos de atenção, entre os quais navegando na incerteza e ambiguidade.  
+D) são os princípios orientados em torno de três temas principais: entrega de valor, mudanças como instrumento de melhoria e sustentabilidade, assim entendida como redução do uso de insumos.  
+E) consistem nas áreas de competência dos gestores de projetos, avaliadas para fins de obtenção de certificação no âmbito do PMI, entre as quais: liderança, gestão de crise e gerenciamento de escopo.
 
-**23.** A alternativa que corretamente separa eixos do edital é:
+**24.** (FCC – TJ-PI/2009 – Analista Judiciário – Analista de Sistemas)  
+O PMBOK mapeia os processos de gestão de projeto em 5 grupos e em 9 áreas de conhecimento. Numa dessas áreas de conhecimento são encontrados os processos de desenvolvimento do plano do projeto, de execução do plano do projeto e de controle de mudanças no projeto. Essa área de conhecimento é identificada por
 
-A) PMBOK = projetos; ITIL = serviços; COBIT = governança/controle de TI  
-B) PMBOK = Conduta; ITIL = 400; COBIT = 360  
-C) PMBOK = ENSEC; ITIL = MoReq; COBIT = PDPJ  
-D) Todos os três tratam exclusivamente de crase  
-E) PMBOK = CSJT 360  
+A) Gerência de Aquisições de Projetos.  
+B) Gerenciamento da Qualidade do Projeto.  
+C) Gerência de Escopo de Projetos.  
+D) Gerenciamento de Integração do Projeto.  
+E) Gerenciamento das Comunicações do Projeto.
 
-**24.** Um candidato afirma: “Na 8ª edição não existem processos; só princípios vagos.” Essa leitura:
+**25.** (FGV – TRF-1/2024 – Analista Judiciário – Análise de Dados)  
+O analista Luís foi designado gerente de um projeto de grande complexidade do TRF1. O projeto tem como característica que a entrega total do seu valor ocorrerá somente no final de sua execução. O patrocinador do projeto orientou que o gerente execute cada domínio de desempenho do projeto de forma sequencial, a fim de melhor organizar e controlar as atividades de cada uma de suas áreas. Nesse contexto, com relação aos domínios de desempenho de projetos, Luís deve:
 
-A) está correta, pois a 8ª aboliu qualquer processo  
-B) está correta apenas na Justiça Eleitoral  
-C) está incorreta, pois há orientação processual via Focus Areas, de caráter adaptável/não prescritivo  
-D) está correta, pois PMI proíbe planejamento  
-E) está incorreta somente porque o edital exige a 6ª  
-
-**25.** Para fins de preparação na semana 4 (visão de governança), a síntese mais adequada do PMBOK 8 é:
-
-A) 12 princípios + 8 domains da 7ª sem atualizar  
-B) 6 princípios + 7 domains + Focus Areas + valor/tailoring, cobrado em Específicas, sem confundir com ITIL, COBIT, modelo TRT4 ou normas de Gerais  
-C) apenas Portaria de Conduta 4.573/2023  
-D) apenas Selenium  
-E) extinção da SGTI  
+A) diminuir a complexidade do projeto, retirando domínios de desempenho desnecessários à sua execução;  
+B) inserir novos domínios no planejamento, aumentando a organização e controle propostos pelo patrocinador;  
+C) criar grupos de trabalho específicos para cada domínio de desempenho, acelerando a execução das atividades;  
+D) executar os domínios de desempenho simultaneamente, permitindo a sua operação como um sistema interligado;  
+E) planejar a execução de cada um dos domínios de forma sequencial, realizando o projeto como determinado pelo patrocinador.
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito comentado (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **B** |
-| 17 | **A** |
-| 18 | **B** |
-| 19 | **C** |
-| 20 | **C** |
-| 21 | **B** |
-| 22 | **B** |
-| 23 | **A** |
-| 24 | **C** |
-| 25 | **B** |
-
-**Notas rápidas:** 16 B (guia PMI de projetos); 17 A (6 princípios); 18 B (7 domains); 19 C (I e II; III confunde com ITIL); 20 C (≠ Conduta); 21 B (projeto × governança TI); 22 B (*tailoring*/contexto); 23 A (separação clássica); 24 C (Focus Areas); 25 B (síntese do subtópico).
+| Q | Gab. | Fonte |
+|---|------|-------|
+| 16 | **A** | FCC TRT-5/2022 Analista TI — Planejamento: Definir atividades, Coletar requisitos, Identificar riscos (PMBOK 6) |
+| 17 | **A** | FCC TRT-5/2022 Técnico TI — Desenvolver a Equipe e Gerenciar a Qualidade = Execução / Execução |
+| 18 | **D** | FCC TRT-19/2022 Analista TI — Monte Carlo + SWOT (PMBOK 6) |
+| 19 | **E** | FCC TRT-12/2023 Analista TI — Monitorar o engajamento das partes interessadas |
+| 20 | **D** | FCC TRT-1/2025 Analista TI — domínio Trabalho do Projeto (PMBOK 7) |
+| 21 | **D** | FCC TRT-20/2024 Analista TI — IE: autoconsciência, autogerenciamento, habilidade social (+ consciência social) |
+| 22 | **D** | FCC TRT-20/2024 Técnico TI — valor otimizado pela gestão eficiente do tempo |
+| 23 | **C** | FCC PMSP AMCI/2025 — domains da 7ª substituem 10 áreas; 8 aspects (ex.: incerteza) |
+| 24 | **D** | FCC TJ-PI/2009 Analista Sistemas — Integração (edição com 9 áreas; enunciado original) |
+| 25 | **D** | FGV TRF-1/2024 Analista — domains simultâneos / sistema interligado (PMBOK 7) |
 
 ---
 

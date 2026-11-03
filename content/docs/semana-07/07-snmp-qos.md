@@ -336,23 +336,25 @@ E) SNMP gerencia via gerente/agente/MIB; QoS DiffServ prioriza classes (VoIP→E
 
 ## 3. Questões estilo concurso FCC (16–25)
 
-**16.** (FCC – TRT-20/2024 – Analista Judiciário – TI)  
-A MIB — Management Information Base é
+> Questões reais de provas. Gabarito só ao final.
 
-A) uma arquitetura para balanceamento de carga em redes distribuídas  
-B) uma composição de regras de criptografia para dados em trânsito  
-C) um protocolo de comunicação para troca de dados entre servidores  
-D) um conjunto de algoritmos de compressão de pacotes de dados  
-E) uma estrutura hierárquica de objetos gerenciáveis e suas definições  
+**16.** (FCC – TRT-20/2024 – Analista Judiciário – TI)  
+A MIB - Management Information Base é
+
+A) uma arquitetura para balanceamento de carga em redes distribuídas.  
+B) uma composição de regras de criptografia para dados em trânsito.  
+C) um protocolo de comunicação para troca de dados entre servidores.  
+D) um conjunto de algoritmos de compressão de pacotes de dados.  
+E) uma estrutura hierárquica de objetos gerenciáveis e suas definições.
 
 **17.** (FCC – TRT-24/2016 – Analista Judiciário – TI)  
-Sobre monitoramento/gerência, é correto afirmar:
+O Zabbix Appliance utiliza-se do IPTables com regras configuradas (SSH, Zabbix agent/trapper, HTTP/HTTPS, SNMP trap, NTP, ICMP limitado). Sobre monitoramento/gerência, é correto afirmar:
 
-A) O Zabbix não permite monitoramento agentless  
-B) Como o servidor Zabbix é obrigatoriamente Unix/Linux, não há agentes para Windows  
-C) O ICMP, como TCP e UDP, transmite dados de aplicação e o ping é exclusivo do Linux  
-D) No SNMP o item monitorado/gerenciado é um agente; quem consulta (GET) ou solicita modificações (SET) é um gerente; o agente também gera alertas (TRAP)  
-E) No IPTables, `-s ALL` aplica-se simultaneamente a SSH, HTTP e HTTPS sem regra por protocolo  
+A) O Zabbix é uma ferramenta de monitoramento de redes, servidores e serviços que não permite monitoramento agentless.  
+B) Como o servidor Zabbix é obrigatoriamente instalado em sistemas Unix ou Linux, não há agentes Zabbix disponíveis para ambientes Windows e OS.  
+C) O ICMP, assim como o TCP e o UDP, é um protocolo de controle também usado para a transmissão de dados, que desempenha diversas funções exclusivas para Linux como o ping.  
+D) No SNMP o item a ser monitorado ou gerenciado é um agente. Quem consulta (GET) ou solicita modificações (SET) é um gerente. O agente também tem a função de gerar alertas (TRAP).  
+E) Dentre as regras do IPTables para configurar o firewall pode-se utilizar o parâmetro "-s ALL", que se aplica simultaneamente aos três protocolos (SSH, HTTP e HTTPS), sem que seja necessário incluir uma regra separada para cada um.
 
 **18.** (FCC – TRT-17/2022 – Analista Judiciário – TI)  
 Para priorizar telefonia VoIP e controle de rede em congestionamento, as marcações DiffServ recomendadas, respectivamente, são:
@@ -364,13 +366,13 @@ D) BE e A41
 E) BE e EF  
 
 **19.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
-O funcionamento do SNMP baseia-se na comunicação entre agentes e gerentes. Um exemplo de gerente SNMP é o
+O funcionamento do SNMP se baseia na comunicação entre agentes e gerentes. Um exemplo de gerente SNMP é o
 
-A) Logstash, ferramenta de busca/análise baseada em índices OID  
-B) Elasticsearch, mecanismo de coleta/processamento/envio de logs aos agentes SNMP  
-C) Grafana, ferramenta de visualização em tempo real focada em alertas de segurança  
-D) Zabbix, que permite centralizar a coleta e análise de dados dos dispositivos de rede  
-E) Kibana, visualização/dashboards com análise automática de logs  
+A) Logstash, que é uma ferramenta de busca e análise de dados baseado em índices Object Identifiers (OIDs).  
+B) Elasticsearch, que é um mecanismo de coleta, processamento e envio de logs para os agentes SNMP.  
+C) Grafana, que é uma ferramenta para visualização e análise de dados em tempo real, focada na emissão de alertas de segurança.  
+D) Zabbix, que permite centralizar a coleta e análise de dados dos dispositivos de rede.  
+E) Kibana, que é uma ferramenta de visualização de dados e dashboards com funcionalidade de análise automática de logs.
 
 **20.** (FCC – TRT-15/2024 – Analista Judiciário – TI)  
 Sobre o CiscoView no gerenciamento de roteadores/switches, o Analista deve saber que ele
@@ -381,71 +383,70 @@ C) é aplicação autônoma sem integração com CiscoWorks
 D) utiliza pacotes de dispositivo para compreender definições de MIBs e funcionalidades de cada tipo de dispositivo  
 E) utiliza SNMPv2 para criptografia e políticas avançadas de acesso  
 
-**21.** (Estilo FCC)  
-Assinale a opção que distingue corretamente SNMP e MIB:
+**21.** (FCC – TRT-6/2018 – Analista Judiciário – TI)  
+O DiffServ é um mecanismo para classificar e gerenciar o tráfego da rede e prover a Qualidade de Serviço (QoS). No IPv4, o DiffServ utiliza 6 bits que compõem o Differentiated Services Code Point (DSCP) e que ocupa o campo denominado
 
-A) SNMP é a base hierárquica; MIB é o protocolo GET/SET  
-B) SNMP é o protocolo de gerência; MIB descreve os objetos gerenciáveis  
-C) Ambos são classes DiffServ  
-D) MIB escuta na UDP 162 obrigatoriamente  
-E) SNMP é apenas uma community string  
+A) TTL.  
+B) Flow Label.  
+C) COS.  
+D) Traffic Class.  
+E) TOS.
 
-**22.** (Estilo FCC)  
-Em DiffServ, Best Effort (BE) para um fluxo de VoIP institucional sensível a jitter:
+**22.** (FCC – TRT-15/2023 – Analista Judiciário – TI)  
+Os nós de rede que implementam serviços diferenciados (Diffserv) em redes IPv4 utilizam um ponto de código no cabeçalho IP para selecionar um comportamento por salto (PHB) como tratamento de encaminhamento específico para esse pacote. O PHB mais adequado para criar um serviço de baixa perda, baixa latência, baixo jitter e largura de banda garantida para um serviço de fim a fim, considerado premium, é o
 
-A) É a marcação ideal, equivalente a EF  
-B) Impõe CS7 automaticamente  
-C) Configura o agente SNMP  
-D) Substitui RSVP em IntServ  
-E) É inadequado; VoIP tipicamente exige tratamento tipo EF  
+A) EF - Expedited Forwarding.  
+B) AF - Assured Forwarding.  
+C) BE - Best-Effort.  
+D) FIFO - First In First Out.  
+E) LLQ - Low Latency Queuing.
 
-**23.** (Estilo FCC)  
-GetBulk no SNMP associa-se historicamente de modo mais forte a:
+**23.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+Uma Analista de rede de computadores está responsável por monitorar diversos dispositivos em um Tribunal Regional do Trabalho. Durante um processo de auditoria, ela precisa garantir que as informações de configuração dos dispositivos sejam seguras e acessíveis apenas ao pessoal autorizado. Para isso ela deve implementar, com criptografia e autenticação, o
 
-A) Melhoria operacional a partir de SNMPv2 (eficiente para muitos objetos)  
-B) Apenas SNMPv1 sem extensões  
-C) Exclusivamente QoS EF  
-D) Arquivo host.xml  
-E) ProxyPass  
+A) SNMPv2 com gerenciamento in-band.  
+B) SNMPv1 com gerenciamento out-of-band.  
+C) SNMPv1 com strings de comunidade padrão.  
+D) SNMPv2 com strings de comunidade de leitura e escrita.  
+E) SNMPv3 com View-based Access Control Model (VACM).
 
-**24.** (Estilo FCC — métricas)  
-Um NMS observa crescimento sustentado de `ifInErrors` em uplink. A leitura operacional mais adequada é:
+**24.** (FCC – TRT-19/2022 – Analista Judiciário – TI)  
+Ao estudar sobre serviços de rede de computadores, uma Analista compreendeu, corretamente, que as variáveis acessíveis via SNMP são
 
-A) Ignorar, pois MIB não serve a desempenho  
-B) Marcar o link como EF automaticamente resolve  
-C) Investigar problemas de camada física/enlace/erros na interface  
-D) Trocar apenas a community para `private`  
-E) Desligar traps  
+A) organizadas hierarquicamente. Estas hierarquias e outras informações secundárias (como o tipo e a descrição das variáveis) são definidas nas Management Information Bases (MIBs).  
+B) armazenadas hierarquicamente, todavia submetidas a indexação organizada em ordem alfabética. Estas variáveis são descritas nas tabelas DNS do Application Server (AS).  
+C) armazenadas aleatoriamente, todavia submetidas a indexação organizada em ordem alfabética. Estas variáveis são descritas nas tabelas DNS do Application Server (AS).  
+D) organizadas hierarquicamente, armazenadas no Application Server e registradas de forma indexada. Os índices, armazenados nas tabelas DHCP, indicam a hierarquia aplicada permitindo o acesso rápido às informações como tipo e descrição das variáveis.  
+E) armazenadas aleatoriamente, todavia submetidas a indexação organizada em ordem numérica. Estas variáveis são descritas nas tabelas DHCP do Internet Information Service (IIS).
 
-**25.** (Estilo FCC — síntese)  
-Para o edital (SNMP, MIBs, QoS, métricas), a síntese correta é:
+**25.** (FGV – STN/2024 – Auditor Federal – TI Operação e Infraestrutura)  
+O SNMP (Simple Network Management Protocol) é utilizado essencialmente no monitoramento e gerenciamento de dispositivos em redes IP. O agente SNMP armazenado no dispositivo monitorado pode avisar ao sistema de gerência a ocorrência de algum evento não previsto, encaminhando esses avisos na forma de operações
 
-A) Gerente/agente/MIB via SNMP; OID na árvore; DiffServ marca DSCP (VoIP EF, controle CS6); métricas de interface/host avaliam desempenho  
-B) MIB = Zabbix; QoS = apenas NAT; traps saem do gerente  
-C) SNMPv1 é obrigatório para segurança  
-D) CS6 é compressão de pacotes  
-E) EF é um tipo de TRAP  
-
+A) GET.  
+B) GETBULK.  
+C) GETNEXT.  
+D) SET.  
+E) TRAP.
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito comentado (FCC 16–25)
 
 | Questão | Gabarito | Fonte / nota |
 |---------|----------|--------------|
 | 16 | **E** | FCC TRT-20/2024 — definição de MIB |
 | 17 | **D** | FCC TRT-24/2016 — agente/gerente/GET/SET/TRAP |
 | 18 | **C** | FCC TRT-17/2022 — EF e CS6 |
-| 19 | **D** | FCC TRT-1/2025 — Zabbix como gerente |
+| 19 | **D** | FCC TRT-1/2025 — Zabbix como gerente SNMP |
 | 20 | **D** | FCC TRT-15/2024 — device packages / MIBs |
-| 21 | **B** | Protocolo × base de objetos |
-| 22 | **E** | VoIP ≠ BE |
-| 23 | **A** | GetBulk no v2+ |
-| 24 | **C** | Erros de interface |
-| 25 | **A** | Síntese do eixo |
+| 21 | **E** | FCC TRT-6/2018 — DSCP no campo TOS (IPv4) |
+| 22 | **A** | FCC TRT-15/2023 — PHB EF (premium) |
+| 23 | **E** | FCC TRT-6/2025 — SNMPv3 + VACM |
+| 24 | **A** | FCC TRT-19/2022 — variáveis SNMP hierárquicas / MIB |
+| 25 | **E** | FGV STN/2024 — TRAP do agente |
 
-**Notas:** 16 E. 17 D. 18 C. 19 D (ELK/Grafana ≠ gerente SNMP). 20 D (v1 inseguro; v2c sem cripto forte). 21 B. 22 B. 23 B. 24 B. 25 B.
+**Notas rápidas:** 16 E. 17 D. 18 C. 19 D. 20 D. 21 E. 22 A. 23 E. 24 A. 25 E.
 
----
+Distribuição do gabarito (16–25): E, D, C, D, D, E, A, E, A, E — letras A–E presentes.
 
 *Arquivo 07 · SNMP / MIB / QoS · Claudionir · TRT4 Analista TI (código 14) · FCC. Próximo: 08 Monitoramento (Zabbix, Grafana, Prometheus, ELK).*

@@ -345,118 +345,191 @@ E) Correto se o gateway for Zuul
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões reais de concurso (16–25)
 
-**16.** Em aplicações Java alinhadas à stack referida no contexto PDPJ-Br, o Flyway caracteriza-se, em regra, por:
+> Bloco substituído por questões **reais** de concurso (FCC preferencialmente; TRT/TRF/TJ quando necessário). O treino 1–15 e o Material permanecem inalterados.
 
-A) funcionar como catálogo exclusivo de registro e heartbeat de réplicas  
-B) aplicar scripts versionados de migração para evoluir e rastrear o schema do banco de dados  
-C) expor, por si só, a documentação interativa OpenAPI da API  
-D) gerar, na compilação, mapeamentos tipados Entity ↔ DTO  
-E) constituir o mecanismo SSO/OAuth2 da plataforma  
+**16.** (FCC | TRT19 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 40 de 60)
 
-**17.** Relativamente à convivência entre Flyway e JPA/Hibernate, assinale a opção correta:
+Flyway é uma biblioteca de migração de banco de dados que usa uma tabela para rastrear o estado do banco de dados, cujo nome padrão é
 
-A) A existência de Flyway torna o uso de Entities conceitualmente impossível  
-B) O Flyway governa a evolução do schema; o JPA/Hibernate mapeia e persiste objetos sobre esse schema  
-C) Hibernate e Flyway são nomes comerciais do Eureka  
-D) Flyway obriga banco único compartilhado entre todos os microsserviços  
-E) JPA substitui integralmente qualquer necessidade de SQL de migration em todos os enunciados FCC  
+A) `flyway_ledger_history`.
 
-**18.** Comparando a evolução de schema apenas via recursos do ORM com o uso de Flyway, a vantagem tipicamente cobrada das migrations explícitas é:
+B) `flyway_schema_history`.
 
-A) eliminar a necessidade de controllers REST  
-B) tornar mudanças de schema versionadas, revisáveis e alinhadas ao processo de entrega entre ambientes  
-C) substituir o Service Discovery  
-D) documentar try-it automaticamente no lugar do Swagger  
-E) registrar a aplicação no Zuul como filtro error  
+C) `flw_history`.
 
-**19.** Assinale a alternativa que apresenta associação **incorreta**:
+D) `flyway_state_history`.
 
-A) Flyway — migração/versionamento de schema  
-B) Hibernate — implementação ORM  
-C) Hibernate Envers — auditoria de entidades  
-D) Flyway — ponto único de entrada e roteamento de borda (papel de API Gateway)  
-E) JPA — especificação/API de persistência  
+E) `flw_database_history`.
 
-**20.** Em enunciado que contraste ferramentas da stack de persistência, a FCC tipicamente considera **correto** que:
 
-A) Envers aplica V1/V2 de DDL e Flyway audita revisões de Entity  
-B) Flyway ocupa-se da evolução versionada do schema, ao passo que o Hibernate persiste entidades  
-C) Flyway e Hibernate são intercambiáveis em qualquer item  
-D) Flyway aplica rate limit na borda  
-E) Hibernate realiza heartbeat das réplicas  
+**17.** (FCC | TRT14 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 29 de 60)
 
-**21.** A expressão “ferramenta de database migration que mantém histórico das versões de schema aplicadas” descreve com mais precisão:
+O uso da anotação `@Audited` antes do nome da classe de entidade do banco de dados, em uma aplicação que utiliza JPA, sinaliza ao
 
-A) Eureka Server  
-B) Zuul filter post  
-C) Flyway  
-D) MapStruct  
-E) Swagger UI exclusivamente  
+A) Flyway que a entidade já foi auditada.
 
-**22.** Em arquitetura de microsserviços com PostgreSQL por serviço, o uso de Flyway **não** implica, por si só:
+B) Hibernate Envers que a entidade será alvo de auditoria.
 
-A) possibilidade de versionar o DDL de cada serviço  
-B) substituição do API Gateway e do Service Discovery  
-C) aplicação ordenada de scripts ainda não executados  
-D) rastreabilidade do que já rodou em cada ambiente  
-E) alinhamento do schema esperado pelas Entities JPA  
+C) Map Struct que a entidade já foi auditada.
 
-**23.** Considere as afirmações:
+D) Spring Cloud que a entidade registra logs de transações com o banco de dados.
 
-I. Flyway documenta schemas OpenAPI no navegador (try-it).  
-II. Flyway aplica migrations versionadas ao banco.  
-III. Hibernate Envers não substitui o papel de migration de schema do Flyway.
+E) Service Discovery o caminho do arquivo de auditoria.
 
-Assinale:
 
-A) Apenas I  
-B) Apenas II  
-C) II e III  
-D) I e II  
-E) I, II e III  
+**18.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22) *[aproximação temática]*
 
-**24.** Diferenciar Flyway de Hibernate Envers é relevante em provas porque:
+*Flyway nos distratores (função × trocada).*
 
-A) não há qualquer diferença conceitual cobrável  
-B) o Flyway enfatiza versionamento de **schema**; o Envers, auditoria/versionamento de **entidades**  
-C) Flyway só existe fora do ecossistema Java  
-D) auditoria de Entity é exclusividade do Eureka  
-E) Flyway é apenas o nome antigo do MapStruct  
+Os microsserviços da Plataforma Digital do Poder Judiciário (PDPJ) são desenvolvidos com tecnologias de código aberto, são implementados com o uso do Spring framework, e Java é a principal linguagem de programação. De acordo com a documentação da PDPJ, faz parte do ecossistema do Spring Framework o
 
-**25.** A síntese mais alinhada ao edital, sobre Flyway, é:
+A) Swagger, que organiza os scripts SQL que são executados no banco de dados, funcionando como um controle de versão.
 
-A) Flyway = discovery; Hibernate = gateway; Envers = docs  
-B) Flyway = migrations versionadas de schema; complementa JPA/Hibernate (ORM) e distingue-se do Envers (auditoria de Entity)  
-C) Flyway obriga expor Entity no JSON e elimina DTO  
-D) Flyway substitui Zuul, Eureka e OpenAPI  
-E) Flyway é o banco H2 do Spring Boot  
+B) Flyway, serviço de documentação que descreve APIs RESTful expressas usando JSON.
+
+C) Zuul, que fornece os recursos de cliente para o serviço de descoberta Eureka.
+
+D) Netflix Eureka, que tem como principal função ser um ponto único de entrada, distribuindo as requisições entre as diversas instâncias de serviços.
+
+E) Data Envers, que é um módulo Hibernate que adiciona funcionalidades de auditoria às entities JPA.
+
+
+**19.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 51 de 60)
+
+Um Tribunal Regional do Trabalho está desenvolvendo um sistema de gestão de processos judiciais que inclui um módulo de auditoria para rastrear mudanças nos registros dos processos. É essencial que qualquer alteração nos dados dos processos judiciais (por exemplo, petições, decisões, movimentações) seja auditada para garantir a integridade e a transparência. Um Analista de TI decide utilizar Hibernate Envers para atender aos requisitos desse módulo de auditoria e, para isso, deve
+
+A) configurar Hibernate Envers para criar uma tabela de auditoria que registre todas as alterações em entidades anotadas, incluindo quem fez a alteração e quando foi feita.
+
+B) usar Hibernate Envers para criar automaticamente backups diários de todas as tabelas do banco de dados.
+
+C) utilizar Hibernate Envers para migrar dados auditáveis entre diferentes esquemas de banco de dados de forma transparente.
+
+D) implementar Hibernate Envers para validar os dados de auditoria dos processos judiciais antes de serem inseridos no banco de dados.
+
+E) configurar Hibernate Envers para enviar notificações à auditoria, por e-mail, a cada alteração de dados no banco de dados.
+
+
+**20.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60) *[aproximação temática]*
+
+*Controle de schema vs migrações.*
+
+Uma equipe de desenvolvimento está utilizando Spring Boot para criar uma API RESTful. Durante os testes, observaram que a aplicação demora a inicializar, principalmente devido à configuração do banco de dados. Para melhorar o tempo de inicialização, decidiram desabilitar a criação automática do esquema de banco de dados ao iniciar a aplicação. A configuração, no `application.properties`, que desabilita a criação automática do esquema de banco de dados pelo Spring Boot é a
+
+A) `spring.jpa.hibernate.ddl-auto=none`
+
+B) `spring.datasource.database-auto=false`
+
+C) `spring.jpa.db-sql=disable`
+
+D) `spring.jpa.properties.hibernate.db-auto=disable`
+
+E) `spring.jpa.create-database-init=false`
+
+
+**21.** (FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 54 de 60) *[aproximação temática]*
+
+Um Analista de um Tribunal necessita habilitar o Hibernate Envers em uma entidade. Para isso, ele deve
+
+A) utilizar o método `Session.saveOrUpdate()` para a entidade.
+
+B) anotar a entidade com `@Audited`.
+
+C) configurar `hibernate.envers.enabled` como `true` no arquivo de configuração.
+
+D) estender a classe `AuditedEntity` fornecida pelo Hibernate Envers.
+
+E) configurar o `audit-log` no arquivo `persistence.xml`.
+
+
+**22.** (FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 41 de 60) *[aproximação temática]*
+
+Uma analista está desenvolvendo um sistema usando JPA e deseja configurar a utilização do framework Hibernate como provedor de persistência, por meio da instrução `<provider>org.hibernate.ejb.HibernatePersistence</provider>` que deve ser colocada no arquivo
+
+A) `hibernate.xml`
+
+B) `persistence-unit.xml`
+
+C) `persistence.xml`
+
+D) `orm-database-config.xml`
+
+E) `server.xml`
+
+
+**23.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 22 de 60) *[aproximação temática]*
+
+Considere que exista um banco de dados PostgreSQL aberto e funcionando em condições ideais, e que a tabela t_processos exista e esteja corretamente preenchida com valores adequados. Neste contexto, observe a função abaixo. CREATE FUNCTION atualizar_status_processo(num_processo VARCHAR) RETURNS INTEGER AS $$ DECLARE total INTEGER; BEGIN UPDATE t_processos SET status_processo = 'Encerrado' WHERE numero_processo = num_processo; SELECT COUNT(*) INTO total FROM t_processos WHERE status_processo = 'Encerrado'; RETURN total; END; $$ LANGUAGE plpgsql; Em condições ideais, esta função seria corretamente chamada utilizando-se o comando:
+
+A) `CALL atualizar_status_processo('12345-67.2023.5.01.0001');`
+
+B) `EXECUTE atualizar_status_processo('12345-67.2023.5.01.0001');`
+
+C) DO $$ BEGIN PERFORM atualizar_status_processo('12345-67.2023.5.01.0001'); END; $$ LANGUAGE plpgsql;
+
+D) `SELECT atualizar_status_processo('12345-67.2023.5.01.0001');`
+
+E) `EXEC atualizar_status_processo '12345-67.2023.5.01.0001';`
+
+
+**24.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 29 de 60) *[aproximação temática]*
+
+Nos projetos da Plataforma Digital do Poder Judiciário PDPJ-Br,
+
+A) os ambientes de deployment estão instalados em clusters Kubernetes, gerenciados por meio da ferramenta open source de orquestração de containers Rancher.
+
+B) a aplicação deve possuir os arquivos `yanl`, para que o deploy ocorra de forma automática por meio de pipelines de CI/CD (Continuous Delivery e Continuous Integration) executados pelo GitLab do STF (Supremo Tribunal Federal).
+
+C) a aplicação deve possuir um arquivo `Rancherfile`, especificando o modo pelo qual ela deve ser empacotada.
+
+D) deve haver o arquivo `.gitlab-ci.xml` definindo a pipeline de deploy automático.
+
+E) deve haver, na pasta `kubernets`, o arquivo de configuração do ingress da aplicação, que é obrigatório.
+
+
+**25.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 23) *[aproximação temática]*
+
+O JPA é uma especificação da plataforma Java que define um padrão para mapeamento objeto-relacional (ORM) e gerenciamento de persistência de dados. No JPA, a forma padrão de realizar o mapeamento de objetos Java (POJOs) para tabelas de bancos de dados relacionais é por meio de
+
+A) configurações XML como `persistence.xml`, `entity.xml` e `mapping.xml`.
+
+B) anotações como `@Entity`, `@Id`, `@Table` e `@Column`.
+
+C) interfaces como `EntityFactory`, `QueryBuilder` e `PersistenceUnit`.
+
+D) classes como `HibernateSession`, `EntityManagerFactory` e `DataMapper`.
+
+E) anotações como `@Database`, `@Primary`, `@Relation` e `@Field`.
+
 
 ---
 
-### Gabarito comentado (concurso 16–25)
+### Gabarito (concurso reais 16–25)
 
-16. **B** — Migrations versionadas de schema.  
-17. **B** — Schema (Flyway) + ORM (JPA/Hibernate).  
-18. **B** — Versionamento/revisão/ambientes.  
-19. **D** — Gateway ≠ Flyway.  
-20. **B** — Papéis complementares, sem inverter.  
-21. **C** — Definição de database migration + histórico.  
-22. **B** — Não substitui Gateway/Discovery.  
-23. **C** — I falsa (Swagger); II e III verdadeiras.  
-24. **B** — Schema × auditoria Envers.  
-25. **B** — Cartão mental completo do arquivo 02.
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **B** | FCC | TRT19 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 40 de 60 |
+| 17 | **B** | FCC | TRT14 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 29 de 60 |
+| 18 | **E** \* | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22 |
+| 19 | **A** | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 51 de 60 |
+| 20 | **A** \* | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60 |
+| 21 | **B** \* | FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 54 de 60 |
+| 22 | **C** \* | FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 41 de 60 |
+| 23 | **D** \* | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 22 de 60 |
+| 24 | **A** \* | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 29 de 60 |
+| 25 | **B** \* | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 23 |
 
----
+\* = aproximação temática (questão real correlata quando o nicho é raro em prova).
 
-## 4. Auto-checagem rápida (opcional)
-
-Antes de marcar a questão, pergunte:
-
-1. É **schema / DDL / migration / V1__sql / histórico de versão no BD**? → Flyway.  
-2. É **Entity, Session, mapeamento objeto↔tabela, CRUD ORM**? → JPA/Hibernate.  
-3. É **auditoria de Entity / revisões de dados de domínio**? → Envers.  
-4. É **Entity↔DTO / compile-time**? → MapStruct.  
-5. É **docs OpenAPI / try-it**? → Swagger.  
-6. É **entrada/rota** ou **onde está a réplica**? → Gateway/Zuul ou Eureka.
+**Fontes:**
+- Q16: https://www.quizinho.com.br/questao/fcc-trt19-2022-tecnico-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q40
+- Q17: https://www.quizinho.com.br/questao/fcc-trt14-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q29
+- Q18: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q22
+- Q19: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q51
+- Q20: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q38
+- Q21: https://www.quizinho.com.br/questao/fcc-trt20-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q54
+- Q22: https://www.quizinho.com.br/questao/fcc-trt22-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q41
+- Q23: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q22
+- Q24: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q29
+- Q25: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q23

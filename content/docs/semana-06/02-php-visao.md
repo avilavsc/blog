@@ -331,115 +331,147 @@ E) Apenas PMBOK 8
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-> Adaptadas de padrões FCC (CREMESP 2016 PDO; TJ-CE 2022 MySQLi; MPE-PB 2015 sessão; questões de include/require e superglobais) — nível Analista TI.
+> Questões reais de provas (FCC). Gabarito só ao final.
 
-**16.** (FCC · CREMESP/SP · Analista de TI · 2016 — adaptada) Há duas maneiras principais de conectar uma aplicação web em PHP a um MySQL: MySQLi ou PDO. No uso de PDO, para conectar ao banco `meuDB`, a opção correta é:
+**16.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+Considere o seguinte trecho de código PHP que utiliza herança de classe. O código calcula o valor das férias de um trabalhador, incluindo o adicional de 1/3 sobre o salário. <?php class FeriasBase { public function calcularFerias($salario, $dias) { return ($salario / 30) * $dias; } } class FeriasComBonus extends FeriasBase { public function calcularFeriasComBonus($salario, $dias) { $feriasBase = I; return $feriasBase + ($salario * 0.33); } } Para que o trecho de código acima possa ser executado em condições ideais, a lacuna I deve ser corretamente preenchida com:
 
-A) `$conn=new PDO("mysql_host=$servername;dbname=?", $username, $password); $conn->setParameter(1, "meuDB");`  
-B) `$conn=new PDO("mysql:host=$servername;dbname=meuDB", $username, $password); $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);`  
-C) `$conn=PDO_connect("host=$servername;dbname=meuDB", $username, $password);`  
-D) `$conn=new PDO("odbc://$servername:3306/dbname", $username, $password);`  
-E) `$conn=PDO_connect("host://$servername:3306;dbname=?", $username, $password);`
+A) FeriasBase::calcularFerias($salario, $dias)  
+B) self::calcularFerias($salario, $dias)  
+C) parent.calcularFerias($salario, $dias)  
+D) $this.calcularFerias($salario, $dias)  
+E) parent::calcularFerias($salario, $dias)  
 
-**17.** (FCC · TJ-CE · Analista Judiciário · 2022 — adaptada) No trecho que conecta via API procedural MySQLi, as lacunas equivalentes a conectar, obter erro de conexão e fechar são, respectivamente:
+**17.** (FCC – TRT-20/2024 – Técnico Judiciário – TI)  
+Um desenvolvedor está criando uma aplicação React na qual o usuário pode inserir um texto e vê-lo imediatamente atualizado em tempo real em uma lista abaixo do campo de entrada. Para isso ele decide usar um estado local para armazenar o valor do campo de entrada e o conteúdo da lista. Nesse contexto, em condições ideais, a abordagem adequada para atualizar o estado quando o usuário digitar no campo de entrada é usar
 
-A) `mysql_connect` – `mysql_error()` – `mysql_close`  
-B) `connect_mysql` – `error_mysql()` – `close_mysql`  
-C) `pdo_connect` – `pdo_connect_error()` – `pdo_close`  
-D) `connect_mysqli` – `error_mysqli()` – `close_mysqli`  
-E) `mysqli_connect` – `mysqli_connect_error()` – `mysqli_close`
+A) `this.setState` em componentes funcionais para manter o estado atualizado a cada caractere digitado.  
+B) `setState` dentro de um componente de classe com `this.state.input` para atualizar o estado do campo.  
+C) o Hook `useEffect` para definir o valor de input toda vez que o campo tiver seu conteúdo alterado.  
+D) o Hook `useState` e atualizar o valor do estado diretamente no evento `onChange` do campo de entrada.  
+E) `useState` e `useEffect` em conjunto para garantir que o estado seja atualizado corretamente.  
 
-**18.** (FCC · MPE-PB · 2015 — adaptada) Para remover todas as variáveis de sessão e destruir a sessão no PHP 5, utilizam-se, respectivamente:
+**18.** (FCC – TRT-20/2024 – Técnico Judiciário – TI)  
+Em um aplicativo móvel criado utilizando React Native, em condições ideais, um desenvolvedor precisa que um botão ocupe a largura total da tela, tenha um fundo azul e o texto branco centralizado. Para estilizar o botão no React Native, ele deve
 
-A) `session_commit` e `session_close()`  
-B) `session_clear` e `session_reset()`  
-C) `session_abort` e `session_reset()`  
-D) `session_remove()` e `session_destroy()`  
-E) `session_unset()` e `session_destroy()`
+A) usar o objeto `StyleSheet.create` com propriedades como `width: '100%'`, `backgroundColor: 'blue'` e `color: 'white'`.  
+B) usar classes CSS tradicionais no arquivo `.css` vinculado ao componente com `width: '100%'`, `backgroundColor: blue` e `color: #000000`.  
+C) adicionar os estilos `width: 'auto'`, `backgroundColor: 'blue'` e `color: '#ffffff'` dentro do próprio arquivo JavaScript separado e importar como CSS.  
+D) usar o atributo `style` diretamente no componente com as propriedades CSS `width: auto`, `background-color: blue` e `color: #FFF`.  
+E) usar `className`, adicionar uma classe para os estilos no componente e formatar a classe com `width: 'auto'`, `backgroundColor: 'blue'` e `color: '#ffffff'`.  
 
-**19.** Em PHP, sobre `include` e `require`, é correto afirmar que:
+**19.** (FCC – TRT-20/2024 – Técnico Judiciário – TI)  
+Usando JPA 2.0, um Técnico utilizou a anotação `@MappedSuperclass` que é útil para mapear uma classe de entidade
 
-A) o comportamento das duas é idêntico em falha de arquivo  
-B) `include` gera aviso e continua; `require` gera erro e interrompe se o arquivo não for encontrado  
-C) `require` verifica se o arquivo já foi incluído e, se sim, não inclui de novo (papel exclusivo do `require` simples)  
-D) `require` só inclui PHP; `include` só HTML  
-E) ambas foram removidas no PHP 7
+A) abstrata que não será diretamente persistida no banco de dados.  
+B) que será persistida em uma tabela única com outras entidades.  
+C) que será persistida em uma tabela separada.  
+D) concreta persistida diretamente no banco de dados.  
+E) que será persistida em uma tabela de junção.  
 
-**20.** Considere um formulário HTML submetido por POST ao script `processar.php`. O comando correto para obter o campo `nome` é:
+**20.** (FCC – TRT-20/2024 – Técnico Judiciário – TI)  
+Uma Técnica de um Tribunal do Trabalho usou o seguinte código exemplo JSON para converter um objeto JavaScript em uma string JSON:
 
-A) `$nome = $_POST("nome");`  
-B) `$nome = $_GET["nome"];`  
-C) `$nome = $_GET("nome");`  
-D) `$nome = $_POST["nome"];`  
-E) `$nome = $_FORM["nome"];`
+```javascript
+const object = { nome: "Renata", idade: 25 };
+const jsonString = __I__;
+console.log(jsonString); // Saída: {"nome":"Renata","idade":25}
+```
 
-**21.** Acerca de superglobais em PHP, assinale a afirmativa correta.
+O código estará correto se a lacuna I for corretamente preenchida por
 
-A) `$_POST`, `$_GET`, `$_SESSION` e `$_SERVER` estão disponíveis independentemente do escopo local da função  
-B) `$_SEND` e `$_HTTP` são superglobais padrão obrigatórias  
-C) `$_SESSION` funciona plenamente sem qualquer chamada a `session_start()` em qualquer SAPI  
-D) `$_FILES` armazena apenas cookies  
-E) `$GLOBALS` foi removida em favor exclusiva de `$_REQUEST`
+A) JSON.encode(object)  
+B) JSON.stringify(object)  
+C) stringify.JSON(object)  
+D) object.stringify()  
+E) object.toJSONString()  
 
-**22.** Considere as afirmativas.
+**21.** (FCC – TRT-20/2024 – Técnico Judiciário – TI)  
+Considere o seguinte código de exemplo de um webhook em Node.js:
 
-I. PDO oferece interface orientada a objetos e pode trabalhar com vários SGBDs.  
-II. MySQLi oferece APIs procedural e orientada a objetos, voltadas ao MySQL.  
-III. As funções `mysql_connect` / `mysql_query` permanecem a API recomendada no PHP 8.
+```javascript
+const express = require('express');
 
-Está correto o que se afirma em:
+const app = express();
+app.use(express.json());
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) II e III, apenas  
-E) I, II e III
+__I__ => {
+ console.log('Webhook received:', req.body);
+ res.status(200).send('Webhook received successfully');
+});
 
-**23.** Constitui equívoco típico em prova afirmar que:
+app.listen(3000, () => {
+ console.log('Server is listening on port 3000');
+});
+```
 
-A) `===` compara tipo e valor  
-B) `require_once` evita inclusão duplicada  
-C) prepared statements ajudam contra SQL injection  
-D) arrays PHP podem ser associativos  
-E) em PHP, a concatenação de strings é feita com o operador `+`, como regra geral da linguagem
+Para receber e processar requisições http `post` para o endpoint `/webhook` é necessário que a lacuna I seja corretamente preenchida por
 
-**24.** Em um serviço web PHP que autentica usuário e consulta PostgreSQL, a interpretação mais adequada é:
+A) msg.post('/webhook', (req, send)  
+B) app.post('/webhook,(req, http)  
+C) post.msg('/webhook',(http, send)  
+D) msg.post('/webhook', (req, res)  
+E) app.post('/webhook', (req, res)  
 
-A) sessão via `session_start`/`$_SESSION`; acesso a dados preferencialmente com PDO (DSN adequado) e parâmetros vinculados; validar entrada em vez de concatenar SQL  
-B) usar somente `mysql_connect` mesmo contra PostgreSQL  
-C) armazenar senha em texto puro em `$_GET`  
-D) substituir o SGBD por `include` de HTML  
-E) eliminar `try`/`catch` por proibição da linguagem
+**22.** (FCC – TRT-19/2022 – Analista Judiciário – TI)  
+Considere resultado uma variável do tipo ResultSet, que contém os dados de um produto, resultantes de uma consulta bem-sucedida na tabela produto do banco de dados. Considere que um dos campos dessa tabela é nome, referente ao nome do produto.
 
-**25.** Para o cargo de Analista Judiciário – TI (código 14), a síntese correta deste arquivo é:
+Neste contexto, uma Analista deseja exibir o nome do produto dentro do campo nome de um formulário criado em uma página JSP, por meio da linha abaixo.
 
-A) apenas interpretação de texto  
-B) apenas redes 802.1X  
-C) PHP: tipagem dinâmica, fluxo, arrays, OOP/exceções, include/require, superglobais/sessão e BD com MySQLi/PDO (legado `mysql_*` inválido), em visão comparativa com C  
-D) apenas Delphi VCL  
-E) apenas ITIL 4 guiding principles
+`<input type="text" id="nome" name="nome" value="I">`
+
+Para que isso seja possível, a lacuna I deve ser preenchida corretamente por
+
+A) <% resultado.getValue("nome") %>  
+B) <%= resultado.getValue("nome") %>  
+C) <%= resultado.getString("nome") %>  
+D) <%= resultado.StringOf("nome") %>  
+E) <% resultado.getString("nome") %>  
+
+**23.** (FCC – TRT-19/2022 – Analista Judiciário – TI)  
+O `<schema>` é o elemento raiz de todo XML Schema e pode conter alguns atributos, como
+
+A) `lang`, `namespace` e `type`.  
+B) `xmlnsType`, `defaultNamespace` e `defaultLanguage`.  
+C) `name`, `type` e `value`.  
+D) `base`, `value` e `namespace`.  
+E) `targetNamespace`, `xmlns` e `elementFormDefault`.  
+
+**24.** (FCC – TRT-12/2023 – Analista Judiciário – TI)  
+Uma Analista está desenvolvendo uma API REST para um aplicativo e deseja criar a documentação usando o Swagger. Essa documentação é criada adequadamente através
+
+A) do Swagger Codegen, que permite a criação manual da especificação OpenAPI.  
+B) da interface Swagger Editor, que permite criar a especificação OpenAPI interativamente.  
+C) da elaboração de um arquivo de documentação PDF com o Swagger PDF Editor contendo a descrição das APIs.  
+D) da interface Swagger GetJet, que cria e exibe automaticamente a documentação.  
+E) da elaboração de um arquivo XML de forma manual, contendo a especificação OpenDocumentAPI.  
+
+**25.** (FCC – TRT-12/2023 – Analista Judiciário – TI)  
+Um Analista deseja realizar mudanças nos dados de um componente e atualizar a interface do usuário de acordo com essas mudanças. No React, a sintaxe correta do método usado para atualizar o estado de um componente é:
+
+A) this.componentState({ novo_estado: novo_valor });  
+B) this.updateState({ novo_estado: novo_valor });  
+C) this.setState({ novo_estado: novo_valor });  
+D) this.changeState({ novo_estado: novo_valor });  
+E) this.modifyState({ novo_estado: novo_valor });  
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **B** |
-| 17 | **E** |
-| 18 | **E** |
-| 19 | **B** |
-| 20 | **D** |
-| 21 | **A** |
-| 22 | **C** |
-| 23 | **E** |
-| 24 | **A** |
-| 25 | **C** |
+| Questão | Gabarito | Fonte / nota |
+|---------|----------|--------------|
+| 16 | **E** | FCC TRT-1/2025 Q35 — Programação |
+| 17 | **D** | FCC TRT-20/2024 Q45 — Desenvolvimento Web |
+| 18 | **A** | FCC TRT-20/2024 Q46 — Desenvolvimento Web |
+| 19 | **A** | FCC TRT-20/2024 Q56 — Desenvolvimento Web |
+| 20 | **B** | FCC TRT-20/2024 Q57 — Desenvolvimento Web |
+| 21 | **E** | FCC TRT-20/2024 Q58 — Desenvolvimento Web |
+| 22 | **C** | FCC TRT-19/2022 Q41 — Desenvolvimento Web |
+| 23 | **E** | FCC TRT-19/2022 Q42 — Desenvolvimento Web |
+| 24 | **B** | FCC TRT-12/2023 Q27 — Desenvolvimento de Aplicações Web e Mobile |
+| 25 | **C** | FCC TRT-12/2023 Q32 — Desenvolvimento de Aplicações Web e Mobile |
 
-**Notas rápidas:** 16 B (DSN PDO clássico FCC); 17 E (`mysqli_*` procedural); 18 E (`unset`+`destroy`); 19 B (include×require); 20 D (`$_POST[]`); 21 A (superglobais); 22 C (III falso — `mysql_*` morta); 23 E (concatenação é `.`); 24 A (sessão+PDO/params); 25 C (síntese).
-
----
-
-*Pack semana 6 · subtópico 02 · FCC TRT4 código 14 · visão PHP.*
+**Notas rápidas:** 16 E; 17 D; 18 A; 19 A; 20 B; 21 E; 22 C; 23 E; 24 B; 25 C.

@@ -344,112 +344,154 @@ E) Apenas UML obrigatória sem mensageria
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (reais) (16–25)
 
-**16.** Na Arquitetura PDPJ-Br referida no edital, a menção a RabbitMQ indica, em regra:
+> Questões reais de provas (preferência FCC/TRT Analista TI). Gabarito só ao final.
 
-A) a adoção conceitual de broker de mensagens para integração assíncrona, tipicamente associada ao protocolo AMQP, sem confundir essa peça com gateway HTTP ou banco relacional  
-B) a substituição obrigatória de qualquer API REST por planilhas  
-C) a identificação do RabbitMQ como implementação de SSO Keycloak  
-D) o uso exclusivo do RabbitMQ como ferramenta de migração Flyway  
-E) a proibição de JSON em microsserviços  
+**16.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+Em uma aplicação web, um Tribunal Regional do Trabalho decide usar RabbitMQ para gerenciar notificações de processos trabalhistas. A configuração recomendada que garante que mensagens não sejam perdidas em caso de reinício do servidor RabbitMQ é
 
-**17.** Acerca de webhooks, é correto afirmar que:
+A) configurar retries automáticos no consumidor.  
+B) configurar o TTL das mensagens para infinito.  
+C) habilitar filas duráveis e mensagens persistentes.  
+D) configurar Webhooks para reenvio.  
+E) usar um banco de dados externo para armazenar mensagens.
 
-A) consistem, em essência, em o provedor disparar requisição HTTP a URL previamente cadastrada quando ocorre determinado evento, em modelo de notificação push  
-B) equivalem rigorosamente a um Persistence Context JPA  
-C) eliminam a necessidade de qualquer endpoint no consumidor  
-D) são o nome oficial do Service Discovery Eureka  
-E) funcionam apenas em redes sem IP  
+**17.** (FCC – TRT-5/2022 – Analista Judiciário – TI)  
+No RabbitMQ, o nome dado a uma caixa postal interna que funciona como um grande buffer de mensagem limitado apenas pelos limites de memória e disco do host é
 
-**18.** Evento negocial, no contexto de integração entre serviços:
+A) producer.  
+B) queue.  
+C) consumer.  
+D) broker.  
+E) storage.
 
-A) representa fato de domínio relevante, podendo ser publicado para que outros componentes reajam de forma desacoplada  
-B) é sinônimo estrito de cabeçalho TCP  
-C) substitui, por definição, a chave primária das entidades  
-D) coincide termo a termo com checksum do Flyway  
-E) existe somente como dialeto H2  
+**18.** (FCC – TRT-17/2022 – Técnico Judiciário – TI)  
+Um Técnico fez a instalação padrão do RabbitMQ em um computador, em condições ideais. O RabbitMQ escutará, na porta padrão
 
-**19.** Considere as afirmativas abaixo.
+A) 3306  
+B) 8081  
+C) 1575  
+D) 8080  
+E) 5672
 
-I. No RabbitMQ, exchange, binding e queue compõem o modelo clássico de roteamento.  
-II. Webhooks e mensageria aparecem lado a lado no edital PDPJ como peças de integração.  
-III. API Gateway e RabbitMQ desempenham exatamente a mesma função de borda HTTP.
+**19.** (FCC – TRT-22/2022 – Analista Judiciário – TI)  
+Uma aplicação envia ao advogado uma notificação avisando que houve uma atualização em um processo, mesmo sem o advogado abrir o aplicativo para procurar a informação. Para que a informação chegue até o sistema do aplicativo do Tribunal em tempo real e até o advogado, da forma relatada, sem a necessidade de ação externa, pode ser utilizado um recurso conhecido como
 
-Está correto o que se afirma em:
+A) Swagger.  
+B) Webhook.  
+C) Mockito Pulling.  
+D) Eureka Messages.  
+E) Elastic Messages.
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) II e III, apenas  
-E) I, II e III  
+**20.** (FCC – TRT-19/2022 – Analista Judiciário – TI)  
+Considere que, no ambiente de mensageria da Plataforma Digital do Poder Judiciário PDPJ-Br, os serviços se comunicam entre si por meio de troca de mensagens, fazendo uso de um Message Broker. Neste ambiente, em condições ideais, um Analista, dentre as ações necessárias, está escrevendo o código para envio de uma mensagem usando Java. Ele utiliza Spring Boot como framework de sua aplicação Java e Maven como gerenciador de dependências. Dentre as ações para viabilizar o envio da mensagem, ele adicionou no arquivo POM.XML da aplicação a dependência `spring-boot-starter-amqp`. Já na classe responsável por enviar mensagens, ele acrescentou:
 
-**20.** A expressão “API reversa”, alinhada ao bloco de mensageria e webhooks do edital, corresponde melhor a:
+```java
+@Autowired
+private RabbitTemplate rabbitTemplate;
+public void sendMessage(String json) {
+    I (this.getRoutingKey(), json);
+}
+```
 
-A) abordagem em que o provedor notifica o interessado (push/callback), em contraste com o cliente apenas consultar o provedor sob demanda  
-B) inversão física de servidores de arquivos  
-C) algoritmo exclusivo de paginação de memória  
-D) norma que proíbe HTTPS  
-E) substituto obrigatório do protocolo AMQP pelo SMTP  
+A lacuna I deve ser corretamente preenchida com
 
-**21.** Em arquitetura de microsserviços com autonomia de dados, o uso de eventos/mensageria:
+A) `this.RabbitTemplate.convert`  
+B) `this.rabbitTemplate.Send`  
+C) `this.RabbitTemplate.send`  
+D) `this.rabbitTemplate.convertAndSend`  
+E) `this.RabbitTemplate.convert.send`
 
-A) favorece integração sem depender de acesso direto e irrestrito ao banco do serviço vizinho  
-B) obriga todos os serviços a compartilharem um único schema com JOINs cruzados como regra definidora  
-C) dispensa qualquer noção de contrato ou payload  
-D) elimina a possibilidade de uso de REST no mesmo ecossistema  
-E) implica abandono do RabbitMQ em favor exclusivo do Eureka  
+**21.** (FCC – TRT-19/2022 – Técnico Judiciário – TI)  
+Internamente à Plataforma Digital do Poder Judiciário PDPJ-Br, é encorajado que os serviços se comuniquem entre si por meio de troca de mensagens, fazendo uso de um Message Broker. No caso da PDPJ, utiliza-se para isso a solução open source conhecida como
 
-**22.** Assinale a opção que descreve corretamente o papel do acknowledge (ACK) no consumo de mensagens:
+A) Keycloak.  
+B) Kubernetes.  
+C) RabbitMQ.  
+D) TIBCO Enterprise Message Service.  
+E) RabbitMB.
 
-A) sinalizar ao broker que a mensagem foi aceita/processada no âmbito do consumer, reduzindo risco de reentrega indevida conforme a semântica adotada  
-B) criar automaticamente um cluster Kubernetes  
-C) documentar API no Swagger de forma exclusiva  
-D) mapear DTO com MapStruct  
-E) autenticar usuário via grant type password obrigatoriamente  
+**22.** (FCC – TRT-19/2022 – Técnico Judiciário – TI)  
+Para o mundo externo que se comunica com a Plataforma Digital do Poder Judiciário Brasileiro (PDPJ-Br), através de chamadas diretas de REST APIs, a comunicação a respeito de eventos disparados pelos serviços, sistemas ou módulos da PDPJ será feita através de um mecanismo que realiza a indicação, ao serviço de notificações da PDPJ, de endpoints dos sistemas processuais dos Tribunais que serão acionados quando os referidos eventos ocorrerem. Este mecanismo é denominado
 
-**23.** Constitui equívoco típico em prova afirmar que:
+A) API reversa, que costuma ser chamada de bearer token.  
+B) webhook, que costuma ser chamado de API reversa.  
+C) bearer token.  
+D) evento negocial.  
+E) routing keys.
 
-A) RabbitMQ atua como broker de mensagens  
-B) webhook implementa notificação HTTP de callback  
-C) evento negocial descreve fato de negócio  
-D) mensageria assíncrona e REST síncrono são conceitos distintos e ambos previstos no eixo PDPJ  
-E) RabbitMQ e Zuul são a mesma componente com nomes intercambiáveis em qualquer contexto  
+**23.** (FCC – TRT-23/2022 – Técnico Judiciário – TI)  
+RabbitMQ é um message broker escrito em Java que
 
-**24.** No modelo fanout do RabbitMQ, a mensagem publicada no exchange:
+A) suporta apenas o protocolo de mensagens AMQP para atender aos requisitos de alta disponibilidade e escalabilidade.  
+B) não permite escolher um mecanismo de persistência, mas oferece opções para personalizar a segurança para autenticação e autorização.  
+C) suporta autenticação e autorização conectáveis, suporta LDAP e TLS e pode ser implantado em nuvens públicas e privadas.  
+D) pode ser implantado como clusters para alta disponibilidade e alta taxa de transferência, mas não pode ser federado em várias zonas e regiões de disponibilidade.  
+E) fornece APIs de cliente somente para a plataforma Java e frameworks relacionados.
 
-A) tende a ser encaminhada a todas as filas a ele vinculadas, em lógica de difusão  
-B) é gravada obrigatoriamente como entidade JPA `@Entity`  
-C) autentica o cliente no Keycloak sem token  
-D) executa migração Flyway automaticamente  
-E) substitui o papel do API Gateway na terminação TLS  
+**24.** (FGV – TRF-1/2024 – Técnico Judiciário – Desenvolvimento de Sistemas)  
+Adriana está desenvolvendo um sistema assíncrono, que deve receber pacotes de solicitações via mensageria RabbitMQ, e agora precisa definir a lógica de roteamento das mensagens. Foi estabelecido que o nome do exchange será logis, roteando para a fila log_1 com a chave tp1 e para log_2 com a chave de roteamento tp2.  
+Para criar o exchange e efetuar a ligação com as filas, Adriana utilizou os comandos:
 
-**25.** Para fins de preparação em Analista Judiciário – Área de TI (código 14), a síntese mais adequada deste subtópico é:
+A)
+```
+rabbitmqadmin declare exchange name=logis type=fanout
+rabbitmqadmin declare binding origin=logis routing_key=tp1 type=queue destination=log_1
+rabbitmqadmin declare binding origin=logis routing_key=tp2 type=queue destination=log_2
+```
+B)
+```
+rabbitmqadmin declare exchange name=logis type=direct
+rabbitmqctl connect log_1 to logis with routing_key=tp1
+rabbitmqctl connect log_2 to logis with routing_key=tp2
+```
+C)
+```
+rabbitmqadmin declare exchange name=logis type=direct
+rabbitmqadmin declare binding source=logis routing_key=tp1 destination_type=queue destination=log_1
+rabbitmqadmin declare binding source=logis routing_key=tp2 destination_type=queue destination=log_2
+```
+D)
+```
+rabbitmqctl create exchange logis type=topic
+rabbitmqctl connect log_1 to logis with routing_key=tp1
+rabbitmqctl connect log_2 to logis with routing_key=tp2
+```
+E)
+```
+rabbitmqctl create exchange logis type=fanout
+rabbitmqadmin declare binding source=logis routing_key=tp1 destination_type=queue destination=log_1
+rabbitmqadmin declare binding source=logis routing_key=tp2 destination_type=queue destination=log_2
+```
 
-A) RabbitMQ como broker AMQP; exchange/queue/binding; evento negocial como fato de domínio; webhooks e APIs reversas como notificação push; coexistência com REST em microsserviços PDPJ  
-B) apenas OAuth2 e Keycloak, sem mensageria  
-C) apenas CNJ 400 e sustentabilidade  
-D) apenas porcentagem e regra de três  
-E) apenas cabeamento estruturado  
+**25.** (FGV – TRF-1/2024 – Analista Judiciário – Análise de Sistemas)  
+Em um ambiente de microsserviços, é muito comum utilizar o RabbitMQ como plataforma de mensageria. Trata-se de um produto de fácil configuração para execução em contêineres. Sobre o RabbitMQ, é correto afirmar que:
+
+A) por ter sido criado na linguagem Erlang, exige a utilização de consumidores implementados na mesma linguagem;  
+B) permite trabalhar apenas com AMQP 0.9.1, inviabilizando qualquer forma de utilização do STOMP ou MQTT;  
+C) embora gerencie internamente os privilégios dos usuários, permite o uso de LDAP para autenticação;  
+D) trabalha apenas com filas duráveis, o que garante que todas as mensagens se recuperem de eventuais quedas do servidor;  
+E) oferece diversos tipos de exchange, como topic exchange, que direciona a mensagem de forma automática para todas as filas associadas, no modelo broadcast.
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **A** |
-| 17 | **A** |
-| 18 | **A** |
-| 19 | **C** |
-| 20 | **A** |
-| 21 | **A** |
-| 22 | **A** |
-| 23 | **E** |
-| 24 | **A** |
-| 25 | **A** |
+| Questão | Gabarito | Fonte / nota |
+|---------|----------|--------------|
+| 16 | **C** | FCC TRT-1/2025 — filas duráveis + mensagens persistentes |
+| 17 | **B** | FCC TRT-5/2022 — queue = caixa postal / buffer |
+| 18 | **E** | FCC TRT-17/2022 — porta AMQP 5672 |
+| 19 | **B** | FCC TRT-22/2022 — webhook (push em tempo real) |
+| 20 | **D** | FCC TRT-19/2022 — `rabbitTemplate.convertAndSend` |
+| 21 | **C** | FCC TRT-19/2022 — Message Broker PDPJ = RabbitMQ |
+| 22 | **B** | FCC TRT-19/2022 — webhook = API reversa |
+| 23 | **C** | FCC TRT-23/2022 — LDAP/TLS e nuvens (apesar do enunciado “Java”) |
+| 24 | **C** | FGV TRF-1/2024 — exchange `direct` + binding `source=` |
+| 25 | **C** | FGV TRF-1/2024 — LDAP para autenticação |
 
-**Notas rápidas:** 16 A (broker AMQP ≠ gateway/BD); 17 A (webhook = callback HTTP push); 18 A (fato de domínio); 19 C (I e II; III confunde Gateway×RabbitMQ); 20 A (API reversa ≈ push); 21 A (integração sem JOIN no vizinho); 22 A (ACK ao broker); 23 E (armadilha RabbitMQ≠Zuul); 24 A (fanout = todas as queues); 25 A (síntese do arquivo 01).
+**Notas rápidas:** 16 C (durável + persistente). 17 B (queue). 18 E (5672). 19 B (webhook). 20 D (convertAndSend). 21 C (RabbitMQ). 22 B (API reversa). 23 C (LDAP/TLS). 24 C (direct). 25 C (LDAP).
 
 ---
 

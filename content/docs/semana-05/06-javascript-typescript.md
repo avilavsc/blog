@@ -322,102 +322,115 @@ E) DOM é protocolo de e-mail
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** No contexto de desenvolvimento web do edital, JavaScript e TypeScript relacionam-se, em regra, da seguinte forma:
+**16.** (FCC – TRT-20/2024 – Analista Judiciário – TI) Considere a função:
 
-A) TypeScript adiciona tipagem ao desenvolvimento e é transpilado/compilado para JavaScript executável nas engines  
-B) TypeScript é o protocolo de roteamento do JavaScript  
-C) JavaScript é um superconjunto estrito que sempre inclui todos os tipos do Java  
-D) ambos são nomes do Kestrel  
-E) TypeScript substitui o HTML e o CSS simultaneamente  
+```javascript
+function menu() {
+  var lks = document.getElementById("links");
+  lks.classList.toggle("visible");
+}
+```
 
-**17.** Considere um enunciado que destaque “Virtual DOM”, “componentes” e ecossistema de UI declarativa no browser. A associação mais adequada entre as opções é:
+A linha `lks.classList.toggle("visible");`
 
-A) React (visão de biblioteca/UI de componentes)  
-B) Somente SNMP  
-C) Único significado de COBIT APO  
-D) Cabo par trançado cat. 3  
-E) PMBOK como engine V8  
+A) faz com que o elemento identificado como `links` tenha a classe `visible` adicionada ou removida cada vez que a função `menu()` for chamada.
+B) torna visível a lista de classes CSS que o elemento contido em `lks` possui.
+C) não será executada, pois a linha anterior possui erro em `getElementById`.
+D) aplica o valor `visible` ao elemento cujo id é `links`, tornando-o visível.
+E) gerará um erro, pois `toggle` não pode ser aplicada no atributo `class`.
 
-**18.** Assinale a alternativa que apresenta associação **incorreta**:
+**17.** (FCC – TRT-6/2025 – Analista Judiciário – TI) Para buscar o primeiro elemento no DOM com id `imagens`:
 
-A) Node.js — runtime JavaScript no servidor  
-B) Angular — framework front-end com forte uso de TypeScript  
-C) Vue.js — framework/lib progressiva de componentes  
-D) jQuery — biblioteca clássica de DOM/Ajax  
-E) Node.js — framework de UI idêntico ao Angular  
+A) `document.querySelector('#imagens');`
+B) `document.getElementFromId('imagens');`
+C) `document.querySelector('.imagens');`
+D) `document.getElementbyId('#imagens');`
+E) `document.getIdentification('#imagens');`
 
-**19.** Em arquitetura SPA + API REST, é correto concluir que:
+**18.** (FCC – TRT-1/2025 – Analista Judiciário – TI) Substituindo o bloco `if` / `else if` / `else` por operador ternário, mantendo o mesmo resultado:
 
-A) o cliente JavaScript tipicamente consome endpoints HTTP/JSON fornecidos pelo backend  
-B) a SPA elimina a noção de HTTP status  
-C) JSON só pode ser produzido por switches  
-D) TypeScript proíbe qualquer chamada assíncrona  
-E) React substitui o banco relacional por definição  
+A) sintaxe com `->`
+B) `acesso = tipoCaso === "criminal" ? "Audiência aberta ao público." : tipoCaso === "familiar" ? "Audiência sigilosa." : "Acesso analisado caso a caso.";`
+C) sintaxe com `>>`
+D) sintaxe com `|` no lugar de `:`
+E) começar com `:` após a condição
 
-**20.** Diferenciar Java de JavaScript em provas da FCC é relevante porque:
+**19.** (FCC – TRT-12/2023 – Analista Judiciário – TI) Para a tupla TypeScript `pessoa = ['Paulo Freitas', 'Rua Barreto de Freitas', 45]`, a definição correta é:
 
-A) a banca costuma explorar a semelhança de nomes entre linguagens distintas (JVM × engines ECMAScript)  
-B) não há diferença conceitual cobrável entre os termos  
-C) JavaScript é apenas o nome antigo do Java  
-D) ambos equivalem a Bootstrap 5  
-E) a diferença só existe em redes Token Ring  
+A) `let pessoa[3]: [any];`
+B) `let pessoa[3];`
+C) `let pessoa: [string, string, number];`
+D) `let pessoa: typeof[String, String, Number];`
+E) `let pessoa[string, string, number];`
 
-**21.** Relativamente ao modelo assíncrono do JavaScript no browser, a leitura mais alinhada é:
+**20.** (FCC – TRT-22/2022 – Analista Judiciário – TI) Em `let x: [ I ]; x = [2022, false, 'TRT DA 22ª REGIÃO'];`, I deve ser:
 
-A) Promises e async/await ajudam a lidar com operações demoradas sem o estilo clássico de callbacks profundamente aninhados  
-B) JavaScript no browser só opera com threads Java obrigatórias  
-C) async/await é protocolo de camada de enlace  
-D) Promises substituem o DNS  
-E) event loop é o nome do Hibernate  
+A) `3`
+B) `number, boolean, string`
+C) `new array(3)`
+D) `int(4), boolean, string(17)`
+E) `array="multitype"`
 
-**22.** Em questão que contraste papéis, a FCC tipicamente considera **correto** que:
+**21.** (FCC – TRT-20/2024 – Analista Judiciário – TI) Em Node.js, para operações assíncronas sequenciais com tratamento de erros, a abordagem mais apropriada é:
 
-A) TypeScript não é executado “nativamente” como TS pelas engines de browser; o artefato típico de execução continua sendo JavaScript gerado  
-B) TypeScript elimina a necessidade de qualquer engine JS  
-C) TypeScript é o único SGBD do edital  
-D) TypeScript é sinônimo de ASP.NET Web Forms  
-E) TypeScript é o padrão 802.11be  
+A) usar `Promise.all()` e ignorar tratamento de erros.
+B) envolver as chamadas assíncronas em um bloco `try/catch` e usar `await`.
+C) usar `then()`, `catch()`, `finally()` e `execute()` em todas as chamadas da classe `Connection`.
+D) fazer todas as chamadas com `async`/`await` com `try/catch` (redação alternativa da banca; gabarito oficial aponta B).
+E) colocar as chamadas em `setTimeout` com `throws`.
 
-**23.** Qual enunciado descreve **incorretamente** o React Native no mapa do edital?
+**22.** (FCC – TRT-20/2024 – Técnico Judiciário – TI) Em webhook Express/Node.js, a lacuna para POST em `/webhook` é:
 
-A) Relaciona-se a desenvolvimento mobile com paradigma próximo ao React  
-B) Aparece listado entre frameworks do bloco web/mobile  
-C) É, por definição, o protocolo IPv4 e o serviço DHCP ao mesmo tempo  
-D) Não se confunde com Node.js runtime puro  
-E) Não é o mesmo que jQuery clássico de DOM desktop  
+A) `msg.post('/webhook', (req, send)`
+B) `app.post('/webhook,(req, http)`
+C) `post.msg('/webhook',(http, send)`
+D) `msg.post('/webhook', (req, res)`
+E) `app.post('/webhook', (req, res)`
 
-**24.** Sobre jQuery e o ecossistema moderno citado no edital (React/Angular/Vue + Bootstrap 5), a afirmação mais adequada é:
+**23.** (FCC – TRT-12/2023 – Analista Judiciário – TI) No React, a sintaxe correta para atualizar o estado de um componente é:
 
-A) jQuery permanece uma lib clássica de DOM; não deve ser tratada como dependência obrigatória universal de Bootstrap 5 nem como sinônimo dos frameworks de componentes SPA  
-B) jQuery é obrigatória em Angular, React, Vue e BS5 simultaneamente  
-C) jQuery substituiu o TypeScript  
-D) jQuery é o runtime do servidor Node  
-E) jQuery é uma tag semântica HTML5  
+A) `this.componentState({ novo_estado: novo_valor });`
+B) `this.updateState({ novo_estado: novo_valor });`
+C) `this.setState({ novo_estado: novo_valor });`
+D) `this.changeState({ novo_estado: novo_valor });`
+E) `this.modifyState({ novo_estado: novo_valor });`
 
-**25.** A síntese mais alinhada ao edital é:
+**24.** (FCC – TRT-20/2024 – Técnico Judiciário – TI) Em React (componente funcional), para atualizar o estado do campo de entrada:
 
-A) JS = linguagem web/Node; TS = tipado que gera JS; React/Angular/Vue = UI/SPA; Node = runtime servidor; Java ≠ JS ≠ TS  
-B) JS = Java = TS = Node = React (cinco nomes, um papel)  
-C) TypeScript aboliu o HTTP  
-D) DOM é exclusivo do COBOL  
-E) A distinção entre as tecnologias web do edital foi abolida em todas as bancas  
+A) `this.setState` em componentes funcionais
+B) `setState` em classe com `this.state.input` como abordagem ideal moderna
+C) Hook `useEffect` para definir o valor a cada alteração
+D) Hook `useState` e atualizar no evento `onChange`
+E) `useState` e `useEffect` obrigatoriamente juntos
+
+**25.** (FCC – TRT-20/2024 – Analista Judiciário – TI) A media query `@media screen and (max-width: 480px)`:
+
+A) executa em telas maiores que 480px.
+B) é chamada via `@import query('@media')`.
+C) executa só se a largura for exatamente 480px.
+D) tem sintaxe incorreta por falta de `and`.
+E) executa apenas se a largura for menor ou igual a 480px.
 
 ---
 
 ### Gabarito comentado (concurso 16–25)
 
-16. **A** — TS tipado → JS.  
-17. **A** — Virtual DOM/componentes ≈ React.  
-18. **E** — Node ≠ framework UI Angular.  
-19. **A** — SPA consome API HTTP/JSON.  
-20. **A** — Pegadinha do nome Java/JS.  
-21. **A** — Promises/async.  
-22. **A** — Runtime continua sendo JS.  
-23. **C** — Não é IPv4/DHCP.  
-24. **A** — jQuery clássica; não obrigatória universal BS5/SPA.  
-25. **A** — Cartão mental completo do arquivo 06.
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **A** | FCC TRT-20/2024 — `classList.toggle` |
+| 17 | **A** | FCC TRT-6/2025 — `querySelector('#imagens')` |
+| 18 | **B** | FCC TRT-1/2025 — ternário aninhado |
+| 19 | **C** | FCC TRT-12/2023 — tupla TS |
+| 20 | **B** | FCC TRT-22/2022 — tipos da tupla |
+| 21 | **B** | FCC TRT-20/2024 — `await` + `try/catch` |
+| 22 | **E** | FCC TRT-20/2024 — `app.post` |
+| 23 | **C** | FCC TRT-12/2023 — `setState` |
+| 24 | **D** | FCC TRT-20/2024 — `useState` + `onChange` |
+| 25 | **E** | FCC TRT-20/2024 — media query (adjacente CSS) |
+
+**Notas rápidas:** 16–20 núcleo JS/TS/DOM; 21–24 Node/React; 25 CSS adjacente do edital web.
 
 ---
 

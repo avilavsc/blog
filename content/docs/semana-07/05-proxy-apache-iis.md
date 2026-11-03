@@ -363,7 +363,7 @@ E) Apache ↔ arquivos texto/`httpd.conf`; IIS ↔ plataforma Windows/`applicati
 
 ## 3. Questões estilo concurso FCC (16–25)
 
-> Questões de provas FCC (e itens no padrão da banca). Gabarito só ao final.
+> Questões reais de provas. Gabarito só ao final.
 
 **16.** (FCC – TRT-20/2024 – Analista Judiciário – TI)  
 Uma equipe de TI está conversando sobre os comandos adequados para a configuração de servidores para hospedar diversas aplicações de um Tribunal Regional do Trabalho. Uma Analista esclareceu que, em condições ideais e com as devidas permissões, no servidor de aplicação
@@ -371,30 +371,30 @@ Uma equipe de TI está conversando sobre os comandos adequados para a configura�
 A) IIS, o comando para habilitar o suporte ao PHP, configurando o IIS para rodar aplicações PHP é: `Add-WindowsFeature Web-Server-PHP`  
 B) Apache HTTP Server, o comando para gerar um novo certificado SSL utilizando o módulo `mod_ssl` é: `sudo apachectl enable mod_ssl --generate-ssl-cert`  
 C) JBoss, o comando para habilitar a porta de administração remota e permitir que o servidor seja acessado externamente é: `./jboss-cli.sh --connect --command=:enable-remote-access`  
-D) Apache HTTP Server, o arquivo de configuração principal pode ser editado diretamente para alterar o diretório raiz (DocumentRoot). O comando para alterar o diretório raiz para `/var/www/new_trtsite` é: `sudo apachectl DocumentRoot '/var/www/new_trtsite'`  
+D) Apache HTTP Server, o arquivo de configuração principal pode ser editado diretamente para alterar o diretório raiz (DocumentRoot). O comando para alterar o diretório raiz para /var/www/new_trtsite é: `sudo apachectl DocumentRoot '/var/www/new_trtsite'`  
 E) JBoss, para se conectar a uma instância CLI destacada e desligar o servidor, o comando correto é: `jboss-cli.sh --connect --command=shutdown`
 
 **17.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
 Considere os servidores de aplicação e os arquivos de configuração a seguir:
 
 Servidor:  
-1. JBoss (WildFly)  
-2. Apache HTTP Server  
-3. Internet Information Services (IIS)
+1. Apache HTTP Server  
+2. Nginx  
+3. Tomcat  
 
 Arquivo de configuração:  
-a. domain.xml  
-b. applicationHost.config  
-c. standalone.xml  
-d. httpd.conf
+a. httpd.conf  
+b. server.xml  
+c. .htaccess  
+d. nginx.conf  
 
 A correta correlação entre servidor e arquivo de configuração é:
 
-A) 1-a − 2-d − 3-c − 3-b  
-B) 1-a − 1-c − 2-d − 3-b  
-C) 1-b − 2-a − 3-c − 3-d  
-D) 1-d − 2-c − 3-a − 3-b  
-E) 1-c − 1-d − 2-b − 3-a  
+A) 1-a – 2-d – 3-c – 3-b.  
+B) 1-a – 1-c – 2-d – 3-b.  
+C) 1-b – 2-a – 3-c – 3-d.  
+D) 1-d – 2-c – 3-a – 3-b.  
+E) 1-c – 1-d – 2-b – 3-a.
 
 **18.** (FCC – TJ-PE/2012 – Analista Judiciário – TI/Suporte)  
 Em relação aos arquivos de configuração do servidor web Apache, é **INCORRETO** afirmar que a diretiva
@@ -414,80 +414,79 @@ C) `sudo nginx -t` · `sudo systemctl reload nginx`
 D) `sudo nginx test` · `sudo nginx proxy proxy http ssl`  
 E) `sudo nginx -t` · `sudo nginx reloading`
 
-**20.** (Estilo FCC / documentação Apache — ProxyPass)  
-No servidor web Apache, a diretiva `ProxyPass` do módulo `mod_proxy` tem a função de:
+**20.** (FGV – CVM/2024 – Analista CVM – TI Infraestrutura e Segurança)  
+Gomes foi contratado pela Comissão de Valores Mobiliários (CVM) para fazer uma alteração nas diretivas do servidor Apache da CVM. Ele solicitou uma modificação na pasta raiz indicando a partir de qual pasta do servidor os arquivos e pastas contidos na URL solicitada serão pesquisados. Desse modo, assumindo o caminho como /opt/www, se a URL solicitada for http://www.cvm.com/9.10/index.html, o arquivo index.html será procurado na pasta /opt/www/9.10. Gomes deverá alterar a configuração na diretiva:
 
-A) especificar os servidores proxy que terão acesso ao servidor web  
-B) garantir que um site possa ser acessado por clientes que o estejam acessando por meio de servidores proxy  
-C) indicar o endereço do servidor proxy que o servidor deve utilizar para ter acesso à internet  
-D) mapear endereços de servidores remotos no espaço de endereços do servidor local  
-E) substituir integralmente o arquivo `applicationHost.config` do IIS  
+A) DocumentRoot  
+B) DirectoryIndex  
+C) ServerRoot /etc/apache2  
+D) MaxSpareServers  
+E) UserDir public_html
 
-**21.** (Estilo FCC — Analista TI Judiciário)  
-Um órgão usa Apache para portal estático em `/var/www/portal` e encaminha `/api` a `http://10.20.0.15:8080/api` via ProxyPass. É correto afirmar que:
+**21.** (FCC – TRT-15/2024 – Analista Judiciário – Área Judiciária)  
+A rede interna de um Tribunal é configurada de forma que todos os computadores possam acessar simultaneamente a Intranet e a Internet, garantindo segurança e alta disponibilidade. Com base nas ferramentas de navegação, boas práticas e tecnologias envolvidas:
 
-A) trata-se de uso típico de Apache como **proxy reverso** para a API  
-B) `ProxyRequests On` é obrigatório para esse ProxyPass funcionar  
-C) o DocumentRoot passa a ser automaticamente `10.20.0.15`  
-D) o cenário descreve apenas forward proxy corporativo  
-E) IIS applicationHost.config deve ser editado no Linux para o ProxyPass  
+A) o navegador Mozilla Firefox não permite configurar o uso de servidores proxy diretamente em suas opções de rede, exigindo softwares de terceiros para gerenciar conexões seguras em ambientes corporativos.  
+B) a configuração de um servidor proxy permite realizar cache de páginas web e restringir acessos a determinados conteúdos da Internet, o que contribui para aumentar a segurança da rede.  
+C) ferramentas de pesquisa na Internet, como Bing e Google, utilizam o protocolo SMTP para enviar consultas e receber respostas em tempo real.  
+D) em redes locais, o endereço IP de dispositivos conectados deve ser configurado manualmente; protocolos como DHCP não são aplicáveis em ambientes de Intranet.  
+E) para acessar a Intranet, é necessário que o navegador esteja configurado com um certificado digital diretamente no sistema operacional, dispensando qualquer configuração de rede ou permissões no servidor.
 
-**22.** (Estilo FCC)  
-Sobre proxy forward × reverse, assinale a opção correta:
+**22.** (FCC – TRT-15/2023 – Analista Judiciário – TI)  
+Por padrão, o WildFly é distribuído com a segurança ativada para acesso à interface de gerenciamento. Isso significa que, antes de se conectar usando o console de administração ou, remotamente, usando a CLI, será necessário adicionar um novo usuário ao WildFly. Isso pode ser feito executando o
 
-A) No reverse, cada usuário da Internet precisa cadastrar o IP do WildFly no browser  
-B) No forward, o proxy aparece ao cliente externo como o site público institucional  
-C) No reverse, o cliente não precisa configuração especial de proxy; solicita a URL pública do front  
-D) Forward e reverse são rigorosamente o mesmo modo no Apache (`ProxyRequests` = `ProxyPass`)  
-E) Reverse proxy não pode terminar TLS  
+A) script `add-user.sh` contido no diretório `bin`  
+B) comando `adduser` no diretório `tmp/auth`  
+C) comando `adduser -a` seguido do nome do usuário e senha.  
+D) script `adduser.sh` contido no diretório `server`  
+E) comando `adduser -a` seguido do nome do usuário
 
-**23.** (Estilo FCC — IIS)  
-Em administração IIS cobrável em Analista TI, o Application Pool:
+**23.** (FCC – TRT-22/2022 – Analista Judiciário – TI)  
+Na estrutura de diretórios do WildFly 26, de acordo com seu manual, encontra-se um diretório que contém scripts de inicialização, arquivos de configuração de inicialização e vários utilitários de linha de comando, como elytron-tool, add-user e relatório de diagnóstico Java disponível para ambientes Unix e Windows.
 
-A) é o nome do protocolo SNMP  
-B) substitui o `httpd.conf` do Apache em todo Linux  
-C) é obrigatoriamente armazenado em `domain.xml`  
-D) equivale ao DocumentRoot  
-E) isola aplicações em processos com identidade e reciclagem próprias  
+A) bin.  
+B) modules.  
+C) app/jboss.  
+D) lib/ext.  
+E) appclient.
 
-**24.** (Estilo FCC — segurança operacional)  
-Antes de ativar um forward proxy Apache em rede institucional, a medida mais alinhada à doutrina de prova é:
+**24.** (FCC – TRT-24/2016 – Analista Judiciário – TI)  
+Ao comparar os servidores de aplicação Red Hat JBoss EAP versões 5 e 6, visando a instalação e configuração da versão 6, um Analista afirma corretamente que
 
-A) restringir clientes autorizados e evitar open proxy  
-B) deixar `<Proxy "*">` aberto sem autenticação na Internet  
-C) publicar o `mod_status` sem restrição na borda  
-D) desativar todos os logs de acesso  
-E) usar apenas `apachectl DocumentRoot` para ACL  
+A) no JBoss EAP 5 a arquitetura de carregamento de classe era baseado nos JBoss Modules, mas no JBoss EAP6, o carregamento de classe é hierárquico, ocultando as classes de implementação do servidor e carregando apenas as classes que o aplicativo necessita.  
+B) no JBoss EAP 5, o servidor podia ser executado em um managed domain, mas no JBoss EAP 6 executa como um servidor autônomo, permitindo configurar todos os grupos dos servidores de uma só vez, mantendo as configurações sincronizadas por toda a rede de servidores.  
+C) o JBoss EAP 5 usava perfis baseados na configuração de implantação, localizados no diretório `EAP_HOME/configuration/`. No JBoss EAP 6, a configuração da implantação é feita usando um arquivo e um servidor autônomo, que é configurado usando o arquivo `EAP_HOME/domain/server/domain.xml`.  
+D) no JBoss EAP 6 a fonte de dados é configurada no arquivo de configuração do servidor. Caso a instância do JBoss EAP estiver sendo executada como servidor autônomo, a fonte de dados é configurada no arquivo `standalone/configuration/standalone.xml`.  
+E) o JBoss Messaging passou a ser incluído no JBoss EAP 6, já que o JBoss EAP 5 usava o HornetQ como provedor messaging.
 
-**25.** (Estilo FCC — síntese do subtópico)  
-Para o eixo do edital (Web Proxy · Apache · IIS), a síntese correta é:
+**25.** (FCC – TRT-6/2018 – Analista Judiciário – TI)  
+Na estrutura de arquivos de configuração do JBoss Enterprise Application Platform 6, o arquivo `standalone-ha.xml`
 
-A) Proxy só existe no IIS; Apache não faz reverse; logs são irrelevantes  
-B) ProxyPass ativa apenas forward; applicationHost.config é do WildFly  
-C) DocumentRoot e Application Pool são sinônimos  
-D) Forward: cliente usa o proxy para sair; reverse: front publica e encaminha ao backend; Apache (`httpd.conf`, ProxyPass) e IIS (`applicationHost.config`, sites/pools) são plataformas cobráveis de serviço web  
-E) Nginx -t é comando do JBoss CLI  
-
+A) é necessário nos domínios autônomo e gerenciado, podendo ser lido somente pelo mestre do domínio.  
+B) habilita os subsistemas `mod_cluster` e JGroups para um servidor autônomo, para que ele possa participar de um cluster de alta disponibilidade ou de balanceamento de carga.  
+C) inclui apenas os detalhes de configuração necessários para executar um servidor como um servidor mestre de domínio autônomo, não estando presente nos servidores com domínio gerenciado.  
+D) inclui detalhes de configuração específicos para um host físico em um domínio gerenciado, como interfaces de rede, conexões de socket, o nome do host e outros detalhes específicos do host.  
+E) inclui apenas os detalhes de configuração necessários para executar um servidor como um servidor escravo de domínio autônomo, não estando presente em servidores de domínio gerenciado.
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito comentado (FCC 16–25)
 
 | Questão | Gabarito | Fonte / nota |
 |---------|----------|--------------|
-| 16 | **E** | FCC TRT-20/2024 — `jboss-cli.sh --connect --command=shutdown` |
-| 17 | **B** | FCC TRT-1/2025 — WildFly: domain+standalone; Apache: httpd.conf; IIS: applicationHost.config |
+| 16 | **E** | FCC TRT-20/2024 — jboss-cli shutdown (demais comandos inválidos) |
+| 17 | **B** | FCC TRT-1/2025 — Apache httpd.conf+.htaccess; Nginx nginx.conf; Tomcat server.xml |
 | 18 | **C** | FCC TJ-PE/2012 — Location **não** é “localização corrente do servidor” |
 | 19 | **C** | FCC TJ-CE/2022 — `nginx -t` + `systemctl reload nginx` |
-| 20 | **D** | Função clássica do ProxyPass (doc Apache / bancas) |
-| 21 | **A** | Reverse para API |
-| 22 | **C** | Cliente sem config especial no reverse |
-| 23 | **E** | Papel do App Pool |
-| 24 | **A** | Não abrir open proxy |
-| 25 | **D** | Síntese do eixo |
+| 20 | **A** | FGV CVM/2024 — DocumentRoot |
+| 21 | **B** | FCC TRT-15/2024 — proxy: cache + restrição |
+| 22 | **A** | FCC TRT-15/2023 — add-user.sh em bin |
+| 23 | **A** | FCC TRT-22/2022 — diretório bin |
+| 24 | **D** | FCC TRT-24/2016 — datasource em standalone.xml |
+| 25 | **B** | FCC TRT-6/2018 — standalone-ha.xml (mod_cluster/JGroups) |
 
-**Notas rápidas:** 16 E (CLI shutdown). 17 B (1-a,1-c,2-d,3-b). 18 C (Location). 19 C (nginx -t/reload). 20 D (mapear remoto no espaço local). 21 A. 22 C. 23 B. 24 B. 25 B.
+**Notas rápidas:** 16 E. 17 B. 18 C. 19 C. 20 A. 21 B. 22 A. 23 A. 24 D. 25 B.
 
----
+Distribuição do gabarito (16–25): E, B, C, C, A, B, A, A, D, B — letras A–E presentes.
 
 *Arquivo 05 · Proxy / Apache / IIS · Claudionir · TRT4 Analista TI (código 14) · FCC. Próximo: 06 JBoss/WildFly.*

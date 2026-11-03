@@ -1,4 +1,4 @@
-﻿+++
++++
 title = '06 — Zuul Gateway (Spring)'
 date = '2026-10-06'
 draft = false
@@ -337,111 +337,189 @@ E) Zuul substitui Eureka e Boot em qualquer desenho
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões reais de concurso (16–25)
 
-**16.** Em arquiteturas de microsserviços baseadas na stack Spring Cloud Netflix referida no contexto PDPJ, o Zuul caracteriza-se, em regra, por:
+> Bloco substituído por questões **reais** de concurso (FCC preferencialmente; TRT/TRF/TJ quando necessário). O treino 1–15 e o Material permanecem inalterados.
 
-A) funcionar como catálogo exclusivo de registro e heartbeat de todas as réplicas  
-B) atuar como API Gateway, expondo ponto de entrada e encaminhando requisições aos serviços  
-C) gerar, em tempo de compilação, mapeamentos Entity↔DTO  
-D) substituir integralmente o protocolo HTTP por SOAP  
-E) constituir o dialect SQL utilizado pelo Hibernate  
+**16.** (FCC | TRT23 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60)
 
-**17.** No pipeline de filtros do Zuul, o tipo responsável por encaminhar a requisição ao serviço de destino é o:
+Para fazer um aplicativo criado com Spring Boot, em condições ideais, funcionar como um servidor Zuul Proxy deve-se anotar a classe principal com
 
-A) pre  
-B) post  
-C) route  
-D) error  
-E) discovery  
+A) `@EnableZuulProxy`
 
-**18.** Considere que um componente de borda valida credenciais antes de qualquer chamada ao microsserviço-alvo e, em seguida, realiza o proxy da chamada. No modelo de filtros do Zuul, essa validação antecipada associa-se tipicamente ao filtro:
+B) `@ZuulServerApplication`
 
-A) post  
-B) pre  
-C) exclusivamente ao Eureka Client  
-D) MapStruct  
-E) Flyway  
+C) `@EnabledZuulEdgeServer`
 
-**19.** Relativamente à convivência entre Zuul e Eureka, assinale a opção correta:
+D) `@ZuulEdgeServerOn`
 
-A) O Eureka substitui o Zuul como única porta pública do cliente externo  
-B) O Zuul substitui o Eureka como registry de instâncias  
-C) Em desenho clássico, o Zuul pode utilizar o Eureka para localizar instâncias ao rotear  
-D) Ambos são nomes comerciais do Swagger UI  
-E) A existência do Zuul torna o Service Discovery conceitualmente impossível  
+E) `@ZuulProxyApplication`
 
-**20.** Diferenciar Spring Boot de Zuul é relevante em provas porque:
 
-A) Spring Boot é sinônimo estrito de API Gateway Netflix  
-B) Spring Boot refere-se ao empacotamento/execução da aplicação, ao passo que Zuul designa o papel de gateway  
-C) Zuul é o único mecanismo de discovery do Boot  
-D) Boot registra heartbeats; Zuul só documenta APIs  
-E) Não há diferença cobrável entre os termos  
+**17.** (FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60)
 
-**21.** Um enunciado afirma: “Após a resposta do microsserviço, o gateway acrescenta cabeçalhos de correlação e registra métricas de saída.” No vocabulário de filtros Zuul, a etapa descrita corresponde, em regra, ao filtro:
+Em um cenário de sistema de microsserviços um técnico deseja expor alguns dos microsserviços para acesso externo e ocultar outros. Como ele está usando o Spring Cloud, para proteger os microsserviços expostos contra solicitações de clientes mal-intencionados, ele pode usar o
 
-A) pre  
-B) route  
-C) post  
-D) Eureka Server  
-E) error, necessariamente, mesmo em sucesso  
+A) Galaxy Eureka como edge server.
 
-**22.** Assinale a alternativa que apresenta associação **incorreta**:
+B) Apache Toncat como service discovery.
 
-A) Zuul — API Gateway  
-B) Eureka — Service Discovery  
-C) Filtro error — tratamento de falhas no pipeline Zuul  
-D) Spring Boot — catálogo dinâmico de instâncias (papel do Eureka)  
-E) Filtro pre — intervenções antes do encaminhamento  
+C) Apache Wildfly como security server.
 
-**23.** Em questão que contraste papéis na borda e no registry, a FCC tipicamente considera **correto** que:
+D) Netflix Zuul como edge server.
 
-A) o cliente externo utiliza o Eureka como única URL pública e o Zuul apenas lista instâncias mortas  
-B) o Zuul concentra entrada/roteamento/filtros e o Eureka responde pela localização dinâmica de instâncias  
-C) Zuul e Eureka são intercambiáveis em qualquer enunciado  
-D) o filtro route do Zuul realiza o heartbeat das réplicas  
-E) Spring Boot elimina a noção de API Gateway  
+E) Swagger como security server.
 
-**24.** Quando ocorre falha durante o processamento dos filtros ou do roteamento no Zuul, o tipo de filtro previsto para lidar com essa situação é o:
 
-A) pre exclusivamente  
-B) post exclusivamente  
-C) error  
-D) MapStruct  
-E) Swagger  
+**18.** (FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60)
 
-**25.** A síntese mais alinhada ao edital, sobre Zuul no Spring Cloud, é:
+Ao usar o Gateway API com o Service Discovery no contexto da PDPJ-Br, a principal consequência para o frontend em uma aplicação baseada em microsserviços é que o
 
-A) Zuul = discovery; Boot = gateway; Eureka = documentação  
-B) Zuul = API Gateway com rotas e filtros (pre/route/post/error), podendo integrar-se ao Eureka, sem confundir-se com Spring Boot  
-C) Zuul obriga banco único compartilhado entre microsserviços  
-D) Filtros Zuul existem apenas na variante post  
-E) Eureka é ponto único de entrada; Zuul é apenas o nome antigo do MapStruct  
+A) Gateway API diminui a necessidade de autenticação, uma vez que o Service Discovery é integrado ao SSO.
+
+B) frontend deve configurar manualmente os IPs e portas dos serviços disponíveis na plataforma.
+
+C) frontend se torna o responsável pela chamada direta de cada microsserviço individualmente.
+
+D) Gateway API reduz o número de chamadas externas que o frontend precisa fazer, tornando a comunicação mais eficiente.
+
+E) frontend deve gerenciar manualmente as atualizações de endpoint de cada serviço individual registrado.
+
+
+**19.** (FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 40 de 60)
+
+Integração e implantação contínuas (CI/CD) é uma coleção de práticas usadas para integrar e entregar código rapidamente. Usando a prática de
+
+A) integração contínua (CI), em um cronograma pré-acordado, provavelmente no final do ciclo de sprint, o pacote de código é liberado e testado manualmente pelo time de desenvolvimento.
+
+B) implantação contínua (CD), depois que todo o código é validado com sucesso pelo time de desenvolvimento e qualidade, implanta-se o código manualmente no ambiente de teste ou de produção.
+
+C) implantação contínua (CD) em que o grupo controle de qualidade realiza testes manuais para todos os códigos novos ou modificados. Se for bem-sucedido, o código será liberado para implantação; caso contrário, o lançamento é rejeitado e colocado em espera até que os bugs sejam corrigidos.
+
+D) integração contínua (CI), os desenvolvedores são incentivados a fazer pequenos ajustes de código, mesclar seu código na ramificação de código principal e validá-lo usando testes automatizados.
+
+E) integração contínua (CI), para implementar pipelines devem ser utilizadas ferramentas como Zuul e Eureka.
+
+
+**20.** (FCC | TRT23 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60)
+
+No componente controller de uma aplicação criada com recursos Spring Boot foram incluídas as anotações abaixo a um método REST.```@ApiOperation(value = "Obter a lista de processos no sistema", response = Iterable.class, tags = "getProcessos")@ApiResponses(value = {@ApiResponse(code = 200, message = "Successo|OK"),@ApiResponse(code = 401, message = "Não autorizado"),@ApiResponse(code = 403, message = "Proibido"),@ApiResponse(code = 404, message = "Não encontrado") })@RequestMapping(value = "/getProcessos")public List<Processos> getProcessos() {return processos;}````@ApiOperation` e `@ApiResponses` são anotações
+
+A) MapStruct.
+
+B) Hibernate.
+
+C) Spring Eureka.
+
+D) Spring Zuul.
+
+E) Swagger.
+
+
+**21.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22) *[aproximação temática]*
+
+*Zuul nos distratores.*
+
+Os microsserviços da Plataforma Digital do Poder Judiciário (PDPJ) são desenvolvidos com tecnologias de código aberto, são implementados com o uso do Spring framework, e Java é a principal linguagem de programação. De acordo com a documentação da PDPJ, faz parte do ecossistema do Spring Framework o
+
+A) Swagger, que organiza os scripts SQL que são executados no banco de dados, funcionando como um controle de versão.
+
+B) Flyway, serviço de documentação que descreve APIs RESTful expressas usando JSON.
+
+C) Zuul, que fornece os recursos de cliente para o serviço de descoberta Eureka.
+
+D) Netflix Eureka, que tem como principal função ser um ponto único de entrada, distribuindo as requisições entre as diversas instâncias de serviços.
+
+E) Data Envers, que é um módulo Hibernate que adiciona funcionalidades de auditoria às entities JPA.
+
+
+**22.** (FCC | TRT15 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60) *[aproximação temática]*
+
+O Spring Eureka é uma implementação do padrão de registro de serviços que permite que os microsserviços se registrem automaticamente e se descubram uns aos outros. A porta padrão em que o servidor Eureka irá executar na aplicação Spring Boot e o arquivo em que essa porta é configurada são, respectivamente,
+
+A) `80` e `eureka-server.xml`
+
+B) `15000` e `application-server.yml`
+
+C) `8080` e `pom.xml`
+
+D) `8005` e `eureka-registry.xml`
+
+E) `8761` e `application.properties`
+
+
+**23.** (FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60) *[aproximação temática]*
+
+Correspondem, correta e respectivamente, a um componente do Spring Cloud e à principal função do Spring Cloud Config:
+
+A) Spring Security — implementar um padrão de design para a comunicação entre serviços baseados em REST.
+
+B) Spring Boot Actuator — gerenciar o ciclo de vida e o monitoramento de aplicações distribuídas em uma arquitetura de microsserviços.
+
+C) Spring Data JPA — oferecer uma solução para o balanceamento de carga entre instâncias de microsserviços.
+
+D) Spring Cloud Stream — centralizar a configuração de aplicações e serviços, permitindo que configurações sejam atualizadas dinamicamente.
+
+E) Spring Web MVC — fornecer um serviço de autenticação e autorização para microsserviços e aplicações.
+
+
+**24.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 32 de 60) *[aproximação temática]*
+
+Na classe principal de uma aplicação criada com Spring Boot, para fazer com que a aplicação atue como um cliente Eureka utiliza-se a anotação
+
+A) `@EurekaClient`
+
+B) `@EnableEurekaClient`
+
+C) `@EnableDiscoveryEurekaClient`
+
+D) `@EurekaDiscoveryClient`
+
+E) `@IsEurekaClient`
+
+
+**25.** (FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 42 de 60)
+
+Uma aplicação envia ao advogado uma notificação avisando que houve uma atualização em um processo, mesmo sem o advogado abrir o aplicativo para procurar a informação. Para que a informação chegue até o sistema do aplicativo do Tribunal em tempo real e até o advogado, da forma relatada, sem a necessidade de ação externa, pode ser utilizado um recurso conhecido como
+
+A) Swagger.
+
+B) Webhook.
+
+C) Mockito Pulling.
+
+D) Eureka Messages.
+
+E) Elastic Messages.
+
 
 ---
 
-### Gabarito comentado (concurso 16–25)
+### Gabarito (concurso reais 16–25)
 
-16. **B** — Zuul = API Gateway (entrada + encaminhamento).  
-17. **C** — route = encaminhar ao destino.  
-18. **B** — Validação antecipada ≈ pre.  
-19. **C** — Complementares: gateway usa discovery.  
-20. **B** — Boot ≠ papel de gateway; Boot empacota/roda.  
-21. **C** — Após resposta = post.  
-22. **D** — Catálogo = Eureka, não Boot.  
-23. **B** — Duo clássico sem inverter.  
-24. **C** — error no pipeline.  
-25. **B** — Cartão mental completo do arquivo 06.
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **A** | FCC | TRT23 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60 |
+| 17 | **D** | FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60 |
+| 18 | **D** | FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60 |
+| 19 | **D** | FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 40 de 60 |
+| 20 | **E** | FCC | TRT23 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60 |
+| 21 | **E** \* | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22 |
+| 22 | **E** \* | FCC | TRT15 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60 |
+| 23 | **D** \* | FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60 |
+| 24 | **B** \* | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 32 de 60 |
+| 25 | **B** | FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 42 de 60 |
 
----
+\* = aproximação temática (questão real correlata quando o nicho é raro em prova).
 
-## 4. Auto-checagem rápida (opcional)
-
-Antes de marcar a questão, pergunte:
-
-1. É **entrada/rota/filtro**? → Zuul.  
-2. É **onde está a réplica / registry**? → Eureka.  
-3. É **como a app sobe/jar**? → Boot.  
-4. Momento do filtro: ainda não foi / está indo / já voltou / falhou → **pre / route / post / error**.
-)
+**Fontes:**
+- Q16: https://www.quizinho.com.br/questao/fcc-trt23-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q38
+- Q17: https://www.quizinho.com.br/questao/fcc-trt4-2022-tecnico-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q38
+- Q18: https://www.quizinho.com.br/questao/fcc-trt6-2025-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2025-q39
+- Q19: https://www.quizinho.com.br/questao/fcc-trt4-2022-tecnico-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q40
+- Q20: https://www.quizinho.com.br/questao/fcc-trt23-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q39
+- Q21: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q22
+- Q22: https://www.quizinho.com.br/questao/fcc-trt15-2023-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2023-q31
+- Q23: https://www.quizinho.com.br/questao/fcc-trt20-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q53
+- Q24: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q32
+- Q25: https://www.quizinho.com.br/questao/fcc-trt22-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q42

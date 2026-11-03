@@ -1,4 +1,4 @@
-﻿+++
++++
 title = '04 — API Gateway'
 date = '2026-10-04'
 draft = false
@@ -320,113 +320,189 @@ E) Envers substitui o API Gateway
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões reais de concurso (16–25)
 
-**16.** Em arquiteturas baseadas em microsserviços, o API Gateway caracteriza-se, em regra, por:
+> Bloco substituído por questões **reais** de concurso (FCC preferencialmente; TRT/TRF/TJ quando necessário). O treino 1–15 e o Material permanecem inalterados.
 
-A) constituir o ponto de entrada único para consumidores externos, com encaminhamento das requisições aos serviços competentes  
-B) manter, como função exclusiva e sinônima, o registro de instâncias e a remoção por ausência de *heartbeat*  
-C) substituir integralmente a necessidade de contratos HTTP e de códigos de status  
-D) atuar apenas como biblioteca de mapeamento entre entidades e DTOs em tempo de compilação  
-E) eliminar qualquer possibilidade de autenticação na borda da aplicação  
+**16.** (FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60)
 
-**17.** Acerca das funções tipicamente associadas a um API Gateway, assinale a alternativa correta.
+Ao usar o Gateway API com o Service Discovery no contexto da PDPJ-Br, a principal consequência para o frontend em uma aplicação baseada em microsserviços é que o
 
-A) Compete-lhe, em desenho usual, apenas a persistência transacional de todos os agregados de negócio  
-B) Pode concentrar políticas transversais, a exemplo de autenticação na borda e limitação de taxa de requisições, além do roteamento  
-C) Sua existência torna tecnicamente impossível a coexistência com mecanismos de descoberta de serviços  
-D) Destina-se exclusivamente à geração de documentação OpenAPI interativa  
-E) Equivale, por definição, ao servidor de *service discovery*  
+A) Gateway API diminui a necessidade de autenticação, uma vez que o Service Discovery é integrado ao SSO.
 
-**18.** No contraste entre API Gateway e Service Discovery, é correto afirmar que:
+B) frontend deve configurar manualmente os IPs e portas dos serviços disponíveis na plataforma.
 
-A) ambos respondem à mesma pergunta operacional e são intercambiáveis em qualquer enunciado  
-B) o Gateway ocupa-se da entrada/roteamento perante o cliente externo, ao passo que o Discovery responde pela localização dinâmica das instâncias  
-C) o Discovery é a fachada pública obrigatória e o Gateway apenas cataloga IPs  
-D) o Gateway substitui o protocolo HTTP pelo acesso direto ao filesystem  
-E) o Discovery implementa, por si só, rate limiting como definição do padrão  
+C) frontend se torna o responsável pela chamada direta de cada microsserviço individualmente.
 
-**19.** Considere o uso de **Zuul** em stack Spring Cloud alinhada ao conteúdo programático de Analista de TI de tribunal. Assinale a alternativa correta.
+D) Gateway API reduz o número de chamadas externas que o frontend precisa fazer, tornando a comunicação mais eficiente.
 
-A) Zuul funciona primariamente como servidor de descoberta e registro de instâncias  
-B) Zuul atua como gateway, com papel de borda para roteamento (e filtros/políticas) perante os serviços  
-C) Zuul é biblioteca de mapeamento *compile-time* entre POJOs  
-D) Zuul substitui o Spring Boot como *runtime* embutido da aplicação  
-E) Zuul é o padrão OpenAPI de documentação interativa  
+E) frontend deve gerenciar manualmente as atualizações de endpoint de cada serviço individual registrado.
 
-**20.** Considere as afirmações abaixo.
 
-I. O API Gateway pode reduzir o acoplamento do cliente à topologia interna dos microsserviços.  
-II. Políticas como autenticação na borda e *rate limiting* são exemplos de preocupações transversais frequentemente situadas no gateway.  
-III. O Service Discovery responde, em essência, à pergunta sobre a localização das instâncias disponíveis.
+**17.** (FCC | TRF4 2025 | Técnico Judiciário, Área Apoio Especializado, Especialidade Desenvolvimento de Sistema da Informação | Questão 38 de 50)
 
-Está correto o que se afirma em:
+Durante a modernização de sistemas de um tribunal, uma equipe técnica adotou arquiteturas distribuídas com microsserviços, utilizando APIs para comunicação entre componentes. Para garantir escalabilidade, segurança e gerenciamento eficiente das comunicações, o ambiente de produção também incorpora API Gateway, autenticação, Service Discovery (Eureka) e proxy reverso (Nginx ou HAProxy). Considerando essas práticas de arquitetura, a estruturação adequada da solução deve garantir que
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) II e III, apenas  
-E) I, II e III  
+A) a comunicação entre microsserviços seja realizada por meio de rotas fixas e predefinidas, simplificando a topologia da rede em ambientes estáticos.
 
-**21.** Assinale a opção que **inverte** indevidamente os papéis típicos de Zuul e Eureka no ecossistema Spring Cloud clássico cobrado em concursos.
+B) as APIs REST utilizem tokens JWT para autenticação e autorização, fortalecendo a segurança na troca de mensagens.
 
-A) Zuul = gateway/roteamento de borda; Eureka = discovery/registro  
-B) Zuul = registry de instâncias; Eureka = filtro/entrada de borda HTTP  
-C) Cliente externo utiliza o gateway como fachada; o discovery informa endereços das réplicas  
-D) Eureka mantém catálogo; Zuul encaminha tráfego na borda  
-E) A associação de prova liga Zuul à entrada e Eureka à localização  
+C) o API Gateway concentre o controle de entrada, isentando da necessidade de acoplar funções de autenticação, roteamento dinâmico ou controle de taxa de requisições.
 
-**22.** A composição de respostas de múltiplos microsserviços em uma única resposta devolvida ao cliente, quando realizada na borda, relaciona-se à ideia de:
+D) a arquitetura cliente-servidor seja mantida em serviços intermediários como padrão de comunicação entre microsserviços, garantindo isolamento lógico.
 
-A) exclusividade do banco H2 em produção  
-B) agregação / composição via API Gateway (ou camada de borda equivalente)  
-C) proibição de JSON em APIs REST  
-D) função exclusiva do Hibernate Envers  
-E) substituição do gateway pelo MapStruct  
+E) o proxy reverso atue prioritariamente na camada de encaminhamento de requisições HTTP, sem interferência direta no balanceamento de carga ou caching de respostas.
 
-**23.** Em enunciado que descreve componente responsável por “saber quais réplicas do serviço de petições estão saudáveis e em qual host/porta”, sem enfatizar a fachada pública ao usuário final, o papel mais adequado é o de:
 
-A) API Gateway como única porta documental Swagger  
-B) MapStruct  
-C) Service Discovery  
-D) Flyway  
-E) Zuul pré-filtro como sinônimo de registry  
+**18.** (FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60)
 
-**24.** Para fins de preparação no eixo API Gateway do edital (PDPJ-Br / Analista TI), a síntese mais adequada é:
+Em um cenário de sistema de microsserviços um técnico deseja expor alguns dos microsserviços para acesso externo e ocultar outros. Como ele está usando o Spring Cloud, para proteger os microsserviços expostos contra solicitações de clientes mal-intencionados, ele pode usar o
 
-A) Gateway e Discovery são o mesmo artefato; Zuul documenta OpenAPI; Eureka mapeia Entity↔DTO  
-B) Gateway (Zuul, no edital) = entrada única, roteamento e políticas de borda, podendo agregar; Discovery (Eureka) = catálogo de instâncias — papéis distintos e complementares  
-C) Rate limiting só existe dentro do banco PostgreSQL  
-D) O cliente externo deve, por definição, conhecer todos os IPs internos sem passar por fachada  
-E) Agregação obriga o uso de ESB clássico e proíbe HTTP  
+A) Galaxy Eureka como edge server.
 
-**25.** Assinale a afirmação **incompatível** com o papel típico de um API Gateway em microsserviços.
+B) Apache Toncat como service discovery.
 
-A) Oferecer ponto estável de entrada ao consumidor externo  
-B) Encaminhar chamadas conforme rotas definidas  
-C) Aplicar controles transversais na borda, como autenticação e limitação de taxa  
-D) Servir como catálogo dinâmico de registro/remoção de instâncias por *heartbeat*, confundindo-se com o Service Discovery  
-E) Possibilitar composição de chamadas internas em cenários de agregação  
+C) Apache Wildfly como security server.
+
+D) Netflix Zuul como edge server.
+
+E) Swagger como security server.
+
+
+**19.** (FCC | TRT23 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60)
+
+Para fazer um aplicativo criado com Spring Boot, em condições ideais, funcionar como um servidor Zuul Proxy deve-se anotar a classe principal com
+
+A) `@EnableZuulProxy`
+
+B) `@ZuulServerApplication`
+
+C) `@EnabledZuulEdgeServer`
+
+D) `@ZuulEdgeServerOn`
+
+E) `@ZuulProxyApplication`
+
+
+**20.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22) *[aproximação temática]*
+
+Os microsserviços da Plataforma Digital do Poder Judiciário (PDPJ) são desenvolvidos com tecnologias de código aberto, são implementados com o uso do Spring framework, e Java é a principal linguagem de programação. De acordo com a documentação da PDPJ, faz parte do ecossistema do Spring Framework o
+
+A) Swagger, que organiza os scripts SQL que são executados no banco de dados, funcionando como um controle de versão.
+
+B) Flyway, serviço de documentação que descreve APIs RESTful expressas usando JSON.
+
+C) Zuul, que fornece os recursos de cliente para o serviço de descoberta Eureka.
+
+D) Netflix Eureka, que tem como principal função ser um ponto único de entrada, distribuindo as requisições entre as diversas instâncias de serviços.
+
+E) Data Envers, que é um módulo Hibernate que adiciona funcionalidades de auditoria às entities JPA.
+
+
+**21.** (FCC | TRT15 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60) *[aproximação temática]*
+
+O Spring Eureka é uma implementação do padrão de registro de serviços que permite que os microsserviços se registrem automaticamente e se descubram uns aos outros. A porta padrão em que o servidor Eureka irá executar na aplicação Spring Boot e o arquivo em que essa porta é configurada são, respectivamente,
+
+A) `80` e `eureka-server.xml`
+
+B) `15000` e `application-server.yml`
+
+C) `8080` e `pom.xml`
+
+D) `8005` e `eureka-registry.xml`
+
+E) `8761` e `application.properties`
+
+
+**22.** (FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60) *[aproximação temática]*
+
+Correspondem, correta e respectivamente, a um componente do Spring Cloud e à principal função do Spring Cloud Config:
+
+A) Spring Security — implementar um padrão de design para a comunicação entre serviços baseados em REST.
+
+B) Spring Boot Actuator — gerenciar o ciclo de vida e o monitoramento de aplicações distribuídas em uma arquitetura de microsserviços.
+
+C) Spring Data JPA — oferecer uma solução para o balanceamento de carga entre instâncias de microsserviços.
+
+D) Spring Cloud Stream — centralizar a configuração de aplicações e serviços, permitindo que configurações sejam atualizadas dinamicamente.
+
+E) Spring Web MVC — fornecer um serviço de autenticação e autorização para microsserviços e aplicações.
+
+
+**23.** (FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 42 de 60) *[aproximação temática]*
+
+Uma aplicação envia ao advogado uma notificação avisando que houve uma atualização em um processo, mesmo sem o advogado abrir o aplicativo para procurar a informação. Para que a informação chegue até o sistema do aplicativo do Tribunal em tempo real e até o advogado, da forma relatada, sem a necessidade de ação externa, pode ser utilizado um recurso conhecido como
+
+A) Swagger.
+
+B) Webhook.
+
+C) Mockito Pulling.
+
+D) Eureka Messages.
+
+E) Elastic Messages.
+
+
+**24.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 28 de 60) *[aproximação temática]*
+
+A autenticação na Plataforma Digital do Poder Judiciário PDPJ-Br ocorre por meio de uma solução A, baseada em um aplicativo open source de gestão de identidades e acesso, denominado B, com base no protocolo C. De acordo com o texto acima, A, B e C são, correta e respectivamente:
+
+A) Keycloak – Docker – Simple Object Access Protocol (SOAP)
+
+B) Single Sign-On (SSO) – Keycloak – OAuth2 (RFC 6749)
+
+C) Single Sign-On (SSO) – RabbitMQ – Advanced Message Queuing Protocol (AMQP)
+
+D) de access token – Keycloak – Simple Object Access Protocol (SOAP)
+
+E) Keycloak – RabbitMQ – OAuth2 (RFC 4967)
+
+
+**25.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 21) *[aproximação temática]*
+
+De acordo com a documentação da Plataforma Digital do Poder Judiciário – PDPJ-Br, para que uma API seja considerada do tipo RESTful, ela precisa
+
+A) ter uma arquitetura cliente/servidor formada por clientes e servidores, com solicitações gerenciadas por meio dos protocolos HTTP e FTP.
+
+B) estabelecer uma comunicação statefull entre cliente e servidor, ou seja, as solicitações não são separadas e/ou desconectadas.
+
+C) armazenar dados em cache para otimizar as interações entre cliente e servidor.
+
+D) ter uma interface diferente para cada componente para que as informações possam ser transferidas em diferentes formatos.
+
+E) ter um sistema sem camadas que organiza os tipos de servidores envolvidos na recuperação das informações solicitadas sem hierarquias.
+
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso reais 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **A** |
-| 17 | **B** |
-| 18 | **B** |
-| 19 | **B** |
-| 20 | **E** |
-| 21 | **B** |
-| 22 | **B** |
-| 23 | **C** |
-| 24 | **B** |
-| 25 | **D** |
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **D** | FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60 |
+| 17 | **B** | FCC | TRF4 2025 | Técnico Judiciário, Área Apoio Especializado, Especialidade Desenvolvimento de Sistema da Informação | Questão 38 de 50 |
+| 18 | **D** | FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60 |
+| 19 | **A** | FCC | TRT23 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60 |
+| 20 | **E** \* | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22 |
+| 21 | **E** \* | FCC | TRT15 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60 |
+| 22 | **D** \* | FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60 |
+| 23 | **B** \* | FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 42 de 60 |
+| 24 | **B** \* | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 28 de 60 |
+| 25 | **C** \* | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 21 |
 
-**Notas rápidas:** 16 A (entrada única + encaminhamento); 17 B (cross-cutting + roteamento); 18 B (entra × localiza); 19 B (Zuul = gateway); 20 E (I–III ok); 21 B (única que **inverte** Zuul/Eureka); 22 B (agregação na borda); 23 C (localização = Discovery); 24 B (síntese do subtópico); 25 D (registry/heartbeat ≠ Gateway).
+\* = aproximação temática (questão real correlata quando o nicho é raro em prova).
 
----
+**Fontes:**
+- Q16: https://www.quizinho.com.br/questao/fcc-trt6-2025-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2025-q39
+- Q17: https://www.quizinho.com.br/questao/fcc-trf4-2025-tecnico-judiciario-area-apoio-especializado-especialidade-desenvolvimento-de-sistema-da-informacao-2025-q38
+- Q18: https://www.quizinho.com.br/questao/fcc-trt4-2022-tecnico-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q38
+- Q19: https://www.quizinho.com.br/questao/fcc-trt23-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q38
+- Q20: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q22
+- Q21: https://www.quizinho.com.br/questao/fcc-trt15-2023-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2023-q31
+- Q22: https://www.quizinho.com.br/questao/fcc-trt20-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q53
+- Q23: https://www.quizinho.com.br/questao/fcc-trt22-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q42
+- Q24: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q28
+- Q25: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q21
 
 *Arquivo 04 · API Gateway · Claudionir · TRT4 Analista TI (código 14) · FCC. Próximo: 05 Service Discovery / Eureka.*

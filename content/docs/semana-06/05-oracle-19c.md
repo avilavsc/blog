@@ -346,106 +346,125 @@ E) Cobrança típica: SQL/PL-SQL de prova + Buffer Cache/`DB_CACHE_SIZE`/`ALTER 
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** (FCC / TRT-15 · 2023 — adaptação) No SQL*Plus, um Analista com as devidas permissões pretende ampliar o Buffer Cache do Oracle 19c para 2 gigabytes, persistindo a alteração no SPFILE. O comando adequado é:
+> Questões reais de provas (FCC). Gabarito só ao final.
 
-A) `ALTER SYSTEM SET CACHE_SIZE=2G PARAM=SPFILE;`  
-B) `ALTER DATABASE SET DB_CACHE_SIZE=2G SCOPE=SPFILE;`  
-C) `ALTER SYSTEM SET DATABASE_CACHE_SIZE='2G' SCOPE='SPFILE';`  
-D) `ALTER SYSTEM SET DB_CACHE_SIZE=2G SCOPE=SPFILE;`  
-E) `ALTER DATABASE SET DATABASE_CACHE_SIZE=2G PARAM=SPFILE;`  
+**16.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+Considere o seguinte trecho de código em PL/SQL: ```sql SELECT nome, FLOOR(MONTHS_BETWEEN(SYSDATE, data_admissao) / 12) AS anos_servico, MOD(MONTHS_BETWEEN(SYSDATE, data_admissao), 12) AS meses_servico FROM funcionarios WHERE status = 'Ativo'; ``` Ao ser executado em condições ideais, este comando
 
-**17.** (FCC / TRT-22 · 2022 — adaptação) Em Oracle 19c, para exibir o campo `Local` trocando a substring Teresina por TRT-22, o comando adequado é:
+A) erra ao calcular o tempo de serviço, pois deveria ter sido usado `EXTRACT(YEAR FROM SYSDATE) - EXTRACT(YEAR FROM data_admissao)`, uma vez que `EXTRACT` já retorna a diferença correta de anos e meses.  
+B) erra ao calcular o tempo de serviço, pois deveria ter sido usado `DATEDIFF(YEAR, data_admissao, SYSDATE)`, que retorna diretamente os anos completos.  
+C) calcula o tempo de serviço dos funcionários ativos somando diretamente os meses obtidos pela função `MONTHS_BETWEEN`, sem necessidade de divisão ou modulação.  
+D) calcula o tempo de serviço dos funcionários ativos, obtendo a diferença total de meses entre a data atual `SYSDATE` e `data_admissao`, convertendo os valores em anos e meses utilizando `FLOOR` e `MOD`.  
+E) erra ao calcular o tempo de serviço, pois deveria ter sido utilizado apenas `ROUND(MONTHS_BETWEEN(SYSDATE, data_admissao) / 12)`, pois não há necessidade de calcular separadamente os anos e meses.  
 
-A) `SELECT REPLACE (Local, 'Teresina', 'TRT-22') FROM TRTServ;`  
-B) `SELECT FROM TRTServ, Local REPLACE ("Teresina", "TRT-22");`  
-C) `SELECT FROM TRTServ REPLACE (Local, "Teresina", "TRT-22");`  
-D) `SELECT SUBST (Local, 'Teresina', 'TRT-22') FROM TRTServ;`  
-E) `SELECT FROM TRTServ, Local SUBST ('Teresina', 'TRT-22');`  
+**17.** (FCC – TRT-17/2022 – Analista Judiciário – TI)  
+Em um banco de dados Oracle 19, funcionando em condições ideais, uma Analista deseja remover da tabela Funcionarios todos aqueles registros cujo campo `Data_Contratacao` seja 2 de janeiro de 2022 (dia-mês-ano). O comando PL/SQL correto para isso é: `DELETE FROM Funcionarios WHERE Data_Contratacao =`
 
-**18.** Acerca do Database Buffer Cache no Oracle 19c, assinale a correta.
+A) CHECK_DATE('02-JAN-22','dd-mm-yy');  
+B) VALIDATE('02-JAN-22','dd-mon-yy');  
+C) TO_DATE('02-JAN-22','dd-mon-yy');  
+D) "02-JAN-22";  
+E) VAL_DATE('02-JAN-22','dd-mm-yy');  
 
-A) É área típica da PGA usada só para ordenação de cursores privados  
-B) Equivale ao arquivo SPFILE em disco  
-C) Armazena blocos de dados frequentemente acessados na SGA, visando reduzir I/O físico  
-D) Substitui integralmente os redo logs  
-E) É configurado exclusivamente com `ALTER DATABASE RENAME FILE`  
+**18.** (FCC – TRT-22/2022 – Analista Judiciário – TI)  
+Considere que em um banco de dados Oracle 19c aberto e funcionando em condições ideais, exista a tabela TRTServ: Para atualizar e mostrar os termos Teresina para TRT-22 do campo Local, deve-se utilizar o seguinte comando PL/SQL:
 
-**19.** Considere a necessidade de criar, em tabela já existente, as colunas `NomeCidade VARCHAR2(50)` e `Email VARCHAR2(50)` com default de e-mail institucional. O caminho DDL correto é do tipo:
+A) SELECT FROM TRTServ, Local REPLACE ("Teresina", "TRT-22");  
+B) SELECT REPLACE (Local, 'Teresina', 'TRT-22') FROM TRTServ;  
+C) SELECT FROM TRTServ REPLACE (Local, "Teresina", "TRT-22");  
+D) SELECT SUBST (Local, 'Teresina', 'TRT-22') FROM TRTServ;  
+E) SELECT FROM TRTServ, Local SUBST ('Teresina', 'TRT-22');  
 
-A) `UPDATE … INCLUDE` das colunas  
-B) `ALTER TABLE … MODIFY` de colunas que ainda não existem, com `AND` fora da lista  
-C) `UPDATE … MODIFY` com valor default no lugar do tipo  
-D) `ALTER TABLE … ADD` passando só o literal do e-mail no lugar da definição tipada  
-E) `ALTER TABLE … ADD (NomeCidade VARCHAR2(50), Email VARCHAR2(50) DEFAULT '…')`  
+**19.** (FCC – TRT-22/2022 – Analista Judiciário – TI)  
+Considere que em um banco de dados Oracle 19c, aberto e funcionando em condições ideais, exista a tabela TRTVaras: Para que as cidades cujos CodCidade comecem com 2 tenham a Jurisdicao alterada de Parnaíba para Teresina, deve-se utilizar o seguinte comando PL/SQL:
 
-**20.** Em consulta analítica sobre processos por vara, o predicado `COUNT(*) > 100` sobre o grupo deve aparecer, em regra, em:
+A) UPDATE TRTVaras SET Jurisdicao = 'Teresina' WHERE REGEXP_LIKE (CodCidade, '2%');  
+B) UPDATE TRTVaras SET Jurisdicao = "Teresina" WHERE LIKE (CodCidade, "2%");  
+C) UPDATE TRTVaras WHERE Jurisdicao = 'Parnaíba' SET INTO 'Teresina';  
+D) UPDATE TRTVaras WHERE REGEXP_LIKE (CodCidade, '^2(*)' SET Jurisdicao = 'Teresina');  
+E) UPDATE TRTVaras SET Jurisdicao = 'Teresina' WHERE REGEXP_LIKE (CodCidade, '^2(*)');  
 
-A) `WHERE`  
-B) `SCOPE`  
-C) `FROM`  
-D) `HAVING`  
-E) `CONNECT BY` obrigatório  
+**20.** (FCC – TRT-20/2024 – Analista Judiciário – TI)  
+Um Analista de um Tribunal do trabalho realiza consultas de dados em movimento, como streams de dados em tempo real no Oracle 19c, usando a solução mais adequada que é o Oracle
 
-**21.** Assinale a sequência sintática mais coerente para: filtrar processos abertos antes de certa data, agregar por vara, manter só varas com mais de 100 processos e ordenar pelo valor total decrescente.
+A) Parse Streams.  
+B) Database In-Memory.  
+C) Advanced Queuing.  
+D) Change Data Capture.  
+E) Flashback.  
 
-A) `WHERE` → `GROUP BY` → `HAVING` → `ORDER BY`  
-B) `ORDER BY` → `HAVING` → `GROUP BY` → `WHERE`  
-C) `HAVING` → `WHERE` → `ORDER BY` → `GROUP BY`  
-D) `GROUP BY` → `WHERE` → `ORDER BY` → `HAVING`  
-E) `WHERE` → `ORDER BY` → `HAVING` → `GROUP BY`  
+**21.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+Em um banco de dados Oracle aberto e em condições ideais, o comando utilizado para adicionar uma coluna custas do tipo NUMBER(10,2) à tabela processo, estabelecendo uma restrição que impede que valores de custas menores ou iguais a 10000 sejam inseridos, é
 
-**22.** Relativamente a `REPLACE` e `SUBSTR` no Oracle:
+A) ADD COLUMN custas NUMBER(10,2) TO processo WHERE custas > 10000;  
+B) ALTER TABLE processo ADD custas NUMBER(10,2) CONSTRAINT processo_custas_ck CHECK (custas > 10000);  
+C) ADD COLUMN custas NUMBER(10,2) TO processo WITH CONSTRAINT processo_custas_ck CHECK (custas > 10000);  
+D) ALTER TABLE processo ADD custas NUMBER(10,2) ADD CONSTRAINT processo_custas_ck CHECK (custas >= 10000);  
+E) ALTER TABLE processo ADD custas NUMBER(10,2) CONSTRAINT processo_custas_ck WHERE (custas > 10000);  
 
-A) ambas servem apenas para alterar `DB_CACHE_SIZE`  
-B) `SUBSTR` é o nome oficial da substituição de strings  
-C) `REPLACE` substitui ocorrências; `SUBSTR` extrai trecho — não são sinônimos  
-D) `SUBST` é função documentada equivalente a `REPLACE`  
-E) nenhuma delas pode aparecer em `SELECT`  
+**22.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+Considere que as tabelas, relacionamentos, atributos e restrições utilizadas no comando abaixo existem em um banco de dados Oracle aberto e em condições ideais. ```sql SELECT d.departamento_id, d.departamento_nome, d.local_id, COUNT(e.colaborador_id) FROM colaboradores e RIGHT OUTER JOIN departamentos d ON e.departamento_id = d.departamento_id GROUP BY d.departamento_id, d.departamento_nome, d.local_id; ``` Este comando
 
-**23.** No contraste Oracle 19c × PostgreSQL no edital TRT4:
+A) contará o número total de colaboradores e exibirá como se fosse de cada departamento, juntamente com o id, nome e local do departamento, pois há um erro na junção.  
+B) exibirá o nome, local e número de colaboradores de cada departamento somente se a instrução RIGHT OUTER JOIN for trocada por LEFT OUTER JOIN.  
+C) está incorreto, pois não existe a instrução RIGHT OUTER JOIN no Oracle, mas sim OUTER JOIN.  
+D) exibirá o id, nome, local e número de colaboradores de cada departamento, incluindo aqueles sem colaboradores.  
+E) exibirá o id, nome, local dos departamentos e o id dos colaboradores agrupando os colaboradores por departamento.  
 
-A) ambos são irrelevantes; só H2 conta  
-B) Oracle 19c é o único SGBD citado no edital  
-C) PostgreSQL não possui linguagem procedimental  
-D) SPFILE é recurso exclusivo do PostgreSQL 18  
-E) Oracle 19c figura no bloco BD; PostgreSQL também (e na PDPJ); PL/SQL ≠ PL/pgSQL  
+**23.** (FCC – TRT-15/2023 – Analista Judiciário – TI)  
+Um Analista possui uma tabela chamada `processo` em um banco de dados Oracle 19c aberto e em condições ideais, que possui os campos `num_processo` (chave primária) e `ano`. Para acelerar as consultas que buscam processos por ano, ele deseja criar um índice na coluna `ano`, denominado `index_ano_processo`, por meio do comando
 
-**24.** `SCOPE=MEMORY` em `ALTER SYSTEM SET`, em visão de prova, indica:
+A) CREATE INDEX index_ano_processo INTO processo ON COLUMN (ano);  
+B) CREATE INDEX index_ano_processo REFERENCES processo (ano);  
+C) CREATE INDEX index_ano_processo ON processo (ano);  
+D) ALTER TABLE processo ADD INDEX index_ano_processo ON ano;  
+E) ALTER TABLE processo ADD INDEX index_ano_processo COLUMN (ano);  
 
-A) alteração na memória da instância atual, sem persistir por si só no SPFILE  
-B) gravação exclusiva no SPFILE sem tocar a instância atual  
-C) remoção do Buffer Cache  
-D) conversão de PFILE em tablespace  
-E) comando inválido em qualquer versão 19c  
+**24.** (FCC – TRT-12/2023 – Analista Judiciário – TI)  
+Em uma aplicação Java que utiliza JPA, em condições ideais, considere `manager` um objeto válido criado por meio da instrução abaixo.
 
-**25.** Para o subtópico Oracle 19c no TRT4/FCC, a preparação mais adequada prioriza:
+```java
+EntityManager manager =
+Persistence.createEntityManagerFactory("trtPU").createEntityManager();
+```
 
-A) memorizar todos os pacotes `DBMS_*` sem SQL  
-B) apenas teoria de MER, ignorando comandos  
-C) somente comparação de preços de licença  
-D) SQL/PL-SQL de prova (funções, DDL, agregação), Buffer Cache/`DB_CACHE_SIZE`/`ALTER SYSTEM`/`SPFILE` e distinções anti-distrator  
-E) substituição total do estudo de PostgreSQL  
+A instrução `manager.createNamedQuery("Acesso.findByUserSenha", Acesso.class);` irá retornar um objeto do tipo
+
+A) List<Acesso>  
+B) Acesso  
+C) Query<Acesso>  
+D) TypedQuery<Acesso>  
+E) ArrayList<Acesso>  
+
+**25.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+Um Analista de um Tribunal Regional do Trabalho foi solicitado a consultar os benefícios concedidos a funcionários de diferentes empresas e apresentar a quantidade total de benefícios pagos por empresa para aquelas que tenham concedido mais de 5 benefícios nos últimos 12 meses. Utilizando um banco de dados Oracle 19c, aberto e em condições ideais, o comando que faz a consulta é:
+
+A) ``sqlSELECT empresa, COUNT() AS total_beneficiosFROM beneficiosWHERE data_concessao BETWEEN SYSDATE AND SYSDATE - 365GROUP BY empresaHAVING COUNT() > 5;``  
+B) ``sqlSELECT empresa, COUNT(*) AS total_beneficiosFROM beneficiosWHERE data_concessao <= ADD_MONTHS(SYSDATE, -12)GROUP BY empresaHAVING COUNT( ) > 5;``  
+C) ``sqlSELECT empresa, COUNT() AS total_beneficiosFROM beneficiosWHERE data_concessao >= ADD_MONTHS(TRUNC(SYSDATE), -12)GROUP BY empresaHAVING COUNT() > 5;``  
+D) ``sqlSELECT empresa, COUNT() AS total_beneficiosFROM beneficiosWHERE EXTRACT(YEAR FROM data_concessao) := EXTRACT(YEAR FROM SYSDATE) - 1GROUP BY empresaHAVING COUNT() > 5;``  
+E) ``sqlSELECT empresa, SUM(beneficio) AS total_beneficiosFROM beneficiosWHERE data_concessao >= ADD_MONTHS(SYSDATE, -12)GROUP BY empresaHAVING SUM(beneficio) > 5;``  
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **D** |
-| 17 | **A** |
-| 18 | **C** |
-| 19 | **E** |
-| 20 | **D** |
-| 21 | **A** |
-| 22 | **C** |
-| 23 | **E** |
-| 24 | **A** |
-| 25 | **D** |
+| Questão | Gabarito | Fonte / nota |
+|---------|----------|--------------|
+| 16 | **D** | FCC TRT-1/2025 Q38 — Banco de Dados |
+| 17 | **C** | FCC TRT-17/2022 Q35 — Banco de Dados |
+| 18 | **B** | FCC TRT-22/2022 Q23 — Banco de Dados |
+| 19 | **E** | FCC TRT-22/2022 Q25 — Banco de Dados |
+| 20 | **C** | FCC TRT-20/2024 Q57 — Banco de Dados |
+| 21 | **B** | FCC TRT-6/2025 Q32 — SQL |
+| 22 | **D** | FCC TRT-6/2025 Q36 — SQL |
+| 23 | **C** | FCC TRT-15/2023 Q21 — SQL Oracle - Índices |
+| 24 | **D** | FCC TRT-12/2023 Q34 — Banco de Dados |
+| 25 | **C** | FCC TRT-1/2025 Q40 — Banco de Dados |
 
-**Notas rápidas:** 16 D (TRT-15/2023 — `ALTER SYSTEM`+`DB_CACHE_SIZE`+`SCOPE=SPFILE`); 17 A (TRT-22/2022 — `REPLACE`); 18 C (SGA/blocos); 19 E (`ADD`); 20 D (`HAVING`); 21 A (ordem); 22 C (REPLACE×SUBSTR); 23 E (dual edital); 24 A (MEMORY); 25 D (síntese).
+**Notas rápidas:** 16 D; 17 C; 18 B; 19 E; 20 C; 21 B; 22 D; 23 C; 24 D; 25 C.
 
 ---
 

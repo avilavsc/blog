@@ -269,141 +269,115 @@ E) Recíproca — sempre equivalente à condicional
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** (FCC — TRT-20ª Região — 2016 — adaptada ao formato) Do ponto de vista da lógica, a proposição “se tem OAB, então é advogado” é equivalente a:
+> Questões reais de provas (FCC). Gabarito só ao final.
 
-A) tem OAB ou é advogado  
-B) se não tem OAB, então não é advogado  
-C) se não é advogado, então não tem OAB  
-D) é advogado e não tem OAB  
-E) se é advogado, então tem OAB  
+**16.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+Em uma repartição pública, um funcionário atende 18 pessoas em uma média de 90 minutos. Supondo que os atendimentos sejam semelhantes, espera-se que esse mesmo funcionário atenda 24 pessoas em
 
-**17.** (FCC — TRT/SP — 2018 — linha de equivalência) “Se o veículo ultrapassar os 50 km/h, então seu motorista será multado.” Uma afirmação equivalente é:
+A) 2h00min  
+B) 2h10min  
+C) 2h30min  
+D) 3h00min  
+E) 2h20min  
 
-A) Se o motorista não foi multado, então seu veículo ultrapassou os 50 km/h  
-B) O veículo não ultrapassou os 50 km/h e seu motorista não será multado  
-C) O veículo não ultrapassa os 50 km/h ou seu motorista é multado  
-D) Se o motorista foi multado, então seu veículo ultrapassou os 50 km/h  
-E) O motorista só será multado se o veículo ultrapassar os 50 km/h (como forma pedida de equivalência “ou”)  
+**17.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+As idades dos amigos Ana, Bruno, Carla, Denise, Eduardo e Fábio são crescentes e nessa ordem, ou seja, Ana é mais nova do que Bruno que é mais novo do que Carla e assim por diante. A diferença entre as idades de Ana e Fábio é de 12 anos, entre Ana e Carla é de 4 anos, entre Carla e Eduardo é de 6 anos, entre Bruno e Denise é de 4 anos e entre Denise e Fábio é de 5 anos. Se Ana tem 15 anos, a idade média dos 6 amigos é
 
-**18.** (FCC — TRT-23ª Região — 2022) Considere: 19; 20; 20; 21; 21; 24; 25; 31; 34; 35. Pode-se afirmar corretamente que:
+A) 22  
+B) 19  
+C) 23  
+D) 20  
+E) 21  
 
-A) os valores modais estão abaixo da mediana  
-B) a mediana é menor que 20  
-C) o valor da amplitude é maior que o valor da mediana  
-D) o valor da amplitude e da mediana coincidem  
-E) a média supera 26  
+**18.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+O valor da expressão numérica 120 ÷ { 9 × [ − 9 + 17 ÷ ( − 2 + 5 ) ] } − [ 7 × ( − 3 ) − 16 ÷ ( − 2 ) + 2 ] 120 \div \left\{\sqrt{9} \times \left[-9 + 17 \div (-2 + 5)\right]\right\} - \left[7 \times (-3) - 16 \div (-2) + 2\right] 120 ÷ { 9 ​ × [ − 9 + 17 ÷ ( − 2 + 5 ) ] } − [ 7 × ( − 3 ) − 16 ÷ ( − 2 ) + 2 ] é
 
-**19.** Em um setor, os tempos (min) de atendimento foram 8, 10, 10, 12, 20. A mediana e a amplitude são, respectivamente:
+A) 0  
+B) -2  
+C) 2  
+D) 1  
+E) -1  
 
-A) 10 e 12  
-B) 12 e 10  
-C) 10 e 10  
-D) 11 e 12  
-E) 8 e 20  
+**19.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+Bruno dividiu suas bolinhas de gude em grupos de 3 bolinhas e sobraram duas. Depois as dividiu em grupos de 5 e sobrou uma bolinha. O menor número de bolinhas que Bruno deve adquirir para poder dividir o total de bolinhas em grupos de 3 ou em grupos de 5 sem sobrar bolinhas é
 
-**20.** Negar corretamente “Se o número de docinhos não foi suficiente, então a festa não acabou bem” (estrutura FCC) resulta em:
+A) 5  
+B) 4  
+C) 2  
+D) 1  
+E) 3  
 
-A) Se a festa acabou bem, então o número de docinhos foi suficiente  
-B) O número de docinhos foi suficiente e a festa não acabou bem  
-C) Se o número de docinhos foi suficiente, então a festa acabou bem  
-D) Se a festa não acabou bem, então o número de docinhos não foi suficiente  
-E) O número de docinhos não foi suficiente e a festa acabou bem  
+**20.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+José ganhou na loteria R$ 15.000,00. Deu 1/3 de presente para sua esposa e 1/5 do que sobrou para sua filha. A quantia do prêmio que sobrou para José após presentear a esposa e a filha foi de
 
-**21.** Notas 7, 7, 7, 8, 9, 10. A média, a moda e a mediana são, nesta ordem:
+A) R$ 6.500,00  
+B) R$ 7.000,00  
+C) R$ 8.000,00  
+D) R$ 3.500,00  
+E) R$ 5.000,00  
 
-A) 8; 7; 7,5  
-B) 7,5; 7; 7,5  
-C) 8; 7,5; 8  
-D) 7; 8; 7,5  
-E) 8; 7; 8  
+**21.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+Uma família sempre consome a mesma quantidade diária de leite. Se essa família consome 5 litros de leite a cada 9 dias, então em três semanas a quantidade de leite que ela consome é, aproximadamente, de
 
-**22.** De \(P\to Q\), \(Q\to R\) e P, a conclusão **válida** é:
+A) 12,7 litros.  
+B) 12,3 litros.  
+C) 11,5 litros.  
+D) 11,7 litros.  
+E) 11,9 litros.  
 
-A) ¬R  
-B) R  
-C) ¬P  
-D) apenas Q, nunca R  
-E) \(R\to P\) necessariamente  
+**22.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+Em um setor de uma fábrica, há 5 empregados: o supervisor e quatro assistentes. O salário de um assistente é R$ 5.000,00 mensais e o do supervisor é de R$ 15.000,00 mensais. A diferença entre a média e a moda desses cinco salários mensais é
 
-**23.** Em tabela de frequências, o valor com maior frequência absoluta é a melhor pista para:
+A) R$ 7.000,00  
+B) R$ 2.000,00  
+C) R$ 5.000,00  
+D) R$ 3.000,00  
+E) R$ 4.000,00  
 
-A) amplitude  
-B) moda  
-C) desvio padrão amostral exato sem cálculo  
-D) variância populacional automática  
-E) mediana quando n é par, sem ordenar  
+**23.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+Em uma pesquisa sobre estilos musicais, obteve-se que 40% dos entrevistados gostam de samba, 75% gostam de rock e 53% gostam de música clássica. Além disso, 35% gostam de samba e rock, 30% gostam de rock e música clássica, 5% gostam apenas de samba e música clássica e 10% gostam dos três estilos musicais. O percentual de pessoas que NÃO gostam de nenhum dos três estilos é de
 
-**24.** Multiplicar todos os dados por 2:
+A) 1%  
+B) 0%  
+C) 4%  
+D) 3%  
+E) 2%  
 
-A) dobra a média e dobra a amplitude  
-B) mantém média e dobra só a moda  
-C) zera o desvio padrão  
-D) não altera nenhuma medida de posição  
-E) troca mediana por moda  
+**24.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+Considere um dado piramidal com 4 faces numeradas de 1 a 4. A face 2 é duas vezes mais provável do que a 1. A face 3 é 3 vezes mais provável que a face 2 e a face 4 é 4 vezes mais provável que a face 3. A probabilidade condicional de sair a face 1 ou a face 3 sabendo-se que saiu a face 1 ou a face 4 é de
 
-**25.** Assinale a alternativa **correta** sobre o edital deste concurso (Gerais — estatística):
+A) 1/4  
+B) 1/50  
+C) 1/25  
+D) 1/6  
+E) 1/2  
 
-A) Cobra noções de tendência central e de dispersão, além de leitura de gráficos/tabelas  
-B) Exige apenas regressão linear múltipla obrigatória  
-C) Substitui estatística por prova oral de R  
-D) Vedada qualquer menção a mediana  
-E) Cobra somente ANOVA de dois fatores  
+**25.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+Pedro tinha 18 figurinhas no sábado. No domingo e na segunda-feira, ele comprou 10 figurinhas em cada dia. Comprou algumas figurinhas na terça-feira e na quarta-feira comprou o dobro de figurinhas do que havia comprado na terça-feira. Na quinta-feira, não comprou figurinhas, ficando com um total de 74 figurinhas. Pedro comprou na quarta-feira
 
----
-
-### Gabarito comentado (treino 1–15)
-
-1. **B** — única linha F da condicional: V→F.  
-2. **C** — contrappositiva.  
-3. **B** — MANÉ: mantém P e nega Q.  
-4. **D** — modus tollens.  
-5. **B** — falácia: de Q concluir P.  
-6. **B** — 5º de 9.  
-7. **D** — dois centrais.  
-8. **C** — 5 aparece 3 vezes.  
-9. **C** — (16+5)/3 = 7.  
-10. **E** — 15−4 = 11.  
-11. **A** — transladação.  
-12. **B** — moda visual.  
-13. **B** — “somente se”.  
-14. **A** — média 12; moda 12.  
-15. **E** — recíproca **não** é equivalente.
-
-### Gabarito (estilo concurso 16–25)
-
-| Q | Gab | Nota |
-|---|-----|------|
-| 16 | **C** | contrappositiva (FCC TRT-20/2016) |
-| 17 | **C** | forma \(\neg P\lor Q\) (FCC TRT/SP/2018) |
-| 18 | **A** | Mo 20/21 < Md 22,5; Amp 16; média 25 (FCC TRT-23/2022) |
-| 19 | **A** | Md=10; Amp=12 |
-| 20 | **E** | negação: P ∧ ¬Q (estrutura FCC TRT-11/2017) |
-| 21 | **A** | média 8; moda 7; mediana 7,5 |
-| 22 | **B** | silogismo + ponens → R |
-| 23 | **B** | moda |
-| 24 | **A** | escala |
-| 25 | **A** | texto do edital |
+A) 24 figurinhas.  
+B) 22 figurinhas.  
+C) 28 figurinhas.  
+D) 36 figurinhas.  
+E) 12 figurinhas.  
 
 ---
 
-## 4. Gabarito consolidado
+### Gabarito (concurso 16–25)
 
-| Q | Resp | Q | Resp | Q | Resp | Q | Resp | Q | Resp |
-|---|------|---|------|---|------|---|------|---|------|
-| 1 | B | 2 | C | 3 | B | 4 | D | 5 | B |
-| 6 | B | 7 | D | 8 | C | 9 | C | 10 | E |
-| 11 | A | 12 | B | 13 | B | 14 | A | 15 | E |
-| 16 | C | 17 | C | 18 | A | 19 | A | 20 | E |
-| 21 | A | 22 | B | 23 | B | 24 | A | 25 | A |
+| Questão | Gabarito | Fonte / nota |
+|---------|----------|--------------|
+| 16 | **A** | FCC TRT-1/2025 Q11 — Regra de três simples |
+| 17 | **E** | FCC TRT-1/2025 Q12 — Medidas de tendência central |
+| 18 | **E** | FCC TRT-1/2025 Q13 — Expressões numéricas |
+| 19 | **B** | FCC TRT-1/2025 Q14 — Múltiplos e divisores de números naturais |
+| 20 | **C** | FCC TRT-1/2025 Q15 — Frações e operações com frações |
+| 21 | **D** | FCC TRT-6/2025 Q11 — Razão e proporção |
+| 22 | **B** | FCC TRT-6/2025 Q12 — Estatística |
+| 23 | **E** | FCC TRT-6/2025 Q13 — Conjuntos |
+| 24 | **C** | FCC TRT-6/2025 Q14 — Probabilidade |
+| 25 | **A** | FCC TRT-6/2025 Q15 — Raciocínio lógico-matemático |
 
----
-
-## 5. Mini-treino da semana
-
-Refaça **18** sem olhar: calcule média, mediana, moda e amplitude em 90 segundos. Depois, uma condicional: escreva contrappositiva e negação lado a lado.
-
----
-
-*Arquivo 07 · Lógica + estatística básica · Claudionir · TRT4 Analista TI (código 14) · FCC · Semana 6 (manutenção Gerais).*
+**Notas rápidas:** 16 A; 17 E; 18 E; 19 B; 20 C; 21 D; 22 B; 23 E; 24 C; 25 A.

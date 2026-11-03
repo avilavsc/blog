@@ -1,4 +1,4 @@
-﻿+++
++++
 title = '10 — Normativos CNJ / PDPJ'
 date = '2026-10-10'
 draft = false
@@ -302,113 +302,189 @@ E) Que 522 = apenas site de notícias
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões reais de concurso (16–25)
 
-**16.** No âmbito dos normativos do Conselho Nacional de Justiça relacionados à Plataforma Digital do Poder Judiciário e citados em editais de Analista de TI, a Resolução CNJ nº 443/2022 é corretamente caracterizada como ato que:
+> Bloco substituído por questões **reais** de concurso (FCC preferencialmente; TRT/TRF/TJ quando necessário). O treino 1–15 e o Material permanecem inalterados.
 
-A) institui a política de sustentabilidade ambiental, social e econômica do Poder Judiciário  
-B) dispõe sobre a aplicação e a disseminação dos conhecimentos acerca da PDPJ-Br em editais de concursos, seleções e capacitações para cargos de tecnologia da informação  
-C) cria a Estratégia Nacional de Segurança Cibernética do Poder Judiciário em substituição à Portaria 253/2020  
-D) revoga integralmente a Lei Geral de Proteção de Dados Pessoais  
-E) aprova exclusivamente o Regimento Interno do Tribunal Regional do Trabalho da 4ª Região  
+**16.** (FCC | TRT17 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 69 de 70)
 
-**17.** A Resolução CNJ nº 522/2023, no nível usualmente cobrado em provas da área de TI do Judiciário, relaciona-se à:
+No Art. 4º da Resolução nº 335 de 29/09/2020 é estabelecido que a Plataforma Digital do Poder Judiciário – PDPJ-Br adotará, obrigatoriamente, soluções que abranjam, dentre outros, os seguintes conceitos: modalidade, acessibilidade, usabilidade, microsserviços, computação em nuvem,
 
-A) instituição do MoReq-Jus, modelo de requisitos para sistemas informatizados de gestão de processos e documentos, com disciplina de uso no desenvolvimento e na manutenção desses sistemas  
-B) neutralidade de carbono como único objeto normativo, sem relação com sistemas  
-C) substituição da PDPJ-Br por planilhas offline obrigatórias  
-D) identidade absoluta com a Resolução CNJ nº 400/2021  
-E) proibição de qualquer modelo de requisitos técnicos no PJ  
+A) e processo eletrônico em plataforma privada.
 
-**18.** Acerca da Resolução CNJ nº 574/2024, assinale a alternativa correta.
+B) ampla cobertura de testes, alto acoplamento, baixa coesão e modularização.
 
-A) Trata-se de marco recente que aborda acesso a dados judiciais públicos consolidados, previsão de serviços na PDPJ-Br e portal unificado para usuários internos  
-B) Equivale, para todos os efeitos, à ENSEC-PJ (Res. 396/2021)  
-C) Tem por objeto exclusivo o Código de Conduta ético do TRT4  
-D) Extingue a possibilidade de uso de APIs no Poder Judiciário  
-E) Confunde-se, por definição, com a política de sustentabilidade da Res. 400/2021  
+C) e desenvolvimento centralizado na esfera principal do Poder Judiciário.
 
-**19.** Considere as afirmações abaixo.
+D) e substituição das atividades rotineiras ou sequenciais por ações manuais.
 
-I. A Portaria CNJ nº 253/2020 relaciona-se a critérios e diretrizes técnicas para módulos e serviços na PDPJ-Br.  
-II. A Portaria CNJ nº 162/2021 integra o eixo da ENSEC e não deve ser tratada como sinônimo das portarias de arquitetura/governança da plataforma.  
-III. A Resolução CNJ nº 400/2021 é o ato que institui o MoReq-Jus.
+E) e autenticação uniformizada.
 
-Está correto o que se afirma em:
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) II e III, apenas  
-E) I, II e III  
+**17.** (FCC | TRF4 2025 | Técnico Judiciário, Área Apoio Especializado, Especialidade Desenvolvimento de Sistema da Informação | Questão 50 de 50)
 
-**20.** A associação correta entre norma e eixo temático é:
+O Art. 11 da Portaria CNJ nº 253/2020 estabelece que o acesso aos microsserviços deverá ser protegido com mecanismos de autenticação e autorização
 
-A) Res. 396/2021 — MoReq-Jus  
-B) Res. 443/2022 — sustentabilidade no PJ  
-C) Portaria 131/2021 — grupo revisor de código-fonte da PDPJ-Br e do PJe  
-D) Res. 522/2023 — apenas ENSEC  
-E) Res. 574/2024 — exclusivamente coleta seletiva solidária  
+A) baseados em OAuth2 a ser provido pelo serviço de Single SignOn da PDPJ-Br.
 
-**21.** Assinale a opção **incompatível** com a leitura adequada dos normativos do pacote PDPJ do edital.
+B) por meio de autenticação de usuário já cadastrado no sistema de processo eletrônico específico do tribunal em que o processo tramita.
 
-A) 443/2022 amarra conhecimento de PDPJ a concursos e capacitações de TIC  
-B) 522/2023 institui modelo de requisitos (MoReq-Jus) para sistemas de processos e documentos  
-C) 574/2024 dialoga com dados públicos, serviços na plataforma e portal unificado  
-D) 443/2022 e 400/2021 são rigorosamente o mesmo instituto, ambos de sustentabilidade  
-E) Portarias 253 e 284 operam camada técnica/de governança da plataforma, distinta da ENSEC  
+C) e utilizar exclusivamente navegadores de internet homologados pelo Conselho Nacional de Justiça (CNJ).
 
-**22.** Diferenciar a LGPD das Resoluções CNJ nº 443/2022, 522/2023 e 574/2024 é relevante em prova porque:
+D) baseados em SSL a serem providos pelo serviço de suporte operacional da PDPJ-Br.
 
-A) a LGPD é lei de proteção de dados pessoais, ao passo que aquelas resoluções tratam de eixos de plataforma digital, requisitos de sistemas e dados/serviços no ecossistema do PJ, sem se confundirem com a lei  
-B) a 574/2024 revogou expressamente a LGPD em todo o território nacional  
-C) a LGPD e a 443/2022 são sinônimos perfeitos  
-D) a LGPD substitui o MoReq-Jus  
-E) não há qualquer norma sobre dados no âmbito do Judiciário  
+E) mediante concórdia com os termos de uso da plataforma no primeiro acesso.
 
-**23.** Um analista afirma que “a Portaria CNJ nº 284/2021 é idêntica à Portaria 162/2021, pois ambas criam a ENSEC e a PDPJ ao mesmo tempo”. Tal afirmação:
 
-A) está correta, pois todos os números de 2021 são ENSEC  
-B) está correta apenas para a Justiça Estadual  
-C) está incorreta, pois 284 integra o pacote de governança/gestão da PDPJ no edital, enquanto 162 liga-se ao eixo ENSEC de segurança cibernética  
-D) está correta, pois portarias não têm tema  
-E) está incorreta somente porque o número da ENSEC seria 400  
+**18.** (FGV | TJTO 2022 | Técnico Judiciário, Informática | Questão 78 de 80)
 
-**24.** No contraste entre Resolução CNJ nº 400/2021 e Resolução CNJ nº 443/2022, é correto concluir que:
+De acordo com o Art. 5º da Portaria CNJ nº 253/2020, os serviços que implementam as funcionalidades essenciais básicas para um sistema de processo judicial de tramitação eletrônica, bem como aqueles serviços necessários à integração, à coreografia e à interoperabilidade entre os serviços e soluções que compõem a PDPJ-Br (Plataforma Digital do Poder Judiciário) são os serviços:
 
-A) ambas disciplinam exclusivamente microsserviços Spring Cloud  
-B) a 400 trata de política de sustentabilidade no PJ (Gerais), ao passo que a 443 trata da PDPJ em editais/capacitações de TIC  
-C) a 443 revoga a 400  
-D) a 400 institui o MoReq-Jus  
-E) não há diferença temática entre elas  
+A) negociais;
 
-**25.** Para fins de preparação em Analista Judiciário – Tecnologia da Informação, a síntese mais adequada do pacote normativo deste subtópico é:
+B) estruturantes;
 
-A) 443 = sustentabilidade; 522 = ENSEC; 574 = Conduta TRT4  
-B) 443 = PDPJ nos editais de TIC; 522 = MoReq-Jus; 574 = dados/serviços/portal na plataforma; portarias 253/252-284/131 = técnica, governança e revisão de código; separando ENSEC (396/162), sustentabilidade (400) e LGPD  
-C) apenas MapStruct e Swagger, sem dimensão normativa  
-D) somente Portaria 162, ignorando 443/522/574  
-E) monólito único nacional como definição de todas as resoluções  
+C) de integração com sistemas externos;
+
+D) de aplicações da comunidade externa ao Judiciário;
+
+E) de nuvem computacional.
+
+
+**19.** (FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 47 de 60)
+
+Estabelecer governança de segurança cibernética e fortalecer a gestão e coordenação integrada de ações de segurança cibernética nos órgãos do Poder Judiciário é um dos objetivos da Estratégia Nacional de Segurança da Informação e Cibernética do Poder Judiciário (ENSEC-PJ), que consta na Resolução nº
+
+A) 335/2020.
+
+B) 131/2021.
+
+C) 253/2020.
+
+D) 162/2021.
+
+E) 396/2021.
+
+
+**20.** (FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 60 de 60)
+
+A Resolução CNJ nº 396/2021, Capítulo VI – Da Rede Nacional de Cooperação do Poder Judiciário na Área de Segurança Cibernética, em seu artigo 18, estabelece que a Rede de Cooperação do Judiciário na área de segurança cibernética tem os seguintes objetivos: Promover ambiente participativo, colaborativo e seguro entre os órgãos do Poder Judiciário, por meio do acompanhamento contínuo e proativo das ameaças e dos ataques cibernéticos; Estimular o compartilhamento de informações sobre incidentes e vulnerabilidades cibernéticas; Realizar exercícios cibernéticos com a participação de múltiplos entes; Fortalecer o Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos (CPTRIC-PJ) do CNJ; Aperfeiçoar a estrutura judiciária para o aprimoramento de investigações de crimes cibernéticos; Incentivar a criação e a atuação de ETIR em cada órgão do Poder Judiciário; Emitir alertas e recomendações de segurança cibernética; e, também,
+
+A) Ampliar parceria com outros órgãos do Poder Executivo, do Poder Legislativo, do Ministério Público, da polícia judiciária, do setor privado e do meio acadêmico, com vistas a elevar, de modo geral, o nível de segurança cibernética.
+
+B) Ampliar ações destinadas a assegurar a disponibilidade, a integridade, a confidencialidade e a autenticidade de dados e de informações.
+
+C) Executar ações de comunicação, de conscientização, de formação de cultura e de direcionamento institucional com vistas à segurança cibernética.
+
+D) Preservar a segurança física e proteção de dados pessoais e institucionais, nos aspectos relacionados à cibersegurança.
+
+E) Aprimorar o nível de maturidade em segurança cibernética nos órgãos do Poder Judiciário, abrangendo os aspectos fundamentais da segurança da informação para o aperfeiçoamento necessário à consecução desse propósito.
+
+
+**21.** (FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 58 de 60)
+
+Considere a Portaria CNJ nº 252/2020, que institui a Rede de Governança da Plataforma Judicial do Poder Judiciário Brasileiro (PDPJ-Br) e seu artigo 4º.Na composição da Rede,
+
+A) inclui-se a Gerência Executiva da Secretaria Especial de Informática.
+
+B) inclui-se o Comitê Gestor Regional da CNJ.
+
+C) inclui-se a Comissão Permanente de Licitação em Tecnologia da Informação.
+
+D) incluem-se os Comitês Gestores dos Tribunais.
+
+E) incluem-se os Comitês Gestores dos Órgãos Públicos das três esferas de Governo.
+
+
+**22.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 45 de 60)
+
+Segundo a Portaria do CNJ nº 131, de 5 de maio de 2021, um dos objetivos do Grupo Revisor de Código-Fonte é
+
+A) executar teste de qualidade de código-fonte e garantias operacionais da funcionalidade desenvolvida ou alterada.
+
+B) realizar a análise sintática automatizada de qualidade de código, segundo parâmetros de complexidade, manutenibilidade e acessibilidade.
+
+C) realizar testes somente nas soluções disponibilizadas na PDPJ, descartando as soluções concorrentes.
+
+D) promover a análise das mudanças de código-fonte implementadas somente pelo CNJ e PDPJ.
+
+E) corrigir e aprovar códigos-fonte que não alcançaram os critérios mínimos definidos durante a análise sintática.
+
+
+**23.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 50)
+
+Considere o seguinte teor da Portaria CNJ nº 162/2021:5. Competência de atuação5.1 Deverá ser formalmente instituída Equipe de Tratamento e Resposta a Incidentes de Segurança Cibernética (ETIR), em todos os órgãos do Poder Judiciário, à exceção do STF.5.2 A ETIR poderá solicitar apoio multidisciplinar para responder aos incidentes de segurança de maneira adequada e tempestiva,
+
+A) em áreas como: tecnologia da informação, segurança da informação, jurídica, pesquisas judiciárias, comunicação, controle interno, segurança institucional, entre outras.
+
+B) ao setor de segurança pública das três esferas administrativas governamentais, quando cabível e à área de comunicação federal quando o incidente contar com o risco de alastramento a nível país.
+
+C) ao setor de segurança da informação, excetuando-se tecnologia da informação e comunicação, quando cabível, e à área de comunicação federal quando o incidente contar com o risco de alastramento a nível país.
+
+D) em áreas como: gestão de dados em nuvem, segurança corporativa, administrativo-financeiras, excetuando-se gerência de materiais, tecnologia da informação e segurança institucional que por si só já atuam nesse mister.
+
+E) ao setor de segurança pública das três esferas administrativas governamentais e dos três poderes, quando cabível, e à área de comunicação federal quando o incidente contar com o risco de alastramento a nível país.
+
+
+**24.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 28 de 60)
+
+A autenticação na Plataforma Digital do Poder Judiciário PDPJ-Br ocorre por meio de uma solução A, baseada em um aplicativo open source de gestão de identidades e acesso, denominado B, com base no protocolo C. De acordo com o texto acima, A, B e C são, correta e respectivamente:
+
+A) Keycloak – Docker – Simple Object Access Protocol (SOAP)
+
+B) Single Sign-On (SSO) – Keycloak – OAuth2 (RFC 6749)
+
+C) Single Sign-On (SSO) – RabbitMQ – Advanced Message Queuing Protocol (AMQP)
+
+D) de access token – Keycloak – Simple Object Access Protocol (SOAP)
+
+E) Keycloak – RabbitMQ – OAuth2 (RFC 4967)
+
+
+**25.** (FCC | TRT20 2024 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 59 de 60)
+
+A Resolução CNJ nº 522/2023 em seu Art. 2º estabelece que os sistemas informatizados de gestão de processos e documentos utilizados em atividades judiciais e administrativas dos órgãos integrantes do Poder Judiciário, ainda que segmentados em aplicações, módulos e microsserviços, deverão aderir aos requisitos do MoReq-Jus, com o objetivo de
+
+A) acompanhar o fiel cumprimento desta Resolução e a coordenação do Programa de avaliação do grau de aderência dos sistemas ao MoReq-Jus e de atualização permanente (Programa MoReq-Aval).
+
+B) avaliar o grau de aderência dos requisitos ao MoReq-Jus e de sua atualização permanente especificada no Programa MoReq-Aval/2023.
+
+C) assegurar a concordância, a segurança, a especificidade, o grau de complexidade, a integridade, a razoabilidade e a não duplicidade de processos e documentos do Poder Judiciário.
+
+D) identificar os requisitos funcionais, dados e metadados que serão tratados por serviços interligados ao sistema principal e as referências ao requisito funcional implementado e aos requisitos não funcionais observados por ocasião da especificação de novas funcionalidades ou de melhorias daquelas existentes.
+
+E) assegurar a confidencialidade, a integridade, a disponibilidade, a autenticidade, o não repúdio, a conformidade e a preservação de processos e documentos do Poder Judiciário.
+
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso reais 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **B** |
-| 17 | **A** |
-| 18 | **A** |
-| 19 | **C** |
-| 20 | **C** |
-| 21 | **D** |
-| 22 | **A** |
-| 23 | **C** |
-| 24 | **B** |
-| 25 | **B** |
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **E** | FCC | TRT17 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 69 de 70 |
+| 17 | **A** | FCC | TRF4 2025 | Técnico Judiciário, Área Apoio Especializado, Especialidade Desenvolvimento de Sistema da Informação | Questão 50 de 50 |
+| 18 | **B** | FGV | TJTO 2022 | Técnico Judiciário, Informática | Questão 78 de 80 |
+| 19 | **E** | FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 47 de 60 |
+| 20 | **A** | FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 60 de 60 |
+| 21 | **D** | FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 58 de 60 |
+| 22 | **A** | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 45 de 60 |
+| 23 | **A** | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 50 |
+| 24 | **B** | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 28 de 60 |
+| 25 | **E** | FCC | TRT20 2024 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 59 de 60 |
 
-**Notas rápidas:** 16 B (443 = PDPJ em concursos de TIC); 17 A (MoReq-Jus); 18 A (574 = dados/serviços/portal); 19 C (I e II; III erra — MoReq é 522, não 400); 20 C (131 = revisor de código); 21 D (400 ≠ 443); 22 A (LGPD ≠ resoluções do pacote); 23 C (284 PDPJ × 162 ENSEC); 24 B (sustentabilidade × PDPJ/editais); 25 B (síntese completa).
+\* = aproximação temática (questão real correlata quando o nicho é raro em prova).
 
----
+**Fontes:**
+- Q16: https://www.quizinho.com.br/questao/fcc-trt17-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q69
+- Q17: https://www.quizinho.com.br/questao/fcc-trf4-2025-tecnico-judiciario-area-apoio-especializado-especialidade-desenvolvimento-de-sistema-da-informacao-2025-q50
+- Q18: https://www.quizinho.com.br/questao/fgv-tjto-2022-tecnico-judiciario-informatica-2022-q78
+- Q19: https://www.quizinho.com.br/questao/fcc-trt22-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q47
+- Q20: https://www.quizinho.com.br/questao/fcc-trt-12-2023-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2023-q60
+- Q21: https://www.quizinho.com.br/questao/fcc-trt-12-2023-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2023-q58
+- Q22: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q45
+- Q23: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q50
+- Q24: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q28
+- Q25: https://www.quizinho.com.br/questao/fcc-trt20-2024-tecnico-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q59
 
 *Arquivo 10 · Normativos CNJ / PDPJ · Claudionir · TRT4 Analista TI (código 14) · FCC. Próximo: 11 CNJ 400.*

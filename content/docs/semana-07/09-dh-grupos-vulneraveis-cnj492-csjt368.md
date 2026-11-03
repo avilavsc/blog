@@ -295,124 +295,138 @@ E) 492 é Estatuto do Idoso
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** (FCC — DPE-RR — 2021 — linha CEDAW / grupos vulneráveis) A Convenção sobre a Eliminação de todas as Formas de Discriminação contra a Mulher estabelece normas gerais de proteção dos direitos das mulheres, sendo, dentre outras, normas que:
+> Questões reais de provas (FCC). Gabarito só ao final.
 
-A) reconhecem o direito da mulher de escolher livremente o cônjuge e a obrigação dos Estados signatários de estabelecer uma idade mínima para o casamento  
-B) preveem o estabelecimento de medidas especiais de caráter **permanente** destinadas a acelerar a igualdade de fato entre o homem e a mulher  
-C) consagram, pioneiramente, os variados direitos sexuais e reprodutivos da mulher e, de forma embrionária, o combate à violência obstétrica  
-D) vinculam os Estados signatários na oferta de proteção eficaz e diferenciada de toda mulher contra violência sofrida nos ambientes doméstico e laboral  
-E) superam a noção de discriminação centrada na diferença sexual, de cunho biológico, por aquela fundada na ideia de gênero, de natureza social  
+**16.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+Com relação ao Comitê de Acompanhamento e Capacitação sobre Julgamento com Perspectiva de Gênero no Poder Judiciário e o Comitê de Incentivo à Participação Institucional Feminina no Poder Judiciário, considere: I. O Comitê será coordenado por um Conselheiro ou Conselheira do Conselho Nacional de Justiça, assegurada a participação de representantes da Justiça Estadual, Federal, do Trabalho, Eleitoral e Militar, Escola Nacional de Formação e Aperfeiçoamento de Magistrados (Enfam), Escola Nacional de Formação e Aperfeiçoamento de Magistrados do Trabalho (Enamat) e da Ordem dos Advogados do Brasil (OAB), sendo vedada a participação de representantes da academia e da sociedade civil. II. A composição do Comitê observará a pluralidade de gênero e raça, bem como, na medida do possível, a participação de integrantes que expressem a diversidade presente na sociedade nacional. III. Caberá ao Comitê, dentre outras atribuições, elaborar estudos e propor medidas concretas de aperfeiçoamento do sistema de justiça quanto às causas que envolvam direitos humanos, gênero, raça e etnia, em perspectiva interseccional. De acordo com a Resolução nº 492/2023 do Conselho Nacional de Justiça (CNJ), está correto o que se afirma em
 
-**17.** (FCC — DPE-AM — 2021/2022 — linha CF / idoso) A gratuidade no transporte coletivo urbano é assegurada expressamente pela Constituição Federal aos maiores de:
+A) I, II e III.  
+B) II, apenas.  
+C) III, apenas.  
+D) I e III, apenas.  
+E) II e III, apenas.  
 
-A) 65 anos  
-B) 70 anos  
-C) 60 anos  
-D) 75 anos  
-E) 80 anos  
+**17.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+De acordo com a Declaração das Nações Unidas sobre os direitos dos povos indígenas, os povos indígenas
 
-**18.** (FCC — DPE-PB — 2022 — linha SIDH / mulher) O enfrentamento à violência doméstica contra a mulher, no âmbito interamericano, consta:
+A) junto com os Estados adotarão medidas eficazes para que as pessoas indígenas, em particular as crianças, com exceção das que vivem fora de suas comunidades, tenham acesso, quando possível, à educação em sua própria cultura e em seu próprio idioma.  
+B) têm o direito de estabelecer seus próprios meios de informação, em seus próprios idiomas, e de ter acesso a todos os demais meios de informação não indígenas, sem qualquer discriminação.  
+C) têm o direito de conservar e reforçar suas próprias instituições políticas, jurídicas, econômicas, sociais e culturais, não mantendo, entretanto, o direito de participar plenamente da vida política e econômica do Estado.  
+D) têm o direito de determinar sua própria identidade conforme seus costumes e tradições. Porém, isso prejudica o direito dos indígenas de obterem a cidadania dos Estados onde vivem.  
+E) não têm o direito de determinar as estruturas e de eleger a composição de suas instituições em conformidade com seus próprios procedimentos.  
 
-A) no julgamento do caso Maria da Penha pela Corte Interamericana de Direitos Humanos  
-B) na Convenção de Belém do Pará  
-C) na Convenção sobre a eliminação de todas as formas de discriminação contra a mulher  
-D) na opinião consultiva do caso Hernandez vs. Guatemala da Comissão Interamericana de Direitos Humanos  
-E) no Protocolo de San Salvador  
+**18.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+De acordo com o Protocolo Facultativo à Convenção sobre a Eliminação de Todas as Formas de Discriminação Contra a Mulher, as comunicações sobre a violação de quaisquer direitos estabelecidos na referida convenção, feitas ao Comitê sobre a Eliminação da Discriminação contra a Mulher,
 
-**19.** (Linha FCC / analista — CNJ 492) Ao disciplinar a perspectiva de gênero no Poder Judiciário, a Resolução CNJ nº 492/2023:
+A) serão sempre consideradas, ainda que não haja o reconhecimento de que todos os recursos da jurisdição interna tenham sido esgotados ou que a utilização desses recursos estaria sendo protelada além do razoável ou deixaria dúvida quanto a produzir o efetivo amparo.  
+B) não poderão ser declaradas inadmissíveis quando se referirem a assunto que já tiver sido examinado pelo Comitê ou tiver sido ou estiver sendo examinado sob outro procedimento internacional de investigação ou solução de controvérsias.  
+C) podem ser apresentadas somente por indivíduos que se encontrem sob a jurisdição do Estado Parte e aleguem ser vítimas de violação de quaisquer dos direitos estabelecidos na Convenção por aquele Estado Parte, sendo vedada a apresentação de comunicação por grupos de indivíduos.  
+D) deverão ser feitas por escrito, podendo ser anônimas, sendo que nenhuma comunicação relacionada a um Estado Parte da Convenção que não seja parte do referido Protocolo será recebida pelo Comitê.  
+E) serão declaradas inadmissíveis, pelo Comitê, dentre outras hipóteses, quando tiverem como objeto fatos que tenham ocorrido antes da entrada em vigor do referido Protocolo para o Estado Parte em questão, a não ser no caso de tais fatos terem tido continuidade após aquela data.  
 
-A) estabelece as diretrizes do Protocolo aprovado pelo GT da Portaria CNJ 27/2021 e exige capacitação periódica mínima anual  
-B) limita a capacitação a cursos facultativos quinquenais, sem vínculo com o Prêmio CNJ de Qualidade  
-C) confunde-se com a política de sustentabilidade da Resolução CNJ 400/2021  
-D) aplica-se exclusivamente aos tribunais da Justiça do Trabalho, excluído o restante do PJ  
-E) substitui o Programa de Equidade da Resolução CSJT 368/2023  
+**19.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+De acordo com a Resolução nº 368/2023 do Conselho Superior da Justiça do Trabalho (CSJT), para fins do Programa de Equidade de Raça, Gênero e Diversidade no âmbito da Justiça do Trabalho, considera-se:
 
-**20.** (Linha FCC — CSJT 368 / conceitos) No Programa de Equidade de Raça, Gênero e Diversidade (CSJT 368/2023), a equidade é compreendida como:
+A) Diversidade: respeito à vida e à dignidade de todos os seres humanos, com o reconhecimento das diversas maneiras de ser e as constituições múltiplas de grupos sociais e suas manifestações, sejam elas culturais, políticas, religiosas, regionais, raciais, de gênero, etárias, comportamentais, entre outras.  
+B) Raça: conjunto de características socialmente construídas, muitas vezes negativas e subordinatórias, atribuídas artificialmente aos diferentes sexos, a depender das diversas posições sociais ocupadas por membros de um mesmo grupo.  
+C) Interseccionalidade: integração dos conhecimentos e das diretrizes do referido Programa ao conjunto das políticas e das estratégias de ação institucionais, de modo a garantir sua implementação em todas as dimensões da organização.  
+D) Transversalidade: atração sexual e afetiva de um determinado indivíduo. Pessoas que se atraem pelo mesmo gênero são homossexuais; pessoas que se atraem pelo gênero oposto são heterossexuais; e pessoas que se atraem por ambos os gêneros são bissexuais.  
+E) Etarismo: modos de viver, costumes, afinidades linguísticas de um determinado povo que criam as condições de pertencimento.  
 
-A) vedação a qualquer ação afirmativa  
-B) sinônimo exclusivo de “laicidade do Estado”  
-C) proibição de capacitação em diversidade  
-D) reconhecimento de que o acesso aos direitos humanos exige ações universais e também específicas/afirmativas voltadas a grupos minoritários ou historicamente oprimidos  
-E) substituição do devido processo por mediação obrigatória em todo processo judicial  
+**20.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+Joaquim, estudante, ficou sabendo que o Brasil deseja ratificar um importante Tratado Internacional sobre Direitos Humanos e descobriu que, de acordo com a Constituição Federal de 1988, referido tratado
 
-**21.** (Linha FCC — anti-confusão normativa) Assinale a associação correta:
+A) será equivalente às emendas constitucionais se for aprovado, em cada Casa do Congresso Nacional, em turno único, por três quintos dos votos dos respectivos membros.  
+B) será equivalente às emendas constitucionais se for aprovado, em cada Casa do Congresso Nacional, em turno único, por metade dos votos dos respectivos membros.  
+C) será equivalente às emendas constitucionais se for aprovado por maioria simples, em turno único, em apenas uma das Casas do Congresso Nacional, em razão da importância dos direitos humanos no ordenamento jurídico brasileiro.  
+D) será equivalente às emendas constitucionais se for aprovado, em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros.  
+E) não poderá ser equivalente às emendas constitucionais, independentemente de qualquer aprovação pelo Congresso Nacional, por expressa vedação constitucional.  
 
-A) CNJ 492/2023 — Programa de Equidade de Raça, Gênero e Diversidade na JT  
-B) CSJT 368/2023 — Protocolo para Julgamento com Perspectiva de Gênero no PJ  
-C) CNJ 351/2020 — assédio moral/sexual e discriminação no Poder Judiciário  
-D) CSJT 360/2023 — política de sustentabilidade do Judiciário  
-E) CNJ 400/2021 — Comitê de Incentivo à Participação Institucional Feminina  
+**21.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+De acordo com o Estatuto de Roma do Tribunal Penal Internacional,
 
-**22.** (Linha FCC — criança) No marco de proteção da criança e do adolescente no Brasil, o ECA consagra, entre outros, o princípio da:
+A) o Tribunal não será competente para julgar as pessoas físicas que praticarem crimes previstos no Estatuto, não as podendo considerar individualmente responsáveis nem as punir.  
+B) são da competência do Tribunal, exclusivamente, os crimes contra a humanidade, o crime de genocídio e os crimes de guerra.  
+C) salvo disposição contrária do Estatuto, nenhuma pessoa poderá ser julgada pelo Tribunal por atos constitutivos de crimes pelos quais este já a tenha condenado ou absolvido.  
+D) uma pessoa poderá ser considerada criminalmente responsável, nos termos do Estatuto, por uma conduta anterior a sua entrada em vigor.  
+E) se o direito aplicável a um caso for modificado antes ou depois de proferida sentença definitiva, aplicar-se-á sempre a nova regra à pessoa objeto de inquérito, acusada ou condenada.  
 
-A) proteção integral e prioridade absoluta  
-B) irrelevância do interesse da criança diante do Estado  
-C) capacidade civil plena automática aos 12 anos  
-D) exclusão de tratados internacionais  
-E) tutoria exclusiva da Justiça Eleitoral  
+**22.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+De acordo com a Resolução do Conselho Superior da Justiça do Trabalho (CSJT) nº 368/2023, o Comitê Gestor Nacional do Programa de Raça, Gênero e Diversidade, instituído no âmbito do CSJT, é composto por membros efetivos, dentre os quais,
 
-**23.** (Linha FCC — PcD / CDPD) A Convenção sobre os Direitos das Pessoas com Deficiência, no ordenamento brasileiro pós-EC 45, destaca-se por ter sido aprovada:
+A) um(a) Ministro(a) Coordenador(a), indicado(a) pela Presidência do CSJT, sendo que os(as) magistrados(as) Gestores(as) Nacionais não poderão ser reeleitos(as)/reconduzidos(as), garantindo a alternância dos membros do Comitê.  
+B) o(a) Ministro(a) Presidente do CSJT, que o presidirá, sendo que referido Comitê reunir-se-á trimestralmente, em caráter ordinário, podendo ser convocadas reuniões extraordinárias pela Presidência ou pela Coordenação Nacional do Programa.  
+C) um(a) Ministro(a) Vice-Coordenador(a) indicado(a) pelo Coordenador do CSJT, sendo que os(as) magistrados(as) e servidores(as) que tiverem sido punidos judicialmente, com sentença transitada em julgado, não poderão integrar o Comitê, não se aplicando essa vedação se a punição tiver sido apenas na esfera administrativa.  
+D) cinco magistrados(as), representando cada uma das cinco regiões do país, indicados pela Presidência do CSJT, sendo obrigatoriamente: um(a) magistrado(a) com deficiência, um(a) magistrado(a) negro(a), um(a) magistrado(a) LGBTQIAP+, uma magistrada mulher e um magistrado homem com mais de 70 anos.  
+E) três servidores(as) do Tribunal Superior do Trabalho ou do CSJT, indicados pela Presidência do CSJT e do TST, obrigatoriamente entre servidores(as) com deficiência, negros(as), LGBTQIAP+, mulheres com mais de 65 anos.  
 
-A) apenas como decreto legislativo sem qualquer status especial  
-B) no rito do art. 5º, § 3º, da CF, com status equivalente a emenda constitucional  
-C) como soft law idêntica à DUDH  
-D) exclusivamente pelo CSJT  
-E) apenas na esfera municipal  
+**23.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+De acordo com a Convenção Americana sobre Direitos Humanos,
 
-**24.** (Linha FCC — CSJT 368 / gestão) Sobre o Comitê Gestor Regional do Programa de Equidade (CSJT 368/2023), é correto afirmar que:
+A) ninguém pode ser condenado por ações ou omissões que, no momento em que forem cometidas, não sejam delituosas, de acordo com o direito aplicável. Tampouco se pode impor pena mais grave que a aplicável no momento da perpetração do delito. Se depois da perpetração do delito a lei dispuser a imposição de pena mais leve, o delinquente não será por isso beneficiado.  
+B) todo cidadão deve gozar do direito de votar e ser eleito em eleições periódicas autênticas, realizadas por sufrágio universal e igual e por voto secreto que garanta a livre expressão da vontade dos eleitores, sendo que a lei pode regular o exercício desse direito exclusivamente por motivos de idade, capacidade civil ou mental ou condenação em processo penal.  
+C) toda pessoa detida ou retida deve ser conduzida, sem demora, à presença de um juiz ou outra autoridade autorizada pela lei a exercer funções judiciais e tem direito a ser julgada dentro de um prazo razoável ou a ser posta em liberdade, sem prejuízo de que prossiga o processo. Sua liberdade não pode ser condicionada a garantias que assegurem o seu comparecimento em juízo.  
+D) ninguém deve ser constrangido a executar trabalho forçado ou obrigatório, sendo assim considerados, inclusive, os serviços normalmente exigidos de pessoa reclusa em cumprimento de sentença e o serviço imposto em caso de perigo ou calamidade, ainda que ameace o bem-estar da comunidade.  
+E) os processados devem ficar separados dos condenados, salvo em circunstâncias excepcionais, e ser submetidos a tratamento adequado à sua condição de pessoas não condenadas. Os menores, quando puderem ser processados, devem ser separados dos adultos e conduzidos a tribunal especializado, com a maior rapidez possível, para seu tratamento.  
 
-A) dispensa documentação das reuniões  
-B) tem mandato de vinte anos improrrogáveis  
-C) deve reunir-se ordinariamente a cada trimestre e encaminhar relatório anual de atividades ao Comitê Nacional  
-D) é composto apenas por ministros do STF  
-E) substitui o Conselho Nacional de Justiça  
+**24.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+Considere: I. Todo ser humano, vítima de perseguição, tem o direito de procurar e de gozar asilo em outros países, sendo que esse direito pode ser invocado inclusive em caso de perseguição legitimamente motivada por crimes de direito comum, não podendo, entretanto, ser motivada por atos contrários aos objetivos e princípios das Nações Unidas. II. Todo ser humano tem direito à liberdade de pensamento, consciência e religião; esse direito inclui a liberdade de mudar de religião ou crença e a liberdade de manifestar essa religião ou crença pelo ensino, pela prática, pelo culto em público ou em particular. III. Todo ser humano tem direito à liberdade de opinião e expressão; esse direito inclui a liberdade de, sem interferência, ter opiniões e de procurar, receber e transmitir informações e ideias por quaisquer meios e independentemente de fronteiras. De acordo com a Declaração Universal dos Direitos Humanos, está correto o que se afirma em
 
-**25.** (Linha FCC — interseccionalidade / prova analista) Em enunciado que descreve mulher negra, PcD e terceirizada enfrentando barreiras cumulativas no ambiente de trabalho judiciário, a leitura mais alinhada aos normativos da semana é:
+A) I, apenas.  
+B) I e III, apenas.  
+C) I, II e III.  
+D) II e III, apenas.  
+E) II, apenas.  
 
-A) tratar cada eixo isoladamente e negar interações  
-B) afastar CNJ 492 por ser “só criminal”  
-C) resolver apenas com CNJ 400  
-D) aplicar interseccionalidade e transversalidade das políticas de equidade/diversidade (linha 368) e, no julgamento, perspectiva de gênero interseccional (linha 492)  
-E) negar vulnerabilidade por haver vínculo terceirizado  
+**25.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+De acordo com a Declaração das Nações Unidas sobre os Direitos dos Povos Indígenas,
+
+A) os povos e pessoas indígenas têm o direito de pertencer a uma comunidade ou nação indígena, em conformidade com as tradições e costumes da comunidade ou nação em questão. Nenhum tipo de discriminação poderá resultar do exercício desse direito.  
+B) não se desenvolverão atividades militares nas terras ou territórios dos povos indígenas, ainda que essas atividades possam ser justificadas por interesse público pertinente, não podendo ser essa restrição, em nenhuma hipótese, objeto de acordo entre os envolvidos.  
+C) os povos indígenas têm o direito de revitalizar, utilizar, desenvolver e transmitir às gerações futuras suas histórias, idiomas, tradições orais, filosofias, sistemas de escrita e literaturas; porém, não possuem o direito de atribuir nomes às suas comunidades e lugares e de mantê-los.  
+D) os Estados adotarão medidas eficazes para que exclusivamente as crianças indígenas que vivam dentro de suas comunidades tenham acesso, quando possível, à educação em sua própria cultura e em seu próprio idioma.  
+E) os povos indígenas têm o direito de estabelecer seus próprios meios de informação, em seus próprios idiomas, mas não possuem o direito de ter acesso a todos os demais meios de informação não indígenas.  
 
 ---
 
 ### Gabarito comentado (treino 1–15)
 
-1. **A** — 492 = Protocolo / perspectiva de gênero nos julgamentos.  
-2. **A** — 368 = Programa de Equidade na JT.  
-3. **D** — capacitação mínima anual.  
-4. **D** — > 65 (CF art. 230, § 2º / Estatuto).  
-5. **C** — ≥ 60 = pessoa idosa.  
-6. **B** — medidas especiais **temporárias** (CEDAW).  
+1. **A** — CNJ 492 = perspectiva de gênero no julgamento.  
+2. **A** — CSJT 368 = Programa de Equidade na JT.  
+3. **D** — capacitação anual.  
+4. **D** — gratuidade 65 anos.  
+5. **C** — idoso = ≥ 60.  
+6. **B** — CEDAW: medidas especiais temporárias.  
 7. **C** — Belém do Pará.  
-8. **A** — interação de eixos de subordinação.  
-9. **D** — universal + afirmativo.  
-10. **C** — 90 dias.  
-11. **A** — 368 ↔ equidade JT.  
-12. **C** — Comitê nacional permanente.  
+8. **A** — interseccionalidade (eixos de subordinação).  
+9. **D** — equidade = universais + específicas.  
+10. **C** — Comitê Regional em 90 dias.  
+11. **A** — 368 × equidade JT.  
+12. **C** — Comitê nacional permanente (492).  
 13. **A** — modelo social / barreiras.  
-14. **E** — conceitos distintos.  
-15. **D** — objetos diferentes (julgamento × assédio JT).
+14. **E** — orientação sexual ≠ identidade de gênero.  
+15. **D** — 492 julgamento × 360 assédio/discriminação JT.
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso 16–25)
 
-| Q | Gab | Nota |
-|---|-----|------|
-| 16 | **A** | FCC DPE-RR/2021 — CEDAW art. 16; “permanente” na B é armadilha |
-| 17 | **A** | FCC DPE-AM — CF art. 230, § 2º; 60 é idade de “idoso”, não da gratuidade constitucional |
-| 18 | **B** | FCC DPE-PB/2022 — Belém do Pará (interamericano); CEDAW = ONU |
-| 19 | **A** | 492 + Portaria 27/2021 + anual |
-| 20 | **D** | art. 2º, I, da 368 |
-| 21 | **C** | 351 = assédio/discriminação no PJ |
-| 22 | **A** | proteção integral / prioridade absoluta |
-| 23 | **B** | CDPD + § 3º → status EC |
-| 24 | **C** | trimestral + relatório até 31/01 |
-| 25 | **D** | interseccionalidade 368 + perspectiva 492 |
+| Questão | Gabarito | Fonte / nota |
+|---------|----------|--------------|
+| 16 | **E** | FCC TRT-6/2025 Q26 — Resolução CNJ nº 492/2023 |
+| 17 | **B** | FCC TRT-6/2025 Q27 — Direitos Humanos |
+| 18 | **E** | FCC TRT-6/2025 Q28 — Protocolo Facultativo à CEDAW |
+| 19 | **A** | FCC TRT-6/2025 Q29 — Resolução CSJT nº 368/2023 |
+| 20 | **D** | FCC TRT-6/2025 Q30 — Constituição Federal de 1988 |
+| 21 | **C** | FCC TRT-1/2025 Q21 — Estatuto de Roma |
+| 22 | **B** | FCC TRT-1/2025 Q22 — CSJT 368 Comitê Gestor |
+| 23 | **E** | FCC TRT-1/2025 Q23 — Convenção Americana |
+| 24 | **D** | FCC TRT-1/2025 Q24 — DUDH II e III |
+| 25 | **A** | FCC TRT-1/2025 Q25 — Direitos dos Povos Indígenas |
 
----
+**Notas rápidas:** 16 E; 17 B; 18 E; 19 A; 20 D; 21 C; 22 B; 23 E; 24 D; 25 A.
+
+Distribuição do gabarito (16–25): E, B, E, A, D, C, B, E, D, A — letras A–E presentes.
 
 ## 4. Gabarito consolidado
 
@@ -421,10 +435,10 @@ E) negar vulnerabilidade por haver vínculo terceirizado
 | 1 | A | 2 | A | 3 | D | 4 | D | 5 | C |
 | 6 | B | 7 | C | 8 | A | 9 | D | 10 | C |
 | 11 | A | 12 | C | 13 | A | 14 | E | 15 | D |
-| 16 | A | 17 | A | 18 | B | 19 | A | 20 | D |
-| 21 | C | 22 | A | 23 | B | 24 | C | 25 | D |
+| 16 | E | 17 | B | 18 | E | 19 | A | 20 | D |
+| 21 | C | 22 | B | 23 | E | 24 | D | 25 | A |
 
-Distribuição (A–E): A=9 · B=3 · C=6 · D=6 · E=1.
+Distribuição concurso 16–25: A=2 · B=2 · C=1 · D=2 · E=3 (treino 1–15 intacto).
 
 ---
 

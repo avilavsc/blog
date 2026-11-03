@@ -411,112 +411,134 @@ E) Shift left = auditar só no fim com time isolado
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (reais) (16–25)
 
-**16.** Em abordagem DevOps voltada à automação de integração e entrega contínuas (CI/CD), é correto afirmar que:
+> Questões **reais** de provas FCC (preferência TRT Analista TI), com banca/órgão/ano citados. Textos conferidos em Quizinho, QConcursos, Estude Grátis e/ou prova oficial.
 
-A) o Selenium, por si só, orquestra pipelines de CI/CD e gerencia repositórios Git, sendo incompatível com a maior parte das linguagens usadas em CircleCI  
-B) Git e GitHub são interdependentes a ponto de o Git não operar sem o GitHub, realizando sozinhos toda a integração contínua  
-C) ferramentas como Jenkins, CircleCI ou GitLab CI/CD orquestram pipelines que podem invocar builds (ex.: Maven) e suítes de testes (incluindo UI com Selenium), a partir de código versionado em Git  
-D) o Maven é ferramenta proprietária de controle de versões e pipelines, cujo descritor principal chama-se `pom.java`  
-E) o Jenkins, escrito em PHP, destina-se exclusivamente a armazenar o histórico de testes automatizados  
+**16.** (FCC – TRT-20/2024 – Analista Judiciário – Tecnologia da Informação) Uma equipe deseja adotar abordagem DevOps para automatizar o processo de integração e entrega contínua (CI/CD). Para isso, é necessário integrar diversas ferramentas para otimizar a automação dos testes e a entrega do produto. Dentre essas ferramentas, encontra-se o
 
-**17.** Acerca de DevSecOps, assinale a alternativa que melhor expressa a prática alinhada ao conceito.
+A) Selenium, que é utilizado para automação de builds, testes de integração e execução de pipelines de CI/CD, que integra-se ao CircleCI, que faz a gestão de repositórios Git. O CircleCI é compatível apenas com as linguagens Go, Java e Ruby, apresentando incompatibilidade com Python, Ruby, Scala, Node.js, PHP e Haskell.  
+B) Git. Esta ferramenta precisa ser integrada ao GitHub, uma vez que são interdependentes. Usadas em conjunto, conseguem realizar o controle de versão e proporcionar a integração contínua.  
+C) GitHub Actions, que permite a criação de workflows de CI/CD diretamente no GitHub. Os workflows são definidos no diretório `.github/workflows` de um repositório, que pode ter vários workflows, cada um dos quais podendo executar um conjunto diferente de tarefas, como criar e testar pull requests.  
+D) Jenkins, que é uma ferramenta escrita em PHP, exclusiva para automação de testes, que integra-se ao Git para armazenar o histórico dos testes automatizados executados.  
+E) Maven, que é uma ferramenta proprietária para automação de builds, que também possui capacidades nativas de controle de versões e pipelines de CI/CD, similar ao GitLab CI/CD. Um projeto Maven fica atrelado a um arquivo principal: o pom.java.  
 
-A) Concentrar toda a verificação de segurança em auditoria manual tardia, sem automação no pipeline, como modelo preferencial  
-B) Incorporar controles e verificações de segurança de modo contínuo ao ciclo de desenvolvimento e operação (*shift left*), com automação sempre que possível  
-C) Eliminar testes funcionais para acelerar o deploy  
-D) Substituir o controle de versão por cópias manuais em produção  
-E) Restringir a segurança ao firewall de borda, ignorando o ciclo de build  
+**17.** (FCC – TRT-6/2025 – Analista Judiciário – Tecnologia da Informação) A equipe de desenvolvimento do Tribunal Regional do Trabalho está trabalhando em um novo produto de software que será implementado em um ambiente de nuvem. A organização utiliza práticas de DevOps e DevSecOps para acelerar o desenvolvimento e, ao mesmo tempo, melhorar a segurança desde as primeiras fases do ciclo de vida do software. Um dos principais desafios para a equipe é integrar testes de segurança contínuos sem impactar a velocidade de entrega, o que pode ser conseguido
 
-**18.** Considere as afirmações abaixo.
+A) garantindo que a equipe de desenvolvimento seja treinada em práticas de DevSecOps, aplicando na fase de produção, testes IAST (Interactive Agile Security Testing), que combinam testes SAST e DAST, usando software para monitorar a performance da aplicação.  
+B) concentrando-se principalmente em automação de testes de performance e de funcionalidades, com foco em segurança após a fase de homologação, aplicando testes RAST (Rapid Agile Security Testing).  
+C) criando uma equipe de segurança separada que realiza auditorias manuais de segurança em intervalos regulares, após cada fase do desenvolvimento.  
+D) implementando verificações de segurança apenas na fase final do desenvolvimento, para garantir que todos os testes de segurança sejam realizados apenas uma vez.  
+E) adotando a abordagem Shift Left Security e integrando ferramentas automatizadas de segurança diretamente nos pipelines de CI/CD, permitindo que vulnerabilidades sejam detectadas nas primeiras fases do desenvolvimento.  
 
-I. Maven automatiza builds e dependências em projetos Java, tendo o `pom.xml` como descritor central.  
-II. Selenium concentra-se na automação de testes de interface em navegadores, não substituindo o orquestrador de CI/CD.  
-III. CircleCI e GitLab CI/CD são exemplos de plataformas/mecanismos de CI/CD configuráveis tipicamente via YAML no repositório.
+**18.** (FCC – TRT-1/2025 – Analista Judiciário – Tecnologia da Informação) O time de TI de um Tribunal Regional do Trabalho que está desenvolvendo uma aplicação web configurou o Selenium WebDriver para realizar testes de funcionalidades no navegador Chrome. Durante os testes, identificaram que o script falha ao tentar interagir com o botão de "Enviar", apresentando o erro NoSuchElementException. O desenvolvedor analisou o código e percebeu que o botão é carregado dinamicamente após a conclusão de uma animação. Nesse contexto, a abordagem mais adequada que o time deve adotar para resolver o problema e garantir que o botão seja corretamente identificado e clicado nos testes é
 
-Está correto o que se afirma em:
+A) configurar o WebDriver para ignorar exceções e continuar a execução.  
+B) atualizar o Selenium WebDriver e o Selenium IDE para as versões mais recentes.  
+C) implementar Implicit Wait no script para executar após o carregamento do botão.  
+D) aumentar o tempo de execução do script para garantir que o botão seja carregado.  
+E) utilizar Explicit Wait para aguardar a presença do botão na página antes de interagir.  
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) II e III, apenas  
-E) I, II e III  
+**19.** (FCC – TRT-15/2024 – Analista Judiciário – Tecnologia da Informação) Maria é uma analista de TI em um Tribunal Regional do Trabalho. Ela está implementando um novo sistema para gerenciamento de processos trabalhistas e quer realizar testes no código do sistema para garantir que todas as funcionalidades atendam aos requisitos corretamente antes de lançar o sistema em produção e decidiu utilizar o JUnit que
 
-**19.** No contraste entre Continuous Delivery e Continuous Deployment, é correto afirmar que:
+A) é um framework utilizado para testes de desempenho e carga em aplicativos Java.  
+B) é um framework de teste de unidade para Java que facilita a criação e execução de testes automatizados.  
+C) permite a geração automática de relatórios de cobertura de código sem precisar de ferramentas adicionais.  
+D) é especificamente projetado para testar interfaces de usuário em aplicações Java Swing.  
+E) é uma ferramenta que permite a execução paralela de testes de integração distribuídos.  
 
-A) Continuous Deployment dispensa qualquer pipeline ou teste prévio  
-B) Continuous Delivery enfatiza manter o software em estado liberável de forma contínua, podendo haver gate de aprovação antes da produção; Continuous Deployment automatiza a ida à produção após o pipeline bem-sucedido  
-C) ambos equivalem estritamente ao uso exclusivo de Selenium Grid  
-D) Continuous Delivery é sinônimo de Service Discovery  
-E) Continuous Deployment é função nativa exclusiva do protocolo Git, sem runners  
+**20.** (FCC – TRT-19/2022 – Analista Judiciário – Tecnologia da Informação) O teste automatizado de software que simula situações que normalmente não aconteceriam (como toques acidentais em áreas não interativas), para analisar se nenhum ponto da interface apresenta problemas, é conhecido como teste de
 
-**20.** Em enunciado que descreve “servidor de automação open source, baseado em Java, que executa pipelines de build, teste e deploy mediante jobs e plugins”, a ferramenta mais adequada é:
+A) Unit.  
+B) Stress.  
+C) GUI.  
+D) Block.  
+E) API.  
 
-A) Selenium IDE  
-B) MapStruct  
-C) Jenkins  
-D) Flyway  
-E) Eureka  
+**21.** (FCC – TRT-15/2023 – Analista Judiciário – Tecnologia da Informação) Suponha que um Analista de um tribunal está realizando testes de software e estudou os seguintes textos:  
+I. Verifica se diferentes módulos ou serviços usados pelo seu aplicativo funcionam bem juntos. Envolve testar diferentes módulos de um aplicativo de software como um grupo. Um aplicativo de software é composto de diferentes submódulos que trabalham juntos para diferentes funcionalidades. A execução desses tipos de testes tem um custo maior, uma vez que exigem que várias partes do aplicativo estejam ativas e em execução.  
+II. Verifica os recursos, funcionalidades e usabilidade de negócios críticos. Garante que os recursos e funcionalidades do software estejam se comportando como esperado sem qualquer falha. Valida principalmente toda a aplicação em relação às especificações mencionadas no documento Software Requirement Specification (SRS), (especificação de requisitos de software).  
+Os tipos de teste relatados nos textos acima são, correta e respectivamente,
 
-**21.** Assinale a opção que **inverte** indevidamente papéis das ferramentas do eixo DevOps do edital.
+A) Unitário e Funcional.  
+B) Funcional e Integração.  
+C) Unitário e Integração.  
+D) Integração e Funcional.  
+E) Funcional e Unitário.  
 
-A) Git versiona; GitHub hospeda/colabora; Jenkins orquestra CI  
-B) Maven usa `pom.xml`; Selenium automatiza browser; CircleCI executa workflows YAML  
-C) GitLab CI define stages/jobs; runners executam; testes UI podem usar Selenium  
-D) Selenium orquestra CI/CD e gerencia repositórios; Maven é VCS; Jenkins é exclusivo de PHP e só guarda histórico de testes  
-E) DevSecOps reforça segurança contínua no pipeline (*shift left*)  
+**22.** (FCC – TRT-12/2023 – Analista Judiciário – Tecnologia da Informação) Na abordagem DevOps, a integração e a entrega contínuas (CI/CD) juntas são comumente tratadas como um processo relacionado, conhecido como
 
-**22.** A utilização de workflows definidos em arquivos YAML no diretório `.github/workflows` de um repositório relaciona-se, em regra, a:
+A) hub register.  
+B) pipeline.  
+C) git hub.  
+D) container register.  
+E) end-to-end.  
 
-A) GitHub Actions como mecanismo de CI/CD integrado ao GitHub  
-B) Substituição obrigatória do Git por FTP  
-C) Configuração exclusiva do Hibernate Envers  
-D) Definição de realms Keycloak  
-E) Scripts DDL no lugar do Flyway  
+**23.** (FCC – TRT-17/2022 – Analista Judiciário – Tecnologia da Informação) Para construir um pipeline como código no Jenkins, um analista utilizou um arquivo de texto simples conhecido como
 
-**23.** Considere o encadeamento: *commit* no Git → pipeline no GitLab CI → `mvn test/package` → suíte Selenium em homologação. Assinale a interpretação correta.
+A) Pipejenkins que especifica o encadeamento dos estágios do processo DevSecOps.  
+B) Scripted que especifica o enlace crítico entre as etapas primárias DevOps.  
+C) JenkinsFile que normalmente contém um código Groovy Domain Specific Language.  
+D) JenkinsGroovy que especifica o enlace crítico usando código DomainPline.  
+E) Declarative que especifica o enlace crítico usando código GroovyPline.  
 
-A) O GitLab CI substitui a necessidade de qualquer teste  
-B) O Maven passa a ser o repositório Git  
-C) O orquestrador CI coordena build (Maven) e testes (incluindo UI com Selenium) sobre o código versionado  
-D) O Selenium versiona o código e emite tokens OAuth  
-E) O encadeamento descreve apenas Service Discovery  
+**24.** (FCC – TRT-22/2022 – Analista Judiciário – Tecnologia da Informação) Considere o recorte de um arquivo `.gitlab-ci.yml` que traz algumas opções de configuração de um pipeline GitLab CI/CD, nas seções que são separadas pelas *global keywords*.
 
-**24.** Para fins de preparação no eixo DevOps/DevSecOps e testes automatizados do edital (Analista TI / FCC), a síntese mais adequada é:
+```
+stages:
+ - sync
+ - prepare
+ - build-images
 
-A) DevOps automatiza colaboração e entrega; DevSecOps adiciona segurança contínua; CI/CD orquestra o fluxo; Git/GitHub tratam versão/hospedagem; Jenkins, CircleCI e GitLab CI executam pipelines; Maven builda Java; Selenium automatiza UI  
-B) Selenium, Maven e Git são orquestradores CI idênticos; DevSecOps elimina shift left  
-C) Jenkins exige PHP; `pom.java` é padrão Maven; Git depende do GitHub  
-D) CircleCI só gerencia DNS; GitLab CI não usa YAML  
-E) Testes automatizados tornam desnecessário qualquer controle de versão  
+I:
+ interruptible: true
+ timeout: 90m
 
-**25.** Assinale a afirmação **incompatível** com o uso adequado de Selenium no contexto DevOps.
+workflow:
+ # regras
 
-A) Empregar Selenium para regressão de fluxos críticos de interface web  
-B) Invocar a suíte Selenium a partir de um job de CI após o build  
-C) Combinar Selenium com testes unitários/mais rápidos na pirâmide de testes  
-D) Tratar o Selenium como substituto completo de Jenkins/CircleCI/GitLab CI e do controle de versão Git  
-E) Reconhecer limites de custo/tempo/fragilidade da camada UI frente a testes unitários  
+variables:
+ # variáveis
+
+II:
+ - local: .gitlab/ci/*.gitlab-ci.yml
+ - remote: 'https://gitlab.com/gitlab-org/frontend/-/merge_request_pipelines.yml'
+```
+
+As *global keywords* I e II correspondem, correta e respectivamente, a
+
+A) `tags` e `directories`  
+B) `dependencies` e `environment`  
+C) `dependencies` e `pages`  
+D) `default` e `include`  
+E) `default` e `directories`  
+
+**25.** (FCC – TRT-15/2024 – Analista Judiciário – Tecnologia da Informação) Uma equipe de desenvolvimento utiliza o GitLab CI/CD para automação de builds e deploys. Para otimizar o processo de integração contínua (CI), foi configurado um webhook para disparar automaticamente um pipeline de build assim que um commit é enviado ao branch main. No entanto, durante uma atualização do ambiente de produção, percebeu-se que o webhook falhou e o pipeline não foi executado, causando atraso no deploy. Após uma análise técnica, verificou-se que o problema ocorreu devido a uma falha no endpoint do webhook, que não conseguiu validar a mensagem enviada. A solução técnica que deve ser implementada para garantir que o webhook não falhe novamente devido a erros de validação é
+
+A) configurar uma API reversa para verificar e redirecionar as mensagens do webhook para um endpoint alternativo.  
+B) implementar SSL offloading no servidor para garantir que as mensagens webhook trafeguem com criptografia SSL.  
+C) configurar um balanceador de carga para distribuir as requisições do webhook entre múltiplos endpoints redundantes de validação de mensagens.  
+D) criar um proxy reverso com logs detalhados para monitorar a comunicação e diagnosticar falhas no endpoint do webhook.  
+E) habilitar o recurso de verificação de assinatura (usando token) para checar a integridade das mensagens enviadas pelo webhook.  
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **C** |
-| 17 | **B** |
-| 18 | **E** |
-| 19 | **B** |
-| 20 | **C** |
-| 21 | **D** |
-| 22 | **A** |
-| 23 | **C** |
-| 24 | **A** |
-| 25 | **D** |
+| Q | Gab. | Fonte / nota |
+|---|------|----------------|
+| 16 | **C** | FCC TRT-20/2024 — GitHub Actions; Selenium/Maven/Jenkins como distratores (Quizinho) |
+| 17 | **E** | FCC TRT-6/2025 — Shift Left Security no CI/CD (Quizinho / QConcursos) |
+| 18 | **E** | FCC TRT-1/2025 — Selenium Explicit Wait (Quizinho) |
+| 19 | **B** | FCC TRT-15/2024 — JUnit = testes de unidade Java (Quizinho) |
+| 20 | **C** | FCC TRT-19/2022 — teste de GUI (Quizinho) |
+| 21 | **D** | FCC TRT-15/2023 — Integração e Funcional (Quizinho) |
+| 22 | **B** | FCC TRT-12/2023 — CI/CD = pipeline (Quizinho) |
+| 23 | **C** | FCC TRT-17/2022 — Jenkinsfile / Groovy (Quizinho) |
+| 24 | **D** | FCC TRT-22/2022 — `default` e `include` no `.gitlab-ci.yml` (Quizinho) |
+| 25 | **E** | FCC TRT-15/2024 — assinatura de webhook GitLab (Quizinho) |
 
-**Notas rápidas:** 16 C (orquestradores CI + Maven/Selenium sobre Git; A/B/D/E = distratores clássicos FCC); 17 B (segurança contínua/shift left); 18 E (I–III corretas); 19 B (Delivery liberável × Deployment automático); 20 C (Jenkins); 21 D (única que **inverte** papéis); 22 A (GitHub Actions / `.github/workflows`); 23 C (CI coordena build+testes); 24 A (síntese do edital); 25 D (Selenium ≠ CI/VCS).
+Letras do gabarito neste bloco: C, E, E, B, C, D, B, C, D, E (A–E: A ausente neste bloco — ver gap).
 
 ---
 
@@ -526,14 +548,14 @@ E) Reconhecer limites de custo/tempo/fragilidade da camada UI frente a testes un
 |----------|--------|
 | Edital: Jenkins; Maven; CircleCI; Git; GitHub; GitLab CI/CD; Selenium; testes automatizados | Coberto |
 | DevOps × DevSecOps × shift left | Seções 1.1–1.2, 1.11 + Q2/Q13/Q17 |
-| CI × CD (Delivery/Deployment) | Seção 1.3 + Q3/Q14/Q19 |
-| Mapa anti-confusão ferramentas | Seção 1.4 + Q6/Q12/Q16/Q21 |
-| Selenium noção (UI/E2E; não CI) | Seção 1.10 + Q4/Q12/Q25 |
+| CI × CD (Delivery/Deployment) | Seção 1.3 + Q3/Q14/Q22 |
+| Mapa anti-confusão ferramentas | Seção 1.4 + Q6/Q12/Q16 |
+| Selenium noção (UI/E2E; não CI) | Seção 1.10 + Q4/Q12/Q18 |
 | Grafia *Sellenium* do edital | Nota no cabeçalho |
-| Treino 1–15 com gabarito comentado | 15/15 |
-| FCC 16–25 com tabela + notas | 10/10 |
-| Distratores clássicos (papéis trocados; pom.java; Git↔GitHub; Jenkins PHP; Selenium=CI) | Presentes |
-| Gabaritos únicos (sem ambiguidade intencional) | Conferidos |
+| Treino 1–15 com gabarito comentado | 15/15 intacto |
+| Concurso 16–25 = questões **reais** + tabela Fonte/nota | 10/10 |
+| Distratores clássicos (papéis trocados; pom.java; Git↔GitHub; Jenkins PHP; Selenium=CI) | Presentes em Q16 |
+| Gabaritos oficiais | Conferidos |
 | Fora de escopo: Docker/K8s/Rancher profundos; Rabbit; OAuth | Declarado + 1.12 |
 
 ---

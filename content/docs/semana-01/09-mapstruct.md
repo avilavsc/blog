@@ -1,4 +1,4 @@
-﻿+++
++++
 title = '09 — MapStruct'
 date = '2026-10-09'
 draft = false
@@ -317,118 +317,191 @@ E) Correto se o gateway for Zuul
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões reais de concurso (16–25)
 
-**16.** Em aplicações Java alinhadas à stack referida no contexto PDPJ-Br, o MapStruct caracteriza-se, em regra, por:
+> Bloco substituído por questões **reais** de concurso (FCC preferencialmente; TRT/TRF/TJ quando necessário). O treino 1–15 e o Material permanecem inalterados.
 
-A) funcionar como catálogo exclusivo de registro e heartbeat de réplicas  
-B) gerar, em tempo de compilação, mapeamentos tipados entre tipos Java (como Entity e DTO)  
-C) expor, por si só, a documentação interativa OpenAPI da API  
-D) substituir integralmente o protocolo HTTP por SOAP  
-E) constituir o dialect SQL utilizado pelo Hibernate  
+**16.** (FCC | TRT15 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 32 de 60)
 
-**17.** Relativamente à separação Entity/DTO em APIs REST, assinale a opção correta:
+Em uma aplicação Java que utiliza MapStruct, em condições ideais, um usuário tem uma classe chamada `Processo` e uma chamada `ProcessoDto`. Deseja criar uma interface MapStruct chamada `ProcessoMap` para mapear de `ProcessoDto` para `Processo` e vice-versa. Essa interface deve ser anotada, imediatamente antes de sua declaração, com
 
-A) A Entity deve ser, por definição, o único payload JSON público em todo microsserviço  
-B) O DTO costuma representar o contrato de entrada/saída; a Entity, o modelo de persistência; o MapStruct facilita a conversão  
-C) DTO e Entity são nomes comerciais do Eureka  
-D) A existência de DTO torna o MapStruct conceitualmente impossível  
-E) MapStruct obriga banco único compartilhado entre serviços  
+A) `@Map(type="MapStruct")`
 
-**18.** Comparando MapStruct ao mapeamento manual campo a campo, a vantagem tipicamente cobrada é:
+B) `@Mapping`
 
-A) eliminar a necessidade de controllers REST  
-B) reduzir boilerplate e antecipar inconsistências de mapeamento no build, mantendo desempenho próximo ao código escrito à mão  
-C) substituir o Service Discovery  
-D) documentar try-it automaticamente no lugar do Swagger  
-E) registrar a aplicação no Zuul como filtro error  
+C) `@MapStruct`
 
-**19.** Assinale a alternativa que apresenta associação **incorreta**:
+D) `@Mapper`
 
-A) MapStruct — mapeamento Entity↔DTO  
-B) Swagger — documentação/contrato de API  
-C) Eureka — Service Discovery  
-D) MapStruct — ponto único de entrada e roteamento de borda (papel de API Gateway)  
-E) Zuul — API Gateway na stack clássica Netflix/Spring Cloud  
+E) `@InterfaceMapper`
 
-**20.** Em enunciado que contraste ferramentas da stack, a FCC tipicamente considera **correto** que:
 
-A) Swagger gera mappers Entity↔DTO na compilação e MapStruct documenta endpoints  
-B) MapStruct ocupa-se da conversão entre modelos de objeto, ao passo que Swagger documenta a API  
-C) MapStruct e Swagger são intercambiáveis em qualquer item  
-D) MapStruct aplica rate limit na borda  
-E) Swagger realiza heartbeat das réplicas  
+**17.** (FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 46 de 60)
 
-**21.** A expressão “annotation processor que produz implementações de mapper durante a compilação” descreve com mais precisão:
+Em uma aplicação, considere a existência de uma classe chamada Advogado com o atributo nome e outra classe AdvogadoDto com o atributo nomeCompleto. Usando MapStruct, uma Analista criou a interface abaixo.```Ipublic interface AdvogadoMapper { II(target = "nomeCompleto", source = "nome") AdvogadoDto advogadoToAdvogadoDto(Advogado advogado);}```Para que o mapeamento seja realizado corretamente, as lacunas I e II devem ser preenchidas, correta e respectivamente, por
 
-A) Eureka Server  
-B) Zuul filter post  
-C) MapStruct  
-D) Flyway migrate  
-E) Hibernate Envers exclusivamente  
+A) `@Mapper` e `@Mapping`
 
-**22.** Em arquitetura de microsserviços com API JSON, o uso de MapStruct **não** implica, por si só:
+B) `@Mapping` e `@Equals`
 
-A) possibilidade de isolar o modelo interno do contrato externo  
-B) substituição do API Gateway e do Service Discovery  
-C) conversão tipada entre DTO e Entity  
-D) menor volume de código manual de cópia de campos  
-E) integração natural com serviços Spring que expõem DTOs  
+C) `@MapStruct` e `@Mappings`
 
-**23.** Considere as afirmações:
+D) `@MapStruct` e `@Map`
 
-I. MapStruct documenta schemas OpenAPI no navegador (try-it).  
-II. MapStruct mapeia objetos Java com código gerado no build.  
-III. Swagger não substitui o papel de mapper Entity↔DTO do MapStruct.
+E) `@Mapper` e `@Equity`
 
-Assinale:
 
-A) Apenas I  
-B) Apenas II  
-C) II e III  
-D) I e II  
-E) I, II e III  
+**18.** (FCC | TRT23 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 37 de 60)
 
-**24.** Diferenciar MapStruct de frameworks de mapeamento por reflexão em runtime é relevante em provas porque:
+Para definir um mapeador de bean com MapStruct deve-se definir uma interface Java com os métodos de mapeamento necessários e anotá-la com a anotação
 
-A) não há qualquer diferença conceitual cobrável  
-B) o MapStruct enfatiza geração compile-time, tipagem e desempenho por chamadas diretas  
-C) MapStruct só existe fora do ecossistema Java  
-D) reflexão compile-time é exclusividade do Eureka  
-E) MapStruct é apenas o nome antigo do Swagger Codegen  
+A) `@MapStruct`
 
-**25.** A síntese mais alinhada ao edital, sobre MapStruct, é:
+B) `@EntityMapper`
 
-A) MapStruct = discovery; Swagger = gateway; Entity = docs  
-B) MapStruct = mapper Entity↔DTO com geração na compilação; útil em APIs/microsserviços; distinto de Swagger (docs) e de mapeamento só manual  
-C) MapStruct obriga expor Entity no JSON e elimina DTO  
-D) MapStruct substitui Zuul, Eureka e OpenAPI  
-E) MapStruct é o banco H2 do Spring Boot  
+C) `@GeneratedMapper`
+
+D) `@Mapper`
+
+E) `@BeanMapping`
+
+
+**19.** (FCC | TRT23 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60)
+
+No componente controller de uma aplicação criada com recursos Spring Boot foram incluídas as anotações abaixo a um método REST.```@ApiOperation(value = "Obter a lista de processos no sistema", response = Iterable.class, tags = "getProcessos")@ApiResponses(value = {@ApiResponse(code = 200, message = "Successo|OK"),@ApiResponse(code = 401, message = "Não autorizado"),@ApiResponse(code = 403, message = "Proibido"),@ApiResponse(code = 404, message = "Não encontrado") })@RequestMapping(value = "/getProcessos")public List<Processos> getProcessos() {return processos;}````@ApiOperation` e `@ApiResponses` são anotações
+
+A) MapStruct.
+
+B) Hibernate.
+
+C) Spring Eureka.
+
+D) Spring Zuul.
+
+E) Swagger.
+
+
+**20.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22) *[aproximação temática]*
+
+*Stack Java/PDPJ; MapStruct raro isolado.*
+
+Os microsserviços da Plataforma Digital do Poder Judiciário (PDPJ) são desenvolvidos com tecnologias de código aberto, são implementados com o uso do Spring framework, e Java é a principal linguagem de programação. De acordo com a documentação da PDPJ, faz parte do ecossistema do Spring Framework o
+
+A) Swagger, que organiza os scripts SQL que são executados no banco de dados, funcionando como um controle de versão.
+
+B) Flyway, serviço de documentação que descreve APIs RESTful expressas usando JSON.
+
+C) Zuul, que fornece os recursos de cliente para o serviço de descoberta Eureka.
+
+D) Netflix Eureka, que tem como principal função ser um ponto único de entrada, distribuindo as requisições entre as diversas instâncias de serviços.
+
+E) Data Envers, que é um módulo Hibernate que adiciona funcionalidades de auditoria às entities JPA.
+
+
+**21.** (FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 54 de 60) *[aproximação temática]*
+
+*Anotações Java em entidades.*
+
+Um Analista de um Tribunal necessita habilitar o Hibernate Envers em uma entidade. Para isso, ele deve
+
+A) utilizar o método `Session.saveOrUpdate()` para a entidade.
+
+B) anotar a entidade com `@Audited`.
+
+C) configurar `hibernate.envers.enabled` como `true` no arquivo de configuração.
+
+D) estender a classe `AuditedEntity` fornecida pelo Hibernate Envers.
+
+E) configurar o `audit-log` no arquivo `persistence.xml`.
+
+
+**22.** (FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 41 de 60) *[aproximação temática]*
+
+Uma analista está desenvolvendo um sistema usando JPA e deseja configurar a utilização do framework Hibernate como provedor de persistência, por meio da instrução `<provider>org.hibernate.ejb.HibernatePersistence</provider>` que deve ser colocada no arquivo
+
+A) `hibernate.xml`
+
+B) `persistence-unit.xml`
+
+C) `persistence.xml`
+
+D) `orm-database-config.xml`
+
+E) `server.xml`
+
+
+**23.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60) *[aproximação temática]*
+
+Uma equipe de desenvolvimento está utilizando Spring Boot para criar uma API RESTful. Durante os testes, observaram que a aplicação demora a inicializar, principalmente devido à configuração do banco de dados. Para melhorar o tempo de inicialização, decidiram desabilitar a criação automática do esquema de banco de dados ao iniciar a aplicação. A configuração, no `application.properties`, que desabilita a criação automática do esquema de banco de dados pelo Spring Boot é a
+
+A) `spring.jpa.hibernate.ddl-auto=none`
+
+B) `spring.datasource.database-auto=false`
+
+C) `spring.jpa.db-sql=disable`
+
+D) `spring.jpa.properties.hibernate.db-auto=disable`
+
+E) `spring.jpa.create-database-init=false`
+
+
+**24.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60) *[aproximação temática]*
+
+Um Analista de TI está desenvolvendo uma API com Spring Boot e deseja integrar Swagger para facilitar a documentação e testes dessa API. Para integrar no Swagger com um projeto Spring Boot a abordagem mais adequada é
+
+A) adicionar as dependências do Swagger manualmente no classpath do projeto.
+
+B) adicionar as dependências do Swagger no arquivo `pom.xml` ou `build.gradle` do projeto Spring Boot.
+
+C) criar um arquivo separado para todas as configurações do Swagger sem importar as dependências no projeto.
+
+D) utilizar um plugin externo para o IDE que automaticamente gera a documentação do Swagger sem configuração adicional.
+
+E) configurar o servidor de aplicação para disponibilizar a documentação do Swagger sem modificar o código do projeto.
+
+
+**25.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60) *[aproximação temática]*
+
+Na abordagem do Spring para construir serviços web RESTful, as solicitações HTTP são tratadas por um controlador, que é uma classe identificada com a anotação
+
+A) `@RestfulController`
+
+B) `@RestfulMapping`
+
+C) `@RestApplicationController`
+
+D) `@RestController`
+
+E) `@RequestController`
+
 
 ---
 
-### Gabarito comentado (concurso 16–25)
+### Gabarito (concurso reais 16–25)
 
-16. **B** — Compile-time mapper Entity/DTO.  
-17. **B** — DTO = contrato; Entity = persistência; MapStruct converte.  
-18. **B** — Menos boilerplate + checagem no build + perf.  
-19. **D** — Gateway ≠ MapStruct.  
-20. **B** — Papéis complementares, sem inverter.  
-21. **C** — Definição de annotation processor mapper.  
-22. **B** — Não substitui Gateway/Discovery.  
-23. **C** — I falsa (Swagger); II e III verdadeiras.  
-24. **B** — Compile-time × reflexão runtime.  
-25. **B** — Cartão mental completo do arquivo 09.
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **D** | FCC | TRT15 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 32 de 60 |
+| 17 | **A** | FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 46 de 60 |
+| 18 | **D** | FCC | TRT23 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 37 de 60 |
+| 19 | **E** | FCC | TRT23 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60 |
+| 20 | **E** \* | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22 |
+| 21 | **B** \* | FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 54 de 60 |
+| 22 | **C** \* | FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 41 de 60 |
+| 23 | **A** \* | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60 |
+| 24 | **B** \* | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60 |
+| 25 | **D** \* | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60 |
 
----
+\* = aproximação temática (questão real correlata quando o nicho é raro em prova).
 
-## 4. Auto-checagem rápida (opcional)
-
-Antes de marcar a questão, pergunte:
-
-1. É **Entity↔DTO / mapper / compile-time**? → MapStruct.  
-2. É **documentar API / OpenAPI / try-it**? → Swagger.  
-3. É **entrada/rota/filtro**? → Gateway/Zuul.  
-4. É **onde está a réplica**? → Eureka.  
-5. Manual ainda mapeia? → Sim — só sem o gerador.
-)
+**Fontes:**
+- Q16: https://www.quizinho.com.br/questao/fcc-trt15-2023-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2023-q32
+- Q17: https://www.quizinho.com.br/questao/fcc-trt22-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q46
+- Q18: https://www.quizinho.com.br/questao/fcc-trt23-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q37
+- Q19: https://www.quizinho.com.br/questao/fcc-trt23-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q39
+- Q20: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q22
+- Q21: https://www.quizinho.com.br/questao/fcc-trt20-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q54
+- Q22: https://www.quizinho.com.br/questao/fcc-trt22-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q41
+- Q23: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q38
+- Q24: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q53
+- Q25: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q31

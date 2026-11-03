@@ -367,112 +367,137 @@ E) Rancher revoga a existência de containers
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (reais) (16–25)
 
-**16.** Em ambiente de microsserviços conteinerizados alinhado ao conteúdo programático da PDPJ-Br, a adoção do Kubernetes tem por finalidade precípua:
+> Questões reais de provas (preferência FCC/TRT Analista TI). Gabarito só ao final.
 
-A) substituir o protocolo OAuth 2.0 e eliminar o Keycloak  
-B) automatizar a orquestração de containers (implantação, escalonamento e gestão do ciclo de vida) em cluster  
-C) versionar exclusivamente scripts DDL no lugar do Flyway  
-D) mapear entidades JPA em DTOs em tempo de compilação  
-E) atuar como único banco de dados relacional do tribunal  
+**16.** (FCC – TRT-14/2022 – Analista Judiciário – TI)  
+Para coordenar e agendar vários contêineres, habilitar comunicações entre eles e escalar instâncias de contêiner, um analista pode utilizar o
 
-**17.** Acerca da arquitetura de um cluster Kubernetes, assinale a alternativa correta.
+A) Kubernetes, solução utilizada para vários tipos de contêiner, incluindo Docker.  
+B) Swagger, solução exclusiva para contêineres Docker.  
+C) Kubernetes, solução exclusiva para contêineres Docker.  
+D) Swagger, solução exclusiva para contêineres Zuul.  
+E) Keycloak, solução utilizada para qualquer tipo de contêiner.
 
-A) O kube-scheduler armazena o estado persistente do cluster no lugar do etcd e executa os containers sem kubelet  
-B) O kube-apiserver é a interface central da API; o etcd persiste o estado; o scheduler seleciona o nó para Pods novos; o kubelet no nó assegura a execução dos containers  
-C) O kube-proxy é o único componente autorizado a gravar diretamente no etcd  
-D) Worker nodes não executam Pods; apenas o control plane hospeda aplicações de negócio  
-E) O container runtime é desnecessário quando há Deployment  
+**17.** (FCC – TRT-4/2022 – Técnico Judiciário – TI)  
+Um Técnico está participando de um projeto de microsserviços distribuídos onde centenas de contêineres são utilizados. Para fazer a orquestração destes contêineres, ou seja, a coordenação e o monitoramento, ele precisa utilizar um recurso que possa permitir que a atualização da aplicação em um contêiner não interrompa o serviço. O recurso sugerido corretamente por ele, nesse caso, foi o
 
-**18.** Considere as afirmações abaixo.
+A) Qubes.  
+B) VirtualBox.  
+C) VMWare.  
+D) Docker, em modo padrão.  
+E) Kubernetes.
 
-I. O Pod é a menor unidade implantável no Kubernetes e pode conter um ou mais containers.  
-II. O Deployment gerencia réplicas e possibilita estratégias como *rolling update*.  
-III. O Service oferece acesso estável a um conjunto de Pods selecionados, tipicamente por *labels*.
+**18.** (FCC – TRT-22/2022 – Técnico Judiciário – TI)  
+No Kubernetes, os contêineres gerenciados pelo kubelet podem usar a estrutura de hook do ciclo de vida do contêiner para executar código acionado por eventos durante o gerenciamento de seu ciclo de vida. Há dois tipos de hooks:  
+I. Este hook é executado imediatamente após um contêiner ser criado. Mas não há garantia de que o hook será executado antes do ENTRYPOINT do contêiner. Nenhum parâmetro é passado para o handler.  
+II. Esse hook é chamado imediatamente antes de um contêiner ser terminated devido a uma solicitação de API ou um gerenciamento de evento como liveness/startup probe failure, preemption, resource contention e outros. Uma chamada a este hook falha se o contêiner já está em um estado terminated ou completed e o hook deve ser concluído antes que o sinal TERM seja enviado para parar o contêiner. Nenhum parâmetro é passado para o handler.  
+Os hooks I e II são, correta e respectivamente,
 
-Está correto o que se afirma em:
+A) PostStart e PreStop.  
+B) HookStart e HookStop.  
+C) PodStart e PodStop.  
+D) KubeStart e KubeStop.  
+E) KubeletStart e KubeletStop.
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) II e III, apenas  
-E) I, II e III  
+**19.** (FUMARC – TRT-3/2022 – Técnico Judiciário – TI)  
+Analise as afirmativas a seguir referentes a Kubernetes:  
+I – Kubernetes é uma plataforma de código aberto, portável e extensiva para o gerenciamento de cargas de trabalho e serviços distribuídos em contêineres.  
+II – Kubernetes é um sistema PaaS (plataforma como serviço) monolítico que opera no nível do hardware.  
+III – Um cluster Kubernetes consiste em um conjunto de servidores de processamento, chamados nós, que executam aplicações containerizadas.  
+Está CORRETO o que se afirma em:
 
-**19.** No contraste entre **Deployment** e **DaemonSet**, é correto afirmar que:
+A) I e II, apenas.  
+B) I e III, apenas.  
+C) II e III, apenas.  
+D) III, apenas.  
+E) I, II e III.
 
-A) ambos existem apenas fora do Kubernetes, no Rancher exclusivo  
-B) o Deployment define um número desejado de réplicas no cluster; o DaemonSet visa garantir um Pod por nó elegível  
-C) o DaemonSet substitui o etcd; o Deployment emite tokens OAuth  
-D) Deployment e DaemonSet são sinônimos estritos de ClusterIP  
-E) somente o DaemonSet permite *rolling update* em apps *stateless* típicas  
+**20.** (FCC – SEFAZ-SP/2026 – Auditor Fiscal – TI)  
+Um órgão tributário está executando workloads de análise antifraude em um cluster Kubernetes e alguns pods falham intermitentemente na inicialização porque dependem de credenciais de acesso a sistemas internos. A equipe deseja disponibilizar esses valores sensíveis seguindo boas práticas, sem embuti-los na imagem de contêiner. Nessa situação, o mecanismo do Kubernetes que deve ser utilizado é
 
-**20.** Em enunciado que descreve “endereço virtual interno estável e distribuição de requisições entre réplicas de um microsserviço identificadas por rótulos”, o objeto Kubernetes mais adequado é:
+A) inserir as variáveis sensíveis diretamente no Dockerfile como variáveis de ambiente fixas.  
+B) gravar as credenciais em arquivos dentro da imagem durante o processo de build.  
+C) armazenar variáveis sensíveis como objetos Secret do Kubernetes e referenciá-las nos pods.  
+D) definir credenciais como argumentos de build (ARG) e reutilizá-las em todas as imagens.  
+E) manter as credenciais em ConfigMaps, permitindo compartilhamento centralizado entre múltiplos pods e versionamento junto às configurações da aplicação.
 
-A) ConfigMap  
-B) Secret  
-C) **Service** (ex.: ClusterIP)  
-D) Namespace isolando fisicamente o cabo de rede  
-E) MapStruct  
+**21.** (FCC – TRT-17/2022 – Técnico Judiciário – TI)  
+Considere as seguintes definições:  
+I. Gerencia os containers em execução e, por isso, ele também é chamado de Orquestrador de Containers. Através dele se pode definir o estado de um sistema completo, por exemplo, baseado em Microservices, seguindo boas práticas de infraestrutura como código, permitindo balanceamento de carga, alta disponibilidade, atualizações em lote e rollbacks.  
+II. Refere-se a um grupo de servidores distribuídos geograficamente que trabalham em conjunto para oferecer uma rápida entrega de conteúdo de internet. Permite uma transferência rápida dos ativos necessários para carregar o conteúdo da internet, incluindo páginas HTML, arquivos em JavaScript, folhas de estilo, imagens e vídeos.  
+III. Projeto opensource escrito em Go, que torna a criação e o gerenciamento de containers Linux mais fácil. O container é construído usando namepspaces, cgroups, chroot entre outras funcionalidades do kernel para criar uma área isolada para a aplicação. É executado como um processo isolado no sistema operacional hospedeiro, compartilhando o kernel com outros recipientes.  
+As definições I, II e III correspondem, correta e respectivamente, a
 
-**21.** Assinale a opção que **inverte** indevidamente conceitos deste eixo.
+A) Kubernetes, Docker e Content Delivery Network (CDN).  
+B) Content Delivery Network (CDN), Kubernetes e Docker.  
+C) Content Delivery Network (CDN), Docker e Kubernetes.  
+D) Docker, Content Delivery Network (CDN) e Kubernetes.  
+E) Kubernetes, Content Delivery Network (CDN) e Docker.
 
-A) Pod agrupa containers; Service abstrai IP volátil; Deployment controla réplicas  
-B) API Server recebe requisições; etcd guarda estado; kubelet executa no nó  
-C) Docker constrói/roda container; Kubernetes orquestra; Rancher apoia gestão de clusters  
-D) Kubernetes = Service Discovery Eureka; Pod = Authorization Server; Service = Flyway  
-E) Labels permitem seletores de Pods por Deployment/Service  
+**22.** (FGV – TJ-RJ/2026 – Analista de Infraestrutura de TIC)  
+No contexto dos conceitos de Docker e Kubernetes, é correto afirmar que:
 
-**22.** A utilização de **ConfigMap** e **Secret** em workloads Kubernetes relaciona-se à ideia de:
+A) o Kubernetes é utilizado exclusivamente na etapa de desenvolvimento para a construção das imagens, cabendo ao Docker a responsabilidade pelo balanceamento de carga em produção;  
+B) eles são tecnologias mutuamente excludentes, uma vez que a adoção do orquestrador Kubernetes elimina, por definição, a necessidade de qualquer mecanismo de empacotamento de contêineres;  
+C) o Docker atua como um hipervisor de tipo 1 para virtualizar o hardware físico, enquanto o Kubernetes opera como o sistema operacional convidado responsável pela execução das aplicações;  
+D) o Docker provê os mecanismos para criação e execução de contêineres individuais, enquanto o Kubernetes gerencia a orquestração, o escalonamento e a resiliência desses contêineres em cluster;  
+E) o Kubernetes substitui integralmente a necessidade de um container runtime subjacente, executando os processos da aplicação diretamente sobre o processador do servidor sem camadas intermediárias.
 
-A) desacoplar configuração (e dados sensíveis, no caso de Secret) das imagens, injetando-os nos Pods conforme a política do cluster  
-B) substituir o kube-scheduler por scripts SQL  
-C) registrar instâncias no Eureka a cada *heartbeat* obrigatório do etcd  
-D) gerar automaticamente o Swagger UI  
-E) tornar desnecessário qualquer container runtime  
+**23.** (FGV – MPE-ES/2026 – Analista de Infraestrutura / DevOps)  
+A orquestração de contêineres permite automatizar a implantação, o escalonamento e o gerenciamento de aplicações distribuídas. Analise as afirmativas a seguir.  
+I. O Kubernetes é uma plataforma de orquestração de contêineres que permite automatizar a implantação, o escalonamento e a gestão de aplicações em clusters de nós computacionais.  
+II. O Rancher é uma ferramenta nativa do Kubernetes utilizada para o gerenciamento de clusters.  
+III. Em um cluster Kubernetes, os nós de trabalho executam os pods, enquanto o plano de controle é responsável pelo gerenciamento do estado do cluster.  
+Está correto o que se afirma em
 
-**23.** Considere o uso conjugado de **Docker**, **Kubernetes** e **Rancher** no texto do edital. Assinale a alternativa correta.
+A) I, apenas.  
+B) I e II, apenas.  
+C) I e III, apenas.  
+D) II e III, apenas.  
+E) I, II e III.
 
-A) Rancher elimina a necessidade de Pods; Docker é IdP; Kubernetes é apenas IDE  
-B) Docker fornece o empacotamento/execução de containers; Kubernetes orquestra no cluster; Rancher figura como plataforma de gestão/operação de Kubernetes  
-C) Os três são grants da RFC 6749  
-D) Kubernetes substitui JSON; Docker substitui HTTP; Rancher substitui TLS  
-E) Apenas o Rancher cria imagens OCI; Kubernetes proíbe containers  
+**24.** (FGV – TJ-SC/2026 – Analista de Sistemas)  
+No contexto de desenvolvimento de software em nuvem e uso de containers, considere:  
+I. Recurso que pode ser compartilhado pelos containers com o sistema operacional do hospedeiro, mas não pelas máquinas virtuais.  
+II. Orquestrador de containers.  
+III. Novo modelo de desenvolvimento em que as aplicações são feitas para a nuvem, e não adaptadas a ela.  
+Assinale a opção que apresenta, respectivamente, os recursos ou conceitos listados.
 
-**24.** Para fins de preparação no eixo Kubernetes do edital (PDPJ-Br / Analista TI), a síntese mais adequada é:
+A) Kernel, Docker, IaaS.  
+B) Cluster, Node, Microserviços.  
+C) Kernel, Kubernetes, Cloud Native.  
+D) Hardware, Hypervisor, Cluster.  
+E) Sistema de arquivos base, Kubernetes, DevOps.
 
-A) cluster = control plane + nodes; unidade = Pod; apps *stateless* via Deployment; exposição interna via Service; config via ConfigMap/Secret; gestão complementar via Rancher na trilha Docker→K8s→Rancher  
-B) etcd escolhe o nó; scheduler grava o estado; Pod é maior que Namespace  
-C) Service Discovery Spring Cloud é idêntico ao kubelet  
-D) DaemonSet serve só para emitir Bearer tokens  
-E) Namespace é o único objeto que executa containers  
+**25.** (FCC – TRT-19/2022 – Analista Judiciário – TI)  
+Nos projetos da Plataforma Digital do Poder Judiciário PDPJ-Br,
 
-**25.** Assinale a afirmação **incompatível** com o modelo cobrável de Kubernetes.
-
-A) Controllers reconciliam estado desejado e estado atual  
-B) Pods são tipicamente efêmeros; Services estabilizam o acesso  
-C) O scheduler seleciona nós; o kubelet assegura Pods no nó  
-D) A menor unidade implantável é o container isolado, inexistindo o conceito de Pod no Kubernetes  
-E) Deployments permitem escalar réplicas e atualizar de forma controlada  
+A) os ambientes de deployment estão instalados em clusters Kubernetes, gerenciados por meio da ferramenta open source de orquestração de containers Rancher.  
+B) a aplicação deve possuir os arquivos `yanl`, para que o deploy ocorra de forma automática por meio de pipelines de CI/CD executados pelo GitLab do STF.  
+C) a aplicação deve possuir um arquivo `Rancherfile`, especificando o modo pelo qual ela deve ser empacotada.  
+D) deve haver o arquivo `.gitlab-ci.xml` definindo a pipeline de deploy automático.  
+E) deve haver, na pasta `kubernets`, o arquivo de configuração do ingress da aplicação, que é obrigatório.
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **B** |
-| 17 | **B** |
-| 18 | **E** |
-| 19 | **B** |
-| 20 | **C** |
-| 21 | **D** |
-| 22 | **A** |
-| 23 | **B** |
-| 24 | **A** |
-| 25 | **D** |
+| Questão | Gabarito | Fonte / nota |
+|---------|----------|--------------|
+| 16 | **A** | FCC TRT-14/2022 — K8s orquestra vários tipos de contêiner |
+| 17 | **E** | FCC TRT-4/2022 — Kubernetes (atualização sem interrupção) |
+| 18 | **A** | FCC TRT-22/2022 — PostStart e PreStop |
+| 19 | **B** | FUMARC TRT-3/2022 — I e III (II falsa: não é PaaS monolítico) |
+| 20 | **C** | FCC SEFAZ-SP/2026 — Secret (não ConfigMap) |
+| 21 | **E** | FCC TRT-17/2022 — K8s / CDN / Docker |
+| 22 | **D** | FGV TJ-RJ/2026 — Docker empacota; K8s orquestra |
+| 23 | **C** | FGV MPE-ES/2026 — I e III (Rancher não é nativo do K8s) |
+| 24 | **C** | FGV TJ-SC/2026 — Kernel / Kubernetes / Cloud Native |
+| 25 | **A** | FCC TRT-19/2022 — clusters K8s + Rancher na PDPJ |
 
-**Notas rápidas:** 16 B (orquestração); 17 B (arquitetura clássica); 18 E (I–III corretas); 19 B (réplicas × por nó); 20 C (Service); 21 D (única que **inverte** tudo); 22 A (ConfigMap/Secret); 23 B (Docker→K8s→Rancher); 24 A (síntese); 25 D (nega o Pod — incompatível).
+**Notas rápidas:** 16 A (orquestração). 17 E (Kubernetes). 18 A (PostStart/PreStop). 19 B (I+III). 20 C (Secret). 21 E (K8s/CDN/Docker). 22 D (empacotar×orquestrar). 23 C (I+III). 24 C (Kernel/K8s/CN). 25 A (PDPJ).
 
 ---
 
@@ -489,7 +514,7 @@ E) Deployments permitem escalar réplicas e atualizar de forma controlada
 | Gabaritos únicos (sem ambiguidade intencional) | Conferidos |
 | Anti-confusão Service × Ingress × Gateway; Pod × container | 1.8, 1.12, 1.13 + Q12/Q21/Q23 |
 
-**Checagem pontual dos gabaritos:** 1B 2B 3B 4B 5B 6B 7B 8B 9A 10B 11B 12B 13B 14B 15A · 16B 17B 18E 19B 20C 21D 22A 23B 24A 25D — alinhados ao material e à documentação oficial de arquitetura/objetos.
+**Checagem pontual dos gabaritos (concurso):** 16A 17E 18A 19B 20C 21E 22D 23C 24C 25A.
 
 ---
 

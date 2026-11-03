@@ -308,112 +308,118 @@ E) Nenhuma cai no edital
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** Relativamente às normas de Gerais do edital (código 14), assinale a alternativa correta.
+**16.** (FCC – TRT-12/2023 – Analista Judiciário – TI)  
+Para implementar a política de sustentabilidade, o Presidente do Tribunal Regional do Trabalho utilizou-se de instrumento que se alinha à Estratégia Nacional do Judiciário, e aos Planos Estratégicos dos órgãos, com objetivos e responsabilidades definidas, indicadores, metas, prazos de execução, mecanismos de monitoramento e avaliação de resultados, que permite estabelecer e acompanhar práticas de sustentabilidade, racionalização e qualidade, que objetivem uma melhor eficiência do gasto público e da gestão dos processos de trabalho, considerando a visão sistêmica do órgão. Nos termos da Resolução CNJ nº 400/2021, esse instrumento é
 
-A) A Res. CNJ 400/2021 dispõe sobre a política de sustentabilidade no Poder Judiciário  
-B) A Res. CNJ 400/2021 institui o Código de Conduta do TRT4  
-C) A Res. CSJT 360/2023 trata exclusivamente de MoReq-Jus  
-D) A Res. CNJ 351/2020 é norma de cabeamento estruturado  
-E) A Portaria 4.573/2023 revoga a Declaração Universal dos Direitos Humanos  
+A) o Programa de Alinhamento Estratégico.  
+B) o Plano de Logística Sustentável.  
+C) o Plano Plurianual Sustentável.  
+D) a Gestão Compartilhada.  
+E) o Programa de Eficiência Ambiental.
 
-**17.** Acerca da Res. CNJ 351/2020 e da Res. CSJT 360/2023, é correto afirmar:
+**17.** (FCC – TRT-12/2023 – Técnico Judiciário – Área Administrativa)  
+Os servidores de um Tribunal Regional do Trabalho participaram de curso relacionado ao atendimento dos regramentos previstos na Resolução nº 400/2021 do CNJ, que dispõe sobre a política de sustentabilidade no âmbito do Poder Judiciário. Naquela ocasião, foi enfatizado que assessorar o planejamento, a implementação, o monitoramento de metas anuais e a avaliação de indicadores de desempenho para o cumprimento dessa Resolução cabe
 
-A) Ambas são idênticas em órgão, âmbito e órgão interno tipificado  
-B) A 351 volta-se ao Poder Judiciário (assédio moral/sexual e discriminação), ao passo que a 360 volta-se à JT de 1º/2º graus e inclui a dimensão de violência  
-C) A 360 substitui a 400  
-D) Nenhuma admite meio telemático  
-E) Ambas equivalem ao Conduta TRT4  
+A) à Comissão Sustentável Permanente.  
+B) à Unidade de Sustentabilidade.  
+C) à Comissão de Eficiência Ambiental.  
+D) ao Grupo Logístico Compartilhado.  
+E) ao Conselho Gestor Administrativo.
 
-**18.** O Código de Conduta e Valores Éticos do TRT4, no padrão cobrável do edital, caracteriza-se como:
+**18.** (FCC – TRT-7/2024 – Técnico Judiciário – Área Administrativa)  
+Em conformidade com a Resolução nº 400/2021 do Conselho Nacional de Justiça (CNJ), que dispõe a respeito da política de sustentabilidade no âmbito do Poder Judiciário, a unidade de sustentabilidade
 
-A) resolução do CNJ sobre sustentabilidade  
-B) ato local (Portaria GP.TRT4) que orienta princípios/regras de conduta ética no tribunal, abrangendo magistrados, servidores, estagiários e profissionais de empresas contratadas, no discurso institucional  
-C) política nacional de assédio idêntica à 351  
-D) guia PMI de projetos  
-E) framework ITIL de Service Desk  
+A) não é competente para fomentar ações, ainda que com o apoio da Comissão Gestora do Plano de Logística Sustentável (PSL) e em conjunto com as unidades gestoras pela execução do PLS, que estimulem o controle de emissão de dióxido carbono no âmbito do órgão do Poder Judiciário.  
+B) deve observar a lotação mínima de 3 servidores(as) nos tribunais que possuam menos de 5.000 servidores do quadro de pessoal.  
+C) deve observar a lotação mínima de 5 servidores(as) nos tribunais que possuam mais de 5.000 servidores do quadro de pessoal.  
+D) deve ter caráter permanente para assessorar o planejamento, a implementação, o monitoramento de metas anuais e a avaliação de indicadores de desempenho para o cumprimento da referida Resolução.  
+E) é competente para elaborar relatório de desempenho anual do Plano de Logística Sustentável (PLS), o qual deve ser encaminhado ao CNJ até o dia 30 de junho do ano posterior ao que se refere.
 
-**19.** Considere as afirmações abaixo.
+**19.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+De acordo com a Resolução do CSJT nº 360/2023, que institui a Política de Prevenção e Enfrentamento da Violência, do Assédio e de Todas as formas de Discriminação no âmbito da Justiça do Trabalho de primeiro e segundo graus, para os fins desta Política considera-se
 
-I. A Res. CNJ 400/2021 dialoga com a Agenda 2030 / ODS.  
-II. A Res. CSJT 360/2023 aplica-se à Justiça do Trabalho de 1º e 2º graus.  
-III. O Código de Conduta do TRT4 é, para todos os efeitos, a mesma norma que a Res. CNJ 400/2021.
+A) gestão participativa: conjunto de normas, instruções, práticas e processos que modulam as relações hierárquicas e competências, os mecanismos de deliberação, a divisão e o conteúdo dos tempos de trabalho, o conteúdo das tarefas, os modos operatórios, os critérios de qualidade e de desempenho.  
+B) saúde no trabalho: toda condição ou situação de trabalho que tem o potencial de comprometer o equilíbrio físico, psicológico e social dos indivíduos, e de causar acidente, doença do trabalho e/ou profissional.  
+C) assédio sexual: conduta de conotação sexual praticada contra a vontade de alguém, sob forma verbal, não verbal ou física, manifestada por palavras, gestos, contatos físicos ou outros meios, com o efeito de perturbar ou constranger a pessoa, afetar a sua dignidade, ou de lhe criar um ambiente intimidativo, hostil, degradante, humilhante ou desestabilizador.  
+D) transversalidade: violência e assédio dirigido às pessoas em virtude de seu sexo ou gênero, que impactam de forma desproporcional pessoas de um determinado sexo ou gênero, o que inclui o assédio sexual.  
+E) cooperação horizontal, vertical e transversal: modo de gestão que, entre outros aspectos, promove a valorização e o compartilhamento da experiência de trabalho, a cooperação e a deliberação coletiva e a participação integrada de magistrados e servidores em pesquisas, consultas, grupos gestores, com o objetivo de identificar problemas e propor melhorias no ambiente de trabalho e institucionais.
 
-Está correto o que se afirma em:
+**20.** (FCC – TRT-6/2025 – Técnico Judiciário – Área Administrativa)  
+Em conformidade com a Resolução Administrativa TRT6-GP nº 29/2023, com relação à notícia de assédio ou discriminação,
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) II e III, apenas  
-E) I, II e III  
+A) após a escuta das partes, havendo possibilidade de resolução do conflito, poderá ser firmado Termo de Ajustamento de Conduta (TAC), sendo que, em caso de reincidência, o(a) noticiado(a) não poderá firmar novo TAC, pelo período de cinco anos.  
+B) sendo inviável a resolução do conflito, o(a) noticiante poderá solicitar, desde que dentro do prazo de 1 ano após a escuta das partes, o encaminhamento da notícia à Presidência do Tribunal, para providências cabíveis, exceto a apuração por meio de sindicância ou processo administrativo disciplinar.  
+C) toda conduta que possa configurar assédio ou discriminação poderá ser noticiada apenas pela pessoa que tenha sofrido o assédio ou a discriminação.  
+D) toda conduta que possa configurar assédio ou discriminação poderá ser noticiada por qualquer pessoa que tenha conhecimento de fatos que possam caracterizar assédio ou discriminação no trabalho.  
+E) a unidade institucional que receber a notícia do assédio ou da discriminação fará sempre o registro formal do relato independentemente da autorização da pessoa noticiante.
 
-**20.** Assinale a opção **incompatível** com as políticas 351/360.
+**21.** (FGV – TJ-GO/2023 – Juiz Substituto)  
+Um juiz foi informado de uma possível situação de assédio moral ocorrida no âmbito da estrutura do Poder Judiciário na Comarca. Com base nas orientações do CNJ, a conduta passível de configurar assédio no Poder Judiciário poderá ser noticiada apenas por:
 
-A) Primazia da abordagem preventiva  
-B) Canal de acolhimento distinto do procedimento disciplinar  
-C) Exigência absoluta de intencionalidade como requisito de toda forma de assédio moral  
-D) Vedação à retaliação contra noticiante de boa-fé  
-E) Abrangência inclusive de condutas por meios telemáticos  
+A) todo e qualquer servidor técnico administrativo que seja vítima de assédio praticado por superior hierárquico;  
+B) qualquer pessoa que se perceba vítima de assédio ou qualquer pessoa que tenha conhecimento dos fatos que possam caracterizar o assédio;  
+C) juízes de direito, como parte de suas tarefas não jurisdicionais voltadas para a melhor gestão das unidades pelas quais sejam responsáveis;  
+D) corregedores e auxiliares da corregedoria do Tribunal, que devem ser formalmente comunicados da situação de assédio a fim de tomarem as providências cabíveis;  
+E) órgãos de correição e controle externo do Poder Judiciário, tais como corregedoria e associações de servidores públicos.
 
-**21.** Em prova de Analista Judiciário – TI, confundir o Código de Conduta do TRT4 com a Res. CSJT 360/2023 é inadequado porque:
+**22.** (FCC – TRF-5/2017 – Técnico Judiciário – Área Administrativa)  
+Nos termos da Resolução nº 147/2011 que institui o Código de Conduta do Conselho e da Justiça Federal de primeiro e segundo graus, considere:  
+I. O Código de Conduta do Conselho e da Justiça Federal de primeiro e segundo graus integrará todos os contratos de estágio, de forma a assegurar o alinhamento entre os colaboradores, não integrando, porém, os contratos de prestação de serviços.  
+II. O Conselho e a Justiça Federal de primeiro e segundo graus não serão tolerantes com atitudes discriminatórias ou preconceituosas de qualquer natureza, em relação a etnia, a sexo, a religião, a estado civil, a orientação sexual, a faixa etária ou a condição física especial, excetuando-se os atos que caracterizem proselitismo partidário.  
+III. Recursos, espaço e imagem do Conselho e da Justiça Federal de primeiro e segundo graus não poderão, sob qualquer hipótese, ser usados para atender a interesses pessoais, políticos ou partidários.  
+Está correto o que se afirma APENAS em
 
-A) ambos são rigorosamente o mesmo texto  
-B) o Conduta disciplina valores/ética no âmbito do TRT4, ao passo que a 360 institui política de prevenção/enfrentamento da violência, assédio e discriminação na JT de 1º/2º graus  
-C) a 360 aprova o Regimento Interno  
-D) o Conduta institui a PDPJ  
-E) nenhuma das duas aparece no edital  
+A) III.  
+B) I e II.  
+C) II e III.  
+D) I e III.  
+E) II.
 
-**22.** A dimensão socialmente justa e inclusiva e o vínculo com ODS, no pacote de Gerais, caminham prioritariamente para:
+**23.** (FCC – TRF-5/2017 – Analista Judiciário – Área Administrativa)  
+De acordo com a Resolução nº 147/2011, do Conselho da Justiça Federal, no que concerne especificamente ao Comitê Gestor do Código de Conduta, cada Tribunal Regional Federal terá
 
-A) Res. CNJ 400/2021  
-B) apenas Selenium  
-C) apenas Zuul  
-D) Res. CNJ 443/2022 como sustentabilidade  
-E) Portaria de Conduta como único ato de sustentabilidade nacional  
+A) um comitê gestor formado por servidores nomeados pelo seu presidente; outro tanto no Conselho da Justiça Federal, sendo que as atribuições do comitê gestor do Código de Conduta serão formalizadas por ato do presidente do Conselho da Justiça Federal.  
+B) dois comitês gestores formados por servidores nomeados pelo seu presidente; um comitê gestor no Conselho da Justiça Federal, sendo que as atribuições dos comitês gestores do Código de Conduta serão formalizadas por ato do presidente do Conselho da Justiça Federal.  
+C) dois comitês gestores formados por servidores nomeados pelo seu presidente; outros dois no Conselho da Justiça Federal, sendo que as atribuições dos comitês gestores do Código de Conduta serão formalizadas por ato do presidente do Conselho da Justiça Federal.  
+D) um comitê gestor formado por servidores nomeados pelo Corregedor Geral de Justiça; outro tanto no Conselho da Justiça Federal, sendo que as atribuições do comitê gestor do Código de Conduta serão formalizadas por ato do presidente do Supremo Tribunal Federal.  
+E) dois comitês gestores formados por servidores nomeados pelo Corregedor Geral de Justiça; outros dois no Conselho da Justiça Federal, sendo que as atribuições dos comitês gestores do Código de Conduta serão formalizadas por ato do presidente do Supremo Tribunal Federal.
 
-**23.** A alternativa que corretamente separa os quatro eixos é:
+**24.** (FCC – TRF-5/2017 – Analista Judiciário – Área Administrativa)  
+Em razão da campanha nacional de conscientização sobre o câncer de próstata, conhecido como Novembro Azul, a Associação “A” está distribuindo camisetas azuis de excelente qualidade e marca conhecida, para a divulgação do exame preventivo objetivando a redução de casos de câncer de próstata no País. Já a Associação “B” está distribuindo brindes sem valor comercial da campanha nacional educativa e da mobilização pelo fim da violência contra as mulheres, visando a proteção da mulher em face da violência doméstica. Vale salientar que ambas as Associações pretendem prestar serviços para determinado Tribunal Regional Federal. Nestes casos, de acordo com a Resolução nº 147/2011 do Conselho da Justiça Federal, Caio e Gabriel, servidores públicos efetivos da Justiça Federal,
 
-A) 400 = sustentabilidade; 351 = assédio/discriminação no PJ; 360 = violência/assédio na JT; Conduta = ética TRT4  
-B) 400 = Conduta; 351 = 360; todos = PDPJ  
-C) 400 = ENSEC; 351 = MoReq; 360 = Eureka; Conduta = MapStruct  
-D) Todos tratam exclusivamente de SQL  
-E) 400 = CSJT; 360 = CNJ  
+A) não poderão aceitar as camisetas e os brindes, uma vez que é vedado aos servidores públicos efetivos da Justiça Federal aceitarem qualquer tipo de presente, com exceção aos brindes natalinos sem valor comercial.  
+B) poderão aceitar as camisetas e os brindes, uma vez que caracterizam hipóteses de exceção à proibição de aceitar presentes previstas na referida Resolução.  
+C) não poderão aceitar as camisetas e os brindes, uma vez que é vedado aos servidores públicos efetivos da Justiça Federal aceitarem qualquer tipo de presente, sem qualquer exceção.  
+D) somente poderão aceitar as camisetas, uma vez que se trata da única exceção à proibição de aceitar presentes prevista na referida Resolução.  
+E) somente poderão aceitar os brindes, uma vez que se trata da única exceção à proibição de aceitar presentes prevista na referida Resolução.
 
-**24.** Um candidato afirma: “Cumprir a 400 é só colar um cartaz de meio ambiente; cumprir o Conduta é a mesma coisa que aplicar a 351.” Essa leitura:
+**25.** (FCC – TRF-5/2017 – Técnico Judiciário – Área Administrativa)  
+De acordo com a Resolução nº 147/2011 do Conselho da Justiça Federal, com relação às informações à Imprensa, os contatos com os órgãos de imprensa serão promovidos,
 
-A) está correta em ambos os trechos  
-B) está correta só no primeiro trecho  
-C) está incorreta: a 400 pressupõe gestão/planos/ações multidimensionais; Conduta (ética local) ≠ política de assédio 351/360  
-D) está correta só no segundo trecho  
-E) está incorreta somente porque o cartaz deveria citar Eureka  
-
-**25.** Para o reforço da semana 4 (Gerais/legislação), a síntese mais adequada é:
-
-A) stack Spring + monólito + ENSEC  
-B) 400 (sustentabilidade PJ) + 351 (assédio/discriminação PJ) + 360 (violência/assédio JT) + Conduta TRT4 (ética local 4.573/2023), todas em Gerais, sem confundir entre si nem com PDPJ/Governança TIC  
-C) apenas Portaria 253/2020  
-D) apenas bilhetagem da 574  
-E) extinção dos tribunais regionais  
+A) exclusivamente, por porta-vozes autorizados pelo Conselho, não podendo ser porta-voz autorizado por qualquer outro órgão do Poder Judiciário.  
+B) exclusivamente, por porta-vozes autorizados pelo Conselho, Tribunais Regionais Federais e seções judiciárias, conforme o caso.  
+C) preferencialmente, por porta-vozes autorizados pelo Conselho e Tribunais Regionais Federais, sendo permitido excepcionalmente, porta-vozes autorizados por autoridades do Poder Executivo.  
+D) preferencialmente, por porta-vozes autorizados pelo Conselho, sendo permitido porta-vozes locais designados pelos Presidentes dos Tribunais Regionais Federais e pelo Presidente da Ordem dos Advogados do Brasil.  
+E) preferencialmente, por porta-vozes autorizados pelo Conselho, sendo permitido porta-vozes autorizados pelo Supremo Tribunal Federal.
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito comentado (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **A** |
-| 17 | **B** |
-| 18 | **B** |
-| 19 | **C** |
-| 20 | **C** |
-| 21 | **B** |
-| 22 | **A** |
-| 23 | **A** |
-| 24 | **C** |
-| 25 | **B** |
-
-**Notas rápidas:** 16 A (400); 17 B (351×360); 18 B (Conduta local); 19 C (I e II; III confunde Conduta×400); 20 C (intenção não é requisito); 21 B (ética × política 360); 22 A (400/ODS); 23 A (separação); 24 C (não é cartaz; Conduta ≠ 351); 25 B (síntese do reforço).
+| Q | Gab. | Fonte |
+|---|------|-------|
+| 16 | **B** | FCC TRT-12/2023 Analista TI — instrumento = Plano de Logística Sustentável (Res. CNJ 400) |
+| 17 | **B** | FCC TRT-12/2023 Técnico Adm. — Unidade de Sustentabilidade |
+| 18 | **D** | FCC TRT-7/2024 Técnico Adm. — unidade permanente (planejar/implementar/monitorar/avaliar) |
+| 19 | **C** | FCC TRT-1/2025 Analista TI — definição correta de **assédio sexual** (CSJT 360; demais rótulos trocados) |
+| 20 | **D** | FCC TRT-6/2025 Técnico Adm. — notícia por qualquer pessoa com conhecimento dos fatos (alinhavado a 351/360) |
+| 21 | **B** | FGV TJ-GO/2023 Juiz — vítima ou quem tem conhecimento dos fatos (linha CNJ) |
+| 22 | **A** | FCC TRF-5/2017 Técnico Adm. — Código Conduta CJF 147/2011: apenas III correta |
+| 23 | **A** | FCC TRF-5/2017 Analista Adm. — um comitê gestor por TRF + CJF; ato do presidente do CJF |
+| 24 | **B** | FCC TRF-5/2017 Analista Adm. — brindes/cortesia em datas/campanhas = exceção |
+| 25 | **B** | FCC TRF-5/2017 Técnico Adm. — porta-vozes do Conselho, TRFs e seções judiciárias |
 
 ---
 

@@ -387,112 +387,143 @@ E) Apenas cabeamento
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** No contexto da linguagem Python referida no edital de Analista Judiciário – Área de TI, é correto afirmar que:
+**16.** (FCC – TRT-19/2022 – Analista Judiciário – TI) Considere o código Python abaixo.
 
-A) trata-se de linguagem de tipagem dinâmica, com blocos delimitados por indentação, execução típica via interpretador (ex.: CPython) e amplo uso de módulos da biblioteca padrão  
-B) exige declaração estática obrigatória de todos os tipos em tempo de compilação, como regra do interpretador padrão  
-C) proíbe o uso de dicionários e listas  
-D) coincide termo a termo com C# quanto a modificadores `private`/`protected`  
-E) não possui mecanismo de tratamento de exceções  
+```python
+import json
+x = '{ "nome":"Paulo", "idade":30, "cidade":"São Paulo"}'
+```
 
-**17.** Acerca de estruturas de dados built-in em Python, assinale a opção correta.
+Para converter o conteúdo de x para JSON e exibir a cidade devem-se utilizar, na sequência do código, os comandos
 
-A) `list` é sequência mutável; `tuple` é sequência imutável; `dict` mapeia chaves a valores; `set` armazena elementos únicos e não ordenados de forma clássica  
-B) `tuple` é sempre mutável e `list` sempre imutável  
-C) `dict` não admite iteração  
-D) `set` é idêntico semanticamente a `str`  
-E) não existem literais para essas estruturas  
+A) `y = json.loads(x)` / `print(y["cidade"])`
+B) `y = json.read(x)` / `print(y["cidade"])`
+C) `y = json.loads(x)` / `print[y("cidade")]`
+D) `y = json.read(x)` / `print(y => "cidade")`
+E) `y = json.convert(x)` / `print(y{"cidade"})`
 
-**18.** Em orientação a objetos em Python, é correto afirmar que:
+**17.** (FCC – TRT-6/2025 – Analista Judiciário – TI) Em um programa Python, se o conteúdo da variável `nome` estiver presente em uma lista contendo "Alice" ou "Clara" deve ser exibida "Bem-vinda", senão "Olá". A instrução correta é:
 
-A) classes suportam herança (inclusive múltipla), inicialização via `__init__`, sobrescrita de métodos e encapsulamento por convenção (`_` / name mangling), com resolução de métodos guiada pelo MRO  
-B) herança múltipla de classes é proibida em qualquer circunstância  
-C) `self` é palavra-chave reservada obrigatória pelo interpretador em qualquer nome de parâmetro  
-D) `@property` é ilegal  
-E) `super()` existe apenas no ecossistema .NET  
+A) `out.println(new List {"Alice", "Clara"}.Contains(nome) ? "Bem-vinda" : "Olá");`
+B) `out.print(Arrays.asList("Alice", "Clara").contains(nome) ? "Bem-vinda" : "Olá");`
+C) `print(nome in ["Alice", "Clara"] ? "Bem-vinda" : "Olá")`
+D) `echo ($nome == "Alice" || $nome == "Clara") ? "Bem-vinda" : "Olá";`
+E) `print("Bem-vinda" if nome in ["Alice", "Clara"] else "Olá")`
 
-**19.** Considere as afirmativas abaixo.
+**18.** (FCC – TRT-13/2014 – Analista Judiciário – TI) Considere o código abaixo, digitado em Python.
 
-I. O bloco `finally` em um `try` executa independentemente de ter ocorrido exceção.  
-II. `except Exception` captura também, em regra, `KeyboardInterrupt` e `SystemExit`, pois estes herdam diretamente de `Exception`.  
-III. O uso de `with` adequa-se à liberação determinística de recursos (context manager).
+```python
+a, b = 0, 1
+while b < 10:
+  print b
+  a, b = b, a+b
+```
 
-Está correto o que se afirma em:
+No final da execução, o último valor armazenado nas variáveis `a` e `b` serão, respectivamente,
 
-A) I, apenas  
-B) II, apenas  
-C) I e III, apenas  
-D) II e III, apenas  
-E) I, II e III  
+A) 13 e 21.
+B) 8 e 13.
+C) 5 e 10.
+D) 13 e 20.
+E) 8 e 10.
 
-**20.** No acesso a banco de dados a partir de código Python alinhado à DB-API 2.0, a prática mais adequada é:
+**19.** (FCC – TRF-4/2019 – Analista Judiciário – Infraestrutura de TI) Considerando que em um programa Python há um array criado por `nomes = ["Maria", "Pedro", "João"]`, para exibir os valores contidos nesse array utiliza-se
 
-A) obter conexão, usar cursor com SQL parametrizado (placeholders), tratar transação (`commit`/`rollback`) e fechar recursos, podendo empregar ORMs (ex.: SQLAlchemy) como abstração  
-B) concatenar entrada externa diretamente na string SQL  
-C) dispensar qualquer cursor e enviar SQL via SMTP  
-D) manter transações sempre abertas sem commit em sistemas OLTP  
-E) eliminar drivers e acessar arquivos `.mdb` apenas por FTP  
+A) `for x in nomes: out.print(x)`
+B) `while x in nomes: print(x)`
+C) `foreach x in nomes: print(x)`
+D) `foreach x in nomes: system.println(x)`
+E) `for x in nomes: print(x)`
 
-**21.** A respeito de funções e módulos em Python, é correto afirmar que:
+**20.** (FCC – TJ-MA/2019 – Técnico Judiciário – Informática) Considere o programa Python abaixo:
 
-A) funções são definidas com `def`, admitem parâmetros default/`*args`/`**kwargs`, e módulos são importados com `import`; o teste `if __name__ == "__main__"` distingue script principal de importação  
-B) não é possível retornar múltiplos valores  
-C) `lambda` permite blocos indentados arbitrários com vários `return`  
-D) pacotes são proibidos pela PEP 8  
-E) `import` só funciona dentro de classes `sealed`  
+```python
+..I..
+for x in pro:
+  print(x)
 
-**22.** Constitui equívoco típico em prova afirmar que:
+processos = ["0456789908", "0875643087", "0897645109"]
+exibir_processos(processos)
+```
 
-A) indentação delimita blocos em Python  
-B) `dict` armazena pares chave-valor  
-C) exceções usam `try`/`except`/`finally`  
-D) SQL deve ser parametrizado na DB-API  
-E) Python oferece sobrecarga estática de métodos por assinatura no mesmo sentido clássico de Java/C#, redefinindo o nome da função a cada nova definição no mesmo escopo  
+Para que o programa seja executado corretamente, a indicação I deve ser substituída por:
 
-**23.** Em um microsserviço que expõe API HTTP e consulta PostgreSQL usando Python, a leitura mais adequada para concurso é:
+A) `private exibir_processos(pro):`
+B) `public exibir_processos(pro):`
+C) `function exibir_processos(pro):`
+D) `definition exibir_processos(pro):`
+E) `def exibir_processos(pro):`
 
-A) a linguagem oferece tipagem dinâmica, OOP e bibliotecas; o acesso ao banco segue DB-API/driver (ou ORM); a camada web pode usar frameworks (Flask/Django/FastAPI), sem confundir isso com o CLR/.NET  
-B) o GIL substitui o banco relacional  
-C) `tuple` é o protocolo HTTP/2  
-D) name mangling equivale a JWT  
-E) `match/case` é obrigatório em toda query SQL  
+**21.** (FCC – TJ-CE/2022 – Analista Judiciário – Sistemas da Informação) Observe trechos de código Python com método `print_tempo` cujo primeiro parâmetro é `tempo`. É correto afirmar:
 
-**24.** Acerca de mutabilidade e parâmetros default, assinale a opção correta.
+A) Em I e em II, se for executado `>>> print_tempo(t1)` o resultado será 11:15:00
+B) O Código 2 pode ser reescrito de maneira equivalente usando `def print_tempo(self):` e `self.hour` / `self.minute` / `self.second`
+C) Em II, se for executado `>>> print_tempo(t1)` a função apresentará 11:15:00
+D) Em I, se for executado `>>> Tempo.print_tempo(t1)` o método apresentará 11:15:00 (como única afirmativa correta da questão)
+E) Em II, se for executado `>>> t1.print_tempo()` o resultado apresentará erro.
 
-A) objetos mutáveis como valor default de parâmetro são criados uma vez na definição da função e podem acumular estado indesejado entre chamadas — prática a evitar  
-B) defaults mutáveis são recriados a cada chamada automaticamente pelo interpretador em qualquer caso  
-C) apenas `tuple` pode ser default  
-D) o problema só ocorre em C#  
-E) PEP 8 obriga defaults mutáveis em toda API pública  
+**22.** (FCC – TRT-6/2025 – Analista Judiciário – TI) Considere o método:
 
-**25.** Para fins de preparação em Analista Judiciário – Área de TI (código 14), a síntese mais adequada deste subtópico é:
+```python
+def buscar_caso(self, numero_processo):
+  return self.casos.get(numero_processo, "Caso não encontrado.")
+```
 
-A) sintaxe e tipos Python; fluxo e funções; módulos/pacotes; OOP (classes, herança, sobrescrita, encapsulamento por convenção); exceções e `with`; bibliotecas; acesso a BD via DB-API/ORM  
-B) apenas COBIT 2019  
-C) apenas direitos humanos  
-D) apenas Bootstrap 5 sem lógica  
-E) apenas Delphi VCL  
+Para testar esse método com pytest, pode ser usada a instrução:
+
+A) `assert tribunal.buscar_caso(1) == "Caso encontrado"`
+B) `assert tribunal.buscar_caso("999") == "Caso não encontrado"`
+C) `assert tribunal.buscar_caso(0, "9999") == "Caso não encontrado"`
+D) `pytest tribunal.buscar_caso("1") == "Caso Encontrado"`
+E) `call tribunal.buscar_caso("0") == "Caso não encontrado"`
+
+**23.** (FCC – TRT-15/2024 – Analista Judiciário – TI)  
+Com `filtro = df['status'] == 'Pendente'`, a média ponderada Σ(valor×peso)/Σ(peso) preenche a lacuna com
+
+A) `(df[filtro]['valor_processo'] * df['peso']).average.weighted()`  
+B) `df[filtro][['valor_processo'].sum() * df['peso'].sum()] / 'peso'.sum()`  
+C) `(df[filtro]['valor_processo'] / df[filtro]['peso']).mean()`  
+D) `df[filtro]['valor_processo'].apply(lambda x: x.mean())`  
+E) `(df[filtro]['valor_processo'] * df[filtro]['peso']).sum() / df[filtro]['peso'].sum()`
+
+**24.** (FCC – TRT-20/2024 – Técnico Judiciário – TI)  
+Para identificar e eliminar duplicatas com eficiência (ordem irrelevante) em grande volume, a estrutura Python adequada é
+
+A) Pilhas (`stack`)  
+B) Listas (`list`)  
+C) Tuplas (`tuple`)  
+D) Conjuntos (`set`)  
+E) Dicionários (`dict`)
+
+**25.** (FCC – TRF-4/2025 – Técnico Judiciário – Desenvolvimento de Sistemas)  
+Em `return df.groupby("juiz")["tempo_tramitacao"].__I__().to_dict()`, completa a lacuna I o método
+
+A) `avg`  
+B) `median`  
+C) `average`  
+D) `midpoint`  
+E) `mean`
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **A** |
-| 17 | **A** |
-| 18 | **A** |
-| 19 | **C** |
-| 20 | **A** |
-| 21 | **A** |
-| 22 | **E** |
-| 23 | **A** |
-| 24 | **A** |
-| 25 | **A** |
+| Questão | Gabarito | Fonte / nota |
+|---------|----------|--------------|
+| 16 | **A** | FCC TRT-19/2022 — `json.loads` |
+| 17 | **E** | FCC TRT-6/2025 — ternário Python |
+| 18 | **B** | FCC TRT-13/2014 — Fibonacci a,b → 8 e 13 |
+| 19 | **E** | FCC TRF-4/2019 — `for x in nomes: print(x)` |
+| 20 | **E** | FCC TJ-MA/2019 — `def` |
+| 21 | **B** | FCC TJ-CE/2022 — `self` em método |
+| 22 | **B** | FCC TRT-6/2025 — assert pytest / `.get` |
+| 23 | **E** | FCC TRT-15/2024 — média ponderada pandas |
+| 24 | **D** | FCC TRT-20/2024 Téc. — `set` |
+| 25 | **E** | FCC TRF-4/2025 — `groupby().mean()` |
 
-**Notas rápidas:** 16 A (dinâmica + indentação + interpretador); 17 A (list/tuple/dict/set); 18 A (OOP + MRO + convenção); 19 C (I e III; II errada — KeyboardInterrupt/SystemExit ≠ Exception); 20 A (DB-API parametrizada); 21 A (def/import/__main__); 22 E (sem overload estático clássico); 23 A (Python + BD + web); 24 A (default mutável); 25 A (síntese do arquivo 03).
+**Notas:** 10/10 reais e citadas (FCC). 16–22 núcleo linguagem; 23–25 pandas/coleções alinhados ao edital.
 
 ---
 

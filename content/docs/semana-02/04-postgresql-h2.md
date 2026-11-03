@@ -355,113 +355,191 @@ E) `JSON_TABLE` existe só no H2
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões reais de concurso (16–25)
 
-**16.** No âmbito da arquitetura de desenvolvimento alinhada à PDPJ-Br, o PostgreSQL caracteriza-se, em regra, por:
+> Bloco substituído por questões **reais** de concurso (FCC preferencialmente; TRT/TRF/TJ quando necessário). O treino 1–15 e o Material permanecem inalterados.
 
-A) constituir o sistema gerenciador de banco de dados relacional de referência para a persistência dos serviços em ambientes reais  
-B) atuar exclusivamente como banco embutido em memória para testes unitários, sem papel operacional  
-C) substituir integralmente o API Gateway e o *service discovery*  
-D) equivaler, por definição, à ferramenta de mapeamento *compile-time* entre entidades e DTOs  
-E) eliminar a necessidade de contratos HTTP/JSON entre microsserviços  
+**16.** (FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 56 de 60)
 
-**17.** Acerca do H2 Database no contexto cobrado em concursos de TI do Judiciário (PDPJ / Spring), assinale a alternativa correta.
+Dentre as técnicas para otimizar o desempenho de consultas que envolvem a análise de grandes volumes de dados geográficos no PostgreSQL 13, uma Analista está estudando aquela que é a mais adequada, recomendando:
 
-A) Destina-se, tipicamente, a cenários de teste e desenvolvimento, podendo operar de forma embutida ou em memória  
-B) É o SGBD obrigatório e exclusivo de produção de todos os módulos nacionais da PDPJ  
-C) Implementa, por si só, o registro de instâncias e *heartbeat* das réplicas  
-D) Substitui o protocolo OAuth2 como mecanismo de autenticação  
-E) Corresponde ao padrão OpenAPI de documentação interativa  
+A) utilizar a extensão PostGIS, para todas as operações espaciais.
 
-**18.** No contraste entre PostgreSQL e H2, é correto afirmar que:
+B) utilizar índices B-tree em colunas de tipo geométrico.
 
-A) ambos respondem ao mesmo papel operacional e são intercambiáveis em produção sem ressalvas  
-B) o PostgreSQL ocupa o papel de SGBD operacional/de referência, ao passo que o H2 figura como alternativa leve para teste e desenvolvimento  
-C) o H2 é a fachada pública HTTP e o PostgreSQL apenas cataloga IPs de microsserviços  
-D) o PostgreSQL existe apenas como modo de emulação dentro do Eureka  
-E) o H2 define as majors 15–18 do PostgreSQL  
+C) fragmentar tabelas geográficas, com base em atributos espaciais.
 
-**19.** Considere o uso de H2 com opção de compatibilidade voltada ao PostgreSQL. Assinale a alternativa correta.
+D) criar materialized views, para pré-calcular resultados de consultas espaciais.
 
-A) Tal modo garante identidade completa de sintaxe e recursos com qualquer versão 15–18 em produção  
-B) Trata-se de emulação parcial: testes podem passar no H2 e falhar no PostgreSQL diante de recursos específicos  
-C) Torna desnecessária qualquer migração major entre versões do PostgreSQL  
-D) Converte automaticamente clusters 14 em 18 via `pg_upgrade` embutido no H2  
-E) Substitui o Flyway como ferramenta de versionamento de schema  
+E) criar índices GIST em colunas de tipo geométrico.
 
-**20.** Considere as afirmações abaixo.
 
-I. O edital de Analista de TI menciona PostgreSQL e H2 no eixo associado à PDPJ-Br.  
-II. As majors 15 a 18 do PostgreSQL constam do conteúdo de banco de dados, com noções de migração/compatibilidade envolvendo a 14.  
-III. O H2, no discurso típico de prova, não se confunde com o papel de banco de produção da plataforma.
+**17.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 34 de 60)
 
-Está correto o que se afirma em:
+No PostgreSQL 13 um trigger
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) II e III, apenas  
-E) I, II e III  
+A) permite chamar uma função se uma cláusula INSERT, UPDATE, DELETE ou TRUNCATE ocorrer em uma tabela.
 
-**21.** Assinale a opção que melhor associa âncoras de *release* do PostgreSQL às majors indicadas.
+B) pode modificar os dados na tabela virtual somente após a modificação ocorrer na tabela real.
 
-A) 15 → somente remoção do SQL; 16 → fim da replicação; 17 → proibição de JSON; 18 → obrigatoriedade do H2  
-B) 15 → `MERGE`; 16 → avanços em replicação lógica/SQL/JSON; 17 → `JSON_TABLE`/melhorias de manutenção; 18 → AIO/`uuidv7`/OAuth (visão)  
-C) 15 a 18 são *minors* da série 14 e não exigem qualquer atenção  
-D) Todas as majors listadas existem apenas no dialeto H2  
-E) A 18 elimina a necessidade de `pg_upgrade` em qualquer cenário  
+C) deve ser único em uma tabela, ou seja, não pode haver mais de um trigger para a mesma tabela.
 
-**22.** A passagem de um cluster PostgreSQL da major 14 para uma major posterior (15–18), em visão de concurso, relaciona-se a:
+D) pode chamar funções que exibem dados, mas não funções para modificá-los.
 
-A) procedimento de *upgrade* de major — por exemplo `pg_upgrade`, dump/restore ou estratégias com replicação lógica — com verificação de incompatibilidades  
-B) exclusividade do banco H2 em produção após a migração  
-C) proibição de uso de SQL após a 14  
-D) função exclusiva do Hibernate Envers como motor de upgrade do binário  
-E) substituição do PostgreSQL pelo MapStruct  
+E) pode ser acionado para uma tabela, mas não para uma view, chamando sempre uma procedure após o acionamento.
 
-**23.** Em enunciado que descreve componente responsável por “persistir dados relacionais do microsserviço em homologação/produção com SQL completo do dialeto Postgres”, o papel mais adequado é o de:
 
-A) H2 Console como único SGBD nacional  
-B) Swagger UI  
-C) PostgreSQL  
-D) Eureka Dashboard  
-E) Zuul pré-filtro como sinônimo de banco embutido  
+**18.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 22 de 60)
 
-**24.** Para fins de preparação no eixo PostgreSQL + H2 do edital (PDPJ-Br / Analista TI), a síntese mais adequada é:
+Considere que exista um banco de dados PostgreSQL aberto e funcionando em condições ideais, e que a tabela t_processos exista e esteja corretamente preenchida com valores adequados. Neste contexto, observe a função abaixo. CREATE FUNCTION atualizar_status_processo(num_processo VARCHAR) RETURNS INTEGER AS $$ DECLARE total INTEGER; BEGIN UPDATE t_processos SET status_processo = 'Encerrado' WHERE numero_processo = num_processo; SELECT COUNT(*) INTO total FROM t_processos WHERE status_processo = 'Encerrado'; RETURN total; END; $$ LANGUAGE plpgsql; Em condições ideais, esta função seria corretamente chamada utilizando-se o comando:
 
-A) H2 e PostgreSQL são o mesmo artefato; majors 15–18 são irrelevantes; migração da 14 é feita pelo Zuul  
-B) PostgreSQL = SGBD operacional (conhecer visão 15–18 e migração a partir da 14); H2 = teste/dev embutido; papéis distintos e complementares no stack  
-C) Rate limiting de API Gateway só existe dentro do H2  
-D) O cliente externo deve consultar o filesystem do banco sem JDBC  
-E) `pg_upgrade` aplica-se apenas entre *minors* e nunca entre *majors*  
+A) `CALL atualizar_status_processo('12345-67.2023.5.01.0001');`
 
-**25.** Assinale a afirmação **incompatível** com o papel típico do PostgreSQL e do H2 no conteúdo programático em tela.
+B) `EXECUTE atualizar_status_processo('12345-67.2023.5.01.0001');`
 
-A) PostgreSQL figura como banco relacional de referência da persistência PDPJ em ambientes reais  
-B) H2 aparece tipicamente ligado a testes e desenvolvimento  
-C) Majors 15–18 e noções de compatibilidade com a 14 são cobráveis no eixo de banco de dados  
-D) H2, por ser embutido, substitui por definição o Service Discovery e o API Gateway em produção  
-E) `pg_upgrade` e dump/restore são caminhos clássicos de migração major  
+C) DO $$ BEGIN PERFORM atualizar_status_processo('12345-67.2023.5.01.0001'); END; $$ LANGUAGE plpgsql;
+
+D) `SELECT atualizar_status_processo('12345-67.2023.5.01.0001');`
+
+E) `EXEC atualizar_status_processo '12345-67.2023.5.01.0001';`
+
+
+**19.** (FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 26 de 60)
+
+Considere que um Analista está trabalhando em um banco de dados PostgreSQL aberto e funcionando em condições ideais. O Analista inseriu a seguinte sequência de comandos:```DROP TABLE I TRTContatos;CREATE TABLE TRTContatos ( cod serial PRIMARY KEY, orgao VARCHAR(255) NOT NULL, email VARCHAR(255) NOT NULL, descricao VARCHAR(255));INSERT INTO TRTContatos (orgao, email)VALUES ('Ouvidoria','ouvidoria@trt22.jus.br:'), ('Escola Judicial','ejud@trt22.jus.br'), ('Corregedoria','secor@trt22.jus.br')II ;```É correto afirmar que
+
+A) haverá erro, pois não é possível fazer inserção de múltiplas linhas em tabelas do PostgreSQL.
+
+B) haverá erro devido ao fato de as 3 linhas a serem inseridas na tabela TRTContatos não terem os 4 campos informados em CREATE TABLE.
+
+C) I deve ser preenchido com IF EXISTS e II deve ser preenchido com RETURNING * para que as linhas inseridas sejam apresentadas.
+
+D) I deve ser preenchido com ALL ROWS e II deve ficar sem nenhum preenchimento.
+
+E) faltou um _ entre cod e serial, pois o certo seria cod_serial PRIMARY KEY.
+
+
+**20.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60) *[aproximação temática]*
+
+Uma equipe de desenvolvimento está utilizando Spring Boot para criar uma API RESTful. Durante os testes, observaram que a aplicação demora a inicializar, principalmente devido à configuração do banco de dados. Para melhorar o tempo de inicialização, decidiram desabilitar a criação automática do esquema de banco de dados ao iniciar a aplicação. A configuração, no `application.properties`, que desabilita a criação automática do esquema de banco de dados pelo Spring Boot é a
+
+A) `spring.jpa.hibernate.ddl-auto=none`
+
+B) `spring.datasource.database-auto=false`
+
+C) `spring.jpa.db-sql=disable`
+
+D) `spring.jpa.properties.hibernate.db-auto=disable`
+
+E) `spring.jpa.create-database-init=false`
+
+
+**21.** (FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 52 de 60)
+
+Considere o seguinte caso:Utilizando comandos SQL, um analista criou uma tabela de cidadão dando permissão de acesso ao usuário Roberto. Posteriormente inseriu dados nessa tabela, mas logo em seguida teve que deletá-los, retirar a permissão de Roberto que estava saindo do tribunal e dar permissão a Carla.A sequência de comandos SQL utilizada no caso é, correta e respectivamente, categorizada como
+
+A) DML - DCL - DDL - DDL - DCL - DCL.
+
+B) DML - DCL - DML - DDL - DML - DCL.
+
+C) DDL - DCL - DML - DML - DCL - DCL.
+
+D) DDL - DCL - DDL - DML - DML - DCL.
+
+E) DCL - DDL - DML - DML - DCL - DCL.
+
+
+**22.** (FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60)
+
+Considere uma tabela denominada `Cidadao` e as colunas `Nome_Cidadao` e `Valor_Recebido`.Para obter a média dos valores maiores que 200 recebidos pelos cidadãos, um Analista deve utilizar o comando
+
+A) `SELECT AVG(Valor_Recebido > 200) FROM Cidadao;`
+
+B) `SELECT AVG(Valor_Recebido) FROM Cidadao WHERE Valor_Recebido > 200;`
+
+C) `SELECT AVG(Valor_Recebido) > 200 FROM Cidadao;`
+
+D) `SELECT FROM Cidadao AVG(Valor_Recebido) > 200;`
+
+E) `SELECT Nome_Cidadao and AVG(Valor_Recebido) FROM Cidadao WHERE Valor_Recebido > 200;`
+
+
+**23.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 23 de 60)
+
+Considere a tabela `t_audiencias` que armazena informações sobre audiências marcadas.```CREATE TABLE t_audiencias ( id_audiencia INT PRIMARY KEY, numero_processo VARCHAR(50) NOT NULL, data_audiencia DATETIME NOT NULL, status VARCHAR(20) NOT NULL, vara_trabalho INT NOT NULL);```Considerando que esta tabela está criada e contém valores adequados, em um banco de dados MySQL aberto e funcionando em condições ideais, o comando que seleciona todas as audiências que estão marcadas como `'Pendente'`, cuja data de audiência seja posterior ao dia e hora atuais e que pertençam às varas de trabalho 1, 2 ou 3, é:`SELECT * FROM t_audiencias WHERE status = 'Pendente' AND`
+
+A) `data_audiencia > CURRENT_DATE_TIME() AND vara_trabalho IN (1, 2, 3);`
+
+B) `data_audiencia > NOW() AND vara_trabalho IN (1, 2, 3);`
+
+C) `data_audiencia > SYSDATE() AND vara_trabalho BETWEEN 1..3;`
+
+D) `data_audiencia > NOW() OR vara_trabalho = 1 OR vara_trabalho = 2 OR vara_trabalho = 3;`
+
+E) `data_audiencia > CURDATE() AND vara_trabalho IN (1..3);`
+
+
+**24.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 21 de 60) *[aproximação temática]*
+
+*SQL relacional (aproximação PG/H2).*
+
+Em um banco de dados Oracle 19c, aberto e funcionando em condições ideais, existe uma tabela tprocessos com dados válidos, que tem a seguinte estrutura: id_processo (número único de identificação do processo) data_abertura (data em que o processo foi aberto) id_vara (identificador da vara do trabalho onde o processo tramita) valor_processo (valor monetário associado ao processo) O comando SQL que lista o id_vara, o número total de processos por vara e o valor total dos processos, em ordem decrescente, somente das varas que possuem mais de 100 processos abertos antes de 1º de janeiro de 2020, é:
+
+A) ```SELECT id_vara, COUNT() AS total_processos, SUM(valor_processo) AS valor_totalFROM tprocessosWHERE data_abertura < '2020-01-01'GROUP BY id_varaHAVING COUNT() > 100ORDER BY SUM(valor_processo) DESC;```
+
+B) ```SELECT id_vara, COUNT() AS total_processos, SUM(valor_processo) AS valor_totalFROM tprocessosWHERE data_abertura < '2020-01-01'GROUP BY id_varaORDER BY SUM(valor_processo) DESCHAVING COUNT() > 100;```
+
+C) ```SELECT id_vara, COUNT(id_processo) AS total_processos, SUM(valor_processo) AS valor_totalFROM tprocessosWHERE data_abertura < '2020-JAN-01'GROUP BY id_varaHAVING COUNT(id_processo) > 100ORDER BY COUNT(valor_total);```
+
+D) ```SELECT id_vara, COUNT(*) AS total_processos, SUM(valor_processo) AS valor_totalFROM tprocessosWHERE data_abertura <= '2020-01-01'GROUP BY id_varaORDER BY valor_total;```
+
+E) ```SELECT id_vara, COUNT(*) AS total_processos, SUM(valor_processo) AS valor_totalFROM tprocessosWHERE data_abertura < '2020-01-01'GROUP BY id_varaHAVING SUM(valor_processo) > 100000ORDER BY valor_total DESC;```
+
+
+**25.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 51 de 60) *[aproximação temática]*
+
+Um Tribunal Regional do Trabalho está desenvolvendo um sistema de gestão de processos judiciais que inclui um módulo de auditoria para rastrear mudanças nos registros dos processos. É essencial que qualquer alteração nos dados dos processos judiciais (por exemplo, petições, decisões, movimentações) seja auditada para garantir a integridade e a transparência. Um Analista de TI decide utilizar Hibernate Envers para atender aos requisitos desse módulo de auditoria e, para isso, deve
+
+A) configurar Hibernate Envers para criar uma tabela de auditoria que registre todas as alterações em entidades anotadas, incluindo quem fez a alteração e quando foi feita.
+
+B) usar Hibernate Envers para criar automaticamente backups diários de todas as tabelas do banco de dados.
+
+C) utilizar Hibernate Envers para migrar dados auditáveis entre diferentes esquemas de banco de dados de forma transparente.
+
+D) implementar Hibernate Envers para validar os dados de auditoria dos processos judiciais antes de serem inseridos no banco de dados.
+
+E) configurar Hibernate Envers para enviar notificações à auditoria, por e-mail, a cada alteração de dados no banco de dados.
+
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso reais 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **A** |
-| 17 | **A** |
-| 18 | **B** |
-| 19 | **B** |
-| 20 | **E** |
-| 21 | **B** |
-| 22 | **A** |
-| 23 | **C** |
-| 24 | **B** |
-| 25 | **D** |
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **E** | FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 56 de 60 |
+| 17 | **A** | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 34 de 60 |
+| 18 | **D** | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 22 de 60 |
+| 19 | **C** | FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 26 de 60 |
+| 20 | **A** \* | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60 |
+| 21 | **C** | FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 52 de 60 |
+| 22 | **B** | FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60 |
+| 23 | **B** | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 23 de 60 |
+| 24 | **A** \* | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 21 de 60 |
+| 25 | **A** \* | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 51 de 60 |
 
-**Notas rápidas:** 16 A (Postgres = SGBD referência/real); 17 A (H2 = teste/dev); 18 B (opera × leve); 19 B (emulação parcial); 20 E (I–III ok); 21 B (mapa 15–18); 22 A (major upgrade); 23 C (Postgres); 24 B (síntese); 25 D (H2 ≠ Discovery/Gateway).
+\* = aproximação temática (questão real correlata quando o nicho é raro em prova).
 
----
+**Fontes:**
+- Q16: https://www.quizinho.com.br/questao/fcc-trt20-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q56
+- Q17: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q34
+- Q18: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q22
+- Q19: https://www.quizinho.com.br/questao/fcc-trt22-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q26
+- Q20: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q38
+- Q21: https://www.quizinho.com.br/questao/fcc-trt-12-2023-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2023-q52
+- Q22: https://www.quizinho.com.br/questao/fcc-trt-12-2023-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2023-q53
+- Q23: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q23
+- Q24: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q21
+- Q25: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q51
 
 *Arquivo 04 · PostgreSQL + H2 · Claudionir · TRT4 Analista TI (código 14) · FCC. Próximo: 05 SQL DML/DDL/DCL + noções PL/SQL.*

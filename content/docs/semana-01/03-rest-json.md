@@ -1,4 +1,4 @@
-﻿+++
++++
 title = '03 — REST / JSON'
 date = '2026-10-03'
 draft = false
@@ -340,113 +340,193 @@ E) Status `2xx` indica sempre erro do cliente
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões reais de concurso (16–25)
 
-**16.** Em APIs projetadas segundo o estilo REST, é correto afirmar que:
+> Bloco substituído por questões **reais** de concurso (FCC preferencialmente; TRT/TRF/TJ quando necessário). O treino 1–15 e o Material permanecem inalterados.
 
-A) os recursos são identificados por URI e as operações são expressas, em regra, pelos métodos do protocolo HTTP  
-B) a conformidade REST exige, necessariamente, o uso de envelope SOAP e contrato WSDL em todas as operações  
-C) a ausência de códigos de status HTTP é condição essencial do estilo  
-D) a URI deve conter, obrigatoriamente, o verbo da ação de negócio em linguagem natural, em substituição ao método HTTP  
-E) o formato JSON é um protocolo de transporte que dispensa o HTTP  
+**16.** (FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 52 de 60)
 
-**17.** Acerca dos métodos HTTP empregados em APIs RESTful, assinale a alternativa correta.
+De acordo com a Plataforma Digital do Poder Judiciário - PDPJ-Br, para que uma API seja considerada do tipo RESTful, ela precisa estar em conformidade, dentre outros, com o seguinte critério:
 
-A) O método GET destina-se, em regra, à criação de novos recursos na coleção  
-B) O método POST é tipicamente utilizado para criação de recursos e, em geral, não é tratado como idempotente  
-C) O método DELETE é reservado exclusivamente à autenticação do cliente  
-D) O método PUT serve apenas para consulta de coleções, sem alterar estado  
-E) O método PATCH remove o recurso e impede qualquer atualização parcial  
+A) ter uma arquitetura cliente/servidor formada por clientes, servidores e recursos, com solicitações gerenciadas por meio de HTTP.
 
-**18.** No contexto de respostas HTTP de uma API REST, o código `201` associa-se mais diretamente a:
+B) possuir o sistema de comunicação entre os componentes por meio de troca de mensagens REST-Enq, fazendo uso de um Message Broker. No caso da PDPJ, utiliza-se a solução BrokerMQ.
 
-A) falha interna não especificada do servidor  
-B) ausência de autenticação do cliente  
-C) criação bem-sucedida de um recurso  
-D) recurso inexistente na URI informada  
-E) redirecionamento permanente de DNS  
+C) ter uma interface ampla e livre entre os componentes, desde que sejam usados os parâmetros RESTful Config para que as informações sejam transferidas em um formato padronizado.
 
-**19.** Com relação à restrição de comunicação sem estado (*stateless*) no estilo REST, é correto concluir que:
+D) ter autenticação por meio de uma solução de RFPJ Sign On baseada no protocolo PDPJ Auth2.
 
-A) o servidor não deve depender de sessão de conversa mantida entre requisições, cabendo a cada chamada carregar as informações necessárias ao processamento  
-B) fica vedada qualquer persistência de dados de negócio em sistemas de banco de dados  
-C) a autenticação do cliente torna-se tecnicamente impossível  
-D) a restrição obriga o uso exclusivo de XML em substituição ao JSON  
-E) a conformidade REST exige sticky session em todas as instâncias do serviço  
+E) permitir que as APIs registradas sejam acessíveis por meio do Gateway RESTful-API-Sync.
 
-**20.** Considere as afirmações abaixo sobre JSON e XML em cenários de integração.
 
-I. JSON é amplamente utilizado como formato de representação em APIs REST.  
-II. XML, embora relevante em diversos contextos (incluindo paradigmas legados e documentos), não se confunde com a definição do estilo REST baseado em recursos/HTTP.  
-III. Em APIs RESTful do discurso técnico associado à stack da PDPJ-Br, o JSON figura como payload típico de request/response.
+**17.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 21)
 
-Está correto o que se afirma em:
+De acordo com a documentação da Plataforma Digital do Poder Judiciário – PDPJ-Br, para que uma API seja considerada do tipo RESTful, ela precisa
 
-A) I, apenas  
-B) II, apenas  
-C) I e III, apenas  
-D) II e III, apenas  
-E) I, II e III  
+A) ter uma arquitetura cliente/servidor formada por clientes e servidores, com solicitações gerenciadas por meio dos protocolos HTTP e FTP.
 
-**21.** Assinale a opção que apresenta interpretação **incompatível** com boas práticas de modelagem REST cobradas em concursos.
+B) estabelecer uma comunicação statefull entre cliente e servidor, ou seja, as solicitações não são separadas e/ou desconectadas.
 
-A) Utilizar substantivos para nomear recursos na URI  
-B) Empregar o método HTTP para expressar a ação sobre o recurso  
-C) Retornar códigos de status coerentes com o resultado da operação  
-D) Substituir sistematicamente o método HTTP por caminhos do tipo `/criar`, `/atualizar` e `/deletar` como única forma de expressar a operação  
-E) Adotar JSON como representação usual do estado do recurso  
+C) armazenar dados em cache para otimizar as interações entre cliente e servidor.
 
-**22.** Um cliente não envia credenciais ao acessar endpoint protegido e recebe resposta de falha. O código HTTP que melhor expressa problema de **autenticação**, dentre os abaixo, é:
+D) ter uma interface diferente para cada componente para que as informações possam ser transferidas em diferentes formatos.
 
-A) `201`  
-B) `204`  
-C) `401`  
-D) `200`  
-E) `301`  
+E) ter um sistema sem camadas que organiza os tipos de servidores envolvidos na recuperação das informações solicitadas sem hierarquias.
 
-**23.** Diferenciar `PUT` e `PATCH` em prova de Analista de TI é relevante porque:
 
-A) ambos são protocolos distintos que substituem o HTTP  
-B) `PUT` associa-se, em regra, à substituição/atualização da representação completa; `PATCH`, à alteração parcial  
-C) `PATCH` é sinônimo estrito de `GET`  
-D) `PUT` serve apenas para apagar coleções inteiras  
-E) nenhum dos dois métodos pode enviar corpo JSON  
+**18.** (FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 34 de 60)
 
-**24.** Em enunciado que descreve falha causada por JSON inválido enviado pelo consumidor da API, o status mais coerente entre as opções é:
+Ao implementar operações de manipulação de dados na API RESTful da PDPJ-Br, uma desenvolvedora deseja alterar apenas alguns atributos de um processo existente, sem substituir todos os atributos da entidade. Considerando as diretrizes para o uso de verbos HTTP da PDPJ-Br, o verbo HTTP mais adequado para essa operação é o
 
-A) `500`, por ser sempre o único código permitido em APIs REST  
-B) `201`, pois todo JSON inválido cria recurso  
-C) `400`, por se tratar de erro atribuível à requisição do cliente  
-D) `403`, por significar criação parcial  
-E) `204`, por indicar autenticação bem-sucedida  
+A) PATCH.
 
-**25.** Para fins de preparação no eixo API RESTful / JSON do edital (PDPJ-Br / Analista TI), a síntese mais adequada é:
+B) UPDATE.
 
-A) REST resume-se a sticky session + WSDL + proibição de status HTTP  
-B) o núcleo cobrável articula recursos/URI, verbos HTTP, códigos de status, comunicação *stateless* e JSON como representação típica, distinguindo-se de XML/SOAP e de papéis como gateway, discovery e documentação  
-C) JSON substitui o HTTP e elimina a necessidade de URI  
-D) `401` e `403` são indistinguíveis e equivalem a sucesso de criação  
-E) a modelagem REST exige caminhos `/get` e `/post` na URI em substituição aos métodos HTTP  
+C) GET.
+
+D) POST.
+
+E) PUT.
+
+
+**19.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60)
+
+Na abordagem do Spring para construir serviços web RESTful, as solicitações HTTP são tratadas por um controlador, que é uma classe identificada com a anotação
+
+A) `@RestfulController`
+
+B) `@RestfulMapping`
+
+C) `@RestApplicationController`
+
+D) `@RestController`
+
+E) `@RequestController`
+
+
+**20.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 25)
+
+Ao tentar acessar um serviço por meio de uma requisição a uma API RESTful, a aplicação cliente recebeu como resposta o código HTTP `500`. Com base nas convenções do protocolo HTTP, esse código indica que
+
+A) a requisição foi malformada ou continha parâmetros inválidos, e o servidor não conseguiu processá-la.
+
+B) o recurso solicitado não foi encontrado no servidor.
+
+C) a requisição foi bem-sucedida, mas o servidor optou por não retornar nenhum conteúdo.
+
+D) o servidor recebeu a requisição, mas não tem autorização para executá-la.
+
+E) ocorreu um erro interno no servidor que o impediu de concluir a requisição.
+
+
+**21.** (FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 27 de 60) *[aproximação temática]*
+
+*Documentação OpenAPI/Swagger de API REST.*
+
+Uma Analista está desenvolvendo uma API REST para um aplicativo e deseja criar a documentação usando o Swagger. Essa documentação é criada adequadamente através
+
+A) do Swagger Codegen, que permite a criação manual da especificação OpenAPI.
+
+B) da interface Swagger Editor, que permite criar a especificação OpenAPI interativamente.
+
+C) da elaboração de um arquivo de documentação PDF com o Swagger PDF Editor contendo a descrição das APIs.
+
+D) da interface Swagger GetJet, que cria e exibe automaticamente a documentação.
+
+E) da elaboração de um arquivo XML de forma manual, contendo a especificação OpenDocumentAPI.
+
+
+**22.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60) *[aproximação temática]*
+
+Um Analista de TI está desenvolvendo uma API com Spring Boot e deseja integrar Swagger para facilitar a documentação e testes dessa API. Para integrar no Swagger com um projeto Spring Boot a abordagem mais adequada é
+
+A) adicionar as dependências do Swagger manualmente no classpath do projeto.
+
+B) adicionar as dependências do Swagger no arquivo `pom.xml` ou `build.gradle` do projeto Spring Boot.
+
+C) criar um arquivo separado para todas as configurações do Swagger sem importar as dependências no projeto.
+
+D) utilizar um plugin externo para o IDE que automaticamente gera a documentação do Swagger sem configuração adicional.
+
+E) configurar o servidor de aplicação para disponibilizar a documentação do Swagger sem modificar o código do projeto.
+
+
+**23.** (FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60) *[aproximação temática]*
+
+*JSON no ecossistema REST.*
+
+Em um código Swagger escrito em JSON, a URL Base é formada por
+
+A) host, baseForms e schemes.
+
+B) consumes, host e produces.
+
+C) host, basePath e schemes.
+
+D) produces, schemes e baseForms.
+
+E) application, get e basePath.
+
+
+**24.** (FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60) *[aproximação temática]*
+
+Ao usar o Gateway API com o Service Discovery no contexto da PDPJ-Br, a principal consequência para o frontend em uma aplicação baseada em microsserviços é que o
+
+A) Gateway API diminui a necessidade de autenticação, uma vez que o Service Discovery é integrado ao SSO.
+
+B) frontend deve configurar manualmente os IPs e portas dos serviços disponíveis na plataforma.
+
+C) frontend se torna o responsável pela chamada direta de cada microsserviço individualmente.
+
+D) Gateway API reduz o número de chamadas externas que o frontend precisa fazer, tornando a comunicação mais eficiente.
+
+E) frontend deve gerenciar manualmente as atualizações de endpoint de cada serviço individual registrado.
+
+
+**25.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 29 de 60) *[aproximação temática]*
+
+Nos projetos da Plataforma Digital do Poder Judiciário PDPJ-Br,
+
+A) os ambientes de deployment estão instalados em clusters Kubernetes, gerenciados por meio da ferramenta open source de orquestração de containers Rancher.
+
+B) a aplicação deve possuir os arquivos `yanl`, para que o deploy ocorra de forma automática por meio de pipelines de CI/CD (Continuous Delivery e Continuous Integration) executados pelo GitLab do STF (Supremo Tribunal Federal).
+
+C) a aplicação deve possuir um arquivo `Rancherfile`, especificando o modo pelo qual ela deve ser empacotada.
+
+D) deve haver o arquivo `.gitlab-ci.xml` definindo a pipeline de deploy automático.
+
+E) deve haver, na pasta `kubernets`, o arquivo de configuração do ingress da aplicação, que é obrigatório.
+
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso reais 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **A** |
-| 17 | **B** |
-| 18 | **C** |
-| 19 | **A** |
-| 20 | **E** |
-| 21 | **D** |
-| 22 | **C** |
-| 23 | **B** |
-| 24 | **C** |
-| 25 | **B** |
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **A** | FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 52 de 60 |
+| 17 | **C** | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 21 |
+| 18 | **A** | FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 34 de 60 |
+| 19 | **D** | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60 |
+| 20 | **E** | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 25 |
+| 21 | **B** \* | FCC | TRT-12 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 27 de 60 |
+| 22 | **B** \* | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60 |
+| 23 | **C** \* | FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60 |
+| 24 | **D** \* | FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60 |
+| 25 | **A** \* | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 29 de 60 |
 
-**Notas rápidas:** 16 A (URI+métodos); 17 B (POST cria, não idempotente); 18 C (`201` criação); 19 A (*stateless* = request autocontido); 20 E (I–III corretas); 21 D (ação na URI no lugar do verbo = anti-padrão); 22 C (`401` autenticação); 23 B (PUT completo × PATCH parcial); 24 C (JSON inválido → `400`); 25 B (síntese do subtópico).
+\* = aproximação temática (questão real correlata quando o nicho é raro em prova).
 
----
+**Fontes:**
+- Q16: https://www.quizinho.com.br/questao/fcc-trt20-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q52
+- Q17: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q21
+- Q18: https://www.quizinho.com.br/questao/fcc-trt6-2025-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2025-q34
+- Q19: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q31
+- Q20: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q25
+- Q21: https://www.quizinho.com.br/questao/fcc-trt-12-2023-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2023-q27
+- Q22: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q53
+- Q23: https://www.quizinho.com.br/questao/fcc-trt4-2022-tecnico-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q53
+- Q24: https://www.quizinho.com.br/questao/fcc-trt6-2025-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2025-q39
+- Q25: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q29
 
 *Arquivo 03 · REST / JSON · Claudionir · TRT4 Analista TI (código 14) · FCC. Próximo: 04 API Gateway.*

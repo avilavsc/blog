@@ -273,142 +273,118 @@ E) deixar em branco se a objetiva estiver boa
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** (Linha FCC — coesão / valor do conectivo) Em contexto em que a segunda ideia **contrasta** a primeira (equivalente informal a “só que”), o conectivo culto mais adequado é:
+> Questões reais de provas (FCC). Gabarito só ao final.
 
-A) Porém  
-B) Embora (como único valor possível de oposição restritiva simples)  
-C) Porquanto  
-D) Já que  
-E) Mesmo que  
+**16.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+O moço e o mar Poucas pessoas poderão ter gozado da solidão como uma alternativa, ou seja, do convívio exclusivo consigo mesmo, com o usufruto de um prazer tão completo como faz Amyr Klink em suas longas viagens a bordo do barco Paratii. Este livro — Mar sem fim — descreve a viagem que começou em 31 de outubro de 1998 e durou cinco meses. Nela, ele deu a volta ao mundo mais curta, mais rápida e mais difícil que poderia ser feita, circunavegando a Antártica — muitas vezes tentada, nunca conseguida. Foi conviva das estrelas, cruzou neblinas, nevascas e geleiras, e desafiou mares temperamentais. Nada do que tiver contemplado nas breves paradas na Geórgia do Sul, ou do que possa ter restado de exótico na ilha de Bouvetoya, a mais isolada do planeta, será suficientemente inédito para ter impressionado o argonauta, muito mais ilhado ele mesmo do que aquele território ignoto e inóspito. Por mais surpreendentes que possam ser a flora e a fauna marinhas, que o marinheiro encontrou protegidas da loucura furiosa da humanidade predadora de pés firmes no chão, nada terá superado a graça que ele achou nos porões da própria alma, ao atravessar com destemor, mas com respeito, as fronteiras da vida. Quem concorde com a dura frase em que Sartre afirma que "o inferno são os outros" está convidado a visitar o céu que cada um contém em si mesmo e que Amyr Klink se dispôs a nos revelar em mais este fascinante relato de seu caso de amor com o mar. A saga desse brasileiro transporta a mitologia grega para nossos dias, nos induzindo a crer com sua viagem que o fardo de viver pode ser mais leve, intrépido e digno de ser carregado. (Adaptado de: NÊUMANE, José. In: KLINK, Amyr. Mar sem fim . São Paulo: Companhia das Letras, 2000, orelha) A frase Nada do que tiver contemplado será suficientemente inédito conservará uma correta articulação entre os tempos verbais caso se substituam as formas sublinhadas, respectivamente, por:
 
-**17.** (FCC — TRT-6ª Região — 2025 — TI — linha de reescritura) “Ferramentas úteis e necessárias, quando mal utilizadas, podem tornar-se letais.” Reescrevendo a partir de “A má utilização de ferramentas,” a complementação **correta e coerente** é:
+A) contemplaria / será  
+B) contemple / teria sido  
+C) tivesse contemplado / seria  
+D) fosse contemplar / é  
+E) viesse a contemplar / terá sido  
 
-A) pode ser letal, uma vez que sejam úteis e necessárias  
-B) ainda quando úteis e necessárias, pode tornar-se letal  
-C) conquanto úteis e necessárias, podem tornar-se letais  
-D) a menos que úteis e necessárias, poderão tornar-se letais  
-E) se tornaria letal, quando fossem úteis e necessárias  
+**17.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+O moço e o mar Poucas pessoas poderão ter gozado da solidão como uma alternativa, ou seja, do convívio exclusivo consigo mesmo, com o usufruto de um prazer tão completo como faz Amyr Klink em suas longas viagens a bordo do barco Paratii. Este livro — Mar sem fim — descreve a viagem que começou em 31 de outubro de 1998 e durou cinco meses. Nela, ele deu a volta ao mundo mais curta, mais rápida e mais difícil que poderia ser feita, circunavegando a Antártica — muitas vezes tentada, nunca conseguida. Foi conviva das estrelas, cruzou neblinas, nevascas e geleiras, e desafiou mares temperamentais. Nada do que tiver contemplado nas breves paradas na Geórgia do Sul, ou do que possa ter restado de exótico na ilha de Bouvetoya, a mais isolada do planeta, será suficientemente inédito para ter impressionado o argonauta, muito mais ilhado ele mesmo do que aquele território ignoto e inóspito. Por mais surpreendentes que possam ser a flora e a fauna marinhas, que o marinheiro encontrou protegidas da loucura furiosa da humanidade predadora de pés firmes no chão, nada terá superado a graça que ele achou nos porões da própria alma, ao atravessar com destemor, mas com respeito, as fronteiras da vida. Quem concorde com a dura frase em que Sartre afirma que "o inferno são os outros" está convidado a visitar o céu que cada um contém em si mesmo e que Amyr Klink se dispôs a nos revelar em mais este fascinante relato de seu caso de amor com o mar. A saga desse brasileiro transporta a mitologia grega para nossos dias, nos induzindo a crer com sua viagem que o fardo de viver pode ser mais leve, intrépido e digno de ser carregado. (Adaptado de: NÊUMANE, José. In: KLINK, Amyr. Mar sem fim . São Paulo: Companhia das Letras, 2000, orelha) As normas de concordância verbal estão plenamente observadas na frase:
 
-**18.** No padrão de correção discursiva FCC, abordagem **tangencial** ao tema tende a:
+A) Abrigaram-se nos porões de sua alma de navegante a graça de cruzar os mares.  
+B) Não move a um navegante como Amyr Klink advertências como as de Sartre.  
+C) A muitos navegadores tentou a façanha marítima enfim conseguida por Amyr Klink.  
+D) São dadas a poucas pessoas gozarem da solidão como uma alternativa.  
+E) Eram no convívio das estrelas e no cruzar das neblinas que Amyr Klink fez sua travessia.  
 
-A) isentar erros de norma culta  
-B) garantir nota máxima automática  
-C) converter a prova em oral  
-D) prejudicar a nota de conteúdo proporcionalmente  
-E) substituir a extensão mínima  
+**18.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+O individualismo e as instituições Quando as instituições são frágeis e não funcionam, podem prevalecer as amarras da prepotência e do oportunismo violento. Na falta de normas legais que funcionem, na falta de uma representação atuante e legítima do Estado na vida social, a condição da "terra sem lei" tende à barbárie. Exemplo disso forneceu o cinema norte-americano quando, em meados do século passado, inundou o mundo e a imaginação popular com filmes do gênero "western", supostos documentários da conquista do oeste. Uma situação padrão era representada nesses filmes: na pequena e remota cidade recém-formada, o poder local era manipulado por malfeitores poderosos, que submetiam aos seus interesses o xerife e o juiz. A "lei" servia assim de fachada para o império da autocracia e do crime, e a impunidade ameaçava ser eterna. Mas eis que chegava o "mocinho": um homem vindo não se sabe de onde, solitário, lacônico, hábil no manejo das armas, intrépido, capaz de enfrentar e derrotar sozinho os poderosos locais – o que fazia com bravura e frieza, até deixar a cidade pacificada e sumir para sempre no horizonte, sob o olhar dos cidadãos agradecidos. A "mensagem" desses filmes? Haveria, dentro de indivíduos especiais, um impulso natural para a justiça e a virtude, capaz de mudar a ordem das coisas. As virtudes inatas dessa liderança singular refundariam as instituições suprimidas. A figura de um herói solitário estaria na base da legitimação da ordem pública, quando esta fosse comprometida. Não deixa de ser uma forma de atribuir a uma liderança pessoal a missão de promover as instituições que tenham por escopo o bem público. Dito de outro modo: a moralidade desejável das instituições sociais já estaria presente, em germe, no indivíduo essencialmente virtuoso, capaz de reconduzir uma comunidade a um patamar da civilização. (Bruno Rosa de Alcântara, a editar) As virtudes inatas dessa liderança singular refundariam as instituições suprimidas. O sentido básico, a coesão e a coerência da frase acima estão preservados nesta outra redação:
 
-**19.** Assinale a frase **clara e correta** (confronto estilo FCC):
+A) Desde que as refunda, as virtudes singulares de uma liderança demoveriam as instituições.  
+B) Desde que removidas, as instituições demandam a liderança singular de virtudes inatas.  
+C) Instituições superadas podem ser salvas pela singularidade de virtudes adquiridas.  
+D) Uma liderança especial, naturalmente virtuosa, recuperaria o valor de instituições extintas.  
+E) Uma vez abaladas, as instituições removeriam a singular virtude das lideranças inatas.  
 
-A) A cidadania digital, exige do Estado transparência e proteção de dados.  
-B) A cidadania digital exige do Estado transparência e proteção de dados.  
-C) A cidadania digital exigem do Estado transparência.  
-D) A cidadania digital exige ao Estado de transparência.  
-E) A cidadania digital exige, do Estado transparência proteção.  
+**19.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+O individualismo e as instituições Quando as instituições são frágeis e não funcionam, podem prevalecer as amarras da prepotência e do oportunismo violento. Na falta de normas legais que funcionem, na falta de uma representação atuante e legítima do Estado na vida social, a condição da "terra sem lei" tende à barbárie. Exemplo disso forneceu o cinema norte-americano quando, em meados do século passado, inundou o mundo e a imaginação popular com filmes do gênero "western", supostos documentários da conquista do oeste. Uma situação padrão era representada nesses filmes: na pequena e remota cidade recém-formada, o poder local era manipulado por malfeitores poderosos, que submetiam aos seus interesses o xerife e o juiz. A "lei" servia assim de fachada para o império da autocracia e do crime, e a impunidade ameaçava ser eterna. Mas eis que chegava o "mocinho": um homem vindo não se sabe de onde, solitário, lacônico, hábil no manejo das armas, intrépido, capaz de enfrentar e derrotar sozinho os poderosos locais – o que fazia com bravura e frieza, até deixar a cidade pacificada e sumir para sempre no horizonte, sob o olhar dos cidadãos agradecidos. A "mensagem" desses filmes? Haveria, dentro de indivíduos especiais, um impulso natural para a justiça e a virtude, capaz de mudar a ordem das coisas. As virtudes inatas dessa liderança singular refundariam as instituições suprimidas. A figura de um herói solitário estaria na base da legitimação da ordem pública, quando esta fosse comprometida. Não deixa de ser uma forma de atribuir a uma liderança pessoal a missão de promover as instituições que tenham por escopo o bem público. Dito de outro modo: a moralidade desejável das instituições sociais já estaria presente, em germe, no indivíduo essencialmente virtuoso, capaz de reconduzir uma comunidade a um patamar da civilização. (Bruno Rosa de Alcântara, a editar) Os malfeitores poderosos submetiam a seus interesses o xerife e o juiz. Sem prejuízo para a correção e a coerência, pode-se substituir a expressão sublinhada na frase acima por
 
-**20.** Para tema de atualidades sobre confiança nas instituições, o desenvolvimento mais sólido:
+A) expunham com seus interesses  
+B) subjugavam com seus interesses  
+C) consideravam como interessados  
+D) subordinavam diante de seus interesses  
+E) sujeitavam seus interesses para  
 
-A) apresenta só adjetivos sem predicado  
-B) lista apenas nomes de redes sociais sem argumento  
-C) narra férias pessoais  
-D) copia o edital integral  
-E) articula mecanismos (transparência, canais de correção, inclusão) ligados à tese  
+**20.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+O individualismo e as instituições Quando as instituições são frágeis e não funcionam, podem prevalecer as amarras da prepotência e do oportunismo violento. Na falta de normas legais que funcionem, na falta de uma representação atuante e legítima do Estado na vida social, a condição da "terra sem lei" tende à barbárie. Exemplo disso forneceu o cinema norte-americano quando, em meados do século passado, inundou o mundo e a imaginação popular com filmes do gênero "western", supostos documentários da conquista do oeste. Uma situação padrão era representada nesses filmes: na pequena e remota cidade recém-formada, o poder local era manipulado por malfeitores poderosos, que submetiam aos seus interesses o xerife e o juiz. A "lei" servia assim de fachada para o império da autocracia e do crime, e a impunidade ameaçava ser eterna. Mas eis que chegava o "mocinho": um homem vindo não se sabe de onde, solitário, lacônico, hábil no manejo das armas, intrépido, capaz de enfrentar e derrotar sozinho os poderosos locais – o que fazia com bravura e frieza, até deixar a cidade pacificada e sumir para sempre no horizonte, sob o olhar dos cidadãos agradecidos. A "mensagem" desses filmes? Haveria, dentro de indivíduos especiais, um impulso natural para a justiça e a virtude, capaz de mudar a ordem das coisas. As virtudes inatas dessa liderança singular refundariam as instituições suprimidas. A figura de um herói solitário estaria na base da legitimação da ordem pública, quando esta fosse comprometida. Não deixa de ser uma forma de atribuir a uma liderança pessoal a missão de promover as instituições que tenham por escopo o bem público. Dito de outro modo: a moralidade desejável das instituições sociais já estaria presente, em germe, no indivíduo essencialmente virtuoso, capaz de reconduzir uma comunidade a um patamar da civilização. (Bruno Rosa de Alcântara, a editar) A lei servia assim de fachada, e a impunidade ameaçava ser eterna. Reescrevendo-se com coerência o período acima, de modo a iniciá-lo por A impunidade ameaçava ser eterna , o enunciado complementar deverá ser
 
-**21.** Qual reescritura preserva melhor relação de **causa**?
+A) enquanto a lei servia de fachada.  
+B) de modo a servir a lei como fachada.  
+C) conquanto a lei servisse como fachada.  
+D) para a lei vir a servir de fachada.  
+E) ainda que a lei servisse de fachada.  
 
-A) O serviço ganhou adesão, **embora** a interface fosse clara  
-B) O serviço ganhou adesão, **uma vez que** a linguagem era acessível  
-C) O serviço ganhou adesão, **a fim de que** ontem  
-D) O serviço ganhou adesão, **contudo** explicando a mesma causa como oposição  
-E) O serviço ganhou adesão, **por exemplo** como único verbo da oração  
+**21.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+"Na medida do possível" Nada mais elegante que dizer "na medida do possível". Que seria de nós sem a medida do possível? Sem a sensatez do senso de medida? Nada melhor do que viver — viver na medida do possível. "Você me ama?" "Na medida do possível". "Você é honesto?" "Na medida do possível." "Você quer viver eternamente?" "Na medida do possível". "Você está me dando o fora?" "Na medida do possível". Falando agora mais a sério, essa expressão é também um índice da maturidade modesta: pode indicar o cuidado realista de quem prefere não exagerar em nada e contar com os imprevistos, com os grandes obstáculos que surgem inopinadamente. Ela será mais comumente utilizada por adultos, por pessoas já experientes; difícil imaginar jovens dizendo "na medida do possível", quando a tendência deles é contar com medidas radicais. Entre as correntes filosóficas, talvez a do estoicismo seja a que melhor absorva a força dessa expressão. Um estoico não desafia as forças do destino: ele as respeita e conta sempre com a possibilidade de deparar com um desafio invencível, diante do qual ele manterá uma reação sóbria de quem resiste, sim, mas na medida do possível. Na linguagem comum, um estoico seria aquele que se recusa a dar murro em ponta de faca. Ele buscará se conter, na medida do possível. O verbo indicado entre parênteses deverá flexionar-se no plural para integrar corretamente a frase:
 
-**22.** Em prova objetiva de Português voltada a “Redação” (frases corretas/incorretas), a alternativa correta costuma ser a que:
+A) Contra as correntes filosóficas mais idealistas (reagir) a sensatez dos estoicos mais realistas.  
+B) Não (surpreender) jamais as forças do destino a quem as reconhece em sua plena intensidade.  
+C) (Ser) em expressões como a do título do texto que se acentuam o temperamento de que quem as usa.  
+D) Ainda que (ensejar) momentos de humor, a expressão do título é abordada de modo mais sisudo.  
+E) Não (caber) aos mais jovens adotar reações que só a experiência dos mais velhos podem assumir.  
 
-A) usa gíria para modernizar  
-B) tem só um erro “pequeno” aceitável  
-C) combina norma culta e sentido íntegro, sem erro residual  
-D) separa sempre sujeito e verbo  
-E) omitir pontuação por completo  
+**22.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+"Na medida do possível" Nada mais elegante que dizer "na medida do possível". Que seria de nós sem a medida do possível? Sem a sensatez do senso de medida? Nada melhor do que viver — viver na medida do possível. "Você me ama?" "Na medida do possível". "Você é honesto?" "Na medida do possível." "Você quer viver eternamente?" "Na medida do possível". "Você está me dando o fora?" "Na medida do possível". Falando agora mais a sério, essa expressão é também um índice da maturidade modesta: pode indicar o cuidado realista de quem prefere não exagerar em nada e contar com os imprevistos, com os grandes obstáculos que surgem inopinadamente. Ela será mais comumente utilizada por adultos, por pessoas já experientes; difícil imaginar jovens dizendo "na medida do possível", quando a tendência deles é contar com medidas radicais. Entre as correntes filosóficas, talvez a do estoicismo seja a que melhor absorva a força dessa expressão. Um estoico não desafia as forças do destino: ele as respeita e conta sempre com a possibilidade de deparar com um desafio invencível, diante do qual ele manterá uma reação sóbria de quem resiste, sim, mas na medida do possível. Na linguagem comum, um estoico seria aquele que se recusa a dar murro em ponta de faca. Ele buscará se conter, na medida do possível. A frase Que seria de nós sem a medida do possível? ganha nova, correta e coerente redação em:
 
-**23.** Sobre progressão textual na discursiva:
+A) Haveríamos de ser quem, na medida que o possível nos faltasse?  
+B) Caso a medida do possível viesse ausentar-nos, quem seríamos?  
+C) Faltando-nos a medida do possível, o que haveria de ocorrer conosco?  
+D) Onde chegaríamos se não nos contemplasse com a medida do possível?  
+E) Quem seríamos se a medida do possível não viesse ao encontro de nós?  
 
-A) basta um parágrafo único de 30 linhas sem articulação  
-B) repetir a tese idêntica em todas as linhas eleva a nota  
-C) a conclusão deve abrir tema inédito sem retomada  
-D) cada parágrafo deve avançar o raciocínio, sem mera paráfrase circular  
-E) conectivos podem ser aleatórios  
+**23.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+Usos da tecnologia O uso da tecnologia em geral e dos dispositivos digitais em particular adquiriu importância social e passou a ressignificar a vida das pessoas, no que tange à corrente de informações, aos vários níveis de comunicação, ao consumo e à educação. Com a pandemia do novo coronavírus, em 2020, o que vinha acontecendo gradativamente acabou sendo acelerado com o uso mais intenso da tecnologia, como nos casos do ensino a distância e do trabalho remoto. O que já era uma tendência do mercado passou a fazer parte da rotina das pessoas. Grande parte da sociedade passou a viver imersa em diversos recursos tecnológicos: mensagens instantâneas, aulas virtuais, áudios e vídeos compartilhados. São operações que nos aproximam e que solucionam problemas emergentes, mas que também requerem cuidado e prudência em sua utilização. A integração crescente da tecnologia no nosso cotidiano pode impactar a saúde das pessoas de diversas maneiras, o uso excessivo de dispositivos digitais tornou-se de tal modo uma constante que passou a representar um sério risco para a saúde dos jovens, em boa parte sedentários e com distúrbios do sono, e do equilíbrio mental de toda pessoa que se entrega ao regime cativante das imagens, afastando-se cada vez mais dos componentes do mundo real. Além disso, a conectividade exagerada pode contribuir para intensificar a ansiedade e a frustração de expectativas entre os usuários renitentes da tecnologia. Ferramentas úteis e necessárias, quando mal utilizadas, podem tornar-se letais para quem delas faz uso indiscriminado. Ferramentas úteis e necessárias, quando mal utilizadas, podem tornar-se letais. Reescrevendo-se o período acima começando por A má utilização de ferramentas, uma complementação correta e coerente será
 
-**24.** Assinale o desvio **mais grave** para a 2ª redação (atualidades):
+A) pode ser letal, uma vez que sejam úteis e necessárias.  
+B) ainda quando úteis e necessárias, pode tornar-se letal.  
+C) conquanto úteis e necessárias, podem tornar-se letais.  
+D) a menos que úteis e necessárias, poderão tornar-se letais.  
+E) se tornaria letal, quando fossem úteis e necessárias.  
 
-A) tese clara sobre cidadania informacional  
-B) dois argumentos com exemplos institucionais genéricos pertinentes  
-C) transformar o texto em panfleto partidário nominal sem argumentação  
-D) conclusão com proposta de comunicação clara e canais de correção  
-E) registro formal  
+**24.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+Usos da tecnologia O uso da tecnologia em geral e dos dispositivos digitais em particular adquiriu importância social e passou a ressignificar a vida das pessoas, no que tange à corrente de informações, aos vários níveis de comunicação, ao consumo e à educação. Com a pandemia do novo coronavírus, em 2020, o que vinha acontecendo gradativamente acabou sendo acelerado com o uso mais intenso da tecnologia, como nos casos do ensino a distância e do trabalho remoto. O que já era uma tendência do mercado passou a fazer parte da rotina das pessoas. Grande parte da sociedade passou a viver imersa em diversos recursos tecnológicos: mensagens instantâneas, aulas virtuais, áudios e vídeos compartilhados. São operações que nos aproximam e que solucionam problemas emergentes, mas que também requerem cuidado e prudência em sua utilização. A integração crescente da tecnologia no nosso cotidiano pode impactar a saúde das pessoas de diversas maneiras, o uso excessivo de dispositivos digitais tornou-se de tal modo uma constante que passou a representar um sério risco para a saúde dos jovens, em boa parte sedentários e com distúrbios do sono, e do equilíbrio mental de toda pessoa que se entrega ao regime cativante das imagens, afastando-se cada vez mais dos componentes do mundo real. Além disso, a conectividade exagerada pode contribuir para intensificar a ansiedade e a frustração de expectativas entre os usuários renitentes da tecnologia. Ferramentas úteis e necessárias, quando mal utilizadas, podem tornar-se letais para quem delas faz uso indiscriminado. Está inteiramente regular a pontuação da frase:
 
-**25.** Checklist mínima antes de entregar a 2ª redação:
+A) Se há benefícios há também transtornos, no uso indiscriminado, das novas tecnologias.  
+B) Há reflexos no cotidiano nosso, quando do mau uso, dos dispositivos digitais.  
+C) Acredita-se sim que, mesmo as boas ferramentas, podem trazer prejuízo se mal utilizadas.  
+D) A ansiedade e a frustração, com a conectividade exagerada podem intensificar-se.  
+E) Na falta de moderação, o uso dessas ferramentas acarreta, sem dúvida, graves transtornos.  
 
-A) extensão livre e tema livre  
-B) só título e assinatura  
-C) texto em inglês técnico exclusivo  
-D) mapa mental no lugar do texto  
-E) tese · 2 ângulos · coesão · 20–30 linhas · norma-padrão · fidelidade ao comando  
+**25.** (FCC – TRT-20/2024 – Analista Judiciário – TI)  
+Chamamos nossa espécie de Homo sapiens – o humano sábio. Mas é discutível até que ponto temos feito jus ao nome. Nos últimos 100 mil anos, nós, sapiens, certamente acumulamos um poder enorme. A mera listagem de todas as nossas descobertas, invenções e conquistas ocuparia muitos volumes. Mas poder não é sabedoria e, depois de 100 mil anos de descobertas, invenções e conquistas, a humanidade se arrastou para uma crise existencial. Estamos à beira da catástrofe ambiental, causada pelo mau uso do nosso próprio poder. Também estamos criando novas tecnologias, como a IA (Inteligência Artificial), que podem nos escravizar ou nos aniquilar. Mas em vez de a nossa espécie se unir para lidar com esses grandes problemas existenciais, as tensões internacionais estão aumentando, a cooperação global vem se tornando mais difícil, os países estão ampliando seus arsenais de aniquilação total, e não parece impossível que uma nova guerra mundial aconteça. Apesar da espantosa quantidade de informação à nossa disposição, somos tão suscetíveis à fantasia e à ilusão quanto nossos ancestrais antigos. Por que somos tão bons em acumular mais informação e poder, mas muito menos hábeis em adquirir sabedoria? Muitas tradições ao longo da história acreditaram que temos alguma imperfeição fatal que desperta a tentação de buscar poderes com que não sabemos lidar. (HARARI, Yuval. Nexus . Companhia das Letras, edição digital. Adaptado) No contexto em que se insere, estabelece uma oposição o seguinte trecho:
 
----
-
-### Gabarito comentado (treino 1–15)
-
-1. **B** — dissertativo-argumentativo.  
-2. **A** — 20–30.  
-3. **B** — concessão.  
-4. **B** — vírgula sujeito-verbo.  
-5. **B** — “uma vez que” = causa.  
-6. **D** — coesão + avanço.  
-7. **B** — cujo sem artigo.  
-8. **E** — fuga.  
-9. **C** — síntese + fecho.  
-10. **D** — culto impessoal.  
-11. **A** — contudo = oposição.  
-12. **C** — TI meio.  
-13. **E** — estrutura FCC.  
-14. **D** — padrão.  
-15. **C** — método.
-
-### Gabarito (estilo concurso 16–25)
-
-| Q | Gab | Nota |
-|---|-----|------|
-| 16 | **A** | “porém” = oposição (linha FCC TRT-11/2017) |
-| 17 | **B** | concessão + concordância com “má utilização” (FCC TRT-6/2025 TI) |
-| 18 | **D** | conteúdo/tangência |
-| 19 | **B** | sem vírgula indevida; concordância ok |
-| 20 | **E** | mecanismos + tese |
-| 21 | **B** | causa |
-| 22 | **C** | confronto de frases |
-| 23 | **D** | progressão |
-| 24 | **C** | panfleto |
-| 25 | **E** | checklist |
+A) Estamos à beira da catástrofe ambiental.  
+B) Apesar da espantosa quantidade de informação à nossa disposição.  
+C) Também estamos criando novas tecnologias, como a IA (Inteligência Artificial).  
+D) somos tão suscetíveis à fantasia e à ilusão quanto nossos ancestrais antigos.  
+E) causada pelo mau uso do nosso próprio poder.  
 
 ---
 
-## 4. Gabarito consolidado
+### Gabarito (concurso 16–25)
 
-| Q | Resp | Q | Resp | Q | Resp | Q | Resp | Q | Resp |
-|---|------|---|------|---|------|---|------|---|------|
-| 1 | B | 2 | A | 3 | B | 4 | B | 5 | B |
-| 6 | D | 7 | B | 8 | E | 9 | C | 10 | D |
-| 11 | A | 12 | C | 13 | E | 14 | D | 15 | C |
-| 16 | A | 17 | B | 18 | D | 19 | B | 20 | E |
-| 21 | B | 22 | C | 23 | D | 24 | C | 25 | E |
+| Questão | Gabarito | Fonte / nota |
+|---------|----------|--------------|
+| 16 | **C** | FCC TRT-1/2025 Q1 — Correlação de tempos e modos verbais |
+| 17 | **C** | FCC TRT-1/2025 Q5 — Concordância verbal |
+| 18 | **D** | FCC TRT-1/2025 Q6 — Redação |
+| 19 | **B** | FCC TRT-1/2025 Q9 — Regência verbal |
+| 20 | **A** | FCC TRT-1/2025 Q10 — Redação |
+| 21 | **B** | FCC TRT-6/2025 Q1 — Concordância verbal |
+| 22 | **C** | FCC TRT-6/2025 Q2 — Reescrita de frases |
+| 23 | **B** | FCC TRT-6/2025 Q6 — Coesão textual |
+| 24 | **E** | FCC TRT-6/2025 Q7 — Pontuação |
+| 25 | **B** | FCC TRT-20/2024 Q2 — Coesão e Coerência |
 
----
-
-## 5. Mini-proposta de treino (semana 6)
-
-**Tema (casa):** *Cidadania digital, transparência pública e confiança nas instituições.*
-
-Escreva **20–30 linhas** com o método 1.7; revise pontuação e conectivos. Não cole o esqueleto 1.8 literalmente.
+**Notas rápidas:** 16 C; 17 C; 18 D; 19 B; 20 A; 21 B; 22 C; 23 B; 24 E; 25 B.
 
 ---
 

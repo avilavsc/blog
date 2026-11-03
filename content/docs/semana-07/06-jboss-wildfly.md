@@ -373,44 +373,43 @@ E) Apache frequentemente faz reverse/TLS na frente; WildFly hospeda a aplicaçã
 
 ## 3. Questões estilo concurso FCC (16–25)
 
+> Questões reais de provas. Gabarito só ao final.
+
 **16.** (FCC – TRT-20/2024 – Analista Judiciário – TI)  
-Uma equipe discute comandos para servidores de um TRT. Em condições ideais, no servidor de aplicação
+Uma equipe de TI está conversando sobre os comandos adequados para a configuração de servidores para hospedar diversas aplicações de um Tribunal Regional do Trabalho. Uma Analista esclareceu que, em condições ideais e com as devidas permissões, no servidor de aplicação
 
-A) IIS: `Add-WindowsFeature Web-Server-PHP` habilita PHP  
-B) Apache: `sudo apachectl enable mod_ssl --generate-ssl-cert` gera certificado  
-C) JBoss: `./jboss-cli.sh --connect --command=:enable-remote-access` habilita admin remoto  
-D) Apache: `sudo apachectl DocumentRoot '/var/www/new_trtsite'` altera DocumentRoot  
-E) JBoss: `jboss-cli.sh --connect --command=shutdown` conecta via CLI e desliga o servidor  
+A) IIS, o comando para habilitar o suporte ao PHP, configurando o IIS para rodar aplicações PHP é: `Add-WindowsFeature Web-Server-PHP`  
+B) Apache HTTP Server, o comando para gerar um novo certificado SSL utilizando o módulo `mod_ssl` é: `sudo apachectl enable mod_ssl --generate-ssl-cert`  
+C) JBoss, o comando para habilitar a porta de administração remota e permitir que o servidor seja acessado externamente é: `./jboss-cli.sh --connect --command=:enable-remote-access`  
+D) Apache HTTP Server, o arquivo de configuração principal pode ser editado diretamente para alterar o diretório raiz (DocumentRoot). O comando para alterar o diretório raiz para /var/www/new_trtsite é: `sudo apachectl DocumentRoot '/var/www/new_trtsite'`  
+E) JBoss, para se conectar a uma instância CLI destacada e desligar o servidor, o comando correto é: `jboss-cli.sh --connect --command=shutdown`
 
-**17.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
-Correlação servidor × arquivo:
+**17.** (FCC – TRT-15/2023 – Analista Judiciário – TI)  
+Por padrão, o WildFly é distribuído com a segurança ativada para acesso à interface de gerenciamento. Isso significa que, antes de se conectar usando o console de administração ou, remotamente, usando a CLI, será necessário adicionar um novo usuário ao WildFly. Isso pode ser feito executando o
 
-1. JBoss (WildFly) · 2. Apache HTTP Server · 3. IIS  
-a. domain.xml · b. applicationHost.config · c. standalone.xml · d. httpd.conf  
-
-A) 1-a − 2-d − 3-c − 3-b  
-B) 1-a − 1-c − 2-d − 3-b  
-C) 1-b − 2-a − 3-c − 3-d  
-D) 1-d − 2-c − 3-a − 3-b  
-E) 1-c − 1-d − 2-b − 3-a  
+A) script `add-user.sh` contido no diretório `bin`  
+B) comando `adduser` no diretório `tmp/auth`  
+C) comando `adduser -a` seguido do nome do usuário e senha.  
+D) script `adduser.sh` contido no diretório `server`  
+E) comando `adduser -a` seguido do nome do usuário
 
 **18.** (FCC – TRT-22/2022 – Analista Judiciário – TI)  
-Na estrutura de diretórios do WildFly 26, o diretório que contém scripts de inicialização, arquivos de configuração de inicialização e utilitários de linha de comando (elytron-tool, add-user, relatório de diagnóstico Java) para Unix e Windows é:
+Na estrutura de diretórios do WildFly 26, de acordo com seu manual, encontra-se um diretório que contém scripts de inicialização, arquivos de configuração de inicialização e vários utilitários de linha de comando, como elytron-tool, add-user e relatório de diagnóstico Java disponível para ambientes Unix e Windows. Esse diretório é denominado
 
-A) bin  
-B) modules  
-C) app/jboss  
-D) lib/ext  
-E) appclient  
+A) bin.  
+B) modules.  
+C) app/jboss.  
+D) lib/ext.  
+E) appclient.
 
 **19.** (FCC – TRT-24/2016 – Analista Judiciário – TI)  
-Ao comparar JBoss EAP 5 e 6, visando instalação/configuração da versão 6, afirma corretamente que
+Ao comparar os servidores de aplicação Red Hat JBoss EAP versões 5 e 6, visando a instalação e configuração da versão 6, um Analista afirma corretamente que
 
-A) no EAP 5 o classloading era baseado em JBoss Modules; no EAP 6 voltou a ser hierárquico ocultando classes  
-B) no EAP 5 havia managed domain; no EAP 6 só existe servidor autônomo  
-C) no EAP 5 os perfis ficavam em `EAP_HOME/configuration/`; no EAP 6 o standalone usa `EAP_HOME/domain/server/domain.xml`  
-D) no EAP 6 a fonte de dados do servidor autônomo é configurada em `standalone/configuration/standalone.xml`  
-E) o JBoss Messaging passou a ser incluído no EAP 6, pois o EAP 5 usava HornetQ  
+A) no JBoss EAP 5 a arquitetura de carregamento de classe era baseado nos JBoss Modules, mas no JBoss EAP6, o carregamento de classe é hierárquico, ocultando as classes de implementação do servidor e carregando apenas as classes que o aplicativo necessita.  
+B) no JBoss EAP 5, o servidor podia ser executado em um managed domain, mas no JBoss EAP 6 executa como um servidor autônomo, permitindo configurar todos os grupos dos servidores de uma só vez, mantendo as configurações sincronizadas por toda a rede de servidores.  
+C) o JBoss EAP 5 usava perfis baseados na configuração de implantação, localizados no diretório `EAP_HOME/configuration/`. No JBoss EAP 6, a configuração da implantação é feita usando um arquivo e um servidor autônomo, que é configurado usando o arquivo `EAP_HOME/domain/server/domain.xml`.  
+D) no JBoss EAP 6 a fonte de dados é configurada no arquivo de configuração do servidor. Caso a instância do JBoss EAP estiver sendo executada como servidor autônomo, a fonte de dados é configurada no arquivo `standalone/configuration/standalone.xml`.  
+E) o JBoss Messaging passou a ser incluído no JBoss EAP 6, já que o JBoss EAP 5 usava o HornetQ como provedor messaging.
 
 **20.** (FCC – TST/2017 – Analista Judiciário – Suporte em TI)  
 Arquivo alternativo `config_extra.xml` em `EAP_HOME/domain/configuration/`. No Windows, a partir de `C:\EAP_HOME\bin>`, para iniciar como domínio gerenciado com esse arquivo:
@@ -419,73 +418,85 @@ A) `./domain.sh --domain-config=config_extra.xml`
 B) `domain.msi --server config-file='config_extra.xml'`  
 C) `run jboss --domain-file=config_extra.xml`  
 D) `jboss.bat --domain-mode file-config='config_extra.xml'`  
-E) `domain.bat --domain-config=config_extra.xml`  
+E) `domain.bat --domain-config=config_extra.xml`
 
-**21.** (Estilo FCC)  
-Um analista precisa de um único WildFly de desenvolvimento sem Domain Controller. O caminho mais direto é:
+**21.** (FCC – TRT-6/2018 – Analista Judiciário – TI)  
+Na estrutura de arquivos de configuração do JBoss Enterprise Application Platform 6, o arquivo `standalone-ha.xml`
 
-A) Usar modo **standalone** com `standalone.xml`  
-B) Subir obrigatoriamente domain com dois Host Controllers  
-C) Instalar IIS e renomear para WildFly  
-D) Configurar apenas `httpd.conf`  
-E) Usar `applicationHost.config` como único XML do WildFly  
+A) é necessário nos domínios autônomo e gerenciado, podendo ser lido somente pelo mestre do domínio.  
+B) habilita os subsistemas `mod_cluster` e JGroups para um servidor autônomo, para que ele possa participar de um cluster de alta disponibilidade ou de balanceamento de carga.  
+C) inclui apenas os detalhes de configuração necessários para executar um servidor como um servidor mestre de domínio autônomo, não estando presente nos servidores com domínio gerenciado.  
+D) inclui detalhes de configuração específicos para um host físico em um domínio gerenciado, como interfaces de rede, conexões de socket, o nome do host e outros detalhes específicos do host.  
+E) inclui apenas os detalhes de configuração necessários para executar um servidor como um servidor escravo de domínio autônomo, não estando presente em servidores de domínio gerenciado.
 
-**22.** (Estilo FCC)  
-Sobre `domain.xml` × `host.xml`:
+**22.** (FCC – TRT-15/2024 – Técnico Judiciário – TI)  
+Uma equipe técnica está utilizando o servidor de aplicações WildFly para hospedar uma aplicação Java EE crítica. Para monitorar os eventos de execução e falhas, decidiram integrar a aplicação com o Elastic Stack (Elasticsearch, Logstash e Kibana). Em condições ideais, a melhor abordagem para capturar e analisar os logs da aplicação é
 
-A) Ambos são arquivos exclusivos do Apache  
-B) `host.xml` substitui o PostgreSQL  
-C) `domain.xml` só existe no IIS  
-D) `domain.xml` traz política/perfis do domínio; `host.xml` traz aspectos do host local e servers da máquina  
-E) São sinônimos rigorosos de DocumentRoot  
+A) configurar o WildFly para enviar logs diretamente ao Elasticsearch, pois isso evita sobrecarga com intermediários como Kibana ou JSONfile, agilizando o acesso ao dashboard ELK.  
+B) configurar o Logstash para enviar logs diretamente ao Kibana, que armazenará e analisará os dados em XML sem a necessidade do Elasticsearch.  
+C) configurar o WildFly para usar o Filebeat como agente, enviando os logs para o Logstash, que fará o pré-processamento e encaminhará os dados ao Elasticsearch.  
+D) direcionar os logs do WildFly para o Kibana, o que permitirá análises em tempo real, e depois sincronizar com o Elasticsearch para o armazenamento dos logs em JSONscript.  
+E) configurar o Elasticsearch para buscar e analisar os logs do WildFly em XML, depois realizar consultas no console do Logstash para análise.
 
-**23.** (Estilo FCC)  
-A porta de management HTTP clássica do WildFly/EAP (default de muitas instalações) é da ordem de:
+**23.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+Considere os servidores de aplicação e os arquivos de configuração a seguir:
 
-A) 53  
-B) 161  
-C) 9990  
-D) 25  
-E) 123  
+Servidor:  
+1. Apache HTTP Server  
+2. Nginx  
+3. Tomcat  
 
-**24.** (Estilo FCC — anti-confusão)  
-Afirmação correta:
+Arquivo de configuração:  
+a. httpd.conf  
+b. server.xml  
+c. .htaccess  
+d. nginx.conf  
 
-A) `ProxyPass` é diretiva nativa do `standalone.xml`  
-B) `add-user` fica em `modules` obrigatoriamente  
-C) EAP não possui modo standalone  
-D) WildFly não pode ficar atrás de reverse proxy  
-E) `jboss-cli` tipicamente reside em `bin` e gerencia o app server  
+A correta correlação entre servidor e arquivo de configuração é:
 
-**25.** (Estilo FCC — síntese)  
-No eixo JBoss EAP/WildFly do edital TRT4, o cartão mental adequado é:
+A) 1-a – 2-d – 3-c – 3-b.  
+B) 1-a – 1-c – 2-d – 3-b.  
+C) 1-b – 2-a – 3-c – 3-d.  
+D) 1-d – 2-c – 3-a – 3-b.  
+E) 1-c – 1-d – 2-b – 3-a.
 
-A) Só memorizar Apache; WildFly não cai  
-B) WildFly = protocolo SNMP  
-C) Standalone × domain; XML standalone/domain/host; `bin` + CLI; datasources no XML do modo; contraste com Apache/IIS na frente  
-D) domain.xml = applicationHost.config  
-E) Shutdown apenas via `nginx reloading`  
+**24.** (FGV – CVM/2024 – Analista CVM – TI Infraestrutura e Segurança)  
+Gomes foi contratado pela Comissão de Valores Mobiliários (CVM) para fazer uma alteração nas diretivas do servidor Apache da CVM. Ele solicitou uma modificação na pasta raiz indicando a partir de qual pasta do servidor os arquivos e pastas contidos na URL solicitada serão pesquisados. Desse modo, assumindo o caminho como /opt/www, se a URL solicitada for http://www.cvm.com/9.10/index.html, o arquivo index.html será procurado na pasta /opt/www/9.10. Gomes deverá alterar a configuração na diretiva:
 
+A) DocumentRoot  
+B) DirectoryIndex  
+C) ServerRoot /etc/apache2  
+D) MaxSpareServers  
+E) UserDir public_html
+
+**25.** (FCC – TJ-CE/2022 – Analista Judiciário – Ciência da Computação – Infraestrutura de TI)  
+Considere que um Analista instalou o site principal no domínio example.com e o site proxy no subdomínio blog.domain.com, ambos alimentados pelo Apache. Em seguida configurou o Nginx como proxy reverso, ativou o vhost com symlink em `sites-available`/`sites-enabled` e quer: (I) testar o Nginx quanto a erros de configuração; (II) sem erros, recarregar o Nginx. Os comandos corretos e respectivos são:
+
+A) `sudo nginx ProxyPass /blog http://blog.domain.com` · `sudo system reload nginx`  
+B) `sudo nginx ProxyPass /blog http://example.com` · `sudo nginx systemctl reload`  
+C) `sudo nginx -t` · `sudo systemctl reload nginx`  
+D) `sudo nginx test` · `sudo nginx proxy proxy http ssl`  
+E) `sudo nginx -t` · `sudo nginx reloading`
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito comentado (FCC 16–25)
 
 | Questão | Gabarito | Fonte / nota |
 |---------|----------|--------------|
-| 16 | **E** | FCC TRT-20/2024 |
-| 17 | **B** | FCC TRT-1/2025 |
-| 18 | **A** | FCC TRT-22/2022 — bin |
-| 19 | **D** | FCC TRT-24/2016 — standalone.xml datasource |
+| 16 | **E** | FCC TRT-20/2024 — jboss-cli shutdown |
+| 17 | **A** | FCC TRT-15/2023 — add-user.sh em bin |
+| 18 | **A** | FCC TRT-22/2022 — diretório bin |
+| 19 | **D** | FCC TRT-24/2016 — datasource em standalone.xml |
 | 20 | **E** | FCC TST/2017 — domain.bat --domain-config |
-| 21 | **A** | Standalone para um servidor |
-| 22 | **D** | Papéis domain.xml / host.xml |
-| 23 | **C** | 9990 management HTTP |
-| 24 | **E** | CLI em bin |
-| 25 | **C** | Síntese do subtópico |
+| 21 | **B** | FCC TRT-6/2018 — standalone-ha.xml |
+| 22 | **C** | FCC TRT-15/2024 — Filebeat → Logstash → ES |
+| 23 | **B** | FCC TRT-1/2025 — correlação Apache/Nginx/Tomcat |
+| 24 | **A** | FGV CVM/2024 — DocumentRoot (contexto servidor web na frente do app server) |
+| 25 | **C** | FCC TJ-CE/2022 — nginx -t + reload |
 
-**Notas:** 16 E. 17 B. 18 A. 19 D (demais invertem Modules/domain/messaging). 20 E. 21 B. 22 B. 23 C. 24 B. 25 B.
+**Notas rápidas:** 16 E. 17 A. 18 A. 19 D. 20 E. 21 B. 22 C. 23 B. 24 A. 25 C.
 
----
+Distribuição do gabarito (16–25): E, A, A, D, E, B, C, B, A, C — letras A–E presentes.
 
 *Arquivo 06 · JBoss EAP / WildFly · Claudionir · TRT4 Analista TI (código 14) · FCC. Próximo: 07 SNMP e QoS.*

@@ -262,87 +262,109 @@ E) deixar em branco se a objetiva estiver boa
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** (FCC — TRT-20ª Região — 2024 — linha conectivos) Sem prejuízo para a correção e o sentido, o trecho concessivo equivalente a “ainda que” pode ser substituído por:
+> Questões reais de provas (FCC). Gabarito só ao final.
 
-A) bem como  
-B) devido a  
-C) conquanto  
-D) porquanto  
-E) tampouco  
+**16.** (FCC – TRT-20/2024 – Analista Judiciário – TI)  
+Chamamos nossa espécie de Homo sapiens – o humano sábio. Mas é discutível até que ponto temos feito jus ao nome. Nos últimos 100 mil anos, nós, sapiens, certamente acumulamos um poder enorme. A mera listagem de todas as nossas descobertas, invenções e conquistas ocuparia muitos volumes. Mas poder não é sabedoria e, depois de 100 mil anos de descobertas, invenções e conquistas, a humanidade se arrastou para uma crise existencial. Estamos à beira da catástrofe ambiental, causada pelo mau uso do nosso próprio poder. Também estamos criando novas tecnologias, como a IA (Inteligência Artificial), que podem nos escravizar ou nos aniquilar. Mas em vez de a nossa espécie se unir para lidar com esses grandes problemas existenciais, as tensões internacionais estão aumentando, a cooperação global vem se tornando mais difícil, os países estão ampliando seus arsenais de aniquilação total, e não parece impossível que uma nova guerra mundial aconteça. Apesar da espantosa quantidade de informação à nossa disposição, somos tão suscetíveis à fantasia e à ilusão quanto nossos ancestrais antigos. Por que somos tão bons em acumular mais informação e poder, mas muito menos hábeis em adquirir sabedoria? Muitas tradições ao longo da história acreditaram que temos alguma imperfeição fatal que desperta a tentação de buscar poderes com que não sabemos lidar. (HARARI, Yuval. Nexus . Companhia das Letras, edição digital. Adaptado) A frase em que o sujeito é ao mesmo tempo agente e paciente está em:
 
-**17.** (FCC — TRT-15ª Região — 2023 — linha pontuação) Mantendo as relações de sentido, uma pontuação alternativa adequada para introduzir explicação/aposto após termo genérico (no lugar da vírgula explicativa) é o uso de:
+A) que uma nova guerra mundial aconteça.  
+B) a humanidade se arrastou para uma crise existencial.  
+C) como devemos vivê-la?  
+D) Estamos à beira da catástrofe ambiental.  
+E) nós, sapiens, certamente acumulamos um poder enorme.  
 
-A) dois-pontos introduzindo o esclarecimento  
-B) vírgula entre verbo e objeto direto  
-C) ponto final que quebra a relação causal seguinte  
-D) travessão que separa oração subordinada substantiva de sua principal  
-E) ponto e vírgula isolando conjunção adversativa do verbo  
+**17.** (FCC – TRT-20/2024 – Analista Judiciário – TI)  
+Chamamos nossa espécie de Homo sapiens – o humano sábio. Mas é discutível até que ponto temos feito jus ao nome. Nos últimos 100 mil anos, nós, sapiens, certamente acumulamos um poder enorme. A mera listagem de todas as nossas descobertas, invenções e conquistas ocuparia muitos volumes. Mas poder não é sabedoria e, depois de 100 mil anos de descobertas, invenções e conquistas, a humanidade se arrastou para uma crise existencial. Estamos à beira da catástrofe ambiental, causada pelo mau uso do nosso próprio poder. Também estamos criando novas tecnologias, como a IA (Inteligência Artificial), que podem nos escravizar ou nos aniquilar. Mas em vez de a nossa espécie se unir para lidar com esses grandes problemas existenciais, as tensões internacionais estão aumentando, a cooperação global vem se tornando mais difícil, os países estão ampliando seus arsenais de aniquilação total, e não parece impossível que uma nova guerra mundial aconteça. Apesar da espantosa quantidade de informação à nossa disposição, somos tão suscetíveis à fantasia e à ilusão quanto nossos ancestrais antigos. Por que somos tão bons em acumular mais informação e poder, mas muito menos hábeis em adquirir sabedoria? Muitas tradições ao longo da história acreditaram que temos alguma imperfeição fatal que desperta a tentação de buscar poderes com que não sabemos lidar. (HARARI, Yuval. Nexus . Companhia das Letras, edição digital. Adaptado) Está gramaticalmente correta a redação do seguinte comentário a respeito das ideias do texto:
 
-**18.** (Linha FCC — “está clara e correta”) Assinale a frase **clara e correta**:
+A) Muitas opções haveriam, para mitigar os efeitos nocivos da crise climática se escolhêssemos cooperar mutuamente.  
+B) Causam questionamentos o fato de que o homo sapiens, com milênios de existência ainda não tenha delineado um futuro alentador.  
+C) Não se devem considerar menos efetiva que as dos nossos ancestrais a suscetibilidade humana a fantasias e ilusões.  
+D) Opõe-se aos benefícios advindos dos investimentos em novas tecnologias a ampliação dos arsenais de destruição em massa.  
+E) Cabem a diversas tradições adotadas ao longo da história, explicitar a tese de que o ser humano é dotado de imperfeições cabais.  
 
-A) A equidade, exige do Estado políticas específicas e universais.  
-B) A equidade exige do Estado políticas específicas e universais.  
-C) A equidade exigem do Estado políticas.  
-D) A equidade exige ao Estado de políticas.  
-E) A equidade exige, do Estado políticas universais específicas.  
+**18.** (FCC – TRT-20/2024 – Analista Judiciário – TI)  
+A lembrança de Torre di Venere evoca uma atmosfera desagradável. Torre fica a cerca de quinze quilômetros de Portoclemente, uma das cidades de veraneio prediletas à margem do mar Tirreno, com uma colorida avenida à beira-mar repleta de hotéis e lojas, gente bronzeada e uma estrondosa indústria da diversão. Margeada de pinhos, a praia mantém ao longo de toda a costa a sua cômoda amplidão de areia fina, portanto não admira que não muito adiante tenha-se aberto uma concorrente mais sossegada. Torre é, como destino turístico, uma ramificação do balneário vizinho e já foi um idílio. Mas, como costuma acontecer com lugares assim, a paz foi há muito obrigada a deslocar-se um trecho mais adiante; o mundo, como se sabe, busca-a e expulsa-a. Foi assim que Torre, ainda que mais introspectiva e modesta que Portoclemente, caiu no gosto de italianos e estrangeiros. Torre ganhou um Grand Hôtel (onde havíamos reservado quartos). Surgiram inúmeras pensões, luxuosas e mais simples. Em julho, agosto, fervilham berros, brigas, gritos de júbilo de banhistas, cuja pele da nuca se descasca por causa de um sol esturricante. Tal era o aspecto da praia de Torre quando chegamos. Na noite de nossa chegada ao Grand Hôtel, quando aparecemos para o jantar, fomos guiados até uma mesa pelo garçom responsável. Não havia nenhuma objeção a fazer a essa mesa, mas nos cativou a vista da varanda de vidro contígua, que dava para o mar e sobre cujas mesinhas cintilavam lamparinas de abajur vermelho. Os pequenos se mostraram encantados com essa magnificência, e manifestamos de forma singela a decisão de que preferíamos fazer a nossa refeição na varanda – uma declaração de ignorância, como restou claro, pois nos fizeram entender com uma cortesia algo constrangida que aquele aconchegante ambiente era destinado "aos nossos clientes". Nossos clientes? Mas isso éramos nós. Não estávamos de passagem ou só por uma noite. Abrimos mão, de resto, do esclarecimento da diferença entre gente como nós e aquela clientela, a quem se servia o jantar à luz de lamparinas vermelhas, e jantamos no refeitório, em nossa mesa de iluminação prosaica – uma refeição bem mediocre, própria do esquema hoteleiro insípido; achamos depois muito melhor a cozinha da pensione Eleonora, dez passos mais distante da praia. Foi justamente para lá que nos transferimos, três ou quatro dias mais tarde. (MANN, Thomas. Mário e o mágico: uma experiência trágica de viagem . Trad. José Marcos Macedo. Companhia das Letras, edição digital. Adaptado) a praia mantém ao longo de toda a costa a sua cômoda amplidão de areia fina O trecho sublinhado exerce, no contexto, a mesma função sintática do trecho sublinhado em:
 
-**19.** (Linha FCC — paralelismo) A série **paralela** é:
+A) cuja pele da nuca se descasca por causa de um sol esturricante.  
+B) Torre é, como destino turístico, uma ramificação do balneário vizinho e já foi um idílio.  
+C) não admira que não muito adiante tenha-se aberto uma concorrente mais sossegada.  
+D) Os pequenos se mostraram encantados com essa magnificência.  
+E) Surgiram inúmeras pensões, luxuosas e mais simples.  
 
-A) prevenir discriminações, a punição dos abusos e que se capacite equipes  
-B) prevenir discriminações, punir abusos e capacitar equipes  
-C) prevenção, punir e capacitadas  
-D) prevenir, punitivas e capacitar  
-E) a prevenção, punições e que capacite  
+**19.** (FCC – TRT-20/2024 – Analista Judiciário – TI)  
+A lembrança de Torre di Venere evoca uma atmosfera desagradável. Torre fica a cerca de quinze quilômetros de Portoclemente, uma das cidades de veraneio prediletas à margem do mar Tirreno, com uma colorida avenida à beira-mar repleta de hotéis e lojas, gente bronzeada e uma estrondosa indústria da diversão. Margeada de pinhos, a praia mantém ao longo de toda a costa a sua cômoda amplidão de areia fina, portanto não admira que não muito adiante tenha-se aberto uma concorrente mais sossegada. Torre é, como destino turístico, uma ramificação do balneário vizinho e já foi um idílio. Mas, como costuma acontecer com lugares assim, a paz foi há muito obrigada a deslocar-se um trecho mais adiante; o mundo, como se sabe, busca-a e expulsa-a. Foi assim que Torre, ainda que mais introspectiva e modesta que Portoclemente, caiu no gosto de italianos e estrangeiros. Torre ganhou um Grand Hôtel (onde havíamos reservado quartos). Surgiram inúmeras pensões, luxuosas e mais simples. Em julho, agosto, fervilham berros, brigas, gritos de júbilo de banhistas, cuja pele da nuca se descasca por causa de um sol esturricante. Tal era o aspecto da praia de Torre quando chegamos. Na noite de nossa chegada ao Grand Hôtel, quando aparecemos para o jantar, fomos guiados até uma mesa pelo garçom responsável. Não havia nenhuma objeção a fazer a essa mesa, mas nos cativou a vista da varanda de vidro contígua, que dava para o mar e sobre cujas mesinhas cintilavam lamparinas de abajur vermelho. Os pequenos se mostraram encantados com essa magnificência, e manifestamos de forma singela a decisão de que preferíamos fazer a nossa refeição na varanda – uma declaração de ignorância, como restou claro, pois nos fizeram entender com uma cortesia algo constrangida que aquele aconchegante ambiente era destinado "aos nossos clientes". Nossos clientes? Mas isso éramos nós. Não estávamos de passagem ou só por uma noite. Abrimos mão, de resto, do esclarecimento da diferença entre gente como nós e aquela clientela, a quem se servia o jantar à luz de lamparinas vermelhas, e jantamos no refeitório, em nossa mesa de iluminação prosaica – uma refeição bem mediocre, própria do esquema hoteleiro insípido; achamos depois muito melhor a cozinha da pensione Eleonora, dez passos mais distante da praia. Foi justamente para lá que nos transferimos, três ou quatro dias mais tarde. (MANN, Thomas. Mário e o mágico: uma experiência trágica de viagem . Trad. José Marcos Macedo. Companhia das Letras, edição digital. Adaptado) ainda que mais introspectiva e modesta que Portoclemente (1º parágrafo) Sem prejuízo para a correção e o sentido, o trecho sublinhado acima pode ser substituído por:
 
-**20.** (Linha FCC — valor do conectivo) Em contexto em que a segunda ideia **contrasta** a primeira, o conectivo culto mais adequado é:
+A) tampouco.  
+B) bem como.  
+C) devido a.  
+D) conquanto.  
+E) porquanto.  
 
-A) Porém  
-B) Já que (como único valor de oposição)  
-C) Porquanto  
-D) Uma vez que  
-E) Ou seja (sempre oposição)  
+**20.** (FCC – TRT-20/2024 – Analista Judiciário – TI)  
+A lembrança de Torre di Venere evoca uma atmosfera desagradável. Torre fica a cerca de quinze quilômetros de Portoclemente, uma das cidades de veraneio prediletas à margem do mar Tirreno, com uma colorida avenida à beira-mar repleta de hotéis e lojas, gente bronzeada e uma estrondosa indústria da diversão. Margeada de pinhos, a praia mantém ao longo de toda a costa a sua cômoda amplidão de areia fina, portanto não admira que não muito adiante tenha-se aberto uma concorrente mais sossegada. Torre é, como destino turístico, uma ramificação do balneário vizinho e já foi um idílio. Mas, como costuma acontecer com lugares assim, a paz foi há muito obrigada a deslocar-se um trecho mais adiante; o mundo, como se sabe, busca-a e expulsa-a. Foi assim que Torre, ainda que mais introspectiva e modesta que Portoclemente, caiu no gosto de italianos e estrangeiros. Torre ganhou um Grand Hôtel (onde havíamos reservado quartos). Surgiram inúmeras pensões, luxuosas e mais simples. Em julho, agosto, fervilham berros, brigas, gritos de júbilo de banhistas, cuja pele da nuca se descasca por causa de um sol esturricante. Tal era o aspecto da praia de Torre quando chegamos. Na noite de nossa chegada ao Grand Hôtel, quando aparecemos para o jantar, fomos guiados até uma mesa pelo garçom responsável. Não havia nenhuma objeção a fazer a essa mesa, mas nos cativou a vista da varanda de vidro contígua, que dava para o mar e sobre cujas mesinhas cintilavam lamparinas de abajur vermelho. Os pequenos se mostraram encantados com essa magnificência, e manifestamos de forma singela a decisão de que preferíamos fazer a nossa refeição na varanda – uma declaração de ignorância, como restou claro, pois nos fizeram entender com uma cortesia algo constrangida que aquele aconchegante ambiente era destinado "aos nossos clientes". Nossos clientes? Mas isso éramos nós. Não estávamos de passagem ou só por uma noite. Abrimos mão, de resto, do esclarecimento da diferença entre gente como nós e aquela clientela, a quem se servia o jantar à luz de lamparinas vermelhas, e jantamos no refeitório, em nossa mesa de iluminação prosaica – uma refeição bem mediocre, própria do esquema hoteleiro insípido; achamos depois muito melhor a cozinha da pensione Eleonora, dez passos mais distante da praia. Foi justamente para lá que nos transferimos, três ou quatro dias mais tarde. (MANN, Thomas. Mário e o mágico: uma experiência trágica de viagem . Trad. José Marcos Macedo. Companhia das Letras, edição digital. Adaptado) O termo sublinhado no trecho própria do esquema hoteleiro insípido (3º parágrafo) pode ser substituído, sem prejuízo para as relações de sentido estabelecidas no contexto, por:
 
-**21.** Qual reescritura preserva melhor relação de **concessão**?
+A) carismático.  
+B) aconchegante.  
+C) deprimente.  
+D) idílico.  
+E) enfadonho.  
 
-A) A política avançou, **uma vez que** houvesse resistência cultural  
-B) A política avançou, **embora** houvesse resistência cultural  
-C) A política avançou, **a fim de que** ontem  
-D) A política avançou, **além disso** como única oposição  
-E) A política avançou, **por exemplo** substituindo o verbo  
+**21.** (FCC – TRT-20/2024 – Analista Judiciário – TI)  
+A lembrança de Torre di Venere evoca uma atmosfera desagradável. Torre fica a cerca de quinze quilômetros de Portoclemente, uma das cidades de veraneio prediletas à margem do mar Tirreno, com uma colorida avenida à beira-mar repleta de hotéis e lojas, gente bronzeada e uma estrondosa indústria da diversão. Margeada de pinhos, a praia mantém ao longo de toda a costa a sua cômoda amplidão de areia fina, portanto não admira que não muito adiante tenha-se aberto uma concorrente mais sossegada. Torre é, como destino turístico, uma ramificação do balneário vizinho e já foi um idílio. Mas, como costuma acontecer com lugares assim, a paz foi há muito obrigada a deslocar-se um trecho mais adiante; o mundo, como se sabe, busca-a e expulsa-a. Foi assim que Torre, ainda que mais introspectiva e modesta que Portoclemente, caiu no gosto de italianos e estrangeiros. Torre ganhou um Grand Hôtel (onde havíamos reservado quartos). Surgiram inúmeras pensões, luxuosas e mais simples. Em julho, agosto, fervilham berros, brigas, gritos de júbilo de banhistas, cuja pele da nuca se descasca por causa de um sol esturricante. Tal era o aspecto da praia de Torre quando chegamos. Na noite de nossa chegada ao Grand Hôtel, quando aparecemos para o jantar, fomos guiados até uma mesa pelo garçom responsável. Não havia nenhuma objeção a fazer a essa mesa, mas nos cativou a vista da varanda de vidro contígua, que dava para o mar e sobre cujas mesinhas cintilavam lamparinas de abajur vermelho. Os pequenos se mostraram encantados com essa magnificência, e manifestamos de forma singela a decisão de que preferíamos fazer a nossa refeição na varanda – uma declaração de ignorância, como restou claro, pois nos fizeram entender com uma cortesia algo constrangida que aquele aconchegante ambiente era destinado "aos nossos clientes". Nossos clientes? Mas isso éramos nós. Não estávamos de passagem ou só por uma noite. Abrimos mão, de resto, do esclarecimento da diferença entre gente como nós e aquela clientela, a quem se servia o jantar à luz de lamparinas vermelhas, e jantamos no refeitório, em nossa mesa de iluminação prosaica – uma refeição bem mediocre, própria do esquema hoteleiro insípido; achamos depois muito melhor a cozinha da pensione Eleonora, dez passos mais distante da praia. Foi justamente para lá que nos transferimos, três ou quatro dias mais tarde. (MANN, Thomas. Mário e o mágico: uma experiência trágica de viagem . Trad. José Marcos Macedo. Companhia das Letras, edição digital. Adaptado) O mundo, como se sabe, busca-a e expulsa- a . (1º parágrafo) e sobre cujas mesinhas cintilavam lamparinas de abajur vermelho. (3º parágrafo) Os pronomes sublinhados referem-se, respectivamente, a:
 
-**22.** Sobre progressão textual na discursiva de equidade:
+A) Torre e mesinhas.  
+B) paz e lamparinas.  
+C) paz e varanda.  
+D) praia e mesinhas.  
+E) praia e varanda.  
 
-A) basta repetir “dignidade” vinte vezes  
-B) cada parágrafo deve avançar o raciocínio, sem mera paráfrase circular  
-C) a conclusão deve abrir tema de redes sem retomada  
-D) conectivos podem ser aleatórios  
-E) paralelismo é irrelevante  
+**22.** (FCC – TRT-20/2024 – Analista Judiciário – TI)  
+A lembrança de Torre di Venere evoca uma atmosfera desagradável. Torre fica a cerca de quinze quilômetros de Portoclemente, uma das cidades de veraneio prediletas à margem do mar Tirreno, com uma colorida avenida à beira-mar repleta de hotéis e lojas, gente bronzeada e uma estrondosa indústria da diversão. Margeada de pinhos, a praia mantém ao longo de toda a costa a sua cômoda amplidão de areia fina, portanto não admira que não muito adiante tenha-se aberto uma concorrente mais sossegada. Torre é, como destino turístico, uma ramificação do balneário vizinho e já foi um idílio. Mas, como costuma acontecer com lugares assim, a paz foi há muito obrigada a deslocar-se um trecho mais adiante; o mundo, como se sabe, busca-a e expulsa-a. Foi assim que Torre, ainda que mais introspectiva e modesta que Portoclemente, caiu no gosto de italianos e estrangeiros. Torre ganhou um Grand Hôtel (onde havíamos reservado quartos). Surgiram inúmeras pensões, luxuosas e mais simples. Em julho, agosto, fervilham berros, brigas, gritos de júbilo de banhistas, cuja pele da nuca se descasca por causa de um sol esturricante. Tal era o aspecto da praia de Torre quando chegamos. Na noite de nossa chegada ao Grand Hôtel, quando aparecemos para o jantar, fomos guiados até uma mesa pelo garçom responsável. Não havia nenhuma objeção a fazer a essa mesa, mas nos cativou a vista da varanda de vidro contígua, que dava para o mar e sobre cujas mesinhas cintilavam lamparinas de abajur vermelho. Os pequenos se mostraram encantados com essa magnificência, e manifestamos de forma singela a decisão de que preferíamos fazer a nossa refeição na varanda – uma declaração de ignorância, como restou claro, pois nos fizeram entender com uma cortesia algo constrangida que aquele aconchegante ambiente era destinado "aos nossos clientes". Nossos clientes? Mas isso éramos nós. Não estávamos de passagem ou só por uma noite. Abrimos mão, de resto, do esclarecimento da diferença entre gente como nós e aquela clientela, a quem se servia o jantar à luz de lamparinas vermelhas, e jantamos no refeitório, em nossa mesa de iluminação prosaica – uma refeição bem mediocre, própria do esquema hoteleiro insípido; achamos depois muito melhor a cozinha da pensione Eleonora, dez passos mais distante da praia. Foi justamente para lá que nos transferimos, três ou quatro dias mais tarde. (MANN, Thomas. Mário e o mágico: uma experiência trágica de viagem . Trad. José Marcos Macedo. Companhia das Letras, edição digital. Adaptado) Tal era o aspecto da praia de Torre quando chegamos. (2º parágrafo) No contexto em que se encontra, o termo sublinhado
 
-**23.** No padrão de correção discursiva FCC, abordagem **tangencial** ao tema tende a:
+A) ressalta as diferenças entre as duas praias mencionadas.  
+B) aponta para a resolução do conflito narrado.  
+C) foi empregado para intensificar as características do local descrito.  
+D) refere-se às características do local citado.  
+E) indica um local cujo nome não se mencionou, mas se depreende do contexto.  
 
-A) isentar erros de norma culta  
-B) garantir nota máxima automática  
-C) converter a prova em oral  
-D) prejudicar a nota de conteúdo proporcionalmente  
-E) substituir a extensão mínima  
+**23.** (FCC – TRT-20/2024 – Analista Judiciário – Área Judiciária)  
+Está plenamente adequada a pontuação da seguinte frase:
 
-**24.** Assinale o desvio **mais grave** para a 3ª redação (equidade/dignidade):
+A) Lucrécio, poeta romano, tomou para si a tarefa luminosa de aproximar poesia e ciência.  
+B) Costuma-se dizer, que poucas atividades são antagônicas, como a poesia, e a ciência.  
+C) As religiões politeístas dominaram, completamente o mundo. com ensinamentos pagãos.  
+D) Houve um tempo, em que a vida humana, arrastava-se pela terra.  
+E) Uma boa leitura de Lucrécio, faria ecoar com incrível modernidade, as lições de dois mil anos atrás.  
 
-A) tese clara sobre barreiras estruturais  
-B) dois argumentos com mecanismos institucionais genéricos pertinentes  
-C) transformar o texto em panfleto partidário nominal sem argumentação  
-D) conclusão com proposta de capacitação e acessibilidade  
-E) registro formal  
+**24.** (FCC – TRT-15/2023 – Analista Judiciário – TI)  
+Ainda hoje, quando lanço o olhar ao mar, imagino a vida de meus avós como ilhas distantes, cercadas pela vastidão de um oceano de histórias (muitas delas guardadas na linha de um horizonte que não pode mais ser lido). No alto do Morro de São Sebastião, contemplo o sol nascente e me inspiro a iniciar estas linhas. Talvez elas não contenham toda a verdade, talvez haja imprecisões e deslizes históricos, mas foi assim que eu as recebi, pela boca dos que sobreviveram. Ieiri-san inspecionava as conversas dos navios que nasciam no estaleiro que dirigia com disciplina. Há décadas os japoneses iniciaram a colonização da ilha de Taiwan, tomada da China após a guerra sino-japonesa. Para lá a família Ieiri emigrou para prosperar. Chiyoko, filha do patriarca Ieiri, cresceu entre finas bonecas de porcelana, tendo os melhores instrutores, tornando-se de pianista a carateca. Sempre ávida por conhecimento, aprendeu com seu tio diversos procedimentos, tais como a realização de partos e, sobretudo, a quiropraxia. Chiyoko se transformou em uma mulher extraordinária, nadando em alto-mar e, apesar de sua compleição esguia, aventurando-se até a praticar sumô. Após aprender tantas coisas, não poderia ter se tornado outra coisa a não ser professora. Naquele dia, apesar da triste guerra, Chiyoko estava feliz. Era o dia do aniversário de seu pai. Não importava a ela que seu otosan estivesse em um leito de hospital nem que o medo rondasse cada esquina. Ela tinha conseguido, a grande custo, algumas iguarias que seu pai gostava de comer. Era para comemorar a data, para celebrar a vida. E seus passos eram alegres quando a sirene tocou. E era alegre o dia quando as bombas caíram. O hospital em que seu pai estava foi atingido. A vida naufragou. [...] Por ter aprendido tantas coisas com o tio médico, Chiyoko auxiliava os feridos durante a guerra, que estava para ser perdida. (Adaptado de: KONDO, André. Origens. Editora do Brasil, 2019. Edição Eletrônica) O termo sublinhado indica ideia de adição no seguinte segmento:
 
-**25.** Checklist mínima antes de entregar a 3ª redação:
+A) Para lá a família Ieiri emigrou para prosperar. (2º parágrafo)  
+B) E seus passos eram alegres quando a sirene tocou. (3º parágrafo)  
+C) Ieiri-san inspecionava as conversas dos navios que nasciam no estaleiro que dirigia com disciplina. (2º parágrafo)  
+D) Não importava a ela que seu otosan estivesse em um leito de hospital nem que o medo rondasse cada esquina. (3º parágrafo)  
+E) Talvez elas não contenham toda a verdade. (1º parágrafo)  
 
-A) extensão livre e tema livre  
-B) só título e assinatura  
-C) texto em inglês técnico exclusivo  
-D) mapa mental no lugar do texto  
-E) tese · 2 ângulos · paralelismo · coesão · 20–30 linhas · norma-padrão · fidelidade ao comando  
+**25.** (FCC – TRT-12/2023 – Analista Judiciário – TI)  
+Quase todos os dias, quando era criança, Safico tinha como tarefa levar almoço para o pai no trabalho. O menino, então com cerca de 12 anos, ficava observando o pai pescar. Com a tarrafa em mãos, um tipo de rede circular com pesos distribuídos nas bordas, o homem esperava um sinal para jogá-la na água e pegar os peixes. O sinal vinha de golfinhos – também chamados de botos em algumas regiões do país – na forma de movimentos especialmente vigorosos, como uma batida na água com a cabeça ou a cauda, ou um nado rápido seguido de um mergulho. Em resposta, o pescador lançava a tarrafa e conseguia capturar as tainhas. Há mais de 50 anos, Safico, 71, pesca exatamente da mesma forma que o pai: com ajuda dos botos. 
+
+ Pode parecer história de pescador, mas não aconteceu apenas com Wilson Francisco dos Santos – o Safico – e sua família. Boa parte das centenas de pescadores da região de Laguna, em Santa Catarina, pratica a pesca com botos. Segundo o relato das pessoas que vivem há muitos anos na área, a atividade ocorre há mais de 140 anos. A tradição é tão enraizada que os "animais ajudantes" são chamados de trabalhadores. [...] Safico e seus colegas de trabalho sabem exatamente como diferenciar cada um dos animais pela coloração ou forma como eles emitem o sinal que autoriza a "tarrafada". 
+
+ Desde os anos 1980, pesquisadores da capital catarinense observam e tentam entender melhor essa interação entre os pescadores e os golfinhos nariz-de-garrafa. [...] A interação acontece em um espaço de tempo muito curto: são cerca de 7 segundos entre o sinal do boto e o movimento do pescador, que tem 17 vezes mais chances de capturar peixes quando sincroniza suas ações com as dos animais. Os pescadores também pescam quatro vezes mais peixes com ajuda dos "colegas de trabalho". 
+
+ (Adaptado de: NAISA, Letícia. Disponível em: https://revistapesquisa.fapesp.br . 01/03/2023)
+
+ 
+ 
+ Está correta a pontuação do seguinte comentário a respeito do assunto do texto:
+
+A) A interação que acontece em um espaço de tempo muito curto, dura apenas cerca de 7 segundos, entre o sinal do boto e o movimento do pescador.  
+B) Já com ela em mãos, o pescador espera um sinal para jogar a tarrafa na água: um tipo de rede circular com pesos distribuídos nas bordas, e pegar os peixes.  
+C) O sistema de troca de favores, entre botos e pescadores constitui uma prática que se disseminou, ao longo da história da pesca em Laguna.  
+D) A fim de compreendê-la melhor, pesquisadores da capital catarinense observam, desde os anos 1980, a interação entre pescadores e golfinhos nariz-de-garrafa.  
+E) Com ajuda dos "colegas de trabalho", pescadores são capazes de capturar, uma quantidade quatro vezes maior de peixes.  
 
 ---
 
@@ -364,22 +386,24 @@ E) tese · 2 ângulos · paralelismo · coesão · 20–30 linhas · norma-padr�
 14. **C** — padrão.  
 15. **C** — método.
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso 16–25)
 
-| Q | Gab | Nota |
-|---|-----|------|
-| 16 | **C** | FCC TRT-20/2024 — “ainda que” ≈ “conquanto” (concessão); porquanto = causa |
-| 17 | **A** | FCC TRT-15/2023 — dois-pontos = explicação/aposto (linha de pontuação) |
-| 18 | **B** | sem vírgula indevida; concordância ok |
-| 19 | **B** | três infinitivos |
-| 20 | **A** | “porém” = oposição |
-| 21 | **B** | concessão |
-| 22 | **B** | progressão |
-| 23 | **D** | conteúdo/tangência |
-| 24 | **C** | panfleto |
-| 25 | **E** | checklist |
+| Questão | Gabarito | Fonte / nota |
+|---------|----------|--------------|
+| 16 | **B** | FCC TRT-20/2024 Q1 — Morfossintaxe |
+| 17 | **D** | FCC TRT-20/2024 Q5 — Redação |
+| 18 | **E** | FCC TRT-20/2024 Q8 — Morfossintaxe |
+| 19 | **D** | FCC TRT-20/2024 Q9 — Morfossintaxe |
+| 20 | **E** | FCC TRT-20/2024 Q10 — Semântica |
+| 21 | **C** | FCC TRT-20/2024 Q11 — Coesão e Coerência |
+| 22 | **D** | FCC TRT-20/2024 Q12 — Coesão e Coerência |
+| 23 | **A** | FCC TRT-20/2024 — aposto “poeta romano” |
+| 24 | **D** | FCC TRT-15/2023 Q2 — Conectivos e coesão textual |
+| 25 | **D** | FCC TRT-12/2023 Q1 — Pontuação |
 
----
+**Notas rápidas:** 16 B; 17 D; 18 E; 19 D; 20 E; 21 C; 22 D; 23 A; 24 D; 25 D.
+
+Distribuição do gabarito (16–25): B, D, E, D, E, C, D, A, D, D — letras A–E presentes.
 
 ## 4. Gabarito consolidado
 
@@ -388,10 +412,10 @@ E) tese · 2 ângulos · paralelismo · coesão · 20–30 linhas · norma-padr�
 | 1 | B | 2 | A | 3 | B | 4 | C | 5 | B |
 | 6 | C | 7 | B | 8 | C | 9 | C | 10 | C |
 | 11 | A | 12 | C | 13 | B | 14 | C | 15 | C |
-| 16 | C | 17 | A | 18 | B | 19 | B | 20 | A |
-| 21 | B | 22 | B | 23 | D | 24 | C | 25 | E |
+| 16 | B | 17 | D | 18 | E | 19 | D | 20 | E |
+| 21 | C | 22 | D | 23 | A | 24 | D | 25 | D |
 
-Distribuição (A–E): A=4 · B=9 · C=9 · D=2 · E=1 — evita gabarito monótono.
+Distribuição concurso 16–25: A=1 · B=1 · C=1 · D=5 · E=2 (treino 1–15 intacto).
 
 ---
 

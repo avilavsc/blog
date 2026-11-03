@@ -354,120 +354,129 @@ E) Docker elimina Kubernetes e Rancher
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (reais) (16–25)
 
-**16.** Em ambientes que adotam containers e orquestração Kubernetes, o Rancher é empregado, em regra, para:
+> Questões reais (Rancher é escasso na FCC: inclui as que citam Rancher + mais próximas de K8s/PDPJ/containers). Gabarito só ao final.
 
-A) Substituir integralmente o protocolo HTTP/REST da PDPJ  
-B) Atuar exclusivamente como banco relacional embutido  
-C) Eliminar a necessidade de imagens Docker  
-D) Oferecer plataforma de **gerenciamento** de clusters Kubernetes, com recursos de organização (como projetos) e controle de acesso  
-E) Cumprir o papel de Service Discovery no lugar de qualquer registry  
+**16.** (FCC – TRT-19/2022 – Analista Judiciário – TI)  
+Nos projetos da Plataforma Digital do Poder Judiciário PDPJ-Br,
 
-**17.** Considere as afirmativas:
+A) os ambientes de deployment estão instalados em clusters Kubernetes, gerenciados por meio da ferramenta open source de orquestração de containers Rancher.  
+B) a aplicação deve possuir os arquivos `yanl`, para que o deploy ocorra de forma automática por meio de pipelines de CI/CD executados pelo GitLab do STF.  
+C) a aplicação deve possuir um arquivo `Rancherfile`, especificando o modo pelo qual ela deve ser empacotada.  
+D) deve haver o arquivo `.gitlab-ci.xml` definindo a pipeline de deploy automático.  
+E) deve haver, na pasta `kubernets`, o arquivo de configuração do ingress da aplicação, que é obrigatório.
 
-I. O Rancher pode gerenciar múltiplos clusters Kubernetes.  
-II. O conceito de *project* no Rancher permite agrupar *namespaces* para fins de administração e acesso.  
-III. O Rancher é, por definição, o Authorization Server OAuth 2.0 da RFC 6749.
+**17.** (FCC – TRT-23/2022 – Técnico Judiciário – TI)  
+Um Técnico precisa administrar e monitorar containers Docker em produção. Para isso pode utilizar a ferramenta
 
-Está correto o que se afirma em:
+A) Rancher  
+B) Webhooker  
+C) Swagger  
+D) Zuul  
+E) Flyway
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) II e III, apenas  
-E) I, II e III  
+**18.** (FGV – TJ-SC/2026 – Analista de Sistemas)  
+O setor de tecnologia de um tribunal desenvolveu uma aplicação web composta por três serviços: cadastro de usuários, consulta processual e geração de relatórios. Cada serviço possui dependências próprias e deve ser implantado de forma padronizada nos ambientes de desenvolvimento, homologação e produção. Além disso, a equipe precisa distribuir réplicas desses serviços em diferentes nós de um cluster, reiniciar automaticamente instâncias com falha, ampliar a quantidade de réplicas em períodos de maior demanda e administrar, por uma interface centralizada, mais de um cluster Kubernetes utilizado pela instituição.  
+Nesse contexto, é correto afirmar que
 
-**18.** Relacione corretamente:
+A) o Docker permite empacotar aplicações e dependências em containers, o Kubernetes orquestra a implantação e o escalonamento desses containers, e o Rancher auxilia na gestão centralizada de clusters Kubernetes.  
+B) o Docker permite empacotar aplicações e dependências em containers, o Kubernetes orquestra a implantação e o escalonamento desses containers, e o Rancher é um formato de imagem utilizado para distribuir containers.  
+C) o Docker permite empacotar aplicações e dependências em containers, o Kubernetes é utilizado principalmente para criar imagens de containers, e o Rancher auxilia na gestão centralizada de clusters Kubernetes.  
+D) o Docker é utilizado principalmente para empacotar aplicações e dependências em máquinas virtuais completas, o Kubernetes orquestra a implantação e o escalonamento de containers, e o Rancher auxilia na gestão centralizada de clusters Kubernetes.  
+E) o Docker permite empacotar aplicações e dependências em containers, o Kubernetes orquestra a implantação e o escalonamento desses containers, e o Rancher substitui a necessidade de clusters Kubernetes por execução local isolada.
 
-(1) Docker  
-(2) Kubernetes  
-(3) Rancher  
+**19.** (FGV – MPE-ES/2026 – Analista de Infraestrutura / DevOps)  
+A orquestração de contêineres permite automatizar a implantação, o escalonamento e o gerenciamento de aplicações distribuídas. Analise as afirmativas a seguir.  
+I. O Kubernetes é uma plataforma de orquestração de contêineres que permite automatizar a implantação, o escalonamento e a gestão de aplicações em clusters de nós computacionais.  
+II. O Rancher é uma ferramenta nativa do Kubernetes utilizada para o gerenciamento de clusters.  
+III. Em um cluster Kubernetes, os nós de trabalho executam os pods, enquanto o plano de controle é responsável pelo gerenciamento do estado do cluster.  
+Está correto o que se afirma em
 
-( ) Orquestração de containers em cluster  
-( ) Empacotamento e execução em containers  
-( ) Gestão centralizada de clusters Kubernetes (UI/API, projetos, RBAC)
+A) I, apenas.  
+B) I e II, apenas.  
+C) I e III, apenas.  
+D) II e III, apenas.  
+E) I, II e III.
 
-A sequência correta é:
+**20.** (FCC – TRT-14/2022 – Analista Judiciário – TI)  
+Para coordenar e agendar vários contêineres, habilitar comunicações entre eles e escalar instâncias de contêiner, um analista pode utilizar o
 
-A) 1, 2, 3  
-B) 2, 1, 3  
-C) 3, 2, 1  
-D) 2, 3, 1  
-E) 1, 3, 2  
+A) Kubernetes, solução utilizada para vários tipos de contêiner, incluindo Docker.  
+B) Swagger, solução exclusiva para contêineres Docker.  
+C) Kubernetes, solução exclusiva para contêineres Docker.  
+D) Swagger, solução exclusiva para contêineres Zuul.  
+E) Keycloak, solução utilizada para qualquer tipo de contêiner.
 
-**19.** No Rancher, a estrutura que **não** corresponde a um objeto nativo do Kubernetes “vanilla”, sendo introduzida pela plataforma para agrupar *namespaces*, denomina-se:
+**21.** (FCC – TRT-4/2022 – Técnico Judiciário – TI)  
+Um Técnico está participando de um projeto de microsserviços distribuídos onde centenas de contêineres são utilizados. Para fazer a orquestração destes contêineres, ou seja, a coordenação e o monitoramento, ele precisa utilizar um recurso que possa permitir que a atualização da aplicação em um contêiner não interrompa o serviço. O recurso sugerido corretamente por ele, nesse caso, foi o
 
-A) Pod  
-B) Service  
-C) Project  
-D) Deployment  
-E) ConfigMap  
+A) Qubes.  
+B) VirtualBox.  
+C) VMWare.  
+D) Docker, em modo padrão.  
+E) Kubernetes.
 
-**20.** A utilização do RKE (*Rancher Kubernetes Engine*) / RKE2, no discurso cobrável do ecossistema Rancher, associa-se principalmente a:
+**22.** (FGV – TJ-RJ/2026 – Analista de Infraestrutura de TIC)  
+No contexto dos conceitos de Docker e Kubernetes, é correto afirmar que:
 
-A) Distribuição / instalação de clusters Kubernetes gerenciáveis no ecossistema Rancher  
-B) Emissão de *refresh tokens* OAuth  
-C) Mapeamento JPA Entity↔DTO  
-D) Documentação OpenAPI obrigatória  
-E) Substituição do TCP/IP  
+A) o Kubernetes é utilizado exclusivamente na etapa de desenvolvimento para a construção das imagens, cabendo ao Docker a responsabilidade pelo balanceamento de carga em produção;  
+B) eles são tecnologias mutuamente excludentes, uma vez que a adoção do orquestrador Kubernetes elimina, por definição, a necessidade de qualquer mecanismo de empacotamento de contêineres;  
+C) o Docker atua como um hipervisor de tipo 1 para virtualizar o hardware físico, enquanto o Kubernetes opera como o sistema operacional convidado responsável pela execução das aplicações;  
+D) o Docker provê os mecanismos para criação e execução de contêineres individuais, enquanto o Kubernetes gerencia a orquestração, o escalonamento e a resiliência desses contêineres em cluster;  
+E) o Kubernetes substitui integralmente a necessidade de um container runtime subjacente, executando os processos da aplicação diretamente sobre o processador do servidor sem camadas intermediárias.
 
-**21.** Um tribunal já possui clusters Kubernetes em operação e deseja **centralizar** administração, acessos e organização por equipes sem reescrever as aplicações. Uma abordagem alinhada ao papel do Rancher é:
+**23.** (FCC – TRT-17/2022 – Técnico Judiciário – TI)  
+Considere as seguintes definições:  
+I. Gerencia os containers em execução e, por isso, ele também é chamado de Orquestrador de Containers. Através dele se pode definir o estado de um sistema completo, por exemplo, baseado em Microservices, seguindo boas práticas de infraestrutura como código, permitindo balanceamento de carga, alta disponibilidade, atualizações em lote e rollbacks.  
+II. Refere-se a um grupo de servidores distribuídos geograficamente que trabalham em conjunto para oferecer uma rápida entrega de conteúdo de internet. Permite uma transferência rápida dos ativos necessários para carregar o conteúdo da internet, incluindo páginas HTML, arquivos em JavaScript, folhas de estilo, imagens e vídeos.  
+III. Projeto opensource escrito em Go, que torna a criação e o gerenciamento de containers Linux mais fácil. O container é construído usando namepspaces, cgroups, chroot entre outras funcionalidades do kernel para criar uma área isolada para a aplicação. É executado como um processo isolado no sistema operacional hospedeiro, compartilhando o kernel com outros recipientes.  
+As definições I, II e III correspondem, correta e respectivamente, a
 
-A) Descartar Kubernetes e adotar apenas scripts shell locais  
-B) Trocar todos os bancos por H2 em memória  
-C) Remover namespaces e rodar tudo no mesmo Pod  
-D) **Importar/registrar** os clusters no Rancher para gestão unificada  
-E) Usar somente Eureka como orquestrador de containers  
+A) Kubernetes, Docker e Content Delivery Network (CDN).  
+B) Content Delivery Network (CDN), Kubernetes e Docker.  
+C) Content Delivery Network (CDN), Docker e Kubernetes.  
+D) Docker, Content Delivery Network (CDN) e Kubernetes.  
+E) Kubernetes, Content Delivery Network (CDN) e Docker.
 
-**22.** Assinale a alternativa que apresenta **confusão conceitual**:
+**24.** **(FGV / DATAPREV / 2026)**  
+Uma sociedade empresária executa microsserviços com `docker run` manual em cada servidor. Quando um container falha, fica parado até reinício manual, e não há distribuição de tráfego entre réplicas.  
+A equipe quer uma solução nativa para cluster com múltiplos servidores, capaz de reiniciar falhas, manter réplicas desejadas e balancear requisições.  
+Assinale a opção que apresenta uma solução adequada a esse cenário.
 
-A) Namespace isola recursos no cluster Kubernetes  
-B) Project no Rancher agrupa namespaces  
-C) Rancher Server (cluster local) hospeda a plataforma que gerencia outros clusters  
-D) Rancher e Eureka são nomes comerciais do mesmo componente Spring Cloud Netflix  
-E) Docker produz imagens/containers consumidos no cluster  
+A) Migrar os containers para máquinas virtuais dedicadas, eliminando a necessidade de qualquer camada de orquestração.  
+B) Configurar um script cron que verifica periodicamente, a cada minuto, se os containers estão em execução, reiniciando aqueles que estiverem parados.  
+C) Adotar o Docker Compose, orquestrando os containers da aplicação a partir de um único arquivo `docker-compose.yml`, capaz de distribuir automaticamente as réplicas entre múltiplos servidores físicos.  
+D) Adotar o Rancher isoladamente, sem um cluster Kubernetes ou similar subjacente, já que o Rancher por si só provê o agendamento (scheduling) e a recuperação automática de containers entre múltiplos nós.  
+E) Adotar o Kubernetes, cujos controladores monitoram continuamente o estado dos pods, recriando instâncias em caso de falha e mantendo o número de réplicas configurado, além de distribuir o tráfego entre elas por meio de um Service.
 
-**23.** Em prova alinhada ao edital do TRT4 (código 14), a menção conjunta a Docker, Kubernetes e Rancher sugere, prioritariamente:
+**25.** **(FCC / PMSP / 2025)**  
+Durante a implementação de um sistema de atendimento ao cidadão em nuvem, a equipe de TI da prefeitura observou picos de demanda em horários de expediente. Para garantir que os custos sejam otimizados e o desempenho não seja impactado durante esses picos, deve-se
 
-A) Pilha de **containers → orquestração → gestão** de plataforma  
-B) Pilha exclusiva de cabeamento estruturado  
-C) Substituição de SSO/Keycloak pelo Rancher  
-D) Obrigatoriedade de VB.NET em todos os microsserviços  
-E) Uso de Rancher como único banco de dados do PJe  
-
-**24.** Acerca de controle de acesso em clusters compartilhados geridos pelo Rancher, é correto afirmar que:
-
-A) RBAC e membership em **projects** permitem autorizar equipes sobre conjuntos de namespaces  
-B) Apenas o protocolo FTP define papéis de cluster  
-C) Todo usuário anônimo recebe role de cluster-admin por padrão obrigatório  
-D) Project elimina a existência de namespaces  
-E) Autorização no Rancher substitui integralmente a LGPD  
-
-**25.** Analise o trecho: “Ferramenta X não substitui o orquestrador; oferece painel e API para operar um ou vários clusters Kubernetes, organizando namespaces em projects e integrando autenticação/autorização corporativa.”
-
-A ferramenta X corresponde, no vocabulário do edital, a:
-
-A) Hibernate Envers  
-B) MapStruct  
-C) Rancher  
-D) Flyway  
-E) H2  
+A) configurar auto-escalabilidade no cluster Kubernetes para ajustar automaticamente o número de pods em resposta à carga.  
+B) configurar a escalabilidade manual do cluster para economizar custos, ajustando os pods apenas no início e no final do expediente.  
+C) definir alertas de custo no painel da nuvem para reduzir automaticamente os recursos quando o orçamento for excedido.  
+D) implementar instâncias reservadas em nuvem para atender a picos de demanda, mesmo que o custo seja mais alto.  
+E) utilizar pipelines CI/CD para ajustar os recursos computacionais automaticamente provendo escalabilidade vertical.
 
 ---
 
-### Gabarito comentado (FCC 16–25)
+### Gabarito (concurso 16–25)
 
-16. **D** — Gestão de clusters + organização/acesso.  
-17. **C** — I e II verdadeiras; III falsa (OAuth/AS ≠ Rancher).  
-18. **B** — K8s orquestra; Docker empacota; Rancher gerencia.  
-19. **C** — Project é do Rancher.  
-20. **A** — Engine/distribuição K8s.  
-21. **D** — Importar/registrar para gestão central.  
-22. **D** — Confusão Rancher≠Eureka (alternativa incorreta = gabarito).  
-23. **A** — Containers → orquestração → gestão.  
-24. **A** — Projects + RBAC multi-equipe.  
-25. **C** — Definição de Rancher.  
+| Questão | Gabarito | Fonte / nota |
+|---------|----------|--------------|
+| 16 | **A** | FCC TRT-19/2022 — PDPJ: clusters K8s gerenciados pelo Rancher |
+| 17 | **A** | FCC TRT-23/2022 — administrar/monitorar containers → Rancher |
+| 18 | **A** | FGV TJ-SC/2026 — Docker + Kubernetes + Rancher (gestão multi-cluster) |
+| 19 | **C** | FGV MPE-ES/2026 — I e III; II falsa (Rancher **não** é nativo do K8s) |
+| 20 | **A** | FCC TRT-14/2022 — Kubernetes orquestra contêineres |
+| 21 | **E** | FCC TRT-4/2022 — Kubernetes (orquestração sem interrupção) |
+| 22 | **D** | FGV TJ-RJ/2026 — Docker empacota; K8s orquestra |
+| 23 | **E** | FCC TRT-17/2022 — K8s / CDN / Docker |
+| 24 | **E** | FGV DATAPREV/2026 — K8s (+ Service); Rancher isolado não orquestra |
+| 25 | **A** | FCC PMSP/2025 — auto-escalabilidade de pods no cluster |
+
+**Notas rápidas:** 16 A (Rancher na PDPJ). 17 A (Rancher). 18 A (tríade Docker/K8s/Rancher). 19 C (Rancher ≠ nativo). 20 A (K8s). 21 E (K8s). 22 D (papéis). 23 E (K8s/CDN/Docker). 24 E (K8s, não Rancher solo). 25 A (HPA).
 
 ---
 

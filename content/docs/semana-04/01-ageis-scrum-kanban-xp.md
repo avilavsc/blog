@@ -373,112 +373,157 @@ E) Apenas UML sem qualquer método ágil
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** No contexto dos métodos ágeis referidos no edital de Analista Judiciário – Área de TI, o Scrum caracteriza-se, em regra, por:
+> **Nota:** questões **reais** de concurso (preferência FCC / TRT Analista TI), com banca, órgão e ano citados. Treino 1–15 permanece estilo didático.
 
-A) framework com papéis (Product Owner, Scrum Master e Developers), eventos time-boxed e artefatos (Product Backlog, Sprint Backlog e Increment), orientado a empirismo e entregas incrementais  
-B) protocolo de roteamento IP idêntico ao OSPF  
-C) substituição obrigatória de qualquer teste automatizado  
-D) proibição absoluta de feedback de stakeholders  
-E) identidade com o papel exclusivo de API Gateway  
+**16.** (FCC – TJ-CE/2022 – Analista Judiciário – Ciência da Computação / Sistemas da Informação)
 
-**17.** Acerca do Kanban em desenvolvimento de software, é correto afirmar que:
+Quanto à metodologia Scrum, considere as definições a seguir:
+I. Time-boxed de um mês ou menos, durante o qual um “Pronto”, versão incremental potencialmente utilizável do produto, é criada.
+II. Responsável por garantir que o Scrum seja entendido e aplicado, para garantir que o Time Scrum adira à teoria, práticas e regras do Scrum.
+III. Responsável por maximizar o valor do produto e do trabalho do Time de Desenvolvimento.
+IV. Um conjunto de itens selecionados, juntamente com o plano para entregar o incremento do produto e atingir o objetivo. Previsão do Time de Desenvolvimento sobre qual funcionalidade estará no próximo incremento e sobre o trabalho necessário para entregar essa funcionalidade em um incremento “Pronto”.
+Os itens I, II, III e IV correspondem, correta e respectivamente, às definições de
 
-A) enfatiza visualização do fluxo, limitação de trabalho em progresso (WIP) e puxada (pull), podendo operar em cadência contínua sem a obrigatoriedade de Sprints do Scrum  
-B) exige, por definição, a existência formal de Product Owner e Scrum Master  
-C) elimina qualquer necessidade de políticas explícitas de fluxo  
-D) coincide termo a termo com o modelo em cascata clássico  
-E) substitui integralmente a Definition of Done por dumps de banco  
+A) Sprint, Scrum Master, Product Owner e Sprint Backlog.
+B) Product Sprint, Product Owner, Scrum Master e Product Backlog.
+C) Sprint, Senior Scrum, Product Owner e Product Backlog.
+D) Backlog Review, Product Master, Scrum Owner e Sprint Backlog.
+E) Product Backlog, Sprint Master, Scrum Master e Increment.
 
-**18.** No Extreme Programming (XP), práticas como programação em par e desenvolvimento orientado a testes (TDD):
+**17.** (FCC – TRF-3/2019 – Analista Judiciário – Informática)
 
-A) integram o núcleo clássico de práticas técnicas do método, visando feedback rápido e qualidade do código  
-B) são papéis oficiais do Scrum Guide com time-box de 8 horas diárias  
-C) equivalem rigorosamente a objetivos de controle do COBIT 2019  
-D) substituem a necessidade de qualquer colaboração com o cliente  
-E) existem somente como dialetos SQL do H2  
+A Reunião Diária do Scrum é
 
-**19.** Considere as afirmativas abaixo.
+A) executada no final da Sprint para inspecionar o incremento e adaptar o Backlog do Produto, se necessário.
+B) um time-boxed de 15 minutos, durante o qual um “Pronto”, versão incremental potencialmente utilizável do produto, é criado.
+C) uma oportunidade para o Time Scrum inspecionar a si próprio e criar um plano para melhorias a serem aplicadas na próxima Sprint.
+D) um time-boxed de 15 minutos, para que o Time de Desenvolvimento possa sincronizar as atividades e criar um plano para as próximas 24 horas.
+E) um time-boxed de 60 minutos, durante o qual os produtos de uma Sprint são definidos.
 
-I. O Product Owner é o responsável por maximizar o valor do produto e gerenciar o Product Backlog.  
-II. A Sprint Retrospective concentra-se na inspeção do Increment com stakeholders externos como foco principal.  
-III. A Daily Scrum é um evento curto (tipicamente 15 minutos) para inspecionar o progresso em direção ao Sprint Goal.
+**18.** (FCC – TRT-9/2013 – Analista Judiciário – Tecnologia da Informação)
 
-Está correto o que se afirma em:
+Os modelos de processos tradicionais surgiram em um cenário muito diferente do atual, baseado em mainframes e terminais remotos. Já os modelos de processos ágeis são adequados para situações atuais nas quais a mudança de requisitos é frequente. Dentre os modelos de processos ágeis mais comuns temos: Extreme Programming (XP), Scrum e Feature Driven Development (FDD).
 
-A) I, apenas  
-B) II, apenas  
-C) I e III, apenas  
-D) II e III, apenas  
-E) I, II e III  
+Algumas das práticas e características desses modelos de processo são descritas a seguir:
+I. Programação em pares, ou seja, a implementação do código é feita em dupla.
+II. Desenvolvimento dividido em ciclos iterativos de até 30 dias chamados de sprints.
+III. Faz uso do teste de unidades como sua tática de testes primária.
+IV. A atividade de levantamento de requisitos conduz à criação de um conjunto de histórias de usuários.
+V. O ciclo de vida é baseado em três fases: pre-game phase, game-phase, post-game phase.
+VI. Tem como único artefato de projeto os cartões CRC.
+VII. Realiza reuniões diárias de acompanhamento de aproximadamente 15 minutos.
+VIII. Define seis marcos durante o projeto e a implementação de uma funcionalidade: walkthroughs do projeto, projeto, inspeção do projeto, codificação, inspeção de código e progressão para construção.
+IX. Os requisitos são descritos em um documento chamado backlog e são ordenados por prioridade.
 
-**20.** Segundo a leitura cobrável do Manifesto para Desenvolvimento Ágil de Software:
+A relação correta entre o modelo de processo ágil e a prática/característica é:
 
-A) valorizam-se indivíduos e interações, software em funcionamento, colaboração com o cliente e resposta a mudanças, em maior grau do que processos/ferramentas, documentação abrangente, negociação contratual e seguimento rígido a um plano, sem anular estes últimos  
-B) a documentação é proibida em qualquer circunstância  
-C) planos e contratos são abolidos por norma legal  
-D) somente ferramentas importam, nunca pessoas  
-E) mudanças de requisito são sempre recusadas após o dia zero  
+| | XP | Scrum | FDD |
+|---|---|---|---|
+| A | II, V e VII | II, IV e VIII | VII e IX |
+| B | I, III, IV e VI | II, V, VII e IX | VIII |
+| C | II, VII e VIII | III, IV, VI e IX | I e V |
+| D | II, VII e VIII | I, III, IV e V | VI e IX |
+| E | I, III, IV e VI | II, VIII, VII e IX | V |
 
-**21.** Assinale a opção que diferencia corretamente critérios de aceitação de uma user story e Definition of Done:
+**19.** (FCC – TRT-24/2017 – Técnico Judiciário – Tecnologia da Informação)
 
-A) critérios de aceitação dizem respeito às condições do item/story; a DoD é o padrão de qualidade do Increment/time que deve ser atendido para considerar o trabalho pronto  
-B) DoD e critérios de aceitação são sempre a mesma lista idêntica em qualquer contexto  
-C) DoD substitui o Product Owner  
-D) critérios de aceitação são exclusivos do protocolo AMQP  
-E) DoD existe apenas no Kanban e nunca no Scrum  
+Uma metodologia de desenvolvimento, ou combinação de metodologias, e a sequência de atividades ou componentes pertencentes a esta metodologia é corretamente indicada em:
 
-**22.** Constitui equívoco típico em prova afirmar que:
+A) Scrum e XP: Sprint Backlog – Sprint Planning – TDD – Reunião em pé – Classe proprietária.
+B) RUP: Iniciação – Metáfora – Transição – Construção – Refatoração.
+C) FDD: Lista de Features – Planejamento – Modelo de domínio – Detalhamento da Feature – Propriedade coletiva.
+D) Scrum: Product Backlog – Sprint Planning – Sprint Backlog – Daily Scrum – Sprint Review.
+E) TDD: Red Green Refactoring – Feedback – Group Responsibility Principle – Product Owner.
 
-A) o Scrum Master facilita a adoção do Scrum e ajuda a remover impedimentos  
-B) o Kanban utiliza limites de WIP para gerenciar fluxo  
-C) TDD e pair programming são práticas clássicas de XP  
-D) a Sprint Review inspeciona o Increment e coleta feedback  
-E) o Scrum Master, e não o Product Owner, é o gestor natural do Product Backlog em qualquer formulação do framework  
+**20.** (FCC – TRT-20/2024 – Técnico Judiciário – Tecnologia da Informação)
 
-**23.** Em um time que combina framework Scrum com práticas de XP, a interpretação mais adequada para fins de concurso é:
+A equipe de um Tribunal está debatendo a adequação de metodologias ágeis, considerando a natureza dos diversos projetos institucionais. Um Técnico de TI afirmou que a metodologia
 
-A) o Scrum organiza papéis, eventos e artefatos; práticas como TDD e programação em par podem ser adotadas como engenharia, sem confundir a origem de cada regra  
-B) o Scrum Guide passa a exigir pair programming como evento oficial de 4 horas  
-C) XP elimina Product Backlog e Sprint Goal por definição  
-D) Kanban torna-se obrigatório e substitui a Daily  
-E) Manifesto Ágil deixa de se aplicar  
+A) Scrum é melhor em projetos que requerem a auto-organização da equipe e iterações regulares, permitindo que os desenvolvedores façam ajustes nas prioridades e no escopo do projeto a cada Sprint. Além disso, o Scrum se concentra na implementação de um ciclo de desenvolvimento linear e sequencial, mais próximo da realidade.
+B) XP deve ser escolhida na maior parte dos projetos, pois permite um planejamento detalhado a longo prazo, com entregas frequentes em sprints de 3-4 semanas ou um mês. Além disso, como a colaboração com o cliente é fundamental, essa metodologia incentiva reuniões de revisão mensais com as partes interessadas.
+C) XP é mais indicada quando há alta necessidade de refatoração contínua e testes automatizados, o que permite melhor controle da qualidade do código durante o desenvolvimento.
+D) XP deve ser escolhida quando o time deseja trabalhar sem sprints fixos e priorizar documentações mais detalhadas e extensas. Além disso, projetos com baixa variabilidade de requisitos se beneficiam com as práticas XP.
+E) Scrum deve ser preferida em projetos em que há necessidade de ciclos curtos com entregas de incremento de software a cada semana, garantindo uma integração contínua do produto.
 
-**24.** No gerenciamento de fluxo Kanban, lead time e cycle time:
+**21.** (FCC – SEFAZ-BA/2019 – Auditor Fiscal – Tecnologia da Informação – Prova II)
 
-A) são métricas típicas associadas ao tempo de atravessamento do trabalho no sistema, úteis para inspecionar e melhorar o fluxo  
-B) são papéis oficiais equivalentes a Product Owner e Scrum Master  
-C) substituem a necessidade de visualizar o quadro  
-D) equivalem exclusivamente a story points do Planning Poker no Scrum Guide  
-E) existem somente na norma de cabeamento estruturado  
+Scrum e XP são metodologias ágeis usadas no contexto de desenvolvimento de software que
 
-**25.** Para fins de preparação em Analista Judiciário – Área de TI (código 14), a síntese mais adequada deste subtópico é:
+A) podem ser usadas em conjunto, criando uma metodologia híbrida própria, de forma a unir as práticas de gestão do Scrum com as práticas de desenvolvimento da XP.
+B) utilizam reuniões diárias (Daily Meetings) de 15 minutos em pé para ajudar a tornar as reuniões mais produtivas, colaborativas e úteis.
+C) podem ser usadas juntas, desde que em um contexto em que o gerenciamento do projeto seja realizado por um framework como o PMBoK.
+D) não podem ser usadas em conjunto por serem ambas voltadas para a gestão do processo de desenvolvimento de software.
+E) podem ser usadas em conjunto, já que a XP foca mais na gestão do processo de desenvolvimento e a Scrum, no desenvolvimento propriamente dito.
 
-A) Manifesto Ágil; Scrum com PO/SM/Developers, Sprint e artefatos/DoD; Kanban com quadro, WIP e pull; XP com práticas técnicas (pares, TDD, CI, refactor); distinção clara entre os três  
-B) apenas PMBOK 8, sem métodos ágeis  
-C) apenas CNJ 400 e sustentabilidade  
-D) apenas porcentagem e regra de três  
-E) apenas Docker e Kubernetes  
+**22.** (FCC – PGE-AM/2022 – Técnico em Gestão Procuratorial – Engenharia de Software)
+
+No Scrum, os eventos são usados para criar regularidade e minimizar a necessidade de reuniões não definidas. Considere as atividades e/ou objetivos dos eventos do Scrum:
+I. O propósito deste evento é inspecionar o resultado da Sprint e determinar as adaptações futuras. O Scrum Team apresenta os resultados de seu trabalho para os principais stakeholders e o progresso em direção à Meta do Produto é discutido.
+II. O propósito deste evento é inspecionar o progresso em direção à Meta da Sprint e adaptar o Sprint Backlog conforme necessário, ajustando o próximo trabalho planejado. Este evento melhora as comunicações, identifica os impedimentos e promove a rápida tomada de decisões.
+III. O Scrum Team inspeciona como foi a última Sprint em relação a indivíduos, interações, processos, ferramentas e sua definição de Pronto. As suposições que os desviaram são identificadas e suas origens exploradas. O Scrum Team discute o que deu certo durante a Sprint, quais problemas encontraram e como esses problemas foram (ou não) resolvidos.
+IV. O Product Owner propõe como o produto pode aumentar seu valor e utilidade na Sprint atual. Todo o Scrum Team colabora para definir uma Meta da Sprint. A meta da Sprint deve ser finalizada antes do final deste evento.
+A associação dos itens de I a IV com os eventos Scrum é, correta e respectivamente,
+
+A) Sprint Review − Daily Scrum − Sprint Retrospective − Sprint Planning.
+B) Daily Scrum − Sprint Planning − Sprint Review − Sprint Retrospective.
+C) Sprint Retrospective − Daily Scrum − Sprint Review − Sprint Planning.
+D) Sprint Review − Sprint Planning − Sprint Retrospective − Daily Scrum.
+E) Sprint Retrospective − Sprint Planning − Sprint Review − Daily Scrum.
+
+**23.** (FCC – TJ-CE/2026 – Analista Judiciário – Sistemas da Informação)
+
+Uma equipe de analistas de um Tribunal de Justiça decidiu avaliar a eficiência do fluxo de processamento de recursos utilizando métricas ágeis adaptadas à gestão processual. Durante um período de 20 dias úteis, foram coletados os seguintes dados:
+No 1º dia do período havia 40 recursos aguardando análise inicial.
+Ao longo do período, ingressaram mais 120 recursos.
+No 20º dia do período havia 60 recursos ainda não concluídos.
+Durante o período 100 recursos foram concluídos.
+A análise do fluxo mostrou que, em média, havia 50 recursos simultaneamente em tramitação (Work in Progress – WIP).
+Nesse cenário, o throughput médio foi de
+
+A) 2,5 recursos por dia útil, o Cycle Time médio foi de aproximadamente 8 dias e o CFD indicaria estreitamento das faixas entre estados do fluxo, caracterizando crescimento do WIP médio.
+B) 5 recursos por dia útil, o Lead Time médio foi de aproximadamente 10 dias e o CFD indicaria aumento do número de recursos em tramitação ao longo do período analisado.
+C) 6 recursos por dia útil, o Lead Time médio foi de aproximadamente 8,3 dias e o CFD indicaria tendência de redução do número de recursos em tramitação ao longo do período.
+D) 5 recursos por dia útil, o Cycle Time médio foi de aproximadamente 12 dias e o CFD indicaria estabilidade do WIP, pois a diferença entre a entrada e a saída total de recursos foi pequena.
+E) 4 recursos por dia útil, o Lead Time médio foi de aproximadamente 10 dias e o CFD indicaria aumento do número de recursos em tramitação decorrente da redução do fluxo de entrada.
+
+**24.** (FCC – TJ-CE/2026 – Analista Judiciário – Sistemas da Informação)
+
+Uma equipe de um Tribunal de Justiça precisa modelar o fluxo de cumprimento de mandados judiciais do sistema judicial. O processo se inicia com o recebimento do mandado pela secretaria, segue para distribuição ao oficial de justiça, inclui uma etapa de cumprimento externo e retorna ao magistrado, que decide entre homologar o cumprimento ou determinar nova diligência. Paralelamente, a equipe enfrenta acúmulo de tarefas e dificuldades relacionadas à qualidade de código ao implementar melhorias no sistema. Nesse contexto, a estratégia mais adequada é
+
+A) representar o fluxo em BPMN com subprocessos de início, intermediários e de fim, bem como anotações para representar as decisões do magistrado e aplicar práticas Scrum com priorização do trabalho baseada em itens sequenciais do backlog definidos para cada Sprint.
+B) modelar o fluxo em BPMN utilizando tarefas, gateways para decisões e eventos de mensagem para comunicação entre participantes e empregar Kanban para visualizar o fluxo, com práticas Scrum voltadas à integração frequente e melhoria contínua do código.
+C) representar o fluxo usando um processo em BPMN utilizando eventos e atividades para indicar comunicações e decisões entre participantes e aplicar práticas Scrum com limites de WIP baseados no tempo previsto no fluxo modelado.
+D) modelar o fluxo em BPMN por meio de tarefas e eventos de mensagem entre participantes representados em diferentes diagramas de coreografia e adotar práticas Scrum voltadas às entregas incrementais em Sprints de 40 dias e à entrega contínua de funcionalidades.
+E) utilizar BPMN com processos e subprocessos colapsados para evidenciar as interações entre secretaria, oficial de justiça e magistrado e aplicar Kanban com limites de WIP definidos a partir da quantidade de participantes envolvidos em cada etapa do processo.
+
+**25.** (FCC – TRT-14/2016 – Analista Judiciário – Tecnologia da Informação)
+
+O modelo de qualidade de software MPS.BR
+
+A) não é compatível com a Norma NBR ISO/IEC 12207:2009.
+B) adota a ITIL v3 como padrão de gerenciamento da qualidade de serviços de TI.
+C) não pode ser aplicado em nenhum Tribunal Regional do Trabalho.
+D) não atende às necessidades das empresas brasileiras, que preferem a adoção do CMMI.
+E) não conflita com as metodologias ágeis de software, podendo ser utilizado junto com o Scrum.
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito comentado (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **A** |
-| 17 | **A** |
-| 18 | **A** |
-| 19 | **C** |
-| 20 | **A** |
-| 21 | **A** |
-| 22 | **E** |
-| 23 | **A** |
-| 24 | **A** |
-| 25 | **A** |
-
-**Notas rápidas:** 16 A (framework Scrum completo); 17 A (Kanban = fluxo/WIP/pull); 18 A (XP = pares/TDD); 19 C (I e III; II confunde Review×Retro); 20 A (valores do Manifesto com nuance); 21 A (aceitação do item × DoD do Increment); 22 E (backlog é do PO); 23 A (Scrum + práticas XP sem misturar origem); 24 A (métricas de fluxo); 25 A (síntese do arquivo 01).
+| Questão | Gabarito | Fonte/nota |
+|---------|----------|------------|
+| 16 | **A** | Quizinho TJ-CE 2022 Q51 |
+| 17 | **D** | Questionei TRF-3 2019 |
+| 18 | **B** | Questionei TRT-9 2013 |
+| 19 | **D** | Questionei TRT-24 2017 Téc. |
+| 20 | **C** | Quizinho TRT-20 2024 Téc. Q32 |
+| 21 | **A** | Questionei SEFAZ-BA 2019 |
+| 22 | **A** | Quizinho PGE-AM 2022 Q28 |
+| 23 | **B** | Questionei TJ-CE 2026 — TP=5; LT≈10 |
+| 24 | **B** | QConcursos TJ-CE 2026 — BPMN+Kanban |
+| 25 | **E** | EstudeGrátis TRT-14 2016 — MPS+Scrum |
 
 ---
 

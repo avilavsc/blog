@@ -18,3 +18,4 @@ Ver também: **[Calendário](./calendario/)** (janelas do cronograma).
 | [05](./semana-05/) | Java, C#/.NET, Python, web (HTML/CSS/JS), frameworks e redação |
 | [06](./semana-06/) | Arquiteturas, MER, Oracle/PostgreSQL, lógica e Regimento TRT4 |
 | [07](./semana-07/) | TCP/IP, VLAN, Wi-Fi, proxy, JBoss, monitoramento e DH |
+| [08](./semana-08/) | ISO 27001/27002/27701, LGPD, OWASP, firewall/WAF, VPN/ZTNA, criptografia/TLS, Wi-Fi seguro, ENSEC-PJ e português/redação |

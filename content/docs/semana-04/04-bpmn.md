@@ -328,110 +328,131 @@ E) Correto se o gateway for XOR
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (reais) (16–25)
 
-**16.** No contexto de engenharia de software previsto em editais do Judiciário, o BPMN caracteriza-se, em regra, por:
+**16.** (FCC / TRT-15ª Região – 2025 — Técnico Judiciário – TI) Durante a análise de um processo de atendimento ao cliente, a equipe de BPMN de um Tribunal Regional do Trabalho precisa modelar uma situação em que, ao concluir o atendimento, o cidadão pode optar por fornecer feedback positivo ou negativo que resulta em diferentes caminhos no processo, não havendo a possibilidade de o fluxo seguir por mais de um caminho. O elemento mais apropriado para modelar essa bifurcação é gateway
 
-A) constituir o único modelo de maturidade aceito pelo CMMI Institute  
-B) fornecer notação padronizada para a modelagem de processos de negócio  
-C) substituir, por si só, a disciplina de testes automatizados  
-D) definir os níveis G a A do MR-MPS-SW  
-E) documentar exclusivamente o diagrama entidade-relacionamento  
+A) inclusivo (OR).  
+B) paralelo (AND).  
+C) binário (BIN).  
+D) exclusivo (XOR).  
+E) de início condicional (CDS).  
 
-**17.** Relativamente aos elementos gráficos do BPMN, assinale a opção correta:
+Fonte: QConcursos Q3291047; Magnaconcursos TRT-15 2025 Técnico TI; Questionei.
 
-A) Gateways são representados por círculos de borda dupla  
-B) Eventos controlam exclusivamente o paralelismo AND  
-C) Atividades representam unidades de trabalho; eventos, ocorrências; gateways, ramificações  
-D) Pools são sempre sinônimos de atributos de classe UML  
-E) Fluxo de mensagem ordena tokens apenas dentro da mesma lane  
+**17.** (FCC / TRT-15ª Região – 2025 — Analista Judiciário – TI) Um Tribunal Regional do Trabalho está desenvolvendo um novo sistema para gerenciar o processo de tramitação de ações trabalhistas para automatizar a distribuição de processos, agendar audiências, registrar decisões, gerar relatórios e fazer a integração com outros sistemas do judiciário. Durante a fase de modelagem dos processos de negócios, a equipe de TI cogitou utilizar a notação BPMN (Business Process Model and Notation) pensando em garantir uma visualização clara e eficiente dos fluxos de trabalho. Nessas circunstâncias, um dos Analistas apontou, sobre a utilização desse modelo, que ele
 
-**18.** Comparando gateway exclusivo e gateway paralelo, é correto afirmar que:
+A) não é adequado para representar processos com atividades de decisão complexas, como a avaliação das evidências e argumentos apresentados durante as audiências, pois ele não é capaz de modelar condições de negócios em profundidade.  
+B) é ideal para modelar os fluxos de trabalho do sistema, pois permite representar de forma clara atividades, decisões, subprocessos, eventos e fluxos de trabalho, além de facilitar a comunicação entre os stakeholders do sistema judicial.  
+C) deve ser utilizado exclusivamente para modelar processos automatizados, não sendo recomendado para processos judiciais que envolvem atividades manuais, como a análise de documentos ou decisões por parte de juízes e servidores.  
+D) é ideal, mas deve ser usado apenas para modelar o fluxo de informações entre os sistemas envolvidos no TRT, como a integração com o banco de dados e sistemas externos, todavia não é recomendado para a modelagem dos processos manuais da tramitação de processos.  
+E) é inadequado para modelar processos no contexto judicial, pois a notação não permite a inclusão de eventos e condições específicas exigidas pelas normas jurídicas e regulatórias que regem o Tribunal Regional do Trabalho.  
 
-A) ambos ativam necessariamente todos os caminhos ao mesmo tempo  
-B) o exclusivo seleciona tipicamente um caminho; o paralelo divide/junta execução concorrente  
-C) o paralelo é idêntico ao evento de término  
-D) o exclusivo elimina a necessidade de pools  
-E) nenhum dos dois pode aparecer em diagrama descritivo  
+Fonte: Magnaconcursos TRT-15 2025 Analista TI (3692532). Gabarito: B.
 
-**19.** Assinale a alternativa que apresenta associação **incorreta**:
+**18.** (FCC / TRT-20ª Região – 2024 — Técnico Judiciário – TI) Na notação BPMN, há um gateway que sincroniza um determinado subconjunto de ramificações a partir do conjunto de ramificações de entrada simultâneas (merge behavior). Além disso, cada ativação leva à criação de threads em um determinado subconjunto do conjunto de ramificações de saída (branching behavior). É usado para controlar o fluxo de processos em situações em que mais de um caminho pode ser seguido, mas não necessariamente todos. Trata-se do gateway
 
-A) Pool — participante do processo  
-B) Lane — divisão de responsabilidade no participante  
-C) Fluxo de sequência — ordem no mesmo pool  
-D) BPMN — notação de processo de negócio  
-E) BPMN — escala obrigatória de maturidade CMMI nível 5  
+A) Exclusivo, simbolizado por um losango com um grande x sobreposto a um sinal + no centro.  
+B) Paralelo, simbolizado por um losango com um grande sinal + no centro.  
+C) Complexo, simbolizado por um losango com um grande x sobreposto a um sinal + no centro.  
+D) Inclusivo, simbolizado por um losango com um círculo vazio no centro.  
+E) Baseado em evento, simbolizado por um losango com um círculo no centro, dentro do qual há um pentágono.  
 
-**20.** Em enunciado que contraste BPMN e UML, a FCC tipicamente considera **correto** que:
+Fonte: Quizinho — FCC TRT20 2024 Técnico TI q31.
 
-A) BPMN substitui o diagrama de classes em qualquer domínio  
-B) BPMN enfatiza processos de negócio, enquanto a UML cobre modelagem de software em múltiplos diagramas  
-C) UML e BPMN são nomes comerciais do mesmo artefato ISO 12207  
-D) BPMN é apenas o estereótipo de herança múltipla  
-E) UML elimina qualquer noção de atividade ou fluxo  
+**19.** (FCC / TRT-8ª Região – 2010 — Analista Judiciário – TI) O modelo de processos de negócio de uma organização, desenhado com BPMN, indica a necessidade de mostrar as atividades realizadas pelo departamento de vendas e sua interação com a área de contabilidade que também realiza suas atividades quando acionada no processo. Assim, considerando a organização como uma Pool, para mostrar quem realiza cada atividade departamental nessa Pool, a notação dispõe, no BPD, do símbolo
 
-**21.** A expressão “comunicação entre participantes distintos representados em pools diferentes” descreve com mais precisão:
+A) gateway.  
+B) lane.  
+C) group.  
+D) event.  
+E) data object.  
 
-A) Fluxo de sequência interno obrigatório  
-B) Fluxo de **mensagem**  
-C) Gateway exclusivo XOR  
-D) Evento de início none  
-E) Objeto de dados como único elemento do diagrama  
+Fonte: QConcursos Q80266 (gabarito comentado B — lane).
 
-**22.** Em modelagem BPMN voltada à comunicação com a área de negócio, o uso da notação **não** implica, por si só:
+**20.** (FCC / AL-SP – 2010 — Agente Técnico Legislativo Especializado – TI) A Lane é especificada como
 
-A) possibilidade de representar atividades e decisões  
-B) substituição do CMMI Development como modelo de capacidade/maturidade  
-C) uso de eventos de início e fim  
-D) organização por pools e lanes  
-E) legibilidade compartilhada entre negócio e TI  
+A) junção de atividades.  
+B) desvio alternativo entre atividades.  
+C) divisão de uma atividade.  
+D) subpartição de uma pool.  
+E) subpartição de um processo.  
 
-**23.** Considere as afirmações:
+Fonte: QConcursos Q2feeeec0 (gabarito comentado D).
 
-I. BPMN e diagrama de classes UML são sempre o mesmo artefato.  
-II. Gateway inclusivo (OR) pode ativar um ou mais caminhos conforme condições.  
-III. Evento intermediário pode representar, por exemplo, espera por mensagem ou timer.
+**21.** (FCC / TRT-12ª Região – 2023 — Analista Judiciário – TI) Considere um diagrama BPMN 2.0.2 que representa um processo que envolve várias atividades, gateways e eventos. Uma Analista deseja criar um ponto de decisão que avalie múltiplas condições antes de determinar o próximo passo no fluxo do processo. Para isso, a Analista deve utilizar um
 
-Assinale:
+A) Gateway Exclusivo, pois esse elemento cria múltiplas ramificações no processo, permitindo que todas as atividades ocorram simultaneamente.  
+B) Gateway Inclusivo, pois esse elemento permite que todas as condições sejam avaliadas e todas as sequências de saída possam ser seguidas.  
+C) Evento de Mensagem, pois esse elemento pode ser acionado por diferentes mensagens, cada uma representando uma condição específica.  
+D) Gateway Paralelo, pois esse elemento permite que apenas uma sequência de saída seja seguida com base na primeira condição verdadeira encontrada.  
+E) Evento de Início, pois esse elemento pode ser configurado para avaliar condições antes de iniciar o fluxo do processo.  
 
-A) Apenas I  
-B) Apenas II  
-C) II e III  
-D) I e II  
-E) I, II e III  
+Fonte: QConcursos Q2635562. Gabarito: B (Inclusivo — múltiplas condições/caminhos possíveis).
 
-**24.** Diferenciar fluxo de sequência e fluxo de mensagem é relevante em provas porque:
+**22.** (FCC / TRT-18ª Região – 2023 — Técnico Judiciário – TI) Considere o trecho de um diagrama BPMN abaixo. Sabendo que, após “Identificar documentação necessária”, pode-se verificar a necessidade de apenas um, apenas dois ou todos os três documentos, e que “Analisar a validade dos documentos” só é realizado após a execução dos fluxos anteriores, os itens I e II devem ser preenchidos, correta e respectivamente, por um gateway
 
-A) não há qualquer diferença conceitual cobrável  
-B) a sequência ordena o trabalho no mesmo pool; a mensagem comunica entre pools  
-C) mensagem só existe fora do BPMN  
-D) sequência é exclusiva do CMMI  
-E) ambos são apenas anotações textuais sem seta  
+A) paralelo e outro paralelo, representados por um losango com um “+” dentro dele.  
+B) exclusivo e outro exclusivo, representados por um losango com um “x” dentro dele.  
+C) paralelo, representado por um losango com um “x” dentro dele, e um gateway exclusivo, representado por um losango com um “+” dentro dele.  
+D) exclusivo, representado por um losango com um “x” dentro dele, e um gateway inclusivo, representado por um losango com um círculo dentro dele.  
+E) inclusivo e outro inclusivo, representados por um losango com um círculo dentro dele.  
 
-**25.** A síntese mais alinhada ao edital, sobre BPMN, é:
+Fonte: QConcursos Q2098314; comentários apontam gabarito oficial **E** (prova FCC).
 
-A) BPMN = maturidade G–A; UML = apenas Kanban  
-B) BPMN = notação de processo de negócio (eventos, atividades, gateways, pools/lanes), distinta de UML e de modelos de maturidade  
-C) BPMN obriga código Java e elimina requisitos  
-D) BPMN substitui ISO 12207, CMMI e MPS-SW  
-E) BPMN é o broker RabbitMQ do processo  
+**23.** (FCC / TRT-20ª Região – 2024 — Analista Judiciário – TI) Considere o diagrama BPMN abaixo no qual PIDs significa Pontos de Inclusão Digital.
+
+O diagrama
+
+A) apresenta um processo de agendamento de horário em um PID, no qual há duas user tasks.  
+B) apresenta uma atividade de coreografia para agendamento de horário em um PID, no qual há dois gateways do tipo event-based.  
+C) apresenta 3 subprocessos colapsados, cujos detalhes internos foram modelados adequadamente, mas estão ocultos.  
+D) possui dois subprocessos que são realizados por um funcionário público, responsável pelo agendamento e atendimento nos PIDs.  
+E) de coreografia para agendamento de horário em um PID, apresenta 3 diferentes tipos de eventos: de início, de fim e de revisão.  
+
+Fonte: Quizinho — FCC TRT20 2024 Analista TI q24. *(Diagrama na prova oficial; gabarito A.)*
+
+**24.** (FCC / TRF-4ª Região – 2025 — Analista Judiciário – Análise de Sistemas de Informação) Considere o seguinte diagrama parcial BPMN:
+
+No diagrama, os elementos E1 e E2 representam, correta e respectivamente, Gateway
+
+A) Paralelo Complexo e Evento Intermediário de Compensação.  
+B) Inclusivo Baseado em Evento e Evento Intermediário Condicional.  
+C) Exclusivo e Evento Vários paralelos.  
+D) *(demais alternativas: ver caderno oficial QConcursos Q3538830)*.  
+E) *(idem)*.  
+
+Fonte: QConcursos Q3538830. **Gap:** alternativas completas e gabarito oficial a confirmar no caderno (há menção a “Paralelo Complexo…” como uma das opções).
+
+**25.** (FCC / TRT-15ª Região – 2025 — Técnico Judiciário – TI) *(reforço de gateways)* Em bifurcação mutuamente exclusiva (apenas um caminho), o gateway BPMN adequado é o
+
+A) inclusivo (OR).  
+B) paralelo (AND).  
+C) binário (BIN).  
+D) exclusivo (XOR).  
+E) de início condicional (CDS).  
+
+Fonte: mesma lógica da Q16 (Q3291047) — XOR. Use como checagem rápida; se quiser variedade total, trocar por outra BPMN FCC com pool/message flow na próxima rodada.
 
 ---
 
-### Gabarito comentado (concurso 16–25)
+### Gabarito (questões reais 16–25)
 
-16. **B** — Notação de processos de negócio.  
-17. **C** — Papéis dos três elementos-base.  
-18. **B** — XOR × AND.  
-19. **E** — BPMN ≠ escala CMMI.  
-20. **B** — Negócio × software.  
-21. **B** — Mensagem entre pools.  
-22. **B** — Não substitui CMMI.  
-23. **C** — I falsa; II e III verdadeiras.  
-24. **B** — Sequência × mensagem.  
-25. **B** — Cartão mental do arquivo 04.
+| Questão | Gabarito | Banca/Órgão/Ano |
+|---------|----------|-----------------|
+| 16 | **D** | FCC / TRT-15 / 2025 |
+| 17 | **B** | FCC / TRT-15 / 2025 |
+| 18 | **D** | FCC / TRT-20 / 2024 |
+| 19 | **B** | FCC / TRT-8 / 2010 |
+| 20 | **D** | FCC / AL-SP / 2010 |
+| 21 | **B** | FCC / TRT-12 / 2023 |
+| 22 | **E** | FCC / TRT-18 / 2023 |
+| 23 | **A** | FCC / TRT-20 / 2024 |
+| 24 | **?** | FCC / TRF-4 / 2025 *(gap)* |
+| 25 | **D** | FCC / TRT-15 / 2025 (mesma Q16) |
 
----
+**Distribuição (confirmados):** A×1 · B×3 · D×4 · E×1.  
+**Gaps:** Q24 (alts/gabarito incompletos); Q25 reprise — substituir quando houver mais BPMN FCC textuais (message flow/pool).
 
 ## 4. Auto-checagem rápida (opcional)
 

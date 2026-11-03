@@ -301,112 +301,138 @@ E) conhecer âncoras 15–18 e migrar 14→N via `pg_upgrade`/dump/logical com r
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** No conteúdo programático de Banco de Dados do edital TRT4 (FCC), relativamente ao PostgreSQL, é correto afirmar que:
+> Questões reais de provas (FCC). Gabarito só ao final.
 
-A) citam-se apenas versões anteriores à 12, sem menção a migração  
-B) citam-se as majors 15 a 18, bem como noções de migração/compatibilidade com a 14 em legados  
-C) o PostgreSQL foi substituído integralmente pelo H2 em todos os eixos  
-D) a única major cobrada é a 19c, rótulo exclusivo Oracle  
-E) migração entre majors é proibida pelo edital  
+**16.** (FCC – TRT-20/2024 – Analista Judiciário – TI)  
+Dentre as técnicas para otimizar o desempenho de consultas que envolvem a análise de grandes volumes de dados geográficos no PostgreSQL 13, uma Analista está estudando aquela que é a mais adequada, recomendando:
 
-**17.** Considere as afirmações sobre evolução do PostgreSQL.
+A) utilizar a extensão PostGIS, para todas as operações espaciais.  
+B) utilizar índices B-tree em colunas de tipo geométrico.  
+C) fragmentar tabelas geográficas, com base em atributos espaciais.  
+D) criar materialized views, para pré-calcular resultados de consultas espaciais.  
+E) criar índices GIST em colunas de tipo geométrico.  
 
-I. A major 15 introduziu suporte amplo ao comando SQL `MERGE`.  
-II. A major 17 destacou `JSON_TABLE` e melhorias relevantes de manutenção (`VACUUM`) / backup incremental.  
-III. A major 18 trouxe, entre outras âncoras, subsistema de I/O assíncrono e `uuidv7()`.
+**17.** (FCC – TRT-17/2022 – Analista Judiciário – TI)  
+Considere que em um banco de dados PostgreSQL 13, aberto e funcionando em condições ideais, existam duas tabelas: Cidades (com os campos NomeCidade e Estado) e Populacao (com os campos Cidade, NumHabitantes, NumVaras). A tabela Cidades foi criada pelo comando: `CREATE TABLE Cidades (NomeCidade VARCHAR(80) PRIMARY KEY, Estado VARCHAR(40));` Para que, ao se inserir ou atualizar algum registro na tabela Populacao, seja verificado se o campo Cidade corresponde a uma cidade existente na tabela Cidades, deve-se utilizar uma chave estrangeira. Isso é feito utilizando o comando SQL na criação da tabela Populacao: CREATE TABLE Populacao (Cidade VARCHAR(80) I , NumHabitantes INT, NumVaras INT); A lacuna I é corretamente preenchida com
 
-Está correto o que se afirma em:
+A) FOREIGN KEY (Cidade) REFERENCES Cidades(NomeCidade)  
+B) FOREIGN KEY REFERENCES Cidades(NomeCidade)  
+C) REFERENCES Cidades(NomeCidade)  
+D) FOREIGN KEY Cidades(NomeCidade)  
+E) REFERENCES FOREIGN KEY (Cidade) TO Cidades(NomeCidade)  
 
-A) I, apenas  
-B) II e III, apenas  
-C) I e II, apenas  
-D) I, II e III  
-E) III, apenas  
+**18.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+Um Tribunal Regional do Trabalho deseja consultar a quantidade de audiências realizadas nos últimos 3 meses para o tipo de processo trabalhista `'RESCISÃO CONTRATUAL'`. Em um banco de dados PostgreSQL, aberto e funcionando em condições ideais, a consulta é obtida usando-se o comando:
 
-**18.** A passagem de um cluster PostgreSQL da major 14 para uma major posterior (15–18) relaciona-se, em visão de concurso, a:
+A) ``sqlSELECT COUNT(*)FROM audienciasWHERE tipo_processo = 'RESCISAO CONTRATUAL'AND data_audiencia >= MAKE_INTERVAL(months := 3);``  
+B) ``sqlSELECT COUNT(*)FROM audienciasWHERE tipo_processo = 'RESCISAO CONTRATUAL'AND data_audiencia >= CURRENT_DATE - INTERVAL '3 MONTH';``  
+C) ``sqlSELECT COUNT(*) AS totalFROM audienciasWHERE tipo_processo = 'RESCISAO CONTRATUAL'AND data_audiencia >= CURRENT_DATE - '90 DAYS';``  
+D) ``sqlSELECT COUNT(*)FROM audienciasWHERE tipo_processo = 'RESCISAO CONTRATUAL'AND data_audiencia >= NOWDATE() - INTERVAL '3 MONTH';``  
+E) ``sqlSELECT COUNT(*)FROM audienciasWHERE tipo_processo = 'RESCISAO CONTRATUAL'AND data_audiencia >= DATE_TRUNC('MONTH', NOW()) - '3 MONTHS';``  
 
-A) procedimento de *upgrade* de major — por exemplo `pg_upgrade`, dump/restore ou estratégias com replicação lógica — com verificação de incompatibilidades  
-B) exclusividade do banco H2 em produção após a migração  
-C) proibição de uso de SQL após a 14  
-D) função exclusiva do Hibernate Envers como motor de upgrade do binário  
-E) substituição do PostgreSQL pelo MapStruct  
+**19.** (FCC – TRT-22/2022 – Analista Judiciário – TI)  
+Considere que um Analista está trabalhando em um banco de dados PostgreSQL aberto e funcionando em condições ideais. O Analista inseriu a seguinte sequência de comandos: ``` DROP TABLE I TRTContatos; CREATE TABLE TRTContatos ( cod serial PRIMARY KEY, orgao VARCHAR(255) NOT NULL, email VARCHAR(255) NOT NULL, descricao VARCHAR(255) ); INSERT INTO TRTContatos (orgao, email) VALUES ('Ouvidoria','ouvidoria@trt22.jus.br:'), ('Escola Judicial','ejud@trt22.jus.br'), ('Corregedoria','secor@trt22.jus.br') II ; ``` É correto afirmar que
 
-**19.** Assinale a opção que melhor descreve o papel de `pg_upgrade --check`:
+A) haverá erro, pois não é possível fazer inserção de múltiplas linhas em tabelas do PostgreSQL.  
+B) haverá erro devido ao fato de as 3 linhas a serem inseridas na tabela TRTContatos não terem os 4 campos informados em CREATE TABLE.  
+C) I deve ser preenchido com IF EXISTS e II deve ser preenchido com RETURNING * para que as linhas inseridas sejam apresentadas.  
+D) I deve ser preenchido com ALL ROWS e II deve ficar sem nenhum preenchimento.  
+E) faltou um _ entre cod e serial, pois o certo seria cod_serial PRIMARY KEY.  
 
-A) apaga definitivamente o cluster antigo  
-B) converte automaticamente Oracle 19c em PostgreSQL  
-C) executa verificação de compatibilidade **sem** alterar os dados, permitindo corrigir problemas antes do upgrade real  
-D) documenta a API OpenAPI do microsserviço  
-E) substitui o `ANALYZE` após a 18  
+**20.** (FCC – TRT-12/2023 – Analista Judiciário – TI)  
+Considere o seguinte caso:
 
-**20.** Sobre atualização **minor** versus **major** no PostgreSQL:
+ Utilizando comandos SQL, um analista criou uma tabela de cidadão dando permissão de acesso ao usuário Roberto. Posteriormente inseriu dados nessa tabela, mas logo em seguida teve que deletá-los, retirar a permissão de Roberto que estava saindo do tribunal e dar permissão a Carla. 
 
-A) 14.1 → 14.6 exige, em regra, o mesmo rito completo de 14 → 18  
-B) majors (ex.: 14 → 16) exigem migração; minors da mesma série, em regra, não usam `pg_upgrade`  
-C) minors sempre exigem dump/restore completo entre quaisquer patches  
-D) majors nunca precisam de revisão de *breaking changes*  
-E) H2 define oficialmente o que é major no PostgreSQL  
+A sequência de comandos SQL utilizada no caso é, correta e respectivamente, categorizada como
 
-**21.** Qual associação major → âncora está correta?
+A) DML - DCL - DDL - DDL - DCL - DCL.  
+B) DML - DCL - DML - DDL - DML - DCL.  
+C) DDL - DCL - DML - DML - DCL - DCL.  
+D) DDL - DCL - DDL - DML - DML - DCL.  
+E) DCL - DDL - DML - DML - DCL - DCL.  
 
-A) 15 → somente remoção do SQL; 16 → fim da replicação; 17 → proibição de JSON; 18 → obrigatoriedade do H2  
-B) 18 → apenas retorno à 9.6  
-C) 15 → `MERGE`; 16 → avanços em replicação lógica/SQL/JSON; 17 → `JSON_TABLE`/manutenção; 18 → AIO/`uuidv7`/OAuth (visão)  
-D) 15 a 18 são *minors* da série 14  
-E) Todas as majors listadas existem apenas no dialeto H2  
+**21.** (FCC – TRT-12/2023 – Analista Judiciário – TI)  
+Considere uma tabela denominada `Cidadao` e as colunas `Nome_Cidadao` e `Valor_Recebido`.
 
-**22.** Em cenário de migração 14 → 18 com baixa tolerância a downtime, além de `pg_upgrade` e dump/restore, a estratégia que a literatura de prova costuma citar é:
+Para obter a média dos valores maiores que 200 recebidos pelos cidadãos, um Analista deve utilizar o comando
 
-A) reescrita completa da aplicação em Delphi obrigatória  
-B) uso exclusivo de SPFILE Oracle  
-C) replicação lógica para um cluster novo seguida de *cutover*  
-D) remoção de todas as FKs antes do dump  
-E) conversão de todas as tabelas em entidades fracas  
+A) SELECT AVG(Valor_Recebido > 200) FROM Cidadao;  
+B) SELECT AVG(Valor_Recebido) FROM Cidadao WHERE Valor_Recebido > 200;  
+C) SELECT AVG(Valor_Recebido) > 200 FROM Cidadao;  
+D) SELECT FROM Cidadao AVG(Valor_Recebido) > 200;  
+E) SELECT Nome_Cidadao and AVG(Valor_Recebido) FROM Cidadao WHERE Valor_Recebido > 200;  
 
-**23.** Acerca de compatibilidade pós-migração major, assinale a correta.
+**22.** (FCC – TRT-20/2024 – Analista Judiciário – TI)  
+Considere que um processo trabalhista pode ser distribuído em diversos volumes que são identificados pelo número do processo principal a que se referem. Cada volume tem um número que vai de 01 a nn, sequencialmente, na medida em que são anexados ao processo principal, como por exemplo: P01V01, P01V02, P02V01, P02V02 e P02V03, onde P é o número do processo e V é o número do volume. Em um modelo conceitual entidade-relacionamento, Volume é
 
-A) extensões, collations, drivers e scripts SQL/ORM devem ser revisados; passar no H2 não basta  
-B) nenhuma extensão precisa existir na major nova  
-C) o edital proíbe leitura das release notes  
-D) `MODE=PostgreSQL` do H2 executa `pg_upgrade`  
-E) estatísticas do otimizador são irrelevantes após qualquer upgrade  
+A) uma especialização da entidade Processo, que é a entidade genérica.  
+B) uma entidade associativa com cardinalidade n:m em relação à entidade Processo.  
+C) uma entidade fraca com cardinalidade n:1 em relação à entidade Processo.  
+D) um auto relacionamento com cardinalidade n:m.  
+E) um relacionamento complementar com cardinalidade 1:n em relação à entidade Processo.  
 
-**24.** No contraste com Oracle 19c (mesmo eixo BD do edital):
+**23.** (FCC – TRT-19/2022 – Analista Judiciário – TI)  
+Considere a classe abaixo em uma aplicação que utiliza JPA e Hibernate.
 
-A) `pg_upgrade` é o comando Oracle para Buffer Cache  
-B) ambos os produtos são cobráveis; caminhos de upgrade e dialetos (PL/pgSQL × PL/SQL) não se confundem  
-C) PostgreSQL 18 elimina o Oracle do conteúdo programático  
-D) SPFILE é parâmetro do `pg_hba.conf`  
-E) `DB_CACHE_SIZE` é âncora da major 15 do Postgres  
+```
+@Entity
+public class Cliente {
+ @Id
+ @GeneratedValue(strategy = GenerationType.
+ I
+ )
+ private Long id;
+ // atributos e métodos restantes
+}
+```
 
-**25.** Para fins de preparação no eixo PostgreSQL 15–18 + migração da 14, a síntese mais adequada é:
+Para informar ao provedor de persistência que os valores a serem atribuídos ao identificador único (id) serão gerados pela coluna de autoincremento da tabela do banco de dados, utiliza-se, na lacuna I , o valor
 
-A) H2 e PostgreSQL são o mesmo artefato; majors 15–18 são irrelevantes  
-B) Rate limiting de API Gateway só existe dentro do Postgres 14  
-C) `pg_upgrade` aplica-se apenas entre *minors* e nunca entre *majors*  
-D) OAuth na 18 substitui o papel do Keycloak em toda a PDPJ por definição do edital  
-E) conhecer o mapa 15–18, distinguir major/minor e dominar os três caminhos clássicos de migração com checklist de compatibilidade  
+A) TABLE  
+B) AUTO_GENERATED  
+C) AUTO_INCREMENT  
+D) IDENTITY  
+E) SELF_GENERATED  
+
+**24.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+Uma equipe de Analistas, considerando as características específicas de cada modelo, optou pelo uso do banco de dados NoSQL orientado a
+
+A) grafos, pois, além de implementar algoritmos como Depth-First Search (DFS) e Breadth-First Search (BFS), que otimizam consultas complexas, também pode fazer uma prevenção sofisticada contra fraudes.  
+B) documentos, pois organiza dados em tabelas semelhantes ao modelo relacional, mas armazenando-as de forma independente, o que permite maior compressão e desempenho em operações de leitura.  
+C) grafos, pois estrutura dados em coleções, com suporte a esquemas flexíveis, ideais para o armazenamento de objetos JSON ou BSON.  
+D) colunas, que armazena dados em pares de chave-valor, o que permite uma estrutura altamente flexível para armazenar diferentes tipos de dados estruturados e semiestruturados.  
+E) documentos, pois é ideal para o armazenamento de séries temporais, otimizando a leitura sequencial de grandes volumes de dados, como eventos de sensores.  
+
+**25.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+Um Analista de um Tribunal Regional do Trabalho foi solicitado a consultar os benefícios concedidos a funcionários de diferentes empresas e apresentar a quantidade total de benefícios pagos por empresa para aquelas que tenham concedido mais de 5 benefícios nos últimos 12 meses. Utilizando um banco de dados Oracle 19c, aberto e em condições ideais, o comando que faz a consulta é:
+
+A) ``sqlSELECT empresa, COUNT() AS total_beneficiosFROM beneficiosWHERE data_concessao BETWEEN SYSDATE AND SYSDATE - 365GROUP BY empresaHAVING COUNT() > 5;``  
+B) ``sqlSELECT empresa, COUNT(*) AS total_beneficiosFROM beneficiosWHERE data_concessao <= ADD_MONTHS(SYSDATE, -12)GROUP BY empresaHAVING COUNT( ) > 5;``  
+C) ``sqlSELECT empresa, COUNT() AS total_beneficiosFROM beneficiosWHERE data_concessao >= ADD_MONTHS(TRUNC(SYSDATE), -12)GROUP BY empresaHAVING COUNT() > 5;``  
+D) ``sqlSELECT empresa, COUNT() AS total_beneficiosFROM beneficiosWHERE EXTRACT(YEAR FROM data_concessao) := EXTRACT(YEAR FROM SYSDATE) - 1GROUP BY empresaHAVING COUNT() > 5;``  
+E) ``sqlSELECT empresa, SUM(beneficio) AS total_beneficiosFROM beneficiosWHERE data_concessao >= ADD_MONTHS(SYSDATE, -12)GROUP BY empresaHAVING SUM(beneficio) > 5;``  
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **B** |
-| 17 | **D** |
-| 18 | **A** |
-| 19 | **C** |
-| 20 | **B** |
-| 21 | **C** |
-| 22 | **C** |
-| 23 | **A** |
-| 24 | **B** |
-| 25 | **E** |
+| Questão | Gabarito | Fonte / nota |
+|---------|----------|--------------|
+| 16 | **E** | FCC TRT-20/2024 Q56 — Banco de Dados |
+| 17 | **C** | FCC TRT-17/2022 Q36 — Banco de Dados |
+| 18 | **B** | FCC TRT-1/2025 Q39 — Banco de Dados |
+| 19 | **C** | FCC TRT-22/2022 Q26 — Banco de Dados |
+| 20 | **C** | FCC TRT-12/2023 Q52 — Banco de Dados |
+| 21 | **B** | FCC TRT-12/2023 Q53 — Banco de Dados |
+| 22 | **C** | FCC TRT-20/2024 Q60 — Banco de Dados |
+| 23 | **D** | FCC TRT-19/2022 Q33 — Banco de Dados |
+| 24 | **A** | FCC TRT-6/2025 Q54 — NoSQL |
+| 25 | **C** | FCC TRT-1/2025 Q40 — Banco de Dados |
 
-**Notas rápidas:** 16 B (edital 15–18 + 14); 17 D (I–III); 18 A (major upgrade); 19 C (`--check`); 20 B (major≠minor); 21 C (mapa); 22 C (logical cutover); 23 A (compatibilidade); 24 B (dual edital); 25 E (síntese).
+**Notas rápidas:** 16 E; 17 C; 18 B; 19 C; 20 C; 21 B; 22 C; 23 D; 24 A; 25 C.
 
 ---
 

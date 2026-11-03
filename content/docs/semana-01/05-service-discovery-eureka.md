@@ -1,4 +1,4 @@
-﻿+++
++++
 title = '05 — Service Discovery / Eureka'
 date = '2026-10-05'
 draft = false
@@ -352,113 +352,189 @@ E) Envers substitui o service registry
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões reais de concurso (16–25)
 
-**16.** Em arquiteturas de microsserviços com instâncias efêmeras, o Service Discovery caracteriza-se, em regra, por:
+> Bloco substituído por questões **reais** de concurso (FCC preferencialmente; TRT/TRF/TJ quando necessário). O treino 1–15 e o Material permanecem inalterados.
 
-A) permitir a localização dinâmica de instâncias por meio de um catálogo (*registry*), reduzindo a dependência de endereços físicos fixos  
-B) constituir, como função exclusiva e sinônima, o ponto único de entrada com *rate limiting* perante o usuário final  
-C) substituir integralmente a necessidade de contratos HTTP e de códigos de status  
-D) atuar apenas como biblioteca de mapeamento entre entidades e DTOs em tempo de compilação  
-E) eliminar qualquer possibilidade de coexistência com um API Gateway  
+**16.** (FCC | TRT15 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60)
 
-**17.** Acerca do Eureka no ecossistema Spring Cloud clássico cobrado em concursos, assinale a alternativa correta.
+O Spring Eureka é uma implementação do padrão de registro de serviços que permite que os microsserviços se registrem automaticamente e se descubram uns aos outros. A porta padrão em que o servidor Eureka irá executar na aplicação Spring Boot e o arquivo em que essa porta é configurada são, respectivamente,
 
-A) Eureka funciona primariamente como API Gateway de borda, sinônimo de Zuul  
-B) Eureka atua como mecanismo de *service discovery*, com servidor de registro e clientes que se anunciam e consultam o catálogo  
-C) Eureka é biblioteca de mapeamento *compile-time* entre POJOs  
-D) Eureka substitui o Spring Boot como *runtime* embutido da aplicação  
-E) Eureka é o padrão OpenAPI de documentação interativa  
+A) `80` e `eureka-server.xml`
 
-**18.** No contraste entre configuração estática de endpoints e descoberta dinâmica, é correto afirmar que:
+B) `15000` e `application-server.yml`
 
-A) ambas respondem da mesma forma a autoscaling contínuo, sem diferença operacional relevante  
-B) na descoberta dinâmica, os endereços tendem a ser obtidos do *registry* em tempo de execução, acompanhando o ciclo de vida das réplicas  
-C) a configuração estática é a única estratégia admitida em microsserviços  
-D) a descoberta dinâmica proíbe nomes lógicos de serviço  
-E) o *registry* equivale, por definição, à documentação Swagger  
+C) `8080` e `pom.xml`
 
-**19.** Considere o uso conjugado de **Zuul** e **Eureka** em stack alinhada ao conteúdo programático de Analista de TI de tribunal. Assinale a alternativa correta.
+D) `8005` e `eureka-registry.xml`
 
-A) Zuul mantém o catálogo de instâncias; Eureka é a fachada pública de entrada  
-B) Eureka localiza instâncias no *registry*; Zuul atua como gateway de borda, podendo apoiar-se no discovery para encaminhar o tráfego  
-C) Ambos são exclusivamente geradores de scripts Flyway  
-D) Eureka aplica *rate limiting* como definição do padrão de discovery  
-E) Zuul remove instâncias por ausência de *heartbeat* como função exclusiva de registry  
+E) `8761` e `application.properties`
 
-**20.** Considere as afirmações abaixo.
 
-I. O Service Discovery responde, em essência, à pergunta sobre a localização das instâncias disponíveis.  
-II. O *heartbeat* contribui para que instâncias que deixaram de responder possam ser retiradas ou consideradas indisponíveis no catálogo.  
-III. API Gateway e Service Discovery desempenham papéis distintos e tipicamente complementares.
+**17.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 32 de 60)
 
-Está correto o que se afirma em:
+Na classe principal de uma aplicação criada com Spring Boot, para fazer com que a aplicação atue como um cliente Eureka utiliza-se a anotação
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) II e III, apenas  
-E) I, II e III  
+A) `@EurekaClient`
 
-**21.** Assinale a opção que **inverte** indevidamente os papéis típicos de Eureka e Zuul no ecossistema Spring Cloud clássico cobrado em concursos.
+B) `@EnableEurekaClient`
 
-A) Eureka = discovery/registro; Zuul = gateway/roteamento de borda  
-B) Eureka = filtro/entrada de borda HTTP; Zuul = *registry* de instâncias  
-C) Cliente externo utiliza o gateway como fachada; o discovery informa endereços das réplicas  
-D) Eureka mantém catálogo; Zuul encaminha tráfego na borda  
-E) A associação de prova liga Eureka à localização e Zuul à entrada  
+C) `@EnableDiscoveryEurekaClient`
 
-**22.** A remoção (ou indisponibilização) de uma réplica que deixou de enviar sinais periódicos de vida relaciona-se, no discurso de *service discovery*, à ideia de:
+D) `@EurekaDiscoveryClient`
 
-A) exclusividade do banco H2 em produção  
-B) *heartbeat* / evicção de instâncias mortas no *registry*  
-C) proibição de JSON em APIs REST  
-D) função exclusiva do Hibernate Envers  
-E) substituição do discovery pelo MapStruct  
+E) `@IsEurekaClient`
 
-**23.** Em enunciado que descreve componente responsável por “oferecer ponto estável de entrada ao consumidor externo, validar token na borda e encaminhar `/api/peticoes`”, sem enfatizar o catálogo de heartbeats, o papel mais adequado é o de:
 
-A) Eureka Server como registry puro  
-B) Service Discovery como sinônimo de Swagger  
-C) API Gateway (ex.: Zuul)  
-D) MapStruct  
-E) Flyway  
+**18.** (FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60)
 
-**24.** Para fins de preparação no eixo Service Discovery / Eureka do edital (PDPJ-Br / Analista TI), a síntese mais adequada é:
+Ao usar o Gateway API com o Service Discovery no contexto da PDPJ-Br, a principal consequência para o frontend em uma aplicação baseada em microsserviços é que o
 
-A) Eureka e Zuul são o mesmo artefato; Discovery documenta OpenAPI; Gateway mapeia Entity↔DTO  
-B) Discovery (Eureka) = catálogo dinâmico, registro, heartbeat e localização de réplicas; Gateway (Zuul) = entrada/roteamento — papéis distintos; estático ≠ lookup dinâmico  
-C) Heartbeat só existe dentro do PostgreSQL  
-D) O cliente externo deve, por definição, conhecer todos os IPs internos sem catálogo nem fachada  
-E) Registry obriga ESB clássico e proíbe HTTP  
+A) Gateway API diminui a necessidade de autenticação, uma vez que o Service Discovery é integrado ao SSO.
 
-**25.** Assinale a afirmação **incompatível** com o papel típico do Service Discovery / Eureka.
+B) frontend deve configurar manualmente os IPs e portas dos serviços disponíveis na plataforma.
 
-A) Manter catálogo de instâncias associadas a nomes lógicos de serviço  
-B) Permitir que consumidores obtenham host/porta atualizados em tempo de execução  
-C) Apoiar-se em sinais de vida (*heartbeat*) para refletir saúde/disponibilidade no registry  
-D) Servir como ponto único de entrada pública com políticas transversais de borda, confundindo-se com o API Gateway  
-E) Contrastar com a estratégia de endereços fixos em arquivo de configuração  
+C) frontend se torna o responsável pela chamada direta de cada microsserviço individualmente.
+
+D) Gateway API reduz o número de chamadas externas que o frontend precisa fazer, tornando a comunicação mais eficiente.
+
+E) frontend deve gerenciar manualmente as atualizações de endpoint de cada serviço individual registrado.
+
+
+**19.** (FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60)
+
+Em um cenário de sistema de microsserviços um técnico deseja expor alguns dos microsserviços para acesso externo e ocultar outros. Como ele está usando o Spring Cloud, para proteger os microsserviços expostos contra solicitações de clientes mal-intencionados, ele pode usar o
+
+A) Galaxy Eureka como edge server.
+
+B) Apache Toncat como service discovery.
+
+C) Apache Wildfly como security server.
+
+D) Netflix Zuul como edge server.
+
+E) Swagger como security server.
+
+
+**20.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22) *[aproximação temática]*
+
+Os microsserviços da Plataforma Digital do Poder Judiciário (PDPJ) são desenvolvidos com tecnologias de código aberto, são implementados com o uso do Spring framework, e Java é a principal linguagem de programação. De acordo com a documentação da PDPJ, faz parte do ecossistema do Spring Framework o
+
+A) Swagger, que organiza os scripts SQL que são executados no banco de dados, funcionando como um controle de versão.
+
+B) Flyway, serviço de documentação que descreve APIs RESTful expressas usando JSON.
+
+C) Zuul, que fornece os recursos de cliente para o serviço de descoberta Eureka.
+
+D) Netflix Eureka, que tem como principal função ser um ponto único de entrada, distribuindo as requisições entre as diversas instâncias de serviços.
+
+E) Data Envers, que é um módulo Hibernate que adiciona funcionalidades de auditoria às entities JPA.
+
+
+**21.** (FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 42 de 60)
+
+Uma aplicação envia ao advogado uma notificação avisando que houve uma atualização em um processo, mesmo sem o advogado abrir o aplicativo para procurar a informação. Para que a informação chegue até o sistema do aplicativo do Tribunal em tempo real e até o advogado, da forma relatada, sem a necessidade de ação externa, pode ser utilizado um recurso conhecido como
+
+A) Swagger.
+
+B) Webhook.
+
+C) Mockito Pulling.
+
+D) Eureka Messages.
+
+E) Elastic Messages.
+
+
+**22.** (FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60) *[aproximação temática]*
+
+Correspondem, correta e respectivamente, a um componente do Spring Cloud e à principal função do Spring Cloud Config:
+
+A) Spring Security — implementar um padrão de design para a comunicação entre serviços baseados em REST.
+
+B) Spring Boot Actuator — gerenciar o ciclo de vida e o monitoramento de aplicações distribuídas em uma arquitetura de microsserviços.
+
+C) Spring Data JPA — oferecer uma solução para o balanceamento de carga entre instâncias de microsserviços.
+
+D) Spring Cloud Stream — centralizar a configuração de aplicações e serviços, permitindo que configurações sejam atualizadas dinamicamente.
+
+E) Spring Web MVC — fornecer um serviço de autenticação e autorização para microsserviços e aplicações.
+
+
+**23.** (FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 40 de 60) *[aproximação temática]*
+
+Integração e implantação contínuas (CI/CD) é uma coleção de práticas usadas para integrar e entregar código rapidamente. Usando a prática de
+
+A) integração contínua (CI), em um cronograma pré-acordado, provavelmente no final do ciclo de sprint, o pacote de código é liberado e testado manualmente pelo time de desenvolvimento.
+
+B) implantação contínua (CD), depois que todo o código é validado com sucesso pelo time de desenvolvimento e qualidade, implanta-se o código manualmente no ambiente de teste ou de produção.
+
+C) implantação contínua (CD) em que o grupo controle de qualidade realiza testes manuais para todos os códigos novos ou modificados. Se for bem-sucedido, o código será liberado para implantação; caso contrário, o lançamento é rejeitado e colocado em espera até que os bugs sejam corrigidos.
+
+D) integração contínua (CI), os desenvolvedores são incentivados a fazer pequenos ajustes de código, mesclar seu código na ramificação de código principal e validá-lo usando testes automatizados.
+
+E) integração contínua (CI), para implementar pipelines devem ser utilizadas ferramentas como Zuul e Eureka.
+
+
+**24.** (FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 43 de 60) *[aproximação temática]*
+
+As versões mais recentes do Spring Boot permitem a configuração de inicialização lenta (lazy initialization), que faz com que os beans sejam criados à medida que são necessários e não durante a inicialização do aplicativo. Uma das maneiras de habilitar a inicialização lenta é colocar
+
+A) `@Lazy(true)` no arquivo `application.properties`
+
+B) `spring.main.lazy-initialization=true` no arquivo `application.properties`
+
+C) `set-lazy-initialization=true` no arquivo `spring-boot.xml`
+
+D) `lazy-initialization=true` no arquivo `spring-application-builder.xml`
+
+E) `@SpringMainLazyInitialization` na classe `SpringApplicationBuilder`
+
+
+**25.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 29 de 60) *[aproximação temática]*
+
+Nos projetos da Plataforma Digital do Poder Judiciário PDPJ-Br,
+
+A) os ambientes de deployment estão instalados em clusters Kubernetes, gerenciados por meio da ferramenta open source de orquestração de containers Rancher.
+
+B) a aplicação deve possuir os arquivos `yanl`, para que o deploy ocorra de forma automática por meio de pipelines de CI/CD (Continuous Delivery e Continuous Integration) executados pelo GitLab do STF (Supremo Tribunal Federal).
+
+C) a aplicação deve possuir um arquivo `Rancherfile`, especificando o modo pelo qual ela deve ser empacotada.
+
+D) deve haver o arquivo `.gitlab-ci.xml` definindo a pipeline de deploy automático.
+
+E) deve haver, na pasta `kubernets`, o arquivo de configuração do ingress da aplicação, que é obrigatório.
+
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso reais 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **A** |
-| 17 | **B** |
-| 18 | **B** |
-| 19 | **B** |
-| 20 | **E** |
-| 21 | **B** |
-| 22 | **B** |
-| 23 | **C** |
-| 24 | **B** |
-| 25 | **D** |
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **E** | FCC | TRT15 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60 |
+| 17 | **B** | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 32 de 60 |
+| 18 | **D** | FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60 |
+| 19 | **D** | FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60 |
+| 20 | **E** \* | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22 |
+| 21 | **B** | FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 42 de 60 |
+| 22 | **D** \* | FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60 |
+| 23 | **D** \* | FCC | TRT4 2022 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 40 de 60 |
+| 24 | **B** \* | FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 43 de 60 |
+| 25 | **A** \* | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 29 de 60 |
 
-**Notas rápidas:** 16 A (localização dinâmica via registry); 17 B (Eureka = discovery server/client); 18 B (lookup runtime); 19 B (Eureka localiza; Zuul entra); 20 E (I–III ok); 21 B (única que **inverte** Eureka/Zuul); 22 B (heartbeat/eviction); 23 C (borda = Gateway); 24 B (síntese do subtópico); 25 D (entrada/cross-cutting ≠ Discovery).
+\* = aproximação temática (questão real correlata quando o nicho é raro em prova).
 
----
+**Fontes:**
+- Q16: https://www.quizinho.com.br/questao/fcc-trt15-2023-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2023-q31
+- Q17: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q32
+- Q18: https://www.quizinho.com.br/questao/fcc-trt6-2025-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2025-q39
+- Q19: https://www.quizinho.com.br/questao/fcc-trt4-2022-tecnico-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q38
+- Q20: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q22
+- Q21: https://www.quizinho.com.br/questao/fcc-trt22-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q42
+- Q22: https://www.quizinho.com.br/questao/fcc-trt20-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q53
+- Q23: https://www.quizinho.com.br/questao/fcc-trt4-2022-tecnico-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q40
+- Q24: https://www.quizinho.com.br/questao/fcc-trt22-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q43
+- Q25: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q29
 
 *Arquivo 05 · Service Discovery / Eureka · Claudionir · TRT4 Analista TI (código 14) · FCC. Próximo: 06 Zuul Gateway (Spring).*

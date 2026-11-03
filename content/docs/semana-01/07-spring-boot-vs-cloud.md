@@ -1,4 +1,4 @@
-﻿+++
++++
 title = '07 — Spring Boot × Spring Cloud'
 date = '2026-10-07'
 draft = false
@@ -355,111 +355,187 @@ E) Boot = Swagger; Cloud = MapStruct
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões reais de concurso (16–25)
 
-**16.** No contexto de microsserviços alinhado à stack Spring referida no PDPJ, Spring Boot e Spring Cloud relacionam-se, em regra, da seguinte forma:
+> Bloco substituído por questões **reais** de concurso (FCC preferencialmente; TRT/TRF/TJ quando necessário). O treino 1–15 e o Material permanecem inalterados.
 
-A) o Boot concentra o bootstrap/empacotamento da aplicação, enquanto o Cloud agrega padrões de sistemas distribuídos  
-B) são nomes intercambiáveis para o mesmo artefato de discovery  
-C) o Cloud substitui integralmente o Boot em qualquer serviço  
-D) o Boot é, por definição, o API Gateway Netflix  
-E) ambos equivalem ao MapStruct  
+**16.** (FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60)
 
-**17.** Considere um enunciado que destaque “servidor embutido”, “starters” e “aplicação Spring executável em jar”. A associação mais adequada é:
+Correspondem, correta e respectivamente, a um componente do Spring Cloud e à principal função do Spring Cloud Config:
 
-A) Spring Cloud Config Server exclusivamente  
-B) Eureka Dashboard como único significado  
-C) Spring Boot  
-D) Filtro post do Zuul  
-E) Swagger UI  
+A) Spring Security — implementar um padrão de design para a comunicação entre serviços baseados em REST.
 
-**18.** Em arquitetura com vários serviços elásticos, a necessidade de **localizar dinamicamente** instâncias e de **expor borda única** com roteamento remete, no guarda-chuva Spring, principalmente a:
+B) Spring Boot Actuator — gerenciar o ciclo de vida e o monitoramento de aplicações distribuídas em uma arquitetura de microsserviços.
 
-A) recursos exclusivos do Boot sem qualquer padrão Cloud  
-B) apenas MapStruct e Flyway  
-C) dialect SQL embutido no Boot  
-D) padrões Spring Cloud (ex.: Eureka e Zuul)  
-E) OpenAPI sem gateway nem discovery  
+C) Spring Data JPA — oferecer uma solução para o balanceamento de carga entre instâncias de microsserviços.
 
-**19.** Assinale a alternativa que apresenta associação **incorreta**:
+D) Spring Cloud Stream — centralizar a configuração de aplicações e serviços, permitindo que configurações sejam atualizadas dinamicamente.
 
-A) Spring Boot — empacotamento e execução da app  
-B) Spring Cloud — padrões distribuídos  
-C) Eureka — Service Discovery  
-D) Zuul — API Gateway  
-E) Spring Boot — catálogo central de heartbeats de réplicas (papel típico do Eureka)  
+E) Spring Web MVC — fornecer um serviço de autenticação e autorização para microsserviços e aplicações.
 
-**20.** Um serviço de negócios desenvolvido com Spring Boot passa a utilizar cliente de Service Discovery. É correto concluir que:
 
-A) o serviço deixa automaticamente de ser aplicação Boot  
-B) o Boot torna-se o Zuul  
-C) o serviço permanece Boot e passa a empregar capacidade associada ao Spring Cloud  
-D) o discovery elimina a noção de HTTP  
-E) MapStruct assume o papel de registry  
+**17.** (FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 43 de 60)
 
-**21.** Diferenciar Spring Boot de Spring Cloud em provas da FCC é relevante porque:
+As versões mais recentes do Spring Boot permitem a configuração de inicialização lenta (lazy initialization), que faz com que os beans sejam criados à medida que são necessários e não durante a inicialização do aplicativo. Uma das maneiras de habilitar a inicialização lenta é colocar
 
-A) a banca costuma explorar a confusão entre ferramenta de bootstrap da app e padrões de coordenação distribuída  
-B) não há diferença conceitual cobrável entre os termos  
-C) Cloud é apenas o nome do servidor Tomcat embutido  
-D) Boot é o único nome correto para Eureka e Zuul  
-E) a diferença só existe em SOAP  
+A) `@Lazy(true)` no arquivo `application.properties`
 
-**22.** Relativamente ao Spring Cloud Config, a leitura mais alinhada ao edital é:
+B) `spring.main.lazy-initialization=true` no arquivo `application.properties`
 
-A) trata-se de sinônimo de `@SpringBootApplication`  
-B) substitui o Eureka como registry de heartbeats  
-C) é o nome antigo do filtro pre do Zuul  
-D) refere-se a padrão/peça de configuração distribuída/centralizada no ecossistema Cloud, distinto do mero yml local do Boot  
-E) documenta contratos OpenAPI interativos  
+C) `set-lazy-initialization=true` no arquivo `spring-boot.xml`
 
-**23.** Em questão que contraste papéis, a FCC tipicamente considera **correto** que:
+D) `lazy-initialization=true` no arquivo `spring-application-builder.xml`
 
-A) Spring Boot, sozinho, é o ponto único de entrada pública e o registry ao mesmo tempo  
-B) Zuul e Eureka são features internas exclusivas do MapStruct  
-C) Spring Cloud fornece o ferramental de padrões (gateway, discovery, config), usualmente sobre aplicações Boot  
-D) usar Boot torna impossível registrar-se no Eureka  
-E) Cloud e Boot nunca coexistem no mesmo processo  
+E) `@SpringMainLazyInitialization` na classe `SpringApplicationBuilder`
 
-**24.** Qual enunciado descreve **incorretamente** o Spring Boot?
 
-A) Favorece auto-configuration e starters  
-B) Permite empacotar aplicação com servidor embutido  
-C) É a forma típica de subir microsserviços na stack Spring do edital  
-D) É, por definição, o componente de Service Discovery denominado Eureka  
-E) Não se confunde com Swagger nem com MapStruct  
+**18.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60)
 
-**25.** A síntese mais alinhada ao edital, sobre Spring Boot × Spring Cloud, é:
+Uma equipe de desenvolvimento está utilizando Spring Boot para criar uma API RESTful. Durante os testes, observaram que a aplicação demora a inicializar, principalmente devido à configuração do banco de dados. Para melhorar o tempo de inicialização, decidiram desabilitar a criação automática do esquema de banco de dados ao iniciar a aplicação. A configuração, no `application.properties`, que desabilita a criação automática do esquema de banco de dados pelo Spring Boot é a
 
-A) Boot constrói/sobe o serviço; Cloud acrescenta padrões distribuídos (discovery, gateway, config); Eureka e Zuul são peças Cloud, não sinônimos de Boot  
-B) Boot = Cloud = Eureka = Zuul (quatro nomes, um papel)  
-C) Cloud elimina Boot; Boot é só documentação de API  
-D) Boot é gateway; Cloud é apenas o heartbeat  
-E) A distinção Boot/Cloud foi abolida em todas as bancas  
+A) `spring.jpa.hibernate.ddl-auto=none`
+
+B) `spring.datasource.database-auto=false`
+
+C) `spring.jpa.db-sql=disable`
+
+D) `spring.jpa.properties.hibernate.db-auto=disable`
+
+E) `spring.jpa.create-database-init=false`
+
+
+**19.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 32 de 60)
+
+Na classe principal de uma aplicação criada com Spring Boot, para fazer com que a aplicação atue como um cliente Eureka utiliza-se a anotação
+
+A) `@EurekaClient`
+
+B) `@EnableEurekaClient`
+
+C) `@EnableDiscoveryEurekaClient`
+
+D) `@EurekaDiscoveryClient`
+
+E) `@IsEurekaClient`
+
+
+**20.** (FCC | TRT15 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60)
+
+O Spring Eureka é uma implementação do padrão de registro de serviços que permite que os microsserviços se registrem automaticamente e se descubram uns aos outros. A porta padrão em que o servidor Eureka irá executar na aplicação Spring Boot e o arquivo em que essa porta é configurada são, respectivamente,
+
+A) `80` e `eureka-server.xml`
+
+B) `15000` e `application-server.yml`
+
+C) `8080` e `pom.xml`
+
+D) `8005` e `eureka-registry.xml`
+
+E) `8761` e `application.properties`
+
+
+**21.** (FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60)
+
+Um Analista de TI está desenvolvendo uma API com Spring Boot e deseja integrar Swagger para facilitar a documentação e testes dessa API. Para integrar no Swagger com um projeto Spring Boot a abordagem mais adequada é
+
+A) adicionar as dependências do Swagger manualmente no classpath do projeto.
+
+B) adicionar as dependências do Swagger no arquivo `pom.xml` ou `build.gradle` do projeto Spring Boot.
+
+C) criar um arquivo separado para todas as configurações do Swagger sem importar as dependências no projeto.
+
+D) utilizar um plugin externo para o IDE que automaticamente gera a documentação do Swagger sem configuração adicional.
+
+E) configurar o servidor de aplicação para disponibilizar a documentação do Swagger sem modificar o código do projeto.
+
+
+**22.** (FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22)
+
+Os microsserviços da Plataforma Digital do Poder Judiciário (PDPJ) são desenvolvidos com tecnologias de código aberto, são implementados com o uso do Spring framework, e Java é a principal linguagem de programação. De acordo com a documentação da PDPJ, faz parte do ecossistema do Spring Framework o
+
+A) Swagger, que organiza os scripts SQL que são executados no banco de dados, funcionando como um controle de versão.
+
+B) Flyway, serviço de documentação que descreve APIs RESTful expressas usando JSON.
+
+C) Zuul, que fornece os recursos de cliente para o serviço de descoberta Eureka.
+
+D) Netflix Eureka, que tem como principal função ser um ponto único de entrada, distribuindo as requisições entre as diversas instâncias de serviços.
+
+E) Data Envers, que é um módulo Hibernate que adiciona funcionalidades de auditoria às entities JPA.
+
+
+**23.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60)
+
+Na abordagem do Spring para construir serviços web RESTful, as solicitações HTTP são tratadas por um controlador, que é uma classe identificada com a anotação
+
+A) `@RestfulController`
+
+B) `@RestfulMapping`
+
+C) `@RestApplicationController`
+
+D) `@RestController`
+
+E) `@RequestController`
+
+
+**24.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 30 de 60)
+
+Considere que, no ambiente de mensageria da Plataforma Digital do Poder Judiciário PDPJ-Br, os serviços se comunicam entre si por meio de troca de mensagens, fazendo uso de um Message Broker. Neste ambiente, em condições ideais, um Analista, dentre as ações necessárias, está escrevendo o código para envio de uma mensagem usando Java. Ele utiliza Spring Boot como framework de sua aplicação Java e Maven como gerenciador de dependências. Dentre as ações para viabilizar o envio da mensagem, ele adicionou no arquivo POM.XML da aplicação:```<dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-amqp</artifactId></dependency>```Já na classe responsável por enviar mensagens da sua aplicação, ele acrescentou:```@Autowiredprivate RabbitTemplate rabbitTemplate;public void sendMessage(String json) { I (this.getRoutingKey(), json);}```A lacuna I deve ser corretamente preenchida com
+
+A) `this.RabbitTemplate.convert`
+
+B) `this.rabbitTemplate.Send`
+
+C) `this.RabbitTemplate.send`
+
+D) `this.rabbitTemplate.convertAndSend`
+
+E) `this.RabbitTemplate.convert.send`
+
+
+**25.** (FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60) *[aproximação temática]*
+
+Ao usar o Gateway API com o Service Discovery no contexto da PDPJ-Br, a principal consequência para o frontend em uma aplicação baseada em microsserviços é que o
+
+A) Gateway API diminui a necessidade de autenticação, uma vez que o Service Discovery é integrado ao SSO.
+
+B) frontend deve configurar manualmente os IPs e portas dos serviços disponíveis na plataforma.
+
+C) frontend se torna o responsável pela chamada direta de cada microsserviço individualmente.
+
+D) Gateway API reduz o número de chamadas externas que o frontend precisa fazer, tornando a comunicação mais eficiente.
+
+E) frontend deve gerenciar manualmente as atualizações de endpoint de cada serviço individual registrado.
+
 
 ---
 
-### Gabarito comentado (concurso 16–25)
+### Gabarito (concurso reais 16–25)
 
-16. **A** — Boot bootstrap; Cloud padrões distribuídos.  
-17. **C** — Starters/jar/servidor embutido = Boot.  
-18. **D** — Localizar + borda = Cloud (Eureka/Zuul).  
-19. **E** — Catálogo/heartbeat = Eureka, não Boot.  
-20. **C** — Continua Boot + ganha Cloud.  
-21. **A** — FCC explora confusão bootstrap × distribuição.  
-22. **D** — Config distribuída ≠ só yml local.  
-23. **C** — Cloud sobre (tipicamente) Boot.  
-24. **D** — Discovery = Eureka; Boot ≠ Eureka.  
-25. **A** — Cartão mental completo do arquivo 07.
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **D** | FCC | TRT20 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60 |
+| 17 | **B** | FCC | TRT22 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 43 de 60 |
+| 18 | **A** | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 38 de 60 |
+| 19 | **B** | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 32 de 60 |
+| 20 | **E** | FCC | TRT15 2023 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60 |
+| 21 | **B** | FCC | TRT15 2024 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 53 de 60 |
+| 22 | **E** | FCC | TRF4 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Análise de Sistemas de Informação | Questão 22 |
+| 23 | **D** | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 31 de 60 |
+| 24 | **D** | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 30 de 60 |
+| 25 | **D** \* | FCC | TRT6 2025 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 39 de 60 |
 
----
+\* = aproximação temática (questão real correlata quando o nicho é raro em prova).
 
-## 4. Auto-checagem rápida (opcional)
-
-Antes de marcar a questão, pergunte:
-
-1. É **como a app sobe / starters / jar / auto-config**? → **Boot**.  
-2. É **padrão entre vários serviços** (achar, entrar, config central)? → **Cloud**.  
-3. É **onde está a réplica**? → **Eureka** (Cloud).  
-4. É **entrada/rota/filtro**? → **Zuul** (Cloud).  
-5. Boot e Cloud **sinônimos**? → **Nunca** na leitura de prova deste arquivo.
+**Fontes:**
+- Q16: https://www.quizinho.com.br/questao/fcc-trt20-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q53
+- Q17: https://www.quizinho.com.br/questao/fcc-trt22-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q43
+- Q18: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q38
+- Q19: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q32
+- Q20: https://www.quizinho.com.br/questao/fcc-trt15-2023-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2023-q31
+- Q21: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q53
+- Q22: https://www.quizinho.com.br/questao/fcc-trf4-2025-analista-judiciario-area-apoio-especializado-especialidade-analise-de-sistemas-de-informacao-2025-q22
+- Q23: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q31
+- Q24: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q30
+- Q25: https://www.quizinho.com.br/questao/fcc-trt6-2025-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2025-q39

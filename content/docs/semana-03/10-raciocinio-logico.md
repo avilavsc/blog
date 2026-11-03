@@ -350,112 +350,97 @@ E) Em relações arbitrárias, vale usar fatos do “mundo real” para completa
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (reais) (16–25)
 
-**16.** Considere as proposições:  
-P: “O sistema entra em manutenção.”  
-Q: “Os usuários são avisados.”  
-A proposição “Se o sistema entra em manutenção, então os usuários são avisados” é falsa **somente** quando:
+**16.** (FCC — TRT-2ª Região — 2018 — Técnico Judiciário — Área Administrativa) Se o veículo ultrapassar os 50 km/h, então seu motorista será multado. Uma afirmação equivalente à afirmação anterior é:
 
-A) P falsa e Q falsa  
-B) P falsa e Q verdadeira  
-C) P verdadeira e Q falsa  
-D) P verdadeira e Q verdadeira  
-E) P e Q têm o mesmo valor lógico  
+A) Se o motorista não foi multado, então seu veículo ultrapassou os 50 km/h.  
+B) O veículo não ultrapassou os 50 km/h e seu motorista não será multado.  
+C) O veículo não ultrapassa os 50 km/h ou seu motorista é multado.  
+D) Se o motorista foi multado, então seu veículo ultrapassou os 50 km/h.  
+E) O motorista só será multado se o veículo ultrapassar os 50 km/h.  
 
-**17.** Em um tribunal, cinco processos — F, G, H, I, J — serão despachados em ordem (1º ao 5º). Sabe-se que:  
-- H é despachado imediatamente após G;  
-- F não é o primeiro;  
-- J é o último;  
-- I é despachado antes de G.  
+**17.** (FCC — TRT-11ª Região — 2017 — Técnico Judiciário) A frase que corresponde à negação lógica da afirmação: Se o número de docinhos encomendados não foi o suficiente, então a festa não acabou bem, é
 
-Uma ordem que **respeita** todas as condições é:
+A) Se o número de docinhos encomendados foi o suficiente, então a festa acabou bem.  
+B) O número de docinhos encomendados não foi o suficiente e a festa acabou bem.  
+C) Se a festa não acabou bem, então o número de docinhos encomendados não foi o suficiente.  
+D) Se a festa acabou bem, então o número de docinhos encomendados foi o suficiente.  
+E) O número de docinhos encomendados foi o suficiente e a festa não acabou bem.  
 
-A) F, I, G, H, J  
-B) I, H, G, F, J  
-C) I, F, G, H, J  
-D) F, G, H, I, J  
-E) I, G, F, H, J  
+**18.** (FCC — TRT-24ª Região — 2016 — Analista Judiciário — TI) Uma afirmação que corresponda à negação lógica da afirmação: todos os programas foram limpos e nenhum vírus permaneceu, é:
 
-**18.** Com as condições do item 17, é correto concluir que:
+A) Se pelo menos um programa não foi limpo, então algum vírus não permaneceu.  
+B) Existe um programa que não foi limpo ou pelo menos um vírus permaneceu.  
+C) Nenhum programa foi limpo e todos os vírus permaneceram.  
+D) Alguns programas foram limpos ou algum vírus não permaneceu.  
+E) Se algum vírus permaneceu, então nenhum programa foi limpos.  
 
-A) F é necessariamente o 2º  
-B) I é necessariamente o 1º  
-C) G é necessariamente o 3º  
-D) H é necessariamente o 4º  
-E) F pode ser o 3º  
+**19.** (FCC — TRT-9ª Região — 2022 — Analista Judiciário — Contabilidade) A negação da afirmação: “não ficou doente e vai ficar em casa” é:
 
-**19.** Premissas de um parecer:  
-(I) Se há vício formal, o pedido é indeferido.  
-(II) O pedido não foi indeferido.  
-A conclusão que se segue validamente é:
+A) Ficou doente ou vai ficar em casa.  
+B) Não ficou doente ou não vai ficar em casa.  
+C) Ficou doente e não vai ficar em casa.  
+D) Não ficou doente ou vai ficar em casa.  
+E) Ficou doente ou não vai ficar em casa.  
 
-A) Há vício formal  
-B) Não há vício formal  
-C) Se o pedido é indeferido, há vício formal  
-D) Há vício formal ou o pedido é indeferido  
-E) Não há vício formal se e somente se o pedido não é indeferido  
+**20.** (FCC — TRT-6ª Região — 2018 — Área Administrativa) Considere a afirmação I como sendo FALSA e as outras três afirmações como sendo VERDADEIRAS.  
+I. Lucas é médico ou Marina não é enfermeira.  
+II. Se Arnaldo é advogado, então Lucas não é médico.  
+III. Ou Otávio é engenheiro, ou Marina é enfermeira, mas não ambos.  
+IV. Lucas é médico ou Paulo é arquiteto.  
+A partir dessas informações, é correto afirmar que
 
-**20.** Quatro analistas — K, L, M, N — serão alocados a quatro sistemas distintos W, X, Y, Z (um cada). Condições:  
-- K não fica com W;  
-- L fica com X;  
-- M não fica com Z;  
-- N fica com W ou com Z.  
+A) Paulo não é arquiteto ou Marina não é enfermeira.  
+B) Marina é enfermeira e Arnaldo não é advogado.  
+C) Se Lucas não é médico, então Otávio é engenheiro.  
+D) Otávio é engenheiro e Paulo não é arquiteto.  
+E) Arnaldo é advogado ou Paulo é arquiteto.  
 
-Uma alocação **possível** é:
+**21.** (FCC — TRT-15ª Região — 2018 — Analista Judiciário — Área Administrativa) Considere os dois argumentos a seguir:  
+I. Se Ana Maria nunca escreve petições, então ela não sabe escrever petições. Ana Maria nunca escreve petições. Portanto, Ana Maria não sabe escrever petições.  
+II. Se Ana Maria não sabe escrever petições, então ela nunca escreve petições. Ana Maria nunca escreve petições. Portanto, Ana Maria não sabe escrever petições.  
+Comparando a validade formal dos dois argumentos e a plausibilidade das primeiras premissas de cada um, é correto concluir que
 
-A) K-W, L-X, M-Y, N-Z  
-B) K-Y, L-X, M-Z, N-W  
-C) K-Z, L-X, M-Y, N-W  
-D) K-Y, L-W, M-X, N-Z  
-E) K-Z, L-X, M-W, N-Y  
+A) o argumento I é inválido e o argumento II é válido, mesmo que a primeira premissa de I seja mais plausível que a de II.  
+B) ambos os argumentos são válidos, a despeito das primeiras premissas de ambos serem ou não plausíveis.  
+C) ambos os argumentos são inválidos, a despeito das primeiras premissas de ambos serem ou não plausíveis.  
+D) o argumento I é inválido e o argumento II é válido, pois a primeira premissa de II é mais plausível que a de I.  
+E) o argumento I é válido e o argumento II é inválido, mesmo que a primeira premissa de II seja mais plausível que a de I.  
 
-**21.** Ainda nas condições do item 20, a informação adicional “N fica com Z”:
+**22.** (FCC — TRT-19ª Região — 2022 — Analista Judiciário — TI) Todas as bailarinas são magras. Logo, necessariamente,
 
-A) é insuficiente para determinar o sistema de K  
-B) determina completamente a alocação dos quatro analistas  
-C) força M a ficar com Y  
-D) é incompatível com “L fica com X”  
-E) deixa duas possibilidades para M (W ou Y) e fixa K em Y  
+A) o conjunto das bailarinas contém o conjunto das pessoas magras.  
+B) o conjunto das pessoas magras contém o conjunto das bailarinas.  
+C) todas as mulheres magras são bailarinas.  
+D) alguma bailarina não é magra.  
+E) toda mulher magra não é bailarina.  
 
-**22.** A negação lógica de “Todo relatório entregue foi revisado” é:
+**23.** (FCC — TRT-4ª Região — 2022 — Técnico Judiciário — Área Administrativa) Rafael, Jairo, Víctor e Verônica são amigos. Rafael é mais velho do que Verônica, Jairo é mais velho do que Víctor e mais novo do que Verônica. A lista ordenada, do mais jovem ao mais velho, é:
 
-A) Nenhum relatório entregue foi revisado  
-B) Todo relatório entregue não foi revisado  
-C) Algum relatório entregue não foi revisado  
-D) Algum relatório não entregue foi revisado  
-E) Nem todo relatório revisado foi entregue  
+A) Víctor, Verônica, Rafael e Jairo.  
+B) Verônica, Víctor, Jairo e Rafael.  
+C) Jairo, Víctor, Verônica e Rafael.  
+D) Víctor, Jairo, Verônica e Rafael.  
+E) Víctor, Verônica, Jairo e Rafael.  
 
-**23.** Considere o argumento:  
-“Se a autenticação falha, o acesso é bloqueado. A autenticação falhou. Logo, o acesso é bloqueado.”  
-Esse argumento é:
+**24.** (FCC — Pref. São Paulo — 2025 — Analista TIC) Se Zum não vai a lugar algum, então Zum não está selado. Se Zum vai a algum lugar, então Zum está registrado ou Zum está carimbado. Sempre que Zum está selado, Zum não está rotulado. Se Zum está registrado, então Zum está rotulado. Ontem, Zum estava selado, portanto, ontem, Zum
 
-A) inválido, por afirmar o consequente  
-B) inválido, por negar o antecedente  
-C) válido, por modus ponens  
-D) válido, por modus tollens  
-E) válido apenas se a autenticação for biometria  
+A) foi a algum lugar e estava carimbado.  
+B) foi a algum lugar e estava registrado.  
+C) não foi a lugar algum ou estava rotulado.  
+D) não foi a lugar algum e estava selado.  
+E) não foi a lugar algum ou estava registrado.  
 
-**24.** Em uma fila de atendimento com as pessoas A, B, C e D (da frente para o fundo), sabe-se que:  
-- B está imediatamente atrás de A;  
-- C não está na frente;  
-- D está à frente de C.  
+**25.** (FCC — SEFAZ-PE — 2015) Observe a afirmação a seguir, feita pelo prefeito de uma grande capital.  
+Se a inflação não cair ou o preço do óleo diesel aumentar, então o preço das passagens de ônibus será reajustado.  
+Uma maneira logicamente equivalente de fazer esta afirmação é:
 
-É correto afirmar que **não pode** ocorrer:
-
-A) D na primeira posição  
-B) C na segunda posição  
-C) B na última posição  
-D) A na última posição  
-E) A na segunda posição  
-
-**25.** Relativamente à estrutura lógica de relações arbitrárias e à dedução cobráveis no bloco de Raciocínio lógico do edital (código 14), assinale a opção correta:
-
-A) Avaliar se uma pista é suficiente consiste em verificar se, com ela, a grandeza/posição perguntada fica determinada de modo único  
-B) Uma conclusão necessária é aquela que vale em pelo menos um modelo compatível com as premissas  
-C) A inversa de um condicional é sempre uma equivalência válida do condicional original  
-D) Em problemas de relações fictícias, fatos externos ao enunciado podem substituir premissas faltantes  
-E) “Algum A é B” tem a mesma força dedutiva que “Todo A é B”  
+A) Se a inflação cair e o preço do óleo diesel não aumentar, então o preço das passagens de ônibus não será reajustado.  
+B) Se a inflação cair ou o preço do óleo diesel aumentar, então o preço das passagens de ônibus não será reajustado.  
+C) Se o preço das passagens de ônibus for reajustado, então a inflação não terá caído ou o preço do óleo diesel terá aumentado.  
+D) Se o preço das passagens de ônibus não for reajustado, então a inflação terá caído ou o preço do óleo diesel terá aumentado.  
+E) Se o preço das passagens de ônibus não for reajustado, então a inflação terá caído e o preço do óleo diesel não terá aumentado.  
 
 ---
 
@@ -477,18 +462,22 @@ E) “Algum A é B” tem a mesma força dedutiva que “Todo A é B”
 14. **B** — Alternância □ ● □ ● □ ●.  
 15. **C** — Definição operacional de “suficiente” em estrutura; A/B/D/E são armadilhas.
 
-### Gabarito comentado (concurso 16–25)
+### Gabarito (concurso 16–25)
 
-16. **C** — Condicional falso só com antecedente V e consequente F.  
-17. **C** — Bloco G–H; J no 5º; I antes de G; F ≠ 1º → I F G H J. A: F primeiro. B: H não segue G. D: F primeiro e I depois de G. E: F quebra o bloco G–H.  
-18. **B** — Modelos compatíveis: I G H F J e I F G H J. Em ambos I é o 1º. F pode ser 2º ou 4º (não 3º); G/H não são fixos.  
-19. **B** — Vício → indeferido; ¬indeferido ⇒ ¬vício (tollens).  
-20. **C** — L=X; N=W; K=Z; M=Y respeita K≠W e M≠Z. A: K=W. B: M=Z. D: L≠X. E: N∉{W,Z}.  
-21. **B** — N=Z e L=X deixam {W,Y} para K e M; K≠W ⇒ K=Y e M=W — alocação única.  
-22. **C** — Negação de “todo A é B” = “algum A não é B”.  
-23. **C** — Forma P→Q; P; logo Q (modus ponens).  
-24. **D** — Modelos possíveis: A B D C, D A B C, D C A B. Em todos A precede B, logo A **nunca** é o último. A/B/C/E ocorrem em algum modelo.  
-25. **A** — Critério de suficiência em estrutura; B confunde necessário com possível; C/D/E são falsos.
+| Q | Gab | Fonte / nota |
+|---|-----|--------------|
+| 16 | **C** | FCC TRT-2/2018 — \(P\to Q \equiv \neg P\lor Q\) |
+| 17 | **B** | FCC TRT-11/2017 — negação de \(P\to Q\) = \(P\land\neg Q\) |
+| 18 | **B** | FCC TRT-24/2016 — De Morgan: ¬(todo ∧ nenhum) = algum não ∨ algum |
+| 19 | **E** | FCC TRT-9/2022 — ¬(¬D ∧ C) = D ∨ ¬C |
+| 20 | **E** | FCC TRT-6/2018 — I falsa ⇒ L=F, M=V; IV ⇒ P=V; A∨P sempre V |
+| 21 | **E** | FCC TRT-15/2018 — I = modus ponens (válido); II = afirma consequente (inválido) |
+| 22 | **B** | FCC TRT-19/2022 — “Todo A é B” ⇒ B contém A |
+| 23 | **D** | FCC TRT-4/2022 — Vic &lt; J &lt; V &lt; R |
+| 24 | **A** | FCC PMSP/2025 — S ⇒ V; S ⇒ ¬L ⇒ ¬R; V ⇒ R∨C ⇒ C |
+| 25 | **E** | FCC SEFAZ-PE/2015 — contrapositiva: ¬R → (¬P ∧ ¬Q) |
+
+Distribuição 16–25 (A–E): A=1 · B=2 · C=1 · D=1 · E=5.
 
 ---
 

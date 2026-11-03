@@ -386,108 +386,160 @@ E) Correto se o gateway for Zuul
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (reais) (16–25)
 
-**16.** Em aplicações alinhadas à stack referida no contexto PDPJ-Br, o Docker caracteriza-se, em regra, por:
+> Questões reais de provas (preferência FCC/TRT Analista TI). Gabarito só ao final.
 
-A) funcionar como catálogo exclusivo de registro e heartbeat de réplicas Spring  
-B) permitir o empacotamento e a execução de aplicações em containers a partir de imagens  
-C) expor, por si só, a documentação interativa OpenAPI da API  
-D) gerar, na compilação, mapeamentos tipados Entity ↔ DTO  
-E) constituir o mecanismo SSO/OAuth2 da plataforma  
+**16.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+Durante o deploy de uma aplicação com Docker, os logs mostram que o contêiner não inicia devido à falta de permissões no sistema de arquivos. Nesse caso, a solução mais apropriada é
 
-**17.** Relativamente à relação entre imagem e container, assinale a opção correta:
+A) reiniciar o Docker Daemon no servidor.  
+B) configurar permissões adequadas no host para o volume montado.  
+C) reconstruir a imagem Docker com um novo usuário root.  
+D) alterar o diretório de logs para uma pasta temporária.  
+E) usar o comando `docker exec` para corrigir permissões dentro do contêiner.
 
-A) A existência de uma imagem torna impossível criar mais de um container  
-B) A imagem é o artefato modelo; o container é a instância em execução (ou criada) a partir dela  
-C) Container e imagem são nomes comerciais do Eureka  
-D) Docker obriga um único container global compartilhado por todos os microsserviços do país  
-E) `docker pull` executa obrigatoriamente a aplicação em produção sem imagem  
+**17.** (FCC – TRT-19/2022 – Analista Judiciário – TI)  
+A fim de utilizar o Docker em sua organização, um Analista necessitou conhecer os principais componentes dessa plataforma, tais como:  
+I. Software que roda na máquina onde o Docker está instalado. Recebe comandos do cliente a partir de Command Line Interfaces ou API's REST.  
+II. Mecanismo usado para criar imagens e containers.  
+III. Coleção de imagens hospedadas e rotuladas que juntas permitem a criação do sistema de arquivos de um container. Pode ser público ou privado.  
+IV. Repositório usado para hospedar e baixar diversas imagens. Pode ser visto como uma plataforma de Software as a Service (SaaS) de compartilhamento e gerenciamento de imagens.  
+Os itens de I a IV correspondem, correta e respectivamente, a Docker
 
-**18.** Comparando containers Docker com máquinas virtuais, a vantagem tipicamente cobrada dos containers é:
+A) Conteiner − Compose − Swarm − Image.  
+B) Daemon − Image − Container − Registry.  
+C) Engine − Swarm − Hub − Registry.  
+D) Daemon − Engine − Registry − Hub.  
+E) Conteiner − Engine − Compose − Hub.
 
-A) eliminar a necessidade de qualquer isolamento  
-B) menor sobrecarga relativa ao empacotar a aplicação compartilhando o kernel do host  
-C) substituir o Service Discovery  
-D) documentar try-it automaticamente no lugar do Swagger  
-E) registrar a aplicação no Zuul como filtro error  
+**18.** (FCC – TJ-CE/2026 – Analista Judiciário – Infraestrutura de TI)  
+Uma equipe de infraestrutura precisava construir uma imagem Docker baseada na imagem oficial Ubuntu 24,04. O arquivo app.sh deveria ser copiado para /opt/app/app.sh e configurado como o comando executado por padrão quando o contêiner fosse iniciado, podendo ser substituído por outro comando informado no momento da execução do contêiner. Atende corretamente a esses requisitos:
 
-**19.** Assinale a alternativa que apresenta associação **incorreta**:
+A)
+```
+FROM ubuntu:24.04
+COPY app.sh /opt/app/app.sh
+CMD ["/opt/app/app.sh"]
+```
+B)
+```
+FROM ubuntu:24.04
+COPY app.sh /opt/app/app.sh
+ENTRYPOINT ["/opt/app"]
+```
+C)
+```
+FROM ubuntu:24.04
+COPY app.sh /opt/app/app.sh
+RUN ["/opt/app/app.sh"]
+```
+D)
+```
+FROM ubuntu:24.04
+ADD app.sh /opt/app/app.sh
+RUN ["/opt/app/app.sh"]
+```
+E)
+```
+FROM ubuntu:24.04
+RUN cp app.sh /opt/app/app.sh
+ENTRYPOINT ["/opt/app/app.sh"]
+```
 
-A) Docker — empacotamento/execução em containers  
-B) Kubernetes — orquestração de containers em cluster  
-C) Rancher — gestão/operação de clusters (visão)  
-D) Docker — ponto único de entrada e roteamento de borda (papel de API Gateway)  
-E) Dockerfile — instruções para construir imagem  
+**19.** (FCC – TRT-22/2022 – Técnico Judiciário – TI)  
+O Docker tornou muito mais fácil para os desenvolvedores entender e usar a tecnologia de contêineres. Para isso, oferece diversos recursos ou ferramentas, dentre as quais encontram-se:  
+I. Ferramenta de clustering e scheduling para contêineres do Docker, que permite que os administradores e desenvolvedores de TI possam estabelecer e gerenciar um cluster de nós do Docker como um único sistema virtual.  
+II. Reúne instruções necessárias para construir uma imagem de contêiner.  
+III. Aplicativo para plataforma Mac ou Windows que permite criar e compartilhar microsserviços e containerized applications. Inclui diversas ferramentas como o cliente Docker, o Docker Compose, o Docker Content Trust, o Kubernetes e o Credential Helper.  
+Os itens I, II e III correspondem, correta e respectivamente, a
 
-**20.** Em enunciado que contraste ferramentas do kit Git/Docker/Kubernetes/Rancher/CI-CD, a FCC tipicamente considera **correto** que:
+A) Docherd – Docker Compose – Docker Hub.  
+B) Docker Engine – Docker Compose – Docker Desktop.  
+C) Docker Build – Docherd – Docker Swam.  
+D) Docker Engine – Dockerfile – Docker Hub.  
+E) Docker Swarm – Dockerfile – Docker Desktop.
 
-A) Rancher aplica V1/V2 de DDL e Docker audita Entities  
-B) Docker ocupa-se de imagens/containers, ao passo que Kubernetes orquestra a execução em escala no cluster  
-C) Docker e Kubernetes são intercambiáveis em qualquer item  
-D) Docker aplica rate limit na borda HTTP  
-E) Kubernetes realiza apenas `docker logs` no notebook do desenvolvedor  
+**20.** (VUNESP – TJ-RS/2023 – Analista de TI – Análise de Sistemas)  
+Deseja-se executar um container Docker no qual um diretório específico dentro do container seja mapeado em um diretório específico da máquina host. Esse diretório do host deve ser especificado pelo usuário do Docker por meio de seu caminho absoluto no comando de execução do container. A solução para esse problema consiste em utilizar
 
-**21.** A expressão “artefato imutável (visão de prova) construído a partir de um Dockerfile e armazenável em registry” descreve com mais precisão:
+A) uma imagem.  
+B) um volume.  
+C) um bind mount.  
+D) um tmpfs mount.  
+E) uma rede virtual.
 
-A) Eureka Server  
-B) Zuul filter post  
-C) Imagem Docker  
-D) MapStruct  
-E) Swagger UI exclusivamente  
+**21.** (FGV – MPE-ES/2026 – Analista de Infraestrutura)  
+Considerando o uso da tecnologia Docker no contexto da virtualização por contêineres, assinale a afirmativa correta.
 
-**22.** Em arquitetura de microsserviços com um container por serviço, o uso de Docker **não** implica, por si só:
+A) Bind mounts são gerenciados pelo Docker de forma independente da estrutura de diretórios do sistema hospedeiro.  
+B) Os contêineres Docker permitem executar aplicações em contêineres que compartilham o kernel do sistema operacional do host, tornando sua execução mais leve que máquinas virtuais.  
+C) O uso de mecanismos de armazenamento de dados compartilhados elimina o isolamento entre contêineres, fazendo com que passem a funcionar como uma única unidade.  
+D) Os contêineres Docker não permitem o compartilhamento de dados entre si, em razão do isolamento proporcionado pelo sistema operacional.  
+E) Os dados armazenados em contêineres Docker são automaticamente mantidos, independentemente de qualquer configuração adicional, mesmo após o encerramento do contêiner.
 
-A) possibilidade de empacotar dependências com a aplicação  
-B) substituição do API Gateway e do Service Discovery  
-C) execução isolada relativa no host  
-D) publicação da imagem em registry para promoção entre ambientes  
-E) alinhamento com pipelines que fazem build e deploy da mesma imagem  
+**22.** (FGV – TJ-RJ/2026 – Analista de Infraestrutura de TIC)  
+No contexto dos conceitos de Docker e Kubernetes, é correto afirmar que:
 
-**23.** Considere as afirmações:
+A) o Kubernetes é utilizado exclusivamente na etapa de desenvolvimento para a construção das imagens, cabendo ao Docker a responsabilidade pelo balanceamento de carga em produção;  
+B) eles são tecnologias mutuamente excludentes, uma vez que a adoção do orquestrador Kubernetes elimina, por definição, a necessidade de qualquer mecanismo de empacotamento de contêineres;  
+C) o Docker atua como um hipervisor de tipo 1 para virtualizar o hardware físico, enquanto o Kubernetes opera como o sistema operacional convidado responsável pela execução das aplicações;  
+D) o Docker provê os mecanismos para criação e execução de contêineres individuais, enquanto o Kubernetes gerencia a orquestração, o escalonamento e a resiliência desses contêineres em cluster;  
+E) o Kubernetes substitui integralmente a necessidade de um container runtime subjacente, executando os processos da aplicação diretamente sobre o processador do servidor sem camadas intermediárias.
 
-I. Docker documenta schemas OpenAPI no navegador (try-it).  
-II. Docker empacota aplicações em imagens executáveis como containers.  
-III. Kubernetes não elimina o conceito de imagem/container; orquestra esses artefatos em cluster.
+**23.** (FGV – TJ-SC/2026 – Analista de Sistemas)  
+No contexto de desenvolvimento de software em nuvem e uso de containers, considere os itens a seguir.  
+I. Recurso que pode ser compartilhado pelos containers com o sistema operacional do hospedeiro, mas não pelas máquinas virtuais.  
+II. Orquestrador de containers.  
+III. Novo modelo de desenvolvimento em que as aplicações são feitas para a nuvem, e não adaptadas a ela.  
+Assinale a opção que apresenta, respectivamente, os recursos ou conceitos listados.
 
-Assinale:
+A) Kernel, Docker, IaaS.  
+B) Cluster, Node, Microserviços.  
+C) Kernel, Kubernetes, Cloud Native.  
+D) Hardware, Hypervisor, Cluster.  
+E) Sistema de arquivos base, Kubernetes, DevOps.
 
-A) Apenas I  
-B) Apenas II  
-C) II e III  
-D) I e II  
-E) I, II e III  
+**24.** (FCC – TRT-17/2022 – Técnico Judiciário – TI)  
+Considere as seguintes definições:  
+I. Gerencia os containers em execução e, por isso, ele também é chamado de Orquestrador de Containers. Através dele se pode definir o estado de um sistema completo, por exemplo, baseado em Microservices, seguindo boas práticas de infraestrutura como código, permitindo balanceamento de carga, alta disponibilidade, atualizações em lote e rollbacks.  
+II. Refere-se a um grupo de servidores distribuídos geograficamente que trabalham em conjunto para oferecer uma rápida entrega de conteúdo de internet. Permite uma transferência rápida dos ativos necessários para carregar o conteúdo da internet, incluindo páginas HTML, arquivos em JavaScript, folhas de estilo, imagens e vídeos.  
+III. Projeto opensource escrito em Go, que torna a criação e o gerenciamento de containers Linux mais fácil. O container é construído usando namepspaces, cgroups, chroot entre outras funcionalidades do kernel para criar uma área isolada para a aplicação. É executado como um processo isolado no sistema operacional hospedeiro, compartilhando o kernel com outros recipientes.  
+As definições I, II e III correspondem, correta e respectivamente, a
 
-**24.** Diferenciar Docker de Kubernetes é relevante em provas porque:
+A) Kubernetes, Docker e Content Delivery Network (CDN).  
+B) Content Delivery Network (CDN), Kubernetes e Docker.  
+C) Content Delivery Network (CDN), Docker e Kubernetes.  
+D) Docker, Content Delivery Network (CDN) e Kubernetes.  
+E) Kubernetes, Content Delivery Network (CDN) e Docker.
 
-A) não há qualquer diferença conceitual cobrável  
-B) o Docker enfatiza empacotamento/runtime de containers; o Kubernetes, orquestração em cluster  
-C) Docker só existe fora do ecossistema de microsserviços  
-D) orquestração de cluster é exclusividade do Eureka  
-E) Docker é apenas o nome antigo do MapStruct  
+**25.** (FCC – TRT-19/2022 – Analista Judiciário – TI)  
+Nos projetos da Plataforma Digital do Poder Judiciário PDPJ-Br,
 
-**25.** A síntese mais alinhada ao edital, sobre Docker, é:
-
-A) Docker = discovery; Kubernetes = gateway; Rancher = docs  
-B) Docker = imagens/containers para empacotar e executar; complementa Git/CI-CD e distingue-se de Kubernetes (orquestração) e Rancher (gestão de cluster)  
-C) Docker obriga expor Entity no JSON e elimina DTO  
-D) Docker substitui Zuul, Eureka e OpenAPI  
-E) Docker é o banco H2 do Spring Boot  
+A) os ambientes de deployment estão instalados em clusters Kubernetes, gerenciados por meio da ferramenta open source de orquestração de containers Rancher.  
+B) a aplicação deve possuir os arquivos `yanl`, para que o deploy ocorra de forma automática por meio de pipelines de CI/CD executados pelo GitLab do STF.  
+C) a aplicação deve possuir um arquivo `Rancherfile`, especificando o modo pelo qual ela deve ser empacotada.  
+D) deve haver o arquivo `.gitlab-ci.xml` definindo a pipeline de deploy automático.  
+E) deve haver, na pasta `kubernets`, o arquivo de configuração do ingress da aplicação, que é obrigatório.
 
 ---
 
-### Gabarito comentado (concurso 16–25)
+### Gabarito (concurso 16–25)
 
-16. **B** — Imagens → containers.  
-17. **B** — Artefato × instância.  
-18. **B** — Leveza / kernel compartilhado.  
-19. **D** — Gateway ≠ Docker.  
-20. **B** — Empacotar × orquestrar.  
-21. **C** — Imagem (Dockerfile + registry).  
-22. **B** — Não substitui Gateway/Discovery.  
-23. **C** — I falsa (Swagger); II e III verdadeiras.  
-24. **B** — Empacote/runtime × orquestração.  
-25. **B** — Cartão mental completo do arquivo 02.
+| Questão | Gabarito | Fonte / nota |
+|---------|----------|--------------|
+| 16 | **B** | FCC TRT-1/2025 — permissões do volume no host |
+| 17 | **D** | FCC TRT-19/2022 — Daemon / Engine / Registry / Hub |
+| 18 | **A** | FCC TJ-CE/2026 — CMD (substituível no `docker run`) |
+| 19 | **E** | FCC TRT-22/2022 — Swarm / Dockerfile / Desktop |
+| 20 | **C** | VUNESP TJ-RS/2023 — bind mount (caminho absoluto do host) |
+| 21 | **B** | FGV MPE-ES/2026 — containers compartilham kernel |
+| 22 | **D** | FGV TJ-RJ/2026 — Docker empacota; K8s orquestra |
+| 23 | **C** | FGV TJ-SC/2026 — Kernel / Kubernetes / Cloud Native |
+| 24 | **E** | FCC TRT-17/2022 — K8s / CDN / Docker |
+| 25 | **A** | FCC TRT-19/2022 — K8s + Rancher na PDPJ (contexto Docker/deploy) |
+
+**Notas rápidas:** 16 B (perms no host). 17 D (Daemon–Engine–Registry–Hub). 18 A (CMD). 19 E (Swarm/Dockerfile/Desktop). 20 C (bind mount). 21 B (kernel). 22 D (empacotar × orquestrar). 23 C (Kernel/K8s/Cloud Native). 24 E (K8s/CDN/Docker). 25 A (PDPJ: K8s+Rancher).
 
 ---
 

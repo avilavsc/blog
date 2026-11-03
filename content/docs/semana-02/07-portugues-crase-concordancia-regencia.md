@@ -371,125 +371,191 @@ E) Fui eu quem organizamos o caderno de erros.
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões reais de concurso (16–25)
 
-**16.** O sinal indicativo de crase foi empregado de modo adequado apenas em:
+> Bloco substituído por questões **reais** de concurso (FCC preferencialmente; TRT/TRF/TJ quando necessário). O treino 1–15 e o Material permanecem inalterados.
 
-A) O analista dedicou-se à estudar JPA e Flyway na semana 2.  
-B) As dúvidas foram levadas à ele durante o plantão.  
-C) A autenticação SSO foi integrada à plataforma de identidade.  
-D) Ficaram cara à cara diante do quadro de avisos.  
-E) Não se submeteu à nenhuma das exigências acessórias.
+**16.** (FCC | TRT-11 2024 | Técnico Judiciário, Área Administrativa | Questão 11 de 60)
 
-**17.** Assinale a frase em que a norma-padrão de concordância verbal foi plenamente respeitada.
+Considere as frases a seguir.I. Apresse-se! Sua reunião vai começar às 8 horas.II. Uso lapiseira, mas sempre preferi escrever à lápis.III. Não diga nada à ninguém sobre nossos planos futuros.IV. Aos domingos, minha família se reúne para saborear um bom filé à parmegiana.V. Voltei à casa da minha infância depois de muitos anos.O sinal indicativo de crase foi usado corretamente APENAS em
 
-A) Registrou-se, na ata, os encaminhamentos da equipe de TI.  
-B) Houve, após a migração, falhas intermitentes de cache.  
-C) Fazem meses que o PDTIC aguarda revisão pontual.  
-D) Devem existir, segundo o time, uma única fonte de verdade.  
-E) Trata-se, no edital, os temas de governança e segurança.
+A) II, III e IV.
 
-**18.** A concordância nominal encontra-se inteiramente observada em:
+B) I, II e IV.
 
-A) Segue anexos a certidão e o comprovante de pagamento.  
-B) Seguem anexas a certidão e o comprovante de pagamento.  
-C) Seguem anexa a certidão e o comprovante de pagamento.  
-D) Segue em anexas a certidão e o comprovante de pagamento.  
-E) Seguem em anexo a certidão e o comprovante de pagamento.
+C) I, III e IV.
 
-**19.** Consideradas as normas de regência verbal, está correta a construção:
+D) I, IV e V.
 
-A) Os candidatos aspiram o cargo de Analista Judiciário.  
-B) O capítulo visa esclarecimentos superficiais apenas.  
-C) O servidor obedeceu as orientações do gestor imediato.  
-D) O autor preferiu reescrever o resumo a acumular lacunas.  
-E) Chegou no tribunal com meia hora de antecedência.
+E) II, IV e V.
 
-**20.** Avalie os itens.
 
-I. Em “O acesso à informação é condição de transparência”, a crase justifica-se pela regência de *acesso* (*a*) + artigo feminino.  
-II. Em “É proibido a divulgação antecipada do gabarito”, a concordância nominal está adequada.  
-III. Em “Implica em atraso qualquer mudança sem migração”, a regência de *implicar* (= acarretar) está de acordo com o padrão culto usualmente cobrado.
+**17.** (FCC | TRT-15 2018 | Analista Judiciário, Área Apoio Especializado, Especialidade Arquitetura | Questão 6 de 60)
 
-Está correto o que se afirma em:
+Sem grande aviso, o mundo digital está mudando em suas bases. O que um dia foi um meio anônimo transformou-se numa ferramenta dedicada a analisar dados pessoais. Grande parte das pessoas imaginam que, ao procurar um termo na internet, todos obteremos os mesmos resultados. No entanto, hoje isso já não é verdade. Agora, obtemos o resultado que um filtro personalizado sugere ser melhor para cada usuário específico. Durante algum tempo, parecia que a internet iria redemocratizar a sociedade. “Jornalistas cidadãos” iriam reconstruir os meios de comunicação. Os governos locais se tornariam mais transparentes. Contudo, esses tempos de conectividade cívica com os quais eu tanto sonhava ainda não chegaram. A democracia exige que os cidadãos enxerguem as coisas pelo ponto de vista dos outros; em vez disso, estamos cada vez mais fechados em nossas próprias bolhas. A democracia exige que nos baseemos em fatos compartilhados; no entanto, estão nos oferecendo universos distintos e paralelos. Naturalmente, há boas razões para que os filtros personalizados sejam tão fascinantes. Somos sobrecarregados por uma torrente de informações. Eric Schmidt costuma ressaltar que, se gravássemos toda a comunicação humana desde o início dos tempos até 2003, precisaríamos de 5 bilhões de gigabytes para armazená-la. Agora, criamos essa mesma quantidade de dados a cada dois dias. Tudo isso levará ao colapso da atenção. Somos cada vez mais incapazes de processar tanta informação. Nossa concentração se desvia da mensagem de texto para as principais notícias e daí para o e-mail. A tarefa de examinar essa torrente cada vez mais ampla em busca das partes realmente importantes, ou apenas relevantes, já demanda dedicação integral. Assim, quando os filtros personalizados oferecem uma ajuda, tendemos a aceitá-la. Deixados por conta própria, os filtros de personalização servem como uma espécie de autopropaganda invisível, doutrinando-nos com nossas próprias ideias, amplificando nosso desejo por coisas conhecidas e nos deixando alheios aos perigos ocultos no território do desconhecido. Na bolha dos filtros, há menos espaço para os encontros fortuitos que proporcionam novas percepções e aprendizados. A criatividade muitas vezes é atiçada pela colisão de ideias surgidas em disciplinas e culturas diferentes. Por definição, um mundo construído a partir do que é familiar é um mundo no qual não temos nada a aprender. Se a personalização for excessiva, poderá nos impedir de entrar em contato com experiências e ideias capazes de mudar o modo como pensamos. Das megacidades à nanotecnologia, estamos criando uma sociedade cuja complexidade ultrapassa os limites da compreensão individual. Os problemas que enfrentaremos nos próximos vinte anos – escassez de energia, terrorismo, mudança climática – têm uma abrangência enorme. Os primeiros entusiastas da internet esperavam que a rede fosse uma nova plataforma para enfrentarmos esses problemas. Acredito que ainda possa ser. Mas, antes, precisamos entender as forças que estão levando a internet em sua direção atual, personalizada. Precisamos entender as forças econômicas e sociais que movem a personalização, algumas inevitáveis, outras não. E precisamos entender o que tudo isso representa para a política, a cultura e o futuro. E como a bolha dos filtros distorce a percepção do que é importante, verdadeiro e real, é fundamental torná-la visível. Considerado o contexto, está correto o que consta de:
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) I e III, apenas  
-E) I, II e III
+A) Sem que nenhuma outra modificação seja feita, o segmento Se a personalização for excessiva, poderá nos impedir de... continuará correto substituindo-se o termo “for” por “fosse”.
 
-**21.** Assinale a opção em que a substituição proposta mantém a correção gramatical e a regência adequada.
+B) Exprime noção de finalidade o segmento sublinhado em Nossa concentração se desvia da mensagem de texto para as principais notícias.
 
-A) “Assistiu à sessão” → “Assistiu a sessão”  
-B) “Esqueceu-se do prazo” → “Esqueceu o prazo”  
-C) “Simpatiza com a tese” → “Simpatiza à tese”  
-D) “Pagou a dívida ao credor” → “Pagou a dívida o credor”  
-E) “Informou o fato ao chefe” → “Informou o chefe ao fato”
+C) Os verbos dos segmentos que nos baseemos em fatos compartilhados // todos obteremos os mesmos resultados estão flexionados nos mesmos tempo e modo.
 
-**22.** Em relação à concordância, a frase correta é:
+D) O sinal indicativo de crase deve ser usado caso se substitua o segmento sublinhado pelo que se encontra entre parênteses em O que um dia foi um meio anônimo transformou-se numa ferramenta dedicada a analisar dados pessoais (análise de dados pessoais).
 
-A) Um ou outro argumento foram suficientes para o fechamento.  
-B) Nem um nem outro tópico foram descartado sem revisão.  
-C) Um e outro parágrafo parece inconsistente com o edital.  
-D) Um e outro parágrafo parecem inconsistentes com o edital.  
-E) Nem um nem outro tópico parece inconsistentes com o edital.
+E) Na frase há boas razões para que os filtros personalizados sejam tão fascinantes, o termo que pode ser substituído por “as quais”.
 
-**23.** O emprego da crase está correto em todas as ocorrências apenas em:
 
-A) Às vezes o atraso se deve à fila de filas do Keycloak.  
-B) Às vezes o atraso se deve a fila de filas do Keycloak.  
-C) As vezes o atraso se deve à fila de filas do Keycloak.  
-D) As vezes o atraso se deve a fila de filas do Keycloak.  
-E) Às vezes o atraso se deve a uma fila de filas do Keycloak e à ela.
+**18.** (FCC | TRT20 2024 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 6 de 60)
 
-**24.** A frase em que há desvio de regência nominal é:
+…a crítica do reducionismo de Hollywood é a maneira que encontramos para reprimir uma dimensão crucial da nossa própria experiência: o mundo nos interessa só porque constitui o cenário da aventura das nossas vidas. Hollywood, desprezada, cativa-nos e fascina-nos porque glorifica um individualismo que é o nosso. Portanto, mesmo envergonhados, entremos no cinema. A frase toda experiência toma a forma de uma história de aventuras seguirá correta e coerente caso se substitua o elemento sublinhado por
 
-A) O requisito é pertinente às regras de egresso.  
-B) A solução é análoga à adotada no serviço de discovery.  
-C) O desenho permanece compatível com o modelo de microsserviços.  
-D) O analista ficou responsável a entrega contínua do módulo.  
-E) O tema é relativo à autenticação OAuth2 prevista no edital.
+A) espelha-se aonde.
 
-**25.** Para fins de revisão rápida no padrão FCC, assinale a alternativa **inteiramente correta**.
+B) avizinha-se com.
 
-A) Houveram candidatos que chegaram em Porto Alegre às 13 horas e aspiravam o cargo.  
-B) Houve candidatos que chegaram a Porto Alegre às 13 horas e aspiravam ao cargo.  
-C) Houve candidatos que chegaram à Porto Alegre as 13 horas e aspiravam ao cargo.  
-D) Houveram candidatos que chegaram a Porto Alegre às 13 horas e aspiravam ao cargo.  
-E) Houve candidatos que chegaram em Porto Alegre às 13 horas e aspiravam ao cargo.
+C) aproxima-se por.
+
+D) assemelha-se a.
+
+E) compara-se mediante.
+
+
+**19.** (FCC | TRT-11 2017 | Conhecimentos Comuns (Técnicos TRT11) | Questão 4)
+
+Muito antes das discussões atuais sobre as mudanças climáticas, os cataclismos naturais despertam interesse no homem. Os desastres são um capítulo trágico da história da humanidade desde tempos longínquos. Supostas inundações catastróficas aparecem em relatos de várias culturas ao longo dos tempos, desde os antigos mesopotâmicos e gregos até os maias e os vikings. Fora da rota dos grandes furacões, sem vulcões ativos e desprovido de zonas habitadas sujeitas a terremotos, o Brasil não figura entre os países mais suscetíveis a desastres naturais. Contudo, a aparência de lugar protegido dos humores do clima e dos solavancos da geologia deve ser relativizada. Aqui, cerca de 85% dos desastres são causados por três tipos de ocorrências: inundações bruscas, deslizamentos de terra e secas prolongadas. Esses fenômenos são relativamente recorrentes em zonas tropicais, e seus efeitos podem ser atenuados por políticas públicas de redução de danos. Dois estudos feitos por pesquisadores brasileiros indicam que o risco de ocorrência desses três tipos de desastre deverá aumentar até o final do século. Eles também sinalizam que novos pontos do território nacional deverão se transformar em áreas de risco significativo para esses mesmos problemas. “Os impactos tendem a ser maiores no futuro, com as mudanças climáticas, o crescimento das cidades e a ocupação de mais áreas de risco”, comenta o pesquisador José A. Marengo. Além da suscetibilidade natural a secas, enchentes, deslizamentos e outros desastres, a ação do homem tem um peso considerável em transformar o que poderia ser um problema de menor monta em uma catástrofe. Os pesquisadores estimam que um terço do impacto dos deslizamentos de terra e metade dos estragos de inundações poderiam ser evitados com alterações de práticas humanas ligadas à ocupação do solo e a melhorias nas condições socioeconômicas da população em áreas de risco. Moradias precárias em lugares inadequados, perto de encostas ou em pontos de alagamento, cidades superpopulosas e impermeabilizadas, que não escoam a água da chuva; esses fatores da cultura humana podem influenciar o desfecho de uma situação de risco. “Até hábitos cotidianos, como não jogar lixo na rua, e o nível de solidariedade de uma população podem ao menos mitigar os impactos de um desastre”, pondera a geógrafa Lucí Hidalgo Nunes. (Adaptado de PIVETTA, Marcos. Disponível em: http://revistapesquisa.fapesp.br) Atente para as frases abaixo, redigidas a partir de frases do texto modificadas. I. O Brasil não figura entre os países mais suscetíveis à catástrofes naturais. II. Em alguns locais, existe uma suscetibilidade natural à ocorrência de desastres, como secas, enchentes e deslizamentos. III. Certas atitudes relacionadas à cultura humana podem impactar o desfecho final de uma situação de risco. O sinal de crase está empregado corretamente APENAS em
+
+A) II e III.
+
+B) I e III.
+
+C) I e II.
+
+D) II.
+
+E) III.
+
+
+**20.** (FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 5 de 60)
+
+… talo – sentia nelas uma espécie de cumplicidade nos enterros que saíram da minha casa. Mas com o tempo fui me habituando à presença e ao perfume das flores. As tristes lembranças não resistiram aos caminhos de Teresópolis, tampouco às quaresmeiras, que têm sido tantas, neste verão de passeios compridos. Agora mesmo a empregada mudou as rosas do jarro do escritório. São cheirosas. Eu olho para trás e não morreu ninguém. As normas de concordância verbal encontram-se plenamente atendidas na frase:
+
+A) Devem-se às primeiras lembranças despertadas pelas flores a impressão que delas se guardam para sempre.
+
+B) As primeiras impressões causadas pelas flores só haveria de ser relativizadas quando do contato do autor com novas paisagens.
+
+C) A visão das flores já sem os talos proporcionavam ao autor sentimentos hostis, que muito lhe custavam superar.
+
+D) Às paisagens do Rio e aos caminhos de Teresópolis atribuíram-se, no texto, o poder de transfigurar o sentido das flores.
+
+E) Das flores do passado permaneceu no cronista uma impressão forte, a que vieram se somar as sensações vividas no Rio.
+
+
+**21.** (FCC | TRT22 2022 | Analista Judiciário, Área Administrativa | Questão 5 de 60)
+
+…ria, nada que não resulte temível ou doentio. O mundo é ainda franco e aberto aos elefantes, o mundo é para eles o que talvez tenha chegado a ser para nós, em dia longínquo, prenhe de futuro. Têm ainda uma chance os elefantes, é isso o que descubro, é isso o que invejo ao vê-los vagar, entendendo enfim meu interesse excessivo. (Adaptado de: FUKS, Julián. Lembremos do futuro. São Paulo: Companhia das Letras, 2022, p. 103-106, passim) As normas de concordância estão plenamente observadas na frase:
+
+A) Podem-se extrair várias sugestões da viagem desses elefantes, que deixa entrever lições preciosas da natureza.
+
+B) Nenhum desses acontecimentos frívolos impedem que lhes sejam atribuídos um sentido simbólico.
+
+C) A falta de razão para as viagens dos elefantes aparentemente sem rumo em nada obstam que o cronista as interprete.
+
+D) Ao se atirar na direção de novos mundos, os elefantes tem demonstrado sua fé nas surpresas do caminho.
+
+E) Não caberiam aos leitores concluir que o movimento dos elefantes apenas atendem a imperativos da natureza?
+
+
+**22.** (FCC | TRT15 2024 | Analista Judiciário, Área Administrativa, Especialidade Contabilidade | Questão 7 de 60)
+
+… comportamento humano e que tinham de garantir a vocação profunda da cidade. Uma cidade pode passar por catástrofes e anacronismos, ver estirpes diferentes sucedendo-se em suas casas, ver suas casas mudarem cada pedra, mas deve, no momento certo, sob formas diferentes, reencontrar os próprios deuses. (Adaptado de CALVINO, Ítalo. Assunto encerrado. Trad. Roberta Barni. São Paulo: Companhia das Letras, 2006, p. 332-336, passim) As normas de concordância verbal estão plenamente observadas na frase:
+
+A) Costumam adaptar-se aos critérios da evolução o organismo das criaturas de cada espécie.
+
+B) Evocava-se, entre os antigos, os nomes dos deuses a que deveriam cultuar cada cidade.
+
+C) Em nada contribui para a visão de uma cidade os fatores que já condicionaram nosso olhar.
+
+D) Não importa para quem queira conhecer de fato uma cidade as cristalizações já incorporadas.
+
+E) Constituem-se ao mesmo tempo uma visão pertinente e uma visão desviante de uma cidade.
+
+
+**23.** (FCC | TRF3 2024 | Analista Judiciário, Área Judiciária | Questão 6 de 60)
+
+…rigidamente na racionalidade que caracterizou o Iluminismo. Essa busca não começou aí, existindo já bem antes do século XVIII. Consideremos, por exemplo, Platão e suas Formas Ideais: há no pensamento desse filósofo da Antiguidade, um senso de veneração com o poder da matemática, e ainda mais com o poder da mente humana, por ter concebido o que pareciam ser verdades eternas a partir da observação do comportamento da Natureza. As normas de concordância verbal estão plenamente respeitadas na frase:
+
+A) Às variações das leis dos homens não se submetem a rígida regularidade das leis naturais.
+
+B) Sempre haverá filósofos que busquem nas leis naturais o que os inspire no âmbito das leis humanas.
+
+C) Não cabem às leis dos homens buscar corrigir ou disciplinar as leis da natureza.
+
+D) Regem-se pelos princípios da natureza toda manifestação de fenômenos que independem da ação humana.
+
+E) Impõem-se aos que defendem a pena de morte que se amparem em justificativas cabíveis.
+
+
+**24.** (FCC | TRT-1 2025 | Analista Judiciário, Área Judiciária | Questão 5 de 60)
+
+…o céu que cada um contém em si mesmo e que Amyr Klink se dispôs a nos revelar em mais este fascinante relato de seu caso de amor com o mar. A saga desse brasileiro transporta a mitologia grega para nossos dias, nos induzindo a crer com sua viagem que o fardo de viver pode ser mais leve, intrépido e digno de ser carregado. (Adaptado de: NÊUMANE, José. In: KLINK, Amyr. Mar sem fim. São Paulo: Companhia das Letras, 2000, orelha) As normas de concordância verbal estão plenamente observadas na frase:
+
+A) Não move a um navegante como Amyr Klink advertências como as de Sartre.
+
+B) A muitos navegadores tentou a façanha marítima enfim conseguida por Amyr Klink.
+
+C) São dadas a poucas pessoas gozarem da solidão como uma alternativa.
+
+D) Eram no convívio das estrelas e no cruzar das neblinas que Amyr Klink fez sua travessia.
+
+E) Abrigaram-se nos porões de sua alma de navegante a graça de cruzar os mares.
+
+
+**25.** (FCC | TRT-11 2024 | Técnico Judiciário, Área Administrativa | Questão 14 de 60) *[aproximação temática]*
+
+*Concordância/gramática FCC.*
+
+Considere as frases a seguir.I. Férias é o período do ano que eu mais espero.II. Nem meu irmão nem minha irmã veio para a festa de aniversário.III. Fazem dias que eu trabalho sem qualquer pausa.IV. Mais de um jogador foi expulso da partida.V. Ex-chefes, familiares e amigos, ninguém conseguiu convencê-lo do contrário.Há erro de concordância verbal APENAS em
+
+A) I e V.
+
+B) I e II.
+
+C) II e III.
+
+D) III e IV.
+
+E) IV e V.
+
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso reais 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **C** |
-| 17 | **B** |
-| 18 | **E** |
-| 19 | **D** |
-| 20 | **A** |
-| 21 | **B** |
-| 22 | **D** |
-| 23 | **A** |
-| 24 | **D** |
-| 25 | **B** |
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **D** | FCC | TRT-11 2024 | Técnico Judiciário, Área Administrativa | Questão 11 de 60 |
+| 17 | **D** | FCC | TRT-15 2018 | Analista Judiciário, Área Apoio Especializado, Especialidade Arquitetura | Questão 6 de 60 |
+| 18 | **D** | FCC | TRT20 2024 | Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 6 de 60 |
+| 19 | **A** | FCC | TRT-11 2017 | Conhecimentos Comuns (Técnicos TRT11) | Questão 4 |
+| 20 | **E** | FCC | TRT19 2022 | Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação | Questão 5 de 60 |
+| 21 | **A** | FCC | TRT22 2022 | Analista Judiciário, Área Administrativa | Questão 5 de 60 |
+| 22 | **E** | FCC | TRT15 2024 | Analista Judiciário, Área Administrativa, Especialidade Contabilidade | Questão 7 de 60 |
+| 23 | **B** | FCC | TRF3 2024 | Analista Judiciário, Área Judiciária | Questão 6 de 60 |
+| 24 | **B** | FCC | TRT-1 2025 | Analista Judiciário, Área Judiciária | Questão 5 de 60 |
+| 25 | **C** \* | FCC | TRT-11 2024 | Técnico Judiciário, Área Administrativa | Questão 14 de 60 |
 
-**Notas rápidas:** 16 C (*integrada **à** plataforma*; demais: verbo/pessoal/repetidas/indefinido); 17 B (*Houve* impessoal); 18 E (*em anexo* invariável + *Seguem* com sujeito composto); A verbo no singular ❌; B *anexas* com núcleos de gêneros distintos ❌ (o seguro é masculino plural *anexos* ou *em anexo*); 19 D (*preferir X a Y*); 20 A (só I; II → *É proibida a divulgação* ou *É proibido divulgação*; III → *implica atraso*, sem *em*); 21 B (esquecer + se + *de* **ou** direto sem se); 22 D (*um e outro* + adjetivo no plural; verbo no plural é o mais seguro); 23 A (*Às vezes* + *devido **à** fila*); 24 D (*responsável **pela** entrega*); 25 B (*Houve*; *chegar a* + cidade sem artigo; *às 13 h*; *aspirar **a***).
+\* = aproximação temática (questão real correlata quando o nicho é raro em prova).
 
----
-
-## 4. Gabarito consolidado
-
-| Q | Resp | Q | Resp | Q | Resp | Q | Resp | Q | Resp |
-|---|------|---|------|---|------|---|------|---|------|
-| 1 | D | 2 | C | 3 | C | 4 | D | 5 | B |
-| 6 | C | 7 | B | 8 | B | 9 | D | 10 | D |
-| 11 | C | 12 | B | 13 | C | 14 | C | 15 | C |
-| 16 | C | 17 | B | 18 | E | 19 | D | 20 | A |
-| 21 | B | 22 | D | 23 | A | 24 | D | 25 | B |
-
----
+**Fontes:**
+- Q16: https://www.quizinho.com.br/questao/fcc-trt-11-2024-tecnico-judiciario-area-administrativa-2024-q11
+- Q17: https://www.quizinho.com.br/questao/fcc-trt-15-2018-analista-judiciario-area-apoio-especializado-especialidade-arquitetura-2018-q6
+- Q18: https://www.quizinho.com.br/questao/fcc-trt20-2024-tecnico-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2024-q6
+- Q19: https://www.quizinho.com.br/questao/fcc-trt-11-2017-comum-tecnicos-trt11-2017-q4
+- Q20: https://www.quizinho.com.br/questao/fcc-trt19-2022-analista-judiciario-area-apoio-especializado-especialidade-tecnologia-da-informacao-2022-q5
+- Q21: https://www.quizinho.com.br/questao/fcc-trt22-2022-analista-judiciario-area-administrativa-2022-q5
+- Q22: https://www.quizinho.com.br/questao/fcc-trt15-2024-analista-judiciario-area-administrativa-especialidade-contabilidade-2024-q7
+- Q23: https://www.quizinho.com.br/questao/fcc-trf3-2024-analista-judiciario-area-judiciaria-2024-q6
+- Q24: https://www.quizinho.com.br/questao/fcc-trt-1-2025-analista-judiciario-area-judiciaria-2025-q5
+- Q25: https://www.quizinho.com.br/questao/fcc-trt-11-2024-tecnico-judiciario-area-administrativa-2024-q14
 
 *Arquivo 07 · Português (crase · concordância · regência) · Claudionir · TRT4 Analista TI (código 14) · FCC · Semana 2 (manutenção Gerais). Sem interpretação de texto.*

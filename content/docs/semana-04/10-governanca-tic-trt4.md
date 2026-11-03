@@ -321,112 +321,117 @@ E) Extinção da SGTI
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** O Modelo de Governança de TIC do TRT4 é corretamente caracterizado como:
+> Sem questões específicas do Modelo TRT4 em prova FCC local: usam-se questões **reais** FCC/FGV sobre ENTIC-JUD, PDTIC, Res. CNJ 370/2021 e correlatas de tribunais.
 
-A) substituto integral da Declaração Universal dos Direitos Humanos  
-B) conjunto institucional de diretrizes, estruturas, processos e controles que alinham a TIC à missão e às metas do tribunal, documentado sobretudo via Portal/PDTIC/processos  
-C) ato exclusivo de sustentabilidade ambiental idêntico à Res. CNJ 400/2021  
-D) Código de Conduta e Valores Éticos  
-E) framework que extingue COBIT e ITIL  
+**16.** (FCC – TRT-18/2023 – Analista Judiciário – TI)  
+De acordo com o artigo 11 da Resolução CNJ nº 370/2021, será aplicado periodicamente o Índice de Governança, Gestão e Infraestrutura de Tecnologia da Informação e Comunicação do Poder Judiciário (iGovTIC-JUD), que tem por finalidade
 
-**17.** No vocabulário das portarias que regulamentam processos de TIC no TRT4, “Governança de TIC” associa-se a:
+A) realizar a medição da maturidade em TIC dos órgãos submetidos ao controle administrativo e financeiro do CNJ.  
+B) disseminar as boas práticas das iniciativas de TIC nos órgãos ligados ao CNJ e realizar a medição das principais entregas, avanços e realizações da área de TIC.  
+C) promover a melhoria da governança, da gestão e da colaboração tecnológica no âmbito do Poder Judiciário, visando maximizar os resultados com a medição relativa à otimização do uso dos recursos de TIC.  
+D) apoiar o estabelecimento de estratégias, indicadores e metas institucionais; realizar a medição dos riscos da área de TIC; permitir que os investimentos tecnológicos no âmbito institucional fiquem dentro das metas definidas.  
+E) permitir que sejam medidas as ações relacionadas à transformação digital de serviços, à integração de canais digitais, à interoperabilidade de sistemas e à estratégia de monitoramento.
 
-A) apenas marketing institucional sem processos  
-B) diretrizes, estruturas organizacionais, processos de trabalho e mecanismos de controle voltados ao alinhamento institucional do uso de TIC  
-C) proibição de qualquer indicador  
-D) exclusividade de interpretação literal de crase  
-E) identidade total com a Res. CSJT 360/2023  
+**17.** (FCC – TRT-19/2022 – Técnico Judiciário – TI)  
+O Art. 2º da Resolução CNJ nº 370/2021 estabelece que a Estratégia Nacional de Tecnologia da Informação e Comunicação do Poder Judiciário é orientada, em seu preâmbulo, nos componentes: objetivos estratégicos e metas.  
+Os objetivos estratégicos, são distribuídos nas perspectivas:
 
-**18.** Acerca do PDTIC 2024–2026, assinale a alternativa correta.
+A) processos internos; aprendizado em tecnologia; recursos tecnológicos.  
+B) processos organizacionais; cultura; sociedade.  
+C) eventos de aprendizado; sociedade; atendimento ao cidadão.  
+D) processos internos; aprendizado e crescimento; sociedade.  
+E) eventos organizacionais; aprendizado e crescimento; recursos humanos.
 
-A) Trata-se do Plano Diretor de TIC que orienta planejamento e operação da SGTI, com acompanhamento de ações, orçamento e níveis de serviço, podendo ser revisado  
-B) É norma de assédio moral do CNJ  
-C) Revoga a Constituição  
-D) Equivale ao Swagger  
-E) Não dialoga com estratégias do CNJ/CSJT  
+**18.** (FGV – TJ-RJ/2026 – Analista Judiciário – Gestão de TIC)  
+A Estratégia Nacional de Tecnologia da Informação e Comunicação do Poder Judiciário (ENTIC-JUD) é o principal instrumento de promoção da governança ágil e da transformação digital do Poder Judiciário. De acordo com a ENTIC-JUD, cada órgão do Poder Judiciário deverá elaborar e manter o Plano Diretor de Tecnologia da Informação e Comunicação (PDTIC). De acordo com o previsto na Resolução CNJ nº 370/2021, é correto afirmar que:
 
-**19.** Considere as afirmações abaixo.
+A) as aquisições de bens e a contratação de serviços de Tecnologia da Informação e Comunicação (TIC) deverão atender às determinações do Tribunal de Contas da União;  
+B) as despesas de Tecnologia da Informação e Comunicação (TIC) terão preferência sobre as demais quando houver determinação expressa da administração do Tribunal;  
+C) os órgãos que possuem em seu planejamento o Plano Estratégico de Tecnologia da Informação e Comunicação (PETIC) poderão continuar a utilizar esse instrumento até o término de sua vigência;  
+D) os órgãos do Poder Judiciário deverão constituir ou manter um Comitê de Governança de Tecnologia da Informação e Comunicação composto por representantes da área de Tecnologia da Informação e Comunicação (TIC);  
+E) as áreas de TIC de todos os órgãos do Poder Judiciário deverão constituir ou manter Comitê de Gestão de Tecnologia da Informação e Comunicação, coordenado pelo titular da área de Tecnologia da Informação e Comunicação (TIC).
 
-I. O modelo local apoia-se em boas práticas como COBIT e ITIL, além de normativos CNJ/CSJT.  
-II. BPMN é tipicamente usado para representar processos.  
-III. O Modelo de Governança de TIC é idêntico, para todos os efeitos, ao Código de Conduta do TRT4.
+**19.** (FGV – TJ-RJ/2026 – Analista Judiciário – Gestão de TIC)  
+A Estratégia Nacional de Tecnologia da Informação e Comunicação do Poder Judiciário (ENTIC-JUD) tem como meta promover a melhoria da governança, da gestão e da colaboração tecnológica no âmbito do Poder Judiciário. As áreas de Tecnologia da Informação e Comunicação (TIC) de todos os órgãos do Poder Judiciário deverão constituir ou manter um Comitê de Gestão de Tecnologia da Informação com a atribuição de:
 
-Está correto o que se afirma em:
+A) definir a carteira de projetos e a gestão de portfólio de serviços de TIC;  
+B) aprovar planos estratégicos, disseminando a importância da área de TIC nos tribunais;  
+C) envolver a área de negócio nas decisões estratégicas que incidem sobre os serviços de TIC;  
+D) estruturar escritório de projetos que favoreça o emprego de práticas de gestão de projetos especificadas pelo tribunal;  
+E) estabelecer Plano de Estratégico de Tecnologia da Informação e Comunicação (PETIC) para iniciativas de curta duração ou escopo simplificado.
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) II e III, apenas  
-E) I, II e III  
+**20.** (FCC – TRT-3/MG – Analista Judiciário – TI; Res. CNJ 182/2013)  
+Na Gestão de Aquisições e Contratos de TI, quanto ao plano e planejamento das contratações, a Resolução CNJ nº 182/2013 recomenda que as contratações sejam precedidas de Planejamento elaborado em harmonia com o Planejamento Estratégico
 
-**20.** Assinale a opção **incompatível** com o processo de Gerenciamento de Mudanças e Liberações.
+A) de Tecnologia da Informação e Comunicação alinhado com os requisitos de infraestrutura estabelecidos pela Administração de TI.  
+B) do Poder Judiciário, alinhado com o Planejamento Estratégico Governamental.  
+C) Institucional ou Planejamento Estratégico de Tecnologia da Informação e Comunicação, alinhados com o Planejamento Estratégico do Poder Judiciário.  
+D) Institucional e com os requisitos de infraestrutura estabelecidos pela Administração de TI, alinhados com o Planejamento Estratégico Governamental.  
+E) do Poder Judiciário e com o Planejamento Estratégico de Tecnologia da Informação, alinhados com o Planejamento Estratégico Governamental.
 
-A) Mudanças devem ser planejadas, registradas, autorizadas, implantadas e revisadas  
-B) Liberação aplica mudança no ambiente  
-C) Qualquer alteração informal sem registro basta, pois governança veda processos  
-D) Há etapas de abertura, análise/aprovação, liberação e fechamento  
-E) O processo maximiza disponibilizações bem-sucedidas  
+**21.** (FCC – TRT-9/2015 – Analista Judiciário – TI)  
+De acordo com a Resolução CNJ nº 90/2009, os tribunais devem constituir quadro de pessoal permanente de profissionais da área de TIC. Desta forma, um Analista da área de TI que atua no Tribunal Regional do Trabalho da 9ª Região, em observância a esta e às Resoluções CNJ nº 99/2009 e 182/2013 sabe que
 
-**21.** Em prova de Analista Judiciário – TI, confundir o Modelo de Governança de TIC do TRT4 com o PMBOK 8 é inadequado porque:
+A) devem existir links de transmissão entre as unidades e o Tribunal suficientes para suportar o tráfego de dados e informações e garantir a disponibilidade exigida pelos aplicativos, sendo o mínimo de 500 Kbps para download.  
+B) não poderá ser objeto de contratação o suporte técnico aos processos de planejamento e avaliação da qualidade da Solução de Tecnologia da Informação e Comunicação.  
+C) o planejamento das contratações de Solução de Tecnologia da Informação e Comunicação, não pode incluir a terceirização de nenhum tipo de atividade.  
+D) o PETIC, no âmbito judiciário, tem entre seus objetivos estratégicos promover a capilaridade dos sistemas e serviços, bem como desenvolver sistemas de TIC interoperáveis e portáveis.  
+E) deverão ser definidos processos para gestão dos ativos de infraestrutura de TIC do Tribunal, de acordo com as melhores práticas preconizadas pelo PMBOK 4ª e 5ª edições.
 
-A) ambos são rigorosamente o mesmo texto do PMI  
-B) o modelo TRT4 organiza governança/gestão local de TIC (portal, PDTIC, processos), ao passo que o PMBOK é guia genérico de gerenciamento de **projetos**  
-C) o PMBOK é o Regimento Interno  
-D) o modelo TRT4 extingue projetos  
-E) nenhum aparece no edital  
+**22.** (CEBRASPE – STM/2025 – Analista Judiciário – Análise de Sistemas)  
+Com base nas Resoluções CNJ nº 370/2021 e nº 468/2022, assinale a afirmativa **correta**.
 
-**22.** A existência de Catálogo de Serviços no portal de governança visa, prioritariamente:
+A) As contratações de soluções de TIC por órgãos do Poder Judiciário dispensam plano de contratações de STIC.  
+B) O plano de contratações de STIC deve estar alinhado ao PDTIC, ao planejamento estratégico institucional, à Estratégia Nacional do Poder Judiciário e à ENTIC-JUD.  
+C) O PDTIC substitui a ENTIC-JUD no âmbito nacional.  
+D) A Resolução CNJ 370/2021 trata exclusivamente de contratações de STIC, e não de estratégia de TIC.  
+E) O alinhamento do plano de contratações à ENTIC-JUD é facultativo.
 
-A) impedir qualquer atendimento a usuários  
-B) manter serviços catalogados/atualizados para gestão e categorização adequada de demandas  
-C) substituir a LGPD  
-D) criar a PDPJ-Br  
-E) aprovar a DUDH  
+**23.** (CEBRASPE – STM/2025 – Analista Judiciário – Suporte em TI)  
+A Resolução CNJ nº 370/2021 estabelece que a Estratégia Nacional de TIC do Poder Judiciário (ENTIC-JUD) deve ser implementada com base em princípios de governança e gestão de TIC alinhados às diretrizes estratégicas do CNJ, ao passo que a Resolução CNJ nº 468/2022 e o Guia de Contratações de STIC reforçam a necessidade de transparência e eficiência nas aquisições de TIC.
 
-**23.** A alternativa que corretamente separa eixos é:
+A) Certo  
+B) Errado  
+C) Certo apenas quanto à 370/2021  
+D) Certo apenas quanto à 468/2022  
+E) Errado, pois a 370/2021 trata só de assédio
 
-A) Modelo TIC TRT4 = governança local de TIC; Conduta = ética; CNJ 400 = sustentabilidade; PMBOK = projetos  
-B) Modelo TIC = Conduta = 400 = PMBOK  
-C) Modelo TIC = apenas Selenium  
-D) Modelo TIC = CSJT 360  
-E) Modelo TIC = interpretação de texto  
+**24.** (CEBRASPE – STM/2025 – Analista Judiciário – Análise de Sistemas)  
+A Estratégia Nacional de TIC do Poder Judiciário (ENTIC-JUD) determina que o plano de transformação digital seja elaborado pela unidade competente dos órgãos, respeitadas suas especificidades, e que seja aprovado pelo Comitê de Gestão de TIC.
 
-**24.** Um servidor afirma que “PDTIC é documento engavetado, sem revisão e sem relação com orçamento ou níveis de serviço”. Essa leitura:
+A) Certo  
+B) Errado  
+C) Certo, se houver PDTIC  
+D) Certo, se houver PETIC  
+E) Errado apenas na Justiça Eleitoral
 
-A) está correta, pois o PDTIC veda indicadores  
-B) está correta apenas fora do Judiciário  
-C) está incorreta, pois o PDTIC é instrumento vivo de planejamento/acompanhamento, inclusive orçamentário e de serviços  
-D) está correta, pois SGTI não planeja  
-E) está incorreta somente porque o nome correto seria Eureka  
+**25.** (FCC – PMSP/2025 – Analista TIC)  
+A equipe de Analistas de uma Prefeitura Municipal implementou um novo sistema de gerenciamento eletrônico de documentos para melhorar a eficiência dos processos internos e a transparência no atendimento ao cidadão. Após a implementação, foi identificado que várias unidades administrativas utilizavam padrões diferentes para nomear e arquivar os documentos, dificultando o acesso às informações e ao controle centralizado. Com base no COBIT 2019, a ação alinhada aos princípios de governança e gestão para resolver o problema identificado é
 
-**25.** Para fins de preparação na semana 4, a síntese mais adequada do Modelo de Governança de TIC do TRT4 é:
-
-A) Conduta + 351 + 360 sem processos de TIC  
-B) governança local (diretrizes/estruturas/processos/controles) + Portal + PDTIC + encaixe COBIT/ITIL/BPMN, cobrada em Específicas, sem confundir com Conduta, 400 ou PMBOK puro  
-C) apenas Portaria de crase  
-D) apenas monólito sem SGTI  
-E) extinção do catálogo de serviços  
+A) realizar treinamentos sobre a operação do sistema com todos os servidores, destacando os benefícios do novo sistema para aumentar a adesão.  
+B) atualizar os contratos com os fornecedores do sistema para incluir cláusulas de suporte técnico mais rigorosas.  
+C) estabelecer e implementar políticas e procedimentos padronizados para a classificação, nomeação e arquivamento de documentos, garantindo alinhamento com os objetivos organizacionais.  
+D) delegar a cada unidade administrativa a responsabilidade de definir seus próprios padrões de arquivamento, respeitando as especificidades locais.  
+E) contratar consultores externos para realizar auditorias periódicas do uso do sistema em cada unidade administrativa.
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito comentado (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **B** |
-| 17 | **B** |
-| 18 | **A** |
-| 19 | **C** |
-| 20 | **C** |
-| 21 | **B** |
-| 22 | **B** |
-| 23 | **A** |
-| 24 | **C** |
-| 25 | **B** |
-
-**Notas rápidas:** 16 B (modelo local); 17 B (definição); 18 A (PDTIC); 19 C (I e II; III = Conduta); 20 C (informalidade veda o processo); 21 B (local TIC × projetos); 22 B (catálogo); 23 A (separação); 24 C (PDTIC vivo); 25 B (síntese).
+| Q | Gab. | Fonte |
+|---|------|-------|
+| 16 | **A** | FCC TRT-18/2023 Analista TI — art. 11: iGovTIC-JUD = medição de maturidade |
+| 17 | **D** | FCC TRT-19/2022 Técnico TI — perspectivas: processos internos; aprendizado e crescimento; sociedade |
+| 18 | **E** | FGV TJ-RJ/2026 Analista Gestão TIC — art. 8: Comitê de Gestão coordenado pelo titular da TIC |
+| 19 | **A** | FGV TJ-RJ/2026 Analista Gestão TIC — atribuição do Comitê de Gestão: carteira/portfólio |
+| 20 | **C** | FCC TRT-3 (MG) Analista TI — Res. 182/2013: PEI ou PETIC alinhados ao PE do PJ |
+| 21 | **D** | FCC TRT-9/2015 Analista TI — PETIC: capilaridade + interoperabilidade/portabilidade |
+| 22 | **B** | CEBRASPE STM/2025 — plano de contratações STIC alinhado a PDTIC/PEI/Estratégia PJ/ENTIC |
+| 23 | **A** | CEBRASPE STM/2025 — item certo: 370 (governança/ENTIC) + 468/Guia (contratações) |
+| 24 | **B** | CEBRASPE STM/2025 — aprovação do plano de transformação digital = autoridade máxima (não Comitê de Gestão) |
+| 25 | **C** | FCC PMSP Analista TIC/2025 — políticas/procedimentos padronizados (governança/gestão; encaixa modelo local) |
 
 ---
 

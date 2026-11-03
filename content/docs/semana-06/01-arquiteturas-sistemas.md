@@ -347,11 +347,11 @@ E) Cliente-servidor tradicional como garantia de crescer sem qualquer mudança d
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-> Bloco com questões de provas FCC (e uma de banca afim no mesmo tema Sommerville, quando indicado) + itens no padrão da banca. Gabarito só ao final.
+> Bloco com questões **reais** de provas (preferência FCC / TRT Analista TI), citadas. Gabarito só ao final.
 
-**16.** (FCC – TJ-CE/2022 – Analista Judiciário – Ciência da Computação – Sistemas)  
+**16.** (FCC – TJ-CE/2022 – Analista Judiciário – Ciência da Computação – Sistemas da Informação)  
 Considerando as características de uma arquitetura de objetos distribuídos,
 
 A) o modelo cliente-servidor é, por si só, um impeditivo para seu uso.  
@@ -403,14 +403,14 @@ C) Transição para arquitetura multicamadas com foco na separação lógica ent
 D) Implementação de uma arquitetura orientada a serviços para substituir o modelo cliente-servidor, mantendo a lógica de negócio concentrada em um único repositório de dados para evitar a fragmentação da integridade referencial.  
 E) Migração da estrutura cliente-servidor para um modelo de microsserviços onde cada componente compartilha a camada de persistência, garantindo a uniformidade dos dados sem necessidade de sincronização ou replicação.
 
-**21.** (FCC – METRÔ-SP/2008 – Analista Trainee – Ciências da Computação)  
-Enterprise Service Bus – ESB:
+**21.** (FCC – TRF-4/2025 – Analista Judiciário – Análise de Sistemas de Informação)  
+De acordo com a documentação da Plataforma Digital do Poder Judiciário – PDPJ-Br, para que uma API seja considerada do tipo RESTful, ela precisa
 
-A) fortalece o acoplamento entre o serviço chamado e o meio de transporte.  
-B) implementa arquitetura orientada a serviço (SOA).  
-C) necessita de Web Services para ser implementado.  
-D) tem sua base construída a partir da quebra de funções básicas em partes, que são distribuídas onde for preciso.  
-E) auxilia no aumento de conexões ponto-a-ponto necessárias para permitir a comunicação entre aplicações.
+A) ter uma arquitetura cliente/servidor formada por clientes e servidores, com solicitações gerenciadas por meio dos protocolos HTTP e FTP.  
+B) estabelecer uma comunicação statefull entre cliente e servidor, ou seja, as solicitações não são separadas e/ou desconectadas.  
+C) armazenar dados em cache para otimizar as interações entre cliente e servidor.  
+D) ter uma interface diferente para cada componente para que as informações possam ser transferidas em diferentes formatos.  
+E) ter um sistema sem camadas que organiza os tipos de servidores envolvidos na recuperação das informações solicitadas sem hierarquias.
 
 **22.** (FCC – TJ-PE/2012 – Analista Judiciário – Analista de Sistemas)  
 Com relação ao Barramento de Serviços Corporativos (ESB) é **INCORRETO** afirmar:
@@ -421,51 +421,53 @@ C) Um dos principais objetivos do ESB é prover conectividade para integrar dife
 D) Utilizar um ESB em uma arquitetura transforma-a em uma arquitetura orientada a serviços. Isso equivale a dizer que ESB implementa SOA.  
 E) Numa abordagem direcionada a protocolo, o ESB define um protocolo e os fornecedores. Os consumidores utilizam esse protocolo para enviar e receber mensagens. Um exemplo disso é Web Service utilizando SOAP.
 
-**23.** (Estilo FCC / doutrina Sommerville — mesma linha de itens cobrados em provas de TI)  
-Sobre a arquitetura cliente-servidor, **NÃO** é correto afirmar que:
+**23.** (FCC – TRT-12/2023 – Analista Judiciário – TI)  
+SOA é um paradigma de design arquitetônico, utilizado em diversos sistemas de software, que
 
-A) Em um cliente-magro, todo o processamento da aplicação e o gerenciamento de dados são realizados no servidor. O cliente é responsável simplesmente por executar o software de apresentação.  
-B) Em um cliente-gordo, o servidor é somente responsável pelo gerenciamento de dados. O software do cliente implementa a lógica da aplicação e as interações com o usuário do sistema.  
-C) Uma arquitetura cliente-magro de duas camadas é a abordagem mais simples a ser usada quando sistemas legados centralizados evoluem para uma arquitetura cliente-servidor.  
-D) A arquitetura cliente-servidor mais complexa é aquela que apresenta duas camadas, e pode ter duas formas: cliente-gordo e cliente-magro.  
-E) Uma desvantagem considerável do cliente-magro é que ele impõe uma grande carga de processamento sobre o servidor e a rede.
+A) promove a separação das preocupações (SOC – separation of concerns) lógicas e funcionais, facilitando o gerenciamento e a manutenção dos sistemas.  
+B) não suporta a integração com tecnologias legadas, tornando-se inviável para sistemas mais antigos.  
+C) torna difícil a adaptação a mudanças nos requisitos devido à sua rigidez estrutural.  
+D) requer configuração manual de descoberta de serviços, não suportando configuração dinâmica.  
+E) não suporta a reutilização de serviços, o que acarreta maior esforço de desenvolvimento.
 
-**24.** (Estilo FCC — Analista TI Judiciário)  
-Em um sistema web institucional desenhado em três camadas, um analista propõe que a camada de apresentação execute consultas SQL diretas ao SGBD, “para ganhar desempenho”, enquanto a camada de negócio fica apenas com logs. Tal proposta:
+**24.** (FCC – TRE-PE/2011 – Analista Judiciário – Análise de Sistemas)  
+Arquitetura padrão proposta pelo Object Management Group (OMG) para estabelecer e simplificar a troca de dados entre sistemas distribuídos heterogêneos por meio de uma estrutura comum para o gerenciamento de objetos distribuídos que é conhecida como Object Manager Architecture (OMA). Trata-se de
 
-A) reforça o isolamento típico do 3-tier e é a definição de SOA  
-B) viola o propósito central da multicamada, ao acoplar UI à persistência e esvaziar a camada de negócio  
-C) é obrigatória em qualquer cliente gordo de duas camadas bem implementado  
-D) descreve corretamente o papel do Model no MVC segundo a FCC TRE-PB/2015  
-E) é a única forma aceita de objetos distribuídos com interface oculta  
+A) IDL.  
+B) RPC.  
+C) DCON.  
+D) CORBA.  
+E) COM.
 
-**25.** (Estilo FCC — síntese do subtópico do edital)  
-Para fins do edital TRT4 (Arquiteturas de sistemas: multicamadas, cliente-servidor, objetos distribuídos; fundamentos de SOA), a síntese mais adequada é:
+**25.** (FCC – TRT-1/2025 – Técnico Judiciário – TI)  
+Há diversos modelos de organização de arquiteturas de software que podem ser utilizados para construir sistemas robustos e escaláveis. Um Técnico Judiciário, ao ser convidado para opinar sobre esse tema, afirmou corretamente que:
 
-A) Cliente-servidor elimina camadas; SOA exige forte acoplamento; objetos distribuídos expõem implementação completa  
-B) Multicamadas separam apresentação/negócio/dados; C/S define papéis de requisição/atendimento; SOA organiza serviços reutilizáveis de acoplamento fraco; objetos distribuídos expõem sobretudo a interface  
-C) ESB e microsserviços são sinônimos rigorosos de cliente magro  
-D) 2-tier é sempre mais complexa que n-tier; MVC substitui integralmente a SOA  
-E) Objetos distribuídos dispensam middleware e proíbem o modelo cliente-servidor  
+A) Em uma arquitetura distribuída multicamadas, é possível combinar serverless computing para processar eventos na camada de negócios, utilizar objetos distribuídos para facilitar a comunicação entre diferentes servidores na camada de dados e implantar as diversas camadas em uma cloud computing pública para otimização de recursos.  
+B) Em uma arquitetura multicamadas, a camada de negócios deve sempre estar no mesmo servidor da camada de dados para evitar latência na comunicação entre os componentes.  
+C) O uso de objetos distribuídos deve ser evitado em arquiteturas cliente-servidor para garantir que a comunicação ocorra de forma síncrona e dentro do mesmo contexto de rede.  
+D) Serverless computing não é recomendado em soluções que utilizam cloud computing, pois os ambientes de nuvem pública exigem o gerenciamento explícito de servidores para controlar custos de forma eficiente.  
+E) Em uma arquitetura multicamadas, os componentes funcionais comunicam-se por meio de chamadas de procedimentos locais dentro de um único processo, ao invés de mensagens entre processos, o que garante seu alto desempenho. Por isso, a comunicação entre as camadas deve ser sempre síncrona, para garantir que as respostas sejam imediatas e não haja falhas de consistência nos dados.
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso 16–25)
 
 | Questão | Gabarito | Fonte / nota |
 |---------|----------|--------------|
 | 16 | **E** | FCC TJ-CE/2022 — só a interface é visível |
-| 17 | **D** | FCC TRT-1/2025 — SOA indicada na modernização |
+| 17 | **D** | FCC TRT-1/2025 — SOA na modernização |
 | 18 | **E** | FCC TRE-PB/2015 — Negócio (3-tier) × Model (MVC) |
-| 19 | **B** | FCC METRÔ-SP/2008 — I e IV (II opõe WS×SOA; III fala em forte acoplamento) |
-| 20 | **A** | FCC MPE-AL/2026 — microsserviços + BD independentes + princípios SOA |
-| 21 | **B** | FCC METRÔ-SP/2008 (gabarito oficial da época); cruzar com q.22 |
-| 22 | **D** | FCC TJ-PE/2012 — **incorreto** igualar “tem ESB” a “é SOA” |
-| 23 | **D** | Doutrina Sommerville (2 camadas **não** é a mais complexa) |
-| 24 | **B** | UI→SQL direto quebra o 3-tier |
-| 25 | **B** | Síntese do eixo do edital |
+| 19 | **B** | FCC METRÔ-SP/2008 — I e IV |
+| 20 | **A** | FCC MPE-AL/2026 — microsserviços + BD independentes + SOA |
+| 21 | **C** | FCC TRF-4/2025 — REST: cache é restrição do estilo |
+| 22 | **D** | FCC TJ-PE/2012 — **incorreto** igualar ESB a “é SOA” |
+| 23 | **A** | FCC TRT-12/2023 — SOA e separation of concerns |
+| 24 | **D** | FCC TRE-PE/2011 — CORBA / OMA |
+| 25 | **A** | FCC TRT-1/2025 (Técnico TI) — multicamadas + objetos distribuídos + cloud |
 
-**Notas rápidas:** 16 E (interface). 17 D (SOA). 18 E (Negócio/Model). 19 B (I+IV). 20 A (desacoplamento + BD independentes). 21 B × 22 D — memorize a **nuance**: banca antiga associou ESB↔SOA; banca seguinte cobrou que ESB **não** implementa SOA automaticamente. 23 D (complexidade ≠ 2-tier). 24 B (não furar camadas). 25 B (cartão mental completo).
+**Distribuição:** A(3) B(1) C(1) D(3) E(2).
+
+**Notas rápidas:** 16 E; 17 D; 18 E; 19 B; 20 A; 21 C; 22 D; 23 A; 24 D; 25 A.
 
 ---
 

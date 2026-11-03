@@ -337,93 +337,105 @@ E) Apenas Regimento Interno do TRT4
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (reais) (16–25)
 
-**16.** Os Pactos Internacionais sobre Direitos Civis e Políticos e sobre Direitos Econômicos, Sociais e Culturais:
+**16.** (FCC — TRT-1ª Região — 2025 — Analista Judiciário — TI) De acordo com a Convenção Americana sobre Direitos Humanos,
 
-A) confundem-se, para todos os efeitos, com a Declaração Universal de 1948, por serem meras resoluções da Assembleia Geral sem natureza de tratado  
-B) são tratados internacionais adotados no âmbito da ONU em 1966, que desenvolvem dimensões do catálogo da DUDH em forma juridicamente vinculante para os Estados partes  
-C) correspondem, respectivamente, ao Protocolo de San Salvador e à Declaração de Estocolmo  
-D) foram editados pelo CNJ como substitutivos da Resolução 400/2021  
-E) criam, por si sós, a Corte Interamericana de Direitos Humanos  
+A) ninguém pode ser condenado por ações ou omissões que, no momento em que forem cometidas, não sejam delituosas, de acordo com o direito aplicável. Tampouco se pode impor pena mais grave que a aplicável no momento da perpetração do delito. Se depois da perpetração do delito a lei dispuser a imposição de pena mais leve, o delinquente não será por isso beneficiado.  
+B) todo cidadão deve gozar do direito de votar e ser eleito em eleições periódicas autênticas, realizadas por sufrágio universal e igual e por voto secreto que garanta a livre expressão da vontade dos eleitores, sendo que a lei pode regular o exercício desse direito exclusivamente por motivos de idade, capacidade civil ou mental ou condenação em processo penal.  
+C) toda pessoa detida ou retida deve ser conduzida, sem demora, à presença de um juiz ou outra autoridade autorizada pela lei a exercer funções judiciais e tem direito a ser julgada dentro de um prazo razoável ou a ser posta em liberdade, sem prejuízo de que prossiga o processo. Sua liberdade não pode ser condicionada a garantias que assegurem o seu comparecimento em juízo.  
+D) ninguém deve ser constrangido a executar trabalho forçado ou obrigatório, sendo assim considerados, inclusive, os serviços normalmente exigidos de pessoa reclusa em cumprimento de sentença e o serviço imposto em caso de perigo ou calamidade, ainda que ameace o bem-estar da comunidade.  
+E) os processados devem ficar separados dos condenados, salvo em circunstâncias excepcionais, e ser submetidos a tratamento adequado à sua condição de pessoas não condenadas. Os menores, quando puderem ser processados, devem ser separados dos adultos e conduzidos a tribunal especializado, com a maior rapidez possível, para seu tratamento.  
 
-**17.** No que concerne ao Sistema Interamericano de Direitos Humanos, é correto afirmar:
+**17.** (FCC — TRT-7ª Região — 2024 — Analista Judiciário — Arquitetura) De acordo com o Pacto Internacional sobre Direitos Civis e Políticos (PIDCP), com relação aos "trabalhos forçados ou obrigatórios", é correto afirmar que
 
-A) A Convenção Americana sobre Direitos Humanos (Pacto de San José da Costa Rica) constitui tratado regional que, com a Comissão e a Corte Interamericanas, estrutura o SIDH  
-B) A Declaração Americana dos Direitos e Deveres do Homem é idêntica à DUDH e foi adotada pela Assembleia Geral da ONU em Paris  
-C) O Protocolo de San Salvador revoga o PIDCP no plano universal  
-D) A Corte IDH julga indivíduos por crimes do Estatuto de Roma  
-E) A Comissão Interamericana equivale funcionalmente ao Tribunal Penal Internacional  
+A) não serão assim considerados quaisquer serviços exigidos em casos de emergência ou de calamidade que ameacem o bem-estar da comunidade.  
+B) não serão assim considerados quando se tratar de cumprimento de pena de prisão, prevista na legislação de um país, imposta por um tribunal competente, sendo que as pessoas processadas não poderão receber tratamento distinto das condenadas, não podendo, como regra, delas serem separadas.  
+C) serão assim considerados quaisquer trabalhos ou serviços forçados, ainda que façam parte das obrigações cívicas normais.  
+D) serão assim considerados quaisquer serviços de caráter militar e, nos países em que se admite a isenção por motivo de consciência, quaisquer serviços nacionais que a lei venha a exigir daqueles que se oponham ao serviço militar por motivo de consciência.  
+E) não serão assim considerados apenas os serviços exigidos em casos de calamidade e os trabalhos que fizerem parte das obrigações cívicas normais.  
 
-**18.** Acerca da incorporação de tratados de direitos humanos no ordenamento brasileiro, assinale a opção correta.
+**18.** (FCC — TRT-11ª Região — 2024 — Técnico Judiciário — Área Administrativa) Documento que é considerado um marco na história dos direitos humanos e proclamado pela Assembleia Geral das Nações Unidas como o ideal comum a ser atingido por todos os povos e nações,
 
-A) O art. 5º, § 2º, da CF afasta qualquer relevância dos tratados internacionais de que o Brasil seja parte  
-B) O art. 5º, § 3º, prevê rito especial para tratados de direitos humanos, conferindo-lhes equivalência a emendas constitucionais quando observado  
-C) Todo tratado bilateral de comércio adquire automaticamente hierarquia constitucional  
-D) A DUDH, por ser declaração, foi aprovada pelo rito do § 3º e revoga a Constituição  
-E) O Decreto 591/1992 promulga exclusivamente a CADH  
+A) o Pacto de São José da Costa Rica, de 1969, prevê que nenhuma de suas disposições poderá ser interpretada de forma a excluir outros direitos e garantias inerentes ao ser humano ou decorrentes da forma democrática de governo.  
+B) a Declaração Universal dos Direitos Humanos, de 1948, enuncia uma gama de direitos e liberdades que não poderão, em nenhum caso, ser exercidos contrariamente às finalidades e aos princípios das Nações Unidas.  
+C) o Pacto de São José da Costa Rica, de 1969, constitui uma Comissão e uma Corte de Direitos Humanos como órgãos competentes para conhecer dos assuntos relacionados com o cumprimento dos compromissos assumidos pelos Estados-Partes no Pacto.  
+D) a Declaração Universal dos Direitos Humanos, de 1948, estabelece que o exercício pelos indivíduos dos direitos e liberdades que enuncia só poderá ser limitado pela lei, exclusivamente com o fim de garantir o exercício dos direitos e liberdades dos outros.  
+E) o Pacto Internacional de Direitos Civis e Políticos, de 1966, consigna que os Estados-Partes comprometem-se a assegurar a homens e mulheres igualdade no gozo de todos os direitos econômicos, sociais e culturais que enumera.  
 
-**19.** Considere as afirmações abaixo.
+**19.** (FCC — TRT-11ª Região — 2024 — Técnico Judiciário — Área Administrativa) É instância de proteção dos direitos humanos na ordem internacional
 
-I. O PIDESC foi promulgado no Brasil pelo Decreto nº 591/1992, e o PIDCP pelo Decreto nº 592/1992.  
-II. O controle de convencionalidade confunde-se integralmente com o controle de constitucionalidade, ambos tendo como único parâmetro a Constituição Federal.  
-III. A CADH possui, na linha dominante do STF, status supralegal quando não aprovada pelo rito do art. 5º, § 3º.
+A) o Tribunal Penal Interamericano, constituído nos termos da Convenção Americana sobre Direitos Humanos.  
+B) a Comissão de Conciliação *ad hoc*, constituída nos termos do Pacto Internacional sobre Direitos Civis e Políticos.  
+C) o Comitê de Direitos Humanos, constituído nos termos do Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais.  
+D) a Corte Internacional de Direitos Humanos, constituída nos termos da Declaração Universal dos Direitos Humanos.  
+E) o Comitê Interamericano de Direitos Humanos, constituído nos termos da Convenção Americana sobre Direitos Humanos.  
 
-Está correto o que se afirma em:
+**20.** (FCC — TRT-11ª Região — 2024 — Técnico Judiciário — Área Administrativa) Ao estabelecer mecanismos para acompanhamento das ações que preconiza, o Pacto Internacional sobre Direitos Econômicos, Sociais e Culturais prevê:  
+I. Os Estados-Partes comprometem-se a apresentar relatórios sobre as medidas que tenham adotado e sobre o progresso realizado com o objetivo de assegurar a observância dos direitos reconhecidos no Pacto.  
+II. Os relatórios deverão ser encaminhados ao Secretário-Geral da Organização dos Estados Americanos, o qual enviará cópias ao Conselho Econômico e Social, para exame, de acordo com as disposições do Pacto.  
+III. Os relatórios poderão indicar os fatores e as dificuldades que prejudiquem o pleno cumprimento das obrigações previstas no Pacto.  
+IV. O Conselho Econômico e Social poderá encaminhar à Comissão de Direitos Humanos, para fins de estudo e de recomendação de ordem geral, ou para informação, caso julgue apropriado, os relatórios concernentes aos direitos humanos que apresentarem os Estados-Partes.  
+Está correto o que se afirma APENAS em
 
-A) I, apenas  
-B) II, apenas  
-C) I e III, apenas  
-D) II e III, apenas  
-E) I, II e III  
+A) II e IV.  
+B) I e IV.  
+C) I, II e III.  
+D) I, III e IV.  
+E) II e III.  
 
-**20.** Assinale a opção incompatível com a leitura cobrável dos instrumentos do edital.
+**21.** (FCC — TRT-7ª Região — 2024 — Analista Judiciário — Arquitetura) Com relação ao disposto na Convenção Americana sobre Direitos Humanos, considere:  
+I. Ninguém deve ser detido por dívida. Esse princípio não limita os mandados de autoridade judiciária competente expedidos em virtude de inadimplemento de obrigação alimentar.  
+II. Toda pessoa acusada de delito tem direito renunciável a, durante o processo, ser assistido por um defensor proporcionado pelo Estado, obrigatoriamente remunerado, segundo a legislação interna, se o acusado não se defender ele próprio nem nomear defensor dentro do prazo estabelecido pela lei.  
+III. A liberdade de manifestar a própria religião e as próprias crenças está sujeita unicamente às limitações prescritas pela lei e que sejam necessárias para proteger a segurança, a ordem, a saúde ou a moral públicas ou os direitos ou liberdades das demais pessoas.  
+Está correto o que se afirma em
 
-A) CERD relaciona-se à discriminação racial  
-B) CEDAW relaciona-se à discriminação contra a mulher  
-C) CRC/CDC relaciona-se aos direitos da criança  
-D) Protocolo de San Salvador é o órgão judiciário que substitui a Corte IDH  
-E) CDPD, no Brasil, destaca-se pelo status equivalente a emenda constitucional (§ 3º)  
+A) III, apenas.  
+B) II e III, apenas.  
+C) I, II e III.  
+D) I e III, apenas.  
+E) I, apenas.  
 
-**21.** Diferenciar a Corte Interamericana de Direitos Humanos do Tribunal Penal Internacional é relevante porque:
+**22.** (FCC — TRT-1ª Região — 2025 — Técnico Judiciário — Área Administrativa) Considere:  
+I. Não se admitirá qualquer restrição ou suspensão dos direitos humanos fundamentais reconhecidos ou vigentes em qualquer Estado Parte do Pacto Internacional dos Direitos Civis e Políticos em virtude de leis, convenções, regulamentos ou costumes, sob pretexto de que referido Pacto não os reconheça ou os reconheça em menor grau.  
+II. Qualquer pessoa que seja privada de sua liberdade por prisão ou encarceramento terá o direito de recorrer a um tribunal para que este decida sobre a legalidade de seu encarceramento e ordene sua soltura, caso a prisão tenha sido ilegal.  
+III. O Comitê de Direitos Humanos, composto de 27 membros, estudará os relatórios apresentados pelos Estados Partes do Pacto Internacional dos Direitos Civis e Políticos, não transmitindo, entretanto, aos Estados Partes seu próprio relatório.  
+De acordo com o Pacto Internacional dos Direitos Civis e Políticos, está correto o que se afirma em
 
-A) ambos são o mesmo órgão da OEA criado pela DUDH  
-B) a Corte IDH integra o SIDH e julga, em regra, a responsabilidade internacional de Estados; o TPI, vinculado ao Estatuto de Roma, volta-se a crimes internacionais atribuídos a indivíduos  
-C) o TPI é o nome interno da Comissão Interamericana  
-D) a Corte IDH foi criada pelo Decreto 591/1992 como órgão do PIDESC  
-E) nenhum dos dois figura, ainda que por referência, no conteúdo programático de Direitos Humanos do edital  
+A) I, apenas.  
+B) I e II, apenas.  
+C) II, apenas.  
+D) I, II e III.  
+E) III, apenas.  
 
-**22.** A alternativa que corretamente separa instrumentos ambientais/temáticos laterais é:
+**23.** (FCC — TRT-7ª Região — 2024 — Técnico Judiciário — Área Administrativa) Em conformidade com o Pacto Internacional dos Direitos Civis e Políticos, com relação ao Comitê de Direitos Humanos,
 
-A) Declaração de Estocolmo (1972) — marco declaratório ambiental; Convenção sobre Diversidade Biológica — tratado de 1992 sobre biodiversidade; ambos distintos da DUDH e da CADH  
-B) Estocolmo = CADH = PIDCP  
-C) Biodiversidade = Res. CNJ 492  
-D) Estocolmo = Estatuto de Roma  
-E) CDB = Protocolo Facultativo ao PIDCP sobre pena de morte  
+A) é composto por vinte e sete membros.  
+B) os seus membros, indicados pelos Estados Partes no referido Pacto, são eleitos em votação aberta e não secreta.  
+C) é integrado por nacionais dos Estados Partes do referido Pacto, os quais deverão ser pessoas de elevada reputação moral e reconhecida competência em matéria de direitos humanos, levando-se em consideração a utilidade da participação de algumas pessoas com experiência jurídica.  
+D) cada Estado Parte no referido Pacto poderá indicar três pessoas para serem membros do Comitê, as quais deverão ser nacionais do Estado que as indicou.  
+E) a mesma pessoa poderá ser indicada uma única vez para ser membro desse Comitê.  
 
-**23.** Em relação aos mecanismos de proteção, é correto afirmar:
+**24.** (FCC — TRT-7ª Região — 2024 — Analista / Conhecimentos comuns) De acordo com a Convenção Americana sobre Direitos Humanos, com relação aos trabalhos forçados ou obrigatórios,
 
-A) Só existem mecanismos internacionais; o direito interno é irrelevante  
-B) Coexistem mecanismos universais (órgãos de tratados ONU), regionais (SIDH) e nacionais (CF, leis, instituições e, no PJ, normas como CNJ 492 / CSJT 368 em sessão própria)  
-C) A única via é a petição direta do indivíduo à Corte IDH, sem passar pela Comissão, em todos os casos  
-D) O SIDH extingue os Comitês da ONU  
-E) Mecanismos nacionais substituem a CF  
+A) não serão assim considerados quando se tratar de cumprimento de pena de prisão, prevista na legislação de um país, imposta por um tribunal competente, sendo que as pessoas processadas não poderão receber tratamento distinto das condenadas, não podendo, como regra, delas serem separadas.  
+B) serão assim considerados quaisquer trabalhos ou serviços forçados, ainda que façam parte das obrigações cívicas normais.  
+C) serão assim considerados quaisquer serviços de caráter militar e, nos países em que se admite a isenção por motivo de consciência, quaisquer serviços nacionais que a lei venha a exigir daqueles que se oponham ao serviço militar por motivo de consciência.  
+D) não serão assim considerados apenas os serviços exigidos em casos de calamidade e os trabalhos que fizerem parte das obrigações cívicas normais.  
+E) não serão assim considerados quaisquer serviços exigidos em casos de emergência ou de calamidade que ameacem o bem-estar da comunidade.  
 
-**24.** Um candidato afirma: “Como a DUDH é o documento mais famoso, o Brasil se submete à Corte Interamericana automaticamente por força da Declaração de 1948, independentemente da CADH.” Essa afirmação está:
+**25.** (FCC — TRT-11ª Região — 2024 — Técnico Judiciário — Área Administrativa) Nos termos do Pacto Internacional sobre Direitos Civis e Políticos, em virtude do direito à autodeterminação, os povos  
+I. determinam livremente seu estatuto político.  
+II. asseguram livremente seu desenvolvimento econômico, social e cultural.  
+III. podem dispor livremente de suas riquezas e de seus recursos naturais, sem prejuízo das obrigações decorrentes da cooperação econômica internacional, baseada no princípio do proveito mútuo, e do Direito Internacional.  
+IV. poderão estabelecer restrições a que pessoas pertencentes a minorias étnicas, religiosas ou linguísticas tenham, conjuntamente com outros membros de seu grupo, sua própria vida cultural, professem e pratiquem sua própria religião e usem sua própria língua.  
+Está correto o que se afirma APENAS em
 
-A) correta, pois DUDH e CADH são o mesmo tratado da OEA  
-B) correta, pois a DUDH institui a Corte IDH  
-C) incorreta, pois a vinculação típica ao SIDH jurisdicional articula-se à Convenção Americana e ao reconhecimento da jurisdição da Corte, distintos da declaração universal da ONU  
-D) correta apenas se citada a Res. CNJ 400/2021  
-E) incorreta somente porque o foro correto seria exclusivamente o TPI  
-
-**25.** Para fins de manutenção na semana 3 (tratados principais), a síntese mais adequada é:
-
-A) stack Docker/Kubernetes como sinônimo de gerações de direitos  
-B) mapa PIDCP/PIDESC (+ protocolos), convenções temáticas, SIDH (Declaração Americana, CADH, San Salvador, Comissão/Corte), hierarquia CF/supralegal/§ 3º e controle de convencionalidade, com anti-confusão sistemática em relação à DUDH e às normas CNJ/CSJT  
-C) apenas grupos vulneráveis e CSJT 368, sem tratados  
-D) apenas Declaração de Estocolmo, sem PIDCP/CADH  
-E) extinção da universalidade dos tratados em favor exclusivo de soft law interna do TRT4  
+A) I, II e III.  
+B) III e IV.  
+C) I e II.  
+D) I e III.  
+E) II e IV.  
 
 ---
 
@@ -449,22 +461,22 @@ E) extinção da universalidade dos tratados em favor exclusivo de soft law inte
 | 14 | **B** | OEA × ONU |
 | 15 | **B** | Cartão da sessão |
 
-### Estilo concurso (16–25)
+### Concurso (16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **B** |
-| 17 | **A** |
-| 18 | **B** |
-| 19 | **C** |
-| 20 | **D** |
-| 21 | **B** |
-| 22 | **A** |
-| 23 | **B** |
-| 24 | **C** |
-| 25 | **B** |
+| Q | Gab | Fonte / nota |
+|---|-----|--------------|
+| 16 | **E** | FCC TRT-1/2025 — CADH art. 5º, 4 e 5; A/B/C/D trocam detalhe do texto |
+| 17 | **A** | FCC TRT-7/2024 — PIDCP art. 8º, 3, c, iii (emergência/calamidade) |
+| 18 | **B** | FCC TRT-11/2024 — DUDH art. 29, 3; premissa = marco ONU 1948 |
+| 19 | **B** | FCC TRT-11/2024 — PIDCP art. 41 (Comissão de Conciliação *ad hoc*) |
+| 20 | **D** | FCC TRT-11/2024 — PIDESC; II erra OEA no lugar da ONU |
+| 21 | **D** | FCC TRT-7/2024 — CADH: I e III ok; II “renunciável/obrigatoriamente” errado |
+| 22 | **B** | FCC TRT-1/2025 — PIDCP: I e II; III erra 27 membros / transmissão |
+| 23 | **C** | FCC TRT-7/2024 — PIDCP art. 28, 2 (18 membros; escrutínio secreto) |
+| 24 | **E** | FCC TRT-7/2024 — CADH art. 6.3.c (emergência/calamidade) |
+| 25 | **A** | FCC TRT-11/2024 — PIDCP arts. 1 e 27; IV restringe minoria (errado) |
 
-**Notas rápidas:** 16 B (pactos = tratados 1966); 17 A (CADH + Comissão/Corte); 18 B (§ 3º); 19 C (I e III; II mistura convencionalidade com constitucionalidade); 20 D (San Salvador ≠ órgão judiciário); 21 B (Corte IDH × TPI); 22 A (Estocolmo × CDB); 23 B (níveis de proteção); 24 C (DUDH ≠ CADH/jurisdição); 25 B (síntese semana 3).
+Distribuição 16–25 (A–E): A=2 · B=3 · C=1 · D=2 · E=2.
 
 ---
 
@@ -483,7 +495,7 @@ E) extinção da universalidade dos tratados em favor exclusivo de soft law inte
 | Mecanismos nacional/internacional | § 1.12 | Visão |
 | Grupos vulneráveis + CNJ 492 / CSJT 368 | Só ponte | Semana 7 |
 | TPI / Roma · Carta ONU | § 1.13 | Âncora |
-| Questões ~15 + ~10 | §§ 2–4 | 15 treino + 10 FCC |
+| Questões ~15 + ~10 | §§ 2–4 | 15 treino + 10 concurso reais (FCC TRT) |
 | Anti-confusão | §§ 1.14 e armadilhas | Cartão mestre |
 
 Checagens factuais feitas nesta geração: Dec. **591=PIDESC** / **592=PIDCP** (Planalto); CADH Dec. **678/1992**; San Salvador Dec. **3.321/1999**; jurisdição Corte IDH **1998** (DL 89/1998; Dec. 4.463/2002); linha **supralegal** STF (RE 466.343); CDPD com rito do **§ 3º**.

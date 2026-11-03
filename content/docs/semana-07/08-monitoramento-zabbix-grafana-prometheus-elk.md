@@ -358,116 +358,117 @@ E) Grafana é o único gerente SNMP aceito pela FCC
 
 ## 3. Questões estilo concurso FCC (16–25)
 
+> Questões reais de provas. Gabarito só ao final.
+
 **16.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
 O funcionamento do SNMP se baseia na comunicação entre agentes e gerentes. Um exemplo de gerente SNMP é o
 
-A) Logstash, que é uma ferramenta de busca e análise de dados baseado em índices Object Identifiers (OIDs)  
-B) Elasticsearch, que é um mecanismo de coleta, processamento e envio de logs para os agentes SNMP  
-C) Grafana, que é uma ferramenta para visualização e análise de dados em tempo real, focada na emissão de alertas de segurança  
-D) Zabbix, que permite centralizar a coleta e análise de dados dos dispositivos de rede  
-E) Kibana, que é uma ferramenta de visualização de dados e dashboards com funcionalidade de análise automática de logs  
+A) Logstash, que é uma ferramenta de busca e análise de dados baseado em índices Object Identifiers (OIDs).  
+B) Elasticsearch, que é um mecanismo de coleta, processamento e envio de logs para os agentes SNMP.  
+C) Grafana, que é uma ferramenta para visualização e análise de dados em tempo real, focada na emissão de alertas de segurança.  
+D) Zabbix, que permite centralizar a coleta e análise de dados dos dispositivos de rede.  
+E) Kibana, que é uma ferramenta de visualização de dados e dashboards com funcionalidade de análise automática de logs.
 
 **17.** (FCC – TRT-24/2016 – Analista Judiciário – TI)  
 Assinale a afirmativa correta:
 
-A) O Zabbix é uma ferramenta de monitoramento que **não** permite monitoramento agentless  
-B) Como o servidor Zabbix é obrigatoriamente instalado em Unix/Linux, **não** há agentes Zabbix para Windows  
-C) O ICMP, assim como TCP e UDP, é protocolo de controle também usado para transmissão de dados de aplicação, com ping exclusivo do Linux  
-D) No SNMP o item a ser monitorado ou gerenciado é um agente. Quem consulta (GET) ou solicita modificações (SET) é um gerente. O agente também tem a função de gerar alertas (TRAP)  
-E) No IPTables, `-s ALL` aplica-se a SSH, HTTP e HTTPS sem regra separada por protocolo  
+A) O Zabbix é uma ferramenta de monitoramento de redes, servidores e serviços que não permite monitoramento agentless.  
+B) Como o servidor Zabbix é obrigatoriamente instalado em sistemas Unix ou Linux, não há agentes Zabbix disponíveis para ambientes Windows e OS.  
+C) O ICMP, assim como o TCP e o UDP, é um protocolo de controle também usado para a transmissão de dados, que desempenha diversas funções exclusivas para Linux como o ping.  
+D) No SNMP o item a ser monitorado ou gerenciado é um agente. Quem consulta (GET) ou solicita modificações (SET) é um gerente. O agente também tem a função de gerar alertas (TRAP).  
+E) Dentre as regras do IPTables para configurar o firewall pode-se utilizar o parâmetro "-s ALL", que se aplica simultaneamente aos três protocolos (SSH, HTTP e HTTPS), sem que seja necessário incluir uma regra separada para cada um.
 
 **18.** (FCC – PMSP/2025 – Analista TIC)  
-Painel com múltiplas fontes, atualização em tempo real e alertas críticos; equipe optou pelo Grafana. A configuração que atende tempo real e alertas é:
+A equipe de TI de uma prefeitura está desenvolvendo um painel para monitoramento de indicadores de serviços públicos, como saúde, educação e segurança. O objetivo é disponibilizar um dashboard que integre múltiplas fontes de dados, permita atualizações em tempo real e possibilite a criação de alertas para situações críticas. Como a equipe optou pelo uso da ferramenta Grafana, a configuração que atende aos requisitos de atualização em tempo real e criação de alertas é
 
-A) Conectar Grafana a MySQL com atualizações/alertas a cada 5 minutos  
-B) Importar relatórios do Tableau e alertar em intervalos regulares  
-C) Utilizar Grafana com fonte como o Prometheus para tempo real e alertas  
-D) Conectar a CSV com atualizações manuais  
-E) Configurar Grafana com Power BI Embedded para alertas/tempo real  
+A) conectar o Grafana a uma base de dados relacional (como MySQL) e configurar atualizações e criação de alertas a cada 5 minutos.  
+B) configurar o Grafana para importar relatórios gerados no Tableau e emitir alertas em intervalos regulares.  
+C) utilizar o Grafana com uma fonte de dados, como o Prometheus, para habilitar atualização em tempo real e criar alertas.  
+D) usar o Grafana para se conectar diretamente a arquivos CSV, permitindo atualizações manuais dos dashboards com base nos dados obtidos em tempo real.  
+E) configurar o Grafana para trabalhar com o Power BI Embedded para emitir alertas e atualizações em tempo real.
 
-**19.** (FCC – TRF-4/2025 – Analista – Análise de Sistemas de Informação)  
-Em modernização com DevSecOps e ELK Stack, a equipe deverá adotar práticas que
+**19.** (FCC – TRF-4/2025 – Analista Judiciário – Análise de Sistemas de Informação)  
+Em um projeto de modernização da infraestrutura tecnológica de um tribunal, a equipe de analistas foi encarregada de implantar práticas de DevSecOps, integrando mecanismos de monitoramento contínuo e coleta estruturada de logs de aplicações em produção. Para isso, definiu-se a utilização do conjunto de ferramentas conhecido como ELK Stack (Elasticsearch, Logstash e Kibana). Com base nessa arquitetura e nos princípios de segurança no pipeline de desenvolvimento, a equipe deverá adotar práticas que
 
-A) configurem o Logstash priorizando apenas regras genéricas sem observabilidade  
-B) usem Logstash na ingestão, mas concentrem ACL só no dashboard, assumindo fontes sempre confiáveis  
-C) empreguem o Elasticsearch para indexação e busca eficiente de logs, utilizando o Kibana para visualização e análise gráfica dos dados  
-D) integrem o Kibana ao CI/CD evitando correlações entre logs de diferentes fontes  
-E) mantenham o Elasticsearch com permissões amplas priorizando visibilidade sobre segmentação por perfis  
+A) configurem o Logstash para aplicar transformações nos dados coletados e realizar pré-processamento antes de encaminhá-los ao destino configurado, priorizando regras de filtragem voltadas à observabilidade.  
+B) utilizem o Logstash como parte do fluxo de ingestão de dados, mas concentrem o controle de acesso aos logs ao nível de dashboard, assumindo que as fontes são sempre confiáveis.  
+C) empregam o Elasticsearch para indexação e busca eficiente de logs, utilizando o Kibana para visualização e análise gráfica dos dados.  
+D) integrem o Kibana ao pipeline de CI/CD como ferramenta de apoio à auditoria de eventos, evitando correlações automáticas entre logs de diferentes fontes.  
+E) mantenham o Elasticsearch configurado com permissões amplas para facilitar a consulta aos dados operacionais por equipes diversas, priorizando a visibilidade sobre a segmentação por perfis.
 
-**20.** (Estilo FCC / observabilidade em microsserviços)  
-Em arquitetura Kubernetes com Prometheus e Grafana, a distinção tecnicamente correta é:
+**20.** (FCC – TRT-17/2022 – Analista Judiciário – TI)  
+O analista em tecnologia da informação avalia a implantação de ferramentas de busca e análise de dados distribuídos no TRT. Para implantar ferramenta ELK (Elasticsearch, Logstash e Kibana) o analista deve saber que o Elasticsearch
 
-A) Prometheus e Grafana têm funções idênticas, só mudam a UI e a licença  
-B) Prometheus realiza coleta e armazenamento de métricas em séries temporais e pode definir regras de alerta, enquanto o Grafana é utilizado para visualização e construção de dashboards  
-C) Prometheus visualiza; Grafana faz scrape e guarda as séries  
-D) Prometheus armazena logs estruturados e tracing; Grafana só faz SQL em SGDB da aplicação  
-E) Grafana faz scraping periódico dos endpoints; Prometheus só consome para gráficos  
+A) é a ferramenta utilizada para coletar, modificar e enviar dados para o Logstash.  
+B) é a ferramenta utilizada para visualizar os documentos gerados pelo Kibana.  
+C) é o elemento central da pilha ELK que armazena os seus dados centralmente para proporcionar busca rápida.  
+D) utiliza o mecanismo de busca direta por meio do id de cada evento gerado.  
+E) requer a porta UDP 161 para o agente e a 162 para o cliente abertas para receber dados do Logstash.
 
-**21.** (Estilo FCC)  
-Fluentd no conjunto do edital TRT4 associa-se principalmente a:
+**21.** (FCC – TRT-15/2024 – Analista Judiciário – TI)  
+Um Analista de um Tribunal Regional do Trabalho está configurando o Elastic Stack (Elasticsearch, Logstash e Kibana) integrado ao AWS para coletar, indexar e analisar logs de serviços da AWS, como CloudTrail e CloudWatch. A sequência de ações que ele deve utilizar para configurar o pipeline de dados e realizar a análise dos logs é
 
-A) Marcação DiffServ CS6  
-B) Arquivo `domain.xml`  
-C) Substituição do SNMP gerente  
-D) Módulo exclusivo do IIS  
-E) Coleta/roteamento de logs em pipelines de observabilidade  
+A) utilizar o Kibana para coletar logs diretamente do AWS CloudTrail, o Logstash para visualizar os logs e o Elasticsearch para criar dashboards.  
+B) configurar o Elasticsearch para coletar os logs diretamente do AWS CloudWatch, usar o Kibana para transformar os dados em pipelines e o Logstash para criar relatórios.  
+C) usar o Kibana para indexar os logs do AWS CloudTrail, enviar os dados para o Logstash e armazená-los no Elasticsearch.  
+D) configurar o Logstash para ingerir logs do AWS CloudTrail e CloudWatch, enviar os dados para o Elasticsearch para armazenamento e realizar a análise visual dos logs com Kibana.  
+E) configurar o Elasticsearch para ingerir dados de logs e usar o Logstash para criar dashboards customizados.
 
-**22.** (Estilo FCC)  
-Um analista quer buscar “NullPointerException” em 30 dias de logs de várias JVMs. A peça central mais adequada do ELK é:
+**22.** (FCC – TRT-15/2024 – Técnico Judiciário – TI)  
+Uma equipe técnica está utilizando o servidor de aplicações WildFly para hospedar uma aplicação Java EE crítica. Para monitorar os eventos de execução e falhas, decidiram integrar a aplicação com o Elastic Stack (Elasticsearch, Logstash e Kibana). Em condições ideais, a melhor abordagem para capturar e analisar os logs da aplicação é
 
-A) Elasticsearch (busca/indexação), com Kibana na interface  
-B) Apenas Grafana sem backend  
-C) Somente node_exporter  
-D) Apenas Alertmanager sem storage  
-E) ProxyPass  
+A) configurar o WildFly para enviar logs diretamente ao Elasticsearch, pois isso evita sobrecarga com intermediários como Kibana ou JSONfile, agilizando o acesso ao dashboard ELK.  
+B) configurar o Logstash para enviar logs diretamente ao Kibana, que armazenará e analisará os dados em XML sem a necessidade do Elasticsearch.  
+C) configurar o WildFly para usar o Filebeat como agente, enviando os logs para o Logstash, que fará o pré-processamento e encaminhará os dados ao Elasticsearch.  
+D) direcionar os logs do WildFly para o Kibana, o que permitirá análises em tempo real, e depois sincronizar com o Elasticsearch para o armazenamento dos logs em JSONscript.  
+E) configurar o Elasticsearch para buscar e analisar os logs do WildFly em XML, depois realizar consultas no console do Logstash para análise.
 
-**23.** (Estilo FCC)  
-Sobre alertas:
+**23.** (FCC – TRT-15/2023 – Analista Judiciário – TI)  
+Os nós de rede que implementam serviços diferenciados (Diffserv) em redes IPv4 utilizam um ponto de código no cabeçalho IP para selecionar um comportamento por salto (PHB) como tratamento de encaminhamento específico para esse pacote. O PHB mais adequado para criar um serviço de baixa perda, baixa latência, baixo jitter e largura de banda garantida para um serviço de fim a fim, considerado premium, é o
 
-A) Só o Kibana pode alertar em qualquer cenário do edital  
-B) Prometheus não avalia regras  
-C) Zabbix não possui triggers  
-D) Grafana proíbe data source Prometheus  
-E) Zabbix (triggers), Prometheus/Alertmanager e Grafana (alert rules) são caminhos cobráveis de alerta, cada um no seu papel  
+A) EF - Expedited Forwarding.  
+B) AF - Assured Forwarding.  
+C) BE - Best-Effort.  
+D) FIFO - First In First Out.  
+E) LLQ - Low Latency Queuing.
 
-**24.** (Estilo FCC — anti-confusão ELK × métricas)  
-Afirmação correta:
+**24.** (FCC – TRT-15/2023 – Analista Judiciário – TI)  
+Um Analista deve escolher, entre os diferentes protocolos de rede sem fio, aquele que utiliza: AES-CCMP como padrão de encriptação; CBC-MAC como padrão para integridade; e autenticação em modo enterprise. Para atender às especificações, o Analista deve escolher o
 
-A) Elasticsearch não substitui, por si, o papel de NMS SNMP do Zabbix  
-B) Logstash é o substituto nativo do Zabbix como gerente SNMP na FCC TRT-1/2025  
-C) Kibana coleta SNMP GET na UDP 161  
-D) ELK marca pacotes EF  
-E) Fluentd é PHB  
+A) TKIP.  
+B) WPA2.  
+C) WEP.  
+D) WPA.  
+E) EAP.
 
-**25.** (Estilo FCC — síntese do edital)  
-Mapa correto das ferramentas listadas (Zabbix, ES, Logstash, Kibana, Grafana, Prometheus, Fluentd):
+**25.** (FCC – TRT-6/2025 – Analista Judiciário – TI)  
+Uma Analista de rede de computadores está responsável por monitorar diversos dispositivos em um Tribunal Regional do Trabalho. Durante um processo de auditoria, ela precisa garantir que as informações de configuração dos dispositivos sejam seguras e acessíveis apenas ao pessoal autorizado. Para isso ela deve implementar, com criptografia e autenticação, o
 
-A) Todas são protocolos de camada 2  
-B) Grafana = único coletor SNMP; ES = DiffServ  
-C) Prometheus = Kibana; Zabbix = apenas CSV  
-D) Logstash = applicationHost.config  
-E) Zabbix monitora/alerta (NMS); Prometheus métricas TSDB; Grafana visualiza; ES+Logstash+Kibana = busca/pipeline/UI de logs; Fluentd apoia ingestão de logs  
-
+A) SNMPv2 com gerenciamento in-band.  
+B) SNMPv1 com gerenciamento out-of-band.  
+C) SNMPv1 com strings de comunidade padrão.  
+D) SNMPv2 com strings de comunidade de leitura e escrita.  
+E) SNMPv3 com View-based Access Control Model (VACM).
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito comentado (FCC 16–25)
 
 | Questão | Gabarito | Fonte / nota |
 |---------|----------|--------------|
 | 16 | **D** | FCC TRT-1/2025 — Zabbix gerente SNMP |
-| 17 | **D** | FCC TRT-24/2016 — SNMP agente/gerente (+ derruba mitos Zabbix) |
+| 17 | **D** | FCC TRT-24/2016 — agente/gerente (+ mitos Zabbix) |
 | 18 | **C** | FCC PMSP/2025 — Grafana + Prometheus |
-| 19 | **C** | FCC TRF-4/2025 — ES indexa/busca; Kibana visualiza |
-| 20 | **B** | Distinção Prometheus × Grafana |
-| 21 | **E** | Fluentd = logs ingest |
-| 22 | **A** | ES (+ Kibana) |
-| 23 | **E** | Alertas nos papéis certos |
-| 24 | **A** | ELK ≠ NMS SNMP |
-| 25 | **E** | Síntese do eixo do edital |
+| 19 | **C** | FCC TRF-4/2025 — ES indexa; Kibana visualiza |
+| 20 | **C** | FCC TRT-17/2022 — Elasticsearch = núcleo ELK |
+| 21 | **D** | FCC TRT-15/2024 — Logstash → ES → Kibana |
+| 22 | **C** | FCC TRT-15/2024 — Filebeat → Logstash → ES |
+| 23 | **A** | FCC TRT-15/2023 — PHB EF |
+| 24 | **B** | FCC TRT-15/2023 — WPA2 enterprise (ambiente monitorado) |
+| 25 | **E** | FCC TRT-6/2025 — SNMPv3 + VACM |
 
-**Notas:** 16 D. 17 D (A/B falsas sobre Zabbix). 18 C. 19 C (segurança/ACL nas outras). 20 B. 21 B. 22 B. 23 B. 24 B. 25 B.
+**Notas rápidas:** 16 D. 17 D. 18 C. 19 C. 20 C. 21 D. 22 C. 23 A. 24 B. 25 E.
 
----
+Distribuição do gabarito (16–25): D, D, C, C, C, D, C, A, B, E — letras A–E presentes.
 
 *Arquivo 08 · Monitoramento Zabbix / Grafana / Prometheus / ELK · Claudionir · TRT4 Analista TI (código 14) · FCC. Semana 7 — bloco serviços/gerência.*

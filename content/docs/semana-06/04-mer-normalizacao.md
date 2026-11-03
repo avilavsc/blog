@@ -329,106 +329,142 @@ E) Cardinalidade 1:N exige duas tabelas de ligação
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** (FCC / TRT-12 · 2023 — adaptação) Uma tabela está na segunda forma normal (2FN) se e somente se:
+> Questões reais de provas (FCC). Gabarito só ao final.
 
-A) não contém atributos multivalorados, mas contém tabelas aninhadas e atributos candidatos que dependem de somente uma parte da chave primária  
-B) contém atributos multivalorados, mas não contém tabelas aninhadas e nem atributos candidatos que dependem de somente uma parte da chave primária  
-C) contém tabelas aninhadas, mas não contém atributos multivalorados e nem atributos não-chave que dependem de somente uma parte da chave primária  
-D) não contém tabelas aninhadas e nem atributos multivalorados  
-E) não contém tabelas aninhadas nem atributos multivalorados e todos os seus atributos não-chave são dependentes da totalidade da chave primária  
+**16.** (FCC – TRT-12/2023 – Analista Judiciário – TI)  
+Uma tabela está na segunda forma normal (2FN) se e somente se
 
-**17.** (FCC / TRE-PI · 2009 — adaptação) No processo de normalização, a eliminação de dependência parcial da chave, a estrutura com maior redundância e a eliminação de dependência transitiva representam, respectivamente, as formas normais:
+A) não contém atributos multivalorados, mas contém tabelas aninhadas e atributos candidatos que dependem de somente uma parte da chave primária.  
+B) contém atributos multivalorados, mas não contém tabelas aninhadas e nem atributos candidatos que dependem de somente uma parte da chave primária.  
+C) contém tabelas aninhadas, mas não contém atributos multivalorados e nem atributos não chave que dependem de somente uma parte da chave primária.  
+D) não contém tabelas aninhadas e nem atributos multivalorados.  
+E) não contém tabelas aninhadas nem atributos multivalorados e todos seus atributos não chave são dependentes da totalidade da chave primária.  
 
-A) 3FN, 2FN e 1FN  
-B) 3FN, 1FN e 2FN  
-C) 1FN, 2FN e 3FN  
-D) 2FN, 1FN e 3FN  
-E) 2FN, 3FN e 1FN  
+**17.** (FCC – TRT-12/2023 – Analista Judiciário – TI)  
+Considere o seguinte diagrama hipotético de Entidade x Relacionamento:
 
-**18.** (FCC / TJ-PE · 2012 — adaptação) É correto que uma relação está na:
+ 
 
-A) 2FN se, e somente se, todos os domínios básicos contiverem mais de um valor discreto periódico  
-B) 2FN se, e somente se, estiver na primeira e todos os atributos não-chave forem totalmente dependentes da totalidade da chave primária  
-C) 2FN se, e somente se, estiver na primeira e todos os atributos não-chave forem dependentes não transitivos da chave primária  
-D) 3FN se, e somente se, ela estiver na segunda e todos os atributos não-chave contiverem mais de um valor discreto periódico  
-E) 3FN se, e somente se, todos os domínios básicos forem multivalorados  
+ Se um Processo puder ser analisado por, no mínimo, um ou por mais de um Juiz, então as cardinalidades, na respectiva ordem mínima e máxima, descritas como (1,1)
 
-**19.** (FCC / TRT-20 · 2024 — adaptação) Considere que um processo trabalhista pode ser distribuído em diversos volumes identificados pelo número do processo principal; cada volume tem número sequencial 01…nn. Em um MER, Volume é:
+A) permanecem inalteradas e as (0,n) passam a ser (1,n).  
+B) permanecem inalteradas e as (0,n) também permanecem inalteradas.  
+C) passam a ser (n,1) e as (0,n) permanecem inalteradas.  
+D) passam a ser (1,n) e as (0,n) permanecem inalteradas.  
+E) passam a ser (n,n) e as (0,n) passam a ser (1,n).  
 
-A) uma especialização da entidade Processo, que é a entidade genérica  
-B) uma entidade associativa com cardinalidade N:M em relação à entidade Processo  
-C) uma entidade fraca com cardinalidade N:1 em relação à entidade Processo  
-D) um auto-relacionamento com cardinalidade N:M  
-E) um relacionamento complementar com cardinalidade 1:N em relação à entidade Processo  
+**18.** (FCC – TRT-12/2023 – Analista Judiciário – TI)  
+Considere o seguinte caso:
 
-**20.** (FCC / TRT-5 · 2022 — adaptação de ideia) Tribunal 1:N Funcionário; funcionário reconhecido por registro funcional; funcionários podem ter ou não dependentes. Assinale a leitura correta do MER:
+ Utilizando comandos SQL, um analista criou uma tabela de cidadão dando permissão de acesso ao usuário Roberto. Posteriormente inseriu dados nessa tabela, mas logo em seguida teve que deletá-los, retirar a permissão de Roberto que estava saindo do tribunal e dar permissão a Carla. 
 
-A) relacionamento Tribunal–Funcionário binário, cardinalidade 1:N no sentido tribunal–funcionário, e Dependente como entidade fraca ligada a Funcionário  
-B) identificador de Tribunal = código + registro funcional, e lista de dependentes como atributo multivalorado válido na 3FN  
-C) relacionamento unário Tribunal–Funcionário e Dependente como entidade associativa  
-D) relacionamento ternário por causa de Dependente  
-E) Dependente como especialização total de Tribunal  
+A sequência de comandos SQL utilizada no caso é, correta e respectivamente, categorizada como
 
-**21.** (FCC / ideia TRT — N:M) Se Juiz e Assistente se relacionam N:M, na criação das tabelas:
+A) DML - DCL - DDL - DDL - DCL - DCL.  
+B) DML - DCL - DML - DDL - DML - DCL.  
+C) DDL - DCL - DML - DML - DCL - DCL.  
+D) DDL - DCL - DDL - DML - DML - DCL.  
+E) DCL - DDL - DML - DML - DCL - DCL.  
 
-A) a PK de Juiz será FK em Assistente e a PK de Assistente será FK em Juiz, sem tabela extra  
-B) estabelece-se relacionamento bidirecional 1:1 entre as tabelas  
-C) as PKs de ambas devem ser compostas por IdJuiz+IdAssistente em cada tabela de ponta  
-D) será necessário criar tabela de ligação, e o N:M dará lugar a dois relacionamentos 1:N  
-E) cria-se tabela de ligação gerando dois relacionamentos 1:1  
+**19.** (FCC – TRT-12/2023 – Analista Judiciário – TI)  
+Considere uma tabela denominada `Cidadao` e as colunas `Nome_Cidadao` e `Valor_Recebido`.
 
-**22.** Com respeito aos fundamentos relacionais (FCC / TRT-3 · 2005 — ideia), um esquema está na 2FN se:
+Para obter a média dos valores maiores que 200 recebidos pelos cidadãos, um Analista deve utilizar o comando
 
-A) qualquer atributo não-primo for total e funcionalmente dependente de qualquer chave do esquema  
-B) estiver na 2FN e qualquer atributo não-primo for transitivamente independente de qualquer chave — como definição **só** de 2FN  
-C) qualquer atributo não-primo for total e funcionalmente **independente** de qualquer chave  
-D) qualquer atributo (inclusive chave) for funcionalmente independente de qualquer chave  
-E) todos os domínios forem obrigatoriamente multivalorados  
+A) SELECT AVG(Valor_Recebido > 200) FROM Cidadao;  
+B) SELECT AVG(Valor_Recebido) FROM Cidadao WHERE Valor_Recebido > 200;  
+C) SELECT AVG(Valor_Recebido) > 200 FROM Cidadao;  
+D) SELECT FROM Cidadao AVG(Valor_Recebido) > 200;  
+E) SELECT Nome_Cidadao and AVG(Valor_Recebido) FROM Cidadao WHERE Valor_Recebido > 200;  
 
-**23.** Assinale a opção que melhor distingue 2FN e 3FN:
+**20.** (FCC – TRT-20/2024 – Analista Judiciário – TI)  
+Considere que um processo trabalhista pode ser distribuído em diversos volumes que são identificados pelo número do processo principal a que se referem. Cada volume tem um número que vai de 01 a nn, sequencialmente, na medida em que são anexados ao processo principal, como por exemplo: P01V01, P01V02, P02V01, P02V02 e P02V03, onde P é o número do processo e V é o número do volume. Em um modelo conceitual entidade-relacionamento, Volume é
 
-A) 2FN remove transitivas; 3FN remove parciais  
-B) 2FN remove parciais (após 1FN); 3FN remove transitivas (após 2FN)  
-C) ambas removem apenas atributos multivalorados  
-D) 3FN é pré-requisito da 1FN  
-E) 2FN exige BCNF completa  
+A) uma especialização da entidade Processo, que é a entidade genérica.  
+B) uma entidade associativa com cardinalidade n:m em relação à entidade Processo.  
+C) uma entidade fraca com cardinalidade n:1 em relação à entidade Processo.  
+D) um auto relacionamento com cardinalidade n:m.  
+E) um relacionamento complementar com cardinalidade 1:n em relação à entidade Processo.  
 
-**24.** No mapeamento de entidade fraca, é correto afirmar que:
+**21.** (FCC – TRT-19/2022 – Analista Judiciário – TI)  
+Considere a classe abaixo em uma aplicação que utiliza JPA e Hibernate.
 
-A) em regra, incorpora a chave da forte (como parte da PK e como FK) mais um discriminador local  
-B) sua identificação no relacional prescinde da chave da entidade forte  
-C) equivale sempre a uma view sem materialização  
-D) impede qualquer cardinalidade N:1 com a proprietária  
-E) só existe no modelo físico Oracle, não no MER  
+```
+@Entity
+public class Cliente {
+ @Id
+ @GeneratedValue(strategy = GenerationType.
+ I
+ )
+ private Long id;
+ // atributos e métodos restantes
+}
+```
 
-**25.** Para o eixo MER + normalização do edital TRT4/FCC, a síntese mais adequada é:
+Para informar ao provedor de persistência que os valores a serem atribuídos ao identificador único (id) serão gerados pela coluna de autoincremento da tabela do banco de dados, utiliza-se, na lacuna I , o valor
 
-A) bastam índices B-tree; formas normais são irrelevantes  
-B) toda entidade fraca é N:M  
-C) classificar corretamente fraca/associativa/especialização e aplicar 1FN→2FN→3FN sem inverter parcial e transitiva  
-D) 1FN já elimina dependências transitivas  
-E) tabela de ligação é proibida em modelos judiciais  
+A) TABLE  
+B) AUTO_GENERATED  
+C) AUTO_INCREMENT  
+D) IDENTITY  
+E) SELF_GENERATED  
+
+**22.** (FCC – TRT-19/2022 – Analista Judiciário – TI)  
+Questão de Tecnologia da Informação (FCC TRT19 2022) com gabarito: alternativa A. Um trigger (gatilho) no PostgreSQL é um objeto de banco de dados que…
+
+A) permite chamar uma função se uma cláusula INSERT, UPDATE, DELETE ou TRUNCATE ocorrer em uma tabela.  
+B) pode modificar os dados na tabela virtual somente após a modificação ocorrer na tabela real.  
+C) deve ser único em uma tabela, ou seja, não pode haver mais de um trigger para a mesma tabela.  
+D) pode chamar funções que exibem dados, mas não funções para modificá-los.  
+E) pode ser acionado para uma tabela, mas não para uma view, chamando sempre uma procedure após o acionamento.  
+
+**23.** (FCC – TRT-1/2025 – Analista Judiciário – TI)  
+Um Analista de um Tribunal Regional do Trabalho foi solicitado a consultar os benefícios concedidos a funcionários de diferentes empresas e apresentar a quantidade total de benefícios pagos por empresa para aquelas que tenham concedido mais de 5 benefícios nos últimos 12 meses. Utilizando um banco de dados Oracle 19c, aberto e em condições ideais, o comando que faz a consulta é:
+
+A) ``sqlSELECT empresa, COUNT() AS total_beneficiosFROM beneficiosWHERE data_concessao BETWEEN SYSDATE AND SYSDATE - 365GROUP BY empresaHAVING COUNT() > 5;``  
+B) ``sqlSELECT empresa, COUNT(*) AS total_beneficiosFROM beneficiosWHERE data_concessao <= ADD_MONTHS(SYSDATE, -12)GROUP BY empresaHAVING COUNT( ) > 5;``  
+C) ``sqlSELECT empresa, COUNT() AS total_beneficiosFROM beneficiosWHERE data_concessao >= ADD_MONTHS(TRUNC(SYSDATE), -12)GROUP BY empresaHAVING COUNT() > 5;``  
+D) ``sqlSELECT empresa, COUNT() AS total_beneficiosFROM beneficiosWHERE EXTRACT(YEAR FROM data_concessao) := EXTRACT(YEAR FROM SYSDATE) - 1GROUP BY empresaHAVING COUNT() > 5;``  
+E) ``sqlSELECT empresa, SUM(beneficio) AS total_beneficiosFROM beneficiosWHERE data_concessao >= ADD_MONTHS(SYSDATE, -12)GROUP BY empresaHAVING SUM(beneficio) > 5;``  
+
+**24.** (FCC – TRT-22/2022 – Analista Judiciário – TI)  
+Considere que um Analista está trabalhando em um banco de dados PostgreSQL aberto e funcionando em condições ideais. O Analista inseriu a seguinte sequência de comandos: ``` DROP TABLE I TRTContatos; CREATE TABLE TRTContatos ( cod serial PRIMARY KEY, orgao VARCHAR(255) NOT NULL, email VARCHAR(255) NOT NULL, descricao VARCHAR(255) ); INSERT INTO TRTContatos (orgao, email) VALUES ('Ouvidoria','ouvidoria@trt22.jus.br:'), ('Escola Judicial','ejud@trt22.jus.br'), ('Corregedoria','secor@trt22.jus.br') II ; ``` É correto afirmar que
+
+A) haverá erro, pois não é possível fazer inserção de múltiplas linhas em tabelas do PostgreSQL.  
+B) haverá erro devido ao fato de as 3 linhas a serem inseridas na tabela TRTContatos não terem os 4 campos informados em CREATE TABLE.  
+C) I deve ser preenchido com IF EXISTS e II deve ser preenchido com RETURNING * para que as linhas inseridas sejam apresentadas.  
+D) I deve ser preenchido com ALL ROWS e II deve ficar sem nenhum preenchimento.  
+E) faltou um _ entre cod e serial, pois o certo seria cod_serial PRIMARY KEY.  
+
+**25.** (FCC – TRT-17/2022 – Analista Judiciário – TI)  
+Considere que em um banco de dados PostgreSQL 13, aberto e funcionando em condições ideais, existam duas tabelas: Cidades (com os campos NomeCidade e Estado) e Populacao (com os campos Cidade, NumHabitantes, NumVaras). A tabela Cidades foi criada pelo comando: `CREATE TABLE Cidades (NomeCidade VARCHAR(80) PRIMARY KEY, Estado VARCHAR(40));` Para que, ao se inserir ou atualizar algum registro na tabela Populacao, seja verificado se o campo Cidade corresponde a uma cidade existente na tabela Cidades, deve-se utilizar uma chave estrangeira. Isso é feito utilizando o comando SQL na criação da tabela Populacao: CREATE TABLE Populacao (Cidade VARCHAR(80) I , NumHabitantes INT, NumVaras INT); A lacuna I é corretamente preenchida com
+
+A) FOREIGN KEY (Cidade) REFERENCES Cidades(NomeCidade)  
+B) FOREIGN KEY REFERENCES Cidades(NomeCidade)  
+C) REFERENCES Cidades(NomeCidade)  
+D) FOREIGN KEY Cidades(NomeCidade)  
+E) REFERENCES FOREIGN KEY (Cidade) TO Cidades(NomeCidade)  
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **E** |
-| 17 | **D** |
-| 18 | **B** |
-| 19 | **C** |
-| 20 | **A** |
-| 21 | **D** |
-| 22 | **A** |
-| 23 | **B** |
-| 24 | **A** |
-| 25 | **C** |
+| Questão | Gabarito | Fonte / nota |
+|---------|----------|--------------|
+| 16 | **E** | FCC TRT-12/2023 Q51 — Banco de Dados |
+| 17 | **D** | FCC TRT-12/2023 Q49 — Banco de Dados |
+| 18 | **C** | FCC TRT-12/2023 Q52 — Banco de Dados |
+| 19 | **B** | FCC TRT-12/2023 Q53 — Banco de Dados |
+| 20 | **C** | FCC TRT-20/2024 Q60 — Banco de Dados |
+| 21 | **D** | FCC TRT-19/2022 Q33 — Banco de Dados |
+| 22 | **A** | FCC TRT-19/2022 Q34 — Banco de Dados |
+| 23 | **C** | FCC TRT-1/2025 Q40 — Banco de Dados |
+| 24 | **C** | FCC TRT-22/2022 Q26 — Banco de Dados |
+| 25 | **C** | FCC TRT-17/2022 Q36 — Banco de Dados |
 
-**Notas rápidas:** 16 E (2FN completa — TRT-12/2023); 17 D (2FN, 1FN, 3FN — TRE-PI/2009); 18 B (TJ-PE/2012); 19 C (Volume fraca — TRT-20/2024); 20 A (binário 1:N + Dependente fraca); 21 D (ligação); 22 A (definição clássica 2FN); 23 B (parcial × transitiva); 24 A (PK composta); 25 C (síntese).
+**Notas rápidas:** 16 E; 17 D; 18 C; 19 B; 20 C; 21 D; 22 A; 23 C; 24 C; 25 C.
 
 ---
 

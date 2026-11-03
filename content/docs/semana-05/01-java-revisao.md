@@ -365,112 +365,187 @@ E) Apenas Wi-Fi 802.11
 
 ---
 
-## 3. Questões estilo concurso FCC (16–25)
+## 3. Questões de concurso (16–25)
 
-**16.** Acerca do ambiente de execução Java, assinale a afirmação correta:
+**16.** (FCC – TRT-20/2024 – Analista Judiciário – TI) Um Tribunal, que está desenvolvendo um sistema de gerenciamento de processos, tem uma classe `Processo` com atributos `numero` e `ano`. Exemplifica o conceito de encapsulamento o fato de os atributos `numero` e `ano` serem
 
-A) O compilador `javac` traduz, em regra, código-fonte `.java` em bytecode armazenado em arquivos `.class`, executado pela JVM em plataformas compatíveis  
-B) Todo programa Java deve ser necessariamente convertido em assembly x86 único, sem JVM, para qualquer prova de concurso  
-C) A JVM gera o código-fonte e o programador apenas desenha diagramas UML  
-D) Arquivos `.class` são scripts Bash interpretados pelo kernel Linux exclusivamente  
-E) Java dispensa tipos e compilação em qualquer formulação do edital  
+A) estáticos e compartilhados por todas as instâncias da classe `Processo`.
+B) constantes e não poderem ser alterados para garantir integridade.
+C) privados e acessados por métodos públicos `getNumero` e `getAno`.
+D) públicos e acessados diretamente por meio dos métodos privados `getNumero` e `getAno`.
+E) abstratos e acessados por classes derivadas, como `GerenciarProcesso`.
 
-**17.** No modelo de orientação a objetos da linguagem Java, encapsulamento e modificadores de acesso destinam-se, em essência, a:
+**17.** (FCC – TRT-17/2022 – Analista Judiciário – TI) Considere o programa em Java abaixo, que será executado em condições ideais.
 
-A) controlar a visibilidade de membros e proteger o estado interno das classes, em consonância com o princípio de ocultação de informação  
-B) garantir herança múltipla irrestrita de classes concretas  
-C) abolir o uso de interfaces  
-D) tornar todos os atributos automaticamente `public`  
-E) substituir exceções por códigos de retorno obrigatórios do estilo C  
+```java
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) {
+    Scanner s = new Scanner(System.in);
+    try {
+      Main obj = new Main();
+      System.out.print("Digite o valor do dividendo: ");
+      double dividendo = s.nextDouble();
+      System.out.print("Digite o valor do divisor: ");
+      double divisor = s.nextDouble();
+      double resultado = obj.faz_Divisao(dividendo, divisor);
+      System.out.println("O resultado da divisao é: " + resultado);
+    } catch (Exception ex) {
+      System.out.println(ex.getMessage());
+    }
+  }
+  I {
+    if(divisor == 0) {
+      throw new Exception("Não é permitido fazer uma divisão por zero!");
+    }
+    return dividendo / divisor;
+  }
+}
+```
 
-**18.** Considere as afirmativas abaixo sobre métodos em Java.
+Para que o programa, ao ser executado, funcione corretamente de acordo com a lógica prevista, a lacuna I deve ser corretamente preenchida por:
 
-I. A sobrecarga permite métodos de mesmo nome com listas de parâmetros distintas.  
-II. A sobrescrita permite redefinir em subclasse um comportamento herdado, preservando assinatura compatível para despacho polimórfico.  
-III. Um método `final` de instância pode ser livremente sobrescrito em qualquer subclasse.
+A) `public double faz_Divisao(double dividendo, double divisor)`
+B) `public double faz_Divisao(double divisor, double dividendo) Exception ex`
+C) `public double faz_Divisao(double d1, double d2) throws Exception`
+D) `public double faz_Divisao(double divisor, double dividendo) Exception throws`
+E) `public double faz_Divisao(double dividendo, double divisor) throws Exception`
 
-Está correto o que se afirma em:
+**18.** (FCC – TRT-20/2024 – Analista Judiciário – TI) Em uma aplicação Java, considere as instruções abaixo.
 
-A) I, apenas  
-B) II, apenas  
-C) I e II, apenas  
-D) II e III, apenas  
-E) I, II e III  
+```java
+Class.forName("com.mysql.cj.jdbc.Driver");
+Connection conectado = DriverManager.getConnection("jdbc:mysql://localhost:3306/bd", "root", "a9Kb08c");
+```
 
-**19.** Relativamente a exceções em Java, é correto afirmar que:
+Em condições ideais, as EXCEÇÕES que precisam ser tratadas nessas linhas são
 
-A) exceções checked, em regra, devem ser tratadas ou declaradas na assinatura do método, ao passo que `RuntimeException` e subclasses são unchecked  
-B) `Error` e `Exception` são idênticos e sempre devem ser capturados em código de negócio  
-C) `SQLException` jamais pode ser checked  
-D) o bloco `finally` é proibido na linguagem  
-E) `throws` lança a exceção e `throw` apenas documenta  
+A) `ClassNotFoundException` e `SQLException`.
+B) `JDBCException` e `SQLException`.
+C) `MySQLException` e `DatabaseException`.
+D) `JDBCException` e `ConnectException`.
+E) `DriverException` e `DatabaseException`.
 
-**20.** Em estruturas de dados do pacote de coleções, assinale a opção correta:
+**19.** (FCC – TRT-15/2023 – Analista Judiciário – TI) Considere os textos a seguir:
 
-A) `List` admite sequência ordenada e duplicatas; `Set` não admite duplicatas; `Map` associa chaves a valores e não estende `Collection`  
-B) `Map` é subtipo obrigatório de `List`  
-C) `Set` exige índices numéricos como `List`  
-D) Generics existem apenas em tempo de execução, nunca em compilação  
-E) `ArrayList` é tipo primitivo  
+1. Trata-se de uma das principais técnicas que define a programação orientada a objetos. É embasada em um dos princípios que adicionam segurança à aplicação em uma programação orientada a objetos, pelo fato de esconder as propriedades, criando uma espécie de caixa preta. A maior parte das linguagens orientadas a objetos a implementam, baseada em propriedades privadas, ligadas a métodos especiais chamados getters e setters, que irão retornar e setar o valor da propriedade, respectivamente.
+2. Objetos filhos herdam as características e ações de seus "ancestrais". Entretanto, em alguns casos, é necessário que as ações para um mesmo método sejam diferentes. Em outras palavras, essa técnica consiste na alteração do funcionamento interno de um método herdado de um objeto pai.
 
-**21.** No acesso a banco de dados via JDBC, a sequência conceitual mais adequada é:
+Os textos tratam, correta e respectivamente, de princípios e técnicas da orientação a objetos, que são:
 
-A) obter `Connection`, criar `PreparedStatement` (ou `Statement`), executar a operação e manipular `ResultSet` quando houver consulta, fechando recursos adequadamente  
-B) abrir apenas um arquivo `.css` e executar `javac` sobre o SGBD  
-C) usar exclusivamente `kubectl apply` no lugar do driver  
-D) substituir SQL por YAML de Kubernetes em toda consulta  
-E) dispensar URL JDBC e driver em qualquer SGBD relacional  
+A) persistência e polimorfismo.
+B) visibilidade e persistência.
+C) herança e visibilidade.
+D) instanciação e encapsulamento.
+E) encapsulamento e polimorfismo.
 
-**22.** Constitui equívoco típico em prova de Java afirmar que:
+**20.** (FCC – TRT-20/2024 – Técnico Judiciário – TI) Uma equipe de TI está desenvolvendo um sistema de controle de funcionários. Criaram uma classe base `Funcionario` e as subclasses `Gerente` e `Vendedor`, que utilizam os atributos de `Funcionario` e possuem atributos adicionais específicos. O conceito de orientação a objetos aplicado quando `Gerente` e `Vendedor` são definidas como subclasses de `Funcionario` é
 
-A) `String` é imutável  
-B) Java permite implementar múltiplas interfaces  
-C) `private` restringe o membro à própria classe  
-D) `==` entre referências compara identidade, não necessariamente igualdade de conteúdo  
-E) Java admite herança múltipla irrestrita de classes concretas, no mesmo sentido clássico de herdar várias superclasses com estado  
+A) Objeto.
+B) Polimorfismo.
+C) Herança.
+D) Encapsulamento.
+E) Interface.
 
-**23.** Acerca de classes abstratas e interfaces (leitura cobrável para concurso), assinale a alternativa correta:
+**21.** (FCC – TRT-11/2017 – Técnico Judiciário – TI) Considere a classe Java abaixo.
 
-A) classe abstrata não é instanciável diretamente e pode misturar métodos abstratos e concretos; interface expressa contrato implementável por classes distintas, permitindo a uma classe implementar várias interfaces  
-B) interfaces e classes abstratas são rigorosamente a mesma construção sintática  
-C) toda interface exige herança múltipla de classes  
-D) classe abstrata substitui a JVM  
-E) interfaces não podem aparecer no edital de Programação  
+```java
+public class Processo {
+  private String numeroProcesso;
+}
+```
 
-**24.** Em um cenário em que duas instâncias de uma classe de domínio são usadas como chaves em um `HashMap`, a prática correta exige, em regra:
+Um Técnico especializado em TI afirma, corretamente, que:
 
-A) contratos coerentes de `equals` e `hashCode`, de modo que objetos iguais tenham o mesmo hash  
-B) apenas o operador `++`  
-C) proibição de qualquer método `equals`  
-D) conversão obrigatória para `int` primitivo  
-E) uso exclusivo de `System.out.println`  
+A) para incluir um valor no atributo `numeroProcesso` através de um objeto dessa classe será necessário criar um método privado `getNumeroProcesso`.
+B) poderão ser incluídos nessa classe um construtor que não recebe parâmetros e um construtor que recebe como parâmetro o número do processo.
+C) a instrução `Processo p = new Processo("10453");` instancia um objeto dessa classe utilizando o construtor padrão vazio.
+D) para permitir encapsulamento, os novos atributos e métodos a serem incluídos nessa classe terão que ser privados.
+E) não será possível instanciar um objeto dessa classe, pois ela não tem construtor.
 
-**25.** Para fins de preparação em Analista Judiciário – Área de TI (código 14), a síntese mais adequada da revisão dirigida de Java é:
+**22.** (FCC – TRF-4/2025 – Analista Judiciário – Análise de Sistemas) Considere o exemplo abaixo:
 
-A) domínio dos fundamentos (tipos, fluxo, sintaxe), OO (encapsulamento, packages, sobrecarga/sobrescrita, interfaces), exceções e acesso a dados (JDBC como base), alinhado ao papel de Java no stack PDPJ-Br  
-B) apenas PMBOK 8 e COBIT, sem linguagem  
-C) apenas Direitos Humanos internacionais  
-D) apenas Bootstrap 5, sem tipagem  
-E) apenas Delphi/VB, excluindo Java do edital  
+```java
+interface ServidorJudiciario {
+  void analisarProcesso();
+  void realizarAudiencia();
+}
+class AnalistaTI implements ServidorJudiciario { }
+```
+
+Segundo o Princípio da Segregação de Interface (ISP), esse código apresenta um problema de design, já que `AnalistaTI` é obrigada a implementar `realizarAudiencia()`. Para corrigir essa violação ao ISP, a abordagem mais adequada é
+
+A) remover o método `realizarAudiencia()` da interface `ServidorJudiciario`, criando interfaces separadas para responsabilidades distintas, pois nenhum cliente deve ser forçado a depender de métodos que não utiliza.
+B) manter a interface `ServidorJudiciario` como está, mas implementar o método `realizarAudiencia()` na classe `AnalistaTI` com um corpo vazio.
+C) tornar o método `realizarAudiencia()` um método default com implementação vazia na interface.
+D) substituir a interface `ServidorJudiciario` por uma classe abstrata que implemente `analisarProcesso()` e `realizarAudiencia()` com comportamento genérico.
+E) implementar uma exceção no método `realizarAudiencia()` da classe `AnalistaTI`, lançando `UnsupportedOperationException` sempre que ele for chamado.
+
+**23.** (FCC – TRT-19/2022 – Analista Judiciário – TI) Considere a classe abaixo em uma aplicação que utiliza JPA e Hibernate.
+
+```java
+@Entity
+public class Cliente {
+  @Id
+  @GeneratedValue(strategy = GenerationType. I )
+  private Long id;
+}
+```
+
+Para informar ao provedor de persistência que os valores do identificador serão gerados pela coluna de autoincremento da tabela, utiliza-se, na lacuna I, o valor
+
+A) `TABLE`
+B) `AUTO_GENERATED`
+C) `AUTO_INCREMENT`
+D) `IDENTITY`
+E) `SELF_GENERATED`
+
+**24.** (FCC – TRT-17/2022 – Analista Judiciário – TI) Considere o método abaixo, em aplicação Java com JPA 2.0, em que `manager` é um `EntityManager` válido:
+
+```java
+TypedQuery query = manager.createNamedQuery("Departamento.findAll", Departamento.class);
+```
+
+Nesse método, `"Departamento.findAll"` refere-se
+
+A) ao método `findAll` existente na classe `Departamento`.
+B) a uma query nomeada por meio da anotação `@NamedQuery` na classe `Departamento`.
+C) ao comando SELECT da classe `Departamento`, nomeado pela anotação `@SQLQuery`.
+D) ao método `findAll`, que será criado na classe `Departamento`, quando esta instrução for executada.
+E) a um método de uma stored procedure que será executada no banco de dados.
+
+**25.** (FCC – TRT-11/2017 – Técnico Judiciário – TI) Considere a classe Java abaixo (ordenação por seleção). A lacuna I deverá ser preenchida por
+
+```java
+x = v[i];
+I
+v[min] = x;
+```
+
+A) `v[i] = v[x];`
+B) `v[i] = v[j];`
+C) `v[x] = v[i];`
+D) `v[i] = v[min];`
+E) `v[i] = v[min+1];`
 
 ---
 
-### Gabarito (estilo concurso 16–25)
+### Gabarito comentado (concurso 16–25)
 
-| Questão | Gabarito |
-|---------|----------|
-| 16 | **A** |
-| 17 | **A** |
-| 18 | **C** |
-| 19 | **A** |
-| 20 | **A** |
-| 21 | **A** |
-| 22 | **E** |
-| 23 | **A** |
-| 24 | **A** |
-| 25 | **A** |
+| Questão | Gabarito | Citação |
+|---------|----------|---------|
+| 16 | **C** | FCC TRT-20/2024 — encapsulamento (private + getters) |
+| 17 | **E** | FCC TRT-17/2022 — `throws Exception` |
+| 18 | **A** | FCC TRT-20/2024 — `ClassNotFoundException` + `SQLException` |
+| 19 | **E** | FCC TRT-15/2023 — encapsulamento e polimorfismo |
+| 20 | **C** | FCC TRT-20/2024 — herança |
+| 21 | **B** | FCC TRT-11/2017 — sobrecarga de construtores |
+| 22 | **A** | FCC TRF-4/2025 — ISP / interfaces |
+| 23 | **D** | FCC TRT-19/2022 — `GenerationType.IDENTITY` |
+| 24 | **B** | FCC TRT-17/2022 — `@NamedQuery` |
+| 25 | **D** | FCC TRT-11/2017 — selection sort / swap |
 
-**Notas rápidas:** 16 A (javac/bytecode/JVM); 17 A (encapsulamento + visibilidade); 18 C (I e II; III falso — `final` não sobrescreve); 19 A (checked × unchecked); 20 A (List/Set/Map); 21 A (fluxo JDBC); 22 E (não há herança múltipla de classes); 23 A (abstract × interface); 24 A (equals/hashCode); 25 A (síntese do arquivo 01).
+**Notas rápidas:** 16 C (atributos private + getters públicos); 17 E (assinatura com `throws Exception` e nomes dos parâmetros); 18 A (forName + getConnection); 19 E (caixa-preta/getters × comportamento distinto); 20 C (subclasse = herança); 21 B (dois construtores); 22 A (segregar interfaces); 23 D (IDENTITY); 24 B (named query); 25 D (`v[i] = v[min]`).
 
 ---
 
