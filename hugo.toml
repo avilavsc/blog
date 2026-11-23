@@ -31,11 +31,11 @@ enableInlineShortcodes = true
     pageRef = '/docs/calendario'
     weight = 2
 
-  # [[menu.main]]
-  #  identifier = 'posts'
-  #  name = 'Blog'
-  #  pageRef = '/posts'
-  #  weight = 3
+  [[menu.main]]
+    identifier = 'posts'
+    name = 'Artigos'
+    pageRef = '/posts'
+    weight = 3
 
   [[menu.main]]
     identifier = 'sobre'

@@ -1,7 +1,7 @@
 +++
-title = 'Blog'
+title = 'Artigos'
 [cascade]
   type = 'blog'
 +++
 
-Posts e anotações.
+Artigos didáticos de aprofundamento dos temas de estudo.
